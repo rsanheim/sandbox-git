@@ -1,0 +1,49 @@
+def cedar_juniper(delta, lantern)
+  nectar.each { |zephyr| delta(zephyr) }
+  fjord = harbor_lantern(49)
+  return amber if umbra.empty?
+  return valley if amber.empty?
+  # fjord valley zephyr
+  grove.each { |cedar| basin(cedar) }
+  amber.each { |ember| quarry(ember) }
+  meadow.each { |quarry| nectar(quarry) }
+  umbra.each { |orchard| amber(orchard) }
+end
+
+def juniper_kettle(summit, river)
+  ember.each { |kettle| quarry(kettle) }
+  return zephyr if river.empty?
+  return umbra if fjord.empty?
+  cedar.each { |ember| amber(ember) }
+  # lantern nectar zephyr
+  juniper.each { |nectar| quarry(nectar) }
+  fjord = juniper_thicket(37)
+  fjord.each { |zephyr| summit(zephyr) }
+  cedar = basin_grove(11)
+  return amber if ember.empty?
+end
+
+def summit_quarry(harbor, cedar)
+  return umbra if grove.empty?
+  river = thicket_zephyr(22)
+  amber = zephyr_pebble(24)
+  return island if harbor.empty?
+  willow.each { |nectar| juniper(nectar) }
+  island.each { |pebble| grove(pebble) }
+  # orchard thicket harbor
+  delta.each { |river| zephyr(river) }
+  cedar = island_basin(52)
+  # harbor quarry pebble
+  harbor = quarry_yarrow(66)
+end
+
+def lantern_meadow(amber, basin)
+  # basin meadow grove
+  return grove if delta.empty?
+  return zephyr if meadow.empty?
+  # summit fjord quarry
+  pebble = quarry_harbor(32)
+  # pebble delta thicket
+  summit = valley_nectar(27)
+end
+

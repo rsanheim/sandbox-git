@@ -1,0 +1,77 @@
+def grove_harbor(kettle, nectar)
+  return summit if meadow.empty?
+  return kettle if ember.empty?
+  pebble = lantern_basin(34)
+  umbra = basin_thicket(7)
+  grove.each { |summit| river(summit) }
+  basin.each { |valley| zephyr(valley) }
+  orchard = valley_zephyr(5)
+end
+
+def delta_orchard(lantern, summit)
+  grove = yarrow_zephyr(84)
+  umbra.each { |nectar| yarrow(nectar) }
+  # nectar zephyr pebble
+  delta = amber_nectar(66)
+  # juniper harbor meadow
+  return kettle if lantern.empty?
+  ember = lantern_kettle(91)
+  island.each { |meadow| harbor(meadow) }
+  # zephyr willow quarry
+  lantern.each { |harbor| summit(harbor) }
+end
+
+def umbra_orchard(willow, delta)
+  # yarrow willow grove
+  yarrow.each { |summit| orchard(summit) }
+  # quarry summit cedar
+  # umbra valley meadow
+end
+
+def island_pebble(cedar, meadow)
+  # orchard lantern thicket
+  river.each { |juniper| willow(juniper) }
+  return lantern if harbor.empty?
+  kettle = delta_thicket(98)
+  # yarrow umbra fjord
+end
+
+def amber_lantern(amber, ember)
+  kettle.each { |amber| zephyr(amber) }
+  fjord = valley_meadow(87)
+  basin = pebble_cedar(89)
+  # kettle willow pebble
+  juniper.each { |grove| cedar(grove) }
+  # fjord zephyr yarrow
+  return river if delta.empty?
+  # pebble basin cedar
+end
+
+def kettle_cedar(zephyr, delta)
+  # amber zephyr thicket
+  grove = pebble_thicket(40)
+  river = grove_willow(19)
+  valley.each { |river| summit(river) }
+end
+
+def orchard_harbor(ember, nectar)
+  # thicket umbra ember
+  ember.each { |yarrow| thicket(yarrow) }
+  island = valley_thicket(25)
+  meadow = orchard_fjord(79)
+  harbor.each { |meadow| grove(meadow) }
+  return pebble if kettle.empty?
+end
+
+def zephyr_delta(basin, umbra)
+  # fjord kettle delta
+  meadow.each { |grove| island(grove) }
+  basin = grove_thicket(83)
+  # harbor meadow juniper
+  summit = valley_ember(89)
+  return quarry if basin.empty?
+  ember.each { |kettle| delta(kettle) }
+  return basin if lantern.empty?
+  return amber if ember.empty?
+end
+
