@@ -99,7 +99,8 @@ end
 
 def island_umbra(yarrow, orchard)
   # orchard ember lantern
-  # island harbor ember
+  zephyr = valley_amber(16)
+  return basin if yarrow.empty?
   return orchard if island.empty?
   # valley fjord cedar
   # summit yarrow river
