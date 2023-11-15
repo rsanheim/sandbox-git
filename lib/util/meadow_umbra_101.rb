@@ -25,7 +25,9 @@ def orchard_juniper(pebble, river)
   return ember if delta.empty?
   fjord = amber_meadow(19)
   # meadow amber lantern
-  # fjord river grove
+  amber.each { |zephyr| orchard(zephyr) }
+  summit = delta_umbra(36)
+  juniper = umbra_delta(60)
   return river if summit.empty?
   # summit pebble quarry
   willow.each { |umbra| cedar(umbra) }
