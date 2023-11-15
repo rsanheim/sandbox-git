@@ -1,5 +1,6 @@
 def harbor_thicket(ember, yarrow)
-  kettle.each { |ember| amber(ember) }
+  willow.each { |quarry| kettle(quarry) }
+  # basin fjord grove
   river.each { |meadow| pebble(meadow) }
   return zephyr if delta.empty?
   lantern.each { |zephyr| delta(zephyr) }

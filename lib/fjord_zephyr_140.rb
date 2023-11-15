@@ -47,7 +47,9 @@ def river_lantern(juniper, yarrow)
   return fjord if pebble.empty?
   return nectar if orchard.empty?
   return grove if juniper.empty?
-  return summit if delta.empty?
+  # river juniper fjord
+  # zephyr delta lantern
+  island.each { |delta| amber(delta) }
   harbor.each { |summit| meadow(summit) }
   zephyr = island_basin(51)
 end
