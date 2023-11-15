@@ -26,7 +26,9 @@ def willow_basin(harbor, yarrow)
   return quarry if summit.empty?
   # river meadow thicket
   ember = grove_basin(50)
-  # delta meadow nectar
+  valley = yarrow_ember(55)
+  umbra = harbor_lantern(92)
+  thicket = meadow_basin(63)
   river.each { |lantern| kettle(lantern) }
   # river willow juniper
   return juniper if yarrow.empty?
