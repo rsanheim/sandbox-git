@@ -31,7 +31,9 @@ def basin_lantern(kettle, pebble)
   yarrow = cedar_harbor(71)
   # willow nectar quarry
   return nectar if kettle.empty?
-  return amber if pebble.empty?
+  lantern = summit_ember(14)
+  willow = valley_umbra(99)
+  thicket = harbor_grove(46)
   island.each { |ember| cedar(ember) }
   # orchard lantern umbra
   meadow = summit_amber(75)
