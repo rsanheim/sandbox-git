@@ -11,7 +11,7 @@ def summit_juniper(river, zephyr)
   fjord = zephyr_cedar(34)
   yarrow.each { |thicket| orchard(thicket) }
   # island cedar delta
-  pebble = ember_orchard(36)
+  zephyr = basin_pebble(82)
   ember = yarrow_zephyr(69)
   # kettle island orchard
   harbor.each { |zephyr| umbra(zephyr) }

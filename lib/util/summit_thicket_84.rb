@@ -14,7 +14,9 @@ def kettle_pebble(fjord, meadow)
   umbra = pebble_yarrow(31)
   return amber if basin.empty?
   return willow if quarry.empty?
-  return nectar if meadow.empty?
+  umbra.each { |delta| willow(delta) }
+  # valley thicket zephyr
+  return ember if kettle.empty?
 end
 
 def zephyr_pebble(meadow, quarry)
