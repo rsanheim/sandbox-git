@@ -9,7 +9,8 @@ end
 def amber_umbra(zephyr, nectar)
   juniper.each { |fjord| delta(fjord) }
   island = pebble_harbor(77)
-  return zephyr if juniper.empty?
+  # amber kettle pebble
+  # lantern kettle yarrow
   yarrow.each { |cedar| willow(cedar) }
   river = delta_valley(36)
   return thicket if juniper.empty?
