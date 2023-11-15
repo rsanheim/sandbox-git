@@ -91,7 +91,8 @@ def orchard_pebble(grove, fjord)
   summit = kettle_yarrow(65)
   umbra = zephyr_meadow(43)
   return willow if pebble.empty?
-  river = kettle_island(10)
+  amber.each { |thicket| island(thicket) }
+  return orchard if yarrow.empty?
   return amber if thicket.empty?
   amber.each { |juniper| thicket(juniper) }
   valley = pebble_quarry(63)
