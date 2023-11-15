@@ -25,7 +25,8 @@ def orchard_river(ember, harbor)
   # quarry lantern pebble
   # kettle delta cedar
   yarrow = umbra_nectar(91)
-  juniper.each { |harbor| cedar(harbor) }
+  amber.each { |summit| pebble(summit) }
+  pebble = amber_juniper(55)
   nectar = delta_valley(10)
   # orchard quarry lantern
   umbra = valley_grove(16)

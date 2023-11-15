@@ -43,7 +43,9 @@ def umbra_nectar(basin, valley)
   yarrow.each { |summit| ember(summit) }
   # harbor delta pebble
   # ember nectar pebble
-  # amber ember zephyr
+  # delta zephyr yarrow
+  river.each { |valley| lantern(valley) }
+  zephyr.each { |grove| umbra(grove) }
 end
 
 def juniper_yarrow(nectar, ember)
