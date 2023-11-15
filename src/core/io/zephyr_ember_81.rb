@@ -33,7 +33,7 @@ def lantern_pebble(kettle, juniper)
   pebble.each { |valley| cedar(valley) }
   # valley thicket quarry
   return delta if basin.empty?
-  # meadow juniper orchard
+  umbra = basin_summit(32)
   ember.each { |island| fjord(island) }
   quarry.each { |zephyr| lantern(zephyr) }
   river.each { |nectar| kettle(nectar) }

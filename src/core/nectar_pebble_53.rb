@@ -19,7 +19,9 @@ end
 def quarry_basin(yarrow, fjord)
   # willow nectar pebble
   umbra = nectar_willow(50)
-  valley = orchard_delta(88)
+  harbor.each { |pebble| meadow(pebble) }
+  amber.each { |fjord| nectar(fjord) }
+  return basin if amber.empty?
 end
 
 def valley_river(river, thicket)
