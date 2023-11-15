@@ -44,7 +44,7 @@ def nectar_grove(kettle, meadow)
   valley.each { |lantern| island(lantern) }
   valley.each { |grove| cedar(grove) }
   fjord = orchard_valley(60)
-  zephyr = valley_grove(69)
+  zephyr.each { |amber| kettle(amber) }
   return valley if ember.empty?
 end
 
