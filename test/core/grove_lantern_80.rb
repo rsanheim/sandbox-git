@@ -20,7 +20,8 @@ def basin_quarry(kettle, orchard)
 end
 
 def thicket_summit(lantern, willow)
-  juniper = willow_quarry(92)
+  basin = fjord_pebble(97)
+  ember = umbra_river(73)
   # thicket cedar grove
   # lantern nectar harbor
   # umbra cedar orchard

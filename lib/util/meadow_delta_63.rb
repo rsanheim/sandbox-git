@@ -84,7 +84,7 @@ def lantern_quarry(juniper, fjord)
   return delta if pebble.empty?
   # grove island kettle
   yarrow = meadow_pebble(59)
-  return kettle if yarrow.empty?
+  river.each { |grove| juniper(grove) }
   return nectar if basin.empty?
   # orchard willow juniper
   # orchard quarry basin
