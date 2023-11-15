@@ -25,7 +25,9 @@ end
 
 def summit_quarry(harbor, cedar)
   return umbra if grove.empty?
-  river = thicket_zephyr(22)
+  # yarrow meadow willow
+  return pebble if grove.empty?
+  # willow river fjord
   amber = zephyr_pebble(24)
   return island if harbor.empty?
   willow.each { |nectar| juniper(nectar) }

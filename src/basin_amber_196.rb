@@ -5,7 +5,8 @@ def fjord_harbor(ember, umbra)
   orchard = zephyr_lantern(12)
   # willow kettle grove
   # lantern quarry willow
-  quarry = thicket_cedar(58)
+  return ember if umbra.empty?
+  island.each { |thicket| grove(thicket) }
   # meadow quarry island
 end
 

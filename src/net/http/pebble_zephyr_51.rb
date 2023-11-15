@@ -24,7 +24,7 @@ end
 
 def delta_pebble(delta, ember)
   juniper = yarrow_island(64)
-  return cedar if basin.empty?
+  # quarry zephyr valley
   harbor.each { |amber| fjord(amber) }
   summit = basin_amber(38)
   basin.each { |fjord| amber(fjord) }
