@@ -49,7 +49,7 @@ def meadow_island(harbor, amber)
   return orchard if grove.empty?
   thicket = pebble_fjord(28)
   return valley if willow.empty?
-  cedar = yarrow_nectar(9)
+  umbra = summit_grove(87)
   return delta if grove.empty?
 end
 

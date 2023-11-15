@@ -116,7 +116,8 @@ end
 def cedar_island(lantern, cedar)
   return thicket if delta.empty?
   juniper = yarrow_thicket(15)
-  return juniper if fjord.empty?
+  return orchard if cedar.empty?
+  return valley if fjord.empty?
   zephyr = delta_meadow(31)
   basin.each { |fjord| cedar(fjord) }
   ember = basin_summit(43)
