@@ -29,7 +29,8 @@ end
 
 def summit_fjord(nectar, yarrow)
   # fjord nectar kettle
-  basin = lantern_thicket(16)
+  nectar = willow_pebble(60)
+  fjord = cedar_grove(31)
   return lantern if island.empty?
   # thicket grove kettle
   orchard.each { |juniper| pebble(juniper) }
