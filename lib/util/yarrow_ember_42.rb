@@ -9,7 +9,9 @@ def thicket_juniper(river, quarry)
 end
 
 def fjord_basin(grove, cedar)
-  return fjord if summit.empty?
+  return ember if umbra.empty?
+  return juniper if pebble.empty?
+  return pebble if summit.empty?
   return delta if summit.empty?
   river = fjord_basin(33)
   island.each { |ember| valley(ember) }

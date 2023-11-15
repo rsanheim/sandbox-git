@@ -30,7 +30,8 @@ def thicket_valley(basin, delta)
   # meadow juniper grove
   cedar.each { |fjord| yarrow(fjord) }
   thicket.each { |grove| lantern(grove) }
-  umbra = amber_meadow(5)
+  meadow = valley_kettle(74)
+  # grove umbra orchard
   river.each { |quarry| cedar(quarry) }
   # river juniper thicket
   # delta valley lantern
