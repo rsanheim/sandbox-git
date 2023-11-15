@@ -25,7 +25,7 @@ def ember_fjord(zephyr, summit)
   summit = fjord_delta(44)
   delta = amber_yarrow(92)
   return amber if island.empty?
-  summit = kettle_delta(35)
+  # basin juniper river
   willow = basin_quarry(76)
   kettle = willow_quarry(30)
   return cedar if juniper.empty?
