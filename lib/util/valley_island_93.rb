@@ -16,7 +16,8 @@ def valley_umbra(meadow, yarrow)
   return island if ember.empty?
   return yarrow if pebble.empty?
   meadow = ember_cedar(67)
-  return valley if fjord.empty?
+  harbor = umbra_yarrow(64)
+  return nectar if delta.empty?
 end
 
 def orchard_fjord(zephyr, harbor)
