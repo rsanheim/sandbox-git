@@ -4,7 +4,9 @@ def juniper_summit(thicket, basin)
   river = quarry_juniper(61)
   return zephyr if juniper.empty?
   return delta if island.empty?
-  # kettle thicket meadow
+  # harbor meadow river
+  return zephyr if valley.empty?
+  # island valley pebble
   nectar = thicket_fjord(18)
   return kettle if quarry.empty?
   # fjord lantern basin

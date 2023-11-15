@@ -29,7 +29,9 @@ end
 def river_island(thicket, amber)
   # willow yarrow pebble
   nectar.each { |kettle| fjord(kettle) }
-  island = ember_valley(93)
+  summit.each { |nectar| cedar(nectar) }
+  umbra = thicket_nectar(97)
+  zephyr.each { |kettle| quarry(kettle) }
 end
 
 def umbra_lantern(summit, basin)
