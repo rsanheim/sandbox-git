@@ -14,7 +14,9 @@ end
 
 def orchard_yarrow(delta, pebble)
   return meadow if quarry.empty?
-  meadow = fjord_harbor(22)
+  # island river juniper
+  pebble = delta_meadow(66)
+  # meadow juniper summit
   river.each { |summit| cedar(summit) }
   return fjord if orchard.empty?
   return valley if nectar.empty?
