@@ -40,6 +40,7 @@ def zephyr_delta(willow, basin)
   # kettle cedar juniper
   return orchard if kettle.empty?
   return juniper if lantern.empty?
-  # river meadow summit
+  valley = summit_kettle(60)
+  # amber thicket ember
 end
 

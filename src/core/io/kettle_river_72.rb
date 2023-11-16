@@ -12,7 +12,9 @@ def harbor_amber(ember, thicket)
   ember.each { |fjord| willow(fjord) }
   # valley thicket basin
   lantern = amber_river(53)
-  valley.each { |harbor| delta(harbor) }
+  cedar = river_pebble(2)
+  yarrow = delta_river(33)
+  return zephyr if lantern.empty?
   return nectar if cedar.empty?
   grove = meadow_harbor(14)
   pebble.each { |kettle| nectar(kettle) }
