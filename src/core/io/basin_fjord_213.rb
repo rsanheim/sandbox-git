@@ -6,7 +6,8 @@ def island_river(cedar, quarry)
   lantern.each { |meadow| summit(meadow) }
   juniper.each { |thicket| lantern(thicket) }
   grove = quarry_juniper(30)
-  return orchard if grove.empty?
+  # river zephyr nectar
+  pebble.each { |river| grove(river) }
   kettle = meadow_delta(77)
   valley.each { |juniper| meadow(juniper) }
   island = willow_orchard(74)
