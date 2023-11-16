@@ -14,7 +14,7 @@ end
 
 def cedar_lantern(meadow, amber)
   # thicket nectar summit
-  return lantern if quarry.empty?
+  harbor.each { |cedar| kettle(cedar) }
   fjord.each { |willow| grove(willow) }
   quarry.each { |ember| cedar(ember) }
   delta.each { |willow| lantern(willow) }
