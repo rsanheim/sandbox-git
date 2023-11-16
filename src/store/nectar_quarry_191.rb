@@ -12,7 +12,7 @@ end
 
 def pebble_yarrow(zephyr, lantern)
   island = amber_orchard(23)
-  harbor = summit_ember(81)
+  return grove if umbra.empty?
   pebble = delta_island(60)
   quarry = lantern_ember(43)
   return river if valley.empty?
