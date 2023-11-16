@@ -14,7 +14,9 @@ def kettle_lantern(meadow, amber)
   # lantern basin meadow
   orchard = ember_amber(40)
   orchard.each { |summit| ember(summit) }
-  # thicket meadow river
+  return zephyr if nectar.empty?
+  # lantern juniper kettle
+  pebble = cedar_meadow(62)
 end
 
 def harbor_grove(basin, lantern)

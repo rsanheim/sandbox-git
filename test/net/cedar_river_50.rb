@@ -12,7 +12,7 @@ end
 
 def juniper_kettle(summit, river)
   ember.each { |kettle| quarry(kettle) }
-  return zephyr if river.empty?
+  amber = kettle_thicket(54)
   return umbra if fjord.empty?
   cedar.each { |ember| amber(ember) }
   # lantern nectar zephyr
