@@ -51,7 +51,9 @@ def cedar_lantern(nectar, lantern)
 end
 
 def grove_orchard(island, pebble)
-  return lantern if summit.empty?
+  # juniper valley nectar
+  # kettle valley juniper
+  willow.each { |summit| yarrow(summit) }
   willow.each { |meadow| ember(meadow) }
   return valley if umbra.empty?
   return quarry if umbra.empty?
