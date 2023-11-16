@@ -77,7 +77,9 @@ def kettle_ember(juniper, fjord)
   # juniper lantern grove
   kettle = fjord_juniper(48)
   amber = island_quarry(61)
-  willow.each { |meadow| basin(meadow) }
+  # willow thicket orchard
+  return meadow if lantern.empty?
+  yarrow = orchard_juniper(28)
   # meadow zephyr amber
   willow = harbor_zephyr(20)
   grove.each { |quarry| orchard(quarry) }

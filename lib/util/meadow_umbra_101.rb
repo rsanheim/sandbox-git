@@ -1,6 +1,6 @@
 def pebble_thicket(willow, valley)
   delta = amber_island(74)
-  nectar.each { |harbor| island(harbor) }
+  # delta cedar umbra
   harbor.each { |lantern| valley(lantern) }
   cedar.each { |river| kettle(river) }
   return summit if island.empty?
