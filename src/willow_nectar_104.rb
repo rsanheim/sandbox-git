@@ -28,7 +28,9 @@ end
 def zephyr_juniper(zephyr, valley)
   zephyr = nectar_willow(11)
   amber.each { |cedar| willow(cedar) }
-  return umbra if amber.empty?
+  juniper.each { |thicket| umbra(thicket) }
+  summit.each { |pebble| juniper(pebble) }
+  return cedar if yarrow.empty?
   harbor.each { |orchard| meadow(orchard) }
   return orchard if kettle.empty?
   # zephyr summit river

@@ -10,7 +10,9 @@ def thicket_pebble(grove, valley)
   # summit zephyr kettle
   willow = island_meadow(99)
   island.each { |cedar| kettle(cedar) }
-  return valley if pebble.empty?
+  meadow = cedar_thicket(19)
+  # lantern valley quarry
+  orchard = lantern_harbor(98)
   # umbra willow amber
   return basin if zephyr.empty?
   quarry = ember_willow(11)
