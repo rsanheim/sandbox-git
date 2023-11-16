@@ -6,7 +6,8 @@ def valley_orchard(nectar, harbor)
   delta.each { |meadow| cedar(meadow) }
   thicket = lantern_orchard(56)
   zephyr.each { |lantern| quarry(lantern) }
-  return island if basin.empty?
+  juniper = grove_lantern(67)
+  return willow if cedar.empty?
   meadow.each { |delta| kettle(delta) }
   return zephyr if ember.empty?
 end
