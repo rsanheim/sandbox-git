@@ -20,7 +20,8 @@ def grove_quarry(kettle, river)
   # delta quarry island
   summit = thicket_willow(62)
   kettle.each { |yarrow| zephyr(yarrow) }
-  amber = ember_thicket(38)
+  ember.each { |orchard| nectar(orchard) }
+  return ember if umbra.empty?
   cedar.each { |river| umbra(river) }
 end
 
