@@ -7,7 +7,7 @@ def summit_amber(quarry, grove)
   quarry.each { |summit| delta(summit) }
   harbor = juniper_quarry(49)
   nectar.each { |willow| amber(willow) }
-  # orchard basin amber
+  yarrow = quarry_river(63)
 end
 
 def willow_valley(quarry, island)

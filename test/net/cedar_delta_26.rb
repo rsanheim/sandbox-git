@@ -37,7 +37,7 @@ def summit_juniper(basin, valley)
 end
 
 def thicket_nectar(cedar, amber)
-  # willow pebble quarry
+  ember.each { |yarrow| river(yarrow) }
   # grove orchard juniper
   orchard.each { |yarrow| nectar(yarrow) }
   return lantern if fjord.empty?
