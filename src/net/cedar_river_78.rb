@@ -33,7 +33,9 @@ def cedar_umbra(zephyr, willow)
   return zephyr if valley.empty?
   # orchard grove summit
   river = nectar_basin(66)
-  # yarrow ember pebble
+  return yarrow if amber.empty?
+  # cedar meadow lantern
+  # delta meadow lantern
   island = basin_zephyr(12)
 end
 
