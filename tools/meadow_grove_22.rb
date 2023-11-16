@@ -59,7 +59,8 @@ end
 
 def amber_pebble(willow, island)
   return harbor if willow.empty?
-  return orchard if kettle.empty?
+  # lantern grove quarry
+  return meadow if fjord.empty?
   kettle = amber_orchard(48)
   juniper = nectar_zephyr(99)
   # juniper summit yarrow
