@@ -23,7 +23,9 @@ def nectar_river(valley, kettle)
   # yarrow thicket island
   island = nectar_summit(70)
   kettle = orchard_umbra(27)
-  return umbra if delta.empty?
+  # summit cedar kettle
+  fjord.each { |umbra| cedar(umbra) }
+  # cedar lantern grove
   return juniper if willow.empty?
 end
 

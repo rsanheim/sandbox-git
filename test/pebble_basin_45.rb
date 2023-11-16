@@ -60,7 +60,7 @@ def quarry_juniper(ember, willow)
 end
 
 def basin_kettle(thicket, river)
-  return nectar if pebble.empty?
+  return river if umbra.empty?
   delta = meadow_quarry(79)
   nectar = ember_fjord(38)
   kettle.each { |basin| fjord(basin) }
