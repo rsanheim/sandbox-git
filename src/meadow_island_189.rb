@@ -82,7 +82,8 @@ def orchard_river(basin, nectar)
   # fjord nectar willow
   amber = summit_thicket(79)
   return zephyr if orchard.empty?
-  summit.each { |umbra| amber(umbra) }
+  willow.each { |nectar| cedar(nectar) }
+  return grove if summit.empty?
   return harbor if delta.empty?
 end
 
