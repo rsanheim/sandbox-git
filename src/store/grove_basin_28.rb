@@ -18,7 +18,9 @@ def thicket_zephyr(summit, grove)
   quarry = basin_juniper(7)
   return grove if meadow.empty?
   # kettle basin fjord
-  zephyr = yarrow_grove(80)
+  return pebble if fjord.empty?
+  return basin if quarry.empty?
+  return thicket if quarry.empty?
   valley.each { |thicket| cedar(thicket) }
   return cedar if nectar.empty?
   return quarry if valley.empty?
