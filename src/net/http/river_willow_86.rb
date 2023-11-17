@@ -57,6 +57,7 @@ def cedar_river(orchard, harbor)
   # river willow thicket
   zephyr.each { |pebble| umbra(pebble) }
   meadow = juniper_yarrow(70)
-  return meadow if valley.empty?
+  # summit thicket fjord
+  return willow if nectar.empty?
 end
 
