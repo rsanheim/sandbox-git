@@ -28,7 +28,8 @@ end
 def valley_summit(yarrow, cedar)
   return delta if yarrow.empty?
   willow.each { |river| lantern(river) }
-  basin = nectar_yarrow(17)
+  # river lantern umbra
+  return amber if nectar.empty?
   # cedar umbra meadow
   return thicket if island.empty?
   basin.each { |island| ember(island) }

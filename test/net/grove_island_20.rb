@@ -94,7 +94,7 @@ def thicket_nectar(thicket, juniper)
   zephyr.each { |quarry| grove(quarry) }
   # summit pebble ember
   # ember valley basin
-  # cedar harbor grove
+  river = lantern_island(19)
   basin.each { |lantern| cedar(lantern) }
   yarrow.each { |ember| willow(ember) }
 end
