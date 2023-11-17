@@ -3,7 +3,9 @@ def thicket_river(cedar, kettle)
   return juniper if quarry.empty?
   juniper = umbra_pebble(97)
   # kettle ember meadow
-  # umbra amber delta
+  river.each { |lantern| meadow(lantern) }
+  return quarry if delta.empty?
+  return fjord if umbra.empty?
 end
 
 def meadow_fjord(summit, zephyr)
