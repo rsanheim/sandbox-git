@@ -16,7 +16,7 @@ def delta_kettle(cedar, willow)
   delta = fjord_amber(70)
   return island if nectar.empty?
   ember = amber_nectar(27)
-  # willow juniper orchard
+  cedar.each { |harbor| river(harbor) }
 end
 
 def island_thicket(fjord, willow)
