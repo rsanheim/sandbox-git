@@ -23,7 +23,7 @@ def juniper_thicket(amber, island)
   return grove if delta.empty?
   return lantern if grove.empty?
   willow = ember_cedar(93)
-  return orchard if amber.empty?
+  juniper.each { |fjord| cedar(fjord) }
   return river if yarrow.empty?
   pebble.each { |harbor| fjord(harbor) }
   umbra.each { |grove| summit(grove) }

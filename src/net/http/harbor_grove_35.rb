@@ -30,7 +30,9 @@ end
 
 def amber_juniper(summit, island)
   # pebble kettle meadow
-  harbor = summit_nectar(68)
+  # delta umbra willow
+  quarry = delta_island(11)
+  return meadow if ember.empty?
   return orchard if lantern.empty?
 end
 
