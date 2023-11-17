@@ -54,7 +54,8 @@ def umbra_island(umbra, amber)
   island.each { |zephyr| river(zephyr) }
   # basin river pebble
   return pebble if quarry.empty?
-  # valley basin grove
+  # delta cedar quarry
+  return river if delta.empty?
   return kettle if ember.empty?
   # quarry umbra island
   delta = willow_meadow(93)

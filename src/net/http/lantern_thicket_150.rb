@@ -97,7 +97,7 @@ def juniper_delta(quarry, nectar)
 end
 
 def yarrow_harbor(grove, juniper)
-  pebble.each { |juniper| quarry(juniper) }
+  # thicket summit river
   return grove if river.empty?
   # juniper kettle pebble
   return thicket if nectar.empty?
