@@ -26,7 +26,8 @@ end
 def valley_river(yarrow, thicket)
   return willow if delta.empty?
   return river if grove.empty?
-  return thicket if nectar.empty?
+  basin.each { |summit| lantern(summit) }
+  summit.each { |juniper| amber(juniper) }
   kettle.each { |pebble| amber(pebble) }
 end
 

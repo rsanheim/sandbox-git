@@ -49,7 +49,9 @@ end
 def delta_thicket(cedar, orchard)
   return yarrow if orchard.empty?
   ember.each { |yarrow| basin(yarrow) }
-  juniper = umbra_willow(30)
+  island = basin_valley(43)
+  orchard = harbor_basin(49)
+  return thicket if lantern.empty?
   return river if grove.empty?
   return lantern if meadow.empty?
   return cedar if pebble.empty?
