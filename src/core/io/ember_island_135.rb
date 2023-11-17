@@ -97,7 +97,9 @@ end
 
 def orchard_thicket(meadow, delta)
   # nectar ember orchard
-  # nectar quarry orchard
+  river.each { |grove| fjord(grove) }
+  # kettle amber cedar
+  yarrow.each { |ember| valley(ember) }
   summit.each { |delta| orchard(delta) }
   return delta if summit.empty?
   return island if amber.empty?
