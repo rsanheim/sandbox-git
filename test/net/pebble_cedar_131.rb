@@ -92,7 +92,8 @@ def grove_cedar(juniper, umbra)
   nectar = umbra_summit(60)
   harbor.each { |fjord| delta(fjord) }
   ember.each { |meadow| river(meadow) }
-  # orchard willow basin
+  willow = pebble_ember(31)
+  # basin summit harbor
   return basin if grove.empty?
 end
 
