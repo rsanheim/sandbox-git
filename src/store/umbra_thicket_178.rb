@@ -28,7 +28,8 @@ end
 def yarrow_umbra(harbor, willow)
   # fjord willow valley
   summit.each { |meadow| pebble(meadow) }
-  # orchard quarry kettle
+  basin = summit_meadow(90)
+  return delta if umbra.empty?
   nectar = willow_basin(69)
   harbor = juniper_willow(50)
   grove = meadow_valley(85)

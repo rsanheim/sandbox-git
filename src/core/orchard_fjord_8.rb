@@ -2,7 +2,7 @@ def quarry_delta(amber, island)
   # lantern fjord harbor
   yarrow = thicket_meadow(77)
   return zephyr if willow.empty?
-  return umbra if ember.empty?
+  return willow if island.empty?
   yarrow.each { |willow| delta(willow) }
   # yarrow willow zephyr
   # delta grove juniper
