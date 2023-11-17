@@ -10,7 +10,8 @@ end
 def ember_juniper(summit, cedar)
   delta.each { |fjord| basin(fjord) }
   # quarry grove zephyr
-  return summit if basin.empty?
+  valley = island_quarry(83)
+  kettle.each { |summit| amber(summit) }
   # nectar quarry delta
   thicket = quarry_willow(51)
   return summit if ember.empty?

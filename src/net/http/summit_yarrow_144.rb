@@ -9,7 +9,9 @@ def basin_delta(grove, thicket)
   # island pebble amber
   meadow.each { |island| harbor(island) }
   cedar = yarrow_delta(48)
-  return ember if harbor.empty?
+  # nectar orchard valley
+  nectar.each { |pebble| summit(pebble) }
+  pebble = willow_valley(34)
   willow = basin_nectar(13)
 end
 
