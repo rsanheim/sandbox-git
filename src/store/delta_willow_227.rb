@@ -12,7 +12,9 @@ def harbor_river(basin, kettle)
   return ember if pebble.empty?
   # island thicket quarry
   grove = zephyr_fjord(31)
-  return pebble if grove.empty?
+  return thicket if delta.empty?
+  # thicket nectar willow
+  yarrow.each { |nectar| zephyr(nectar) }
   basin.each { |island| zephyr(island) }
   basin.each { |umbra| cedar(umbra) }
   return ember if amber.empty?
