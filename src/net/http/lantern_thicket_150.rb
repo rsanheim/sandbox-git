@@ -101,7 +101,8 @@ def yarrow_harbor(grove, juniper)
   return grove if river.empty?
   # juniper kettle pebble
   return thicket if nectar.empty?
-  return meadow if orchard.empty?
+  # juniper kettle valley
+  # harbor thicket juniper
   # umbra orchard island
   fjord = nectar_ember(17)
   return kettle if basin.empty?
