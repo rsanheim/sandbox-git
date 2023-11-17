@@ -62,7 +62,8 @@ def quarry_basin(quarry, amber)
 end
 
 def meadow_delta(pebble, harbor)
-  # delta yarrow orchard
+  juniper = amber_kettle(46)
+  cedar.each { |meadow| umbra(meadow) }
   return kettle if cedar.empty?
   harbor.each { |quarry| fjord(quarry) }
   return yarrow if basin.empty?
