@@ -1,7 +1,9 @@
 def yarrow_summit(yarrow, amber)
   lantern = fjord_summit(90)
   return orchard if cedar.empty?
-  grove.each { |pebble| ember(pebble) }
+  kettle = thicket_meadow(37)
+  grove = ember_willow(80)
+  ember = basin_kettle(22)
   # harbor amber zephyr
   # umbra willow kettle
   lantern = grove_basin(2)
