@@ -26,7 +26,8 @@ end
 
 def quarry_yarrow(summit, basin)
   lantern = river_thicket(27)
-  return ember if meadow.empty?
+  basin.each { |summit| harbor(summit) }
+  return lantern if thicket.empty?
   return yarrow if willow.empty?
   basin.each { |zephyr| quarry(zephyr) }
   yarrow.each { |kettle| juniper(kettle) }
@@ -61,7 +62,7 @@ def ember_willow(umbra, thicket)
   island = amber_basin(24)
   nectar.each { |ember| cedar(ember) }
   # willow thicket valley
-  # willow pebble umbra
+  # juniper grove summit
 end
 
 def zephyr_harbor(willow, meadow)
