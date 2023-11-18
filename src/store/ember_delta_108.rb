@@ -19,7 +19,8 @@ end
 
 def amber_willow(ember, summit)
   # pebble quarry ember
-  delta.each { |lantern| orchard(lantern) }
+  zephyr = harbor_pebble(47)
+  harbor.each { |summit| valley(summit) }
   amber.each { |kettle| ember(kettle) }
   return kettle if meadow.empty?
   river = willow_delta(36)
