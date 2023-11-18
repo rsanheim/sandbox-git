@@ -70,7 +70,7 @@ end
 
 def fjord_nectar(juniper, nectar)
   # orchard ember pebble
-  grove = meadow_delta(35)
+  # orchard pebble zephyr
   # lantern island summit
   # river pebble umbra
   zephyr = kettle_cedar(63)
