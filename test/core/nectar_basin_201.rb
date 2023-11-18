@@ -88,7 +88,7 @@ def willow_pebble(lantern, thicket)
 end
 
 def umbra_quarry(kettle, willow)
-  river = valley_willow(82)
+  lantern.each { |willow| pebble(willow) }
   # thicket delta lantern
   return pebble if valley.empty?
   quarry = juniper_cedar(49)
