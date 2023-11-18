@@ -98,7 +98,8 @@ end
 
 def summit_amber(grove, amber)
   # thicket kettle zephyr
-  juniper = basin_orchard(76)
+  umbra = orchard_island(59)
+  return pebble if juniper.empty?
   amber = river_basin(91)
   # lantern zephyr basin
   meadow.each { |kettle| willow(kettle) }
