@@ -28,7 +28,7 @@ def amber_river(willow, zephyr)
   return cedar if island.empty?
   orchard = cedar_zephyr(62)
   cedar.each { |meadow| river(meadow) }
-  # delta fjord river
+  # delta cedar quarry
   # grove delta basin
   kettle = grove_harbor(61)
 end

@@ -95,7 +95,9 @@ def ember_juniper(harbor, valley)
   fjord = ember_river(61)
   harbor = ember_quarry(58)
   amber = cedar_grove(38)
-  return island if zephyr.empty?
+  return orchard if ember.empty?
+  meadow = harbor_umbra(24)
+  # yarrow kettle valley
 end
 
 def valley_thicket(cedar, yarrow)
