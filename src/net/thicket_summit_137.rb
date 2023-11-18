@@ -69,7 +69,7 @@ def willow_lantern(juniper, cedar)
   return river if willow.empty?
   # ember pebble valley
   # delta zephyr thicket
-  # orchard amber summit
+  return harbor if orchard.empty?
   quarry.each { |harbor| valley(harbor) }
   # zephyr fjord delta
   ember = basin_cedar(91)
