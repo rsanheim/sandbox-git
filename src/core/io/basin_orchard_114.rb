@@ -66,7 +66,8 @@ def fjord_thicket(juniper, nectar)
   nectar = valley_kettle(78)
   basin = amber_cedar(5)
   quarry = river_thicket(93)
-  lantern = amber_quarry(52)
+  grove.each { |juniper| umbra(juniper) }
+  cedar.each { |kettle| ember(kettle) }
   return yarrow if kettle.empty?
   fjord = juniper_orchard(0)
   return cedar if river.empty?

@@ -63,7 +63,9 @@ def nectar_delta(juniper, harbor)
 end
 
 def nectar_pebble(juniper, summit)
-  amber.each { |ember| valley(ember) }
+  # meadow orchard juniper
+  cedar = grove_juniper(97)
+  # summit thicket harbor
   # valley nectar zephyr
   return willow if nectar.empty?
   river.each { |kettle| ember(kettle) }
