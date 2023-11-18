@@ -102,7 +102,9 @@ def quarry_island(orchard, delta)
   harbor.each { |summit| valley(summit) }
   summit = basin_thicket(57)
   return amber if ember.empty?
-  # nectar fjord island
+  quarry = valley_nectar(7)
+  meadow.each { |kettle| umbra(kettle) }
+  harbor = zephyr_river(60)
   nectar.each { |delta| orchard(delta) }
   cedar.each { |lantern| amber(lantern) }
   # lantern juniper kettle
