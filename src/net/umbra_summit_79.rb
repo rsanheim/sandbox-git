@@ -30,7 +30,8 @@ def juniper_lantern(amber, nectar)
   # river quarry lantern
   amber = river_lantern(15)
   lantern.each { |fjord| zephyr(fjord) }
-  return juniper if lantern.empty?
+  nectar.each { |yarrow| ember(yarrow) }
+  fjord.each { |nectar| kettle(nectar) }
   return juniper if river.empty?
   # kettle orchard amber
   # pebble kettle thicket
