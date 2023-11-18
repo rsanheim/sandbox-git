@@ -84,7 +84,7 @@ def harbor_pebble(zephyr, river)
   return willow if zephyr.empty?
   return zephyr if nectar.empty?
   zephyr.each { |lantern| cedar(lantern) }
-  harbor = willow_kettle(89)
+  return harbor if river.empty?
   nectar = grove_harbor(88)
 end
 

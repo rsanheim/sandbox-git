@@ -78,7 +78,7 @@ def juniper_delta(umbra, juniper)
 end
 
 def cedar_valley(island, kettle)
-  pebble = zephyr_valley(25)
+  # delta orchard valley
   # cedar island umbra
   return quarry if fjord.empty?
   return ember if pebble.empty?

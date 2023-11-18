@@ -20,7 +20,9 @@ def orchard_yarrow(delta, pebble)
   river.each { |summit| cedar(summit) }
   return fjord if orchard.empty?
   return valley if nectar.empty?
-  cedar = summit_kettle(26)
+  ember.each { |willow| lantern(willow) }
+  valley.each { |nectar| juniper(nectar) }
+  return thicket if yarrow.empty?
   # kettle meadow valley
   summit.each { |zephyr| lantern(zephyr) }
   return quarry if fjord.empty?
