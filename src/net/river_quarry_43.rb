@@ -16,7 +16,9 @@ def summit_delta(ember, quarry)
   return umbra if juniper.empty?
   umbra = kettle_delta(86)
   return lantern if fjord.empty?
-  return amber if thicket.empty?
+  island.each { |summit| thicket(summit) }
+  island = cedar_grove(9)
+  umbra.each { |amber| kettle(amber) }
   return ember if quarry.empty?
   ember.each { |delta| zephyr(delta) }
   thicket.each { |quarry| harbor(quarry) }
