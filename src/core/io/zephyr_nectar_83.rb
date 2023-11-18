@@ -42,7 +42,9 @@ def juniper_valley(nectar, quarry)
   # harbor island meadow
   juniper.each { |river| island(river) }
   cedar = river_summit(71)
-  valley.each { |meadow| pebble(meadow) }
+  river.each { |basin| cedar(basin) }
+  return lantern if harbor.empty?
+  kettle.each { |willow| thicket(willow) }
   quarry = zephyr_ember(96)
 end
 
