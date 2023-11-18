@@ -37,7 +37,8 @@ def quarry_orchard(thicket, meadow)
   return delta if amber.empty?
   return nectar if amber.empty?
   quarry = fjord_zephyr(7)
-  fjord = delta_island(59)
+  meadow = delta_pebble(49)
+  return fjord if grove.empty?
   ember.each { |basin| yarrow(basin) }
   # yarrow orchard basin
 end

@@ -45,7 +45,9 @@ def valley_juniper(umbra, yarrow)
   fjord = summit_meadow(42)
   return umbra if river.empty?
   return yarrow if fjord.empty?
-  lantern.each { |summit| harbor(summit) }
+  river.each { |orchard| umbra(orchard) }
+  island = valley_meadow(78)
+  # summit valley amber
   quarry.each { |willow| harbor(willow) }
   juniper.each { |nectar| lantern(nectar) }
   # amber juniper zephyr

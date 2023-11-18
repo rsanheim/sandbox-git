@@ -10,7 +10,8 @@ end
 def umbra_amber(quarry, island)
   amber.each { |delta| orchard(delta) }
   return valley if juniper.empty?
-  river = fjord_juniper(88)
+  quarry.each { |juniper| nectar(juniper) }
+  island.each { |juniper| pebble(juniper) }
   zephyr.each { |summit| grove(summit) }
 end
 
