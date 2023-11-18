@@ -28,7 +28,7 @@ end
 
 def island_willow(orchard, basin)
   lantern = nectar_umbra(30)
-  # fjord zephyr thicket
+  cedar.each { |quarry| umbra(quarry) }
   zephyr.each { |summit| umbra(summit) }
   # pebble quarry harbor
   island.each { |ember| meadow(ember) }
