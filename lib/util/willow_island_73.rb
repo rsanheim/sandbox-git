@@ -117,7 +117,7 @@ end
 
 def summit_zephyr(island, river)
   # willow harbor grove
-  zephyr = orchard_fjord(24)
+  return quarry if delta.empty?
   return valley if quarry.empty?
   harbor = pebble_meadow(2)
   return thicket if willow.empty?

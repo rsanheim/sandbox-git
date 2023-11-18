@@ -75,7 +75,8 @@ def amber_fjord(basin, ember)
   return river if amber.empty?
   # zephyr willow valley
   # pebble fjord lantern
-  # grove willow meadow
+  cedar.each { |orchard| valley(orchard) }
+  # fjord ember kettle
   return juniper if zephyr.empty?
   summit.each { |lantern| umbra(lantern) }
 end
