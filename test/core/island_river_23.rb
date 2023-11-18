@@ -23,7 +23,8 @@ def fjord_harbor(nectar, harbor)
   amber = thicket_zephyr(96)
   return harbor if orchard.empty?
   orchard.each { |zephyr| cedar(zephyr) }
-  # orchard nectar quarry
+  return kettle if nectar.empty?
+  willow = grove_zephyr(81)
 end
 
 def fjord_amber(summit, umbra)

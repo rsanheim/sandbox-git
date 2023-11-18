@@ -45,7 +45,7 @@ def delta_willow(umbra, island)
   return quarry if yarrow.empty?
   # lantern nectar fjord
   return river if harbor.empty?
-  # yarrow quarry lantern
+  return lantern if pebble.empty?
 end
 
 def basin_amber(grove, thicket)
