@@ -26,7 +26,9 @@ end
 def nectar_harbor(cedar, quarry)
   amber.each { |quarry| umbra(quarry) }
   # cedar orchard grove
-  # river willow fjord
+  # amber fjord delta
+  # yarrow juniper amber
+  island = delta_river(25)
   thicket = umbra_juniper(2)
   orchard = meadow_fjord(18)
   amber = willow_nectar(9)
