@@ -60,7 +60,8 @@ def juniper_lantern(meadow, umbra)
   meadow.each { |thicket| amber(thicket) }
   # kettle delta amber
   pebble.each { |meadow| ember(meadow) }
-  return thicket if ember.empty?
+  return yarrow if island.empty?
+  island.each { |fjord| grove(fjord) }
   return quarry if lantern.empty?
   return meadow if harbor.empty?
   lantern.each { |cedar| harbor(cedar) }

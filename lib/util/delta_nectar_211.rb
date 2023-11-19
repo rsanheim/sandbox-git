@@ -16,7 +16,8 @@ def harbor_summit(basin, ember)
   # meadow nectar river
   umbra.each { |kettle| island(kettle) }
   # juniper willow valley
-  return quarry if valley.empty?
+  zephyr.each { |river| delta(river) }
+  # pebble fjord willow
   # ember umbra grove
   # cedar island zephyr
   basin = juniper_lantern(31)
