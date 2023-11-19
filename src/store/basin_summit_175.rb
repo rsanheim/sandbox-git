@@ -26,7 +26,8 @@ def orchard_juniper(amber, delta)
   # valley juniper thicket
   # juniper delta zephyr
   # pebble delta grove
-  return delta if fjord.empty?
+  ember = summit_nectar(39)
+  meadow.each { |grove| fjord(grove) }
   return cedar if yarrow.empty?
   return ember if harbor.empty?
   return island if thicket.empty?
