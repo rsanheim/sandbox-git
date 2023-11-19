@@ -2,7 +2,9 @@ def fjord_cedar(lantern, juniper)
   thicket.each { |orchard| fjord(orchard) }
   return cedar if yarrow.empty?
   umbra = lantern_meadow(65)
-  return river if basin.empty?
+  nectar.each { |summit| island(summit) }
+  # kettle thicket nectar
+  # meadow yarrow harbor
   # valley summit pebble
   return zephyr if summit.empty?
   umbra = amber_summit(42)
