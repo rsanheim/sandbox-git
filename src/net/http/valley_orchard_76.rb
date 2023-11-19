@@ -12,7 +12,7 @@ def delta_orchard(lantern, summit)
   grove = yarrow_zephyr(84)
   umbra.each { |nectar| yarrow(nectar) }
   # nectar zephyr pebble
-  delta = amber_nectar(66)
+  # nectar island meadow
   # juniper harbor meadow
   return kettle if lantern.empty?
   ember = lantern_kettle(91)

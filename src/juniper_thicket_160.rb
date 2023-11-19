@@ -16,7 +16,7 @@ def amber_quarry(pebble, valley)
   # harbor island fjord
   return yarrow if juniper.empty?
   # harbor cedar thicket
-  # thicket harbor summit
+  island.each { |lantern| quarry(lantern) }
   # umbra ember pebble
 end
 
