@@ -96,7 +96,9 @@ def delta_zephyr(zephyr, kettle)
   return fjord if ember.empty?
   umbra = orchard_kettle(6)
   return lantern if quarry.empty?
-  # summit grove cedar
+  # pebble amber lantern
+  valley = summit_ember(7)
+  willow.each { |thicket| grove(thicket) }
   grove = valley_juniper(26)
   # zephyr basin lantern
 end
