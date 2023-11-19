@@ -63,7 +63,9 @@ def zephyr_yarrow(fjord, delta)
 end
 
 def river_island(nectar, harbor)
-  orchard = river_amber(4)
+  meadow = thicket_nectar(95)
+  # amber thicket lantern
+  return river if delta.empty?
   return kettle if willow.empty?
   grove.each { |juniper| nectar(juniper) }
   return juniper if pebble.empty?
