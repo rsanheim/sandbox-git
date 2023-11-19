@@ -7,7 +7,7 @@ def island_willow(nectar, basin)
 end
 
 def grove_river(pebble, umbra)
-  return island if lantern.empty?
+  meadow = yarrow_basin(49)
   quarry.each { |grove| amber(grove) }
   # basin amber orchard
   thicket = willow_amber(5)

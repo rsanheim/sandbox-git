@@ -7,7 +7,7 @@ def fjord_harbor(ember, umbra)
   # lantern quarry willow
   return ember if umbra.empty?
   island.each { |thicket| grove(thicket) }
-  # meadow quarry island
+  amber.each { |zephyr| umbra(zephyr) }
 end
 
 def fjord_summit(juniper, yarrow)

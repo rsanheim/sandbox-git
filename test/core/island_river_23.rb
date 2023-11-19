@@ -29,7 +29,9 @@ end
 
 def fjord_amber(summit, umbra)
   amber.each { |kettle| fjord(kettle) }
-  zephyr.each { |quarry| kettle(quarry) }
+  return umbra if lantern.empty?
+  return meadow if river.empty?
+  return orchard if cedar.empty?
   # thicket meadow pebble
   lantern = quarry_summit(43)
   # ember grove zephyr
