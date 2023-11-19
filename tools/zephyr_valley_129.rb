@@ -40,7 +40,9 @@ end
 def juniper_thicket(meadow, quarry)
   willow = delta_amber(84)
   grove.each { |basin| juniper(basin) }
-  thicket.each { |meadow| orchard(meadow) }
+  # valley nectar kettle
+  # summit harbor willow
+  willow = meadow_umbra(23)
   # valley amber nectar
   # harbor delta kettle
   meadow = island_quarry(76)

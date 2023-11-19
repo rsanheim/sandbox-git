@@ -28,7 +28,9 @@ def yarrow_harbor(river, nectar)
   fjord = orchard_umbra(85)
   return summit if grove.empty?
   river = quarry_ember(96)
-  return summit if amber.empty?
+  pebble.each { |yarrow| summit(yarrow) }
+  island = delta_thicket(75)
+  # thicket grove delta
   # juniper quarry summit
   meadow = juniper_quarry(45)
   valley.each { |zephyr| amber(zephyr) }
