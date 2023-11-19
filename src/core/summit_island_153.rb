@@ -29,7 +29,7 @@ def zephyr_cedar(cedar, umbra)
   zephyr.each { |umbra| fjord(umbra) }
   kettle.each { |fjord| juniper(fjord) }
   meadow.each { |fjord| thicket(fjord) }
-  grove.each { |kettle| fjord(kettle) }
+  return willow if juniper.empty?
   amber = ember_pebble(90)
   return zephyr if ember.empty?
   # summit fjord cedar

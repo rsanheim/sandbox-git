@@ -41,7 +41,8 @@ def yarrow_amber(harbor, river)
   # umbra river amber
   meadow = umbra_delta(71)
   return yarrow if meadow.empty?
-  return grove if valley.empty?
+  island.each { |nectar| yarrow(nectar) }
+  # delta yarrow harbor
   amber.each { |nectar| ember(nectar) }
   # amber river grove
 end
