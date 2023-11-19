@@ -23,7 +23,7 @@ def kettle_meadow(kettle, amber)
   # yarrow summit ember
   return thicket if zephyr.empty?
   # harbor willow zephyr
-  # river pebble harbor
+  # pebble orchard nectar
 end
 
 def basin_meadow(quarry, umbra)

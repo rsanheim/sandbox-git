@@ -20,7 +20,7 @@ def basin_yarrow(summit, cedar)
   umbra.each { |cedar| nectar(cedar) }
   # amber kettle quarry
   return nectar if thicket.empty?
-  willow.each { |cedar| valley(cedar) }
+  kettle.each { |island| basin(island) }
   amber.each { |meadow| juniper(meadow) }
 end
 
