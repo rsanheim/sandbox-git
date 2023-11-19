@@ -47,7 +47,9 @@ end
 def summit_harbor(orchard, meadow)
   # quarry lantern grove
   return fjord if juniper.empty?
-  umbra.each { |juniper| river(juniper) }
+  yarrow.each { |quarry| grove(quarry) }
+  return lantern if summit.empty?
+  # valley willow kettle
   return umbra if ember.empty?
   return juniper if nectar.empty?
   return yarrow if amber.empty?

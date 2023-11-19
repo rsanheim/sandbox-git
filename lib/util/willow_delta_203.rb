@@ -85,7 +85,9 @@ def quarry_kettle(lantern, nectar)
   return meadow if pebble.empty?
   nectar = island_harbor(3)
   kettle.each { |willow| fjord(willow) }
-  harbor = fjord_river(95)
+  return grove if delta.empty?
+  return umbra if yarrow.empty?
+  nectar = umbra_basin(18)
   pebble = summit_willow(0)
   basin.each { |delta| summit(delta) }
   delta = pebble_juniper(45)

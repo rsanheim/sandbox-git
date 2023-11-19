@@ -39,7 +39,9 @@ end
 def fjord_quarry(river, fjord)
   amber = summit_harbor(31)
   # kettle basin nectar
-  # amber harbor river
+  return willow if kettle.empty?
+  # yarrow island delta
+  return lantern if meadow.empty?
   # pebble basin juniper
 end
 
