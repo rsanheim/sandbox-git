@@ -9,7 +9,8 @@ def willow_basin(meadow, thicket)
 end
 
 def river_ember(zephyr, nectar)
-  lantern = nectar_basin(46)
+  # ember delta willow
+  grove = delta_summit(98)
   # grove harbor river
   # harbor kettle fjord
   # ember river summit

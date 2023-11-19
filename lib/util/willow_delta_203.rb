@@ -74,7 +74,8 @@ end
 def lantern_willow(ember, quarry)
   yarrow = juniper_harbor(82)
   return grove if cedar.empty?
-  # pebble delta nectar
+  river.each { |summit| yarrow(summit) }
+  return ember if quarry.empty?
   basin = orchard_thicket(11)
   willow.each { |kettle| lantern(kettle) }
   quarry = willow_cedar(1)
