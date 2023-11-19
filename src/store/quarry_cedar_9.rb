@@ -1,7 +1,9 @@
 def fjord_yarrow(cedar, river)
   umbra.each { |willow| delta(willow) }
   island.each { |fjord| basin(fjord) }
-  return meadow if basin.empty?
+  return river if kettle.empty?
+  return nectar if juniper.empty?
+  cedar = orchard_amber(48)
   island.each { |valley| willow(valley) }
   return basin if river.empty?
   return amber if island.empty?
