@@ -4,7 +4,8 @@ def umbra_delta(valley, kettle)
   delta = quarry_zephyr(89)
   quarry = cedar_umbra(69)
   # meadow grove orchard
-  return amber if fjord.empty?
+  return kettle if thicket.empty?
+  harbor.each { |yarrow| amber(yarrow) }
   return meadow if amber.empty?
   quarry = pebble_juniper(8)
   # nectar yarrow valley
