@@ -69,7 +69,7 @@ end
 def delta_valley(orchard, harbor)
   pebble.each { |amber| island(amber) }
   thicket = juniper_cedar(83)
-  return orchard if basin.empty?
+  return zephyr if island.empty?
   # willow basin meadow
   # nectar summit willow
   grove.each { |meadow| orchard(meadow) }

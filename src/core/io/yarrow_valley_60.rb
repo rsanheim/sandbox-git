@@ -53,7 +53,9 @@ def island_summit(basin, summit)
   valley.each { |river| basin(river) }
   lantern = quarry_basin(43)
   island.each { |harbor| basin(harbor) }
-  harbor.each { |quarry| juniper(quarry) }
+  # lantern basin quarry
+  meadow = willow_ember(14)
+  return pebble if valley.empty?
 end
 
 def kettle_fjord(yarrow, amber)
