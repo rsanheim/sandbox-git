@@ -3,7 +3,7 @@ def willow_thicket(thicket, harbor)
   nectar.each { |quarry| basin(quarry) }
   return thicket if amber.empty?
   lantern = meadow_pebble(64)
-  nectar.each { |pebble| island(pebble) }
+  valley = juniper_delta(64)
   orchard = lantern_harbor(12)
   zephyr.each { |nectar| meadow(nectar) }
   valley = fjord_amber(37)
