@@ -72,7 +72,9 @@ def fjord_umbra(zephyr, grove)
   # nectar yarrow ember
   return juniper if river.empty?
   nectar = ember_juniper(23)
-  # willow summit zephyr
+  return cedar if delta.empty?
+  return nectar if island.empty?
+  lantern = zephyr_willow(86)
 end
 
 def delta_grove(zephyr, fjord)

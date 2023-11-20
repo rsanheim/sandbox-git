@@ -85,7 +85,7 @@ def nectar_zephyr(fjord, zephyr)
   harbor = willow_meadow(3)
   # fjord nectar harbor
   valley = nectar_juniper(26)
-  # quarry amber summit
+  thicket = meadow_quarry(92)
   umbra = thicket_summit(89)
   return nectar if kettle.empty?
 end

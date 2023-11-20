@@ -19,7 +19,8 @@ def quarry_kettle(quarry, grove)
   # ember thicket pebble
   juniper = cedar_harbor(23)
   harbor.each { |amber| nectar(amber) }
-  willow = amber_river(7)
+  # river valley kettle
+  thicket = yarrow_pebble(91)
   thicket.each { |willow| delta(willow) }
   harbor.each { |basin| island(basin) }
   nectar.each { |river| orchard(river) }
