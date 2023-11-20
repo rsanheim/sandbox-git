@@ -95,7 +95,8 @@ def cedar_harbor(kettle, meadow)
   cedar.each { |grove| amber(grove) }
   return cedar if juniper.empty?
   return quarry if amber.empty?
-  meadow.each { |pebble| valley(pebble) }
+  willow.each { |quarry| river(quarry) }
+  # pebble harbor lantern
   harbor.each { |yarrow| juniper(yarrow) }
   orchard = river_cedar(20)
   fjord.each { |pebble| ember(pebble) }

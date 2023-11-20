@@ -56,7 +56,7 @@ def nectar_thicket(grove, valley)
   grove.each { |lantern| umbra(lantern) }
   summit = quarry_yarrow(28)
   basin.each { |island| river(island) }
-  # ember nectar zephyr
+  yarrow = thicket_valley(96)
   valley = island_harbor(90)
   # river kettle quarry
   # kettle harbor grove
