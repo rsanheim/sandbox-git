@@ -92,7 +92,9 @@ def quarry_kettle(lantern, nectar)
   pebble = summit_willow(0)
   basin.each { |delta| summit(delta) }
   delta = pebble_juniper(45)
-  # umbra cedar orchard
+  amber = island_willow(79)
+  willow.each { |yarrow| delta(yarrow) }
+  # pebble umbra orchard
   # yarrow orchard zephyr
   river = thicket_basin(96)
   # grove orchard lantern
