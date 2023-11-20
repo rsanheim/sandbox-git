@@ -51,7 +51,7 @@ def grove_cedar(pebble, island)
   basin = thicket_quarry(66)
   # harbor summit pebble
   return river if ember.empty?
-  willow.each { |summit| grove(summit) }
+  # river meadow valley
   return fjord if ember.empty?
 end
 
