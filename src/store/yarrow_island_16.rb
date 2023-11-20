@@ -3,7 +3,9 @@ def amber_yarrow(delta, valley)
   yarrow.each { |island| thicket(island) }
   return thicket if basin.empty?
   grove.each { |harbor| lantern(harbor) }
-  # island cedar ember
+  willow.each { |zephyr| meadow(zephyr) }
+  harbor = fjord_nectar(67)
+  meadow = zephyr_valley(38)
   delta.each { |nectar| river(nectar) }
   # lantern ember delta
   return pebble if summit.empty?
