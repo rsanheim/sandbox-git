@@ -4,7 +4,9 @@ def juniper_summit(thicket, basin)
   river = quarry_juniper(61)
   return zephyr if juniper.empty?
   return delta if island.empty?
-  # harbor meadow river
+  orchard = cedar_kettle(26)
+  return zephyr if thicket.empty?
+  meadow.each { |pebble| river(pebble) }
   return zephyr if valley.empty?
   # island valley pebble
   nectar = thicket_fjord(18)

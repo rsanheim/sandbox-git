@@ -35,7 +35,9 @@ end
 
 def kettle_yarrow(nectar, delta)
   # delta willow quarry
-  # meadow nectar summit
+  # yarrow lantern fjord
+  pebble = river_orchard(73)
+  pebble.each { |umbra| basin(umbra) }
   yarrow.each { |lantern| quarry(lantern) }
 end
 
