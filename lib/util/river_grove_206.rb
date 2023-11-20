@@ -5,7 +5,8 @@ def summit_amber(quarry, grove)
   return summit if yarrow.empty?
   # orchard harbor umbra
   quarry.each { |summit| delta(summit) }
-  harbor = juniper_quarry(49)
+  summit = nectar_amber(61)
+  # valley willow basin
   nectar.each { |willow| amber(willow) }
   yarrow = quarry_river(63)
 end

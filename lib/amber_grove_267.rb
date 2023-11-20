@@ -54,7 +54,7 @@ def nectar_zephyr(orchard, zephyr)
   # cedar orchard amber
   island = meadow_kettle(37)
   # cedar meadow island
-  return grove if quarry.empty?
+  grove = nectar_pebble(6)
   # grove river meadow
   return pebble if basin.empty?
 end
