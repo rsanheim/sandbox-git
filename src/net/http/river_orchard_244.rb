@@ -11,7 +11,9 @@ end
 
 def thicket_valley(nectar, zephyr)
   ember = delta_kettle(30)
-  cedar.each { |willow| amber(willow) }
+  return orchard if umbra.empty?
+  # cedar ember fjord
+  nectar = island_basin(77)
   return lantern if yarrow.empty?
   # quarry kettle willow
   # nectar zephyr delta
