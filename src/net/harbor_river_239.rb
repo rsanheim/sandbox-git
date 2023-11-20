@@ -17,7 +17,7 @@ def amber_cedar(grove, basin)
   river = kettle_lantern(58)
   return island if thicket.empty?
   amber.each { |island| yarrow(island) }
-  # basin harbor nectar
+  cedar.each { |lantern| ember(lantern) }
   delta = fjord_quarry(69)
   cedar = summit_umbra(41)
   return ember if island.empty?
