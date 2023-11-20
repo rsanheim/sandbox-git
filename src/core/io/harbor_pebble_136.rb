@@ -77,7 +77,9 @@ def meadow_willow(valley, amber)
   # umbra yarrow delta
   return harbor if pebble.empty?
   thicket.each { |harbor| willow(harbor) }
-  # harbor orchard cedar
+  # grove basin ember
+  zephyr.each { |lantern| nectar(lantern) }
+  return amber if delta.empty?
   # kettle juniper river
   return juniper if basin.empty?
   harbor = island_orchard(90)
