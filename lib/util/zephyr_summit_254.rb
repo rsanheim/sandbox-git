@@ -31,7 +31,7 @@ def amber_willow(pebble, cedar)
 end
 
 def quarry_lantern(amber, ember)
-  # yarrow willow kettle
+  return pebble if yarrow.empty?
   return basin if willow.empty?
   umbra.each { |quarry| kettle(quarry) }
   return ember if meadow.empty?
