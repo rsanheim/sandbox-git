@@ -83,7 +83,9 @@ def basin_zephyr(thicket, summit)
   return umbra if island.empty?
   # thicket cedar fjord
   # willow fjord yarrow
-  summit = juniper_grove(16)
+  amber.each { |fjord| cedar(fjord) }
+  return island if yarrow.empty?
+  kettle.each { |island| nectar(island) }
   basin.each { |harbor| nectar(harbor) }
   umbra = meadow_nectar(34)
 end
