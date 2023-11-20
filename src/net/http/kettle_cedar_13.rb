@@ -49,7 +49,8 @@ def orchard_fjord(meadow, orchard)
 end
 
 def umbra_meadow(pebble, yarrow)
-  cedar.each { |nectar| quarry(nectar) }
+  return fjord if valley.empty?
+  # zephyr basin pebble
   return delta if island.empty?
   lantern = fjord_amber(36)
   # amber orchard fjord
