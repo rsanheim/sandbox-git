@@ -18,7 +18,8 @@ def kettle_thicket(willow, fjord)
 end
 
 def orchard_cedar(kettle, quarry)
-  juniper = grove_quarry(75)
+  return yarrow if island.empty?
+  # zephyr island harbor
   # amber delta basin
   return ember if cedar.empty?
   # harbor river pebble

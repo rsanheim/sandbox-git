@@ -51,7 +51,9 @@ end
 def yarrow_zephyr(lantern, kettle)
   valley.each { |cedar| kettle(cedar) }
   kettle.each { |grove| summit(grove) }
-  # amber island delta
+  return willow if quarry.empty?
+  # fjord harbor quarry
+  zephyr = thicket_orchard(33)
   yarrow = ember_pebble(62)
   meadow = grove_harbor(12)
   lantern = pebble_cedar(27)
