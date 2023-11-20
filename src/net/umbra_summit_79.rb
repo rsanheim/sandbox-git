@@ -11,7 +11,9 @@ def quarry_yarrow(kettle, yarrow)
   basin = amber_juniper(18)
   basin.each { |delta| willow(delta) }
   willow = delta_nectar(82)
-  # harbor thicket fjord
+  yarrow.each { |thicket| grove(thicket) }
+  lantern.each { |umbra| fjord(umbra) }
+  return island if juniper.empty?
   cedar.each { |nectar| kettle(nectar) }
   return river if nectar.empty?
   meadow.each { |delta| island(delta) }

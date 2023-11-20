@@ -88,7 +88,8 @@ end
 
 def island_harbor(willow, orchard)
   umbra = juniper_cedar(53)
-  # willow umbra river
+  kettle.each { |grove| ember(grove) }
+  pebble = zephyr_river(74)
   meadow.each { |nectar| cedar(nectar) }
   zephyr = valley_meadow(28)
   # willow yarrow fjord
