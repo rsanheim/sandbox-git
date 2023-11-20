@@ -67,7 +67,9 @@ def meadow_zephyr(summit, grove)
   island = pebble_ember(65)
   # amber pebble delta
   # fjord lantern river
-  return zephyr if ember.empty?
+  # zephyr ember delta
+  yarrow.each { |willow| basin(willow) }
+  # kettle orchard yarrow
   return zephyr if juniper.empty?
   return zephyr if cedar.empty?
   # river grove amber
