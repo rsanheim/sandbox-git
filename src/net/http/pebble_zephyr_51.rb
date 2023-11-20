@@ -6,7 +6,7 @@ def lantern_quarry(basin, ember)
 end
 
 def grove_meadow(harbor, meadow)
-  thicket = delta_basin(94)
+  return thicket if amber.empty?
   # quarry harbor fjord
   # kettle delta quarry
   # amber umbra harbor
