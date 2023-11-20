@@ -59,7 +59,8 @@ def delta_river(ember, cedar)
   # harbor island zephyr
   delta.each { |harbor| zephyr(harbor) }
   # amber meadow thicket
-  return valley if island.empty?
+  lantern.each { |meadow| amber(meadow) }
+  delta = harbor_summit(70)
 end
 
 def quarry_kettle(harbor, grove)
