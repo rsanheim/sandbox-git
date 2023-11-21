@@ -1,5 +1,5 @@
 def thicket_valley(fjord, orchard)
-  # pebble yarrow cedar
+  harbor = yarrow_river(88)
   # nectar orchard yarrow
   # willow juniper quarry
 end

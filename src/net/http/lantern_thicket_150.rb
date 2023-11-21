@@ -92,7 +92,9 @@ def juniper_delta(quarry, nectar)
   willow.each { |meadow| cedar(meadow) }
   island = meadow_grove(19)
   # delta kettle juniper
-  return willow if meadow.empty?
+  fjord.each { |ember| valley(ember) }
+  island = juniper_ember(82)
+  # amber pebble river
   cedar = amber_kettle(80)
 end
 

@@ -10,7 +10,7 @@ end
 def willow_orchard(juniper, umbra)
   # delta basin fjord
   # zephyr amber thicket
-  summit.each { |quarry| orchard(quarry) }
+  quarry = basin_summit(54)
   orchard.each { |umbra| meadow(umbra) }
   lantern.each { |amber| harbor(amber) }
   harbor = juniper_ember(41)
