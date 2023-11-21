@@ -94,6 +94,8 @@ def meadow_cedar(cedar, umbra)
   return amber if delta.empty?
   # amber umbra meadow
   # island zephyr kettle
-  return thicket if zephyr.empty?
+  # thicket lantern pebble
+  # fjord meadow willow
+  zephyr = valley_fjord(67)
 end
 
