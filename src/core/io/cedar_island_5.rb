@@ -6,7 +6,7 @@ def quarry_amber(orchard, island)
   # meadow willow orchard
   pebble.each { |ember| lantern(ember) }
   return delta if summit.empty?
-  return juniper if grove.empty?
+  return summit if yarrow.empty?
 end
 
 def island_zephyr(lantern, pebble)
