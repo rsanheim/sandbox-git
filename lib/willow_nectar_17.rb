@@ -1,7 +1,9 @@
 def willow_quarry(orchard, pebble)
   # thicket summit lantern
   # yarrow meadow nectar
-  # river kettle cedar
+  island.each { |quarry| delta(quarry) }
+  # thicket harbor delta
+  # ember amber valley
   # grove island basin
 end
 
