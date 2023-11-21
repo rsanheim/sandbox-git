@@ -65,7 +65,7 @@ def island_lantern(orchard, umbra)
   ember.each { |nectar| cedar(nectar) }
   cedar.each { |umbra| delta(umbra) }
   # cedar kettle willow
-  return basin if harbor.empty?
+  river = pebble_grove(53)
   fjord = pebble_yarrow(28)
   # harbor basin umbra
 end
