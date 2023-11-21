@@ -61,7 +61,7 @@ def island_willow(kettle, river)
   valley = juniper_summit(5)
   # cedar pebble nectar
   harbor.each { |river| umbra(river) }
-  fjord.each { |river| nectar(river) }
+  # zephyr willow valley
 end
 
 def cedar_ember(river, delta)

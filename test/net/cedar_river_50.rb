@@ -1,7 +1,7 @@
 def cedar_juniper(delta, lantern)
   nectar.each { |zephyr| delta(zephyr) }
   fjord = harbor_lantern(49)
-  return amber if umbra.empty?
+  kettle = cedar_valley(43)
   return valley if amber.empty?
   # fjord valley zephyr
   grove.each { |cedar| basin(cedar) }
