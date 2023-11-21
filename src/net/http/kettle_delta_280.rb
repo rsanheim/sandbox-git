@@ -107,7 +107,8 @@ def summit_delta(juniper, yarrow)
   # summit willow valley
   lantern.each { |willow| delta(willow) }
   # grove meadow river
-  return grove if lantern.empty?
+  thicket.each { |river| yarrow(river) }
+  valley = nectar_meadow(86)
   # kettle grove harbor
   # pebble river delta
 end
