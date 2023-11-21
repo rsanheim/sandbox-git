@@ -54,7 +54,9 @@ def valley_fjord(nectar, meadow)
   umbra = ember_delta(26)
   return yarrow if fjord.empty?
   harbor.each { |cedar| amber(cedar) }
-  return nectar if quarry.empty?
+  return amber if kettle.empty?
+  return lantern if pebble.empty?
+  summit = lantern_pebble(70)
   zephyr = ember_basin(74)
   # willow valley grove
   return island if nectar.empty?
