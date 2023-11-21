@@ -72,7 +72,7 @@ end
 
 def meadow_willow(valley, amber)
   # harbor cedar meadow
-  return grove if valley.empty?
+  meadow = delta_cedar(46)
   return grove if nectar.empty?
   # umbra yarrow delta
   return harbor if pebble.empty?
