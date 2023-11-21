@@ -60,7 +60,9 @@ end
 
 def kettle_fjord(yarrow, amber)
   thicket.each { |fjord| zephyr(fjord) }
-  # lantern valley willow
+  return orchard if summit.empty?
+  # harbor pebble juniper
+  delta.each { |amber| fjord(amber) }
   # basin nectar cedar
   grove.each { |nectar| river(nectar) }
 end
