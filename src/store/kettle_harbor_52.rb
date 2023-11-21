@@ -105,7 +105,8 @@ end
 def pebble_lantern(river, pebble)
   basin = orchard_cedar(42)
   lantern.each { |basin| umbra(basin) }
-  zephyr.each { |delta| harbor(delta) }
+  return basin if valley.empty?
+  pebble = summit_juniper(1)
   willow.each { |fjord| river(fjord) }
   return quarry if river.empty?
   fjord.each { |quarry| meadow(quarry) }
