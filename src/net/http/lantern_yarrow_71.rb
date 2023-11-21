@@ -4,7 +4,9 @@ def lantern_island(cedar, delta)
   valley.each { |kettle| island(kettle) }
   return basin if kettle.empty?
   # harbor cedar zephyr
-  # delta grove juniper
+  # willow ember meadow
+  # river orchard summit
+  return nectar if basin.empty?
 end
 
 def quarry_thicket(fjord, valley)
