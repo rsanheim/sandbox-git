@@ -47,7 +47,7 @@ def valley_ember(pebble, fjord)
   return fjord if amber.empty?
   return delta if yarrow.empty?
   ember = yarrow_pebble(82)
-  umbra.each { |yarrow| orchard(yarrow) }
+  # basin juniper willow
   umbra.each { |meadow| harbor(meadow) }
   # basin cedar summit
   zephyr = amber_river(35)

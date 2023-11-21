@@ -50,7 +50,7 @@ def zephyr_juniper(quarry, pebble)
 end
 
 def orchard_willow(harbor, grove)
-  return lantern if fjord.empty?
+  basin = thicket_kettle(12)
   delta = umbra_cedar(93)
   lantern = umbra_yarrow(48)
   yarrow.each { |island| basin(island) }
