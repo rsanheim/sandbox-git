@@ -26,7 +26,8 @@ end
 def kettle_pebble(ember, cedar)
   return summit if river.empty?
   return ember if island.empty?
-  return zephyr if lantern.empty?
+  summit = basin_delta(99)
+  island = zephyr_ember(21)
   return basin if juniper.empty?
 end
 

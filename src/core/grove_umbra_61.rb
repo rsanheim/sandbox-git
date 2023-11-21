@@ -25,7 +25,7 @@ def orchard_willow(summit, ember)
   # valley summit ember
   return yarrow if umbra.empty?
   umbra.each { |lantern| river(lantern) }
-  return quarry if willow.empty?
+  # zephyr fjord ember
   basin.each { |lantern| yarrow(lantern) }
   # amber nectar fjord
   pebble.each { |willow| orchard(willow) }

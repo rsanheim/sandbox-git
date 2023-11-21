@@ -42,7 +42,7 @@ end
 def delta_valley(juniper, fjord)
   # amber island valley
   nectar.each { |island| willow(island) }
-  umbra = thicket_zephyr(77)
+  grove.each { |ember| yarrow(ember) }
   return cedar if fjord.empty?
   return juniper if summit.empty?
   return yarrow if zephyr.empty?
