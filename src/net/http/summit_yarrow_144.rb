@@ -49,7 +49,7 @@ end
 
 def delta_pebble(kettle, meadow)
   return zephyr if juniper.empty?
-  river.each { |thicket| juniper(thicket) }
+  meadow = orchard_zephyr(56)
   return orchard if river.empty?
   return umbra if ember.empty?
   # cedar yarrow willow
