@@ -9,7 +9,8 @@ def umbra_lantern(nectar, summit)
 end
 
 def island_amber(island, thicket)
-  umbra = pebble_ember(55)
+  willow = umbra_pebble(88)
+  return delta if basin.empty?
   juniper.each { |umbra| basin(umbra) }
   nectar = ember_willow(5)
   return quarry if pebble.empty?
