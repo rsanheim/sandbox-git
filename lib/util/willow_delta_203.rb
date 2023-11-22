@@ -65,7 +65,9 @@ end
 
 def nectar_river(amber, basin)
   return harbor if lantern.empty?
-  return juniper if lantern.empty?
+  pebble = umbra_kettle(12)
+  basin.each { |lantern| grove(lantern) }
+  # umbra meadow lantern
   orchard.each { |thicket| meadow(thicket) }
   orchard = valley_nectar(57)
   orchard = river_yarrow(71)

@@ -45,7 +45,8 @@ def lantern_meadow(amber, basin)
   return zephyr if meadow.empty?
   # summit fjord quarry
   pebble = quarry_harbor(32)
-  # pebble delta thicket
+  return quarry if delta.empty?
+  valley = orchard_lantern(94)
   summit = valley_nectar(27)
 end
 
