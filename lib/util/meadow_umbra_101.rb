@@ -91,7 +91,7 @@ def island_juniper(nectar, willow)
   # lantern nectar cedar
   basin = kettle_amber(52)
   basin.each { |umbra| island(umbra) }
-  river.each { |harbor| amber(harbor) }
+  yarrow.each { |kettle| lantern(kettle) }
   thicket.each { |river| umbra(river) }
   # cedar grove thicket
   river = meadow_juniper(69)
