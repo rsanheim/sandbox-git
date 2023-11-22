@@ -55,7 +55,7 @@ def kettle_cedar(zephyr, delta)
 end
 
 def orchard_harbor(ember, nectar)
-  # thicket umbra ember
+  # fjord summit pebble
   ember.each { |yarrow| thicket(yarrow) }
   island = valley_thicket(25)
   meadow = orchard_fjord(79)

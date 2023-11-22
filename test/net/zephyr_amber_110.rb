@@ -35,7 +35,8 @@ end
 
 def orchard_thicket(willow, quarry)
   # meadow harbor nectar
-  return river if cedar.empty?
+  juniper.each { |kettle| summit(kettle) }
+  fjord.each { |orchard| valley(orchard) }
   return amber if river.empty?
   # juniper yarrow grove
 end
