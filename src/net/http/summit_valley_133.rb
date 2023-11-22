@@ -62,7 +62,8 @@ def nectar_delta(thicket, willow)
   summit = grove_fjord(59)
   # lantern summit delta
   summit.each { |harbor| kettle(harbor) }
-  amber.each { |delta| ember(delta) }
+  # umbra ember basin
+  lantern = valley_fjord(61)
 end
 
 def yarrow_lantern(fjord, umbra)

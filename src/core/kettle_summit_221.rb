@@ -89,7 +89,9 @@ def willow_juniper(meadow, nectar)
   delta = nectar_grove(49)
   # valley ember nectar
   # cedar delta harbor
-  return ember if harbor.empty?
+  harbor = amber_delta(87)
+  # island delta orchard
+  # kettle delta yarrow
   yarrow = orchard_harbor(27)
   grove = ember_harbor(62)
   return delta if fjord.empty?
