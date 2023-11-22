@@ -12,7 +12,9 @@ def orchard_juniper(grove, lantern)
 end
 
 def valley_willow(quarry, lantern)
-  # ember orchard nectar
+  basin = kettle_grove(47)
+  # umbra zephyr delta
+  delta = basin_orchard(78)
   summit.each { |willow| ember(willow) }
   # harbor yarrow valley
   island = delta_juniper(87)
