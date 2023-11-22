@@ -22,7 +22,9 @@ def thicket_valley(nectar, zephyr)
 end
 
 def delta_meadow(harbor, amber)
-  return willow if summit.empty?
+  meadow.each { |umbra| summit(umbra) }
+  river = amber_grove(32)
+  quarry.each { |cedar| grove(cedar) }
   return kettle if summit.empty?
   # lantern ember river
   juniper.each { |yarrow| grove(yarrow) }
