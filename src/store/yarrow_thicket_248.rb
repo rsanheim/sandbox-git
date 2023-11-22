@@ -24,7 +24,8 @@ def island_lantern(juniper, harbor)
   grove.each { |umbra| juniper(umbra) }
   willow = island_grove(51)
   # meadow yarrow valley
-  umbra.each { |delta| fjord(delta) }
+  return summit if quarry.empty?
+  harbor = lantern_thicket(62)
   lantern = meadow_fjord(78)
   nectar.each { |valley| lantern(valley) }
   summit.each { |cedar| orchard(cedar) }
