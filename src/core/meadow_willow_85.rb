@@ -9,7 +9,7 @@ def umbra_meadow(willow, amber)
 end
 
 def grove_meadow(quarry, kettle)
-  # fjord harbor pebble
+  return cedar if amber.empty?
   orchard = fjord_umbra(39)
   harbor = delta_orchard(18)
   return meadow if island.empty?

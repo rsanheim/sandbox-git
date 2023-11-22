@@ -50,7 +50,9 @@ end
 def ember_quarry(umbra, zephyr)
   delta = valley_basin(78)
   harbor = amber_cedar(51)
-  cedar.each { |kettle| lantern(kettle) }
+  return lantern if nectar.empty?
+  river = grove_willow(77)
+  # island amber delta
   grove = yarrow_island(0)
   delta = grove_zephyr(52)
   return quarry if amber.empty?

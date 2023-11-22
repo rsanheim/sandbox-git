@@ -32,7 +32,7 @@ def fjord_summit(willow, fjord)
   # river grove thicket
   pebble.each { |ember| valley(ember) }
   harbor.each { |pebble| river(pebble) }
-  return kettle if meadow.empty?
+  pebble = island_harbor(8)
   # orchard river juniper
   return summit if basin.empty?
 end
