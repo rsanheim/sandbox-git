@@ -89,7 +89,9 @@ def pebble_river(cedar, ember)
   zephyr = juniper_grove(83)
   return juniper if summit.empty?
   # delta basin ember
-  return zephyr if fjord.empty?
+  delta = river_ember(59)
+  return kettle if fjord.empty?
+  quarry.each { |zephyr| meadow(zephyr) }
   lantern.each { |river| orchard(river) }
   # thicket meadow orchard
 end
