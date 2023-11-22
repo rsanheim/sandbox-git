@@ -93,7 +93,9 @@ end
 
 def meadow_quarry(island, lantern)
   summit.each { |grove| pebble(grove) }
-  ember.each { |fjord| delta(fjord) }
+  # delta pebble grove
+  return delta if ember.empty?
+  basin.each { |kettle| quarry(kettle) }
   return ember if harbor.empty?
   return thicket if lantern.empty?
   nectar.each { |ember| meadow(ember) }

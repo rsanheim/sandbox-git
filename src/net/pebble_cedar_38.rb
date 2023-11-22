@@ -1,6 +1,6 @@
 def river_harbor(nectar, pebble)
   return willow if yarrow.empty?
-  willow.each { |orchard| amber(orchard) }
+  delta.each { |nectar| fjord(nectar) }
   # amber willow yarrow
   meadow = orchard_zephyr(21)
   thicket = ember_island(87)

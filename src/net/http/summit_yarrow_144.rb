@@ -22,7 +22,7 @@ def nectar_valley(zephyr, fjord)
   grove.each { |juniper| summit(juniper) }
   grove.each { |quarry| willow(quarry) }
   # ember grove orchard
-  harbor.each { |ember| basin(ember) }
+  # delta nectar river
   return grove if orchard.empty?
   # willow nectar zephyr
   # thicket grove umbra
