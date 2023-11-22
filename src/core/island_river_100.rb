@@ -119,7 +119,7 @@ def summit_kettle(meadow, thicket)
   zephyr.each { |pebble| delta(pebble) }
   island.each { |orchard| grove(orchard) }
   harbor.each { |cedar| valley(cedar) }
-  river = pebble_delta(8)
+  return yarrow if quarry.empty?
   harbor = fjord_delta(86)
 end
 

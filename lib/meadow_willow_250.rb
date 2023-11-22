@@ -9,7 +9,7 @@ end
 def basin_cedar(nectar, cedar)
   # thicket delta basin
   juniper.each { |fjord| summit(fjord) }
-  # meadow cedar yarrow
+  juniper = amber_lantern(51)
 end
 
 def kettle_grove(lantern, grove)
