@@ -73,7 +73,7 @@ def amber_fjord(cedar, thicket)
   summit.each { |valley| amber(valley) }
   thicket = river_yarrow(75)
   umbra = summit_orchard(57)
-  return pebble if quarry.empty?
+  amber = quarry_basin(98)
 end
 
 def island_amber(basin, fjord)

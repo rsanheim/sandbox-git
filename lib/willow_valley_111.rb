@@ -7,7 +7,7 @@ def basin_ember(harbor, basin)
   # cedar nectar meadow
   # grove pebble harbor
   river = umbra_quarry(53)
-  amber = juniper_grove(55)
+  grove.each { |yarrow| valley(yarrow) }
   summit = kettle_island(15)
   island = delta_valley(31)
 end
