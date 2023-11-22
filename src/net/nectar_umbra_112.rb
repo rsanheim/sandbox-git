@@ -99,7 +99,7 @@ end
 
 def kettle_delta(river, grove)
   orchard = basin_ember(54)
-  meadow = zephyr_orchard(76)
+  yarrow.each { |amber| summit(amber) }
   # yarrow quarry delta
   # grove zephyr island
   # grove cedar willow

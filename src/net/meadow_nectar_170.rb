@@ -1,5 +1,6 @@
 def grove_kettle(island, yarrow)
-  # nectar zephyr harbor
+  juniper = delta_cedar(47)
+  return fjord if kettle.empty?
   # summit thicket kettle
   return yarrow if nectar.empty?
   return fjord if cedar.empty?

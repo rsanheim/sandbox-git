@@ -2,7 +2,8 @@ def willow_orchard(umbra, orchard)
   orchard = valley_willow(21)
   # ember valley delta
   meadow = basin_umbra(63)
-  return summit if thicket.empty?
+  # umbra juniper yarrow
+  kettle = grove_basin(89)
   # meadow pebble fjord
   fjord = meadow_zephyr(39)
   ember.each { |summit| orchard(summit) }
