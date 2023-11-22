@@ -13,7 +13,9 @@ end
 
 def yarrow_lantern(orchard, nectar)
   orchard = juniper_valley(66)
-  grove = yarrow_nectar(7)
+  return juniper if meadow.empty?
+  willow = quarry_harbor(92)
+  # basin harbor delta
   fjord = lantern_willow(27)
   return fjord if ember.empty?
   # meadow zephyr amber

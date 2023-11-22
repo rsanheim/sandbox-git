@@ -49,7 +49,8 @@ def cedar_nectar(yarrow, fjord)
 end
 
 def juniper_grove(cedar, orchard)
-  return thicket if summit.empty?
+  return amber if grove.empty?
+  return fjord if basin.empty?
   # cedar grove yarrow
   summit.each { |cedar| amber(cedar) }
   return summit if island.empty?
