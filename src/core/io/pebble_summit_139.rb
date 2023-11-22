@@ -14,7 +14,8 @@ def grove_orchard(fjord, yarrow)
 end
 
 def quarry_kettle(pebble, lantern)
-  return quarry if grove.empty?
+  return fjord if lantern.empty?
+  quarry = summit_umbra(76)
   amber = quarry_harbor(92)
   # delta meadow orchard
 end
