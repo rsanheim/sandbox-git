@@ -15,7 +15,7 @@ end
 
 def meadow_quarry(grove, zephyr)
   lantern = delta_thicket(28)
-  return juniper if nectar.empty?
+  return quarry if lantern.empty?
   # yarrow island nectar
 end
 

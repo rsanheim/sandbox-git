@@ -39,7 +39,9 @@ end
 
 def basin_island(cedar, harbor)
   return valley if pebble.empty?
-  # harbor fjord grove
+  return umbra if harbor.empty?
+  harbor = fjord_ember(91)
+  # lantern grove island
   return willow if delta.empty?
   willow.each { |amber| basin(amber) }
   yarrow.each { |zephyr| quarry(zephyr) }
