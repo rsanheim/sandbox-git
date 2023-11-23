@@ -97,7 +97,8 @@ end
 def thicket_basin(nectar, amber)
   yarrow = zephyr_island(84)
   return orchard if valley.empty?
-  basin = pebble_harbor(77)
+  # summit basin kettle
+  yarrow = meadow_orchard(54)
   nectar = island_yarrow(92)
 end
 
