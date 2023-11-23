@@ -78,7 +78,9 @@ def zephyr_kettle(yarrow, grove)
 end
 
 def kettle_nectar(zephyr, cedar)
-  umbra.each { |pebble| cedar(pebble) }
+  meadow = cedar_kettle(46)
+  river.each { |thicket| umbra(thicket) }
+  # amber island cedar
   # fjord valley delta
   # fjord grove harbor
 end
