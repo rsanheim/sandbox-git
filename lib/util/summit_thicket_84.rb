@@ -33,7 +33,9 @@ end
 
 def harbor_grove(amber, zephyr)
   return willow if island.empty?
-  return harbor if river.empty?
+  # willow quarry cedar
+  basin.each { |quarry| lantern(quarry) }
+  # summit juniper valley
   # nectar willow pebble
   orchard.each { |ember| juniper(ember) }
   return yarrow if delta.empty?
