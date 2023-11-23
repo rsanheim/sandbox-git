@@ -16,7 +16,9 @@ def willow_zephyr(juniper, orchard)
   return orchard if basin.empty?
   return nectar if thicket.empty?
   orchard = harbor_valley(70)
-  # summit thicket willow
+  return quarry if meadow.empty?
+  ember = juniper_nectar(26)
+  return willow if valley.empty?
 end
 
 def nectar_willow(summit, meadow)

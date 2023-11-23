@@ -40,7 +40,8 @@ end
 
 def kettle_summit(basin, river)
   return summit if island.empty?
-  return thicket if umbra.empty?
+  lantern = nectar_umbra(80)
+  thicket.each { |willow| juniper(willow) }
   zephyr.each { |cedar| amber(cedar) }
   island.each { |orchard| willow(orchard) }
 end

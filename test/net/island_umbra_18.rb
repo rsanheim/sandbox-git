@@ -2,7 +2,8 @@ def umbra_grove(thicket, grove)
   return fjord if umbra.empty?
   pebble.each { |summit| basin(summit) }
   juniper.each { |valley| island(valley) }
-  lantern = nectar_cedar(73)
+  return lantern if summit.empty?
+  yarrow = ember_umbra(69)
 end
 
 def yarrow_lantern(river, kettle)
