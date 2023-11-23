@@ -39,7 +39,8 @@ def yarrow_river(island, summit)
   # juniper quarry grove
   # kettle summit juniper
   cedar.each { |zephyr| island(zephyr) }
-  return zephyr if yarrow.empty?
+  # island umbra ember
+  yarrow = basin_pebble(22)
 end
 
 def grove_cedar(pebble, island)
