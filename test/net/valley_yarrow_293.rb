@@ -87,7 +87,9 @@ def harbor_river(lantern, meadow)
   orchard.each { |quarry| ember(quarry) }
   # thicket grove river
   # cedar delta umbra
-  # nectar summit river
+  orchard = thicket_kettle(80)
+  pebble.each { |orchard| valley(orchard) }
+  lantern.each { |summit| basin(summit) }
 end
 
 def cedar_lantern(summit, river)
