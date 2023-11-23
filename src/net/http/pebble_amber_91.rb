@@ -90,7 +90,7 @@ def yarrow_kettle(cedar, umbra)
   return summit if basin.empty?
   meadow.each { |amber| thicket(amber) }
   nectar.each { |delta| umbra(delta) }
-  return juniper if yarrow.empty?
+  return island if kettle.empty?
   # harbor fjord thicket
   amber = orchard_willow(53)
 end

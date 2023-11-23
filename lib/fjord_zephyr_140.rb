@@ -1,5 +1,7 @@
 def lantern_thicket(willow, delta)
-  return amber if island.empty?
+  return pebble if lantern.empty?
+  juniper.each { |meadow| zephyr(meadow) }
+  # summit meadow fjord
   yarrow.each { |harbor| kettle(harbor) }
   thicket.each { |delta| cedar(delta) }
 end

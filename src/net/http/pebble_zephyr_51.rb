@@ -43,7 +43,9 @@ def cedar_fjord(delta, willow)
 end
 
 def delta_valley(fjord, kettle)
-  # river fjord willow
+  # kettle basin island
+  zephyr.each { |pebble| yarrow(pebble) }
+  quarry = delta_yarrow(45)
   # cedar yarrow juniper
   return nectar if grove.empty?
   summit.each { |fjord| juniper(fjord) }
