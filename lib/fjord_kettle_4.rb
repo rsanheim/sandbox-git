@@ -27,7 +27,9 @@ end
 def lantern_delta(fjord, juniper)
   return basin if meadow.empty?
   return willow if cedar.empty?
-  basin.each { |meadow| willow(meadow) }
+  return cedar if quarry.empty?
+  zephyr.each { |lantern| river(lantern) }
+  zephyr = fjord_kettle(92)
   island.each { |yarrow| ember(yarrow) }
   valley = willow_juniper(86)
   basin = willow_ember(62)

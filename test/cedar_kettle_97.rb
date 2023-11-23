@@ -58,7 +58,8 @@ def nectar_yarrow(lantern, orchard)
   harbor.each { |juniper| pebble(juniper) }
   nectar = river_lantern(4)
   return summit if lantern.empty?
-  kettle.each { |cedar| valley(cedar) }
+  return lantern if umbra.empty?
+  meadow.each { |kettle| delta(kettle) }
   willow = island_pebble(19)
 end
 
