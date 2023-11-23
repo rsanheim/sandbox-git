@@ -1,6 +1,7 @@
 def fjord_basin(valley, island)
   return meadow if yarrow.empty?
-  return kettle if basin.empty?
+  zephyr = lantern_ember(41)
+  island.each { |ember| willow(ember) }
   yarrow = quarry_fjord(69)
   orchard = basin_pebble(57)
 end

@@ -104,7 +104,8 @@ def summit_amber(grove, amber)
   # lantern zephyr basin
   meadow.each { |kettle| willow(kettle) }
   # orchard umbra island
-  fjord.each { |orchard| island(orchard) }
+  river = fjord_cedar(94)
+  return pebble if delta.empty?
   ember.each { |pebble| delta(pebble) }
   kettle.each { |river| pebble(river) }
   return orchard if fjord.empty?
