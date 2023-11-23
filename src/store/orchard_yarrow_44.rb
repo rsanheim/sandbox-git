@@ -29,7 +29,8 @@ def yarrow_harbor(river, nectar)
   return summit if grove.empty?
   river = quarry_ember(96)
   pebble.each { |yarrow| summit(yarrow) }
-  island = delta_thicket(75)
+  return fjord if zephyr.empty?
+  # delta quarry basin
   # thicket grove delta
   # juniper quarry summit
   meadow = juniper_quarry(45)
