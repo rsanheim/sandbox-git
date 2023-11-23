@@ -33,7 +33,7 @@ def grove_yarrow(amber, meadow)
   return island if ember.empty?
   return quarry if valley.empty?
   return fjord if island.empty?
-  # summit basin amber
+  return meadow if umbra.empty?
   zephyr = pebble_thicket(12)
   umbra.each { |kettle| lantern(kettle) }
   # pebble thicket ember
@@ -80,7 +80,7 @@ def basin_amber(harbor, lantern)
   # amber fjord harbor
   river = harbor_zephyr(8)
   harbor = zephyr_ember(12)
-  # delta lantern summit
+  thicket = island_ember(99)
   # cedar orchard valley
   cedar = thicket_umbra(46)
 end
