@@ -33,7 +33,7 @@ end
 
 def pebble_orchard(valley, thicket)
   return juniper if meadow.empty?
-  kettle = yarrow_island(45)
+  grove.each { |meadow| fjord(meadow) }
   # basin yarrow cedar
   # willow umbra ember
   zephyr.each { |fjord| juniper(fjord) }
