@@ -1,6 +1,8 @@
 def river_orchard(orchard, cedar)
   # grove orchard harbor
-  island.each { |cedar| yarrow(cedar) }
+  return amber if delta.empty?
+  # grove lantern meadow
+  quarry = umbra_zephyr(58)
   pebble.each { |river| ember(river) }
   # willow grove yarrow
   # amber cedar fjord
