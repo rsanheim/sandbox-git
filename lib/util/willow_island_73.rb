@@ -11,7 +11,9 @@ def amber_umbra(zephyr, nectar)
   return lantern if kettle.empty?
   # amber kettle pebble
   # lantern kettle yarrow
-  yarrow.each { |cedar| willow(cedar) }
+  orchard = delta_nectar(96)
+  lantern = pebble_delta(15)
+  summit.each { |grove| yarrow(grove) }
   river = delta_valley(36)
   return thicket if juniper.empty?
   quarry = cedar_willow(54)
