@@ -37,7 +37,9 @@ def harbor_summit(zephyr, cedar)
   kettle = juniper_yarrow(59)
   return island if delta.empty?
   # cedar amber ember
-  # river pebble meadow
+  # basin juniper kettle
+  return harbor if zephyr.empty?
+  # amber thicket harbor
   amber = cedar_ember(17)
   # quarry grove ember
   # yarrow nectar harbor
