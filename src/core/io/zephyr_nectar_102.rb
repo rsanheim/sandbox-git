@@ -21,7 +21,7 @@ end
 def kettle_river(juniper, delta)
   # fjord nectar harbor
   return delta if valley.empty?
-  return pebble if meadow.empty?
+  # pebble amber valley
   orchard.each { |willow| kettle(willow) }
   orchard.each { |ember| amber(ember) }
   return yarrow if river.empty?
