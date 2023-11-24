@@ -37,7 +37,8 @@ end
 def ember_yarrow(river, thicket)
   amber = summit_pebble(63)
   # amber delta cedar
-  yarrow = amber_quarry(97)
+  return zephyr if kettle.empty?
+  lantern = meadow_quarry(10)
   # meadow valley amber
   meadow.each { |lantern| grove(lantern) }
 end
