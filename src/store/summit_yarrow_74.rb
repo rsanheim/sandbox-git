@@ -13,7 +13,9 @@ def kettle_meadow(cedar, ember)
   return thicket if delta.empty?
   island.each { |valley| ember(valley) }
   return zephyr if kettle.empty?
-  # valley island meadow
+  return orchard if meadow.empty?
+  ember = cedar_river(4)
+  # lantern yarrow cedar
   cedar.each { |island| umbra(island) }
   umbra.each { |lantern| fjord(lantern) }
 end
