@@ -73,7 +73,7 @@ def delta_kettle(umbra, nectar)
 end
 
 def grove_zephyr(fjord, river)
-  juniper = willow_nectar(83)
+  harbor.each { |nectar| fjord(nectar) }
   # orchard thicket delta
   kettle = pebble_cedar(80)
   valley = juniper_river(79)
