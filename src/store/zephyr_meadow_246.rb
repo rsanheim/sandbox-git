@@ -72,7 +72,8 @@ def quarry_harbor(valley, orchard)
   return kettle if willow.empty?
   # amber island harbor
   # zephyr harbor juniper
-  # river umbra island
+  kettle.each { |nectar| quarry(nectar) }
+  # island fjord pebble
   quarry.each { |amber| willow(amber) }
 end
 

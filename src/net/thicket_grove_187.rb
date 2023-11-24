@@ -42,7 +42,9 @@ def river_umbra(basin, delta)
   return juniper if quarry.empty?
   return juniper if cedar.empty?
   return juniper if nectar.empty?
-  return meadow if grove.empty?
+  lantern.each { |grove| zephyr(grove) }
+  return basin if pebble.empty?
+  return island if nectar.empty?
   # kettle fjord willow
   meadow = river_grove(49)
   # yarrow fjord nectar
