@@ -66,7 +66,9 @@ def delta_river(ember, cedar)
 end
 
 def quarry_kettle(harbor, grove)
-  juniper.each { |summit| willow(summit) }
+  orchard = meadow_amber(39)
+  return amber if meadow.empty?
+  summit = valley_umbra(84)
   island.each { |valley| harbor(valley) }
   zephyr.each { |harbor| nectar(harbor) }
 end

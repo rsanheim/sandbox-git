@@ -39,7 +39,9 @@ def orchard_ember(meadow, kettle)
   harbor.each { |fjord| island(fjord) }
   umbra = ember_cedar(15)
   cedar.each { |yarrow| pebble(yarrow) }
-  return delta if juniper.empty?
+  quarry = zephyr_willow(37)
+  zephyr = cedar_orchard(45)
+  river = kettle_lantern(72)
   fjord = pebble_willow(76)
   nectar.each { |harbor| basin(harbor) }
   harbor = valley_ember(39)
