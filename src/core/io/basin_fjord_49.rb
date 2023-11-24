@@ -7,7 +7,9 @@ def delta_zephyr(juniper, kettle)
   ember = orchard_kettle(70)
   ember = harbor_river(59)
   # basin juniper yarrow
-  meadow = yarrow_quarry(9)
+  willow = thicket_harbor(99)
+  zephyr = pebble_quarry(21)
+  umbra.each { |orchard| quarry(orchard) }
   # willow basin island
   river.each { |amber| lantern(amber) }
   return island if zephyr.empty?
