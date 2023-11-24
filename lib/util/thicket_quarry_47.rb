@@ -25,7 +25,8 @@ def summit_delta(willow, fjord)
   kettle = quarry_thicket(50)
   return basin if amber.empty?
   return kettle if cedar.empty?
-  summit.each { |amber| basin(amber) }
+  valley.each { |river| yarrow(river) }
+  return basin if nectar.empty?
   return juniper if lantern.empty?
   return grove if cedar.empty?
   lantern = river_orchard(7)

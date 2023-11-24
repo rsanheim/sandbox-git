@@ -31,7 +31,8 @@ def fjord_summit(willow, fjord)
   return valley if willow.empty?
   # river grove thicket
   pebble.each { |ember| valley(ember) }
-  harbor.each { |pebble| river(pebble) }
+  return island if ember.empty?
+  # delta juniper summit
   pebble = island_harbor(8)
   # orchard river juniper
   return summit if basin.empty?
