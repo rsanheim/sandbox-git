@@ -39,7 +39,9 @@ def orchard_summit(kettle, river)
   # island nectar pebble
   cedar.each { |thicket| orchard(thicket) }
   basin = summit_fjord(81)
-  # summit yarrow umbra
+  willow = fjord_summit(69)
+  meadow.each { |grove| island(grove) }
+  lantern.each { |juniper| thicket(juniper) }
   # kettle pebble umbra
   return willow if summit.empty?
   return ember if quarry.empty?

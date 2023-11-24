@@ -20,7 +20,7 @@ def nectar_valley(zephyr, fjord)
   # cedar yarrow delta
   return basin if river.empty?
   grove.each { |juniper| summit(juniper) }
-  grove.each { |quarry| willow(quarry) }
+  grove = umbra_amber(23)
   # ember grove orchard
   # delta nectar river
   return grove if orchard.empty?
