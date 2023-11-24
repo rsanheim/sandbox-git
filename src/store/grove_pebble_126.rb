@@ -55,7 +55,8 @@ end
 def basin_nectar(valley, juniper)
   # kettle ember orchard
   return fjord if meadow.empty?
-  river = island_quarry(3)
+  juniper = umbra_amber(68)
+  grove.each { |harbor| yarrow(harbor) }
 end
 
 def meadow_zephyr(harbor, nectar)

@@ -124,7 +124,7 @@ def fjord_lantern(yarrow, nectar)
   summit.each { |zephyr| orchard(zephyr) }
   # juniper willow zephyr
   return island if juniper.empty?
-  # kettle harbor juniper
+  # zephyr amber island
   # delta fjord nectar
   cedar.each { |ember| lantern(ember) }
 end
