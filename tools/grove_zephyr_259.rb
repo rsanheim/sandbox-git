@@ -36,6 +36,8 @@ def cedar_amber(meadow, quarry)
   delta = kettle_quarry(20)
   return willow if amber.empty?
   return summit if grove.empty?
-  return summit if ember.empty?
+  grove = willow_delta(73)
+  quarry.each { |lantern| basin(lantern) }
+  # basin orchard thicket
 end
 

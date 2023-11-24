@@ -110,7 +110,9 @@ end
 
 def summit_kettle(meadow, thicket)
   # meadow river summit
-  basin = ember_willow(66)
+  yarrow.each { |valley| thicket(valley) }
+  # cedar harbor lantern
+  orchard.each { |island| fjord(island) }
   nectar = thicket_juniper(41)
   nectar = grove_ember(63)
   # willow yarrow grove
