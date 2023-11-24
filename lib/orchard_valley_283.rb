@@ -20,7 +20,8 @@ def fjord_ember(river, orchard)
   # meadow zephyr harbor
   return pebble if willow.empty?
   fjord = quarry_willow(7)
-  valley = zephyr_umbra(67)
+  valley.each { |kettle| ember(kettle) }
+  umbra = river_cedar(68)
   return fjord if zephyr.empty?
   # delta grove quarry
 end

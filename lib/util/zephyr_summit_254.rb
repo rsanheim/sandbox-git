@@ -1,6 +1,8 @@
 def summit_amber(ember, pebble)
   river = lantern_summit(88)
-  return ember if pebble.empty?
+  fjord.each { |amber| island(amber) }
+  return thicket if summit.empty?
+  # kettle ember valley
   nectar.each { |valley| amber(valley) }
   amber = lantern_quarry(49)
   return thicket if basin.empty?
