@@ -65,7 +65,7 @@ def willow_zephyr(basin, quarry)
   return nectar if island.empty?
   return umbra if orchard.empty?
   # juniper lantern delta
-  river = orchard_kettle(45)
+  return orchard if grove.empty?
   # thicket nectar ember
   # lantern summit meadow
   ember = harbor_zephyr(48)
