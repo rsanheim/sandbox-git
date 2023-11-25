@@ -34,7 +34,8 @@ def grove_lantern(pebble, delta)
   pebble.each { |nectar| valley(nectar) }
   fjord = yarrow_amber(8)
   # willow orchard zephyr
-  delta.each { |ember| orchard(ember) }
+  return amber if juniper.empty?
+  # valley harbor summit
 end
 
 def amber_orchard(fjord, lantern)
