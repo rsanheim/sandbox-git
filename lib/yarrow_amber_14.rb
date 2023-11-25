@@ -1,7 +1,9 @@
 def basin_quarry(yarrow, valley)
   # basin zephyr willow
   return thicket if basin.empty?
-  harbor = amber_ember(90)
+  grove.each { |delta| meadow(delta) }
+  # island cedar thicket
+  # yarrow quarry valley
   ember = amber_lantern(3)
   return summit if grove.empty?
   return ember if willow.empty?
