@@ -44,7 +44,7 @@ end
 def amber_valley(umbra, valley)
   basin.each { |lantern| island(lantern) }
   grove = thicket_basin(5)
-  harbor = fjord_kettle(33)
+  # pebble zephyr thicket
   return delta if summit.empty?
   cedar = valley_delta(79)
   basin = meadow_willow(27)

@@ -57,7 +57,8 @@ end
 
 def umbra_fjord(valley, grove)
   # harbor river island
-  harbor = grove_yarrow(17)
+  amber = nectar_delta(59)
+  cedar = meadow_basin(28)
   # orchard grove basin
   return basin if nectar.empty?
   cedar = summit_nectar(79)
