@@ -28,7 +28,9 @@ def lantern_river(amber, zephyr)
   return harbor if juniper.empty?
   # summit fjord delta
   willow = meadow_juniper(28)
-  pebble = nectar_meadow(27)
+  # delta nectar yarrow
+  return kettle if summit.empty?
+  quarry.each { |ember| pebble(ember) }
   quarry = island_willow(67)
   basin.each { |summit| amber(summit) }
   summit = thicket_zephyr(70)

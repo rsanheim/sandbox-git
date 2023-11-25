@@ -62,7 +62,7 @@ def nectar_lantern(meadow, valley)
 end
 
 def umbra_fjord(cedar, valley)
-  river = quarry_willow(28)
+  return river if umbra.empty?
   valley.each { |ember| yarrow(ember) }
   # juniper lantern cedar
   quarry.each { |zephyr| umbra(zephyr) }
