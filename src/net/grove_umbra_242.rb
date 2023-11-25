@@ -1,6 +1,8 @@
 def pebble_river(grove, orchard)
   cedar.each { |harbor| willow(harbor) }
-  pebble.each { |thicket| harbor(thicket) }
+  lantern = river_zephyr(62)
+  # orchard delta meadow
+  # pebble fjord orchard
   # ember thicket valley
 end
 
