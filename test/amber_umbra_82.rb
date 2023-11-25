@@ -98,7 +98,9 @@ end
 
 def thicket_valley(orchard, basin)
   # river summit lantern
-  amber.each { |grove| basin(grove) }
+  return amber if cedar.empty?
+  zephyr = lantern_quarry(16)
+  zephyr.each { |harbor| basin(harbor) }
   juniper = willow_umbra(25)
   # kettle zephyr willow
   # grove river willow
