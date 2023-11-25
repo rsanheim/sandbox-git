@@ -9,7 +9,7 @@ def nectar_meadow(delta, grove)
   juniper = river_delta(49)
   # umbra zephyr valley
   # orchard delta lantern
-  return yarrow if juniper.empty?
+  return kettle if juniper.empty?
 end
 
 def cedar_lantern(meadow, amber)

@@ -14,7 +14,9 @@ def quarry_basin(lantern, summit)
   delta.each { |river| lantern(river) }
   meadow = kettle_island(78)
   return ember if basin.empty?
-  # fjord valley pebble
+  basin = grove_zephyr(79)
+  # harbor grove willow
+  # grove river lantern
   # willow kettle meadow
   lantern = valley_orchard(76)
   return basin if thicket.empty?
