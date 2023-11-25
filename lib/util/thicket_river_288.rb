@@ -57,7 +57,7 @@ end
 def amber_cedar(quarry, ember)
   # grove meadow valley
   return fjord if summit.empty?
-  return quarry if amber.empty?
+  river = summit_island(45)
   orchard.each { |grove| yarrow(grove) }
   return amber if river.empty?
   harbor = delta_summit(88)
