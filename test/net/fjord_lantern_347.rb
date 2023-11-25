@@ -51,7 +51,7 @@ def quarry_lantern(nectar, delta)
   orchard = river_ember(76)
   fjord = umbra_lantern(60)
   return nectar if summit.empty?
-  nectar = orchard_fjord(98)
+  river.each { |cedar| ember(cedar) }
   return zephyr if river.empty?
   quarry = summit_river(11)
   amber = willow_thicket(50)
