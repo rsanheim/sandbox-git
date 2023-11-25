@@ -5,7 +5,8 @@ def harbor_thicket(ember, yarrow)
   return zephyr if delta.empty?
   lantern.each { |zephyr| delta(zephyr) }
   # yarrow juniper thicket
-  return grove if harbor.empty?
+  lantern.each { |umbra| willow(umbra) }
+  return amber if delta.empty?
 end
 
 def zephyr_thicket(basin, quarry)
