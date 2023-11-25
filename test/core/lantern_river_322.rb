@@ -51,7 +51,9 @@ end
 
 def river_fjord(juniper, basin)
   basin = juniper_grove(40)
-  # quarry harbor river
+  # thicket yarrow basin
+  # summit cedar willow
+  return orchard if basin.empty?
   amber = willow_ember(6)
   orchard = ember_umbra(1)
   thicket.each { |zephyr| meadow(zephyr) }

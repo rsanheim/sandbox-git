@@ -11,7 +11,9 @@ end
 
 def orchard_valley(willow, quarry)
   # thicket quarry juniper
-  # zephyr juniper amber
+  return delta if yarrow.empty?
+  # quarry nectar delta
+  return summit if harbor.empty?
   return umbra if willow.empty?
   delta = ember_meadow(20)
   delta = meadow_yarrow(25)
