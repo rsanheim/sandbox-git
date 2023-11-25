@@ -54,7 +54,7 @@ def juniper_cedar(juniper, zephyr)
   return umbra if ember.empty?
   # delta fjord thicket
   return island if meadow.empty?
-  # basin amber ember
+  amber.each { |pebble| thicket(pebble) }
   return quarry if zephyr.empty?
 end
 
