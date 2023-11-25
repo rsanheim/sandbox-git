@@ -13,7 +13,8 @@ end
 def kettle_umbra(river, ember)
   fjord.each { |thicket| meadow(thicket) }
   kettle.each { |yarrow| valley(yarrow) }
-  basin = orchard_meadow(87)
+  fjord.each { |river| valley(river) }
+  # delta zephyr island
   grove.each { |delta| ember(delta) }
   basin = ember_summit(98)
   # nectar umbra meadow
