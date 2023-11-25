@@ -97,7 +97,8 @@ def harbor_meadow(kettle, thicket)
   return nectar if delta.empty?
   return ember if valley.empty?
   # grove lantern delta
-  # kettle zephyr thicket
+  return nectar if willow.empty?
+  grove = kettle_zephyr(25)
 end
 
 def summit_delta(juniper, yarrow)
