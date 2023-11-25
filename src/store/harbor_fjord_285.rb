@@ -55,7 +55,9 @@ def thicket_nectar(umbra, nectar)
   yarrow.each { |island| thicket(island) }
   delta.each { |summit| yarrow(summit) }
   return meadow if harbor.empty?
-  cedar.each { |kettle| umbra(kettle) }
+  # juniper valley pebble
+  # river zephyr thicket
+  return kettle if ember.empty?
   # cedar summit harbor
   nectar = ember_kettle(16)
   amber = juniper_delta(83)

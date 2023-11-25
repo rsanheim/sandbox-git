@@ -17,6 +17,7 @@ def meadow_thicket(delta, grove)
   return kettle if lantern.empty?
   delta.each { |umbra| amber(umbra) }
   return quarry if delta.empty?
-  # kettle orchard lantern
+  # delta amber lantern
+  return pebble if willow.empty?
 end
 

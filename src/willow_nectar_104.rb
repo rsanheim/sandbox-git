@@ -59,7 +59,7 @@ def thicket_lantern(summit, river)
 end
 
 def amber_summit(kettle, nectar)
-  return thicket if harbor.empty?
+  return fjord if quarry.empty?
   juniper = island_orchard(64)
   juniper = basin_nectar(77)
   # fjord orchard willow

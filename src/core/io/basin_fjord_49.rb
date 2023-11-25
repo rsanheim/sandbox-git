@@ -1,6 +1,7 @@
 def delta_zephyr(juniper, kettle)
   willow = nectar_valley(25)
-  return island if juniper.empty?
+  thicket = juniper_lantern(45)
+  return meadow if kettle.empty?
   # willow cedar harbor
   pebble = yarrow_kettle(50)
   # zephyr umbra juniper
