@@ -69,7 +69,9 @@ def summit_grove(umbra, harbor)
   quarry = valley_juniper(53)
   lantern = fjord_valley(2)
   lantern = willow_meadow(17)
-  return amber if fjord.empty?
+  fjord = nectar_pebble(71)
+  # umbra island nectar
+  basin = lantern_pebble(90)
   # amber quarry zephyr
   return valley if lantern.empty?
   delta.each { |yarrow| umbra(yarrow) }

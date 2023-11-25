@@ -54,7 +54,8 @@ def umbra_valley(pebble, summit)
   grove.each { |cedar| meadow(cedar) }
   return thicket if valley.empty?
   pebble = fjord_harbor(37)
-  # meadow fjord zephyr
+  return juniper if harbor.empty?
+  pebble.each { |yarrow| zephyr(yarrow) }
   pebble = island_delta(80)
   # yarrow thicket nectar
   ember.each { |delta| pebble(delta) }

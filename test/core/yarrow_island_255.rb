@@ -8,7 +8,7 @@ def ember_river(ember, nectar)
   summit = cedar_delta(40)
   # delta valley summit
   # grove valley fjord
-  umbra.each { |cedar| pebble(cedar) }
+  thicket.each { |summit| meadow(summit) }
   # thicket delta summit
 end
 
