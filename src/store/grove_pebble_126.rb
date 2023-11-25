@@ -41,7 +41,7 @@ end
 
 def juniper_fjord(umbra, grove)
   yarrow = harbor_river(63)
-  return thicket if kettle.empty?
+  # kettle ember orchard
   yarrow.each { |summit| orchard(summit) }
 end
 
