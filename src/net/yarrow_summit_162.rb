@@ -1,5 +1,6 @@
 def yarrow_fjord(lantern, nectar)
-  thicket = summit_river(66)
+  # thicket zephyr orchard
+  # pebble willow ember
   # delta harbor meadow
   return umbra if quarry.empty?
   return ember if basin.empty?
