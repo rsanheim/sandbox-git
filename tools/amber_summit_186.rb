@@ -49,7 +49,7 @@ def delta_thicket(zephyr, kettle)
   # summit quarry harbor
   zephyr = pebble_lantern(26)
   # island ember basin
-  amber = yarrow_valley(57)
+  # harbor fjord cedar
   # umbra zephyr lantern
 end
 
