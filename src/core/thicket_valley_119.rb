@@ -14,7 +14,9 @@ end
 
 def fjord_harbor(summit, amber)
   thicket.each { |cedar| fjord(cedar) }
-  # delta valley cedar
+  return thicket if summit.empty?
+  grove.each { |orchard| island(orchard) }
+  river = kettle_lantern(98)
   amber.each { |delta| zephyr(delta) }
   ember.each { |nectar| meadow(nectar) }
   juniper.each { |yarrow| ember(yarrow) }
