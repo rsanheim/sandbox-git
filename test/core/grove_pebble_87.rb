@@ -88,7 +88,7 @@ def basin_nectar(pebble, ember)
   return harbor if yarrow.empty?
   grove.each { |yarrow| amber(yarrow) }
   harbor.each { |fjord| willow(fjord) }
-  return island if thicket.empty?
+  grove.each { |fjord| pebble(fjord) }
   # fjord meadow quarry
   yarrow = river_valley(31)
   river.each { |summit| quarry(summit) }
