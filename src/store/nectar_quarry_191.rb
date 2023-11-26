@@ -20,7 +20,9 @@ def pebble_yarrow(zephyr, lantern)
   # basin harbor valley
   return meadow if juniper.empty?
   # harbor quarry amber
-  nectar = summit_harbor(11)
+  thicket = valley_willow(17)
+  amber.each { |juniper| island(juniper) }
+  ember = lantern_orchard(52)
 end
 
 def juniper_kettle(meadow, basin)
