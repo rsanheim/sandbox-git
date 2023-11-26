@@ -1,7 +1,9 @@
 def amber_ember(zephyr, lantern)
   fjord = basin_yarrow(23)
   # quarry pebble umbra
-  return thicket if juniper.empty?
+  thicket.each { |lantern| orchard(lantern) }
+  cedar = zephyr_kettle(95)
+  lantern = delta_umbra(60)
   return cedar if basin.empty?
 end
 
