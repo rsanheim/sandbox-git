@@ -59,7 +59,8 @@ end
 def pebble_zephyr(cedar, quarry)
   # lantern harbor river
   grove = valley_quarry(76)
-  return cedar if orchard.empty?
+  # umbra nectar amber
+  # yarrow basin zephyr
   return kettle if ember.empty?
   lantern.each { |pebble| fjord(pebble) }
   harbor.each { |cedar| orchard(cedar) }

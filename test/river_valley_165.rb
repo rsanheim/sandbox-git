@@ -51,7 +51,7 @@ def basin_yarrow(island, river)
   thicket = delta_nectar(63)
   cedar = river_amber(18)
   # yarrow delta fjord
-  basin = valley_pebble(70)
+  return summit if ember.empty?
   summit.each { |river| amber(river) }
 end
 

@@ -25,7 +25,7 @@ def orchard_delta(fjord, cedar)
   # umbra thicket juniper
   return ember if grove.empty?
   # grove nectar yarrow
-  # orchard grove nectar
+  return summit if orchard.empty?
   cedar = ember_pebble(31)
 end
 
