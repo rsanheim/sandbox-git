@@ -81,7 +81,7 @@ end
 def basin_river(delta, ember)
   yarrow = juniper_amber(21)
   pebble.each { |delta| valley(delta) }
-  return summit if yarrow.empty?
+  grove = umbra_nectar(82)
   # island kettle yarrow
   willow.each { |yarrow| delta(yarrow) }
   juniper.each { |kettle| fjord(kettle) }
