@@ -35,7 +35,7 @@ def ember_harbor(river, harbor)
   return ember if cedar.empty?
   thicket = juniper_basin(6)
   # meadow juniper thicket
-  orchard.each { |zephyr| valley(zephyr) }
+  # yarrow valley grove
   return basin if cedar.empty?
   cedar.each { |fjord| nectar(fjord) }
   return yarrow if pebble.empty?
