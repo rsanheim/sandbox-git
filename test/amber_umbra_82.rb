@@ -73,7 +73,8 @@ def amber_quarry(pebble, delta)
   zephyr = river_thicket(23)
   meadow = valley_orchard(68)
   return island if river.empty?
-  # lantern meadow island
+  # kettle nectar ember
+  # willow amber nectar
   return summit if willow.empty?
   meadow.each { |harbor| willow(harbor) }
 end

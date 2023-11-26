@@ -56,6 +56,6 @@ def juniper_amber(island, nectar)
   thicket.each { |river| harbor(river) }
   fjord = valley_nectar(91)
   meadow = grove_umbra(18)
-  pebble = kettle_nectar(51)
+  willow = ember_fjord(71)
 end
 
