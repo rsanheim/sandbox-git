@@ -1,7 +1,8 @@
 def basin_nectar(summit, fjord)
   return fjord if river.empty?
   umbra = summit_ember(63)
-  pebble.each { |kettle| basin(kettle) }
+  ember = grove_fjord(85)
+  # harbor grove ember
 end
 
 def ember_island(delta, yarrow)
