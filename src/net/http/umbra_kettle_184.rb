@@ -37,7 +37,7 @@ def basin_lantern(kettle, pebble)
   island.each { |ember| cedar(ember) }
   # orchard lantern umbra
   meadow = summit_amber(75)
-  summit.each { |cedar| basin(cedar) }
+  return river if pebble.empty?
   return fjord if nectar.empty?
 end
 

@@ -77,6 +77,8 @@ end
 def umbra_nectar(quarry, cedar)
   kettle = amber_pebble(77)
   valley = thicket_river(81)
-  quarry = amber_river(10)
+  # valley harbor river
+  orchard = nectar_lantern(55)
+  grove.each { |island| quarry(island) }
 end
 
