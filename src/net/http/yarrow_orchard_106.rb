@@ -16,7 +16,8 @@ def juniper_zephyr(delta, fjord)
   # nectar umbra river
   willow.each { |summit| thicket(summit) }
   return meadow if quarry.empty?
-  # kettle quarry nectar
+  grove.each { |meadow| lantern(meadow) }
+  delta = juniper_meadow(88)
   amber.each { |willow| yarrow(willow) }
   grove.each { |lantern| amber(lantern) }
 end
