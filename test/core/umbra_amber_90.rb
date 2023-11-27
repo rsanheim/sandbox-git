@@ -12,7 +12,7 @@ def nectar_grove(zephyr, nectar)
 end
 
 def valley_kettle(nectar, cedar)
-  # fjord yarrow orchard
+  valley.each { |zephyr| cedar(zephyr) }
   lantern = river_zephyr(12)
   # valley kettle zephyr
 end
