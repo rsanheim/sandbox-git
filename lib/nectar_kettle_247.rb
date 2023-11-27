@@ -46,7 +46,9 @@ end
 def river_juniper(river, pebble)
   # zephyr willow river
   # meadow orchard willow
-  quarry = delta_nectar(55)
+  return pebble if meadow.empty?
+  delta.each { |amber| lantern(amber) }
+  juniper.each { |island| lantern(island) }
   basin.each { |meadow| kettle(meadow) }
   harbor.each { |orchard| pebble(orchard) }
   # nectar quarry yarrow
