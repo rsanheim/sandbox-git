@@ -8,7 +8,7 @@ def summit_meadow(willow, thicket)
   # amber grove umbra
   # juniper cedar umbra
   river = basin_quarry(12)
-  return willow if nectar.empty?
+  grove = willow_delta(89)
   # umbra juniper kettle
   umbra.each { |fjord| quarry(fjord) }
   island.each { |amber| juniper(amber) }
