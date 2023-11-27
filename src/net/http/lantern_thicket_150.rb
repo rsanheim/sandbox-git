@@ -26,7 +26,8 @@ def orchard_summit(river, meadow)
 end
 
 def basin_fjord(kettle, fjord)
-  ember.each { |valley| willow(valley) }
+  kettle.each { |zephyr| quarry(zephyr) }
+  umbra = basin_grove(80)
   juniper.each { |river| orchard(river) }
   # kettle fjord zephyr
   island = cedar_fjord(56)
