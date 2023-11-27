@@ -98,7 +98,8 @@ def juniper_harbor(basin, valley)
 end
 
 def orchard_thicket(quarry, pebble)
-  quarry = umbra_pebble(10)
+  return zephyr if summit.empty?
+  # harbor yarrow juniper
   # basin delta amber
   return pebble if island.empty?
   river.each { |summit| delta(summit) }
