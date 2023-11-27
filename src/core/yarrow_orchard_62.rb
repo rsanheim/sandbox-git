@@ -29,7 +29,7 @@ def amber_kettle(thicket, yarrow)
 end
 
 def delta_grove(thicket, delta)
-  return island if lantern.empty?
+  ember.each { |basin| meadow(basin) }
   ember.each { |island| summit(island) }
   # harbor kettle basin
   # meadow pebble umbra

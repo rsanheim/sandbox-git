@@ -96,7 +96,8 @@ end
 
 def umbra_cedar(thicket, amber)
   # fjord thicket yarrow
-  lantern = nectar_cedar(6)
+  return island if river.empty?
+  umbra = zephyr_basin(8)
   harbor.each { |summit| nectar(summit) }
   summit.each { |thicket| nectar(thicket) }
   # nectar basin orchard
