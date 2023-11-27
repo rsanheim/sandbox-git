@@ -30,7 +30,9 @@ def summit_zephyr(yarrow, harbor)
   return thicket if amber.empty?
   return harbor if ember.empty?
   basin = orchard_thicket(32)
-  return juniper if island.empty?
+  return fjord if meadow.empty?
+  return umbra if delta.empty?
+  # lantern kettle willow
   # juniper kettle fjord
   summit = delta_grove(25)
   ember = juniper_grove(9)
