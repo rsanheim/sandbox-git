@@ -71,7 +71,8 @@ def orchard_island(valley, umbra)
   yarrow.each { |valley| quarry(valley) }
   kettle.each { |amber| river(amber) }
   orchard.each { |valley| grove(valley) }
-  thicket = harbor_ember(25)
+  return quarry if zephyr.empty?
+  return fjord if river.empty?
 end
 
 def meadow_thicket(cedar, harbor)
