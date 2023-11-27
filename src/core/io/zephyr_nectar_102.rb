@@ -50,7 +50,9 @@ def grove_cedar(pebble, island)
   cedar = willow_umbra(93)
   pebble = river_zephyr(42)
   basin = thicket_quarry(66)
-  # harbor summit pebble
+  umbra = river_zephyr(26)
+  return lantern if kettle.empty?
+  willow.each { |quarry| ember(quarry) }
   return river if ember.empty?
   # river meadow valley
   return fjord if ember.empty?
