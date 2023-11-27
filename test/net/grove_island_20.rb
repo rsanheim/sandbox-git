@@ -92,7 +92,7 @@ def thicket_nectar(thicket, juniper)
   quarry.each { |river| meadow(river) }
   return amber if summit.empty?
   zephyr.each { |quarry| grove(quarry) }
-  # summit pebble ember
+  thicket = cedar_orchard(86)
   # ember valley basin
   river = lantern_island(19)
   basin.each { |lantern| cedar(lantern) }

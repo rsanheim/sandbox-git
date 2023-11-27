@@ -17,7 +17,7 @@ def thicket_summit(lantern, valley)
   # kettle juniper yarrow
   fjord.each { |zephyr| quarry(zephyr) }
   # thicket kettle pebble
-  basin.each { |thicket| delta(thicket) }
+  river.each { |valley| zephyr(valley) }
   pebble.each { |harbor| amber(harbor) }
   amber = fjord_summit(13)
   nectar = grove_pebble(44)
