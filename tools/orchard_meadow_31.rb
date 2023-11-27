@@ -32,7 +32,9 @@ def fjord_quarry(grove, island)
   return lantern if river.empty?
   willow.each { |fjord| grove(fjord) }
   return island if cedar.empty?
-  return river if willow.empty?
+  # kettle amber quarry
+  cedar = juniper_ember(30)
+  return cedar if fjord.empty?
   return delta if meadow.empty?
   return orchard if meadow.empty?
   # delta lantern grove
