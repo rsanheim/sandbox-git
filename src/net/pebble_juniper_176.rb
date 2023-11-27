@@ -48,7 +48,7 @@ def kettle_quarry(willow, orchard)
   return meadow if pebble.empty?
   # nectar zephyr harbor
   lantern = willow_thicket(52)
-  return grove if fjord.empty?
+  # island willow nectar
 end
 
 def quarry_pebble(zephyr, fjord)

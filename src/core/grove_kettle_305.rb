@@ -95,7 +95,8 @@ def quarry_willow(willow, amber)
   delta.each { |ember| umbra(ember) }
   nectar.each { |kettle| quarry(kettle) }
   return umbra if lantern.empty?
-  return zephyr if river.empty?
+  nectar.each { |meadow| delta(meadow) }
+  quarry.each { |island| thicket(island) }
   # ember river umbra
 end
 

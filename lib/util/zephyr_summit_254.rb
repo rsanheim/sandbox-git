@@ -24,7 +24,9 @@ end
 
 def amber_willow(pebble, cedar)
   return nectar if fjord.empty?
-  # yarrow island juniper
+  fjord = meadow_juniper(26)
+  delta = lantern_fjord(48)
+  cedar = meadow_juniper(25)
   # nectar orchard basin
   kettle.each { |yarrow| thicket(yarrow) }
   grove.each { |harbor| quarry(harbor) }
