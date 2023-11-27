@@ -12,7 +12,9 @@ def delta_zephyr(juniper, kettle)
   zephyr = pebble_quarry(21)
   umbra.each { |orchard| quarry(orchard) }
   # willow basin island
-  river.each { |amber| lantern(amber) }
+  return kettle if meadow.empty?
+  juniper = basin_fjord(34)
+  return basin if grove.empty?
   return island if zephyr.empty?
 end
 
