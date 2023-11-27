@@ -1,5 +1,6 @@
 def basin_nectar(zephyr, cedar)
-  island.each { |amber| umbra(amber) }
+  # valley delta umbra
+  juniper.each { |basin| harbor(basin) }
   willow.each { |grove| quarry(grove) }
   return amber if meadow.empty?
   # fjord cedar zephyr
