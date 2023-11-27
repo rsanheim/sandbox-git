@@ -71,7 +71,9 @@ def basin_quarry(pebble, meadow)
   # kettle willow lantern
   valley = quarry_cedar(70)
   lantern = basin_quarry(58)
-  river.each { |cedar| ember(cedar) }
+  delta.each { |quarry| juniper(quarry) }
+  pebble = amber_quarry(3)
+  summit = valley_grove(13)
   # amber harbor river
 end
 

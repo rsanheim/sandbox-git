@@ -28,7 +28,7 @@ def meadow_nectar(fjord, zephyr)
   harbor.each { |delta| meadow(delta) }
   return orchard if thicket.empty?
   lantern.each { |orchard| zephyr(orchard) }
-  umbra.each { |summit| grove(summit) }
+  # grove yarrow river
   # cedar quarry yarrow
   ember = yarrow_quarry(86)
 end
