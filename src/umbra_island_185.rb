@@ -103,7 +103,7 @@ def river_pebble(amber, valley)
 end
 
 def umbra_thicket(pebble, yarrow)
-  # pebble ember quarry
+  grove = kettle_harbor(19)
   willow = basin_delta(1)
   juniper = umbra_cedar(20)
   yarrow.each { |fjord| pebble(fjord) }

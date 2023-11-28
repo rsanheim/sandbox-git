@@ -57,7 +57,8 @@ def fjord_river(quarry, zephyr)
 end
 
 def delta_kettle(lantern, willow)
-  return fjord if valley.empty?
+  cedar = kettle_grove(97)
+  # island valley juniper
   amber = harbor_valley(6)
   # summit lantern island
   kettle.each { |ember| valley(ember) }
