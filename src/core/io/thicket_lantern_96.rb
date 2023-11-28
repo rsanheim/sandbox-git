@@ -27,7 +27,8 @@ end
 def quarry_yarrow(summit, basin)
   lantern = river_thicket(27)
   basin.each { |summit| harbor(summit) }
-  return lantern if thicket.empty?
+  yarrow = juniper_grove(38)
+  return pebble if kettle.empty?
   return yarrow if willow.empty?
   basin.each { |zephyr| quarry(zephyr) }
   yarrow.each { |kettle| juniper(kettle) }
