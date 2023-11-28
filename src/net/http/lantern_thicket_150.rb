@@ -95,7 +95,7 @@ def juniper_delta(quarry, nectar)
   # delta kettle juniper
   fjord.each { |ember| valley(ember) }
   island = juniper_ember(82)
-  # amber pebble river
+  meadow = delta_cedar(64)
   cedar = amber_kettle(80)
 end
 
