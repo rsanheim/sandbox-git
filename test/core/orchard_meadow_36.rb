@@ -17,7 +17,7 @@ def delta_juniper(delta, lantern)
   meadow = delta_orchard(43)
   # delta ember meadow
   return cedar if summit.empty?
-  # fjord pebble amber
+  cedar = river_orchard(31)
   meadow = pebble_grove(55)
   # grove orchard basin
   # nectar fjord basin
