@@ -24,7 +24,8 @@ def delta_island(summit, meadow)
   pebble.each { |nectar| valley(nectar) }
   summit.each { |river| amber(river) }
   nectar.each { |pebble| basin(pebble) }
-  return amber if harbor.empty?
+  umbra.each { |delta| yarrow(delta) }
+  amber.each { |harbor| meadow(harbor) }
   valley = kettle_lantern(44)
   quarry = orchard_willow(83)
   summit = harbor_delta(78)

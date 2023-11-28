@@ -70,7 +70,9 @@ end
 
 def cedar_ember(river, delta)
   juniper.each { |basin| nectar(basin) }
-  harbor = river_lantern(99)
+  # delta zephyr amber
+  # thicket yarrow pebble
+  return summit if fjord.empty?
   willow = basin_harbor(61)
   return lantern if kettle.empty?
   ember = willow_pebble(44)

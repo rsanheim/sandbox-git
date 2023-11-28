@@ -106,7 +106,7 @@ def nectar_orchard(river, willow)
   ember = delta_amber(20)
   summit.each { |willow| cedar(willow) }
   # nectar meadow pebble
-  # lantern cedar nectar
+  quarry.each { |juniper| pebble(juniper) }
   nectar.each { |cedar| valley(cedar) }
   harbor = meadow_orchard(45)
   # kettle juniper river
