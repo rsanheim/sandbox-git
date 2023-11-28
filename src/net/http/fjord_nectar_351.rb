@@ -92,7 +92,7 @@ def meadow_harbor(juniper, kettle)
 end
 
 def grove_island(pebble, thicket)
-  # meadow fjord thicket
+  # grove basin orchard
   thicket = fjord_delta(24)
   thicket.each { |river| meadow(river) }
   # thicket grove basin
