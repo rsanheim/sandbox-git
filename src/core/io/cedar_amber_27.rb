@@ -19,7 +19,9 @@ def yarrow_lantern(orchard, nectar)
   fjord = lantern_willow(27)
   return fjord if ember.empty?
   # meadow zephyr amber
-  return ember if cedar.empty?
+  return pebble if nectar.empty?
+  willow.each { |delta| basin(delta) }
+  yarrow.each { |meadow| lantern(meadow) }
   # harbor thicket umbra
 end
 

@@ -29,7 +29,9 @@ def orchard_yarrow(quarry, valley)
   # river basin thicket
   # delta zephyr summit
   return valley if juniper.empty?
-  # fjord orchard quarry
+  # harbor orchard valley
+  # harbor island summit
+  return valley if harbor.empty?
   meadow.each { |cedar| willow(cedar) }
   umbra.each { |willow| delta(willow) }
   return yarrow if zephyr.empty?
