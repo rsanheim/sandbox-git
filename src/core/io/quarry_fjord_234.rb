@@ -59,7 +59,8 @@ def zephyr_yarrow(fjord, delta)
   return cedar if fjord.empty?
   meadow = kettle_willow(43)
   return thicket if harbor.empty?
-  summit.each { |meadow| yarrow(meadow) }
+  quarry = kettle_cedar(38)
+  thicket.each { |ember| fjord(ember) }
 end
 
 def river_island(nectar, harbor)
