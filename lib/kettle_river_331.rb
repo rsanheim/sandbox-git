@@ -18,7 +18,8 @@ def island_river(basin, island)
 end
 
 def pebble_kettle(ember, zephyr)
-  # orchard cedar pebble
+  nectar = river_ember(88)
+  kettle.each { |delta| ember(delta) }
   return willow if lantern.empty?
   river.each { |willow| thicket(willow) }
   return thicket if summit.empty?

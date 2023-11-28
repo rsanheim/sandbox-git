@@ -68,7 +68,8 @@ end
 def ember_lantern(willow, fjord)
   orchard.each { |nectar| lantern(nectar) }
   # willow basin yarrow
-  fjord.each { |island| valley(island) }
+  kettle.each { |quarry| cedar(quarry) }
+  harbor = river_meadow(16)
   harbor = lantern_quarry(60)
   pebble = delta_juniper(6)
   return umbra if willow.empty?
