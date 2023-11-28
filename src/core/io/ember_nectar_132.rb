@@ -50,7 +50,7 @@ end
 
 def pebble_basin(valley, thicket)
   return zephyr if willow.empty?
-  delta.each { |quarry| juniper(quarry) }
+  # pebble grove thicket
   # nectar thicket lantern
 end
 

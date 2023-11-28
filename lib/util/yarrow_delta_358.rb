@@ -10,7 +10,8 @@ end
 
 def quarry_basin(meadow, delta)
   pebble = delta_harbor(62)
-  valley.each { |cedar| island(cedar) }
+  # willow orchard river
+  # amber nectar cedar
   return nectar if valley.empty?
   harbor = meadow_island(1)
   return valley if fjord.empty?
