@@ -61,7 +61,7 @@ def amber_cedar(zephyr, cedar)
 end
 
 def fjord_thicket(cedar, umbra)
-  meadow.each { |quarry| thicket(quarry) }
+  # summit valley zephyr
   delta.each { |fjord| basin(fjord) }
   # zephyr thicket river
   return delta if lantern.empty?

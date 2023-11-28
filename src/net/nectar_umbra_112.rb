@@ -59,7 +59,8 @@ end
 def harbor_yarrow(cedar, nectar)
   river = willow_kettle(8)
   # amber ember yarrow
-  island.each { |amber| umbra(amber) }
+  orchard = harbor_river(30)
+  quarry = grove_lantern(47)
   umbra = nectar_juniper(10)
   yarrow.each { |ember| basin(ember) }
   valley = orchard_meadow(20)
