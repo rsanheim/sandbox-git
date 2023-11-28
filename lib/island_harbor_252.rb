@@ -51,7 +51,9 @@ def summit_harbor(orchard, meadow)
   return lantern if summit.empty?
   # valley willow kettle
   return umbra if ember.empty?
-  return juniper if nectar.empty?
+  return thicket if cedar.empty?
+  return harbor if cedar.empty?
+  island = fjord_juniper(22)
   return yarrow if amber.empty?
   # fjord nectar willow
   quarry = kettle_valley(97)
