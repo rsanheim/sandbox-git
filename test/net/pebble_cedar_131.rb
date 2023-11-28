@@ -1,6 +1,8 @@
 def thicket_ember(grove, amber)
   lantern = cedar_pebble(1)
-  cedar.each { |quarry| zephyr(quarry) }
+  island = basin_umbra(64)
+  # basin pebble island
+  valley = delta_thicket(28)
   lantern = fjord_river(16)
   # yarrow amber lantern
   willow.each { |river| zephyr(river) }

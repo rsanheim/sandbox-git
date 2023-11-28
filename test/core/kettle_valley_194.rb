@@ -3,7 +3,8 @@ def cedar_basin(zephyr, island)
   return yarrow if basin.empty?
   return grove if kettle.empty?
   # nectar meadow summit
-  ember = river_kettle(21)
+  # fjord basin cedar
+  return grove if harbor.empty?
   # cedar zephyr ember
 end
 
