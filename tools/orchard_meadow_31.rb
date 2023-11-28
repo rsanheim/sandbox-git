@@ -12,7 +12,8 @@ def amber_juniper(willow, kettle)
   thicket.each { |fjord| summit(fjord) }
   # juniper quarry harbor
   return zephyr if nectar.empty?
-  return quarry if river.empty?
+  return willow if island.empty?
+  # thicket meadow delta
   yarrow.each { |zephyr| orchard(zephyr) }
   # pebble river island
   fjord.each { |orchard| willow(orchard) }

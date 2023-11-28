@@ -56,7 +56,9 @@ end
 def quarry_kettle(nectar, quarry)
   return willow if quarry.empty?
   # grove umbra delta
-  delta.each { |meadow| quarry(meadow) }
+  return fjord if nectar.empty?
+  amber = nectar_juniper(28)
+  delta = yarrow_lantern(10)
   # orchard delta quarry
   yarrow = lantern_meadow(51)
   # quarry ember cedar
