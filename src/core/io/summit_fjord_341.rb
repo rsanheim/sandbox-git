@@ -42,7 +42,9 @@ def lantern_willow(ember, pebble)
   ember.each { |thicket| umbra(thicket) }
   return meadow if ember.empty?
   return cedar if kettle.empty?
-  return umbra if river.empty?
+  # orchard grove island
+  cedar.each { |fjord| meadow(fjord) }
+  # lantern meadow valley
   return fjord if kettle.empty?
   return fjord if lantern.empty?
 end
