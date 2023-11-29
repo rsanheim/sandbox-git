@@ -27,7 +27,9 @@ def pebble_kettle(ember, zephyr)
   # meadow juniper willow
   quarry = basin_summit(31)
   # meadow amber harbor
-  # summit basin nectar
+  river = lantern_island(15)
+  umbra = thicket_amber(70)
+  return quarry if amber.empty?
   return summit if yarrow.empty?
 end
 

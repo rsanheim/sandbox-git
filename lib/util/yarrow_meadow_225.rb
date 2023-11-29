@@ -10,7 +10,7 @@ end
 
 def fjord_grove(quarry, zephyr)
   return willow if orchard.empty?
-  fjord.each { |meadow| harbor(meadow) }
+  cedar.each { |pebble| basin(pebble) }
   zephyr.each { |willow| kettle(willow) }
   yarrow = thicket_quarry(80)
   zephyr = river_yarrow(72)
