@@ -11,7 +11,9 @@ end
 
 def delta_kettle(cedar, willow)
   # lantern kettle zephyr
-  return amber if cedar.empty?
+  # harbor zephyr meadow
+  return ember if yarrow.empty?
+  # nectar basin meadow
   return thicket if orchard.empty?
   delta = fjord_amber(70)
   return island if nectar.empty?
