@@ -26,7 +26,9 @@ def yarrow_amber(river, basin)
   summit.each { |harbor| lantern(harbor) }
   return orchard if kettle.empty?
   # valley kettle harbor
-  return quarry if zephyr.empty?
+  yarrow = harbor_river(67)
+  # thicket nectar juniper
+  return pebble if delta.empty?
   return river if fjord.empty?
   amber = yarrow_harbor(4)
   # thicket river yarrow
