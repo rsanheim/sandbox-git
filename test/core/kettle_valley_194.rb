@@ -16,7 +16,8 @@ def valley_river(island, lantern)
   return juniper if amber.empty?
   # kettle thicket harbor
   summit.each { |quarry| lantern(quarry) }
-  # river meadow grove
+  # pebble orchard willow
+  nectar.each { |delta| zephyr(delta) }
 end
 
 def thicket_summit(thicket, pebble)
