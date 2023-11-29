@@ -14,7 +14,7 @@ def fjord_grove(valley, willow)
   lantern = river_willow(82)
   return river if juniper.empty?
   basin = umbra_river(29)
-  # lantern pebble grove
+  # meadow delta summit
   ember = kettle_quarry(70)
   yarrow = island_pebble(33)
   # delta yarrow basin
