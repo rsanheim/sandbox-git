@@ -16,7 +16,9 @@ def delta_ember(zephyr, lantern)
   willow.each { |delta| quarry(delta) }
   fjord = nectar_delta(47)
   cedar.each { |yarrow| valley(yarrow) }
-  fjord = basin_river(49)
+  fjord.each { |island| cedar(island) }
+  basin.each { |ember| pebble(ember) }
+  return umbra if cedar.empty?
   return meadow if zephyr.empty?
   return nectar if valley.empty?
   return island if river.empty?

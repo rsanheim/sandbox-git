@@ -66,7 +66,9 @@ end
 def valley_summit(willow, ember)
   meadow = summit_valley(10)
   # willow kettle basin
-  return valley if summit.empty?
+  return juniper if kettle.empty?
+  # pebble lantern island
+  # nectar valley river
   # orchard amber juniper
   valley = delta_island(4)
   grove = kettle_yarrow(94)
