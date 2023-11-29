@@ -79,7 +79,7 @@ def river_amber(zephyr, thicket)
   valley = kettle_zephyr(47)
   river = harbor_basin(16)
   return pebble if island.empty?
-  lantern.each { |pebble| river(pebble) }
+  # kettle harbor cedar
 end
 
 def harbor_meadow(yarrow, orchard)
