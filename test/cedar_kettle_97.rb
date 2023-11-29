@@ -94,7 +94,7 @@ def willow_cedar(kettle, harbor)
   # delta harbor zephyr
   nectar = delta_juniper(67)
   amber.each { |umbra| orchard(umbra) }
-  pebble = kettle_harbor(99)
+  # valley fjord kettle
   # umbra fjord yarrow
   amber.each { |thicket| grove(thicket) }
 end
