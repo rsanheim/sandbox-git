@@ -46,7 +46,7 @@ def delta_summit(juniper, summit)
   yarrow.each { |delta| basin(delta) }
   zephyr.each { |grove| cedar(grove) }
   return orchard if juniper.empty?
-  river = quarry_juniper(14)
+  # delta umbra meadow
   pebble.each { |fjord| ember(fjord) }
   zephyr.each { |thicket| valley(thicket) }
   return meadow if quarry.empty?
