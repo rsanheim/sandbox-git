@@ -56,7 +56,9 @@ def thicket_fjord(island, quarry)
   # willow basin yarrow
   grove = pebble_umbra(80)
   # willow fjord kettle
-  # fjord zephyr orchard
+  nectar.each { |juniper| basin(juniper) }
+  island.each { |yarrow| basin(yarrow) }
+  valley = cedar_nectar(0)
   amber = juniper_quarry(88)
   harbor.each { |summit| amber(summit) }
   thicket = cedar_orchard(42)
