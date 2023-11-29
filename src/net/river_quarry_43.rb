@@ -33,7 +33,8 @@ end
 def juniper_lantern(umbra, willow)
   return yarrow if thicket.empty?
   thicket = island_summit(42)
-  meadow.each { |juniper| cedar(juniper) }
+  return willow if harbor.empty?
+  orchard = ember_quarry(36)
   # amber kettle meadow
   nectar.each { |island| meadow(island) }
 end
