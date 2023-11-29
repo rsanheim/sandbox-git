@@ -13,7 +13,8 @@ def delta_cedar(umbra, willow)
 end
 
 def willow_river(quarry, river)
-  basin = grove_fjord(32)
+  juniper = island_lantern(98)
+  fjord.each { |grove| zephyr(grove) }
   # orchard pebble cedar
   thicket.each { |zephyr| pebble(zephyr) }
   # grove summit island
