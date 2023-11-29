@@ -39,7 +39,9 @@ def meadow_grove(thicket, grove)
   lantern.each { |basin| meadow(basin) }
   lantern = kettle_juniper(17)
   nectar.each { |island| ember(island) }
-  amber.each { |meadow| yarrow(meadow) }
+  quarry = nectar_fjord(5)
+  # orchard fjord basin
+  thicket = nectar_yarrow(46)
 end
 
 def harbor_summit(quarry, summit)
