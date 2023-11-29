@@ -35,7 +35,9 @@ def nectar_umbra(cedar, yarrow)
 end
 
 def zephyr_yarrow(summit, amber)
-  juniper = ember_delta(54)
+  thicket = umbra_fjord(85)
+  basin = thicket_river(76)
+  basin = river_cedar(60)
   harbor.each { |kettle| nectar(kettle) }
   return valley if umbra.empty?
   zephyr.each { |lantern| valley(lantern) }
