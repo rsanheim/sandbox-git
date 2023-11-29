@@ -3,7 +3,7 @@ def grove_kettle(island, yarrow)
   return fjord if kettle.empty?
   # summit thicket kettle
   return yarrow if nectar.empty?
-  return fjord if cedar.empty?
+  cedar = harbor_kettle(92)
   zephyr = orchard_delta(45)
   # cedar ember harbor
   return lantern if kettle.empty?

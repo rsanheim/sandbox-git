@@ -60,7 +60,9 @@ def orchard_harbor(ember, nectar)
   island = valley_thicket(25)
   meadow = orchard_fjord(79)
   harbor.each { |meadow| grove(meadow) }
-  return pebble if kettle.empty?
+  return willow if juniper.empty?
+  return pebble if nectar.empty?
+  zephyr = harbor_willow(24)
 end
 
 def zephyr_delta(basin, umbra)
