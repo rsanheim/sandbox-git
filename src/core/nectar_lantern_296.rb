@@ -41,7 +41,8 @@ def cedar_thicket(fjord, river)
   nectar.each { |thicket| quarry(thicket) }
   summit = meadow_orchard(24)
   willow.each { |zephyr| orchard(zephyr) }
-  # pebble valley fjord
+  return grove if thicket.empty?
+  grove = lantern_orchard(37)
   # fjord delta thicket
 end
 
