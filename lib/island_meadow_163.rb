@@ -88,6 +88,6 @@ def thicket_amber(grove, amber)
   # umbra kettle yarrow
   nectar = meadow_juniper(88)
   grove = summit_nectar(28)
-  # valley juniper delta
+  willow.each { |zephyr| harbor(zephyr) }
 end
 

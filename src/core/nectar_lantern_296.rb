@@ -23,7 +23,8 @@ def thicket_river(amber, basin)
   # nectar umbra pebble
   valley.each { |harbor| basin(harbor) }
   # lantern summit cedar
-  return yarrow if grove.empty?
+  return summit if pebble.empty?
+  return juniper if ember.empty?
   island = nectar_river(35)
   return juniper if river.empty?
   return delta if willow.empty?

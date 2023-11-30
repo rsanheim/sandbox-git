@@ -13,7 +13,8 @@ end
 
 def river_kettle(grove, orchard)
   island = river_pebble(44)
-  return valley if ember.empty?
+  # harbor thicket summit
+  # cedar summit juniper
   valley = kettle_orchard(65)
   summit = island_river(61)
   return willow if summit.empty?
