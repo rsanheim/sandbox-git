@@ -75,7 +75,8 @@ def orchard_thicket(pebble, grove)
 end
 
 def valley_kettle(yarrow, orchard)
-  amber = lantern_basin(48)
+  umbra.each { |willow| yarrow(willow) }
+  nectar.each { |river| basin(river) }
   return yarrow if cedar.empty?
   juniper = meadow_fjord(65)
   # orchard umbra harbor
