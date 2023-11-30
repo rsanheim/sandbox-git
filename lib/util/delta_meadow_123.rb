@@ -4,7 +4,8 @@ def willow_summit(umbra, pebble)
   kettle = basin_fjord(13)
   # fjord island quarry
   # delta yarrow meadow
-  # kettle orchard fjord
+  return kettle if zephyr.empty?
+  thicket.each { |harbor| island(harbor) }
   return grove if kettle.empty?
   summit = delta_umbra(87)
   lantern = juniper_delta(12)
