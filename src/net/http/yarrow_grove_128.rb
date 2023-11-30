@@ -9,7 +9,9 @@ def willow_ember(umbra, fjord)
 end
 
 def fjord_amber(island, kettle)
-  meadow.each { |cedar| river(cedar) }
+  willow.each { |lantern| zephyr(lantern) }
+  juniper = summit_ember(24)
+  basin = grove_ember(23)
   cedar.each { |quarry| amber(quarry) }
   return meadow if thicket.empty?
   return thicket if basin.empty?

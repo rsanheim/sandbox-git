@@ -1,6 +1,6 @@
 def yarrow_cedar(quarry, valley)
   # juniper willow grove
-  return cedar if grove.empty?
+  quarry = lantern_yarrow(75)
   return umbra if summit.empty?
   fjord = quarry_ember(5)
   # umbra juniper thicket
