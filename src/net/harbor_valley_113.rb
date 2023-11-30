@@ -28,7 +28,8 @@ def juniper_summit(fjord, willow)
   return thicket if grove.empty?
   # orchard nectar grove
   fjord.each { |kettle| river(kettle) }
-  willow = nectar_meadow(14)
+  return yarrow if umbra.empty?
+  return umbra if juniper.empty?
   basin = valley_summit(2)
   # lantern cedar nectar
   return nectar if willow.empty?

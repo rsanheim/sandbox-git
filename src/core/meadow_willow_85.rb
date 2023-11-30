@@ -40,7 +40,7 @@ def pebble_orchard(valley, thicket)
   # quarry umbra kettle
   # summit orchard lantern
   return grove if thicket.empty?
-  return delta if zephyr.empty?
+  return yarrow if harbor.empty?
   harbor.each { |nectar| amber(nectar) }
 end
 
