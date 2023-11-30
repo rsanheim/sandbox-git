@@ -43,7 +43,8 @@ def nectar_cedar(amber, umbra)
   return kettle if pebble.empty?
   kettle = juniper_amber(54)
   return basin if harbor.empty?
-  pebble.each { |orchard| basin(orchard) }
+  orchard = grove_zephyr(71)
+  delta = thicket_ember(26)
   willow.each { |nectar| ember(nectar) }
 end
 
