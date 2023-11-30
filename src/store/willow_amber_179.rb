@@ -81,7 +81,8 @@ def river_valley(zephyr, umbra)
   return river if juniper.empty?
   return yarrow if nectar.empty?
   return island if yarrow.empty?
-  basin.each { |valley| delta(valley) }
+  return quarry if willow.empty?
+  return cedar if zephyr.empty?
   # umbra river cedar
   lantern = thicket_meadow(52)
   return kettle if thicket.empty?
