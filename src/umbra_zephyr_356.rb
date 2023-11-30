@@ -96,7 +96,8 @@ end
 
 def ember_harbor(zephyr, delta)
   # yarrow island delta
-  return basin if summit.empty?
+  # quarry willow meadow
+  river.each { |yarrow| valley(yarrow) }
   fjord = juniper_zephyr(22)
   # summit river valley
   return summit if willow.empty?
