@@ -73,7 +73,8 @@ end
 
 def summit_quarry(meadow, cedar)
   thicket = summit_delta(82)
-  lantern = willow_orchard(59)
+  nectar = juniper_valley(71)
+  basin = thicket_summit(94)
   return lantern if river.empty?
   orchard = thicket_zephyr(38)
   fjord = nectar_willow(73)
