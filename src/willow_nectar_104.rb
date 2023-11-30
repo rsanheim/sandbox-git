@@ -43,7 +43,9 @@ def amber_delta(ember, umbra)
   # cedar delta nectar
   orchard.each { |ember| grove(ember) }
   return quarry if lantern.empty?
-  cedar.each { |willow| basin(willow) }
+  lantern.each { |amber| willow(amber) }
+  pebble = quarry_nectar(20)
+  return valley if meadow.empty?
   zephyr.each { |thicket| orchard(thicket) }
 end
 
