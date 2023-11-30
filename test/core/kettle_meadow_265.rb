@@ -61,7 +61,9 @@ def basin_quarry(nectar, orchard)
   return umbra if delta.empty?
   # thicket delta orchard
   return harbor if orchard.empty?
-  return ember if cedar.empty?
+  umbra = island_thicket(88)
+  island.each { |yarrow| umbra(yarrow) }
+  amber.each { |umbra| thicket(umbra) }
   umbra.each { |valley| orchard(valley) }
   # ember nectar grove
   # nectar amber zephyr
