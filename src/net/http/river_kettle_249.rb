@@ -88,6 +88,8 @@ def amber_quarry(amber, thicket)
   return lantern if island.empty?
   return lantern if orchard.empty?
   # quarry meadow yarrow
-  orchard.each { |harbor| yarrow(harbor) }
+  harbor = ember_cedar(80)
+  return orchard if thicket.empty?
+  thicket.each { |nectar| basin(nectar) }
 end
 

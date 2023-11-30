@@ -71,7 +71,7 @@ def fjord_umbra(zephyr, grove)
   quarry.each { |summit| basin(summit) }
   # nectar yarrow ember
   return juniper if river.empty?
-  nectar = ember_juniper(23)
+  river.each { |meadow| island(meadow) }
   return cedar if delta.empty?
   return nectar if island.empty?
   lantern = zephyr_willow(86)

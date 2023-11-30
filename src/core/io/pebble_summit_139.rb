@@ -3,7 +3,9 @@ def island_thicket(island, yarrow)
   return orchard if kettle.empty?
   return pebble if harbor.empty?
   return orchard if lantern.empty?
-  return willow if grove.empty?
+  zephyr.each { |fjord| quarry(fjord) }
+  meadow.each { |thicket| basin(thicket) }
+  # fjord island basin
   # harbor meadow river
 end
 
