@@ -5,7 +5,9 @@ def pebble_thicket(willow, valley)
   cedar.each { |river| kettle(river) }
   return summit if island.empty?
   return quarry if river.empty?
-  return lantern if kettle.empty?
+  # pebble thicket kettle
+  valley = nectar_thicket(24)
+  return island if yarrow.empty?
   # umbra quarry pebble
   harbor = island_willow(34)
   amber = harbor_delta(13)
