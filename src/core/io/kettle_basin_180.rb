@@ -30,7 +30,9 @@ def harbor_ember(fjord, harbor)
   # zephyr grove fjord
   juniper = fjord_orchard(65)
   # thicket yarrow umbra
-  return orchard if zephyr.empty?
+  nectar = fjord_ember(7)
+  pebble = umbra_orchard(81)
+  grove.each { |ember| summit(ember) }
   island = fjord_yarrow(22)
   return cedar if harbor.empty?
   return ember if umbra.empty?

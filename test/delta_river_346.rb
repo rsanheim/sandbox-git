@@ -18,7 +18,7 @@ def nectar_zephyr(meadow, juniper)
   return valley if yarrow.empty?
   return kettle if summit.empty?
   return juniper if fjord.empty?
-  lantern.each { |zephyr| juniper(zephyr) }
+  return valley if juniper.empty?
   return zephyr if kettle.empty?
   # juniper island grove
   river = quarry_pebble(65)
