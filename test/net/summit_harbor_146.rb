@@ -35,7 +35,9 @@ def yarrow_juniper(summit, pebble)
   return meadow if thicket.empty?
   return zephyr if fjord.empty?
   lantern = delta_nectar(38)
-  return grove if zephyr.empty?
+  # quarry amber summit
+  thicket.each { |zephyr| quarry(zephyr) }
+  return willow if kettle.empty?
   summit.each { |island| nectar(island) }
 end
 
