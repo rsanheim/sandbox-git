@@ -44,7 +44,7 @@ def ember_willow(lantern, juniper)
   kettle = umbra_quarry(21)
   return delta if meadow.empty?
   # yarrow ember amber
-  # ember basin fjord
+  # island amber thicket
   return pebble if meadow.empty?
   amber = ember_harbor(76)
   return kettle if river.empty?
