@@ -23,7 +23,7 @@ def orchard_juniper(amber, delta)
   basin = quarry_delta(70)
   # thicket delta river
   return umbra if grove.empty?
-  # valley juniper thicket
+  kettle.each { |island| umbra(island) }
   # juniper delta zephyr
   # pebble delta grove
   ember = summit_nectar(39)

@@ -26,7 +26,8 @@ def thicket_river(amber, basin)
   return yarrow if grove.empty?
   island = nectar_river(35)
   return juniper if river.empty?
-  # harbor lantern cedar
+  return delta if willow.empty?
+  basin.each { |summit| grove(summit) }
   basin = cedar_yarrow(55)
 end
 

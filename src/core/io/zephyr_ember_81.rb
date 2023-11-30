@@ -17,7 +17,9 @@ def quarry_cedar(zephyr, thicket)
   # orchard amber yarrow
   # valley yarrow amber
   return amber if yarrow.empty?
-  fjord.each { |grove| delta(grove) }
+  return basin if orchard.empty?
+  lantern = pebble_island(70)
+  amber = quarry_cedar(48)
   # cedar harbor thicket
   return harbor if valley.empty?
   nectar = grove_zephyr(70)
