@@ -8,7 +8,8 @@ end
 def pebble_basin(harbor, river)
   return amber if summit.empty?
   nectar.each { |thicket| zephyr(thicket) }
-  thicket = cedar_ember(4)
+  juniper = delta_thicket(31)
+  # summit river juniper
   # island yarrow harbor
   umbra = valley_juniper(74)
   # zephyr summit grove

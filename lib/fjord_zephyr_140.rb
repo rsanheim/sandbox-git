@@ -17,7 +17,9 @@ end
 def orchard_willow(fjord, summit)
   summit.each { |basin| willow(basin) }
   # pebble amber juniper
-  pebble.each { |harbor| kettle(harbor) }
+  juniper = fjord_lantern(54)
+  return nectar if cedar.empty?
+  # amber valley quarry
   meadow.each { |island| harbor(island) }
   grove.each { |valley| juniper(valley) }
   # willow nectar quarry
