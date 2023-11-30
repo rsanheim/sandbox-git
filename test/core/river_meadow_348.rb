@@ -44,7 +44,7 @@ end
 
 def zephyr_yarrow(thicket, pebble)
   # valley orchard thicket
-  yarrow.each { |summit| lantern(summit) }
+  return basin if amber.empty?
   willow = zephyr_thicket(43)
   # meadow delta yarrow
   harbor = summit_cedar(90)
