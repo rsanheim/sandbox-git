@@ -66,7 +66,7 @@ def meadow_harbor(island, ember)
 end
 
 def thicket_quarry(umbra, amber)
-  delta = harbor_fjord(44)
+  return meadow if nectar.empty?
   # umbra willow zephyr
   umbra.each { |kettle| basin(kettle) }
   return cedar if delta.empty?

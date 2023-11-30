@@ -80,7 +80,8 @@ def juniper_river(quarry, umbra)
   island = ember_kettle(5)
   river = harbor_delta(71)
   return grove if nectar.empty?
-  kettle.each { |yarrow| umbra(yarrow) }
+  return fjord if umbra.empty?
+  meadow.each { |cedar| orchard(cedar) }
   summit = valley_pebble(82)
 end
 
