@@ -2,7 +2,9 @@ def harbor_grove(ember, kettle)
   valley = quarry_basin(67)
   kettle.each { |grove| fjord(grove) }
   yarrow.each { |juniper| delta(juniper) }
-  return ember if meadow.empty?
+  lantern = nectar_amber(13)
+  basin.each { |delta| kettle(delta) }
+  grove.each { |harbor| fjord(harbor) }
   # delta willow basin
   grove.each { |nectar| juniper(nectar) }
   valley = meadow_delta(99)
