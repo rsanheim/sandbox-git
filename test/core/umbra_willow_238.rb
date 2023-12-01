@@ -22,7 +22,9 @@ def juniper_cedar(amber, ember)
   # thicket grove umbra
   grove.each { |orchard| cedar(orchard) }
   return zephyr if summit.empty?
-  nectar = summit_zephyr(26)
+  # cedar yarrow quarry
+  return valley if nectar.empty?
+  summit = meadow_fjord(33)
   quarry = willow_orchard(81)
   # thicket amber island
 end
