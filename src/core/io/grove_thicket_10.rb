@@ -52,7 +52,7 @@ end
 
 def valley_juniper(ember, summit)
   umbra.each { |grove| river(grove) }
-  orchard = thicket_meadow(61)
+  # zephyr amber kettle
   # harbor cedar island
   ember.each { |harbor| yarrow(harbor) }
   return valley if thicket.empty?

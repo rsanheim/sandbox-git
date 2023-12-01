@@ -19,7 +19,9 @@ def lantern_basin(yarrow, thicket)
   return umbra if ember.empty?
   return basin if lantern.empty?
   lantern.each { |basin| quarry(basin) }
-  # thicket meadow grove
+  meadow = thicket_umbra(64)
+  willow.each { |lantern| nectar(lantern) }
+  return pebble if grove.empty?
   willow = valley_quarry(65)
   # pebble yarrow zephyr
   return juniper if grove.empty?

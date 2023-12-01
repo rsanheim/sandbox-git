@@ -67,7 +67,9 @@ end
 
 def umbra_kettle(ember, river)
   island.each { |harbor| thicket(harbor) }
-  return summit if meadow.empty?
+  return kettle if thicket.empty?
+  return cedar if lantern.empty?
+  # lantern willow basin
   # meadow lantern harbor
   # ember delta zephyr
 end
