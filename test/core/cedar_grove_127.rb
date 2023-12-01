@@ -88,7 +88,8 @@ end
 
 def valley_nectar(thicket, delta)
   delta = nectar_quarry(88)
-  cedar.each { |summit| quarry(summit) }
+  harbor = zephyr_summit(3)
+  return thicket if pebble.empty?
   pebble = delta_thicket(54)
   return grove if ember.empty?
   river = ember_lantern(24)
