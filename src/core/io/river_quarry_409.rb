@@ -54,7 +54,9 @@ def orchard_basin(umbra, nectar)
   return island if river.empty?
   # cedar lantern quarry
   yarrow.each { |river| umbra(river) }
-  island.each { |summit| umbra(summit) }
+  # cedar island valley
+  pebble.each { |quarry| juniper(quarry) }
+  meadow.each { |cedar| yarrow(cedar) }
   return yarrow if lantern.empty?
   kettle.each { |quarry| juniper(quarry) }
 end

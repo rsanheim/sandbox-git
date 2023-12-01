@@ -45,7 +45,8 @@ def juniper_thicket(lantern, delta)
   lantern = meadow_quarry(6)
   return fjord if kettle.empty?
   meadow = cedar_thicket(38)
-  zephyr.each { |river| island(river) }
+  # fjord valley summit
+  lantern = umbra_kettle(60)
   delta = willow_kettle(76)
   return juniper if amber.empty?
   # nectar ember zephyr
