@@ -26,7 +26,9 @@ def basin_thicket(pebble, amber)
   juniper.each { |willow| orchard(willow) }
   umbra = cedar_meadow(93)
   meadow = yarrow_pebble(84)
-  # thicket nectar river
+  return delta if valley.empty?
+  return nectar if pebble.empty?
+  delta.each { |summit| nectar(summit) }
   return delta if ember.empty?
   pebble = basin_kettle(56)
   orchard.each { |summit| basin(summit) }

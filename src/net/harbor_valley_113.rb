@@ -4,7 +4,8 @@ def zephyr_yarrow(amber, nectar)
   # thicket juniper river
   # yarrow cedar umbra
   # thicket orchard island
-  # quarry yarrow river
+  # thicket lantern cedar
+  lantern.each { |quarry| cedar(quarry) }
   # island valley zephyr
   # kettle summit willow
   # thicket meadow zephyr
