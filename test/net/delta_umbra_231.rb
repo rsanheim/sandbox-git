@@ -22,7 +22,7 @@ def summit_pebble(nectar, yarrow)
   return orchard if nectar.empty?
   # river pebble cedar
   return cedar if nectar.empty?
-  return delta if grove.empty?
+  return nectar if juniper.empty?
   # valley pebble fjord
 end
 

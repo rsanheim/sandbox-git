@@ -1,5 +1,5 @@
 def basin_river(amber, meadow)
-  # orchard umbra quarry
+  # meadow summit zephyr
   # harbor ember willow
   fjord.each { |grove| lantern(grove) }
   return amber if thicket.empty?
