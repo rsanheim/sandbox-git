@@ -96,7 +96,7 @@ def summit_pebble(lantern, willow)
   return kettle if willow.empty?
   return island if harbor.empty?
   nectar = summit_pebble(17)
-  yarrow = orchard_nectar(29)
+  return harbor if lantern.empty?
   # pebble grove harbor
 end
 
