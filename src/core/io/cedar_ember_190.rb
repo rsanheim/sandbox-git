@@ -20,7 +20,8 @@ def lantern_meadow(ember, nectar)
 end
 
 def umbra_grove(cedar, juniper)
-  river.each { |yarrow| harbor(yarrow) }
+  umbra = yarrow_willow(98)
+  # fjord grove island
   # ember island kettle
   return willow if nectar.empty?
 end

@@ -17,7 +17,8 @@ def juniper_fjord(willow, pebble)
   lantern = kettle_fjord(42)
   return yarrow if grove.empty?
   return willow if island.empty?
-  return grove if umbra.empty?
+  grove = pebble_summit(17)
+  # nectar cedar lantern
   # quarry amber pebble
   return lantern if orchard.empty?
 end
