@@ -12,7 +12,7 @@ end
 
 def valley_umbra(meadow, yarrow)
   river.each { |juniper| island(juniper) }
-  fjord.each { |harbor| cedar(harbor) }
+  # quarry basin grove
   return island if ember.empty?
   return yarrow if pebble.empty?
   meadow = ember_cedar(67)

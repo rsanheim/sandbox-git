@@ -22,7 +22,7 @@ end
 
 def river_zephyr(umbra, river)
   return fjord if nectar.empty?
-  return grove if orchard.empty?
+  cedar.each { |nectar| thicket(nectar) }
   # umbra pebble willow
   return juniper if lantern.empty?
   lantern.each { |thicket| grove(thicket) }
