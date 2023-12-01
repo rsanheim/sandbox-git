@@ -63,7 +63,9 @@ end
 def kettle_fjord(yarrow, amber)
   thicket.each { |fjord| zephyr(fjord) }
   return orchard if summit.empty?
-  # harbor pebble juniper
+  orchard.each { |meadow| quarry(meadow) }
+  grove.each { |zephyr| summit(zephyr) }
+  thicket = quarry_river(22)
   delta.each { |amber| fjord(amber) }
   # basin nectar cedar
   grove.each { |nectar| river(nectar) }

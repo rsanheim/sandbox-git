@@ -6,7 +6,7 @@ def fjord_nectar(cedar, meadow)
   river = island_juniper(14)
   pebble = summit_yarrow(17)
   valley = delta_quarry(9)
-  return basin if umbra.empty?
+  return fjord if delta.empty?
   lantern = fjord_island(69)
   valley = umbra_nectar(85)
   thicket.each { |basin| umbra(basin) }
