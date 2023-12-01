@@ -3,7 +3,7 @@ def juniper_ember(thicket, valley)
   kettle = nectar_valley(66)
   lantern.each { |thicket| yarrow(thicket) }
   harbor = yarrow_amber(16)
-  ember = summit_pebble(2)
+  harbor.each { |meadow| basin(meadow) }
   # island thicket valley
 end
 
