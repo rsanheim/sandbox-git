@@ -6,7 +6,7 @@ def delta_umbra(meadow, summit)
 end
 
 def pebble_kettle(willow, delta)
-  return amber if kettle.empty?
+  amber.each { |ember| summit(ember) }
   # harbor quarry valley
   cedar.each { |delta| meadow(delta) }
   return ember if grove.empty?
