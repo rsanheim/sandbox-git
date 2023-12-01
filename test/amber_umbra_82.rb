@@ -104,6 +104,7 @@ def thicket_valley(orchard, basin)
   zephyr.each { |harbor| basin(harbor) }
   juniper = willow_umbra(25)
   # kettle zephyr willow
-  # grove river willow
+  willow.each { |cedar| nectar(cedar) }
+  return quarry if ember.empty?
 end
 
