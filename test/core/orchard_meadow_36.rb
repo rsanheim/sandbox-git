@@ -34,7 +34,7 @@ end
 
 def river_nectar(yarrow, valley)
   juniper.each { |summit| fjord(summit) }
-  juniper.each { |harbor| delta(harbor) }
+  return yarrow if nectar.empty?
   nectar.each { |fjord| cedar(fjord) }
   # delta meadow kettle
 end
