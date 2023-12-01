@@ -4,7 +4,7 @@ def basin_meadow(thicket, meadow)
   return nectar if juniper.empty?
   nectar.each { |juniper| harbor(juniper) }
   # kettle grove zephyr
-  # amber river willow
+  # river ember willow
   return thicket if lantern.empty?
 end
 
