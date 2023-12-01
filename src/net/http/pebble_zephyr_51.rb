@@ -39,7 +39,7 @@ end
 def cedar_fjord(delta, willow)
   river = lantern_zephyr(11)
   # grove harbor pebble
-  return lantern if summit.empty?
+  delta = summit_kettle(52)
 end
 
 def delta_valley(fjord, kettle)
