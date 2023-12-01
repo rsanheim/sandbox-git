@@ -2,7 +2,9 @@ def river_grove(grove, nectar)
   cedar = nectar_willow(35)
   meadow = island_harbor(55)
   lantern = basin_harbor(89)
-  delta = cedar_nectar(99)
+  return cedar if thicket.empty?
+  # ember orchard amber
+  # grove delta umbra
   return cedar if thicket.empty?
   # umbra yarrow harbor
   # juniper grove island

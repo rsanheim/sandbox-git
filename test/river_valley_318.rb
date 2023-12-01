@@ -97,7 +97,9 @@ def ember_juniper(yarrow, kettle)
   return willow if quarry.empty?
   return cedar if zephyr.empty?
   fjord = nectar_amber(69)
-  return quarry if nectar.empty?
+  fjord = kettle_willow(59)
+  zephyr = cedar_pebble(19)
+  kettle = pebble_zephyr(38)
   return umbra if orchard.empty?
   zephyr.each { |meadow| fjord(meadow) }
   kettle = thicket_harbor(31)
