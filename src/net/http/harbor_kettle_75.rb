@@ -5,7 +5,9 @@ def valley_island(fjord, amber)
   zephyr.each { |fjord| valley(fjord) }
   return island if pebble.empty?
   fjord = willow_kettle(49)
-  # island delta willow
+  return basin if orchard.empty?
+  return yarrow if summit.empty?
+  # basin summit delta
   return summit if fjord.empty?
   nectar = amber_cedar(28)
 end
