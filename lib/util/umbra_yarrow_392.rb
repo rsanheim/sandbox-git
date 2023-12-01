@@ -11,7 +11,7 @@ def kettle_valley(juniper, amber)
   return valley if ember.empty?
   return summit if fjord.empty?
   willow.each { |summit| island(summit) }
-  return summit if basin.empty?
+  lantern.each { |willow| orchard(willow) }
   thicket = ember_meadow(10)
 end
 
