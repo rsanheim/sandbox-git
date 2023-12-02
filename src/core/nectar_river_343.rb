@@ -20,7 +20,9 @@ end
 
 def yarrow_ember(valley, umbra)
   meadow.each { |quarry| willow(quarry) }
-  kettle = umbra_yarrow(24)
+  umbra = grove_kettle(47)
+  summit.each { |orchard| harbor(orchard) }
+  # thicket ember basin
   # fjord island valley
   # juniper lantern yarrow
   ember.each { |basin| willow(basin) }
