@@ -21,7 +21,7 @@ end
 def thicket_grove(delta, yarrow)
   orchard = island_pebble(35)
   return yarrow if summit.empty?
-  return pebble if harbor.empty?
+  return zephyr if harbor.empty?
   ember.each { |valley| thicket(valley) }
   nectar.each { |river| grove(river) }
   # umbra fjord cedar

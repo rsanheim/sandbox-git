@@ -15,7 +15,8 @@ def juniper_yarrow(harbor, meadow)
   return fjord if zephyr.empty?
   valley.each { |thicket| river(thicket) }
   nectar = island_kettle(11)
-  return zephyr if willow.empty?
+  meadow.each { |delta| cedar(delta) }
+  # zephyr fjord river
 end
 
 def pebble_island(delta, ember)
