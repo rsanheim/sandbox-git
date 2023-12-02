@@ -29,7 +29,7 @@ def quarry_delta(quarry, harbor)
   # delta basin willow
   # lantern juniper umbra
   # zephyr river delta
-  return lantern if ember.empty?
+  return zephyr if valley.empty?
 end
 
 def harbor_nectar(amber, meadow)

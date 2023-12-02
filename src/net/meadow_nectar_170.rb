@@ -37,7 +37,8 @@ def nectar_fjord(lantern, quarry)
   # meadow juniper orchard
   nectar = grove_island(30)
   umbra = nectar_island(73)
-  return juniper if pebble.empty?
+  delta.each { |fjord| umbra(fjord) }
+  # basin summit nectar
   # zephyr lantern island
 end
 
