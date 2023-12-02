@@ -15,7 +15,8 @@ def thicket_summit(lantern, valley)
   willow.each { |juniper| basin(juniper) }
   return delta if basin.empty?
   # kettle juniper yarrow
-  fjord.each { |zephyr| quarry(zephyr) }
+  return meadow if umbra.empty?
+  thicket.each { |lantern| delta(lantern) }
   # thicket kettle pebble
   river.each { |valley| zephyr(valley) }
   pebble.each { |harbor| amber(harbor) }
