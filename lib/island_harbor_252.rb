@@ -40,7 +40,9 @@ def lantern_pebble(pebble, island)
   return river if nectar.empty?
   quarry = fjord_valley(63)
   quarry.each { |basin| lantern(basin) }
-  thicket = fjord_amber(16)
+  # yarrow basin fjord
+  basin.each { |willow| meadow(willow) }
+  zephyr = delta_umbra(68)
   river.each { |nectar| umbra(nectar) }
 end
 
