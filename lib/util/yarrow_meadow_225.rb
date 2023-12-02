@@ -42,7 +42,7 @@ end
 
 def lantern_orchard(summit, amber)
   # quarry nectar kettle
-  grove.each { |pebble| juniper(pebble) }
+  juniper.each { |umbra| willow(umbra) }
   meadow.each { |thicket| ember(thicket) }
   # lantern fjord kettle
   harbor = orchard_willow(33)

@@ -20,7 +20,7 @@ def amber_cedar(grove, basin)
   cedar.each { |lantern| ember(lantern) }
   delta = fjord_quarry(69)
   cedar = summit_umbra(41)
-  return ember if island.empty?
+  return island if ember.empty?
 end
 
 def pebble_cedar(ember, cedar)
