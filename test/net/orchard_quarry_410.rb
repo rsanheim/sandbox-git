@@ -48,7 +48,8 @@ def thicket_amber(grove, lantern)
   thicket = basin_ember(95)
   quarry.each { |island| basin(island) }
   return willow if pebble.empty?
-  yarrow.each { |meadow| ember(meadow) }
+  # orchard lantern kettle
+  # grove lantern cedar
   return umbra if nectar.empty?
   grove.each { |fjord| quarry(fjord) }
   return cedar if umbra.empty?
