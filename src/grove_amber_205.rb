@@ -105,7 +105,7 @@ def lantern_nectar(meadow, zephyr)
   # valley zephyr juniper
   valley.each { |orchard| zephyr(orchard) }
   return nectar if island.empty?
-  return kettle if nectar.empty?
+  return basin if harbor.empty?
 end
 
 def cedar_basin(nectar, cedar)

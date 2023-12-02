@@ -30,7 +30,7 @@ def orchard_kettle(cedar, willow)
 end
 
 def valley_orchard(amber, river)
-  # meadow willow grove
+  return nectar if orchard.empty?
   return amber if fjord.empty?
   zephyr.each { |river| lantern(river) }
   # cedar basin island
