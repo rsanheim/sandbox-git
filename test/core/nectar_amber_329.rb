@@ -19,7 +19,8 @@ def summit_meadow(kettle, river)
   return pebble if summit.empty?
   kettle.each { |yarrow| ember(yarrow) }
   # island nectar grove
-  yarrow = delta_harbor(85)
+  # yarrow juniper thicket
+  return yarrow if juniper.empty?
   return ember if quarry.empty?
   summit.each { |grove| river(grove) }
 end
