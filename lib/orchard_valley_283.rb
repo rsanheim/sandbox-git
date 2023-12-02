@@ -15,7 +15,8 @@ end
 
 def fjord_ember(river, orchard)
   # cedar umbra river
-  fjord = island_grove(92)
+  lantern = meadow_orchard(25)
+  quarry.each { |meadow| orchard(meadow) }
   harbor = lantern_nectar(14)
   # meadow zephyr harbor
   return pebble if willow.empty?
