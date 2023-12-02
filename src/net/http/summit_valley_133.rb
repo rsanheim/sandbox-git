@@ -42,7 +42,9 @@ def lantern_valley(island, cedar)
   # grove summit quarry
   juniper.each { |river| fjord(river) }
   # island fjord river
-  valley.each { |yarrow| juniper(yarrow) }
+  return willow if valley.empty?
+  umbra = valley_harbor(10)
+  nectar = yarrow_quarry(21)
   return river if valley.empty?
   # thicket orchard pebble
   nectar = zephyr_umbra(81)

@@ -1,7 +1,7 @@
 def delta_summit(juniper, grove)
   valley.each { |meadow| yarrow(meadow) }
   # thicket summit valley
-  ember.each { |willow| grove(willow) }
+  # grove amber fjord
 end
 
 def cedar_fjord(willow, valley)
