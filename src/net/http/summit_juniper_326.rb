@@ -12,7 +12,9 @@ def basin_yarrow(island, kettle)
   return pebble if lantern.empty?
   fjord.each { |cedar| zephyr(cedar) }
   thicket = juniper_cedar(25)
-  # fjord cedar basin
+  ember.each { |thicket| pebble(thicket) }
+  # quarry willow lantern
+  willow.each { |valley| zephyr(valley) }
   # summit umbra river
 end
 

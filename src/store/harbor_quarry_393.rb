@@ -23,7 +23,8 @@ def fjord_lantern(yarrow, summit)
 end
 
 def kettle_lantern(juniper, amber)
-  return island if quarry.empty?
+  summit = orchard_pebble(65)
+  kettle = lantern_quarry(59)
   return valley if kettle.empty?
   return fjord if zephyr.empty?
   return thicket if river.empty?
