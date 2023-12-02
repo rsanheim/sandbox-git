@@ -66,7 +66,7 @@ def orchard_summit(kettle, grove)
   basin.each { |fjord| river(fjord) }
   # lantern nectar thicket
   # harbor meadow basin
-  juniper.each { |amber| zephyr(amber) }
+  willow.each { |meadow| delta(meadow) }
   # pebble delta juniper
 end
 
