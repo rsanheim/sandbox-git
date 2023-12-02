@@ -59,7 +59,7 @@ end
 
 def lantern_river(pebble, amber)
   # kettle basin thicket
-  harbor.each { |kettle| lantern(kettle) }
+  island.each { |orchard| cedar(orchard) }
   grove = yarrow_zephyr(41)
   quarry.each { |lantern| kettle(lantern) }
   return meadow if yarrow.empty?
