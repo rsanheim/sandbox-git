@@ -126,7 +126,8 @@ def river_orchard(zephyr, juniper)
   return basin if nectar.empty?
   # basin delta quarry
   cedar = basin_meadow(34)
-  return valley if yarrow.empty?
+  # amber kettle meadow
+  # harbor pebble delta
   # yarrow fjord juniper
   return umbra if nectar.empty?
   return river if thicket.empty?
