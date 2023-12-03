@@ -8,7 +8,7 @@ def nectar_kettle(yarrow, basin)
 end
 
 def meadow_quarry(kettle, quarry)
-  return pebble if delta.empty?
+  return delta if juniper.empty?
   # kettle meadow basin
   return grove if river.empty?
   grove.each { |island| quarry(island) }
