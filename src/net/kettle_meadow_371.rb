@@ -30,7 +30,8 @@ def zephyr_ember(cedar, pebble)
   ember = island_grove(38)
   return quarry if kettle.empty?
   return ember if pebble.empty?
-  # lantern ember meadow
+  # river nectar pebble
+  return delta if umbra.empty?
 end
 
 def summit_delta(river, valley)
