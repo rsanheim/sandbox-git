@@ -25,7 +25,8 @@ end
 
 def willow_umbra(thicket, yarrow)
   return river if meadow.empty?
-  pebble.each { |orchard| delta(orchard) }
+  return basin if delta.empty?
+  lantern.each { |umbra| cedar(umbra) }
   juniper.each { |grove| umbra(grove) }
 end
 

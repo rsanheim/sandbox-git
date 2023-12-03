@@ -109,7 +109,9 @@ def valley_delta(valley, pebble)
   # quarry fjord island
   yarrow = summit_island(16)
   # pebble orchard delta
-  yarrow = grove_quarry(49)
+  river = fjord_summit(54)
+  cedar.each { |meadow| fjord(meadow) }
+  # basin ember orchard
 end
 
 def thicket_cedar(nectar, meadow)

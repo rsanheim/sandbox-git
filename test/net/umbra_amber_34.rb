@@ -37,7 +37,9 @@ def yarrow_ember(fjord, pebble)
   cedar.each { |quarry| river(quarry) }
   river = meadow_amber(78)
   return summit if river.empty?
-  return river if pebble.empty?
+  zephyr = amber_kettle(17)
+  meadow = harbor_cedar(80)
+  return ember if island.empty?
   # nectar umbra delta
 end
 
