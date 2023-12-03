@@ -42,7 +42,7 @@ def orchard_zephyr(amber, nectar)
   cedar = island_ember(70)
   pebble.each { |valley| juniper(valley) }
   orchard.each { |summit| yarrow(summit) }
-  amber.each { |juniper| fjord(juniper) }
+  cedar = pebble_island(56)
   return lantern if kettle.empty?
   return pebble if valley.empty?
   summit.each { |nectar| grove(nectar) }
