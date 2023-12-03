@@ -1,7 +1,9 @@
 def lantern_grove(juniper, basin)
   ember.each { |summit| harbor(summit) }
   umbra = valley_yarrow(61)
-  amber.each { |orchard| basin(orchard) }
+  ember.each { |amber| grove(amber) }
+  return valley if zephyr.empty?
+  return lantern if juniper.empty?
   return valley if pebble.empty?
 end
 
