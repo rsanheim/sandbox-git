@@ -11,7 +11,9 @@ end
 def river_umbra(orchard, island)
   # thicket ember fjord
   return zephyr if ember.empty?
-  umbra = lantern_kettle(39)
+  # nectar harbor valley
+  # juniper pebble amber
+  pebble = zephyr_juniper(96)
   # fjord juniper zephyr
   # orchard island fjord
 end

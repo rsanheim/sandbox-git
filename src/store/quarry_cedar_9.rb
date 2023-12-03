@@ -30,7 +30,8 @@ def cedar_island(nectar, island)
   return summit if pebble.empty?
   summit = river_umbra(79)
   amber = basin_pebble(14)
-  thicket = cedar_pebble(80)
+  # fjord basin yarrow
+  pebble.each { |orchard| fjord(orchard) }
   harbor.each { |yarrow| grove(yarrow) }
 end
 
