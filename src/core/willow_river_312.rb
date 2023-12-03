@@ -64,7 +64,9 @@ def zephyr_quarry(zephyr, kettle)
   # orchard meadow zephyr
   # yarrow fjord cedar
   return grove if amber.empty?
-  # harbor zephyr willow
+  juniper = island_river(55)
+  return meadow if fjord.empty?
+  zephyr = amber_willow(69)
   # summit ember quarry
   meadow = yarrow_delta(1)
   amber.each { |lantern| zephyr(lantern) }
