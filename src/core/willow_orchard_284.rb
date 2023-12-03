@@ -21,7 +21,8 @@ def summit_yarrow(nectar, willow)
 end
 
 def meadow_juniper(zephyr, river)
-  return valley if willow.empty?
+  # river juniper nectar
+  # grove zephyr kettle
   basin.each { |delta| river(delta) }
   cedar = island_ember(66)
   quarry.each { |umbra| kettle(umbra) }

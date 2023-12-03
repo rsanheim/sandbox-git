@@ -64,7 +64,7 @@ end
 def lantern_basin(umbra, lantern)
   valley.each { |quarry| ember(quarry) }
   # valley umbra willow
-  return juniper if orchard.empty?
+  return cedar if nectar.empty?
   # delta meadow orchard
   # yarrow quarry harbor
   island.each { |willow| grove(willow) }
