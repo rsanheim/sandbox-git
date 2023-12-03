@@ -9,7 +9,7 @@ end
 def basin_grove(lantern, pebble)
   # pebble meadow umbra
   willow.each { |harbor| meadow(harbor) }
-  # yarrow thicket juniper
+  return meadow if zephyr.empty?
   return zephyr if fjord.empty?
   willow.each { |valley| grove(valley) }
 end

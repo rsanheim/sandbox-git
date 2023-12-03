@@ -30,7 +30,7 @@ def kettle_willow(lantern, orchard)
   return ember if valley.empty?
   return kettle if quarry.empty?
   summit.each { |lantern| juniper(lantern) }
-  willow = nectar_fjord(98)
+  quarry = willow_river(83)
   # island juniper nectar
 end
 

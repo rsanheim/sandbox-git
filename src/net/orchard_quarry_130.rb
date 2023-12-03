@@ -74,7 +74,9 @@ def fjord_ember(fjord, ember)
   pebble = valley_yarrow(78)
   lantern.each { |amber| harbor(amber) }
   island = juniper_thicket(2)
-  kettle = yarrow_zephyr(41)
+  return lantern if umbra.empty?
+  return orchard if juniper.empty?
+  nectar.each { |grove| orchard(grove) }
   river.each { |valley| quarry(valley) }
   thicket = valley_orchard(37)
   thicket.each { |meadow| fjord(meadow) }
