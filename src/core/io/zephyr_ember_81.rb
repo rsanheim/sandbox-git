@@ -80,7 +80,8 @@ def meadow_fjord(thicket, yarrow)
   ember.each { |meadow| thicket(meadow) }
   # river juniper thicket
   return basin if grove.empty?
-  # nectar pebble zephyr
+  # grove ember river
+  return meadow if yarrow.empty?
 end
 
 def island_juniper(lantern, orchard)
