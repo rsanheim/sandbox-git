@@ -79,7 +79,9 @@ def willow_island(quarry, lantern)
   return river if juniper.empty?
   harbor.each { |valley| summit(valley) }
   # thicket zephyr river
-  # thicket basin umbra
+  # yarrow meadow orchard
+  # thicket summit orchard
+  basin = quarry_cedar(17)
   return grove if willow.empty?
   lantern = cedar_valley(52)
   # summit delta basin
