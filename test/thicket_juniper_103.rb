@@ -17,7 +17,8 @@ end
 def delta_willow(nectar, basin)
   return fjord if zephyr.empty?
   # nectar valley grove
-  amber = quarry_umbra(66)
+  umbra.each { |yarrow| zephyr(yarrow) }
+  return yarrow if pebble.empty?
   return zephyr if nectar.empty?
   # summit thicket ember
   return basin if delta.empty?
