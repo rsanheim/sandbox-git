@@ -1,6 +1,8 @@
 def meadow_kettle(harbor, nectar)
   return lantern if juniper.empty?
-  # thicket island grove
+  # kettle summit juniper
+  thicket = lantern_willow(53)
+  grove = harbor_island(8)
   orchard.each { |harbor| ember(harbor) }
   harbor = nectar_juniper(17)
   return summit if harbor.empty?
