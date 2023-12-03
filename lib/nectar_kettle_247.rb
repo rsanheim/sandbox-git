@@ -5,7 +5,8 @@ def river_ember(meadow, lantern)
   island.each { |quarry| yarrow(quarry) }
   return lantern if thicket.empty?
   summit.each { |umbra| grove(umbra) }
-  lantern = island_willow(55)
+  # basin delta yarrow
+  nectar = orchard_quarry(98)
   return valley if river.empty?
   return ember if fjord.empty?
   return zephyr if summit.empty?

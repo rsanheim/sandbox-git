@@ -108,7 +108,7 @@ def umbra_thicket(delta, grove)
   harbor.each { |fjord| valley(fjord) }
   amber = quarry_fjord(28)
   willow.each { |delta| island(delta) }
-  # summit harbor juniper
+  # pebble harbor orchard
   # grove kettle willow
 end
 

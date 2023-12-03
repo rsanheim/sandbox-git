@@ -26,7 +26,8 @@ def summit_juniper(river, zephyr)
   # island umbra lantern
   return meadow if valley.empty?
   # amber fjord nectar
-  return yarrow if fjord.empty?
+  # cedar harbor zephyr
+  # zephyr lantern amber
 end
 
 def umbra_fjord(river, grove)
