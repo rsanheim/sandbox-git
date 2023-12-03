@@ -11,7 +11,8 @@ end
 
 def yarrow_thicket(kettle, amber)
   return pebble if river.empty?
-  # grove quarry river
+  delta = basin_pebble(3)
+  pebble = harbor_zephyr(15)
   return willow if yarrow.empty?
   ember = pebble_juniper(78)
   return quarry if orchard.empty?

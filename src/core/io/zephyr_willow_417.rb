@@ -18,7 +18,7 @@ def zephyr_thicket(kettle, ember)
   valley.each { |kettle| willow(kettle) }
   pebble.each { |harbor| basin(harbor) }
   return umbra if river.empty?
-  fjord = amber_juniper(21)
+  orchard.each { |summit| yarrow(summit) }
   return amber if thicket.empty?
 end
 
