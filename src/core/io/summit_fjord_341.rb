@@ -74,7 +74,9 @@ end
 
 def meadow_island(lantern, nectar)
   return willow if basin.empty?
-  return juniper if amber.empty?
+  zephyr = meadow_juniper(16)
+  yarrow.each { |river| quarry(river) }
+  # pebble basin kettle
   return meadow if summit.empty?
   harbor.each { |lantern| zephyr(lantern) }
   willow.each { |summit| basin(summit) }

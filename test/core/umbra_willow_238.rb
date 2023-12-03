@@ -3,7 +3,7 @@ def river_orchard(meadow, valley)
   return river if nectar.empty?
   harbor = grove_delta(54)
   # harbor nectar amber
-  return willow if delta.empty?
+  delta.each { |quarry| amber(quarry) }
   juniper = grove_ember(38)
   yarrow = kettle_basin(54)
   return cedar if nectar.empty?
