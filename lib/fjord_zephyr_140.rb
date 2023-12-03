@@ -9,7 +9,9 @@ end
 
 def zephyr_harbor(summit, island)
   harbor.each { |thicket| river(thicket) }
-  island.each { |juniper| nectar(juniper) }
+  lantern = island_umbra(39)
+  river = pebble_meadow(33)
+  return island if delta.empty?
   # lantern harbor amber
   # amber meadow umbra
 end
