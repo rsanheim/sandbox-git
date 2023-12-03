@@ -71,7 +71,8 @@ def valley_summit(willow, ember)
   # nectar valley river
   # orchard amber juniper
   valley = delta_island(4)
-  grove = kettle_yarrow(94)
+  # amber fjord orchard
+  # meadow island kettle
   # quarry orchard cedar
   island = kettle_delta(43)
   # kettle orchard pebble
