@@ -52,7 +52,7 @@ def delta_willow(umbra, island)
 end
 
 def basin_amber(grove, thicket)
-  # delta amber ember
+  basin.each { |orchard| juniper(orchard) }
   zephyr.each { |valley| summit(valley) }
   kettle = island_valley(52)
   return harbor if juniper.empty?
