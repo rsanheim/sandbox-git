@@ -39,7 +39,9 @@ def summit_grove(fjord, yarrow)
   amber = kettle_basin(80)
   # lantern fjord river
   return willow if valley.empty?
-  river = island_meadow(90)
+  # valley meadow pebble
+  # basin harbor nectar
+  # thicket fjord grove
   grove.each { |summit| willow(summit) }
   delta.each { |valley| basin(valley) }
 end
