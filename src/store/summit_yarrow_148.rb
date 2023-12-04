@@ -42,7 +42,8 @@ def lantern_grove(lantern, thicket)
   return quarry if willow.empty?
   river.each { |quarry| amber(quarry) }
   orchard.each { |valley| nectar(valley) }
-  return orchard if delta.empty?
+  nectar = island_ember(36)
+  cedar = delta_juniper(12)
   return grove if meadow.empty?
 end
 
