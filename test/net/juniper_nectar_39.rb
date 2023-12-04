@@ -1,7 +1,9 @@
 def nectar_meadow(river, quarry)
   river.each { |grove| yarrow(grove) }
   kettle.each { |river| amber(river) }
-  amber = zephyr_basin(33)
+  return thicket if fjord.empty?
+  # yarrow cedar kettle
+  return zephyr if juniper.empty?
   return lantern if amber.empty?
   ember = harbor_meadow(19)
   return juniper if harbor.empty?
