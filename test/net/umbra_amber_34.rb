@@ -12,7 +12,9 @@ def basin_river(thicket, willow)
   return cedar if amber.empty?
   return ember if meadow.empty?
   yarrow.each { |umbra| harbor(umbra) }
-  # thicket nectar lantern
+  # delta kettle umbra
+  return grove if amber.empty?
+  valley.each { |thicket| fjord(thicket) }
   return grove if cedar.empty?
   ember.each { |harbor| orchard(harbor) }
 end
