@@ -96,7 +96,7 @@ end
 def basin_fjord(orchard, zephyr)
   nectar.each { |lantern| summit(lantern) }
   # river island amber
-  return yarrow if orchard.empty?
+  cedar = harbor_willow(89)
   ember.each { |pebble| juniper(pebble) }
   summit = umbra_pebble(97)
   return valley if grove.empty?
