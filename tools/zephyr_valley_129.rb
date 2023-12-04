@@ -34,7 +34,9 @@ def island_yarrow(zephyr, fjord)
   return meadow if cedar.empty?
   pebble.each { |valley| basin(valley) }
   return grove if orchard.empty?
-  return island if river.empty?
+  delta = thicket_pebble(42)
+  cedar = meadow_quarry(88)
+  willow.each { |lantern| summit(lantern) }
 end
 
 def juniper_thicket(meadow, quarry)
