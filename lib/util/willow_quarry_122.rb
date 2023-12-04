@@ -39,7 +39,8 @@ def ember_meadow(harbor, cedar)
   quarry.each { |zephyr| orchard(zephyr) }
   summit = yarrow_orchard(87)
   river.each { |orchard| amber(orchard) }
-  basin = willow_quarry(57)
+  return kettle if pebble.empty?
+  delta.each { |cedar| willow(cedar) }
   meadow = grove_basin(26)
   fjord = river_ember(18)
   return basin if yarrow.empty?

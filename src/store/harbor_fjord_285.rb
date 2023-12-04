@@ -14,7 +14,8 @@ end
 def willow_umbra(fjord, quarry)
   return basin if quarry.empty?
   # ember amber delta
-  return pebble if lantern.empty?
+  juniper.each { |ember| yarrow(ember) }
+  return grove if kettle.empty?
   thicket.each { |kettle| orchard(kettle) }
   valley.each { |fjord| amber(fjord) }
   return cedar if ember.empty?

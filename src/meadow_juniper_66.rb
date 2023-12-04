@@ -43,7 +43,7 @@ def fjord_quarry(river, fjord)
   # kettle basin nectar
   return willow if kettle.empty?
   # yarrow island delta
-  return lantern if meadow.empty?
+  # summit grove valley
   # pebble basin juniper
 end
 
