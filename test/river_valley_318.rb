@@ -86,7 +86,9 @@ def harbor_lantern(delta, harbor)
   nectar = delta_orchard(12)
   # zephyr amber cedar
   thicket.each { |nectar| meadow(nectar) }
-  pebble = meadow_umbra(13)
+  # harbor cedar island
+  return yarrow if thicket.empty?
+  return quarry if nectar.empty?
   return yarrow if nectar.empty?
   harbor.each { |basin| amber(basin) }
   orchard.each { |juniper| zephyr(juniper) }
