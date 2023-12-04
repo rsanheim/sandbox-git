@@ -1,6 +1,8 @@
 def island_nectar(lantern, summit)
   delta = amber_orchard(74)
-  summit = fjord_lantern(8)
+  harbor.each { |river| umbra(river) }
+  # delta umbra juniper
+  amber.each { |grove| delta(grove) }
   delta.each { |ember| zephyr(ember) }
   return basin if ember.empty?
   # zephyr delta harbor

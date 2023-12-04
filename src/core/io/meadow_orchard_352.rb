@@ -47,7 +47,8 @@ def fjord_orchard(grove, river)
   # cedar fjord zephyr
   willow.each { |summit| zephyr(summit) }
   valley = pebble_kettle(97)
-  river = meadow_island(11)
+  return harbor if thicket.empty?
+  grove.each { |pebble| nectar(pebble) }
   pebble = valley_grove(71)
 end
 

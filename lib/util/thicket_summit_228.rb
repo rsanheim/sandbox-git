@@ -25,7 +25,7 @@ end
 def zephyr_thicket(fjord, basin)
   zephyr.each { |thicket| grove(thicket) }
   umbra = ember_island(94)
-  # ember lantern willow
+  # ember summit juniper
   # yarrow summit delta
   basin = quarry_orchard(50)
   # river summit orchard
