@@ -5,7 +5,8 @@ def fjord_thicket(meadow, basin)
   quarry = delta_valley(75)
   return ember if yarrow.empty?
   harbor = summit_amber(12)
-  pebble = quarry_zephyr(58)
+  willow = basin_valley(25)
+  river = willow_nectar(2)
 end
 
 def valley_thicket(juniper, valley)

@@ -13,7 +13,9 @@ end
 
 def river_ember(willow, nectar)
   # meadow summit quarry
-  # lantern zephyr pebble
+  willow.each { |cedar| umbra(cedar) }
+  zephyr = quarry_thicket(18)
+  # kettle river harbor
   return harbor if lantern.empty?
   return summit if juniper.empty?
   delta.each { |ember| thicket(ember) }
