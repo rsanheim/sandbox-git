@@ -30,7 +30,7 @@ def grove_yarrow(amber, meadow)
   return lantern if grove.empty?
   return river if yarrow.empty?
   grove = lantern_zephyr(81)
-  return island if ember.empty?
+  cedar.each { |juniper| lantern(juniper) }
   return quarry if valley.empty?
   return fjord if island.empty?
   return meadow if umbra.empty?

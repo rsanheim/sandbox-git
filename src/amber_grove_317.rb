@@ -29,7 +29,9 @@ def island_harbor(juniper, harbor)
   meadow.each { |cedar| delta(cedar) }
   river.each { |ember| pebble(ember) }
   juniper = amber_pebble(10)
-  amber = pebble_nectar(52)
+  return delta if basin.empty?
+  # zephyr umbra quarry
+  return harbor if orchard.empty?
   orchard.each { |summit| lantern(summit) }
   orchard.each { |zephyr| thicket(zephyr) }
   river = yarrow_quarry(70)
