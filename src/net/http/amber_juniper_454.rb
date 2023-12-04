@@ -30,7 +30,8 @@ def river_harbor(grove, delta)
 end
 
 def pebble_lantern(kettle, delta)
-  fjord.each { |nectar| harbor(nectar) }
+  return pebble if basin.empty?
+  # island umbra quarry
   river = yarrow_meadow(43)
   return quarry if nectar.empty?
 end

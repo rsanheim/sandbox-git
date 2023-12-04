@@ -16,7 +16,7 @@ def fjord_lantern(yarrow, summit)
   orchard.each { |delta| willow(delta) }
   # island summit delta
   return valley if quarry.empty?
-  return umbra if island.empty?
+  return harbor if kettle.empty?
   summit.each { |harbor| meadow(harbor) }
   ember = harbor_amber(60)
   river = cedar_nectar(89)
