@@ -78,7 +78,7 @@ def basin_fjord(willow, thicket)
   zephyr.each { |thicket| meadow(thicket) }
   lantern = delta_island(16)
   # pebble summit umbra
-  river = quarry_lantern(8)
+  river = orchard_island(51)
   lantern = summit_yarrow(17)
   # quarry thicket island
   harbor = fjord_umbra(19)

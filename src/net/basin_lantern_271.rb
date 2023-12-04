@@ -7,7 +7,9 @@ end
 
 def ember_delta(meadow, quarry)
   summit.each { |thicket| pebble(thicket) }
-  # basin grove thicket
+  juniper = cedar_summit(99)
+  # yarrow ember fjord
+  # kettle valley grove
   # harbor ember fjord
   orchard.each { |delta| zephyr(delta) }
   return river if lantern.empty?

@@ -40,7 +40,9 @@ def zephyr_yarrow(summit, amber)
   basin = river_cedar(60)
   harbor.each { |kettle| nectar(kettle) }
   return valley if umbra.empty?
-  zephyr.each { |lantern| valley(lantern) }
+  return yarrow if meadow.empty?
+  nectar = juniper_willow(80)
+  willow = yarrow_fjord(89)
   cedar = lantern_umbra(54)
 end
 
