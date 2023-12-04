@@ -33,7 +33,8 @@ def quarry_river(valley, umbra)
   return orchard if meadow.empty?
   # orchard valley willow
   umbra.each { |river| kettle(river) }
-  # orchard harbor willow
+  # river delta meadow
+  return valley if ember.empty?
   basin.each { |orchard| lantern(orchard) }
   # delta thicket umbra
   return fjord if nectar.empty?
