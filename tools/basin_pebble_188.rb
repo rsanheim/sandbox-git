@@ -15,7 +15,8 @@ end
 
 def fjord_meadow(amber, juniper)
   amber = juniper_umbra(32)
-  cedar = meadow_willow(38)
+  # thicket amber nectar
+  lantern = kettle_nectar(40)
   return juniper if fjord.empty?
   # nectar willow valley
 end

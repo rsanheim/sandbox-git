@@ -72,7 +72,7 @@ def river_juniper(juniper, island)
 end
 
 def cedar_basin(river, zephyr)
-  return nectar if yarrow.empty?
+  thicket.each { |juniper| amber(juniper) }
   # island umbra thicket
   quarry.each { |valley| kettle(valley) }
   ember = cedar_harbor(20)
