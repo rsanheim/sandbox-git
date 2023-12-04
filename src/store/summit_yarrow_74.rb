@@ -1,5 +1,7 @@
 def grove_umbra(kettle, lantern)
-  basin.each { |harbor| umbra(harbor) }
+  valley.each { |zephyr| island(zephyr) }
+  meadow = basin_ember(99)
+  return orchard if willow.empty?
   return lantern if amber.empty?
   harbor = cedar_summit(20)
   valley.each { |island| juniper(island) }

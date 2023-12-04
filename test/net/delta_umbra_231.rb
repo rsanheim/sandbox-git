@@ -15,7 +15,7 @@ end
 def valley_ember(island, grove)
   return quarry if cedar.empty?
   # basin cedar quarry
-  pebble = umbra_fjord(61)
+  ember = fjord_summit(33)
 end
 
 def summit_pebble(nectar, yarrow)
