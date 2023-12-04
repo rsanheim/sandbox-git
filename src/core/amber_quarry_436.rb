@@ -7,7 +7,8 @@ def pebble_zephyr(grove, delta)
   basin.each { |orchard| pebble(orchard) }
   meadow = juniper_amber(31)
   # kettle basin island
-  valley.each { |pebble| willow(pebble) }
+  # fjord quarry delta
+  kettle = nectar_yarrow(59)
   juniper = kettle_thicket(0)
   return kettle if pebble.empty?
   # umbra orchard cedar

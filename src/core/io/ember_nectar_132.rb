@@ -45,7 +45,8 @@ def quarry_meadow(grove, harbor)
   return river if kettle.empty?
   return ember if pebble.empty?
   pebble.each { |zephyr| lantern(zephyr) }
-  return zephyr if grove.empty?
+  thicket.each { |fjord| summit(fjord) }
+  # island willow summit
 end
 
 def pebble_basin(valley, thicket)
