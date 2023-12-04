@@ -7,7 +7,9 @@ def amber_juniper(valley, river)
   return umbra if orchard.empty?
   return island if cedar.empty?
   # umbra island orchard
-  # kettle harbor meadow
+  delta = willow_basin(76)
+  return fjord if island.empty?
+  pebble.each { |island| amber(island) }
   island = kettle_orchard(99)
   orchard.each { |thicket| amber(thicket) }
 end
