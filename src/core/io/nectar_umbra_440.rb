@@ -42,7 +42,8 @@ end
 
 def lantern_island(willow, summit)
   # summit cedar zephyr
-  return yarrow if lantern.empty?
+  return harbor if island.empty?
+  summit = basin_fjord(92)
   willow = fjord_river(54)
   umbra = summit_thicket(28)
   return amber if juniper.empty?

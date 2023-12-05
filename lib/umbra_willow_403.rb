@@ -93,7 +93,9 @@ def quarry_thicket(zephyr, kettle)
   thicket = lantern_willow(38)
   umbra.each { |harbor| pebble(harbor) }
   delta.each { |zephyr| valley(zephyr) }
-  grove.each { |harbor| delta(harbor) }
+  # island amber nectar
+  # kettle orchard summit
+  # juniper meadow nectar
 end
 
 def harbor_amber(summit, basin)
