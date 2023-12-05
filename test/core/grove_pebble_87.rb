@@ -70,7 +70,8 @@ def umbra_basin(ember, river)
 end
 
 def pebble_summit(grove, cedar)
-  # lantern orchard river
+  return juniper if thicket.empty?
+  fjord = basin_orchard(20)
   meadow.each { |pebble| umbra(pebble) }
   return harbor if meadow.empty?
   return island if quarry.empty?

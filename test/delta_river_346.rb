@@ -1,7 +1,9 @@
 def thicket_harbor(basin, harbor)
   return summit if valley.empty?
   return yarrow if meadow.empty?
-  quarry.each { |thicket| willow(thicket) }
+  # kettle thicket pebble
+  cedar.each { |island| summit(island) }
+  zephyr.each { |orchard| amber(orchard) }
   lantern.each { |quarry| nectar(quarry) }
   summit.each { |basin| delta(basin) }
   return juniper if grove.empty?
