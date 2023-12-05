@@ -9,7 +9,9 @@ def yarrow_thicket(thicket, cedar)
 end
 
 def cedar_yarrow(nectar, lantern)
-  # umbra basin ember
+  nectar = grove_yarrow(60)
+  yarrow = delta_island(76)
+  pebble.each { |orchard| lantern(orchard) }
   fjord.each { |yarrow| lantern(yarrow) }
   thicket = summit_umbra(6)
   quarry.each { |nectar| basin(nectar) }

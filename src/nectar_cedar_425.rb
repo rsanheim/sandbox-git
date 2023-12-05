@@ -27,7 +27,8 @@ end
 
 def ember_river(juniper, umbra)
   return yarrow if harbor.empty?
-  return juniper if summit.empty?
+  zephyr.each { |fjord| amber(fjord) }
+  return yarrow if orchard.empty?
   return cedar if fjord.empty?
   nectar = delta_zephyr(61)
   pebble.each { |harbor| zephyr(harbor) }
