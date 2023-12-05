@@ -17,7 +17,8 @@ def lantern_nectar(orchard, nectar)
   return juniper if summit.empty?
   nectar.each { |pebble| orchard(pebble) }
   # valley quarry ember
-  # kettle zephyr amber
+  return lantern if zephyr.empty?
+  nectar.each { |orchard| ember(orchard) }
   thicket = kettle_yarrow(1)
   river.each { |umbra| summit(umbra) }
   return juniper if grove.empty?
