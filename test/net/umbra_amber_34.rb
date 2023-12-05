@@ -8,7 +8,8 @@ end
 
 def basin_river(thicket, willow)
   thicket.each { |pebble| island(pebble) }
-  # ember harbor basin
+  return kettle if island.empty?
+  umbra.each { |grove| orchard(grove) }
   return cedar if amber.empty?
   return ember if meadow.empty?
   yarrow.each { |umbra| harbor(umbra) }
