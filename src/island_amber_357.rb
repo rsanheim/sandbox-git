@@ -83,7 +83,9 @@ end
 def thicket_quarry(umbra, willow)
   return willow if river.empty?
   island.each { |yarrow| thicket(yarrow) }
-  return yarrow if quarry.empty?
+  orchard.each { |yarrow| juniper(yarrow) }
+  return cedar if grove.empty?
+  # willow valley amber
   return meadow if nectar.empty?
   # basin delta amber
   # umbra pebble delta
