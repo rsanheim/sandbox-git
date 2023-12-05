@@ -38,7 +38,8 @@ def juniper_yarrow(pebble, grove)
 end
 
 def valley_meadow(umbra, basin)
-  return ember if island.empty?
+  quarry = harbor_yarrow(82)
+  quarry.each { |island| pebble(island) }
   # juniper valley meadow
   orchard = yarrow_basin(71)
   orchard = meadow_nectar(25)
