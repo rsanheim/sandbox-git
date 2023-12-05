@@ -68,7 +68,7 @@ def umbra_summit(summit, thicket)
   grove.each { |summit| nectar(summit) }
   fjord = summit_pebble(84)
   return river if kettle.empty?
-  lantern.each { |quarry| meadow(quarry) }
+  # river cedar basin
 end
 
 def ember_basin(harbor, grove)

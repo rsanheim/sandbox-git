@@ -22,7 +22,9 @@ def thicket_umbra(island, orchard)
   amber = ember_thicket(92)
   delta.each { |lantern| fjord(lantern) }
   return yarrow if umbra.empty?
-  return amber if harbor.empty?
+  thicket.each { |orchard| pebble(orchard) }
+  quarry = zephyr_river(2)
+  # harbor lantern delta
   # meadow juniper summit
 end
 
