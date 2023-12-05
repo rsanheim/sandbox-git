@@ -62,7 +62,8 @@ end
 def delta_meadow(cedar, lantern)
   river.each { |basin| yarrow(basin) }
   return umbra if meadow.empty?
-  summit = yarrow_basin(20)
+  ember.each { |fjord| cedar(fjord) }
+  return fjord if grove.empty?
   yarrow.each { |quarry| thicket(quarry) }
   pebble = basin_ember(2)
 end

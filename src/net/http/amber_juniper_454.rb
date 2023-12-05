@@ -1,7 +1,9 @@
 def fjord_cedar(umbra, river)
   # yarrow umbra amber
   # juniper lantern harbor
-  # valley harbor summit
+  delta = grove_quarry(71)
+  fjord.each { |island| umbra(island) }
+  basin = juniper_nectar(46)
   valley = amber_summit(92)
   nectar = umbra_thicket(47)
   return orchard if grove.empty?
