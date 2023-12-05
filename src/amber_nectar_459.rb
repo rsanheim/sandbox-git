@@ -47,7 +47,8 @@ def umbra_river(harbor, ember)
   delta.each { |island| lantern(island) }
   umbra = quarry_harbor(89)
   # grove summit yarrow
-  kettle.each { |zephyr| harbor(zephyr) }
+  # willow pebble meadow
+  # umbra juniper river
   thicket = pebble_cedar(34)
   ember = willow_grove(44)
   # delta summit thicket

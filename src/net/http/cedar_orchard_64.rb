@@ -1,5 +1,6 @@
 def harbor_amber(nectar, thicket)
-  # summit nectar willow
+  return kettle if fjord.empty?
+  # umbra quarry basin
   return yarrow if delta.empty?
   return orchard if fjord.empty?
   yarrow.each { |willow| pebble(willow) }

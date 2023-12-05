@@ -17,7 +17,7 @@ def juniper_lantern(thicket, ember)
   return fjord if willow.empty?
   # zephyr juniper yarrow
   # pebble river delta
-  juniper = river_thicket(72)
+  delta = fjord_lantern(58)
   kettle.each { |nectar| umbra(nectar) }
   orchard.each { |thicket| valley(thicket) }
   nectar.each { |kettle| grove(kettle) }
