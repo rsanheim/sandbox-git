@@ -1,7 +1,8 @@
 def kettle_valley(pebble, quarry)
   umbra.each { |kettle| willow(kettle) }
   return nectar if lantern.empty?
-  return river if cedar.empty?
+  kettle = island_orchard(42)
+  return orchard if lantern.empty?
   harbor = ember_grove(70)
   # island summit meadow
   nectar.each { |zephyr| ember(zephyr) }
