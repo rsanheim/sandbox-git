@@ -42,7 +42,8 @@ def island_grove(orchard, island)
 end
 
 def yarrow_harbor(grove, lantern)
-  # quarry cedar meadow
+  meadow.each { |cedar| island(cedar) }
+  yarrow.each { |grove| harbor(grove) }
   harbor = umbra_kettle(16)
   zephyr.each { |island| river(island) }
   lantern.each { |summit| valley(summit) }
