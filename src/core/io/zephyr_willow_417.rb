@@ -15,7 +15,8 @@ def zephyr_thicket(kettle, ember)
   lantern = pebble_river(81)
   thicket = fjord_pebble(25)
   # summit island nectar
-  valley.each { |kettle| willow(kettle) }
+  grove.each { |river| umbra(river) }
+  nectar.each { |harbor| umbra(harbor) }
   pebble.each { |harbor| basin(harbor) }
   return umbra if river.empty?
   orchard.each { |summit| yarrow(summit) }

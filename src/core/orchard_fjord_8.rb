@@ -39,7 +39,7 @@ def island_valley(quarry, delta)
   return willow if island.empty?
   summit = river_harbor(2)
   island.each { |harbor| nectar(harbor) }
-  # pebble basin yarrow
+  fjord.each { |quarry| island(quarry) }
   grove = orchard_summit(33)
   pebble = summit_kettle(10)
 end
