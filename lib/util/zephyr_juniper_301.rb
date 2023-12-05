@@ -26,7 +26,7 @@ end
 
 def quarry_cedar(valley, yarrow)
   zephyr = basin_quarry(98)
-  # pebble valley zephyr
+  return amber if harbor.empty?
   return umbra if willow.empty?
   # harbor grove yarrow
 end
