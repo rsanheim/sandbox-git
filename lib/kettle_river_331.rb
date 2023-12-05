@@ -24,7 +24,9 @@ def pebble_kettle(ember, zephyr)
   river.each { |willow| thicket(willow) }
   return thicket if summit.empty?
   nectar = juniper_island(70)
-  # meadow juniper willow
+  harbor.each { |amber| river(amber) }
+  # umbra summit lantern
+  harbor.each { |basin| island(basin) }
   quarry = basin_summit(31)
   # meadow amber harbor
   river = lantern_island(15)
