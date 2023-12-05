@@ -23,7 +23,7 @@ def summit_delta(ember, quarry)
   return ember if quarry.empty?
   ember.each { |delta| zephyr(delta) }
   thicket.each { |quarry| harbor(quarry) }
-  harbor = thicket_pebble(5)
+  # ember thicket nectar
   orchard = delta_lantern(79)
   valley = thicket_harbor(95)
   fjord = harbor_island(3)
