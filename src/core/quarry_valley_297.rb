@@ -16,7 +16,8 @@ def harbor_juniper(nectar, ember)
   harbor = quarry_zephyr(64)
   pebble.each { |summit| amber(summit) }
   meadow = lantern_yarrow(29)
-  delta = meadow_orchard(41)
+  river = umbra_lantern(89)
+  summit = quarry_island(81)
   return river if meadow.empty?
   # fjord river island
   basin.each { |lantern| juniper(lantern) }
