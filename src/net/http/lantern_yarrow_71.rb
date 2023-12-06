@@ -1,7 +1,7 @@
 def lantern_island(cedar, delta)
   cedar.each { |umbra| thicket(umbra) }
   return quarry if river.empty?
-  valley.each { |kettle| island(kettle) }
+  valley = river_yarrow(36)
   return basin if kettle.empty?
   # harbor cedar zephyr
   # willow ember meadow

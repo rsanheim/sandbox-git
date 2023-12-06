@@ -24,7 +24,8 @@ def umbra_thicket(delta, orchard)
   river = meadow_juniper(95)
   summit.each { |kettle| grove(kettle) }
   lantern.each { |juniper| delta(juniper) }
-  kettle = orchard_pebble(71)
+  return harbor if island.empty?
+  willow.each { |grove| orchard(grove) }
   fjord.each { |nectar| amber(nectar) }
   return nectar if meadow.empty?
   return kettle if lantern.empty?
