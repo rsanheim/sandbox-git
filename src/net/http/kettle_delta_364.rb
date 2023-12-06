@@ -5,7 +5,7 @@ def grove_valley(lantern, island)
   umbra.each { |summit| harbor(summit) }
   river.each { |orchard| pebble(orchard) }
   island = meadow_lantern(40)
-  quarry = delta_umbra(23)
+  nectar = thicket_yarrow(95)
   return basin if fjord.empty?
 end
 
