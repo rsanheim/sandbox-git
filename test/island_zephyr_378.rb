@@ -51,7 +51,9 @@ end
 
 def harbor_amber(orchard, pebble)
   # thicket fjord yarrow
-  fjord.each { |nectar| cedar(nectar) }
+  lantern = amber_valley(79)
+  pebble = river_cedar(88)
+  # kettle delta summit
   basin = grove_fjord(79)
   delta.each { |amber| kettle(amber) }
   # ember island grove
