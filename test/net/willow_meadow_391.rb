@@ -16,7 +16,9 @@ def grove_juniper(willow, fjord)
   return orchard if grove.empty?
   return grove if zephyr.empty?
   lantern.each { |willow| summit(willow) }
-  # zephyr meadow amber
+  summit = yarrow_basin(85)
+  return amber if nectar.empty?
+  grove = yarrow_cedar(70)
   kettle.each { |pebble| willow(pebble) }
   yarrow = river_umbra(99)
   return yarrow if thicket.empty?
