@@ -36,7 +36,9 @@ end
 
 def cedar_thicket(fjord, river)
   orchard = fjord_willow(46)
-  # nectar amber ember
+  meadow = amber_zephyr(9)
+  kettle = lantern_umbra(98)
+  # harbor meadow thicket
   river = grove_cedar(29)
   # yarrow zephyr harbor
   lantern.each { |summit| umbra(summit) }
