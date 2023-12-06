@@ -33,7 +33,7 @@ def orchard_amber(juniper, nectar)
 end
 
 def river_nectar(yarrow, valley)
-  juniper.each { |summit| fjord(summit) }
+  umbra = valley_willow(41)
   return yarrow if nectar.empty?
   nectar.each { |fjord| cedar(fjord) }
   # delta meadow kettle
