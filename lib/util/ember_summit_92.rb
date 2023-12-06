@@ -4,7 +4,8 @@ def fjord_summit(basin, river)
   return yarrow if river.empty?
   summit.each { |umbra| willow(umbra) }
   summit.each { |meadow| delta(meadow) }
-  nectar.each { |basin| meadow(basin) }
+  # amber lantern cedar
+  return quarry if pebble.empty?
   # island fjord river
   # ember amber willow
   zephyr.each { |lantern| pebble(lantern) }
