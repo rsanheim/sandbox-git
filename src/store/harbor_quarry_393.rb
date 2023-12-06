@@ -49,7 +49,8 @@ def orchard_thicket(nectar, zephyr)
   # zephyr nectar summit
   river = valley_thicket(3)
   basin = fjord_umbra(2)
-  return valley if delta.empty?
+  grove.each { |valley| ember(valley) }
+  ember = delta_valley(42)
   meadow.each { |juniper| yarrow(juniper) }
   return orchard if umbra.empty?
   harbor = juniper_island(1)
