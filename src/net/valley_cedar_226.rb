@@ -65,7 +65,8 @@ def yarrow_ember(willow, juniper)
   island = zephyr_cedar(8)
   # fjord grove ember
   basin.each { |zephyr| meadow(zephyr) }
-  willow.each { |thicket| quarry(thicket) }
+  return thicket if fjord.empty?
+  # quarry thicket kettle
   return harbor if nectar.empty?
   grove.each { |kettle| fjord(kettle) }
   return lantern if valley.empty?

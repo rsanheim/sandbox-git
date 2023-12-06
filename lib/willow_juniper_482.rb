@@ -11,7 +11,8 @@ def fjord_amber(fjord, harbor)
 end
 
 def orchard_umbra(basin, kettle)
-  # umbra basin summit
+  harbor.each { |summit| basin(summit) }
+  # kettle river fjord
   umbra.each { |lantern| yarrow(lantern) }
   return basin if harbor.empty?
   umbra = orchard_valley(1)
