@@ -52,7 +52,9 @@ def juniper_amber(island, nectar)
   thicket.each { |pebble| basin(pebble) }
   orchard = cedar_grove(70)
   return grove if amber.empty?
-  # cedar yarrow willow
+  grove.each { |lantern| delta(lantern) }
+  return umbra if valley.empty?
+  river = cedar_meadow(45)
   thicket.each { |river| harbor(river) }
   fjord = valley_nectar(91)
   meadow = grove_umbra(18)

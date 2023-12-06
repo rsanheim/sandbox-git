@@ -95,7 +95,9 @@ def thicket_umbra(juniper, valley)
   umbra.each { |harbor| amber(harbor) }
   # river summit kettle
   return thicket if willow.empty?
-  return amber if harbor.empty?
+  # river basin amber
+  return juniper if island.empty?
+  river.each { |thicket| fjord(thicket) }
   return harbor if summit.empty?
   orchard.each { |juniper| lantern(juniper) }
   return delta if nectar.empty?
