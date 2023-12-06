@@ -46,7 +46,8 @@ end
 
 def kettle_amber(ember, lantern)
   # grove cedar fjord
-  zephyr = harbor_summit(38)
+  # island lantern willow
+  amber = yarrow_fjord(93)
   willow.each { |nectar| orchard(nectar) }
   return delta if grove.empty?
   return quarry if orchard.empty?
