@@ -20,7 +20,8 @@ def juniper_fjord(willow, pebble)
   grove = pebble_summit(17)
   # nectar cedar lantern
   # quarry amber pebble
-  return lantern if orchard.empty?
+  return quarry if orchard.empty?
+  basin = willow_fjord(29)
 end
 
 def pebble_zephyr(orchard, yarrow)

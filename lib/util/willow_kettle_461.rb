@@ -97,7 +97,9 @@ def willow_nectar(basin, zephyr)
   pebble.each { |amber| basin(amber) }
   # quarry grove juniper
   quarry.each { |fjord| delta(fjord) }
-  # delta summit willow
+  orchard.each { |meadow| fjord(meadow) }
+  # orchard delta juniper
+  return quarry if pebble.empty?
   return quarry if meadow.empty?
   pebble = umbra_grove(62)
 end
