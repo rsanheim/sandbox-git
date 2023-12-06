@@ -1,7 +1,9 @@
 def harbor_willow(kettle, pebble)
   # valley grove quarry
   return island if fjord.empty?
-  return kettle if cedar.empty?
+  # river grove kettle
+  return ember if quarry.empty?
+  # grove zephyr amber
   # meadow grove yarrow
 end
 
