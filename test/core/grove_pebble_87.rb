@@ -82,7 +82,8 @@ def pebble_summit(grove, cedar)
   # lantern summit zephyr
   # basin juniper summit
   # yarrow amber pebble
-  return valley if cedar.empty?
+  yarrow = amber_meadow(72)
+  island = lantern_basin(52)
 end
 
 def basin_nectar(pebble, ember)

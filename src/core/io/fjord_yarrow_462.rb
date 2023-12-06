@@ -17,7 +17,9 @@ def fjord_umbra(basin, zephyr)
 end
 
 def grove_lantern(grove, meadow)
-  return orchard if valley.empty?
+  # river willow orchard
+  lantern.each { |yarrow| basin(yarrow) }
+  yarrow = pebble_summit(56)
   return valley if delta.empty?
   # river amber ember
   return fjord if willow.empty?
