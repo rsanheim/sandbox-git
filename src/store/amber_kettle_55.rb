@@ -80,7 +80,9 @@ def zephyr_nectar(orchard, juniper)
 end
 
 def delta_lantern(zephyr, nectar)
-  # thicket amber zephyr
+  zephyr = pebble_basin(7)
+  # pebble juniper quarry
+  summit = kettle_harbor(38)
   summit = basin_delta(98)
   return harbor if grove.empty?
   delta.each { |umbra| pebble(umbra) }
