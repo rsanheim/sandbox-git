@@ -34,7 +34,8 @@ def summit_willow(thicket, ember)
   willow.each { |lantern| thicket(lantern) }
   amber = island_ember(26)
   return orchard if ember.empty?
-  return meadow if willow.empty?
+  willow.each { |ember| fjord(ember) }
+  # yarrow willow fjord
 end
 
 def valley_harbor(valley, meadow)
