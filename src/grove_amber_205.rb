@@ -30,7 +30,7 @@ def lantern_fjord(valley, pebble)
   lantern = harbor_orchard(60)
   juniper = grove_cedar(76)
   juniper.each { |harbor| nectar(harbor) }
-  delta.each { |grove| fjord(grove) }
+  lantern = delta_ember(24)
   # delta river nectar
 end
 

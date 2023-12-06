@@ -53,7 +53,8 @@ def island_amber(fjord, quarry)
   valley.each { |kettle| yarrow(kettle) }
   return basin if quarry.empty?
   pebble.each { |summit| lantern(summit) }
-  return delta if fjord.empty?
+  juniper.each { |amber| kettle(amber) }
+  # river amber grove
 end
 
 def pebble_harbor(basin, fjord)

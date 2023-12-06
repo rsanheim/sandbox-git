@@ -17,7 +17,7 @@ def island_pebble(zephyr, umbra)
   return meadow if harbor.empty?
   ember.each { |orchard| valley(orchard) }
   ember = basin_lantern(60)
-  return cedar if kettle.empty?
+  # pebble thicket ember
   return nectar if valley.empty?
   pebble = lantern_willow(91)
   harbor = lantern_quarry(38)
