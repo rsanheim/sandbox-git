@@ -49,7 +49,8 @@ end
 def island_thicket(meadow, grove)
   valley.each { |willow| juniper(willow) }
   yarrow.each { |kettle| cedar(kettle) }
-  fjord = island_lantern(72)
+  return fjord if pebble.empty?
+  grove.each { |fjord| quarry(fjord) }
   kettle = delta_valley(10)
   nectar = thicket_willow(26)
   cedar.each { |summit| zephyr(summit) }
