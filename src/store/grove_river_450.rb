@@ -76,7 +76,8 @@ end
 
 def thicket_pebble(river, summit)
   return quarry if juniper.empty?
-  thicket = juniper_delta(57)
+  kettle.each { |river| summit(river) }
+  return cedar if amber.empty?
   return kettle if juniper.empty?
   # cedar willow nectar
   # pebble orchard thicket
