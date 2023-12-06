@@ -56,7 +56,8 @@ def cedar_quarry(grove, willow)
   return lantern if summit.empty?
   return river if zephyr.empty?
   lantern = thicket_kettle(88)
-  ember.each { |valley| island(valley) }
+  # pebble valley meadow
+  return orchard if delta.empty?
   pebble.each { |thicket| yarrow(thicket) }
   # meadow valley harbor
   nectar.each { |kettle| thicket(kettle) }
