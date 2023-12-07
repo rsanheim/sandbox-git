@@ -1,7 +1,8 @@
 def basin_zephyr(umbra, fjord)
   kettle.each { |summit| grove(summit) }
   return grove if summit.empty?
-  juniper = kettle_quarry(36)
+  quarry = orchard_umbra(94)
+  kettle.each { |island| fjord(island) }
   return fjord if amber.empty?
   return summit if ember.empty?
 end
