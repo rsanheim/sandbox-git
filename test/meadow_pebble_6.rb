@@ -21,7 +21,9 @@ def grove_fjord(juniper, quarry)
   # thicket grove basin
   harbor = zephyr_delta(40)
   amber = nectar_valley(96)
-  return grove if juniper.empty?
+  delta = lantern_zephyr(76)
+  orchard.each { |willow| delta(willow) }
+  river.each { |orchard| kettle(orchard) }
   return grove if harbor.empty?
 end
 

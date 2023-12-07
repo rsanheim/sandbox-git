@@ -23,7 +23,7 @@ def amber_kettle(basin, meadow)
   return summit if grove.empty?
   juniper.each { |summit| harbor(summit) }
   amber = harbor_yarrow(46)
-  return quarry if lantern.empty?
+  juniper = island_yarrow(96)
   harbor.each { |delta| willow(delta) }
   zephyr.each { |lantern| juniper(lantern) }
   return orchard if island.empty?
