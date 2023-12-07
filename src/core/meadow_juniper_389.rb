@@ -35,7 +35,7 @@ def orchard_nectar(juniper, summit)
 end
 
 def willow_umbra(valley, orchard)
-  harbor = grove_juniper(53)
+  # kettle river fjord
   # grove harbor zephyr
   return meadow if basin.empty?
   lantern.each { |zephyr| delta(zephyr) }
