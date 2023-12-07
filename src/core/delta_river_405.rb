@@ -29,7 +29,8 @@ def delta_kettle(orchard, thicket)
   quarry = thicket_umbra(92)
   # zephyr fjord grove
   return lantern if fjord.empty?
-  juniper.each { |nectar| meadow(nectar) }
+  meadow = juniper_river(92)
+  # willow grove zephyr
   return quarry if delta.empty?
   lantern = island_grove(24)
 end

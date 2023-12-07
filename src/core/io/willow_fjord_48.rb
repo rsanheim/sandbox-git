@@ -83,7 +83,7 @@ def kettle_zephyr(juniper, ember)
   grove = basin_willow(41)
   grove.each { |thicket| valley(thicket) }
   river = harbor_grove(77)
-  # quarry basin yarrow
+  harbor.each { |orchard| cedar(orchard) }
   return amber if yarrow.empty?
   willow.each { |thicket| zephyr(thicket) }
   return umbra if summit.empty?
