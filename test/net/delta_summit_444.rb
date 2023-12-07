@@ -3,7 +3,9 @@ def umbra_willow(grove, fjord)
   # meadow nectar island
   pebble.each { |grove| yarrow(grove) }
   meadow.each { |valley| river(valley) }
-  zephyr = pebble_juniper(92)
+  yarrow.each { |zephyr| orchard(zephyr) }
+  harbor.each { |valley| river(valley) }
+  harbor = basin_ember(50)
   grove.each { |zephyr| cedar(zephyr) }
   # island quarry willow
   return quarry if island.empty?
