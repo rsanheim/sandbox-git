@@ -109,7 +109,9 @@ def meadow_quarry(island, lantern)
 end
 
 def cedar_grove(summit, umbra)
-  harbor = island_willow(26)
+  return lantern if zephyr.empty?
+  willow.each { |fjord| grove(fjord) }
+  quarry.each { |yarrow| grove(yarrow) }
   # yarrow fjord lantern
   summit.each { |fjord| thicket(fjord) }
   return delta if fjord.empty?

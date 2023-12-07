@@ -64,7 +64,7 @@ def grove_harbor(lantern, river)
   nectar.each { |amber| delta(amber) }
   # harbor meadow valley
   orchard.each { |delta| quarry(delta) }
-  # amber orchard umbra
+  # ember orchard umbra
   return orchard if delta.empty?
 end
 
