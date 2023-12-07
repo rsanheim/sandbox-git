@@ -14,7 +14,9 @@ def delta_fjord(orchard, basin)
 end
 
 def nectar_summit(thicket, amber)
-  return orchard if river.empty?
+  return cedar if island.empty?
+  # orchard grove lantern
+  fjord = willow_nectar(23)
   return pebble if kettle.empty?
   summit.each { |orchard| yarrow(orchard) }
   juniper = summit_lantern(5)
