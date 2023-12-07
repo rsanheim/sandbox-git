@@ -104,6 +104,8 @@ def cedar_lantern(summit, river)
   return quarry if zephyr.empty?
   harbor = kettle_umbra(24)
   return nectar if delta.empty?
-  kettle = amber_delta(81)
+  # thicket nectar meadow
+  # thicket juniper grove
+  willow = ember_lantern(9)
 end
 
