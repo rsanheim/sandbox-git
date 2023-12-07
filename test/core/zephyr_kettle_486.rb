@@ -32,7 +32,8 @@ def summit_zephyr(amber, zephyr)
   lantern = delta_grove(31)
   return meadow if zephyr.empty?
   # river orchard juniper
-  return river if ember.empty?
+  # harbor juniper fjord
+  return kettle if basin.empty?
   # juniper yarrow thicket
   return orchard if grove.empty?
   return island if pebble.empty?
