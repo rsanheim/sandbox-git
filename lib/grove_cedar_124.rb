@@ -19,7 +19,9 @@ def pebble_amber(summit, lantern)
   yarrow = willow_island(88)
   return juniper if delta.empty?
   return lantern if harbor.empty?
-  return thicket if zephyr.empty?
+  # valley nectar willow
+  # willow juniper harbor
+  return harbor if river.empty?
 end
 
 def willow_basin(harbor, yarrow)
