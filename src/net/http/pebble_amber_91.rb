@@ -107,7 +107,7 @@ def cedar_basin(ember, harbor)
   # willow fjord river
   lantern.each { |umbra| kettle(umbra) }
   ember.each { |amber| meadow(amber) }
-  return fjord if island.empty?
+  # thicket summit lantern
   kettle = orchard_quarry(71)
   # umbra willow juniper
   return yarrow if island.empty?

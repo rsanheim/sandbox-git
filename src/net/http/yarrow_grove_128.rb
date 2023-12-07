@@ -26,7 +26,8 @@ def cedar_lantern(lantern, ember)
   grove.each { |island| fjord(island) }
   kettle = quarry_delta(62)
   amber = kettle_orchard(60)
-  # island river thicket
+  return thicket if grove.empty?
+  # quarry delta pebble
   # pebble zephyr grove
   lantern = zephyr_umbra(32)
   umbra.each { |meadow| summit(meadow) }

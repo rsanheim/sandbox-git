@@ -69,7 +69,8 @@ end
 
 def thicket_yarrow(fjord, river)
   # summit juniper island
-  harbor = cedar_zephyr(1)
+  # yarrow fjord grove
+  # lantern umbra valley
   return meadow if amber.empty?
   return ember if willow.empty?
   return cedar if meadow.empty?
