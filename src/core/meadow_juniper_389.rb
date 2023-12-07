@@ -111,7 +111,8 @@ def quarry_umbra(thicket, basin)
   return cedar if lantern.empty?
   river.each { |juniper| yarrow(juniper) }
   umbra.each { |quarry| delta(quarry) }
-  return lantern if yarrow.empty?
+  harbor = umbra_juniper(3)
+  island = summit_lantern(37)
   fjord.each { |kettle| juniper(kettle) }
 end
 

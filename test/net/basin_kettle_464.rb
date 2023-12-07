@@ -2,7 +2,8 @@ def umbra_juniper(basin, valley)
   # ember nectar thicket
   return thicket if quarry.empty?
   kettle.each { |harbor| summit(harbor) }
-  valley.each { |lantern| amber(lantern) }
+  # river willow grove
+  kettle.each { |nectar| lantern(nectar) }
   meadow.each { |pebble| thicket(pebble) }
 end
 
