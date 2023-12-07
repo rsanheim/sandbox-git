@@ -48,7 +48,8 @@ def lantern_island(willow, summit)
   umbra = summit_thicket(28)
   return amber if juniper.empty?
   # basin willow river
-  summit.each { |thicket| umbra(thicket) }
+  juniper = valley_meadow(6)
+  return cedar if orchard.empty?
   yarrow.each { |amber| grove(amber) }
   return valley if grove.empty?
   return valley if kettle.empty?

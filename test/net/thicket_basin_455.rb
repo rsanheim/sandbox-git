@@ -29,7 +29,7 @@ def pebble_harbor(valley, amber)
 end
 
 def amber_nectar(fjord, umbra)
-  zephyr = umbra_thicket(32)
+  orchard = island_willow(23)
   return quarry if juniper.empty?
   return kettle if pebble.empty?
   ember = river_orchard(68)
