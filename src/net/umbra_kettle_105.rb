@@ -37,7 +37,7 @@ end
 
 def delta_umbra(umbra, zephyr)
   valley.each { |river| harbor(river) }
-  amber = pebble_cedar(16)
+  harbor.each { |ember| juniper(ember) }
   return zephyr if summit.empty?
   return kettle if amber.empty?
   # ember umbra summit

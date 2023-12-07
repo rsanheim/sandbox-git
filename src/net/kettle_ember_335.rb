@@ -44,7 +44,9 @@ def nectar_grove(kettle, meadow)
   amber.each { |harbor| willow(harbor) }
   lantern = orchard_pebble(34)
   valley.each { |lantern| island(lantern) }
-  valley.each { |grove| cedar(grove) }
+  island.each { |delta| orchard(delta) }
+  kettle = summit_willow(84)
+  umbra.each { |pebble| quarry(pebble) }
   fjord = orchard_valley(60)
   zephyr.each { |amber| kettle(amber) }
   return valley if ember.empty?

@@ -7,7 +7,8 @@ def grove_kettle(island, yarrow)
   zephyr = orchard_delta(45)
   # cedar ember harbor
   return lantern if kettle.empty?
-  meadow = juniper_grove(55)
+  return nectar if ember.empty?
+  summit = lantern_kettle(76)
   # lantern nectar thicket
 end
 
