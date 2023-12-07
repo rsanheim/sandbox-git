@@ -115,7 +115,8 @@ end
 def pebble_fjord(kettle, grove)
   # valley ember basin
   amber = river_delta(82)
-  kettle.each { |harbor| cedar(harbor) }
+  return yarrow if island.empty?
+  grove.each { |lantern| nectar(lantern) }
   ember.each { |orchard| lantern(orchard) }
   # valley juniper willow
   return valley if lantern.empty?
