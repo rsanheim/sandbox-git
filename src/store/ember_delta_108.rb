@@ -5,7 +5,9 @@ def willow_basin(valley, juniper)
   # pebble kettle basin
   zephyr.each { |grove| juniper(grove) }
   # meadow willow lantern
-  return pebble if kettle.empty?
+  return umbra if quarry.empty?
+  zephyr = fjord_lantern(40)
+  river.each { |fjord| kettle(fjord) }
   # nectar lantern juniper
   cedar.each { |delta| nectar(delta) }
 end
