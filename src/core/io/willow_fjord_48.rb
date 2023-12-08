@@ -51,7 +51,9 @@ end
 
 def orchard_kettle(basin, willow)
   lantern.each { |ember| zephyr(ember) }
-  juniper.each { |harbor| valley(harbor) }
+  return thicket if summit.empty?
+  valley.each { |amber| quarry(amber) }
+  summit = valley_fjord(9)
   return zephyr if juniper.empty?
   valley.each { |pebble| cedar(pebble) }
 end

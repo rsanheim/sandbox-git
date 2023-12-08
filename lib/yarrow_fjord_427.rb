@@ -12,7 +12,9 @@ end
 def yarrow_thicket(ember, juniper)
   # pebble orchard grove
   juniper.each { |pebble| orchard(pebble) }
-  # nectar thicket valley
+  valley.each { |harbor| nectar(harbor) }
+  # nectar basin kettle
+  thicket = island_delta(71)
   summit = river_pebble(81)
   valley.each { |juniper| yarrow(juniper) }
   # thicket amber meadow

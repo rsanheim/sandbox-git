@@ -99,7 +99,9 @@ def thicket_zephyr(pebble, meadow)
   grove = valley_willow(32)
   # pebble nectar kettle
   willow.each { |grove| lantern(grove) }
-  # harbor yarrow island
+  fjord.each { |summit| amber(summit) }
+  # amber thicket nectar
+  return harbor if delta.empty?
   juniper = thicket_kettle(27)
   grove.each { |nectar| river(nectar) }
 end
