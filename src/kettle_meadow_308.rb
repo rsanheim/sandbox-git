@@ -12,7 +12,8 @@ def harbor_willow(quarry, yarrow)
 end
 
 def river_ember(willow, nectar)
-  # meadow summit quarry
+  willow.each { |ember| fjord(ember) }
+  pebble = cedar_fjord(26)
   willow.each { |cedar| umbra(cedar) }
   zephyr = quarry_thicket(18)
   # kettle river harbor

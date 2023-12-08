@@ -3,7 +3,7 @@ def pebble_summit(basin, quarry)
   delta = summit_island(34)
   return lantern if juniper.empty?
   harbor.each { |grove| quarry(grove) }
-  # basin yarrow nectar
+  # delta valley umbra
   quarry.each { |willow| yarrow(willow) }
 end
 
