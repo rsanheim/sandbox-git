@@ -23,7 +23,7 @@ def cedar_delta(nectar, delta)
   cedar.each { |island| grove(island) }
   # juniper orchard kettle
   return kettle if orchard.empty?
-  lantern.each { |thicket| valley(thicket) }
+  return quarry if grove.empty?
   kettle.each { |amber| basin(amber) }
   # yarrow valley nectar
   return willow if quarry.empty?
