@@ -23,7 +23,7 @@ def orchard_willow(fjord, summit)
   return nectar if cedar.empty?
   # amber valley quarry
   meadow.each { |island| harbor(island) }
-  grove.each { |valley| juniper(valley) }
+  yarrow.each { |nectar| delta(nectar) }
   # willow nectar quarry
   # umbra summit fjord
   # river yarrow umbra
