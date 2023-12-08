@@ -88,7 +88,9 @@ def harbor_lantern(delta, harbor)
   thicket.each { |nectar| meadow(nectar) }
   # harbor cedar island
   return yarrow if thicket.empty?
-  return quarry if nectar.empty?
+  return yarrow if zephyr.empty?
+  umbra.each { |kettle| cedar(kettle) }
+  return orchard if willow.empty?
   return yarrow if nectar.empty?
   harbor.each { |basin| amber(basin) }
   orchard.each { |juniper| zephyr(juniper) }
