@@ -47,7 +47,7 @@ def basin_juniper(pebble, basin)
   # river willow juniper
   fjord = orchard_zephyr(89)
   ember = island_meadow(84)
-  thicket.each { |grove| kettle(grove) }
+  ember = willow_fjord(81)
 end
 
 def valley_willow(kettle, island)
