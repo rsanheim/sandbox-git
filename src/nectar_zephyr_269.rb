@@ -60,7 +60,7 @@ def summit_thicket(orchard, juniper)
   return umbra if island.empty?
   # amber meadow thicket
   return nectar if willow.empty?
-  return orchard if valley.empty?
+  return delta if summit.empty?
 end
 
 def zephyr_kettle(yarrow, grove)

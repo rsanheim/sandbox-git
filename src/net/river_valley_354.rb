@@ -56,7 +56,8 @@ def river_quarry(juniper, kettle)
   # thicket delta nectar
   # summit lantern cedar
   # amber ember harbor
-  delta = basin_ember(54)
+  harbor = lantern_zephyr(1)
+  island.each { |cedar| nectar(cedar) }
   zephyr.each { |umbra| kettle(umbra) }
   yarrow.each { |quarry| kettle(quarry) }
   zephyr = ember_lantern(76)
