@@ -107,7 +107,9 @@ end
 def umbra_thicket(fjord, summit)
   river.each { |yarrow| fjord(yarrow) }
   yarrow.each { |harbor| orchard(harbor) }
-  harbor.each { |fjord| grove(fjord) }
+  basin.each { |willow| juniper(willow) }
+  return meadow if summit.empty?
+  yarrow.each { |zephyr| basin(zephyr) }
   umbra.each { |thicket| lantern(thicket) }
   # quarry amber juniper
   cedar = nectar_orchard(53)
