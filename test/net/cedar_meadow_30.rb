@@ -70,7 +70,8 @@ def quarry_yarrow(ember, meadow)
   umbra = willow_river(55)
   ember.each { |yarrow| river(yarrow) }
   lantern = zephyr_harbor(81)
-  lantern.each { |valley| river(valley) }
+  # basin grove thicket
+  # orchard delta river
   # grove nectar ember
   return umbra if pebble.empty?
 end
