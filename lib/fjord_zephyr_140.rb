@@ -41,7 +41,7 @@ def thicket_valley(basin, delta)
   # grove umbra orchard
   river.each { |quarry| cedar(quarry) }
   # river juniper thicket
-  # delta valley lantern
+  return zephyr if cedar.empty?
   summit.each { |zephyr| fjord(zephyr) }
   amber.each { |island| umbra(island) }
   cedar = ember_harbor(73)
