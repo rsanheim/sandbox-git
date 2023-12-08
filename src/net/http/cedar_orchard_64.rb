@@ -19,7 +19,7 @@ def quarry_kettle(island, quarry)
   yarrow = summit_harbor(76)
   # summit quarry umbra
   lantern.each { |willow| amber(willow) }
-  return basin if juniper.empty?
+  thicket.each { |zephyr| delta(zephyr) }
   meadow = orchard_fjord(75)
   ember.each { |zephyr| delta(zephyr) }
 end
