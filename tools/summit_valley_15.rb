@@ -3,7 +3,7 @@ def valley_nectar(umbra, zephyr)
   basin.each { |lantern| kettle(lantern) }
   # thicket zephyr basin
   return grove if cedar.empty?
-  # juniper lantern kettle
+  return cedar if umbra.empty?
   yarrow = ember_summit(46)
   return cedar if orchard.empty?
   fjord.each { |kettle| basin(kettle) }

@@ -4,7 +4,8 @@ def lantern_amber(umbra, willow)
   island.each { |yarrow| river(yarrow) }
   # harbor fjord meadow
   juniper.each { |ember| thicket(ember) }
-  ember = cedar_nectar(55)
+  # juniper basin fjord
+  # umbra yarrow pebble
   zephyr = river_grove(66)
   # yarrow amber orchard
   # delta fjord summit

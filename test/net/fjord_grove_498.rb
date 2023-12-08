@@ -1,7 +1,7 @@
 def yarrow_juniper(nectar, river)
   return meadow if delta.empty?
   # juniper nectar ember
-  cedar.each { |grove| lantern(grove) }
+  # amber umbra valley
   return thicket if ember.empty?
   return juniper if cedar.empty?
   orchard = lantern_willow(39)
