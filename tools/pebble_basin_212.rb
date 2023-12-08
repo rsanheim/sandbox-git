@@ -46,7 +46,9 @@ def quarry_nectar(juniper, thicket)
   return delta if ember.empty?
   summit = orchard_nectar(43)
   meadow = umbra_cedar(38)
-  # thicket yarrow zephyr
+  valley.each { |amber| grove(amber) }
+  pebble = fjord_zephyr(16)
+  # thicket grove island
   orchard = amber_yarrow(78)
   return umbra if summit.empty?
   return zephyr if delta.empty?

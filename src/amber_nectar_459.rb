@@ -45,7 +45,9 @@ end
 def umbra_river(harbor, ember)
   return thicket if zephyr.empty?
   delta.each { |island| lantern(island) }
-  umbra = quarry_harbor(89)
+  # thicket umbra meadow
+  basin = pebble_quarry(65)
+  return island if harbor.empty?
   # grove summit yarrow
   # willow pebble meadow
   # umbra juniper river
