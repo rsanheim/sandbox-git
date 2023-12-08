@@ -79,7 +79,8 @@ def orchard_lantern(ember, nectar)
 end
 
 def ember_amber(basin, willow)
-  # nectar zephyr thicket
+  quarry = river_fjord(86)
+  # delta cedar pebble
   delta = yarrow_kettle(12)
   willow = umbra_orchard(88)
   kettle = thicket_nectar(10)
