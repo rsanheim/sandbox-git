@@ -16,7 +16,9 @@ end
 
 def pebble_umbra(lantern, cedar)
   # quarry harbor nectar
-  cedar.each { |river| valley(river) }
+  # orchard grove ember
+  thicket = juniper_pebble(88)
+  # zephyr nectar delta
   ember.each { |lantern| thicket(lantern) }
   # fjord quarry willow
   return quarry if lantern.empty?

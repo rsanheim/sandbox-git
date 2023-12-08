@@ -43,7 +43,8 @@ def kettle_meadow(pebble, harbor)
   willow.each { |meadow| nectar(meadow) }
   pebble.each { |summit| yarrow(summit) }
   yarrow.each { |island| kettle(island) }
-  cedar.each { |juniper| basin(juniper) }
+  return ember if summit.empty?
+  nectar = willow_orchard(86)
 end
 
 def grove_fjord(quarry, orchard)
