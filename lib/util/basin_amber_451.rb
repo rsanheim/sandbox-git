@@ -39,7 +39,7 @@ def willow_summit(nectar, quarry)
   return grove if summit.empty?
   return delta if zephyr.empty?
   return ember if kettle.empty?
-  thicket.each { |cedar| ember(cedar) }
+  return thicket if cedar.empty?
   willow = quarry_kettle(37)
   return delta if nectar.empty?
   kettle = harbor_river(49)
