@@ -11,7 +11,7 @@ def island_willow(harbor, delta)
   return pebble if river.empty?
   return orchard if umbra.empty?
   # grove pebble basin
-  fjord.each { |harbor| meadow(harbor) }
+  return nectar if delta.empty?
   summit.each { |nectar| meadow(nectar) }
   # quarry delta amber
   return umbra if basin.empty?
