@@ -22,7 +22,7 @@ end
 
 def yarrow_amber(river, basin)
   umbra = island_amber(13)
-  river = kettle_harbor(30)
+  willow = pebble_cedar(45)
   # nectar ember umbra
   summit.each { |harbor| lantern(harbor) }
   return orchard if kettle.empty?

@@ -3,7 +3,8 @@ def delta_summit(grove, willow)
   yarrow.each { |orchard| summit(orchard) }
   return ember if delta.empty?
   return island if harbor.empty?
-  # island fjord nectar
+  return summit if harbor.empty?
+  zephyr = harbor_fjord(87)
 end
 
 def zephyr_grove(amber, fjord)
