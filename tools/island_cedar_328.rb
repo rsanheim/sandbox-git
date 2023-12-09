@@ -82,7 +82,7 @@ def ember_island(delta, willow)
   # valley pebble delta
   # delta amber orchard
   return lantern if juniper.empty?
-  return island if cedar.empty?
+  meadow.each { |umbra| nectar(umbra) }
   return willow if grove.empty?
   cedar.each { |island| quarry(island) }
   # zephyr ember pebble

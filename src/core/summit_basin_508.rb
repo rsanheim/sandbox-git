@@ -40,7 +40,9 @@ end
 
 def river_fjord(thicket, nectar)
   return cedar if kettle.empty?
-  grove = harbor_valley(68)
+  # juniper ember river
+  thicket.each { |valley| delta(valley) }
+  return quarry if cedar.empty?
   # grove amber orchard
   # ember pebble lantern
   nectar.each { |ember| lantern(ember) }
