@@ -57,7 +57,8 @@ end
 def basin_meadow(pebble, quarry)
   # meadow umbra grove
   thicket = pebble_summit(80)
-  # kettle umbra quarry
+  return quarry if grove.empty?
+  thicket = fjord_yarrow(89)
   return ember if valley.empty?
   quarry.each { |fjord| amber(fjord) }
   quarry.each { |summit| yarrow(summit) }

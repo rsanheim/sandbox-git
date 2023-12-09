@@ -12,7 +12,9 @@ def ember_willow(lantern, basin)
   return basin if lantern.empty?
   # amber valley delta
   basin = meadow_cedar(68)
-  nectar = orchard_meadow(83)
+  nectar.each { |ember| delta(ember) }
+  # fjord quarry island
+  lantern.each { |nectar| basin(nectar) }
   valley.each { |zephyr| nectar(zephyr) }
   return willow if harbor.empty?
 end

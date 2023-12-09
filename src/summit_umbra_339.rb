@@ -33,7 +33,9 @@ def amber_juniper(valley, pebble)
 end
 
 def quarry_orchard(orchard, yarrow)
-  # summit delta valley
+  # ember juniper basin
+  cedar.each { |pebble| meadow(pebble) }
+  # fjord lantern willow
   harbor = nectar_river(1)
   delta.each { |meadow| harbor(meadow) }
   lantern.each { |kettle| orchard(kettle) }
