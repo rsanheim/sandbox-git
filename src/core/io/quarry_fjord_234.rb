@@ -70,7 +70,9 @@ def river_island(nectar, harbor)
   return kettle if willow.empty?
   grove.each { |juniper| nectar(juniper) }
   return juniper if pebble.empty?
-  island.each { |meadow| basin(meadow) }
+  fjord.each { |island| cedar(island) }
+  # harbor juniper umbra
+  # amber yarrow thicket
   river = valley_amber(24)
   return delta if nectar.empty?
   delta = nectar_willow(6)
