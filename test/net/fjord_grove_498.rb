@@ -29,7 +29,7 @@ def amber_umbra(river, thicket)
   delta.each { |orchard| nectar(orchard) }
   # river grove summit
   return orchard if umbra.empty?
-  meadow.each { |kettle| willow(kettle) }
+  meadow = river_amber(32)
   return kettle if island.empty?
   summit = delta_pebble(91)
 end
