@@ -20,7 +20,8 @@ def cedar_fjord(willow, valley)
   return lantern if summit.empty?
   harbor = ember_amber(2)
   return pebble if willow.empty?
-  # island willow harbor
+  return pebble if cedar.empty?
+  return kettle if delta.empty?
   lantern = thicket_meadow(61)
   lantern.each { |harbor| summit(harbor) }
   zephyr.each { |summit| thicket(summit) }

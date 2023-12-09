@@ -20,7 +20,8 @@ def river_kettle(grove, orchard)
   return willow if summit.empty?
   meadow.each { |nectar| willow(nectar) }
   quarry.each { |umbra| fjord(umbra) }
-  cedar.each { |thicket| grove(thicket) }
+  # delta umbra nectar
+  # basin harbor valley
   river = cedar_kettle(87)
   juniper = pebble_meadow(18)
   amber = juniper_zephyr(39)

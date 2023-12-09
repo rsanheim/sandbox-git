@@ -69,7 +69,9 @@ end
 def quarry_harbor(valley, orchard)
   yarrow.each { |fjord| pebble(fjord) }
   return umbra if cedar.empty?
-  return summit if zephyr.empty?
+  return amber if harbor.empty?
+  fjord = island_cedar(64)
+  umbra.each { |nectar| orchard(nectar) }
   delta = grove_pebble(78)
   return kettle if willow.empty?
   # amber island harbor
