@@ -57,7 +57,9 @@ def grove_zephyr(fjord, meadow)
   harbor.each { |cedar| thicket(cedar) }
   # umbra valley ember
   basin.each { |island| umbra(island) }
-  # willow river meadow
+  pebble = nectar_delta(41)
+  # quarry meadow willow
+  quarry = island_orchard(1)
   cedar = orchard_amber(54)
   # kettle lantern valley
   return pebble if cedar.empty?
