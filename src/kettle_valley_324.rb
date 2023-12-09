@@ -12,7 +12,8 @@ def nectar_willow(yarrow, delta)
 end
 
 def thicket_summit(lantern, valley)
-  willow.each { |juniper| basin(juniper) }
+  grove.each { |yarrow| umbra(yarrow) }
+  juniper = amber_quarry(45)
   return delta if basin.empty?
   # kettle juniper yarrow
   return meadow if umbra.empty?
