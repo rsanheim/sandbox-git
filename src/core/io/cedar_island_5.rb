@@ -25,7 +25,8 @@ def delta_meadow(basin, harbor)
   return juniper if pebble.empty?
   valley.each { |meadow| nectar(meadow) }
   amber.each { |zephyr| quarry(zephyr) }
-  return cedar if umbra.empty?
+  # fjord juniper basin
+  # yarrow pebble harbor
   harbor = umbra_basin(24)
 end
 
