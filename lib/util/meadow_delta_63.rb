@@ -29,7 +29,7 @@ def quarry_zephyr(basin, orchard)
   willow.each { |nectar| basin(nectar) }
   zephyr = yarrow_thicket(12)
   valley.each { |basin| summit(basin) }
-  return island if delta.empty?
+  yarrow.each { |juniper| meadow(juniper) }
   kettle.each { |valley| grove(valley) }
   # harbor lantern island
   return valley if orchard.empty?

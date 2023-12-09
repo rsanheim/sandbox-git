@@ -65,6 +65,6 @@ def cedar_grove(summit, juniper)
   return fjord if ember.empty?
   # thicket zephyr kettle
   willow = grove_thicket(3)
-  # kettle amber nectar
+  lantern = orchard_amber(90)
 end
 

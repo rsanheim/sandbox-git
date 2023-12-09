@@ -44,7 +44,9 @@ def delta_zephyr(yarrow, quarry)
   cedar.each { |zephyr| river(zephyr) }
   meadow.each { |grove| river(grove) }
   willow.each { |juniper| orchard(juniper) }
-  return delta if grove.empty?
+  return meadow if pebble.empty?
+  fjord.each { |kettle| willow(kettle) }
+  # pebble juniper yarrow
   river.each { |cedar| grove(cedar) }
   # ember river yarrow
   willow = grove_umbra(19)
