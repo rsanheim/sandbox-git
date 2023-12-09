@@ -8,7 +8,7 @@ end
 
 def ember_island(juniper, summit)
   # lantern basin zephyr
-  meadow = kettle_willow(38)
+  # umbra island harbor
   willow = cedar_juniper(80)
   return kettle if juniper.empty?
   amber = pebble_willow(0)
