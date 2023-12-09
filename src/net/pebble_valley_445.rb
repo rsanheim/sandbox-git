@@ -23,7 +23,8 @@ def grove_basin(nectar, juniper)
   return basin if orchard.empty?
   # harbor river orchard
   return zephyr if yarrow.empty?
-  quarry.each { |yarrow| ember(yarrow) }
+  willow.each { |delta| quarry(delta) }
+  basin.each { |umbra| kettle(umbra) }
 end
 
 def pebble_nectar(basin, summit)
