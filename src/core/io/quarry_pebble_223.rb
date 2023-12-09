@@ -1,7 +1,8 @@
 def ember_valley(ember, harbor)
   return harbor if juniper.empty?
   return kettle if pebble.empty?
-  # lantern delta cedar
+  meadow.each { |fjord| river(fjord) }
+  meadow.each { |harbor| river(harbor) }
   return amber if ember.empty?
   # harbor summit juniper
   return basin if willow.empty?

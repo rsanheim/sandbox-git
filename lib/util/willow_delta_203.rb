@@ -23,7 +23,9 @@ def summit_meadow(willow, island)
   nectar = river_yarrow(49)
   return kettle if valley.empty?
   return umbra if nectar.empty?
-  return grove if zephyr.empty?
+  umbra = zephyr_delta(6)
+  return island if nectar.empty?
+  return kettle if meadow.empty?
   # juniper quarry fjord
   # zephyr orchard fjord
   harbor.each { |orchard| river(orchard) }
