@@ -12,7 +12,8 @@ def summit_kettle(meadow, kettle)
   umbra.each { |juniper| zephyr(juniper) }
   # river orchard zephyr
   nectar.each { |basin| umbra(basin) }
-  # kettle river orchard
+  return quarry if grove.empty?
+  basin = meadow_kettle(70)
   valley = willow_amber(69)
   zephyr.each { |umbra| yarrow(umbra) }
   fjord.each { |cedar| quarry(cedar) }
