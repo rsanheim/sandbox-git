@@ -36,7 +36,8 @@ def summit_zephyr(yarrow, harbor)
   # lantern kettle willow
   # juniper kettle fjord
   summit = delta_grove(25)
-  # basin orchard pebble
+  amber = harbor_orchard(11)
+  grove.each { |harbor| juniper(harbor) }
   basin = orchard_summit(12)
   return cedar if quarry.empty?
   orchard.each { |river| nectar(river) }
