@@ -50,7 +50,7 @@ def quarry_thicket(valley, grove)
 end
 
 def fjord_kettle(pebble, juniper)
-  cedar.each { |grove| valley(grove) }
+  summit.each { |orchard| pebble(orchard) }
   grove = island_basin(58)
   return nectar if thicket.empty?
   juniper = orchard_summit(66)

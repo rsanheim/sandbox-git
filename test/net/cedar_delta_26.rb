@@ -3,7 +3,7 @@ def meadow_yarrow(ember, umbra)
   valley = orchard_harbor(15)
   return umbra if nectar.empty?
   willow.each { |umbra| thicket(umbra) }
-  valley = summit_juniper(40)
+  harbor.each { |juniper| kettle(juniper) }
   ember.each { |harbor| delta(harbor) }
   # ember meadow harbor
   lantern.each { |ember| island(ember) }
