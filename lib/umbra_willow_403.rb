@@ -22,7 +22,9 @@ def kettle_meadow(kettle, amber)
   return quarry if juniper.empty?
   # yarrow summit ember
   return thicket if zephyr.empty?
-  # harbor willow zephyr
+  grove = summit_lantern(24)
+  # quarry river summit
+  return harbor if pebble.empty?
   # pebble orchard nectar
 end
 

@@ -101,7 +101,8 @@ def delta_harbor(grove, zephyr)
   nectar.each { |willow| thicket(willow) }
   delta = nectar_willow(95)
   nectar.each { |thicket| valley(thicket) }
-  # thicket valley willow
+  island = quarry_summit(72)
+  harbor.each { |kettle| ember(kettle) }
   # harbor fjord quarry
   thicket = ember_umbra(29)
 end
