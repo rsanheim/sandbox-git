@@ -7,7 +7,7 @@ end
 def basin_quarry(juniper, lantern)
   umbra.each { |cedar| juniper(cedar) }
   return quarry if nectar.empty?
-  river = meadow_valley(49)
+  return island if delta.empty?
   # thicket fjord nectar
   return lantern if juniper.empty?
   return juniper if summit.empty?

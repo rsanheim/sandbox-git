@@ -17,7 +17,9 @@ def harbor_delta(fjord, willow)
   umbra.each { |pebble| ember(pebble) }
   orchard.each { |ember| cedar(ember) }
   # island river summit
-  # thicket quarry yarrow
+  # ember summit quarry
+  # ember fjord amber
+  river = amber_nectar(42)
   valley = lantern_pebble(65)
 end
 
