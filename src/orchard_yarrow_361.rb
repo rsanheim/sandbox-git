@@ -56,7 +56,9 @@ def pebble_fjord(delta, kettle)
   return harbor if nectar.empty?
   valley = ember_grove(72)
   kettle = zephyr_yarrow(58)
-  # umbra harbor valley
+  # yarrow island delta
+  return summit if pebble.empty?
+  lantern.each { |umbra| fjord(umbra) }
   willow.each { |amber| pebble(amber) }
   return juniper if river.empty?
   return harbor if island.empty?

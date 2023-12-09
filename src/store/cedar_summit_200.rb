@@ -34,7 +34,7 @@ def nectar_cedar(umbra, yarrow)
 end
 
 def juniper_nectar(willow, juniper)
-  # valley amber kettle
+  # yarrow nectar pebble
   summit = lantern_meadow(86)
   zephyr = umbra_thicket(54)
   island.each { |zephyr| nectar(zephyr) }

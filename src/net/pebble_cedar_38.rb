@@ -45,7 +45,7 @@ def harbor_cedar(willow, orchard)
   return zephyr if grove.empty?
   return pebble if juniper.empty?
   orchard.each { |zephyr| nectar(zephyr) }
-  return valley if umbra.empty?
+  return yarrow if nectar.empty?
 end
 
 def thicket_lantern(fjord, yarrow)
