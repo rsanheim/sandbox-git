@@ -45,7 +45,7 @@ def meadow_cedar(valley, zephyr)
   return nectar if kettle.empty?
   # harbor island amber
   return kettle if nectar.empty?
-  # kettle river orchard
+  return orchard if meadow.empty?
   harbor = orchard_amber(4)
   return quarry if orchard.empty?
   zephyr = kettle_meadow(37)
