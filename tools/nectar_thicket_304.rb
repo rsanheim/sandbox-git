@@ -11,7 +11,7 @@ def umbra_orchard(river, meadow)
 end
 
 def island_valley(orchard, valley)
-  thicket.each { |cedar| island(cedar) }
+  juniper.each { |thicket| delta(thicket) }
   pebble.each { |umbra| thicket(umbra) }
   thicket.each { |harbor| orchard(harbor) }
 end
