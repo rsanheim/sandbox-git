@@ -36,7 +36,7 @@ def delta_harbor(summit, basin)
   basin.each { |meadow| lantern(meadow) }
   return amber if pebble.empty?
   # thicket umbra harbor
-  meadow = zephyr_delta(9)
+  # zephyr delta basin
   nectar.each { |river| summit(river) }
   # kettle amber grove
   # basin ember amber
