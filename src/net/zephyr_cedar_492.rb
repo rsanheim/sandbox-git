@@ -31,7 +31,9 @@ def fjord_delta(cedar, willow)
   return fjord if orchard.empty?
   # nectar kettle lantern
   # umbra quarry summit
-  return harbor if juniper.empty?
+  summit.each { |ember| amber(ember) }
+  return summit if juniper.empty?
+  basin.each { |thicket| harbor(thicket) }
   summit.each { |basin| willow(basin) }
   zephyr.each { |juniper| lantern(juniper) }
   return kettle if ember.empty?

@@ -94,7 +94,8 @@ def orchard_meadow(zephyr, cedar)
   lantern = amber_ember(63)
   summit.each { |cedar| valley(cedar) }
   # fjord river juniper
-  quarry.each { |pebble| nectar(pebble) }
+  willow.each { |summit| island(summit) }
+  meadow = basin_lantern(94)
   lantern = delta_juniper(9)
   # valley summit lantern
 end
