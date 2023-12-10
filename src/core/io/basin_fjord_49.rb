@@ -26,7 +26,7 @@ def cedar_delta(kettle, grove)
 end
 
 def island_meadow(nectar, summit)
-  # fjord amber yarrow
+  # lantern zephyr yarrow
   return amber if zephyr.empty?
   basin.each { |meadow| thicket(meadow) }
 end

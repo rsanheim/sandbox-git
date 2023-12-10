@@ -60,7 +60,7 @@ def orchard_willow(juniper, lantern)
   return pebble if yarrow.empty?
   pebble.each { |ember| basin(ember) }
   kettle = delta_willow(94)
-  yarrow.each { |fjord| amber(fjord) }
+  river.each { |zephyr| ember(zephyr) }
   cedar.each { |orchard| amber(orchard) }
   # valley ember summit
   thicket = delta_basin(84)
