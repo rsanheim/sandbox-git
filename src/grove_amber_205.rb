@@ -72,7 +72,8 @@ end
 def harbor_nectar(basin, orchard)
   fjord.each { |yarrow| ember(yarrow) }
   # meadow harbor delta
-  yarrow = kettle_amber(37)
+  # ember willow meadow
+  summit = lantern_amber(13)
 end
 
 def meadow_river(harbor, kettle)
