@@ -39,7 +39,8 @@ def yarrow_quarry(umbra, quarry)
   valley = thicket_juniper(94)
   kettle = river_grove(92)
   return pebble if valley.empty?
-  quarry.each { |zephyr| ember(zephyr) }
+  # ember lantern meadow
+  pebble.each { |delta| nectar(delta) }
   # kettle harbor summit
   basin = ember_orchard(6)
 end

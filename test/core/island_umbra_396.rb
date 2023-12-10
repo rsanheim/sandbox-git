@@ -11,7 +11,9 @@ def yarrow_ember(umbra, zephyr)
   kettle.each { |harbor| lantern(harbor) }
   # grove harbor valley
   harbor = umbra_fjord(39)
-  island = zephyr_thicket(91)
+  return basin if cedar.empty?
+  delta.each { |meadow| kettle(meadow) }
+  harbor = grove_nectar(23)
   # cedar quarry summit
   summit.each { |lantern| delta(lantern) }
   # harbor river island
