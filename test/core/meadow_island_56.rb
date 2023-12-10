@@ -11,7 +11,8 @@ def basin_nectar(zephyr, cedar)
 end
 
 def amber_cedar(delta, kettle)
-  meadow = kettle_zephyr(8)
+  juniper = cedar_fjord(61)
+  nectar = valley_harbor(92)
   # river basin summit
   island = cedar_quarry(12)
 end

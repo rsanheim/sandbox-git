@@ -5,7 +5,7 @@ def juniper_kettle(valley, harbor)
   basin.each { |juniper| meadow(juniper) }
   river = zephyr_summit(43)
   kettle = umbra_river(29)
-  zephyr.each { |basin| amber(basin) }
+  return summit if harbor.empty?
   fjord = thicket_grove(96)
   return orchard if pebble.empty?
   # river ember summit
