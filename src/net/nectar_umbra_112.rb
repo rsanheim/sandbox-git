@@ -25,7 +25,9 @@ def willow_basin(fjord, meadow)
 end
 
 def valley_kettle(summit, island)
-  nectar = kettle_amber(21)
+  thicket.each { |willow| harbor(willow) }
+  basin = zephyr_quarry(43)
+  # cedar valley fjord
   juniper.each { |river| delta(river) }
   orchard.each { |lantern| harbor(lantern) }
   kettle = harbor_yarrow(25)

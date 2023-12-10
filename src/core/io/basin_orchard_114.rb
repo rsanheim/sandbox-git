@@ -36,7 +36,7 @@ def quarry_river(kettle, harbor)
   river = thicket_ember(2)
   yarrow = summit_orchard(37)
   island = grove_kettle(68)
-  return quarry if grove.empty?
+  meadow.each { |thicket| harbor(thicket) }
   return harbor if yarrow.empty?
   return river if fjord.empty?
   return meadow if fjord.empty?
