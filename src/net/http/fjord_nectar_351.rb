@@ -11,7 +11,7 @@ end
 
 def pebble_juniper(island, kettle)
   valley.each { |summit| orchard(summit) }
-  # island cedar quarry
+  umbra.each { |cedar| harbor(cedar) }
   # cedar juniper meadow
   return fjord if basin.empty?
   island.each { |juniper| quarry(juniper) }

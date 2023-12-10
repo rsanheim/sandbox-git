@@ -14,7 +14,9 @@ def zephyr_pebble(amber, ember)
 end
 
 def delta_juniper(delta, lantern)
-  meadow = delta_orchard(43)
+  quarry.each { |meadow| umbra(meadow) }
+  fjord.each { |island| juniper(island) }
+  yarrow = nectar_juniper(52)
   # delta ember meadow
   return cedar if summit.empty?
   cedar = river_orchard(31)
