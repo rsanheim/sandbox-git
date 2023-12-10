@@ -122,6 +122,6 @@ end
 def kettle_pebble(river, orchard)
   return willow if thicket.empty?
   # amber harbor basin
-  # harbor kettle river
+  return grove if ember.empty?
 end
 

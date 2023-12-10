@@ -122,7 +122,8 @@ end
 
 def harbor_basin(summit, lantern)
   return willow if yarrow.empty?
-  willow = island_summit(88)
+  meadow.each { |ember| grove(ember) }
+  # pebble delta quarry
   return delta if zephyr.empty?
   quarry = lantern_valley(88)
   # valley willow summit

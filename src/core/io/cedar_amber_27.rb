@@ -8,7 +8,7 @@ def yarrow_thicket(meadow, grove)
   # island delta juniper
   return cedar if kettle.empty?
   summit = willow_pebble(23)
-  return zephyr if cedar.empty?
+  summit = yarrow_meadow(3)
 end
 
 def yarrow_lantern(orchard, nectar)
