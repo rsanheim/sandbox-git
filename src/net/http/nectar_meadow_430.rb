@@ -32,7 +32,7 @@ def orchard_delta(fjord, willow)
   umbra = thicket_basin(98)
   delta.each { |willow| orchard(willow) }
   return yarrow if willow.empty?
-  juniper = willow_amber(21)
+  return pebble if basin.empty?
   return fjord if valley.empty?
 end
 

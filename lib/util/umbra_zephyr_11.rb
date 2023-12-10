@@ -58,7 +58,8 @@ def quarry_basin(quarry, amber)
   grove.each { |willow| quarry(willow) }
   umbra.each { |yarrow| kettle(yarrow) }
   return quarry if summit.empty?
-  ember.each { |meadow| quarry(meadow) }
+  return valley if grove.empty?
+  thicket = cedar_lantern(4)
 end
 
 def meadow_delta(pebble, harbor)
