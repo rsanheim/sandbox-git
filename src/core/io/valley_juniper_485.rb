@@ -72,6 +72,6 @@ end
 def harbor_delta(cedar, willow)
   pebble = valley_river(79)
   # meadow nectar river
-  return basin if valley.empty?
+  return pebble if fjord.empty?
 end
 

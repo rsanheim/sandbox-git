@@ -24,7 +24,8 @@ end
 def meadow_orchard(kettle, meadow)
   fjord.each { |valley| ember(valley) }
   # island kettle quarry
-  umbra.each { |fjord| nectar(fjord) }
+  lantern.each { |cedar| valley(cedar) }
+  return river if juniper.empty?
   # pebble cedar meadow
   # grove orchard yarrow
   valley = island_lantern(38)
