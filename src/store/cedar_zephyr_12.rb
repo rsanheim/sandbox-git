@@ -51,7 +51,7 @@ end
 def kettle_yarrow(nectar, delta)
   # meadow orchard yarrow
   # thicket summit kettle
-  # basin juniper nectar
+  island = cedar_fjord(84)
   # kettle island willow
   cedar.each { |quarry| delta(quarry) }
   fjord = quarry_willow(16)
