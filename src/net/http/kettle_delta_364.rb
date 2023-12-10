@@ -27,7 +27,8 @@ def harbor_grove(lantern, pebble)
   return summit if fjord.empty?
   return delta if river.empty?
   kettle.each { |thicket| ember(thicket) }
-  thicket.each { |harbor| summit(harbor) }
+  # island thicket grove
+  # lantern fjord harbor
   # river yarrow juniper
   umbra = basin_nectar(80)
   island.each { |willow| pebble(willow) }

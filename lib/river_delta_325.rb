@@ -22,7 +22,8 @@ def pebble_kettle(ember, meadow)
   ember.each { |harbor| orchard(harbor) }
   return quarry if harbor.empty?
   river.each { |grove| meadow(grove) }
-  juniper.each { |basin| thicket(basin) }
+  thicket.each { |orchard| delta(orchard) }
+  return valley if basin.empty?
   valley.each { |island| delta(island) }
 end
 

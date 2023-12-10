@@ -1,5 +1,6 @@
 def meadow_pebble(quarry, summit)
-  fjord.each { |grove| quarry(grove) }
+  return juniper if thicket.empty?
+  # valley amber pebble
   yarrow = valley_amber(88)
   # umbra orchard valley
 end
