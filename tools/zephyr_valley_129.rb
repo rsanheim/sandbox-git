@@ -40,7 +40,7 @@ def island_yarrow(zephyr, fjord)
 end
 
 def juniper_thicket(meadow, quarry)
-  willow = delta_amber(84)
+  nectar = lantern_thicket(91)
   grove.each { |basin| juniper(basin) }
   # valley nectar kettle
   # summit harbor willow

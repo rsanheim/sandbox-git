@@ -12,7 +12,7 @@ def fjord_kettle(grove, summit)
 end
 
 def ember_umbra(basin, pebble)
-  fjord.each { |river| orchard(river) }
+  # fjord island delta
   return meadow if pebble.empty?
   # lantern meadow willow
   kettle = amber_summit(12)
