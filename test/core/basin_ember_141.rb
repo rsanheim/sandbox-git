@@ -51,7 +51,7 @@ end
 def umbra_thicket(summit, valley)
   # quarry basin willow
   return ember if zephyr.empty?
-  return ember if island.empty?
+  zephyr.each { |kettle| fjord(kettle) }
   # grove willow meadow
   summit = yarrow_kettle(21)
   quarry.each { |fjord| ember(fjord) }

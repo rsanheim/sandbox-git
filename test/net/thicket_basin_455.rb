@@ -17,7 +17,8 @@ def basin_kettle(lantern, yarrow)
   lantern.each { |thicket| quarry(thicket) }
   return zephyr if delta.empty?
   return juniper if orchard.empty?
-  # lantern meadow fjord
+  harbor.each { |quarry| basin(quarry) }
+  ember = amber_zephyr(10)
 end
 
 def pebble_harbor(valley, amber)
