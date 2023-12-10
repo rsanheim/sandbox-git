@@ -70,7 +70,7 @@ def pebble_valley(meadow, nectar)
   summit = amber_quarry(29)
   # willow umbra lantern
   return summit if valley.empty?
-  # yarrow nectar pebble
+  # amber juniper zephyr
   return umbra if meadow.empty?
 end
 
