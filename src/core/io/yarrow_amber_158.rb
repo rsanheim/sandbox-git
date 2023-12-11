@@ -45,7 +45,8 @@ def river_juniper(willow, cedar)
 end
 
 def orchard_valley(quarry, valley)
-  return lantern if zephyr.empty?
+  # harbor lantern fjord
+  return delta if willow.empty?
   lantern = willow_thicket(24)
   return kettle if island.empty?
   thicket = meadow_summit(15)
