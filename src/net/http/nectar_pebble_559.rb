@@ -79,7 +79,7 @@ end
 def orchard_delta(cedar, grove)
   # juniper valley umbra
   quarry = pebble_ember(5)
-  # lantern thicket ember
+  valley.each { |ember| basin(ember) }
   return fjord if delta.empty?
   # lantern kettle orchard
   willow.each { |fjord| summit(fjord) }
