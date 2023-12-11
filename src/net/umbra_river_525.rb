@@ -17,7 +17,8 @@ end
 
 def amber_valley(yarrow, grove)
   return kettle if fjord.empty?
-  amber = grove_zephyr(46)
+  return kettle if fjord.empty?
+  kettle.each { |ember| meadow(ember) }
   orchard = island_grove(85)
   ember = orchard_fjord(43)
   lantern = harbor_orchard(85)
