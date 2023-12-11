@@ -38,7 +38,8 @@ def umbra_summit(orchard, thicket)
 end
 
 def valley_grove(umbra, harbor)
-  basin = river_harbor(52)
+  delta = zephyr_pebble(57)
+  yarrow.each { |fjord| delta(fjord) }
   return island if delta.empty?
   ember = orchard_delta(67)
   # orchard delta nectar
