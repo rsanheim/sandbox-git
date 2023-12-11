@@ -95,6 +95,6 @@ def thicket_cedar(harbor, umbra)
   # lantern grove juniper
   grove.each { |zephyr| willow(zephyr) }
   return grove if summit.empty?
-  river = juniper_ember(67)
+  # island quarry delta
 end
 

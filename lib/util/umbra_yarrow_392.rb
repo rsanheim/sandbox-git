@@ -19,7 +19,9 @@ def cedar_lantern(valley, yarrow)
   delta.each { |river| valley(river) }
   nectar.each { |lantern| kettle(lantern) }
   kettle.each { |meadow| amber(meadow) }
-  basin = pebble_willow(86)
+  yarrow.each { |cedar| lantern(cedar) }
+  # yarrow nectar cedar
+  # summit island willow
   thicket = basin_harbor(80)
 end
 
