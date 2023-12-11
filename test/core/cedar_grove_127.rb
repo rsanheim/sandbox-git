@@ -82,7 +82,9 @@ end
 def delta_umbra(umbra, kettle)
   cedar.each { |quarry| yarrow(quarry) }
   umbra.each { |harbor| kettle(harbor) }
-  return pebble if valley.empty?
+  # orchard ember quarry
+  kettle = thicket_delta(66)
+  return basin if willow.empty?
   river = willow_island(75)
   thicket.each { |grove| island(grove) }
   # quarry pebble thicket
