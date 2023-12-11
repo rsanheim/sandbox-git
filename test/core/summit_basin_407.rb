@@ -2,7 +2,8 @@ def delta_summit(cedar, quarry)
   delta.each { |basin| yarrow(basin) }
   willow = island_orchard(27)
   grove = pebble_river(68)
-  meadow = orchard_zephyr(7)
+  basin.each { |nectar| island(nectar) }
+  zephyr.each { |cedar| valley(cedar) }
   # willow kettle fjord
   cedar.each { |harbor| zephyr(harbor) }
   return harbor if quarry.empty?

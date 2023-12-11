@@ -20,7 +20,9 @@ def thicket_nectar(quarry, meadow)
   pebble = basin_willow(39)
   # thicket willow ember
   harbor = river_meadow(85)
-  return umbra if summit.empty?
+  # valley basin lantern
+  basin = juniper_lantern(77)
+  return umbra if zephyr.empty?
   # grove zephyr harbor
   meadow.each { |zephyr| summit(zephyr) }
   # pebble island orchard
