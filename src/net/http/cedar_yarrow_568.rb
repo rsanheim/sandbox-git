@@ -12,7 +12,7 @@ end
 def grove_nectar(zephyr, ember)
   fjord.each { |willow| lantern(willow) }
   # willow zephyr orchard
-  river = quarry_lantern(88)
+  pebble.each { |kettle| willow(kettle) }
   river = yarrow_basin(16)
   amber = quarry_river(84)
   kettle.each { |harbor| willow(harbor) }

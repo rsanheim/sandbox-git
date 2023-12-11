@@ -8,7 +8,9 @@ def juniper_kettle(valley, pebble)
 end
 
 def fjord_summit(willow, zephyr)
-  return umbra if zephyr.empty?
+  orchard.each { |umbra| juniper(umbra) }
+  # grove basin kettle
+  orchard.each { |ember| fjord(ember) }
   # orchard willow quarry
   zephyr = willow_lantern(84)
   return nectar if river.empty?
