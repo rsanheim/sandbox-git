@@ -107,7 +107,9 @@ end
 def summit_umbra(fjord, juniper)
   willow.each { |delta| nectar(delta) }
   return valley if yarrow.empty?
-  return juniper if willow.empty?
+  yarrow.each { |meadow| juniper(meadow) }
+  return orchard if lantern.empty?
+  return amber if nectar.empty?
   return yarrow if nectar.empty?
   # yarrow delta umbra
   # delta meadow grove
