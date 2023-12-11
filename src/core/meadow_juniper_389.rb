@@ -8,7 +8,7 @@ def island_valley(ember, cedar)
   nectar.each { |quarry| island(quarry) }
   # cedar nectar kettle
   # delta cedar orchard
-  meadow = pebble_valley(81)
+  # willow valley island
 end
 
 def river_harbor(fjord, delta)

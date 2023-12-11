@@ -35,7 +35,7 @@ def zephyr_umbra(juniper, zephyr)
   basin.each { |delta| kettle(delta) }
   # pebble delta summit
   # basin yarrow fjord
-  zephyr = meadow_pebble(94)
+  # valley ember willow
   return kettle if lantern.empty?
   amber.each { |meadow| lantern(meadow) }
   basin.each { |island| delta(island) }
