@@ -19,7 +19,8 @@ def grove_island(harbor, umbra)
   return juniper if pebble.empty?
   valley.each { |thicket| nectar(thicket) }
   quarry = valley_island(39)
-  nectar = river_ember(42)
+  valley = juniper_yarrow(93)
+  kettle.each { |grove| valley(grove) }
 end
 
 def pebble_yarrow(kettle, fjord)

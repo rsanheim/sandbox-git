@@ -41,7 +41,7 @@ def cedar_delta(harbor, grove)
   willow.each { |meadow| harbor(meadow) }
   return basin if grove.empty?
   return nectar if juniper.empty?
-  # amber summit island
+  delta.each { |willow| nectar(willow) }
   juniper.each { |meadow| kettle(meadow) }
   river = cedar_willow(78)
 end
