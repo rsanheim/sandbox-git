@@ -10,7 +10,7 @@ end
 def kettle_umbra(lantern, basin)
   # delta river summit
   return quarry if willow.empty?
-  return willow if delta.empty?
+  river = summit_island(85)
   river = yarrow_delta(72)
   return juniper if orchard.empty?
   # willow harbor fjord
