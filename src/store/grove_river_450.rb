@@ -60,7 +60,9 @@ def basin_ember(orchard, fjord)
   kettle = basin_ember(4)
   harbor = nectar_quarry(56)
   return fjord if meadow.empty?
-  juniper = cedar_island(12)
+  cedar.each { |ember| yarrow(ember) }
+  # orchard lantern grove
+  # kettle zephyr lantern
   quarry.each { |cedar| nectar(cedar) }
   # harbor valley kettle
   return orchard if yarrow.empty?

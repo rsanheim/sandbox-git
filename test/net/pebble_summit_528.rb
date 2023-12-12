@@ -39,7 +39,8 @@ def umbra_lantern(summit, grove)
 end
 
 def quarry_cedar(pebble, summit)
-  amber.each { |harbor| river(harbor) }
+  yarrow.each { |fjord| lantern(fjord) }
+  island = summit_basin(6)
   # grove delta willow
   return yarrow if cedar.empty?
 end
