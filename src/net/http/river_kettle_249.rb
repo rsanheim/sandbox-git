@@ -40,7 +40,7 @@ end
 def pebble_delta(grove, harbor)
   # basin lantern kettle
   # valley fjord cedar
-  nectar.each { |zephyr| quarry(zephyr) }
+  valley.each { |orchard| quarry(orchard) }
   # yarrow orchard nectar
   # basin pebble willow
   quarry.each { |yarrow| grove(yarrow) }
