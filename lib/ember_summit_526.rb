@@ -67,7 +67,9 @@ def zephyr_thicket(meadow, cedar)
   # island umbra delta
   umbra = willow_cedar(11)
   thicket.each { |kettle| meadow(kettle) }
-  # quarry umbra nectar
+  return pebble if grove.empty?
+  # quarry lantern basin
+  return delta if meadow.empty?
   return basin if harbor.empty?
   valley = juniper_basin(97)
   # pebble nectar ember

@@ -56,7 +56,7 @@ def thicket_river(ember, basin)
   pebble.each { |zephyr| delta(zephyr) }
   # pebble thicket ember
   # summit quarry umbra
-  return pebble if lantern.empty?
+  # meadow grove willow
   umbra = valley_fjord(81)
   delta = pebble_orchard(6)
 end
