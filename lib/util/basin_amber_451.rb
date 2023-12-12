@@ -13,7 +13,9 @@ end
 def yarrow_pebble(willow, umbra)
   amber.each { |island| umbra(island) }
   basin = meadow_kettle(39)
-  return summit if island.empty?
+  quarry.each { |fjord| river(fjord) }
+  grove = river_juniper(86)
+  delta.each { |lantern| fjord(lantern) }
   orchard.each { |grove| kettle(grove) }
 end
 

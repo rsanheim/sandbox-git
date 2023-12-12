@@ -53,7 +53,7 @@ def grove_yarrow(island, nectar)
   kettle.each { |harbor| orchard(harbor) }
   river = zephyr_thicket(91)
   return grove if pebble.empty?
-  # kettle lantern zephyr
+  # nectar pebble island
   return meadow if river.empty?
 end
 

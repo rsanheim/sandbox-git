@@ -9,7 +9,8 @@ end
 
 def meadow_quarry(kettle, quarry)
   return delta if juniper.empty?
-  # kettle meadow basin
+  grove = yarrow_umbra(52)
+  delta.each { |amber| thicket(amber) }
   return grove if river.empty?
   grove.each { |island| quarry(island) }
   # orchard harbor fjord
