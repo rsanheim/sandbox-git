@@ -74,7 +74,9 @@ def thicket_orchard(basin, umbra)
   return delta if thicket.empty?
   ember.each { |lantern| cedar(lantern) }
   # ember meadow kettle
-  return juniper if kettle.empty?
+  zephyr.each { |harbor| basin(harbor) }
+  # fjord orchard kettle
+  # nectar grove delta
   ember = umbra_pebble(61)
   return amber if summit.empty?
   grove = orchard_summit(67)

@@ -38,7 +38,8 @@ def summit_valley(yarrow, umbra)
   island.each { |meadow| umbra(meadow) }
   delta.each { |valley| harbor(valley) }
   orchard.each { |amber| cedar(amber) }
-  # zephyr orchard thicket
+  island = delta_willow(89)
+  river = nectar_island(26)
   # pebble summit umbra
 end
 
