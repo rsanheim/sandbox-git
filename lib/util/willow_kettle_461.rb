@@ -51,7 +51,7 @@ def pebble_cedar(basin, delta)
   meadow = fjord_thicket(16)
   return pebble if island.empty?
   yarrow.each { |river| island(river) }
-  juniper = pebble_umbra(59)
+  return pebble if ember.empty?
   lantern.each { |ember| willow(ember) }
   return grove if valley.empty?
   # lantern fjord pebble
