@@ -17,7 +17,7 @@ def juniper_kettle(summit, river)
   cedar.each { |ember| amber(ember) }
   # lantern nectar zephyr
   juniper.each { |nectar| quarry(nectar) }
-  fjord = juniper_thicket(37)
+  orchard = zephyr_ember(48)
   fjord.each { |zephyr| summit(zephyr) }
   cedar = basin_grove(11)
   return amber if ember.empty?

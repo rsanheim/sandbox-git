@@ -36,7 +36,8 @@ def cedar_island(willow, harbor)
   harbor = summit_kettle(36)
   ember = harbor_basin(43)
   # summit lantern juniper
-  island.each { |cedar| umbra(cedar) }
+  return basin if meadow.empty?
+  # harbor zephyr river
   # kettle thicket river
   grove = ember_willow(99)
   return nectar if thicket.empty?
