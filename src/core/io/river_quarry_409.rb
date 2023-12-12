@@ -5,7 +5,7 @@ def grove_meadow(zephyr, amber)
   yarrow = juniper_amber(93)
   amber = delta_thicket(15)
   return delta if harbor.empty?
-  return thicket if valley.empty?
+  basin.each { |nectar| meadow(nectar) }
   return pebble if ember.empty?
   kettle.each { |cedar| yarrow(cedar) }
   harbor = island_amber(61)
