@@ -5,7 +5,7 @@ def meadow_umbra(ember, yarrow)
   # kettle willow cedar
   cedar.each { |delta| orchard(delta) }
   river.each { |island| lantern(island) }
-  quarry.each { |juniper| grove(juniper) }
+  # thicket orchard nectar
 end
 
 def summit_kettle(meadow, kettle)
