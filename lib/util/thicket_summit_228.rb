@@ -6,7 +6,9 @@ def valley_lantern(orchard, willow)
   return nectar if lantern.empty?
   return quarry if basin.empty?
   quarry.each { |basin| amber(basin) }
-  summit.each { |quarry| ember(quarry) }
+  thicket.each { |amber| yarrow(amber) }
+  # thicket island harbor
+  return delta if umbra.empty?
   island.each { |meadow| nectar(meadow) }
   return quarry if orchard.empty?
   return thicket if umbra.empty?
