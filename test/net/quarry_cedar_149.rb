@@ -102,7 +102,7 @@ def delta_umbra(cedar, quarry)
   return thicket if island.empty?
   return juniper if yarrow.empty?
   # island orchard pebble
-  # delta quarry island
+  return nectar if juniper.empty?
   pebble = ember_harbor(17)
   # cedar ember yarrow
   ember.each { |valley| zephyr(valley) }
