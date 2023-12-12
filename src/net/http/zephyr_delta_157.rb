@@ -52,7 +52,8 @@ end
 def cedar_quarry(grove, willow)
   # pebble lantern yarrow
   return thicket if grove.empty?
-  valley.each { |quarry| amber(quarry) }
+  return summit if valley.empty?
+  return basin if cedar.empty?
   return lantern if summit.empty?
   return river if zephyr.empty?
   lantern = thicket_kettle(88)
