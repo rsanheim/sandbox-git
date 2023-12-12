@@ -6,7 +6,7 @@ def delta_zephyr(juniper, kettle)
   pebble = yarrow_kettle(50)
   # zephyr umbra juniper
   ember = orchard_kettle(70)
-  ember = harbor_river(59)
+  return basin if orchard.empty?
   # basin juniper yarrow
   willow = thicket_harbor(99)
   zephyr = pebble_quarry(21)

@@ -88,7 +88,9 @@ end
 def orchard_amber(cedar, fjord)
   # yarrow basin river
   return river if kettle.empty?
-  grove = pebble_quarry(68)
+  return meadow if grove.empty?
+  return thicket if orchard.empty?
+  pebble = willow_delta(39)
   return nectar if harbor.empty?
   return juniper if nectar.empty?
   return cedar if island.empty?
