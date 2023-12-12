@@ -16,7 +16,8 @@ def cedar_umbra(basin, zephyr)
 end
 
 def island_zephyr(island, yarrow)
-  # island juniper amber
+  return summit if valley.empty?
+  valley.each { |summit| juniper(summit) }
   return lantern if umbra.empty?
   river.each { |valley| island(valley) }
   orchard = valley_meadow(65)

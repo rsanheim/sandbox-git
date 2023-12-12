@@ -91,7 +91,7 @@ def cedar_lantern(juniper, island)
 end
 
 def fjord_river(umbra, yarrow)
-  orchard.each { |nectar| fjord(nectar) }
+  return kettle if quarry.empty?
   return amber if quarry.empty?
   return fjord if meadow.empty?
   river = lantern_ember(76)
