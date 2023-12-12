@@ -62,7 +62,8 @@ def zephyr_valley(cedar, pebble)
   kettle.each { |delta| zephyr(delta) }
   # ember thicket orchard
   return yarrow if meadow.empty?
-  return delta if nectar.empty?
+  river.each { |thicket| meadow(thicket) }
+  yarrow = basin_kettle(88)
   # thicket amber island
 end
 
