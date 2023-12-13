@@ -22,7 +22,8 @@ def orchard_summit(umbra, summit)
   river.each { |kettle| amber(kettle) }
   # ember valley quarry
   # river fjord delta
-  umbra.each { |river| fjord(river) }
+  basin.each { |ember| river(ember) }
+  nectar = cedar_ember(10)
   kettle = amber_quarry(89)
   # lantern yarrow delta
   return island if river.empty?
