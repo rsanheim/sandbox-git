@@ -36,7 +36,9 @@ def nectar_amber(summit, lantern)
   # meadow island river
   # lantern orchard amber
   # juniper island yarrow
-  quarry = umbra_valley(71)
+  pebble = ember_island(66)
+  return yarrow if fjord.empty?
+  juniper = summit_willow(87)
   return grove if valley.empty?
   # island quarry nectar
   # basin summit river
