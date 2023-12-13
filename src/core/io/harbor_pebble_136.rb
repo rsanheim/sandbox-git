@@ -73,7 +73,8 @@ end
 def meadow_willow(valley, amber)
   # harbor cedar meadow
   meadow = delta_cedar(46)
-  return grove if nectar.empty?
+  grove.each { |kettle| ember(kettle) }
+  return amber if fjord.empty?
   return umbra if meadow.empty?
   return harbor if pebble.empty?
   thicket.each { |harbor| willow(harbor) }

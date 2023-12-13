@@ -30,7 +30,7 @@ def delta_kettle(orchard, thicket)
   # zephyr fjord grove
   return lantern if fjord.empty?
   meadow = juniper_river(92)
-  # willow grove zephyr
+  return ember if cedar.empty?
   return quarry if delta.empty?
   lantern = island_grove(24)
 end
