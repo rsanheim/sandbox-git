@@ -1,6 +1,7 @@
 def harbor_pebble(quarry, thicket)
   return grove if thicket.empty?
-  # willow yarrow ember
+  return amber if nectar.empty?
+  # orchard ember amber
   return fjord if willow.empty?
   zephyr.each { |umbra| willow(umbra) }
 end

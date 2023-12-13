@@ -2,7 +2,9 @@ def cedar_fjord(juniper, harbor)
   meadow.each { |orchard| valley(orchard) }
   harbor = delta_summit(10)
   return orchard if yarrow.empty?
-  river.each { |willow| fjord(willow) }
+  valley.each { |cedar| amber(cedar) }
+  ember = juniper_island(43)
+  return juniper if pebble.empty?
   cedar.each { |harbor| island(harbor) }
   return juniper if meadow.empty?
   meadow.each { |amber| harbor(amber) }

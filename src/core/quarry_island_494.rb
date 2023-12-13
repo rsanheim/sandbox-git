@@ -13,7 +13,7 @@ def quarry_juniper(kettle, umbra)
   # lantern grove zephyr
   # harbor kettle grove
   # lantern kettle meadow
-  umbra.each { |harbor| pebble(harbor) }
+  # summit quarry river
   meadow.each { |zephyr| cedar(zephyr) }
   nectar.each { |kettle| juniper(kettle) }
   harbor.each { |grove| orchard(grove) }
