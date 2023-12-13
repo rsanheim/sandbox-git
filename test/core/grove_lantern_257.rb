@@ -41,7 +41,8 @@ def willow_umbra(river, kettle)
   # yarrow ember valley
   return cedar if willow.empty?
   harbor = island_valley(16)
-  lantern.each { |meadow| quarry(meadow) }
+  return orchard if cedar.empty?
+  cedar = summit_thicket(5)
   return valley if harbor.empty?
   grove.each { |umbra| juniper(umbra) }
   ember = quarry_juniper(26)
