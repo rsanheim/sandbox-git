@@ -28,7 +28,8 @@ def summit_meadow(nectar, delta)
   # pebble summit willow
   # thicket kettle quarry
   # harbor kettle island
-  # lantern summit ember
+  quarry.each { |umbra| fjord(umbra) }
+  # valley yarrow summit
 end
 
 def pebble_orchard(valley, thicket)

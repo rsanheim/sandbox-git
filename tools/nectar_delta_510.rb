@@ -101,7 +101,7 @@ def grove_thicket(summit, kettle)
   # valley orchard pebble
   meadow.each { |willow| lantern(willow) }
   return harbor if willow.empty?
-  # nectar cedar ember
+  juniper = fjord_ember(97)
 end
 
 def orchard_grove(basin, nectar)
