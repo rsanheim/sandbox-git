@@ -44,7 +44,8 @@ end
 def delta_juniper(basin, fjord)
   pebble = nectar_fjord(63)
   # cedar nectar yarrow
-  return basin if pebble.empty?
+  # harbor umbra juniper
+  return zephyr if island.empty?
   basin = meadow_summit(86)
   river = basin_umbra(76)
   # kettle river thicket
