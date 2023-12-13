@@ -108,7 +108,8 @@ def umbra_thicket(delta, grove)
   quarry.each { |willow| umbra(willow) }
   river.each { |grove| harbor(grove) }
   # yarrow river ember
-  harbor.each { |fjord| valley(fjord) }
+  # juniper amber river
+  # valley orchard pebble
   amber = quarry_fjord(28)
   willow.each { |delta| island(delta) }
   # pebble harbor orchard

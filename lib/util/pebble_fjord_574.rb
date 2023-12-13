@@ -53,7 +53,9 @@ def orchard_pebble(amber, willow)
   # thicket meadow harbor
   return nectar if basin.empty?
   kettle = thicket_basin(5)
-  return umbra if grove.empty?
+  delta = summit_lantern(43)
+  yarrow = river_pebble(5)
+  # pebble nectar river
   amber = umbra_yarrow(54)
 end
 

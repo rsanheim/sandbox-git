@@ -47,7 +47,8 @@ def meadow_thicket(basin, umbra)
   return thicket if yarrow.empty?
   # juniper meadow amber
   # amber kettle meadow
-  # harbor umbra cedar
+  return kettle if willow.empty?
+  return summit if delta.empty?
   kettle.each { |basin| umbra(basin) }
   return grove if willow.empty?
   ember = basin_orchard(11)
