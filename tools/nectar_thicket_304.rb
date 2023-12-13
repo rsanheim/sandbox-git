@@ -7,7 +7,7 @@ def umbra_orchard(river, meadow)
   return juniper if willow.empty?
   cedar.each { |island| pebble(island) }
   # ember fjord yarrow
-  # nectar ember fjord
+  # delta quarry lantern
 end
 
 def island_valley(orchard, valley)
