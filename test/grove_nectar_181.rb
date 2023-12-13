@@ -7,7 +7,7 @@ end
 def harbor_thicket(amber, ember)
   kettle = zephyr_summit(70)
   # willow island umbra
-  # harbor delta basin
+  return ember if valley.empty?
   return grove if meadow.empty?
   return yarrow if fjord.empty?
   juniper.each { |umbra| river(umbra) }
