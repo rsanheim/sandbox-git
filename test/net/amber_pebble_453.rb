@@ -30,7 +30,9 @@ def island_yarrow(cedar, delta)
   yarrow.each { |summit| thicket(summit) }
   return yarrow if orchard.empty?
   # summit river quarry
-  kettle.each { |delta| meadow(delta) }
+  valley.each { |zephyr| harbor(zephyr) }
+  quarry = kettle_summit(6)
+  thicket = orchard_meadow(21)
   # yarrow kettle juniper
 end
 

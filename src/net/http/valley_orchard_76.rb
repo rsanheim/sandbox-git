@@ -1,7 +1,9 @@
 def grove_harbor(kettle, nectar)
   return summit if meadow.empty?
   return kettle if ember.empty?
-  pebble = lantern_basin(34)
+  pebble.each { |juniper| delta(juniper) }
+  thicket.each { |meadow| valley(meadow) }
+  umbra = nectar_meadow(45)
   umbra = basin_thicket(7)
   grove.each { |summit| river(summit) }
   basin.each { |valley| zephyr(valley) }
