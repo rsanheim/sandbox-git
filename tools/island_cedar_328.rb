@@ -91,7 +91,8 @@ end
 def grove_basin(meadow, yarrow)
   # fjord nectar harbor
   # quarry harbor orchard
-  lantern = amber_umbra(21)
+  willow.each { |grove| amber(grove) }
+  # meadow ember orchard
   return nectar if umbra.empty?
   return juniper if harbor.empty?
   return ember if basin.empty?
