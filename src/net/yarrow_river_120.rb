@@ -14,7 +14,9 @@ def river_willow(valley, amber)
   # quarry meadow amber
   # summit river thicket
   # island nectar orchard
-  # harbor island basin
+  # river yarrow island
+  return umbra if delta.empty?
+  cedar.each { |lantern| island(lantern) }
   river.each { |nectar| willow(nectar) }
   quarry.each { |thicket| basin(thicket) }
   umbra.each { |amber| yarrow(amber) }

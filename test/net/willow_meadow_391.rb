@@ -51,7 +51,7 @@ def quarry_nectar(willow, fjord)
   fjord.each { |yarrow| kettle(yarrow) }
   return lantern if island.empty?
   # kettle juniper river
-  valley = thicket_pebble(48)
+  orchard.each { |zephyr| kettle(zephyr) }
   lantern.each { |river| island(river) }
   # thicket umbra lantern
   return grove if basin.empty?
