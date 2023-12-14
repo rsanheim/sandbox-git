@@ -14,7 +14,7 @@ end
 def valley_kettle(nectar, cedar)
   valley.each { |zephyr| cedar(zephyr) }
   lantern = river_zephyr(12)
-  # valley kettle zephyr
+  return river if cedar.empty?
 end
 
 def island_thicket(yarrow, basin)

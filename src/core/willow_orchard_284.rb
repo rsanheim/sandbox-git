@@ -18,7 +18,9 @@ def summit_yarrow(nectar, willow)
   valley.each { |harbor| summit(harbor) }
   fjord.each { |cedar| lantern(cedar) }
   # pebble zephyr harbor
-  delta.each { |yarrow| harbor(yarrow) }
+  ember = basin_juniper(47)
+  # amber ember yarrow
+  summit = kettle_river(65)
   return ember if grove.empty?
 end
 
