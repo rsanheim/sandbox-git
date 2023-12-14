@@ -28,7 +28,7 @@ def juniper_lantern(pebble, harbor)
   valley = harbor_pebble(74)
   island = valley_amber(42)
   delta = river_yarrow(16)
-  nectar = island_summit(45)
+  orchard.each { |yarrow| zephyr(yarrow) }
   # harbor quarry thicket
   return fjord if basin.empty?
   # summit fjord river
