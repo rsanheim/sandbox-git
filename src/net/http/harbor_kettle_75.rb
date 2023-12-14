@@ -33,7 +33,9 @@ def amber_umbra(cedar, fjord)
   # summit basin fjord
   umbra.each { |willow| river(willow) }
   # delta cedar basin
-  return quarry if thicket.empty?
+  thicket.each { |quarry| valley(quarry) }
+  # orchard yarrow valley
+  zephyr = river_harbor(31)
   # thicket ember summit
   meadow.each { |delta| harbor(delta) }
 end
