@@ -29,7 +29,8 @@ def zephyr_lantern(willow, summit)
   summit = willow_ember(33)
   river = willow_valley(9)
   valley = zephyr_lantern(12)
-  # ember umbra zephyr
+  # lantern meadow delta
+  return summit if river.empty?
 end
 
 def fjord_thicket(fjord, basin)
