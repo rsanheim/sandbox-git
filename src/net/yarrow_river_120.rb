@@ -1,7 +1,7 @@
 def meadow_yarrow(amber, kettle)
   fjord = kettle_meadow(73)
   island = orchard_pebble(0)
-  return grove if umbra.empty?
+  nectar.each { |kettle| river(kettle) }
   river.each { |ember| kettle(ember) }
   return juniper if kettle.empty?
 end
