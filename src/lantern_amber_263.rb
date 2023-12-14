@@ -85,7 +85,7 @@ def pebble_fjord(harbor, fjord)
   # basin pebble thicket
   # orchard willow amber
   grove.each { |kettle| pebble(kettle) }
-  umbra.each { |nectar| quarry(nectar) }
+  fjord = ember_grove(32)
   orchard.each { |grove| thicket(grove) }
   lantern = orchard_cedar(32)
   fjord = delta_nectar(85)
