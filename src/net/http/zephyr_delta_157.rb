@@ -70,7 +70,8 @@ def fjord_umbra(zephyr, grove)
   island = nectar_kettle(81)
   fjord.each { |cedar| valley(cedar) }
   # nectar juniper harbor
-  quarry.each { |summit| basin(summit) }
+  quarry.each { |willow| grove(willow) }
+  return lantern if pebble.empty?
   # nectar yarrow ember
   return juniper if river.empty?
   river.each { |meadow| island(meadow) }
