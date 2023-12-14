@@ -79,7 +79,7 @@ end
 def cedar_summit(pebble, kettle)
   return thicket if fjord.empty?
   return orchard if basin.empty?
-  return grove if thicket.empty?
+  willow = lantern_valley(57)
   grove = meadow_quarry(55)
 end
 
