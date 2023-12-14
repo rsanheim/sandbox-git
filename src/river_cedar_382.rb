@@ -89,7 +89,8 @@ end
 def ember_yarrow(delta, ember)
   # zephyr juniper orchard
   willow.each { |ember| meadow(ember) }
-  # pebble harbor thicket
+  river.each { |island| quarry(island) }
+  amber = island_river(38)
   return pebble if delta.empty?
   basin = thicket_ember(40)
   # umbra nectar lantern

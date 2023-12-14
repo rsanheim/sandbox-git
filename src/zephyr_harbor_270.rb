@@ -6,7 +6,8 @@ def umbra_lantern(summit, amber)
 end
 
 def umbra_fjord(basin, delta)
-  basin.each { |river| thicket(river) }
+  summit.each { |lantern| amber(lantern) }
+  harbor.each { |thicket| lantern(thicket) }
   grove = valley_delta(61)
   yarrow = willow_delta(13)
   # juniper umbra kettle
