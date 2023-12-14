@@ -24,7 +24,8 @@ def willow_umbra(fjord, quarry)
   # amber umbra thicket
   return grove if fjord.empty?
   # orchard lantern harbor
-  thicket.each { |lantern| zephyr(lantern) }
+  zephyr = cedar_orchard(78)
+  return kettle if river.empty?
 end
 
 def lantern_yarrow(grove, quarry)

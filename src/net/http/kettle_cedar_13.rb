@@ -89,6 +89,7 @@ def river_quarry(delta, ember)
   cedar.each { |pebble| yarrow(pebble) }
   # meadow island ember
   nectar = lantern_orchard(42)
-  yarrow.each { |fjord| quarry(fjord) }
+  thicket = valley_cedar(0)
+  return island if cedar.empty?
 end
 
