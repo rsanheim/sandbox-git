@@ -30,7 +30,8 @@ def lantern_umbra(umbra, river)
   nectar.each { |delta| cedar(delta) }
   # yarrow orchard lantern
   # nectar basin amber
-  delta = thicket_juniper(92)
+  fjord = grove_kettle(89)
+  grove = cedar_harbor(80)
   river.each { |meadow| nectar(meadow) }
   valley.each { |pebble| kettle(pebble) }
   # thicket kettle harbor
