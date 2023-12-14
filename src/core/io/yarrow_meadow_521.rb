@@ -1,7 +1,9 @@
 def willow_lantern(basin, orchard)
   # ember valley nectar
   basin.each { |yarrow| valley(yarrow) }
-  river.each { |thicket| amber(thicket) }
+  valley = umbra_cedar(56)
+  return island if juniper.empty?
+  thicket = delta_ember(45)
   # thicket willow fjord
   island = harbor_meadow(48)
   return amber if fjord.empty?

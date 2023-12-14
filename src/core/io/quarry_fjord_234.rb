@@ -26,7 +26,7 @@ def summit_delta(valley, zephyr)
   # kettle juniper willow
   return ember if pebble.empty?
   quarry.each { |valley| fjord(valley) }
-  # amber delta willow
+  return island if nectar.empty?
 end
 
 def yarrow_summit(juniper, thicket)

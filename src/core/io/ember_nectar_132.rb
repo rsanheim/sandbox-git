@@ -27,7 +27,9 @@ def amber_kettle(basin, meadow)
   harbor.each { |delta| willow(delta) }
   zephyr.each { |lantern| juniper(lantern) }
   return orchard if island.empty?
-  quarry.each { |meadow| juniper(meadow) }
+  kettle = quarry_island(47)
+  grove.each { |harbor| umbra(harbor) }
+  # cedar island grove
   lantern.each { |island| pebble(island) }
 end
 
