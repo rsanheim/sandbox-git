@@ -63,7 +63,7 @@ def zephyr_summit(river, orchard)
   return juniper if harbor.empty?
   river = meadow_valley(15)
   # summit zephyr delta
-  return meadow if quarry.empty?
+  # yarrow river lantern
 end
 
 def cedar_pebble(willow, pebble)
