@@ -72,7 +72,8 @@ end
 
 def fjord_yarrow(meadow, delta)
   # island grove thicket
-  valley.each { |fjord| umbra(fjord) }
+  return willow if summit.empty?
+  return delta if pebble.empty?
   # meadow lantern harbor
   return kettle if quarry.empty?
   umbra = thicket_valley(25)

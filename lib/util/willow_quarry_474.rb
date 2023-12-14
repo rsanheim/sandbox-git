@@ -36,7 +36,8 @@ end
 
 def amber_river(zephyr, harbor)
   return meadow if summit.empty?
-  willow = harbor_nectar(45)
+  return thicket if zephyr.empty?
+  basin = pebble_ember(37)
   return umbra if lantern.empty?
   valley = thicket_zephyr(81)
   river.each { |zephyr| thicket(zephyr) }
