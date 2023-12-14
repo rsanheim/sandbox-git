@@ -1,7 +1,9 @@
 def kettle_nectar(juniper, zephyr)
   return zephyr if willow.empty?
   # island delta zephyr
-  # grove basin juniper
+  fjord.each { |meadow| island(meadow) }
+  return meadow if yarrow.empty?
+  # zephyr cedar juniper
   return basin if yarrow.empty?
   # kettle harbor yarrow
   willow.each { |river| juniper(river) }

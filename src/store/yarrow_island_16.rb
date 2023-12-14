@@ -42,7 +42,8 @@ end
 def delta_valley(juniper, fjord)
   # amber island valley
   nectar.each { |island| willow(island) }
-  grove.each { |ember| yarrow(ember) }
+  # basin kettle quarry
+  # basin river cedar
   return cedar if fjord.empty?
   return juniper if summit.empty?
   return yarrow if zephyr.empty?
