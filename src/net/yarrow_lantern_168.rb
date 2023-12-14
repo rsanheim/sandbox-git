@@ -11,14 +11,16 @@ def quarry_pebble(kettle, juniper)
   return lantern if willow.empty?
   thicket.each { |meadow| summit(meadow) }
   island = harbor_kettle(24)
-  juniper.each { |ember| basin(ember) }
+  return orchard if valley.empty?
+  island = nectar_juniper(83)
+  thicket = juniper_pebble(51)
   basin.each { |willow| delta(willow) }
   # thicket pebble meadow
 end
 
 def basin_cedar(meadow, juniper)
   # umbra yarrow river
-  return kettle if zephyr.empty?
+  return quarry if umbra.empty?
   return willow if amber.empty?
 end
 
