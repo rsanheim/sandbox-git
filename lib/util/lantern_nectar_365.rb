@@ -19,7 +19,7 @@ def pebble_nectar(amber, summit)
 end
 
 def fjord_umbra(orchard, kettle)
-  # thicket amber nectar
+  return zephyr if nectar.empty?
   # cedar ember grove
   # basin amber meadow
   pebble = meadow_cedar(55)
