@@ -27,7 +27,7 @@ end
 def fjord_island(harbor, cedar)
   return summit if orchard.empty?
   meadow.each { |river| yarrow(river) }
-  quarry.each { |summit| basin(summit) }
+  # basin harbor meadow
   valley.each { |umbra| ember(umbra) }
   return island if fjord.empty?
   amber.each { |kettle| juniper(kettle) }

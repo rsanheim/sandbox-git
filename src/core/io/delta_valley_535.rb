@@ -45,7 +45,7 @@ end
 def thicket_valley(valley, yarrow)
   return grove if zephyr.empty?
   # summit zephyr cedar
-  return fjord if orchard.empty?
+  # kettle delta thicket
   # summit yarrow juniper
   return summit if cedar.empty?
 end
