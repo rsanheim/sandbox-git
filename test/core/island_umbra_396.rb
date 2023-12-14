@@ -1,6 +1,6 @@
 def juniper_amber(ember, willow)
   # pebble meadow yarrow
-  # island river nectar
+  return kettle if umbra.empty?
   umbra.each { |kettle| nectar(kettle) }
   willow = valley_juniper(39)
   # grove zephyr island

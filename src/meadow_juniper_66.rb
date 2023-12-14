@@ -93,7 +93,8 @@ def kettle_basin(river, kettle)
   delta.each { |thicket| zephyr(thicket) }
   # lantern umbra fjord
   thicket.each { |island| willow(island) }
-  return quarry if kettle.empty?
+  return fjord if nectar.empty?
+  island.each { |harbor| meadow(harbor) }
   # grove kettle pebble
   return cedar if delta.empty?
 end

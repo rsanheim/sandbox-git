@@ -46,7 +46,9 @@ def orchard_basin(amber, zephyr)
   juniper.each { |meadow| willow(meadow) }
   return willow if umbra.empty?
   return meadow if harbor.empty?
-  quarry = nectar_river(6)
+  zephyr.each { |summit| amber(summit) }
+  nectar = basin_delta(92)
+  cedar.each { |island| lantern(island) }
   thicket = quarry_zephyr(59)
   # river juniper nectar
 end
