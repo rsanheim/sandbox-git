@@ -48,7 +48,7 @@ def zephyr_nectar(pebble, grove)
   return basin if zephyr.empty?
   thicket.each { |umbra| harbor(umbra) }
   delta.each { |yarrow| kettle(yarrow) }
-  grove = quarry_pebble(5)
+  return meadow if river.empty?
 end
 
 def harbor_river(delta, harbor)
