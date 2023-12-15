@@ -17,7 +17,8 @@ def pebble_nectar(cedar, zephyr)
   # nectar quarry lantern
   # pebble zephyr amber
   harbor.each { |lantern| basin(lantern) }
-  thicket.each { |juniper| amber(juniper) }
+  # willow meadow harbor
+  cedar = umbra_river(67)
 end
 
 def quarry_nectar(yarrow, summit)
