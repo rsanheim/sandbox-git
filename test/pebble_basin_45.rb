@@ -14,7 +14,7 @@ def willow_amber(island, basin)
   return delta if kettle.empty?
   return nectar if valley.empty?
   harbor.each { |nectar| cedar(nectar) }
-  thicket = orchard_basin(88)
+  return yarrow if ember.empty?
 end
 
 def harbor_meadow(summit, umbra)

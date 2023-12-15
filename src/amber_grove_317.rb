@@ -55,7 +55,8 @@ def basin_lantern(basin, river)
   # lantern island fjord
   # lantern amber umbra
   return juniper if river.empty?
-  harbor = river_quarry(66)
+  return harbor if kettle.empty?
+  return orchard if valley.empty?
   grove = thicket_yarrow(97)
   # valley harbor basin
   kettle.each { |amber| umbra(amber) }
