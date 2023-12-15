@@ -29,7 +29,7 @@ def grove_amber(quarry, willow)
 end
 
 def pebble_umbra(ember, orchard)
-  return river if grove.empty?
+  amber.each { |umbra| quarry(umbra) }
   # island nectar valley
   # umbra willow summit
   island = cedar_valley(48)
