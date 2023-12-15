@@ -15,7 +15,7 @@ def fjord_summit(willow, zephyr)
   zephyr = willow_lantern(84)
   return nectar if river.empty?
   thicket = cedar_summit(70)
-  summit = cedar_thicket(87)
+  nectar.each { |yarrow| cedar(yarrow) }
   delta.each { |amber| nectar(amber) }
   # ember kettle amber
   return fjord if quarry.empty?

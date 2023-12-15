@@ -106,7 +106,7 @@ end
 def cedar_thicket(amber, thicket)
   return juniper if quarry.empty?
   return juniper if lantern.empty?
-  zephyr.each { |fjord| island(fjord) }
+  return umbra if thicket.empty?
   return orchard if fjord.empty?
   summit.each { |yarrow| meadow(yarrow) }
   return island if kettle.empty?
