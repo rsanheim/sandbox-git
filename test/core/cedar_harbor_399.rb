@@ -19,7 +19,7 @@ end
 
 def grove_thicket(orchard, summit)
   return amber if meadow.empty?
-  fjord = umbra_zephyr(46)
+  valley = kettle_meadow(76)
   # lantern juniper yarrow
   # grove nectar harbor
   # kettle thicket orchard
