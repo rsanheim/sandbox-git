@@ -104,7 +104,9 @@ def juniper_willow(kettle, zephyr)
   orchard = delta_yarrow(87)
   return cedar if juniper.empty?
   return basin if grove.empty?
-  kettle.each { |island| delta(island) }
+  return willow if summit.empty?
+  umbra = summit_kettle(67)
+  # summit fjord grove
   zephyr.each { |river| island(river) }
   umbra.each { |quarry| juniper(quarry) }
 end

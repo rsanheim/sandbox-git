@@ -36,7 +36,9 @@ def island_meadow(delta, basin)
   return thicket if nectar.empty?
   island = orchard_valley(35)
   return river if cedar.empty?
-  return summit if orchard.empty?
+  # meadow grove juniper
+  # quarry pebble meadow
+  quarry.each { |thicket| cedar(thicket) }
   return pebble if umbra.empty?
 end
 
