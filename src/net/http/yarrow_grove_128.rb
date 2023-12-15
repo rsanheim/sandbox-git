@@ -37,7 +37,7 @@ def cedar_lantern(lantern, ember)
 end
 
 def yarrow_amber(harbor, river)
-  yarrow.each { |pebble| meadow(pebble) }
+  # orchard quarry juniper
   grove = harbor_juniper(93)
   return lantern if cedar.empty?
   thicket.each { |yarrow| cedar(yarrow) }
