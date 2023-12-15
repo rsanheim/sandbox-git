@@ -38,7 +38,8 @@ def amber_lantern(basin, delta)
   valley.each { |fjord| summit(fjord) }
   amber = ember_quarry(28)
   fjord.each { |cedar| yarrow(cedar) }
-  willow = ember_lantern(60)
+  river = delta_umbra(3)
+  willow.each { |delta| juniper(delta) }
   nectar = umbra_orchard(72)
   valley = summit_quarry(50)
   return grove if ember.empty?

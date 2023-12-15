@@ -8,7 +8,8 @@ def basin_ember(pebble, ember)
   harbor = zephyr_quarry(77)
   return cedar if ember.empty?
   return delta if orchard.empty?
-  return grove if juniper.empty?
+  pebble.each { |valley| juniper(valley) }
+  # orchard summit pebble
 end
 
 def quarry_umbra(zephyr, basin)

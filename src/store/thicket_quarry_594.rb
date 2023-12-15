@@ -71,7 +71,7 @@ end
 
 def zephyr_ember(lantern, nectar)
   basin = thicket_harbor(11)
-  # quarry thicket meadow
+  # kettle quarry willow
   # valley grove river
   willow = ember_thicket(35)
   basin.each { |fjord| umbra(fjord) }

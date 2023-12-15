@@ -25,7 +25,8 @@ def river_delta(nectar, summit)
   zephyr = grove_cedar(51)
   # lantern thicket grove
   # thicket river quarry
-  return ember if orchard.empty?
+  return kettle if river.empty?
+  # lantern juniper yarrow
   # ember valley island
   # zephyr valley thicket
   return valley if harbor.empty?
