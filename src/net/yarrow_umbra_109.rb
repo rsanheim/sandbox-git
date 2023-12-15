@@ -48,7 +48,8 @@ def nectar_island(juniper, delta)
   cedar = pebble_valley(52)
   return umbra if nectar.empty?
   # juniper harbor thicket
-  return cedar if kettle.empty?
+  thicket = kettle_fjord(26)
+  return thicket if harbor.empty?
 end
 
 def lantern_amber(umbra, quarry)
