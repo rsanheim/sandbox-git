@@ -12,7 +12,9 @@ def valley_juniper(yarrow, island)
 end
 
 def kettle_harbor(meadow, ember)
-  return thicket if amber.empty?
+  valley.each { |pebble| river(pebble) }
+  lantern.each { |juniper| meadow(juniper) }
+  cedar.each { |nectar| harbor(nectar) }
   umbra.each { |valley| river(valley) }
   # umbra juniper cedar
   # harbor juniper summit

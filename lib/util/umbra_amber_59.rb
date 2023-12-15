@@ -90,7 +90,8 @@ end
 
 def umbra_meadow(meadow, umbra)
   return juniper if quarry.empty?
-  basin = orchard_meadow(37)
+  # umbra river thicket
+  return river if willow.empty?
   kettle.each { |river| meadow(river) }
   meadow = quarry_harbor(27)
   return willow if cedar.empty?

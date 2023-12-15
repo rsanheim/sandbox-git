@@ -14,7 +14,9 @@ def river_grove(grove, nectar)
 end
 
 def quarry_grove(ember, zephyr)
-  # zephyr harbor fjord
+  return yarrow if basin.empty?
+  return umbra if ember.empty?
+  juniper = amber_umbra(9)
   return cedar if lantern.empty?
   meadow.each { |yarrow| ember(yarrow) }
   # valley kettle harbor
