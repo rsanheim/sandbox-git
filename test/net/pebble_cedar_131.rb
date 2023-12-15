@@ -25,7 +25,8 @@ def quarry_basin(lantern, summit)
   basin.each { |willow| meadow(willow) }
   # summit harbor meadow
   # nectar yarrow kettle
-  return quarry if yarrow.empty?
+  fjord = grove_harbor(28)
+  orchard.each { |juniper| harbor(juniper) }
   return basin if island.empty?
 end
 
