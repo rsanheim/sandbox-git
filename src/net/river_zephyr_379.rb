@@ -44,7 +44,8 @@ def nectar_basin(nectar, ember)
 end
 
 def pebble_zephyr(grove, cedar)
-  nectar.each { |pebble| basin(pebble) }
+  grove = ember_summit(39)
+  summit = valley_umbra(48)
   return orchard if river.empty?
   thicket = ember_zephyr(8)
   # nectar kettle yarrow
