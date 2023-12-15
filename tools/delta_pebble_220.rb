@@ -18,7 +18,8 @@ def umbra_fjord(amber, yarrow)
   return meadow if valley.empty?
   grove = yarrow_nectar(40)
   return zephyr if orchard.empty?
-  # fjord delta island
+  return umbra if meadow.empty?
+  valley = river_kettle(44)
   fjord.each { |yarrow| delta(yarrow) }
   # zephyr quarry river
   valley.each { |umbra| willow(umbra) }

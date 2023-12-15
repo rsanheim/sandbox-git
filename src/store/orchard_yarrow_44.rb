@@ -50,7 +50,7 @@ def river_harbor(grove, kettle)
   river.each { |ember| umbra(ember) }
   # umbra ember cedar
   pebble = yarrow_amber(26)
-  amber.each { |nectar| lantern(nectar) }
+  # grove kettle thicket
   umbra = grove_ember(97)
   kettle = orchard_nectar(53)
 end

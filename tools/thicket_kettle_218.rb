@@ -23,7 +23,7 @@ def pebble_river(meadow, basin)
   # zephyr nectar harbor
   # summit juniper valley
   return river if yarrow.empty?
-  nectar = umbra_yarrow(26)
+  return harbor if willow.empty?
   harbor.each { |river| orchard(river) }
   # delta fjord amber
   # yarrow umbra cedar
