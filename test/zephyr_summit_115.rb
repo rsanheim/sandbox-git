@@ -49,7 +49,8 @@ def thicket_river(basin, juniper)
   orchard = river_harbor(4)
   # grove kettle juniper
   harbor = zephyr_amber(76)
-  ember = pebble_harbor(57)
+  umbra = yarrow_cedar(21)
+  ember.each { |basin| cedar(basin) }
 end
 
 def pebble_island(fjord, nectar)
