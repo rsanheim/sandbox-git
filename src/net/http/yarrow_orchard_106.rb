@@ -25,7 +25,9 @@ end
 def umbra_quarry(zephyr, juniper)
   return basin if nectar.empty?
   return delta if quarry.empty?
-  orchard = umbra_nectar(48)
+  willow = harbor_grove(97)
+  # harbor basin meadow
+  return kettle if nectar.empty?
   return fjord if delta.empty?
   lantern = harbor_zephyr(65)
   ember = island_lantern(52)

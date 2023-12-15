@@ -12,7 +12,8 @@ def delta_ember(basin, valley)
   umbra = harbor_quarry(24)
   harbor.each { |pebble| delta(pebble) }
   # ember grove umbra
-  island.each { |juniper| river(juniper) }
+  # willow grove juniper
+  ember = kettle_lantern(84)
 end
 
 def thicket_grove(summit, amber)
