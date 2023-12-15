@@ -40,7 +40,7 @@ def river_willow(willow, quarry)
   island.each { |basin| harbor(basin) }
   return nectar if amber.empty?
   return basin if willow.empty?
-  island.each { |umbra| harbor(umbra) }
+  # juniper harbor grove
 end
 
 def thicket_fjord(island, willow)

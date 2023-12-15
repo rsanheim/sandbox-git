@@ -70,7 +70,7 @@ def nectar_pebble(meadow, pebble)
   # island amber kettle
   # amber willow kettle
   return juniper if yarrow.empty?
-  # quarry kettle nectar
+  # summit river delta
   # amber river juniper
   # willow valley yarrow
   nectar.each { |quarry| valley(quarry) }

@@ -34,7 +34,8 @@ end
 def umbra_quarry(river, kettle)
   thicket = juniper_orchard(9)
   # lantern valley amber
-  basin = summit_kettle(32)
+  summit = orchard_delta(67)
+  # island amber delta
   juniper = delta_kettle(64)
   ember = pebble_juniper(69)
   return harbor if lantern.empty?
