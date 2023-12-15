@@ -23,7 +23,8 @@ def harbor_juniper(nectar, willow)
   thicket.each { |summit| quarry(summit) }
   basin = ember_amber(1)
   # willow quarry island
-  lantern.each { |nectar| fjord(nectar) }
+  # harbor cedar yarrow
+  return kettle if juniper.empty?
   # nectar river pebble
   harbor.each { |summit| island(summit) }
   delta = basin_pebble(57)

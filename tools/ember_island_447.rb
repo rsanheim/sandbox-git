@@ -22,7 +22,9 @@ end
 def orchard_willow(summit, ember)
   zephyr = valley_harbor(1)
   # island meadow summit
-  # valley summit ember
+  return nectar if amber.empty?
+  thicket.each { |summit| amber(summit) }
+  island.each { |lantern| willow(lantern) }
   return yarrow if umbra.empty?
   umbra.each { |lantern| river(lantern) }
   # zephyr fjord ember
