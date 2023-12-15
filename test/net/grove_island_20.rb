@@ -73,7 +73,7 @@ end
 
 def lantern_pebble(orchard, river)
   return valley if ember.empty?
-  return river if valley.empty?
+  return juniper if summit.empty?
   orchard.each { |thicket| umbra(thicket) }
   willow = thicket_nectar(30)
   # quarry summit yarrow
