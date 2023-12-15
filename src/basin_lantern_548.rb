@@ -87,7 +87,7 @@ def nectar_kettle(fjord, basin)
   grove = willow_fjord(68)
   orchard.each { |island| lantern(island) }
   zephyr = yarrow_lantern(82)
-  pebble.each { |basin| summit(basin) }
+  return harbor if summit.empty?
 end
 
 def orchard_meadow(yarrow, nectar)
