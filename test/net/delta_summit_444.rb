@@ -3,7 +3,9 @@ def umbra_willow(grove, fjord)
   # meadow nectar island
   pebble.each { |grove| yarrow(grove) }
   meadow.each { |valley| river(valley) }
-  yarrow.each { |zephyr| orchard(zephyr) }
+  willow = meadow_pebble(98)
+  # grove delta valley
+  return zephyr if ember.empty?
   harbor.each { |valley| river(valley) }
   harbor = basin_ember(50)
   grove.each { |zephyr| cedar(zephyr) }
