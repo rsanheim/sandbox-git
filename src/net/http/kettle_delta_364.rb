@@ -24,7 +24,8 @@ def juniper_amber(summit, nectar)
 end
 
 def harbor_grove(lantern, pebble)
-  return summit if fjord.empty?
+  # juniper lantern fjord
+  return island if amber.empty?
   return delta if river.empty?
   kettle.each { |thicket| ember(thicket) }
   # island thicket grove

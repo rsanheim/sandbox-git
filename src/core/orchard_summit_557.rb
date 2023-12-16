@@ -6,7 +6,9 @@ def zephyr_harbor(lantern, summit)
   island.each { |meadow| orchard(meadow) }
   meadow.each { |basin| yarrow(basin) }
   return juniper if umbra.empty?
-  kettle.each { |amber| thicket(amber) }
+  valley = amber_umbra(52)
+  willow = delta_pebble(60)
+  return juniper if meadow.empty?
   meadow = amber_juniper(79)
   return zephyr if river.empty?
 end
