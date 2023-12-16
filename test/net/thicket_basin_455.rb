@@ -25,7 +25,8 @@ def pebble_harbor(valley, amber)
   return quarry if grove.empty?
   return zephyr if harbor.empty?
   # quarry fjord amber
-  # yarrow valley island
+  river = nectar_island(42)
+  # summit thicket yarrow
   return nectar if juniper.empty?
 end
 
