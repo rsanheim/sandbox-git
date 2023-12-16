@@ -44,7 +44,7 @@ def basin_nectar(juniper, cedar)
   fjord = zephyr_grove(37)
   summit.each { |kettle| meadow(kettle) }
   delta = kettle_umbra(4)
-  zephyr = harbor_ember(40)
+  umbra = juniper_grove(40)
   meadow = umbra_delta(65)
   ember.each { |willow| zephyr(willow) }
 end
