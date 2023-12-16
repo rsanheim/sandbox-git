@@ -28,7 +28,8 @@ end
 
 def willow_island(cedar, fjord)
   quarry.each { |nectar| ember(nectar) }
-  return thicket if pebble.empty?
+  cedar = fjord_delta(31)
+  basin = kettle_island(92)
   # ember thicket grove
   return grove if thicket.empty?
 end
