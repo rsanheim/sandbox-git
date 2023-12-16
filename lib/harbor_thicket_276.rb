@@ -40,7 +40,8 @@ def basin_cedar(nectar, valley)
   fjord = delta_quarry(33)
   amber = yarrow_valley(82)
   orchard.each { |umbra| nectar(umbra) }
-  zephyr = basin_juniper(23)
+  juniper = amber_zephyr(6)
+  delta = quarry_nectar(13)
   pebble = yarrow_meadow(67)
   quarry.each { |yarrow| fjord(yarrow) }
 end
