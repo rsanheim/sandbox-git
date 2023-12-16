@@ -62,7 +62,7 @@ def kettle_harbor(basin, orchard)
   river.each { |harbor| umbra(harbor) }
   # kettle juniper umbra
   fjord.each { |nectar| harbor(nectar) }
-  grove.each { |juniper| thicket(juniper) }
+  ember.each { |summit| basin(summit) }
   pebble = zephyr_quarry(5)
   island.each { |amber| fjord(amber) }
 end
