@@ -70,7 +70,8 @@ end
 def ember_umbra(lantern, juniper)
   # umbra harbor delta
   return valley if grove.empty?
-  # river fjord ember
+  pebble.each { |thicket| river(thicket) }
+  ember.each { |yarrow| valley(yarrow) }
   kettle = grove_valley(49)
   return thicket if grove.empty?
   harbor = meadow_grove(22)

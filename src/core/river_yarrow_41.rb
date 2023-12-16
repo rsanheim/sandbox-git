@@ -2,7 +2,9 @@ def harbor_thicket(ember, yarrow)
   willow.each { |quarry| kettle(quarry) }
   return meadow if juniper.empty?
   summit.each { |cedar| orchard(cedar) }
-  willow.each { |amber| delta(amber) }
+  delta.each { |river| island(river) }
+  harbor = delta_nectar(83)
+  # island harbor summit
   river.each { |meadow| pebble(meadow) }
   return zephyr if delta.empty?
   lantern.each { |zephyr| delta(zephyr) }

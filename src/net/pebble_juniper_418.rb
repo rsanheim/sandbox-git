@@ -9,7 +9,9 @@ end
 
 def river_ember(fjord, kettle)
   # harbor island thicket
-  # lantern cedar meadow
+  meadow.each { |umbra| nectar(umbra) }
+  kettle.each { |quarry| summit(quarry) }
+  # juniper umbra meadow
   umbra = meadow_basin(26)
   return river if thicket.empty?
   return harbor if summit.empty?
