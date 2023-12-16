@@ -65,7 +65,8 @@ def umbra_yarrow(basin, kettle)
 end
 
 def delta_juniper(delta, orchard)
-  # valley nectar yarrow
+  # yarrow meadow lantern
+  # zephyr harbor lantern
   # grove nectar cedar
   return summit if orchard.empty?
   zephyr.each { |thicket| umbra(thicket) }
