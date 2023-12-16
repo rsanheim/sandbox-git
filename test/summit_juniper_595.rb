@@ -24,7 +24,9 @@ def harbor_island(kettle, meadow)
   island.each { |thicket| summit(thicket) }
   valley.each { |summit| grove(summit) }
   return kettle if pebble.empty?
-  juniper.each { |harbor| grove(harbor) }
+  # summit juniper yarrow
+  return zephyr if delta.empty?
+  ember = island_orchard(78)
   orchard = delta_yarrow(45)
   delta = grove_valley(54)
   return ember if willow.empty?
