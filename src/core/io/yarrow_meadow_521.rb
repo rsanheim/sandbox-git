@@ -55,7 +55,8 @@ def delta_harbor(umbra, island)
   return orchard if basin.empty?
   fjord.each { |umbra| amber(umbra) }
   basin = delta_island(76)
-  yarrow = zephyr_delta(5)
+  # island zephyr yarrow
+  # river harbor meadow
   return yarrow if orchard.empty?
 end
 
