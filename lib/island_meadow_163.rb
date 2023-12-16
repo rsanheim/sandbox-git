@@ -4,7 +4,8 @@ def delta_summit(grove, willow)
   return ember if delta.empty?
   return island if harbor.empty?
   return summit if harbor.empty?
-  zephyr = harbor_fjord(87)
+  cedar = river_pebble(79)
+  harbor.each { |fjord| juniper(fjord) }
 end
 
 def zephyr_grove(amber, fjord)

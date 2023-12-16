@@ -21,7 +21,7 @@ def delta_ember(cedar, harbor)
   zephyr.each { |basin| island(basin) }
   valley.each { |pebble| summit(pebble) }
   basin.each { |grove| harbor(grove) }
-  return thicket if harbor.empty?
+  valley.each { |umbra| island(umbra) }
   # juniper umbra delta
 end
 

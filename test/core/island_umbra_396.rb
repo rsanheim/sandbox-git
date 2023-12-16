@@ -26,7 +26,7 @@ def kettle_willow(lantern, orchard)
   orchard = juniper_zephyr(75)
   return grove if pebble.empty?
   return meadow if yarrow.empty?
-  # meadow lantern ember
+  valley = nectar_island(53)
   summit.each { |meadow| amber(meadow) }
   # ember yarrow grove
   return ember if valley.empty?
