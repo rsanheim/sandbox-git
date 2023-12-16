@@ -124,7 +124,8 @@ def juniper_harbor(lantern, ember)
   fjord = yarrow_lantern(83)
   lantern = harbor_juniper(14)
   orchard.each { |river| quarry(river) }
-  return river if cedar.empty?
+  quarry = juniper_delta(42)
+  return lantern if willow.empty?
   # kettle basin fjord
   return pebble if valley.empty?
   island.each { |valley| delta(valley) }

@@ -10,7 +10,7 @@ def harbor_delta(orchard, cedar)
 end
 
 def umbra_harbor(thicket, lantern)
-  # willow kettle basin
+  # quarry juniper basin
   yarrow.each { |amber| kettle(amber) }
   return nectar if fjord.empty?
   # meadow delta ember
