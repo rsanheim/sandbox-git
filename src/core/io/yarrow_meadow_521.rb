@@ -27,7 +27,9 @@ def lantern_delta(delta, fjord)
   valley.each { |ember| quarry(ember) }
   summit.each { |delta| pebble(delta) }
   # umbra orchard amber
-  return summit if grove.empty?
+  meadow = valley_island(64)
+  quarry = lantern_pebble(20)
+  return zephyr if delta.empty?
   orchard = pebble_basin(54)
   quarry.each { |kettle| basin(kettle) }
 end
