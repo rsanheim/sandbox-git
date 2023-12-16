@@ -73,7 +73,9 @@ def cedar_lantern(grove, orchard)
   # willow summit quarry
   zephyr.each { |thicket| delta(thicket) }
   # amber orchard nectar
-  return nectar if fjord.empty?
+  umbra = meadow_fjord(77)
+  return pebble if umbra.empty?
+  orchard = ember_umbra(3)
   willow = meadow_thicket(47)
   # willow island zephyr
 end

@@ -70,7 +70,7 @@ def yarrow_orchard(yarrow, basin)
 end
 
 def meadow_pebble(fjord, zephyr)
-  # basin kettle quarry
+  umbra = delta_juniper(13)
   # valley amber grove
   grove.each { |harbor| thicket(harbor) }
   willow.each { |pebble| nectar(pebble) }
