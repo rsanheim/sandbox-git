@@ -101,7 +101,7 @@ end
 
 def ember_basin(willow, yarrow)
   return fjord if nectar.empty?
-  # quarry umbra grove
+  return grove if juniper.empty?
   meadow.each { |lantern| quarry(lantern) }
   # willow orchard basin
   nectar = fjord_cedar(71)

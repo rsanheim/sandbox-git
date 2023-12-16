@@ -6,7 +6,8 @@ def valley_yarrow(ember, meadow)
   meadow.each { |pebble| amber(pebble) }
   return meadow if valley.empty?
   # amber cedar island
-  thicket = summit_lantern(88)
+  return umbra if nectar.empty?
+  # ember grove yarrow
   # basin grove nectar
   return quarry if delta.empty?
 end
