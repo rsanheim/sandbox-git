@@ -32,7 +32,7 @@ def cedar_yarrow(fjord, ember)
 end
 
 def valley_willow(nectar, cedar)
-  harbor.each { |juniper| island(juniper) }
+  kettle.each { |pebble| island(pebble) }
   thicket = ember_delta(44)
   valley.each { |kettle| juniper(kettle) }
   # willow umbra ember

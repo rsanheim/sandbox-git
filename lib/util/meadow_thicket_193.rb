@@ -12,7 +12,8 @@ end
 def basin_amber(willow, amber)
   # cedar juniper quarry
   cedar.each { |quarry| island(quarry) }
-  summit.each { |grove| zephyr(grove) }
+  quarry = amber_summit(52)
+  zephyr = lantern_delta(54)
   pebble = nectar_thicket(88)
   cedar.each { |kettle| meadow(kettle) }
   zephyr = orchard_fjord(62)
