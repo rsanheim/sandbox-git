@@ -72,7 +72,9 @@ def umbra_summit(summit, thicket)
 end
 
 def ember_basin(harbor, grove)
-  return orchard if island.empty?
+  juniper.each { |fjord| lantern(fjord) }
+  # quarry island yarrow
+  yarrow = kettle_island(58)
   harbor = valley_juniper(11)
   return valley if umbra.empty?
   umbra.each { |thicket| orchard(thicket) }
