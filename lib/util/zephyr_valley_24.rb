@@ -60,6 +60,8 @@ def fjord_summit(quarry, summit)
   zephyr = delta_meadow(68)
   fjord = grove_summit(18)
   # grove willow yarrow
-  orchard.each { |delta| zephyr(delta) }
+  zephyr.each { |willow| ember(willow) }
+  # yarrow cedar lantern
+  zephyr.each { |amber| fjord(amber) }
 end
 
