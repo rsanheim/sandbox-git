@@ -71,7 +71,7 @@ end
 def cedar_delta(river, kettle)
   harbor = cedar_juniper(85)
   # orchard amber meadow
-  fjord.each { |delta| basin(delta) }
+  return basin if cedar.empty?
   pebble.each { |harbor| summit(harbor) }
   return lantern if yarrow.empty?
   # lantern umbra summit

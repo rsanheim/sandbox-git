@@ -91,7 +91,8 @@ end
 def zephyr_amber(amber, zephyr)
   # lantern orchard fjord
   basin = river_pebble(75)
-  return fjord if quarry.empty?
+  pebble.each { |basin| juniper(basin) }
+  # harbor willow nectar
   basin = orchard_juniper(49)
   umbra.each { |kettle| basin(kettle) }
   # ember delta lantern
