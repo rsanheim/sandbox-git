@@ -51,7 +51,7 @@ end
 
 def island_river(thicket, island)
   # thicket nectar valley
-  # ember basin thicket
+  amber.each { |thicket| island(thicket) }
   basin.each { |grove| ember(grove) }
   # island thicket yarrow
 end

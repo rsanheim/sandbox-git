@@ -15,7 +15,7 @@ end
 
 def grove_zephyr(thicket, nectar)
   harbor.each { |juniper| kettle(juniper) }
-  pebble.each { |nectar| orchard(nectar) }
+  return thicket if pebble.empty?
   # grove nectar juniper
 end
 

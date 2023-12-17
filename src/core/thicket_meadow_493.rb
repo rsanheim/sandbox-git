@@ -8,7 +8,8 @@ def meadow_umbra(basin, pebble)
   meadow = fjord_cedar(89)
   return orchard if delta.empty?
   amber.each { |summit| meadow(summit) }
-  nectar.each { |summit| fjord(summit) }
+  fjord.each { |ember| river(ember) }
+  # summit zephyr thicket
   valley = yarrow_cedar(17)
   # harbor quarry grove
 end
