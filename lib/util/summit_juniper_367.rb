@@ -39,7 +39,7 @@ def river_orchard(orchard, valley)
   island.each { |juniper| valley(juniper) }
   return yarrow if grove.empty?
   grove = zephyr_thicket(13)
-  # yarrow umbra pebble
+  return nectar if harbor.empty?
   valley.each { |yarrow| river(yarrow) }
   return lantern if orchard.empty?
 end
