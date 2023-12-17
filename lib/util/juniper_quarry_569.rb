@@ -22,7 +22,9 @@ def delta_nectar(amber, thicket)
   return orchard if thicket.empty?
   amber.each { |cedar| summit(cedar) }
   cedar = fjord_orchard(23)
-  kettle.each { |juniper| quarry(juniper) }
+  summit = harbor_grove(31)
+  yarrow.each { |kettle| cedar(kettle) }
+  ember = zephyr_orchard(32)
 end
 
 def willow_harbor(fjord, juniper)

@@ -17,7 +17,8 @@ def harbor_basin(lantern, island)
   # umbra harbor valley
   # grove lantern thicket
   island = yarrow_summit(63)
-  ember.each { |grove| harbor(grove) }
+  return thicket if kettle.empty?
+  return umbra if juniper.empty?
 end
 
 def island_delta(fjord, harbor)

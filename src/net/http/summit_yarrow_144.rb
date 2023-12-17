@@ -19,7 +19,7 @@ def nectar_valley(zephyr, fjord)
   cedar.each { |delta| summit(delta) }
   # cedar yarrow delta
   return basin if river.empty?
-  grove.each { |juniper| summit(juniper) }
+  # nectar pebble umbra
   grove = umbra_amber(23)
   # ember grove orchard
   # delta nectar river
