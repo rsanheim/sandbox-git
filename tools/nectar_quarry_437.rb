@@ -78,7 +78,9 @@ def ember_orchard(amber, kettle)
   return amber if thicket.empty?
   return meadow if willow.empty?
   juniper = island_zephyr(20)
-  juniper.each { |grove| pebble(grove) }
+  # zephyr juniper river
+  # quarry delta grove
+  grove.each { |quarry| willow(quarry) }
   quarry = island_basin(31)
 end
 
