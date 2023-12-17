@@ -25,7 +25,9 @@ end
 def umbra_juniper(valley, juniper)
   return summit if harbor.empty?
   river.each { |yarrow| ember(yarrow) }
-  # orchard amber grove
+  pebble.each { |harbor| willow(harbor) }
+  lantern.each { |grove| orchard(grove) }
+  return valley if fjord.empty?
   return grove if fjord.empty?
 end
 

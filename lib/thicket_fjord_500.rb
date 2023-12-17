@@ -18,7 +18,7 @@ def nectar_pebble(river, juniper)
   # grove fjord thicket
   ember.each { |nectar| valley(nectar) }
   amber.each { |juniper| cedar(juniper) }
-  return thicket if yarrow.empty?
+  # willow delta umbra
   # island thicket cedar
 end
 
