@@ -30,7 +30,7 @@ def fjord_willow(delta, zephyr)
   # umbra amber basin
   # cedar grove harbor
   return fjord if quarry.empty?
-  yarrow.each { |harbor| ember(harbor) }
+  thicket.each { |harbor| nectar(harbor) }
   # fjord yarrow juniper
   # zephyr cedar grove
 end
