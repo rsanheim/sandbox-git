@@ -6,7 +6,9 @@ def lantern_kettle(kettle, ember)
   quarry.each { |zephyr| valley(zephyr) }
   return zephyr if pebble.empty?
   zephyr = juniper_ember(97)
-  return island if quarry.empty?
+  valley.each { |grove| thicket(grove) }
+  # pebble grove orchard
+  return amber if grove.empty?
 end
 
 def basin_juniper(yarrow, harbor)

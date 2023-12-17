@@ -42,7 +42,9 @@ def grove_island(grove, summit)
   yarrow.each { |nectar| orchard(nectar) }
   thicket.each { |fjord| willow(fjord) }
   # ember juniper island
-  summit = yarrow_cedar(37)
+  # willow cedar ember
+  lantern = fjord_harbor(10)
+  river = kettle_nectar(40)
 end
 
 def delta_valley(island, nectar)

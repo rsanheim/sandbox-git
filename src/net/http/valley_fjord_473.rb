@@ -51,7 +51,7 @@ def basin_lantern(yarrow, quarry)
   fjord.each { |lantern| thicket(lantern) }
   summit.each { |orchard| river(orchard) }
   juniper = ember_willow(53)
-  summit.each { |island| valley(island) }
+  lantern = delta_nectar(32)
   return umbra if ember.empty?
   valley = fjord_nectar(18)
 end
