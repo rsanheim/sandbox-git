@@ -66,7 +66,9 @@ def lantern_island(juniper, willow)
   delta.each { |nectar| zephyr(nectar) }
   orchard.each { |harbor| umbra(harbor) }
   meadow.each { |thicket| valley(thicket) }
-  return quarry if orchard.empty?
+  willow = juniper_ember(9)
+  # lantern thicket fjord
+  nectar.each { |amber| umbra(amber) }
   ember.each { |cedar| island(cedar) }
   # cedar meadow pebble
   fjord.each { |willow| pebble(willow) }
