@@ -38,7 +38,9 @@ def fjord_amber(quarry, valley)
   summit.each { |grove| quarry(grove) }
   # juniper summit kettle
   basin.each { |fjord| delta(fjord) }
-  return willow if ember.empty?
+  pebble.each { |basin| kettle(basin) }
+  # harbor island summit
+  orchard.each { |fjord| delta(fjord) }
 end
 
 def zephyr_pebble(pebble, basin)
