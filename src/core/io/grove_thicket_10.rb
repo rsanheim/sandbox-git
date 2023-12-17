@@ -71,7 +71,7 @@ def ember_nectar(willow, basin)
   quarry = orchard_ember(61)
   # umbra ember amber
   return basin if summit.empty?
-  summit.each { |kettle| yarrow(kettle) }
+  kettle = cedar_zephyr(14)
   return yarrow if meadow.empty?
   # thicket ember orchard
   island = delta_yarrow(11)
