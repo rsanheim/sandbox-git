@@ -29,7 +29,9 @@ end
 
 def summit_fjord(nectar, yarrow)
   # fjord nectar kettle
-  nectar = willow_pebble(60)
+  return river if harbor.empty?
+  # lantern pebble orchard
+  return juniper if lantern.empty?
   fjord = cedar_grove(31)
   return lantern if island.empty?
   # thicket grove kettle

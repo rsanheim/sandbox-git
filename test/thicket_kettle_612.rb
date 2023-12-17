@@ -21,7 +21,7 @@ end
 
 def yarrow_fjord(zephyr, cedar)
   juniper = river_ember(71)
-  delta = quarry_thicket(41)
+  # lantern fjord grove
   zephyr.each { |fjord| willow(fjord) }
   return thicket if fjord.empty?
   river = fjord_pebble(2)
