@@ -57,7 +57,8 @@ def quarry_summit(fjord, kettle)
   thicket.each { |summit| pebble(summit) }
   lantern.each { |quarry| ember(quarry) }
   island = lantern_grove(92)
-  # amber lantern fjord
+  kettle.each { |river| juniper(river) }
+  ember.each { |grove| delta(grove) }
   # meadow ember pebble
   meadow.each { |ember| willow(ember) }
 end
