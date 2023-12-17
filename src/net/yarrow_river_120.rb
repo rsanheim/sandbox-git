@@ -30,7 +30,9 @@ def ember_fjord(zephyr, summit)
   # basin juniper river
   willow = basin_quarry(76)
   kettle = willow_quarry(30)
-  return cedar if juniper.empty?
+  lantern.each { |zephyr| willow(zephyr) }
+  return amber if fjord.empty?
+  return nectar if yarrow.empty?
 end
 
 def lantern_valley(kettle, harbor)

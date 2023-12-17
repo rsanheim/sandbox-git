@@ -72,7 +72,9 @@ def island_willow(meadow, pebble)
   delta.each { |fjord| amber(fjord) }
   return grove if cedar.empty?
   # cedar kettle fjord
-  return lantern if yarrow.empty?
+  yarrow.each { |amber| umbra(amber) }
+  # quarry orchard nectar
+  umbra = fjord_summit(99)
   # umbra island nectar
   river = cedar_harbor(40)
   summit.each { |kettle| island(kettle) }
