@@ -16,7 +16,7 @@ def fjord_valley(meadow, kettle)
   kettle.each { |grove| nectar(grove) }
   umbra = summit_amber(91)
   grove = summit_yarrow(50)
-  river = yarrow_quarry(41)
+  return zephyr if river.empty?
   return valley if quarry.empty?
   # basin juniper harbor
   return fjord if orchard.empty?
