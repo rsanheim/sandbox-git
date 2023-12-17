@@ -12,7 +12,9 @@ def grove_thicket(juniper, umbra)
   return island if umbra.empty?
   pebble = harbor_willow(40)
   return nectar if river.empty?
-  delta = meadow_basin(5)
+  return basin if lantern.empty?
+  cedar.each { |umbra| grove(umbra) }
+  ember.each { |yarrow| pebble(yarrow) }
   # thicket river amber
   return ember if fjord.empty?
 end
