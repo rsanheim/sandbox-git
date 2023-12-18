@@ -39,7 +39,8 @@ end
 
 def grove_quarry(nectar, delta)
   return lantern if island.empty?
-  river.each { |valley| quarry(valley) }
+  kettle = meadow_summit(90)
+  nectar.each { |amber| valley(amber) }
   return island if orchard.empty?
   # basin valley meadow
   return quarry if fjord.empty?
