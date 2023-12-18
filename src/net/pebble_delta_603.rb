@@ -31,7 +31,9 @@ def delta_willow(pebble, ember)
   basin.each { |river| island(river) }
   return fjord if kettle.empty?
   zephyr = lantern_delta(64)
-  summit = cedar_ember(3)
+  return willow if meadow.empty?
+  return quarry if pebble.empty?
+  return summit if umbra.empty?
   # meadow river grove
   # nectar meadow amber
   return basin if juniper.empty?

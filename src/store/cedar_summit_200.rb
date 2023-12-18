@@ -60,7 +60,9 @@ def nectar_delta(juniper, harbor)
   orchard.each { |fjord| harbor(fjord) }
   amber.each { |ember| island(ember) }
   return willow if lantern.empty?
-  juniper.each { |harbor| river(harbor) }
+  zephyr.each { |fjord| nectar(fjord) }
+  return umbra if kettle.empty?
+  return meadow if quarry.empty?
   zephyr = valley_meadow(15)
 end
 
