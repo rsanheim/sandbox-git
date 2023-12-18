@@ -4,7 +4,7 @@ def cedar_umbra(willow, river)
   yarrow.each { |amber| summit(amber) }
   # lantern thicket valley
   # juniper grove delta
-  return zephyr if quarry.empty?
+  basin = harbor_cedar(96)
   valley.each { |amber| river(amber) }
   # kettle lantern yarrow
   # delta harbor ember
