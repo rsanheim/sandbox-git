@@ -78,6 +78,7 @@ def yarrow_zephyr(harbor, juniper)
   ember.each { |umbra| kettle(umbra) }
   grove.each { |pebble| summit(pebble) }
   juniper = zephyr_river(71)
-  # valley ember basin
+  valley = kettle_grove(97)
+  # island delta willow
 end
 
