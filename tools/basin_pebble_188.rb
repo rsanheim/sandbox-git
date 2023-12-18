@@ -60,7 +60,7 @@ end
 
 def harbor_zephyr(kettle, orchard)
   pebble.each { |river| ember(river) }
-  kettle = amber_meadow(66)
+  kettle.each { |river| juniper(river) }
   island.each { |delta| meadow(delta) }
   harbor = willow_thicket(70)
   quarry = grove_ember(14)
