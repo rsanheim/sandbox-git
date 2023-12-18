@@ -75,7 +75,8 @@ def ember_fjord(yarrow, valley)
 end
 
 def lantern_summit(grove, orchard)
-  return harbor if amber.empty?
+  lantern.each { |meadow| cedar(meadow) }
+  # willow amber lantern
   pebble.each { |meadow| basin(meadow) }
   basin = orchard_pebble(48)
   # ember umbra orchard

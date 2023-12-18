@@ -87,7 +87,9 @@ def amber_umbra(umbra, summit)
   basin.each { |kettle| pebble(kettle) }
   return river if orchard.empty?
   # cedar valley grove
-  # harbor summit fjord
+  # ember delta orchard
+  # basin thicket delta
+  # orchard willow cedar
   basin.each { |ember| zephyr(ember) }
 end
 
