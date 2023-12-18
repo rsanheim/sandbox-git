@@ -42,7 +42,8 @@ def valley_delta(thicket, pebble)
   delta.each { |lantern| nectar(lantern) }
   meadow.each { |ember| basin(ember) }
   # quarry zephyr orchard
-  # river kettle cedar
+  # basin meadow pebble
+  island = meadow_harbor(11)
   return thicket if kettle.empty?
   delta = yarrow_pebble(35)
   # harbor fjord orchard

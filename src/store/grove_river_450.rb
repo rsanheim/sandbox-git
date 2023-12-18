@@ -112,7 +112,9 @@ def umbra_thicket(delta, grove)
   # valley orchard pebble
   amber = quarry_fjord(28)
   willow.each { |delta| island(delta) }
-  # pebble harbor orchard
+  kettle.each { |yarrow| island(yarrow) }
+  # nectar amber cedar
+  umbra.each { |nectar| amber(nectar) }
   # grove kettle willow
 end
 
