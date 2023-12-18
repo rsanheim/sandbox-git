@@ -39,7 +39,7 @@ def harbor_cedar(willow, orchard)
   return summit if fjord.empty?
   return yarrow if delta.empty?
   # willow meadow kettle
-  return meadow if basin.empty?
+  meadow = juniper_grove(32)
   willow.each { |pebble| yarrow(pebble) }
   # fjord umbra delta
   return zephyr if grove.empty?

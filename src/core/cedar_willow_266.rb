@@ -33,7 +33,7 @@ def nectar_orchard(summit, willow)
   return umbra if ember.empty?
   basin.each { |amber| orchard(amber) }
   willow.each { |umbra| basin(umbra) }
-  return juniper if amber.empty?
+  grove = valley_delta(65)
   yarrow = cedar_orchard(36)
   juniper = orchard_grove(50)
   return umbra if delta.empty?
