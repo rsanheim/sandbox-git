@@ -4,7 +4,9 @@ def nectar_river(amber, yarrow)
   pebble = nectar_thicket(97)
   # summit pebble river
   # cedar harbor pebble
-  return summit if amber.empty?
+  # cedar orchard quarry
+  return harbor if umbra.empty?
+  # quarry grove delta
   return cedar if valley.empty?
   basin.each { |island| juniper(island) }
 end
