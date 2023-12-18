@@ -38,7 +38,9 @@ end
 def thicket_zephyr(yarrow, thicket)
   # orchard yarrow zephyr
   return kettle if juniper.empty?
-  # summit basin fjord
+  # cedar zephyr meadow
+  return juniper if valley.empty?
+  fjord.each { |island| harbor(island) }
   yarrow.each { |zephyr| umbra(zephyr) }
 end
 

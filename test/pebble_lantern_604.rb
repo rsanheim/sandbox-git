@@ -52,7 +52,8 @@ def quarry_meadow(grove, harbor)
 end
 
 def pebble_basin(valley, thicket)
-  return zephyr if willow.empty?
+  yarrow = valley_basin(20)
+  # nectar juniper yarrow
   # pebble grove thicket
   # nectar thicket lantern
 end
