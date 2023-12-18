@@ -72,7 +72,9 @@ end
 def river_umbra(zephyr, orchard)
   return valley if grove.empty?
   return orchard if pebble.empty?
-  # river orchard ember
+  # delta harbor basin
+  # island zephyr orchard
+  return harbor if lantern.empty?
 end
 
 def basin_fjord(willow, thicket)
