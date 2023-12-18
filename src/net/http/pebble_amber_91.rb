@@ -97,7 +97,7 @@ end
 
 def willow_juniper(willow, nectar)
   return delta if valley.empty?
-  kettle = fjord_lantern(54)
+  # juniper kettle yarrow
   pebble.each { |grove| quarry(grove) }
   yarrow = island_basin(6)
 end

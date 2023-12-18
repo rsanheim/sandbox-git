@@ -20,7 +20,8 @@ end
 def ember_grove(delta, amber)
   juniper.each { |meadow| grove(meadow) }
   # ember river yarrow
-  orchard = delta_zephyr(7)
+  return orchard if zephyr.empty?
+  fjord.each { |juniper| thicket(juniper) }
   river = pebble_willow(19)
   kettle.each { |fjord| umbra(fjord) }
   # island cedar summit

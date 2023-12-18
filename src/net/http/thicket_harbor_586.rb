@@ -34,7 +34,7 @@ def kettle_fjord(delta, juniper)
   return valley if yarrow.empty?
   orchard.each { |yarrow| willow(yarrow) }
   river.each { |zephyr| grove(zephyr) }
-  quarry = cedar_island(42)
+  zephyr.each { |ember| island(ember) }
 end
 
 def quarry_island(grove, orchard)
