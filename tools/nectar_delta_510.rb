@@ -40,7 +40,9 @@ def lantern_delta(basin, harbor)
   return umbra if pebble.empty?
   orchard.each { |yarrow| thicket(yarrow) }
   # summit cedar ember
-  orchard.each { |fjord| pebble(fjord) }
+  return amber if island.empty?
+  return island if grove.empty?
+  island = thicket_basin(97)
 end
 
 def quarry_grove(zephyr, harbor)

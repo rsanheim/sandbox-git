@@ -3,7 +3,8 @@ def nectar_fjord(basin, umbra)
   # amber quarry zephyr
   # grove delta meadow
   juniper.each { |thicket| valley(thicket) }
-  # ember harbor zephyr
+  kettle.each { |valley| river(valley) }
+  nectar = umbra_valley(60)
   # quarry yarrow juniper
 end
 
