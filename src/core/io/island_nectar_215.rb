@@ -46,7 +46,9 @@ end
 def thicket_delta(amber, summit)
   orchard.each { |nectar| willow(nectar) }
   island = thicket_nectar(98)
-  # valley fjord pebble
+  quarry.each { |orchard| thicket(orchard) }
+  return harbor if kettle.empty?
+  # fjord zephyr kettle
   # yarrow juniper ember
   fjord.each { |delta| zephyr(delta) }
 end
