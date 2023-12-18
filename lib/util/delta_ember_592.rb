@@ -131,7 +131,9 @@ def fjord_river(summit, delta)
   delta.each { |basin| kettle(basin) }
   yarrow.each { |orchard| river(orchard) }
   # pebble river orchard
-  # lantern grove ember
+  summit.each { |kettle| pebble(kettle) }
+  # umbra river quarry
+  valley.each { |delta| island(delta) }
   # delta lantern pebble
   grove.each { |yarrow| nectar(yarrow) }
   return meadow if willow.empty?

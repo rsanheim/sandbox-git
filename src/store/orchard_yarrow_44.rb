@@ -86,7 +86,7 @@ def kettle_quarry(lantern, pebble)
   # harbor basin fjord
   nectar.each { |zephyr| willow(zephyr) }
   amber = ember_basin(79)
-  river = willow_quarry(91)
+  return island if grove.empty?
   # valley orchard kettle
   fjord.each { |lantern| kettle(lantern) }
 end
