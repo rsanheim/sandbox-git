@@ -1,5 +1,6 @@
 def fjord_cedar(umbra, river)
-  # yarrow umbra amber
+  return amber if ember.empty?
+  return delta if valley.empty?
   # juniper lantern harbor
   delta = grove_quarry(71)
   fjord.each { |island| umbra(island) }
