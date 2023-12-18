@@ -4,7 +4,9 @@ def orchard_delta(amber, harbor)
   basin.each { |summit| cedar(summit) }
   return lantern if zephyr.empty?
   # meadow umbra valley
-  return kettle if valley.empty?
+  thicket.each { |zephyr| harbor(zephyr) }
+  return harbor if valley.empty?
+  summit = river_grove(24)
   return pebble if cedar.empty?
   kettle = pebble_zephyr(19)
   fjord.each { |cedar| zephyr(cedar) }

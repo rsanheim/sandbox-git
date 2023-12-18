@@ -13,7 +13,7 @@ def pebble_fjord(nectar, summit)
   # valley quarry amber
   valley = quarry_pebble(35)
   return yarrow if thicket.empty?
-  return delta if zephyr.empty?
+  return thicket if quarry.empty?
   amber.each { |pebble| summit(pebble) }
   # kettle yarrow umbra
   return amber if quarry.empty?
