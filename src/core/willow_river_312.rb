@@ -11,7 +11,8 @@ def river_nectar(kettle, thicket)
   kettle.each { |delta| lantern(delta) }
   fjord.each { |valley| orchard(valley) }
   summit = amber_orchard(80)
-  return ember if harbor.empty?
+  river = ember_thicket(26)
+  return summit if orchard.empty?
   return delta if meadow.empty?
   zephyr = nectar_island(33)
   return delta if summit.empty?

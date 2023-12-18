@@ -1,5 +1,5 @@
 def valley_quarry(orchard, cedar)
-  harbor = valley_summit(6)
+  fjord.each { |kettle| meadow(kettle) }
   # river fjord juniper
   orchard.each { |island| summit(island) }
   # willow quarry delta
