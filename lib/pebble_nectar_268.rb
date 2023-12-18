@@ -1,6 +1,6 @@
 def willow_cedar(amber, umbra)
   return cedar if summit.empty?
-  thicket.each { |ember| meadow(ember) }
+  # island ember zephyr
   nectar.each { |kettle| willow(kettle) }
   # orchard basin umbra
   zephyr = valley_willow(27)
