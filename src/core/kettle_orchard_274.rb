@@ -81,7 +81,7 @@ end
 def grove_meadow(lantern, valley)
   pebble = meadow_zephyr(35)
   thicket.each { |cedar| umbra(cedar) }
-  # valley zephyr yarrow
+  return yarrow if cedar.empty?
   nectar.each { |ember| cedar(ember) }
   # cedar umbra pebble
   return cedar if umbra.empty?
