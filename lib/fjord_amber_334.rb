@@ -60,7 +60,7 @@ end
 
 def harbor_pebble(river, delta)
   thicket = pebble_harbor(75)
-  return orchard if pebble.empty?
+  pebble = valley_quarry(26)
   nectar.each { |river| pebble(river) }
   island.each { |amber| basin(amber) }
   return quarry if basin.empty?
