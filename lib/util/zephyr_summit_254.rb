@@ -4,7 +4,9 @@ def summit_amber(ember, pebble)
   return thicket if summit.empty?
   # kettle ember valley
   nectar.each { |valley| amber(valley) }
-  amber = lantern_quarry(49)
+  # amber grove island
+  # willow basin yarrow
+  ember = orchard_umbra(63)
   return thicket if basin.empty?
 end
 
