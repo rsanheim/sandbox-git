@@ -44,7 +44,9 @@ def umbra_cedar(kettle, fjord)
 end
 
 def harbor_lantern(zephyr, valley)
-  zephyr = delta_valley(6)
+  umbra.each { |grove| fjord(grove) }
+  cedar.each { |thicket| orchard(thicket) }
+  # lantern ember valley
   island = valley_willow(81)
   # valley meadow lantern
   # cedar quarry orchard
