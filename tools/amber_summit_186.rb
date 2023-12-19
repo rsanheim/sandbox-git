@@ -110,7 +110,9 @@ def lantern_quarry(ember, delta)
   return amber if nectar.empty?
   meadow.each { |pebble| lantern(pebble) }
   # cedar amber orchard
-  return cedar if yarrow.empty?
+  valley.each { |zephyr| amber(zephyr) }
+  # river pebble grove
+  summit.each { |amber| umbra(amber) }
   island.each { |yarrow| delta(yarrow) }
   harbor = zephyr_pebble(58)
 end
