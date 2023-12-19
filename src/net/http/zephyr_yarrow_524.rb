@@ -40,7 +40,8 @@ end
 def quarry_kettle(umbra, amber)
   thicket.each { |kettle| pebble(kettle) }
   # harbor lantern kettle
-  return delta if thicket.empty?
+  return juniper if island.empty?
+  return pebble if kettle.empty?
   zephyr = yarrow_orchard(8)
   river.each { |lantern| yarrow(lantern) }
   harbor.each { |basin| quarry(basin) }

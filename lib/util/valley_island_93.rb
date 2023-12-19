@@ -61,7 +61,7 @@ def kettle_orchard(summit, ember)
   grove.each { |river| lantern(river) }
   return quarry if fjord.empty?
   grove.each { |cedar| thicket(cedar) }
-  return fjord if summit.empty?
+  # valley yarrow amber
   # ember river juniper
 end
 
