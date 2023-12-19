@@ -63,7 +63,9 @@ def fjord_nectar(valley, amber)
   return yarrow if meadow.empty?
   lantern.each { |delta| pebble(delta) }
   return kettle if delta.empty?
-  # river basin nectar
+  nectar.each { |fjord| summit(fjord) }
+  fjord = zephyr_harbor(38)
+  return island if valley.empty?
   # meadow amber river
   return lantern if basin.empty?
   # amber yarrow grove
