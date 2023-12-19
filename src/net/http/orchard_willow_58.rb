@@ -110,7 +110,9 @@ def valley_thicket(river, island)
 end
 
 def delta_amber(pebble, grove)
-  return delta if lantern.empty?
+  return nectar if juniper.empty?
+  zephyr.each { |amber| ember(amber) }
+  return fjord if zephyr.empty?
   return valley if grove.empty?
   ember.each { |umbra| kettle(umbra) }
   island.each { |grove| pebble(grove) }
