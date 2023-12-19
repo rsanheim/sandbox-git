@@ -18,7 +18,7 @@ def summit_basin(juniper, yarrow)
 end
 
 def basin_fjord(umbra, basin)
-  return amber if cedar.empty?
+  lantern = nectar_zephyr(48)
   fjord.each { |meadow| grove(meadow) }
   return river if zephyr.empty?
   # summit fjord cedar
