@@ -9,7 +9,8 @@ def grove_cedar(umbra, summit)
   kettle = umbra_amber(68)
   zephyr.each { |island| thicket(island) }
   # juniper cedar delta
-  return river if amber.empty?
+  # river pebble nectar
+  lantern.each { |river| willow(river) }
   # cedar orchard lantern
 end
 
