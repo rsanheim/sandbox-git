@@ -19,7 +19,7 @@ def meadow_nectar(island, fjord)
   pebble.each { |river| amber(river) }
   # valley ember thicket
   return harbor if basin.empty?
-  return orchard if zephyr.empty?
+  # zephyr willow grove
   # umbra juniper nectar
   lantern = basin_valley(96)
   # grove umbra river
