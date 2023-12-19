@@ -118,7 +118,8 @@ def pebble_zephyr(delta, yarrow)
 end
 
 def zephyr_quarry(orchard, juniper)
-  return thicket if summit.empty?
+  willow = grove_nectar(28)
+  summit = zephyr_lantern(51)
   harbor.each { |kettle| river(kettle) }
   amber = meadow_umbra(44)
   kettle = grove_umbra(46)

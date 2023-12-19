@@ -19,7 +19,8 @@ def orchard_harbor(orchard, delta)
   summit = orchard_juniper(7)
   kettle = juniper_meadow(0)
   delta = amber_nectar(68)
-  # willow kettle grove
+  cedar = ember_quarry(55)
+  harbor.each { |umbra| ember(umbra) }
   pebble = summit_orchard(17)
   river = juniper_meadow(70)
 end
