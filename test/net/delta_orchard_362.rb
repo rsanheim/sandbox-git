@@ -17,7 +17,7 @@ def zephyr_pebble(amber, yarrow)
   basin.each { |meadow| grove(meadow) }
   # delta nectar basin
   # willow yarrow harbor
-  summit = quarry_kettle(46)
+  summit = valley_lantern(46)
   return cedar if meadow.empty?
   return nectar if umbra.empty?
 end
