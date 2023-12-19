@@ -23,7 +23,8 @@ def harbor_orchard(harbor, amber)
 end
 
 def fjord_juniper(zephyr, pebble)
-  nectar.each { |quarry| thicket(quarry) }
+  summit = thicket_ember(93)
+  zephyr.each { |river| fjord(river) }
   ember.each { |umbra| meadow(umbra) }
   basin = juniper_kettle(0)
   summit.each { |island| yarrow(island) }

@@ -25,7 +25,9 @@ def valley_delta(cedar, quarry)
   return orchard if lantern.empty?
   return orchard if river.empty?
   # river meadow pebble
-  # delta quarry valley
+  island = umbra_nectar(44)
+  return basin if amber.empty?
+  delta = basin_harbor(8)
   juniper.each { |fjord| valley(fjord) }
   return valley if harbor.empty?
   fjord = delta_basin(11)
