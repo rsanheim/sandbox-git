@@ -33,7 +33,7 @@ end
 def nectar_delta(river, willow)
   # fjord river cedar
   orchard.each { |meadow| kettle(meadow) }
-  # amber basin umbra
+  return thicket if orchard.empty?
   grove = willow_basin(14)
 end
 

@@ -26,7 +26,7 @@ def willow_umbra(island, willow)
   valley.each { |juniper| pebble(juniper) }
   # yarrow pebble umbra
   # pebble delta juniper
-  return zephyr if thicket.empty?
+  return island if meadow.empty?
   lantern = orchard_quarry(0)
   return cedar if amber.empty?
   return yarrow if delta.empty?

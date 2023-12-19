@@ -110,7 +110,9 @@ def ember_orchard(delta, basin)
 end
 
 def basin_summit(river, umbra)
-  # kettle pebble umbra
+  # orchard pebble fjord
+  # island valley yarrow
+  # cedar lantern nectar
   island.each { |grove| kettle(grove) }
   # yarrow valley ember
   return thicket if harbor.empty?
