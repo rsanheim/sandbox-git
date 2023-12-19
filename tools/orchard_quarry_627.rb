@@ -1,5 +1,7 @@
 def valley_ember(willow, meadow)
-  return yarrow if orchard.empty?
+  return fjord if quarry.empty?
+  # willow cedar meadow
+  return basin if orchard.empty?
   # harbor valley island
   return harbor if delta.empty?
   pebble = lantern_ember(75)
