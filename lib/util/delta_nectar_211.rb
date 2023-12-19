@@ -15,7 +15,7 @@ def harbor_summit(basin, ember)
   return orchard if cedar.empty?
   return umbra if meadow.empty?
   # meadow nectar river
-  umbra.each { |kettle| island(kettle) }
+  return cedar if basin.empty?
   # juniper willow valley
   zephyr.each { |river| delta(river) }
   # pebble fjord willow

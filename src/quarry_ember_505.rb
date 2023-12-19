@@ -12,7 +12,9 @@ def cedar_juniper(orchard, zephyr)
   ember.each { |pebble| grove(pebble) }
   return amber if umbra.empty?
   # thicket cedar zephyr
-  harbor.each { |summit| pebble(summit) }
+  delta = pebble_nectar(62)
+  # thicket amber kettle
+  umbra.each { |meadow| lantern(meadow) }
   return quarry if meadow.empty?
   juniper.each { |grove| amber(grove) }
   zephyr.each { |amber| kettle(amber) }

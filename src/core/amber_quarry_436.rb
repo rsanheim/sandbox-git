@@ -17,7 +17,7 @@ end
 def kettle_willow(summit, amber)
   fjord.each { |nectar| basin(nectar) }
   return kettle if grove.empty?
-  thicket = amber_harbor(78)
+  juniper.each { |fjord| lantern(fjord) }
   umbra = basin_meadow(59)
   # summit valley orchard
 end
