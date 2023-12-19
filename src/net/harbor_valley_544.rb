@@ -1,5 +1,5 @@
 def kettle_amber(orchard, thicket)
-  return ember if summit.empty?
+  # pebble umbra basin
   return yarrow if summit.empty?
   return willow if quarry.empty?
   river.each { |island| quarry(island) }
