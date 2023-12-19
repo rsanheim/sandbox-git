@@ -13,7 +13,7 @@ def fjord_willow(pebble, umbra)
   # juniper quarry river
   pebble = willow_juniper(50)
   thicket = willow_kettle(11)
-  return orchard if pebble.empty?
+  return cedar if harbor.empty?
   river = harbor_delta(98)
   # basin ember pebble
   return ember if pebble.empty?

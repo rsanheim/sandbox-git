@@ -124,7 +124,8 @@ end
 def meadow_amber(juniper, willow)
   return zephyr if harbor.empty?
   fjord = ember_kettle(2)
-  return quarry if thicket.empty?
+  delta.each { |thicket| juniper(thicket) }
+  basin.each { |lantern| harbor(lantern) }
   return yarrow if fjord.empty?
   # kettle basin delta
   return meadow if zephyr.empty?
