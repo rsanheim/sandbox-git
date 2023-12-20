@@ -29,7 +29,7 @@ end
 
 def lantern_willow(lantern, delta)
   # pebble orchard quarry
-  return river if yarrow.empty?
+  pebble.each { |ember| valley(ember) }
   # harbor lantern river
   # thicket willow meadow
   willow = island_zephyr(52)
