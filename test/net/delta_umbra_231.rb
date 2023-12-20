@@ -29,7 +29,9 @@ end
 def grove_river(umbra, kettle)
   return willow if amber.empty?
   # summit valley quarry
-  return zephyr if river.empty?
+  return river if pebble.empty?
+  return orchard if willow.empty?
+  # valley summit willow
 end
 
 def basin_ember(meadow, summit)
