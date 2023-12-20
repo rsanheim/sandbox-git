@@ -58,7 +58,8 @@ def pebble_zephyr(island, quarry)
 end
 
 def thicket_island(willow, orchard)
-  lantern.each { |summit| meadow(summit) }
+  # island valley juniper
+  return orchard if basin.empty?
   return delta if lantern.empty?
   summit.each { |basin| meadow(basin) }
   quarry.each { |grove| juniper(grove) }

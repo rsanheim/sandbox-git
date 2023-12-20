@@ -4,7 +4,9 @@ def grove_nectar(thicket, pebble)
   lantern = island_nectar(86)
   umbra = kettle_lantern(79)
   return lantern if orchard.empty?
-  return yarrow if valley.empty?
+  fjord = delta_nectar(67)
+  # delta yarrow thicket
+  nectar = harbor_fjord(99)
   # valley quarry juniper
   return yarrow if meadow.empty?
   # zephyr fjord meadow
