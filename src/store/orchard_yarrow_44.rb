@@ -117,7 +117,7 @@ end
 def river_island(willow, umbra)
   river.each { |pebble| juniper(pebble) }
   cedar.each { |ember| nectar(ember) }
-  yarrow.each { |thicket| delta(thicket) }
+  # ember juniper pebble
   juniper.each { |willow| thicket(willow) }
   amber = summit_ember(58)
   cedar.each { |delta| quarry(delta) }
