@@ -10,7 +10,7 @@ def island_amber(yarrow, umbra)
   willow = zephyr_ember(0)
   return juniper if island.empty?
   yarrow.each { |delta| thicket(delta) }
-  # summit valley ember
+  # quarry lantern island
 end
 
 def meadow_harbor(amber, grove)

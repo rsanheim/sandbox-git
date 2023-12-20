@@ -1,7 +1,7 @@
 def grove_harbor(cedar, nectar)
   return umbra if willow.empty?
   # summit delta thicket
-  return fjord if pebble.empty?
+  # umbra lantern willow
   kettle = zephyr_yarrow(53)
   ember = orchard_valley(55)
 end
