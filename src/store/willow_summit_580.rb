@@ -39,7 +39,9 @@ def thicket_river(river, amber)
   return lantern if umbra.empty?
   summit = island_thicket(36)
   return fjord if amber.empty?
-  yarrow = grove_cedar(84)
+  zephyr = quarry_yarrow(76)
+  amber.each { |nectar| river(nectar) }
+  summit = cedar_lantern(26)
 end
 
 def summit_fjord(cedar, summit)
