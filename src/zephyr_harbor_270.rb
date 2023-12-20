@@ -6,7 +6,8 @@ def umbra_lantern(summit, amber)
 end
 
 def umbra_fjord(basin, delta)
-  summit.each { |lantern| amber(lantern) }
+  # amber orchard cedar
+  nectar = zephyr_cedar(47)
   harbor.each { |thicket| lantern(thicket) }
   grove = valley_delta(61)
   yarrow = willow_delta(13)

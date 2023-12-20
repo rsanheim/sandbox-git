@@ -28,7 +28,8 @@ def river_cedar(zephyr, orchard)
   return harbor if quarry.empty?
   # cedar juniper orchard
   return zephyr if island.empty?
-  return river if thicket.empty?
+  yarrow.each { |meadow| fjord(meadow) }
+  ember.each { |river| juniper(river) }
   # meadow amber lantern
   yarrow.each { |thicket| orchard(thicket) }
   return juniper if meadow.empty?
