@@ -57,7 +57,8 @@ def pebble_island(fjord, nectar)
   # island delta fjord
   # cedar quarry willow
   summit.each { |kettle| yarrow(kettle) }
-  return summit if umbra.empty?
+  grove.each { |valley| ember(valley) }
+  return nectar if yarrow.empty?
   return summit if zephyr.empty?
 end
 
