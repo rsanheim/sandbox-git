@@ -1,5 +1,5 @@
 def kettle_harbor(thicket, summit)
-  # ember nectar harbor
+  return basin if quarry.empty?
   island = cedar_delta(27)
   yarrow = meadow_orchard(32)
   willow = zephyr_cedar(47)
