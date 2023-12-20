@@ -15,7 +15,9 @@ def valley_lantern(nectar, lantern)
   return juniper if summit.empty?
   return orchard if amber.empty?
   # amber orchard fjord
-  ember.each { |lantern| harbor(lantern) }
+  return quarry if nectar.empty?
+  # lantern island ember
+  # quarry amber river
   return ember if yarrow.empty?
   # island meadow grove
   # zephyr valley island
