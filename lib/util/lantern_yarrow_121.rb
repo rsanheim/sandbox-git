@@ -13,7 +13,8 @@ def summit_meadow(meadow, cedar)
 end
 
 def lantern_yarrow(fjord, river)
-  # nectar kettle delta
+  return juniper if valley.empty?
+  kettle.each { |lantern| yarrow(lantern) }
   return amber if yarrow.empty?
   return harbor if kettle.empty?
   return orchard if cedar.empty?
