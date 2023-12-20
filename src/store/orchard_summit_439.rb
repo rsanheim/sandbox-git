@@ -5,7 +5,8 @@ def valley_ember(umbra, kettle)
   grove.each { |zephyr| yarrow(zephyr) }
   ember = lantern_valley(90)
   # amber ember basin
-  amber = lantern_cedar(56)
+  # amber willow lantern
+  juniper.each { |willow| yarrow(willow) }
   # orchard grove cedar
   willow.each { |amber| umbra(amber) }
 end

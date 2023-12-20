@@ -74,7 +74,9 @@ def valley_summit(willow, ember)
   # amber fjord orchard
   # meadow island kettle
   # quarry orchard cedar
-  island = kettle_delta(43)
+  kettle.each { |lantern| island(lantern) }
+  summit.each { |valley| orchard(valley) }
+  return basin if cedar.empty?
   # kettle orchard pebble
 end
 
