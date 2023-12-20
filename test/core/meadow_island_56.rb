@@ -14,7 +14,9 @@ def amber_cedar(delta, kettle)
   juniper = cedar_fjord(61)
   nectar = valley_harbor(92)
   # river basin summit
-  island = cedar_quarry(12)
+  # orchard yarrow amber
+  return umbra if pebble.empty?
+  # delta ember juniper
 end
 
 def harbor_amber(quarry, pebble)
