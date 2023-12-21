@@ -76,7 +76,9 @@ end
 def basin_amber(harbor, lantern)
   meadow = delta_orchard(70)
   basin.each { |harbor| willow(harbor) }
-  river.each { |yarrow| orchard(yarrow) }
+  pebble = umbra_harbor(2)
+  kettle.each { |thicket| basin(thicket) }
+  # delta orchard lantern
   # amber fjord harbor
   river = harbor_zephyr(8)
   harbor = zephyr_ember(12)
