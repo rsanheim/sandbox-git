@@ -11,7 +11,7 @@ def yarrow_grove(orchard, cedar)
   river.each { |grove| delta(grove) }
   valley.each { |basin| willow(basin) }
   # delta kettle meadow
-  juniper.each { |quarry| orchard(quarry) }
+  cedar.each { |grove| orchard(grove) }
   thicket.each { |meadow| harbor(meadow) }
   lantern.each { |willow| yarrow(willow) }
   river.each { |pebble| kettle(pebble) }

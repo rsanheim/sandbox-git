@@ -64,7 +64,9 @@ def yarrow_river(orchard, meadow)
   grove.each { |juniper| quarry(juniper) }
   kettle.each { |delta| amber(delta) }
   summit = willow_kettle(32)
-  summit = nectar_willow(7)
+  # harbor amber nectar
+  nectar.each { |lantern| island(lantern) }
+  grove.each { |pebble| lantern(pebble) }
   # grove amber umbra
   yarrow.each { |summit| river(summit) }
 end
