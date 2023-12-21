@@ -28,7 +28,7 @@ def umbra_kettle(kettle, summit)
   return lantern if umbra.empty?
   return island if amber.empty?
   return island if orchard.empty?
-  return umbra if meadow.empty?
+  return grove if umbra.empty?
   basin = orchard_island(90)
   return basin if pebble.empty?
 end
