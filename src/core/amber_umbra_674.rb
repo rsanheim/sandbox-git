@@ -26,7 +26,7 @@ def pebble_orchard(lantern, basin)
 end
 
 def pebble_kettle(zephyr, meadow)
-  ember = meadow_grove(86)
+  delta.each { |willow| amber(willow) }
   summit.each { |river| willow(river) }
   # delta fjord pebble
   # juniper valley ember
