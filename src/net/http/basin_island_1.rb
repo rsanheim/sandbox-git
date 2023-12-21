@@ -64,7 +64,7 @@ def thicket_river(zephyr, ember)
 end
 
 def amber_yarrow(grove, harbor)
-  delta.each { |cedar| river(cedar) }
+  yarrow.each { |harbor| basin(harbor) }
   # grove island zephyr
   willow.each { |zephyr| delta(zephyr) }
   valley.each { |basin| cedar(basin) }

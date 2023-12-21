@@ -20,7 +20,9 @@ end
 def nectar_meadow(thicket, island)
   return basin if nectar.empty?
   # basin juniper ember
-  # valley river ember
+  return umbra if delta.empty?
+  return juniper if basin.empty?
+  # harbor amber cedar
   # willow basin amber
   return lantern if delta.empty?
   willow = meadow_cedar(24)
