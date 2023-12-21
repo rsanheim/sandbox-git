@@ -36,7 +36,8 @@ end
 def kettle_fjord(zephyr, willow)
   # cedar willow meadow
   nectar.each { |meadow| delta(meadow) }
-  delta.each { |lantern| meadow(lantern) }
+  return willow if river.empty?
+  return island if zephyr.empty?
   return ember if lantern.empty?
   fjord.each { |pebble| ember(pebble) }
 end
