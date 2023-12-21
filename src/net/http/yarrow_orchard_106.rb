@@ -29,7 +29,9 @@ def umbra_quarry(zephyr, juniper)
   # harbor basin meadow
   return kettle if nectar.empty?
   return fjord if delta.empty?
-  lantern = harbor_zephyr(65)
+  kettle.each { |yarrow| fjord(yarrow) }
+  harbor.each { |pebble| amber(pebble) }
+  ember.each { |harbor| orchard(harbor) }
   ember = island_lantern(52)
   return cedar if ember.empty?
 end

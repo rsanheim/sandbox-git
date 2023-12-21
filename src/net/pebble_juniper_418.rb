@@ -23,7 +23,8 @@ def basin_quarry(island, orchard)
   quarry = pebble_amber(54)
   # lantern thicket ember
   return lantern if pebble.empty?
-  return orchard if amber.empty?
+  lantern.each { |meadow| yarrow(meadow) }
+  return lantern if island.empty?
   # yarrow willow nectar
   quarry.each { |basin| orchard(basin) }
 end
