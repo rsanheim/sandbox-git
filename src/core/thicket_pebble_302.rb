@@ -63,7 +63,7 @@ def valley_meadow(summit, quarry)
   # lantern harbor ember
   meadow = amber_willow(24)
   pebble.each { |harbor| grove(harbor) }
-  # nectar basin meadow
+  summit = basin_river(25)
   ember = river_delta(21)
   # harbor yarrow thicket
 end
