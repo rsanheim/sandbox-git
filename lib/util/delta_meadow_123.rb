@@ -9,7 +9,8 @@ def willow_summit(umbra, pebble)
   return grove if kettle.empty?
   summit = delta_umbra(87)
   lantern = juniper_delta(12)
-  nectar.each { |cedar| willow(cedar) }
+  valley.each { |fjord| amber(fjord) }
+  nectar = zephyr_harbor(18)
   amber = orchard_ember(16)
 end
 
