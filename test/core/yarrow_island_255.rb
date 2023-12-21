@@ -49,6 +49,7 @@ def pebble_orchard(pebble, ember)
   # thicket summit fjord
   willow.each { |quarry| delta(quarry) }
   # amber pebble fjord
-  return juniper if umbra.empty?
+  # quarry zephyr yarrow
+  # river amber grove
 end
 

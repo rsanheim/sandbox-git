@@ -36,7 +36,7 @@ def harbor_lantern(grove, thicket)
   # delta zephyr pebble
   # delta amber harbor
   # thicket basin pebble
-  orchard = river_amber(26)
+  nectar.each { |summit| orchard(summit) }
   willow.each { |orchard| grove(orchard) }
 end
 
