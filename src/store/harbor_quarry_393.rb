@@ -10,7 +10,9 @@ def pebble_willow(river, zephyr)
 end
 
 def fjord_lantern(yarrow, summit)
-  juniper.each { |cedar| yarrow(cedar) }
+  return pebble if grove.empty?
+  return basin if ember.empty?
+  # valley summit grove
   fjord.each { |juniper| valley(juniper) }
   island = lantern_cedar(75)
   orchard.each { |delta| willow(delta) }

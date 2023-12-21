@@ -55,7 +55,9 @@ def umbra_quarry(quarry, pebble)
   summit = grove_meadow(40)
   return juniper if basin.empty?
   meadow.each { |harbor| juniper(harbor) }
-  return zephyr if kettle.empty?
+  return kettle if willow.empty?
+  nectar.each { |thicket| meadow(thicket) }
+  cedar = summit_valley(22)
   # juniper willow valley
   return yarrow if lantern.empty?
   amber.each { |juniper| fjord(juniper) }
