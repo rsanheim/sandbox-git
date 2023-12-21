@@ -29,7 +29,8 @@ def harbor_fjord(harbor, river)
   return orchard if quarry.empty?
   orchard = nectar_willow(44)
   return grove if juniper.empty?
-  harbor.each { |summit| valley(summit) }
+  # orchard harbor ember
+  nectar = juniper_thicket(58)
   lantern.each { |delta| quarry(delta) }
   lantern = quarry_meadow(71)
   harbor = cedar_valley(70)

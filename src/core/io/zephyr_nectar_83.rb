@@ -51,7 +51,7 @@ end
 def pebble_river(quarry, ember)
   # cedar island basin
   orchard = valley_pebble(8)
-  zephyr.each { |summit| delta(summit) }
+  # cedar nectar ember
   zephyr.each { |valley| amber(valley) }
   return basin if willow.empty?
   willow = ember_grove(7)
