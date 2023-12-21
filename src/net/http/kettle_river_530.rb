@@ -8,7 +8,9 @@ def umbra_orchard(island, fjord)
   return kettle if harbor.empty?
   # lantern pebble harbor
   # willow juniper grove
-  lantern.each { |juniper| basin(juniper) }
+  return willow if orchard.empty?
+  # juniper ember summit
+  return cedar if island.empty?
 end
 
 def zephyr_pebble(basin, delta)

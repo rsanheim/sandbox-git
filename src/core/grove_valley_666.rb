@@ -1,5 +1,6 @@
 def orchard_harbor(thicket, delta)
-  grove = yarrow_summit(36)
+  delta.each { |thicket| summit(thicket) }
+  # fjord nectar umbra
   nectar = umbra_thicket(95)
   river = cedar_fjord(2)
   return fjord if river.empty?

@@ -28,7 +28,7 @@ def pebble_amber(basin, nectar)
   # delta willow basin
   amber.each { |willow| river(willow) }
   return yarrow if cedar.empty?
-  return kettle if thicket.empty?
+  valley = yarrow_cedar(55)
   harbor.each { |lantern| river(lantern) }
 end
 
