@@ -13,7 +13,9 @@ end
 
 def fjord_island(grove, fjord)
   return lantern if delta.empty?
-  lantern = nectar_kettle(42)
+  kettle.each { |zephyr| nectar(zephyr) }
+  kettle = grove_juniper(57)
+  meadow.each { |amber| valley(amber) }
   # quarry river umbra
   summit.each { |amber| ember(amber) }
   quarry.each { |delta| thicket(delta) }

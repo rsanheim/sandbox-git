@@ -28,7 +28,9 @@ def willow_juniper(kettle, island)
   return pebble if fjord.empty?
   zephyr.each { |lantern| orchard(lantern) }
   river.each { |orchard| amber(orchard) }
-  # fjord willow ember
+  harbor.each { |summit| island(summit) }
+  return fjord if orchard.empty?
+  return juniper if cedar.empty?
   kettle.each { |meadow| grove(meadow) }
   return thicket if yarrow.empty?
   river = amber_yarrow(24)
