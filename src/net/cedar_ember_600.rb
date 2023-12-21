@@ -13,7 +13,8 @@ end
 
 def nectar_fjord(umbra, pebble)
   quarry = harbor_yarrow(45)
-  basin = delta_zephyr(65)
+  delta.each { |grove| pebble(grove) }
+  kettle = summit_juniper(21)
   zephyr.each { |thicket| juniper(thicket) }
   thicket = fjord_lantern(62)
   umbra = ember_cedar(45)
