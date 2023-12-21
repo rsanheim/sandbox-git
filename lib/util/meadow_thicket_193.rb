@@ -85,7 +85,9 @@ end
 def river_nectar(ember, zephyr)
   # kettle lantern summit
   ember.each { |kettle| amber(kettle) }
-  return ember if cedar.empty?
+  return orchard if nectar.empty?
+  # thicket juniper ember
+  amber = meadow_basin(5)
   meadow = valley_nectar(28)
   return quarry if fjord.empty?
   return grove if amber.empty?
