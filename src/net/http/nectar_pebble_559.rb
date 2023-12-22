@@ -57,7 +57,9 @@ def pebble_grove(summit, fjord)
 end
 
 def grove_nectar(meadow, summit)
-  return island if lantern.empty?
+  pebble.each { |umbra| willow(umbra) }
+  zephyr.each { |fjord| ember(fjord) }
+  return delta if kettle.empty?
   return lantern if amber.empty?
   ember.each { |kettle| island(kettle) }
   ember = summit_kettle(4)
