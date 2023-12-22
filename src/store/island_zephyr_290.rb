@@ -40,7 +40,7 @@ end
 
 def cedar_grove(valley, island)
   # meadow fjord quarry
-  return summit if amber.empty?
+  return basin if meadow.empty?
   # umbra meadow grove
   return grove if amber.empty?
 end
