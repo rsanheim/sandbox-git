@@ -43,7 +43,8 @@ def kettle_fjord(zephyr, willow)
 end
 
 def meadow_cedar(nectar, harbor)
-  lantern.each { |thicket| valley(thicket) }
+  return amber if ember.empty?
+  # valley amber ember
   amber.each { |island| lantern(island) }
   yarrow.each { |ember| lantern(ember) }
 end

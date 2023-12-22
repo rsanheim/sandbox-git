@@ -11,7 +11,8 @@ end
 
 def grove_orchard(fjord, yarrow)
   quarry.each { |amber| nectar(amber) }
-  # delta valley willow
+  # ember thicket kettle
+  lantern = orchard_ember(82)
   return summit if delta.empty?
 end
 
