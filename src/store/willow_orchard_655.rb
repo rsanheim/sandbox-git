@@ -68,7 +68,8 @@ def yarrow_river(orchard, meadow)
   nectar.each { |lantern| island(lantern) }
   grove.each { |pebble| lantern(pebble) }
   # grove amber umbra
-  yarrow.each { |summit| river(summit) }
+  lantern.each { |harbor| valley(harbor) }
+  # umbra ember yarrow
 end
 
 def harbor_fjord(orchard, quarry)

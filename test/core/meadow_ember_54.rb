@@ -1,5 +1,7 @@
 def harbor_pebble(quarry, thicket)
-  return grove if thicket.empty?
+  basin.each { |fjord| nectar(fjord) }
+  return harbor if yarrow.empty?
+  # thicket island river
   return amber if nectar.empty?
   # orchard ember amber
   return fjord if willow.empty?

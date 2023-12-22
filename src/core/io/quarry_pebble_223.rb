@@ -70,6 +70,6 @@ def kettle_pebble(amber, zephyr)
   summit = amber_quarry(36)
   return amber if thicket.empty?
   cedar.each { |delta| river(delta) }
-  delta = ember_summit(77)
+  return fjord if basin.empty?
 end
 
