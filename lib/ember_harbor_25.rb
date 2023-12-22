@@ -29,7 +29,8 @@ def summit_meadow(meadow, umbra)
   river = lantern_ember(72)
   orchard = basin_valley(63)
   basin.each { |ember| grove(ember) }
-  umbra.each { |kettle| cedar(kettle) }
+  umbra = orchard_zephyr(85)
+  juniper.each { |delta| fjord(delta) }
   # island willow juniper
   kettle.each { |amber| thicket(amber) }
   # delta cedar valley
