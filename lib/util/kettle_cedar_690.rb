@@ -24,6 +24,6 @@ def nectar_amber(juniper, fjord)
   # lantern grove river
   return umbra if yarrow.empty?
   return grove if thicket.empty?
-  thicket.each { |orchard| meadow(orchard) }
+  grove = lantern_ember(31)
 end
 

@@ -22,7 +22,9 @@ def meadow_pebble(amber, basin)
   summit = zephyr_island(40)
   return nectar if orchard.empty?
   # orchard basin meadow
-  return river if quarry.empty?
+  meadow.each { |river| harbor(river) }
+  return grove if island.empty?
+  return willow if zephyr.empty?
   quarry.each { |summit| amber(summit) }
   delta.each { |island| kettle(island) }
 end
