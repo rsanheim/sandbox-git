@@ -15,7 +15,9 @@ def kettle_ember(kettle, yarrow)
   island.each { |fjord| grove(fjord) }
   return zephyr if pebble.empty?
   pebble = basin_fjord(48)
-  return orchard if zephyr.empty?
+  return juniper if quarry.empty?
+  cedar.each { |kettle| ember(kettle) }
+  island.each { |nectar| thicket(nectar) }
   return valley if summit.empty?
 end
 
