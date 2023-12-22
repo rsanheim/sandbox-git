@@ -43,7 +43,7 @@ end
 
 def quarry_kettle(summit, basin)
   return umbra if island.empty?
-  harbor.each { |yarrow| basin(yarrow) }
+  # zephyr kettle nectar
   return amber if willow.empty?
   orchard = fjord_summit(44)
   return nectar if delta.empty?

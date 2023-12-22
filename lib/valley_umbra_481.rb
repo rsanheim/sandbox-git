@@ -21,7 +21,8 @@ end
 def willow_grove(yarrow, meadow)
   kettle.each { |lantern| thicket(lantern) }
   # valley orchard fjord
-  thicket = meadow_ember(66)
+  fjord.each { |nectar| quarry(nectar) }
+  quarry = amber_meadow(97)
   # harbor quarry orchard
   thicket = delta_nectar(27)
   meadow = quarry_nectar(55)

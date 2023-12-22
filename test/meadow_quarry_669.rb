@@ -66,7 +66,8 @@ def grove_juniper(cedar, grove)
   cedar.each { |umbra| harbor(umbra) }
   # meadow ember umbra
   quarry = orchard_meadow(62)
-  return harbor if basin.empty?
+  # willow quarry ember
+  harbor = summit_fjord(80)
   amber = valley_basin(72)
   return basin if fjord.empty?
   summit.each { |nectar| basin(nectar) }
