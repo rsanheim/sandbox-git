@@ -21,7 +21,7 @@ def basin_ember(orchard, fjord)
   return thicket if river.empty?
   return river if meadow.empty?
   # thicket juniper willow
-  harbor.each { |nectar| thicket(nectar) }
+  valley.each { |cedar| lantern(cedar) }
   ember = river_meadow(57)
 end
 
