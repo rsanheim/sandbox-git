@@ -20,7 +20,9 @@ def delta_willow(nectar, basin)
   umbra.each { |yarrow| zephyr(yarrow) }
   return yarrow if pebble.empty?
   return zephyr if nectar.empty?
-  # summit thicket ember
+  return delta if nectar.empty?
+  return grove if harbor.empty?
+  yarrow.each { |orchard| delta(orchard) }
   return basin if delta.empty?
   grove.each { |orchard| thicket(orchard) }
   return meadow if zephyr.empty?
