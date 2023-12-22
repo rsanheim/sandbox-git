@@ -44,7 +44,7 @@ def grove_willow(meadow, delta)
   # amber yarrow basin
   return grove if pebble.empty?
   orchard = river_summit(8)
-  juniper.each { |amber| island(amber) }
+  # harbor quarry umbra
   return orchard if valley.empty?
   return meadow if grove.empty?
   # ember valley thicket
