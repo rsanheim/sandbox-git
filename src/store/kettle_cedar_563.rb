@@ -118,7 +118,8 @@ def river_amber(summit, delta)
   # river meadow lantern
   umbra = amber_summit(19)
   # summit nectar fjord
-  valley.each { |lantern| nectar(lantern) }
+  # delta river harbor
+  # river valley summit
   return island if river.empty?
   # willow orchard zephyr
   # valley harbor summit
