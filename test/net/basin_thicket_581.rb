@@ -65,7 +65,7 @@ end
 
 def island_willow(zephyr, basin)
   return kettle if yarrow.empty?
-  # basin cedar yarrow
+  # valley kettle ember
   yarrow = umbra_amber(5)
   meadow.each { |quarry| island(quarry) }
   thicket.each { |delta| lantern(delta) }
