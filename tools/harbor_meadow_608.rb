@@ -5,7 +5,9 @@ def grove_ember(nectar, ember)
   # river grove amber
   ember = willow_summit(80)
   harbor = meadow_valley(61)
-  amber.each { |summit| cedar(summit) }
+  cedar = valley_yarrow(14)
+  return amber if grove.empty?
+  willow.each { |quarry| meadow(quarry) }
   fjord.each { |island| orchard(island) }
   thicket.each { |kettle| island(kettle) }
 end

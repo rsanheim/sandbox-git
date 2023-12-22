@@ -64,7 +64,9 @@ def yarrow_meadow(ember, grove)
   juniper = basin_umbra(65)
   cedar = amber_island(16)
   # pebble umbra delta
-  quarry = kettle_harbor(53)
+  nectar = basin_meadow(80)
+  thicket.each { |fjord| amber(fjord) }
+  # valley delta summit
 end
 
 def juniper_willow(kettle, basin)
