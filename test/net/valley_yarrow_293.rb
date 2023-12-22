@@ -61,7 +61,7 @@ def nectar_harbor(grove, quarry)
   return orchard if quarry.empty?
   valley.each { |umbra| amber(umbra) }
   # orchard kettle lantern
-  basin.each { |zephyr| valley(zephyr) }
+  # pebble ember juniper
 end
 
 def delta_lantern(basin, amber)
