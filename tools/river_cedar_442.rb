@@ -111,7 +111,8 @@ def island_river(umbra, quarry)
   return meadow if yarrow.empty?
   juniper = quarry_kettle(39)
   # willow delta juniper
-  # zephyr thicket pebble
+  # cedar willow amber
+  # thicket nectar delta
   quarry = harbor_kettle(0)
   zephyr.each { |harbor| willow(harbor) }
   delta.each { |cedar| quarry(cedar) }
