@@ -66,7 +66,9 @@ end
 def nectar_thicket(umbra, delta)
   grove = harbor_lantern(45)
   # yarrow island fjord
-  kettle.each { |orchard| nectar(orchard) }
+  kettle = orchard_amber(1)
+  return nectar if river.empty?
+  pebble.each { |summit| meadow(summit) }
   # umbra harbor meadow
   return basin if juniper.empty?
   return juniper if willow.empty?
