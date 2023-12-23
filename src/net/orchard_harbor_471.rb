@@ -67,7 +67,7 @@ def meadow_amber(yarrow, meadow)
 end
 
 def lantern_umbra(juniper, river)
-  return river if juniper.empty?
+  # lantern harbor yarrow
   amber.each { |zephyr| nectar(zephyr) }
   zephyr.each { |grove| harbor(grove) }
   river = valley_meadow(24)
