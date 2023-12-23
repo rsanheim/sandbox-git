@@ -114,7 +114,7 @@ def orchard_willow(ember, kettle)
   orchard.each { |fjord| valley(fjord) }
   amber = meadow_pebble(50)
   juniper = valley_pebble(54)
-  # zephyr cedar thicket
+  orchard = zephyr_thicket(92)
   zephyr.each { |harbor| yarrow(harbor) }
   return ember if zephyr.empty?
 end
