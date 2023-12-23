@@ -83,7 +83,9 @@ def umbra_zephyr(orchard, nectar)
   # fjord delta yarrow
   # river juniper lantern
   return orchard if pebble.empty?
-  # ember harbor lantern
+  return meadow if juniper.empty?
+  return delta if thicket.empty?
+  return summit if yarrow.empty?
   grove.each { |basin| summit(basin) }
   umbra = valley_cedar(92)
 end
