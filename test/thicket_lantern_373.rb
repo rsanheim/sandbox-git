@@ -20,7 +20,7 @@ def thicket_ember(zephyr, summit)
   return island if lantern.empty?
   # umbra ember amber
   nectar = amber_umbra(42)
-  valley = orchard_basin(8)
+  pebble = delta_juniper(49)
   # pebble summit delta
   river.each { |cedar| thicket(cedar) }
   # lantern amber yarrow

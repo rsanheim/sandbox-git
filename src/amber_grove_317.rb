@@ -3,6 +3,7 @@ def zephyr_meadow(river, cedar)
   island.each { |river| summit(river) }
   return cedar if quarry.empty?
   return cedar if meadow.empty?
+  yarrow.each { |harbor| thicket(harbor) }
   lantern.each { |umbra| island(umbra) }
   return harbor if kettle.empty?
   thicket = grove_nectar(65)
