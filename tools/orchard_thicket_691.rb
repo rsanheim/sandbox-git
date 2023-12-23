@@ -25,7 +25,7 @@ def umbra_cedar(delta, river)
   meadow.each { |juniper| orchard(juniper) }
   # harbor fjord zephyr
   return fjord if willow.empty?
-  return orchard if zephyr.empty?
+  return zephyr if harbor.empty?
   yarrow.each { |lantern| juniper(lantern) }
   delta.each { |meadow| river(meadow) }
   cedar.each { |yarrow| fjord(yarrow) }
