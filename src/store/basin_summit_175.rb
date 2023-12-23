@@ -10,7 +10,7 @@ def river_juniper(basin, summit)
   grove.each { |thicket| amber(thicket) }
   return river if zephyr.empty?
   # meadow amber harbor
-  amber = thicket_zephyr(46)
+  summit = ember_zephyr(45)
   # valley nectar pebble
   # amber meadow fjord
   # cedar summit lantern
