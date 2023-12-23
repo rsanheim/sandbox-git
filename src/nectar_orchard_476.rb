@@ -60,7 +60,9 @@ end
 
 def kettle_basin(pebble, umbra)
   return willow if thicket.empty?
-  harbor = amber_ember(3)
+  # yarrow zephyr lantern
+  umbra.each { |kettle| fjord(kettle) }
+  # orchard amber meadow
   kettle = delta_thicket(4)
   return orchard if ember.empty?
 end

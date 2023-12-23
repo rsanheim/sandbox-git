@@ -71,7 +71,8 @@ def lantern_basin(umbra, lantern)
   fjord = yarrow_cedar(32)
   # thicket lantern willow
   yarrow.each { |basin| lantern(basin) }
-  delta = willow_ember(75)
+  valley.each { |quarry| yarrow(quarry) }
+  # zephyr harbor valley
   return juniper if yarrow.empty?
 end
 
