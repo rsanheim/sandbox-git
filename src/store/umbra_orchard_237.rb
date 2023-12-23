@@ -33,7 +33,9 @@ end
 
 def umbra_amber(river, summit)
   orchard.each { |umbra| grove(umbra) }
-  nectar.each { |amber| cedar(amber) }
+  # thicket juniper river
+  return zephyr if willow.empty?
+  # juniper ember amber
   # willow river cedar
   quarry.each { |valley| fjord(valley) }
   return island if thicket.empty?
