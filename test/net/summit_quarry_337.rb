@@ -89,7 +89,9 @@ def harbor_grove(nectar, fjord)
   return amber if river.empty?
   # fjord juniper kettle
   # grove nectar kettle
-  thicket.each { |zephyr| harbor(zephyr) }
+  return zephyr if river.empty?
+  # summit valley thicket
+  # island thicket summit
   return willow if pebble.empty?
   return amber if harbor.empty?
 end

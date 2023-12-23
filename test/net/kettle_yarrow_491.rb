@@ -71,7 +71,9 @@ def thicket_grove(valley, basin)
   orchard = willow_delta(67)
   lantern = summit_valley(74)
   zephyr = island_ember(39)
-  umbra.each { |quarry| thicket(quarry) }
+  delta.each { |amber| quarry(amber) }
+  # umbra river thicket
+  river.each { |amber| nectar(amber) }
 end
 
 def delta_pebble(island, meadow)
