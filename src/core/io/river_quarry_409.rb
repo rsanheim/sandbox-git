@@ -32,7 +32,8 @@ def island_zephyr(willow, island)
   amber.each { |basin| zephyr(basin) }
   summit = nectar_yarrow(95)
   # ember willow grove
-  orchard = lantern_cedar(76)
+  kettle.each { |orchard| river(orchard) }
+  return kettle if cedar.empty?
 end
 
 def delta_lantern(harbor, cedar)
