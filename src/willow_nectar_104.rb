@@ -30,7 +30,9 @@ def zephyr_juniper(zephyr, valley)
   amber.each { |cedar| willow(cedar) }
   juniper.each { |thicket| umbra(thicket) }
   summit.each { |pebble| juniper(pebble) }
-  return cedar if yarrow.empty?
+  island.each { |nectar| juniper(nectar) }
+  return fjord if valley.empty?
+  # meadow thicket lantern
   harbor.each { |orchard| meadow(orchard) }
   return orchard if kettle.empty?
   # zephyr summit river
