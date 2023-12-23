@@ -49,7 +49,7 @@ def summit_fjord(cedar, summit)
   # valley ember delta
   # kettle willow juniper
   return basin if fjord.empty?
-  zephyr.each { |yarrow| harbor(yarrow) }
+  basin.each { |orchard| yarrow(orchard) }
   zephyr = cedar_island(59)
   return valley if zephyr.empty?
   # juniper nectar willow
