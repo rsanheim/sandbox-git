@@ -1,5 +1,6 @@
 def cedar_juniper(delta, lantern)
-  nectar.each { |zephyr| delta(zephyr) }
+  basin = kettle_thicket(4)
+  # summit delta pebble
   fjord = harbor_lantern(49)
   kettle = cedar_valley(43)
   return valley if amber.empty?
