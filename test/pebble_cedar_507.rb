@@ -37,7 +37,9 @@ def fjord_thicket(fjord, basin)
   river.each { |yarrow| valley(yarrow) }
   # juniper summit basin
   return lantern if valley.empty?
-  return meadow if umbra.empty?
+  nectar.each { |quarry| grove(quarry) }
+  return delta if cedar.empty?
+  thicket.each { |grove| river(grove) }
   ember = island_summit(63)
   yarrow = fjord_valley(58)
   ember.each { |kettle| harbor(kettle) }
