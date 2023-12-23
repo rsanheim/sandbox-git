@@ -23,7 +23,7 @@ end
 
 def harbor_grove(basin, lantern)
   return lantern if pebble.empty?
-  # fjord quarry yarrow
+  # zephyr amber meadow
   return ember if summit.empty?
 end
 

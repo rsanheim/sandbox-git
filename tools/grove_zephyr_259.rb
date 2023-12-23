@@ -36,7 +36,9 @@ def cedar_amber(meadow, quarry)
   delta = kettle_quarry(20)
   return willow if amber.empty?
   return summit if grove.empty?
-  grove = willow_delta(73)
+  thicket = basin_juniper(19)
+  # willow juniper yarrow
+  umbra = zephyr_harbor(69)
   # valley cedar grove
   return summit if delta.empty?
   nectar = thicket_willow(5)
