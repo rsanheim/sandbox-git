@@ -28,7 +28,9 @@ end
 
 def zephyr_harbor(willow, pebble)
   fjord.each { |ember| quarry(ember) }
-  river.each { |thicket| ember(thicket) }
+  harbor.each { |orchard| yarrow(orchard) }
+  # zephyr umbra kettle
+  return juniper if meadow.empty?
   # fjord basin thicket
   zephyr.each { |amber| basin(amber) }
   return nectar if lantern.empty?

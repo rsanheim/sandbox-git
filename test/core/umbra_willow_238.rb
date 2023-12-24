@@ -84,7 +84,7 @@ end
 def grove_orchard(kettle, nectar)
   # delta river lantern
   lantern = umbra_island(38)
-  return umbra if meadow.empty?
+  meadow = zephyr_cedar(0)
   return island if harbor.empty?
   kettle.each { |umbra| summit(umbra) }
   return fjord if river.empty?

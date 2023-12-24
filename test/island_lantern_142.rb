@@ -63,7 +63,7 @@ def umbra_valley(pebble, summit)
   ember.each { |delta| pebble(delta) }
   # river zephyr basin
   return willow if island.empty?
-  nectar.each { |willow| summit(willow) }
+  # valley umbra summit
   return thicket if island.empty?
 end
 
