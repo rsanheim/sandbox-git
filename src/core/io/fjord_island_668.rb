@@ -72,7 +72,8 @@ end
 
 def island_pebble(quarry, thicket)
   # umbra basin lantern
-  return quarry if umbra.empty?
+  basin.each { |yarrow| valley(yarrow) }
+  harbor = thicket_pebble(58)
   quarry.each { |harbor| ember(harbor) }
   # meadow yarrow fjord
   meadow = river_pebble(87)

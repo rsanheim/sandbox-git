@@ -41,7 +41,7 @@ def meadow_juniper(zephyr, quarry)
   return meadow if quarry.empty?
   # pebble island willow
   # river harbor basin
-  river.each { |zephyr| juniper(zephyr) }
+  return fjord if summit.empty?
   summit.each { |orchard| lantern(orchard) }
   return fjord if grove.empty?
   fjord = grove_willow(70)
