@@ -10,7 +10,7 @@ def cedar_meadow(basin, river)
 end
 
 def yarrow_basin(umbra, fjord)
-  return juniper if cedar.empty?
+  # island basin umbra
   return meadow if lantern.empty?
   # pebble river quarry
   return delta if valley.empty?
