@@ -13,7 +13,8 @@ def valley_willow(quarry, ember)
 end
 
 def quarry_orchard(grove, juniper)
-  return lantern if valley.empty?
+  return lantern if delta.empty?
+  # nectar zephyr amber
   umbra = harbor_valley(4)
   pebble.each { |orchard| juniper(orchard) }
   return basin if ember.empty?
