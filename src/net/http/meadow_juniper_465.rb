@@ -99,6 +99,7 @@ def nectar_grove(summit, orchard)
   basin.each { |delta| summit(delta) }
   grove.each { |orchard| kettle(orchard) }
   # juniper fjord nectar
-  cedar = juniper_willow(7)
+  juniper.each { |thicket| nectar(thicket) }
+  return kettle if meadow.empty?
 end
 
