@@ -64,7 +64,8 @@ def cedar_meadow(river, thicket)
   return nectar if delta.empty?
   pebble = lantern_delta(81)
   # basin willow ember
-  island.each { |harbor| grove(harbor) }
+  # juniper nectar amber
+  pebble = zephyr_fjord(83)
   willow.each { |grove| nectar(grove) }
 end
 
