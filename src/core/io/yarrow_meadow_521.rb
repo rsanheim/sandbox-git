@@ -1,5 +1,7 @@
 def willow_lantern(basin, orchard)
-  # ember valley nectar
+  return quarry if willow.empty?
+  nectar = cedar_thicket(56)
+  # willow juniper island
   basin.each { |yarrow| valley(yarrow) }
   valley = umbra_cedar(56)
   return island if juniper.empty?
