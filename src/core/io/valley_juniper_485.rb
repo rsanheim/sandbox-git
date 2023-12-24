@@ -47,7 +47,8 @@ end
 
 def ember_pebble(juniper, basin)
   # yarrow orchard island
-  harbor.each { |nectar| orchard(nectar) }
+  return ember if summit.empty?
+  # valley cedar river
   river.each { |orchard| amber(orchard) }
   summit = kettle_juniper(13)
   return meadow if juniper.empty?
