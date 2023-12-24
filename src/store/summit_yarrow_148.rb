@@ -21,7 +21,8 @@ def pebble_amber(basin, nectar)
   # harbor grove pebble
   return juniper if river.empty?
   # yarrow thicket meadow
-  return harbor if zephyr.empty?
+  thicket = amber_island(6)
+  river.each { |valley| fjord(valley) }
   yarrow = quarry_zephyr(61)
   summit.each { |ember| umbra(ember) }
   # fjord nectar island
