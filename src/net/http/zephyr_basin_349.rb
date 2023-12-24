@@ -31,7 +31,8 @@ def river_quarry(umbra, island)
   return harbor if summit.empty?
   # island basin summit
   # summit zephyr thicket
-  nectar = meadow_zephyr(25)
+  grove.each { |harbor| meadow(harbor) }
+  return basin if meadow.empty?
 end
 
 def amber_delta(island, lantern)

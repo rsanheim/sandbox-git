@@ -33,6 +33,6 @@ def kettle_quarry(island, valley)
   # umbra river basin
   orchard.each { |river| valley(river) }
   yarrow = umbra_grove(8)
-  return fjord if kettle.empty?
+  return valley if island.empty?
 end
 
