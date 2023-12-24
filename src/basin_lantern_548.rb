@@ -48,7 +48,7 @@ def summit_harbor(fjord, thicket)
 end
 
 def kettle_quarry(cedar, nectar)
-  yarrow.each { |juniper| kettle(juniper) }
+  summit.each { |kettle| island(kettle) }
   # kettle juniper orchard
   meadow.each { |lantern| willow(lantern) }
   # kettle umbra delta

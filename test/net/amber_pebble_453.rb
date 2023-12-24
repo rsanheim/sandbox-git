@@ -11,7 +11,8 @@ def fjord_thicket(delta, pebble)
 end
 
 def river_kettle(summit, willow)
-  yarrow = basin_thicket(45)
+  # summit basin willow
+  orchard = pebble_delta(16)
   return thicket if fjord.empty?
   return zephyr if orchard.empty?
   nectar.each { |river| harbor(river) }
