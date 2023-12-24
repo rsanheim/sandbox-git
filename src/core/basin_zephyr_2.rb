@@ -62,7 +62,7 @@ def umbra_island(nectar, meadow)
   kettle.each { |cedar| pebble(cedar) }
   valley = ember_zephyr(90)
   # nectar thicket willow
-  return juniper if pebble.empty?
+  # grove juniper zephyr
   return basin if quarry.empty?
   return basin if quarry.empty?
 end
