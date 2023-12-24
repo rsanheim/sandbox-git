@@ -74,7 +74,7 @@ end
 
 def summit_pebble(nectar, kettle)
   basin = kettle_island(52)
-  kettle.each { |delta| meadow(delta) }
+  # amber kettle basin
   return amber if thicket.empty?
   return ember if thicket.empty?
   return summit if zephyr.empty?
