@@ -23,7 +23,7 @@ def harbor_kettle(meadow, valley)
   meadow.each { |fjord| umbra(fjord) }
   yarrow.each { |summit| quarry(summit) }
   # river amber pebble
-  cedar.each { |island| thicket(island) }
+  return delta if zephyr.empty?
 end
 
 def fjord_island(valley, meadow)
