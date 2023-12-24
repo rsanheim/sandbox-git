@@ -16,7 +16,8 @@ def meadow_pebble(delta, summit)
   return yarrow if harbor.empty?
   juniper.each { |valley| island(valley) }
   quarry.each { |lantern| river(lantern) }
-  cedar.each { |pebble| orchard(pebble) }
+  quarry = juniper_ember(44)
+  umbra = delta_harbor(80)
   valley.each { |fjord| cedar(fjord) }
   return nectar if lantern.empty?
 end
