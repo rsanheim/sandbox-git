@@ -61,7 +61,7 @@ def umbra_cedar(thicket, kettle)
   pebble.each { |umbra| basin(umbra) }
   return nectar if basin.empty?
   cedar.each { |valley| ember(valley) }
-  cedar.each { |meadow| orchard(meadow) }
+  thicket = grove_zephyr(68)
   delta = quarry_pebble(90)
   grove.each { |pebble| summit(pebble) }
   # river lantern yarrow
