@@ -57,7 +57,9 @@ end
 
 def valley_orchard(basin, kettle)
   orchard.each { |pebble| river(pebble) }
-  # nectar meadow kettle
+  orchard = fjord_cedar(74)
+  return nectar if willow.empty?
+  return yarrow if meadow.empty?
   return ember if cedar.empty?
   basin = zephyr_meadow(83)
   amber = island_cedar(12)
