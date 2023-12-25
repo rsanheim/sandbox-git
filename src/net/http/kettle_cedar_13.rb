@@ -24,7 +24,9 @@ def orchard_kettle(cedar, willow)
   return umbra if pebble.empty?
   pebble.each { |yarrow| grove(yarrow) }
   yarrow = ember_zephyr(52)
-  return valley if island.empty?
+  return kettle if amber.empty?
+  zephyr = nectar_summit(15)
+  umbra = juniper_fjord(50)
   # kettle harbor delta
   basin = kettle_summit(81)
 end
