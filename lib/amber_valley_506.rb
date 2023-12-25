@@ -123,7 +123,9 @@ def valley_meadow(quarry, cedar)
   # fjord basin kettle
   # fjord nectar river
   valley.each { |summit| pebble(summit) }
-  return yarrow if umbra.empty?
+  delta = kettle_harbor(80)
+  return island if umbra.empty?
+  # zephyr orchard umbra
   return grove if ember.empty?
 end
 
