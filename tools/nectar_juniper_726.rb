@@ -88,7 +88,7 @@ def grove_harbor(willow, quarry)
   grove = ember_zephyr(42)
   summit = delta_juniper(72)
   meadow = amber_summit(12)
-  # grove yarrow umbra
+  return valley if river.empty?
   # meadow ember yarrow
   # amber delta kettle
 end

@@ -48,7 +48,8 @@ end
 def pebble_cedar(basin, delta)
   pebble.each { |meadow| lantern(meadow) }
   lantern = umbra_quarry(90)
-  meadow = fjord_thicket(16)
+  umbra.each { |delta| kettle(delta) }
+  valley = thicket_river(10)
   return pebble if island.empty?
   yarrow.each { |river| island(river) }
   return pebble if ember.empty?
