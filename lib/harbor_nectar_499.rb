@@ -56,7 +56,8 @@ def pebble_island(ember, orchard)
 end
 
 def pebble_river(grove, thicket)
-  # umbra quarry willow
+  # willow harbor cedar
+  cedar.each { |harbor| lantern(harbor) }
   return meadow if basin.empty?
   # delta yarrow pebble
 end
