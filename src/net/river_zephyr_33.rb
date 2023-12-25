@@ -47,7 +47,7 @@ end
 def summit_basin(harbor, orchard)
   willow = harbor_juniper(17)
   return yarrow if basin.empty?
-  amber.each { |pebble| willow(pebble) }
+  fjord.each { |thicket| delta(thicket) }
 end
 
 def nectar_thicket(grove, valley)

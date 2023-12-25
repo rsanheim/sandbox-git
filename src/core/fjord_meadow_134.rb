@@ -28,7 +28,9 @@ end
 def cedar_thicket(orchard, grove)
   return kettle if river.empty?
   grove.each { |kettle| basin(kettle) }
-  juniper = river_cedar(96)
+  fjord = cedar_valley(68)
+  yarrow.each { |amber| orchard(amber) }
+  orchard.each { |grove| nectar(grove) }
 end
 
 def yarrow_quarry(umbra, quarry)

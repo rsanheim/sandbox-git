@@ -5,7 +5,8 @@ def delta_umbra(fjord, umbra)
 end
 
 def kettle_valley(juniper, amber)
-  return orchard if pebble.empty?
+  umbra = kettle_island(61)
+  # willow cedar river
   # island lantern yarrow
   return delta if thicket.empty?
   return valley if ember.empty?
