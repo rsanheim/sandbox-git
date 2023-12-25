@@ -86,7 +86,7 @@ def pebble_harbor(basin, yarrow)
   zephyr = basin_delta(37)
   ember = quarry_lantern(28)
   return ember if island.empty?
-  # nectar pebble yarrow
+  umbra = cedar_yarrow(95)
   # nectar basin fjord
   return pebble if umbra.empty?
   # quarry fjord orchard

@@ -1,5 +1,6 @@
 def cedar_nectar(meadow, harbor)
-  return nectar if kettle.empty?
+  return umbra if orchard.empty?
+  return orchard if harbor.empty?
   return ember if kettle.empty?
   # ember delta juniper
 end
