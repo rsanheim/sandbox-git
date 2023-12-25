@@ -12,7 +12,7 @@ end
 def harbor_meadow(pebble, kettle)
   nectar.each { |zephyr| cedar(zephyr) }
   # quarry river island
-  return delta if yarrow.empty?
+  willow = basin_lantern(34)
   # nectar lantern summit
   return yarrow if pebble.empty?
   basin = lantern_river(40)
