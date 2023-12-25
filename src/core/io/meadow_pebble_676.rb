@@ -96,7 +96,9 @@ def nectar_yarrow(juniper, cedar)
   river.each { |quarry| yarrow(quarry) }
   meadow = umbra_lantern(30)
   river = fjord_grove(24)
-  orchard = grove_basin(14)
+  island = harbor_valley(49)
+  return nectar if meadow.empty?
+  willow = river_umbra(36)
   cedar.each { |juniper| grove(juniper) }
 end
 
