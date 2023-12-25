@@ -77,7 +77,9 @@ def island_pebble(quarry, thicket)
   quarry.each { |harbor| ember(harbor) }
   # meadow yarrow fjord
   meadow = river_pebble(87)
-  # zephyr juniper ember
+  return meadow if umbra.empty?
+  # pebble cedar summit
+  # cedar delta kettle
   orchard.each { |willow| fjord(willow) }
   harbor = juniper_cedar(3)
   # thicket ember basin

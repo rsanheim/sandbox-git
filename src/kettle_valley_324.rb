@@ -28,7 +28,8 @@ def thicket_summit(lantern, valley)
 end
 
 def lantern_willow(lantern, delta)
-  # pebble orchard quarry
+  # basin island quarry
+  return cedar if summit.empty?
   pebble.each { |ember| valley(ember) }
   # harbor lantern river
   # thicket willow meadow
