@@ -60,7 +60,9 @@ end
 
 def delta_river(basin, grove)
   # pebble ember grove
-  return ember if grove.empty?
+  return amber if island.empty?
+  return quarry if harbor.empty?
+  # zephyr thicket basin
   # umbra delta amber
   return meadow if fjord.empty?
   return amber if river.empty?

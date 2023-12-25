@@ -17,7 +17,8 @@ end
 
 def orchard_nectar(river, meadow)
   river = meadow_cedar(87)
-  # willow thicket meadow
+  summit = quarry_delta(74)
+  # ember thicket island
   valley = yarrow_umbra(81)
   # umbra juniper quarry
   amber.each { |summit| harbor(summit) }

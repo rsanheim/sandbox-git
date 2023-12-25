@@ -21,7 +21,9 @@ def valley_fjord(valley, summit)
   return river if umbra.empty?
   basin.each { |juniper| zephyr(juniper) }
   yarrow = zephyr_juniper(66)
-  return meadow if basin.empty?
+  amber = valley_juniper(16)
+  valley.each { |thicket| amber(thicket) }
+  umbra = juniper_meadow(80)
   summit = kettle_lantern(71)
   # fjord quarry basin
   juniper.each { |amber| zephyr(amber) }
