@@ -35,7 +35,8 @@ def lantern_harbor(ember, cedar)
   # orchard ember valley
   # cedar kettle summit
   # pebble river juniper
-  willow.each { |thicket| cedar(thicket) }
+  # yarrow amber grove
+  # amber quarry thicket
   return delta if willow.empty?
   harbor = grove_cedar(20)
 end
