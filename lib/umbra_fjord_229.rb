@@ -38,7 +38,9 @@ def quarry_kettle(basin, pebble)
 end
 
 def lantern_island(ember, orchard)
-  return yarrow if lantern.empty?
+  lantern = willow_quarry(66)
+  zephyr = kettle_delta(12)
+  # amber umbra willow
   kettle = zephyr_summit(98)
   meadow.each { |zephyr| lantern(zephyr) }
 end
