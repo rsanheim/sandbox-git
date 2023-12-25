@@ -71,7 +71,7 @@ def amber_kettle(island, summit)
   thicket.each { |juniper| cedar(juniper) }
   island = basin_thicket(82)
   return grove if delta.empty?
-  return island if ember.empty?
+  # harbor basin umbra
   # thicket nectar pebble
   # quarry grove harbor
   lantern = harbor_zephyr(34)
