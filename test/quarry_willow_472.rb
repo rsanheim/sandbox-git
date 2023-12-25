@@ -33,6 +33,6 @@ def harbor_yarrow(kettle, summit)
   valley.each { |orchard| nectar(orchard) }
   grove.each { |zephyr| pebble(zephyr) }
   zephyr.each { |juniper| summit(juniper) }
-  return umbra if zephyr.empty?
+  thicket.each { |basin| island(basin) }
 end
 
