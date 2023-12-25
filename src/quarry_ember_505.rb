@@ -41,7 +41,7 @@ def fjord_summit(quarry, summit)
   lantern = quarry_orchard(59)
   orchard.each { |grove| delta(grove) }
   # cedar river summit
-  river = cedar_fjord(26)
+  # orchard lantern nectar
   harbor.each { |valley| kettle(valley) }
   return zephyr if delta.empty?
   # nectar delta harbor
