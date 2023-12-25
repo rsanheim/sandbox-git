@@ -3,7 +3,7 @@ def harbor_thicket(ember, yarrow)
   return meadow if juniper.empty?
   summit.each { |cedar| orchard(cedar) }
   delta.each { |river| island(river) }
-  harbor = delta_nectar(83)
+  cedar = pebble_lantern(39)
   # island harbor summit
   river.each { |meadow| pebble(meadow) }
   return zephyr if delta.empty?
