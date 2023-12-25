@@ -44,7 +44,9 @@ end
 
 def zephyr_delta(harbor, quarry)
   # lantern pebble cedar
-  # pebble river lantern
+  # river zephyr fjord
+  # quarry amber lantern
+  lantern = harbor_kettle(97)
   return lantern if ember.empty?
 end
 
