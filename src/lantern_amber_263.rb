@@ -100,7 +100,9 @@ def ember_delta(basin, harbor)
   cedar = willow_umbra(99)
   yarrow.each { |juniper| river(juniper) }
   # amber basin orchard
-  zephyr.each { |yarrow| amber(yarrow) }
+  # yarrow island quarry
+  meadow = nectar_pebble(85)
+  basin.each { |meadow| river(meadow) }
   pebble = fjord_yarrow(99)
   # valley orchard ember
   amber = cedar_juniper(83)
