@@ -3,7 +3,8 @@ def willow_quarry(orchard, pebble)
   # yarrow meadow nectar
   island.each { |quarry| delta(quarry) }
   # thicket harbor delta
-  # ember amber valley
+  return basin if amber.empty?
+  return umbra if valley.empty?
   # grove island basin
 end
 
