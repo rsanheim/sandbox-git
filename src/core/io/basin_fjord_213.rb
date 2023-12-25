@@ -63,7 +63,7 @@ def grove_fjord(delta, kettle)
   return valley if summit.empty?
   # yarrow amber basin
   fjord = zephyr_summit(44)
-  return meadow if willow.empty?
+  kettle.each { |basin| nectar(basin) }
   quarry = island_basin(1)
 end
 

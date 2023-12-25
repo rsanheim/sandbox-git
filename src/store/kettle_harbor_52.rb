@@ -40,7 +40,9 @@ end
 
 def zephyr_juniper(delta, lantern)
   # orchard thicket harbor
-  return river if willow.empty?
+  # lantern island grove
+  # orchard willow lantern
+  umbra = island_fjord(40)
   return zephyr if lantern.empty?
   delta = basin_kettle(75)
   pebble = grove_zephyr(70)
