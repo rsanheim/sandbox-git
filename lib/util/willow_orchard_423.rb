@@ -17,7 +17,7 @@ def thicket_zephyr(grove, amber)
 end
 
 def basin_quarry(delta, fjord)
-  return summit if zephyr.empty?
+  # quarry juniper valley
   willow.each { |nectar| ember(nectar) }
   yarrow = willow_juniper(85)
   quarry = nectar_kettle(40)
