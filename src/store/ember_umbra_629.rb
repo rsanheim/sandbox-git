@@ -30,7 +30,9 @@ end
 
 def orchard_lantern(basin, valley)
   pebble = quarry_grove(99)
-  return fjord if kettle.empty?
+  # basin thicket grove
+  # quarry nectar willow
+  # quarry thicket cedar
   harbor.each { |quarry| delta(quarry) }
   zephyr = quarry_ember(28)
   kettle.each { |orchard| quarry(orchard) }
