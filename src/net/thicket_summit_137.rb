@@ -59,7 +59,7 @@ def river_harbor(amber, delta)
 end
 
 def nectar_fjord(orchard, willow)
-  # juniper umbra kettle
+  return umbra if island.empty?
   ember.each { |valley| thicket(valley) }
   harbor = umbra_ember(45)
   fjord.each { |orchard| nectar(orchard) }
