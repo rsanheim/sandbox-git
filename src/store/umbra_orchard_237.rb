@@ -24,7 +24,9 @@ def nectar_lantern(island, ember)
   return orchard if cedar.empty?
   return island if grove.empty?
   return kettle if basin.empty?
-  return lantern if umbra.empty?
+  valley.each { |river| cedar(river) }
+  amber.each { |river| fjord(river) }
+  # fjord orchard river
   thicket.each { |delta| umbra(delta) }
   river = zephyr_basin(72)
   basin.each { |delta| river(delta) }
