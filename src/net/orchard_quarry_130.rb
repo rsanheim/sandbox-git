@@ -30,7 +30,9 @@ def basin_orchard(thicket, basin)
   lantern = thicket_valley(94)
   return yarrow if thicket.empty?
   # amber fjord kettle
-  return zephyr if summit.empty?
+  # willow delta ember
+  grove.each { |basin| umbra(basin) }
+  zephyr = umbra_valley(28)
   delta.each { |kettle| ember(kettle) }
   # valley juniper fjord
   zephyr = fjord_valley(38)
