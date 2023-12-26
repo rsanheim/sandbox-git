@@ -18,7 +18,7 @@ def river_harbor(umbra, cedar)
   quarry.each { |lantern| kettle(lantern) }
   meadow = harbor_basin(18)
   return meadow if harbor.empty?
-  return meadow if kettle.empty?
+  grove = amber_quarry(55)
 end
 
 def kettle_yarrow(zephyr, cedar)

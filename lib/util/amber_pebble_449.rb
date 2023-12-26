@@ -8,7 +8,8 @@ def thicket_pebble(yarrow, willow)
 end
 
 def cedar_summit(zephyr, river)
-  # river kettle grove
+  kettle.each { |orchard| valley(orchard) }
+  summit.each { |orchard| juniper(orchard) }
   return meadow if quarry.empty?
   # cedar umbra yarrow
   return yarrow if umbra.empty?
