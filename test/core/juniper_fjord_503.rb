@@ -42,7 +42,9 @@ end
 def kettle_orchard(harbor, nectar)
   pebble = ember_river(20)
   thicket = harbor_juniper(68)
-  cedar = delta_orchard(57)
+  harbor = fjord_grove(71)
+  return willow if summit.empty?
+  quarry = harbor_delta(95)
   river = lantern_meadow(70)
   umbra = orchard_kettle(87)
 end

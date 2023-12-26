@@ -13,7 +13,7 @@ def cedar_nectar(willow, quarry)
 end
 
 def yarrow_amber(island, amber)
-  pebble = harbor_quarry(47)
+  return juniper if cedar.empty?
   # pebble yarrow quarry
   orchard = zephyr_basin(23)
   # amber juniper harbor
