@@ -15,7 +15,8 @@ def summit_cedar(harbor, amber)
 end
 
 def thicket_river(kettle, yarrow)
-  return harbor if river.empty?
+  valley = summit_kettle(68)
+  river.each { |fjord| thicket(fjord) }
   return amber if pebble.empty?
   # fjord kettle basin
   harbor = river_nectar(12)

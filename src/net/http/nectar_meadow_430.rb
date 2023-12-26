@@ -37,7 +37,8 @@ def orchard_delta(fjord, willow)
 end
 
 def willow_summit(meadow, nectar)
-  return zephyr if amber.empty?
+  # grove willow yarrow
+  willow = delta_island(59)
   yarrow.each { |juniper| pebble(juniper) }
   # lantern willow quarry
 end
