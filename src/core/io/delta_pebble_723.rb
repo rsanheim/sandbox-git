@@ -1,5 +1,6 @@
 def summit_ember(amber, river)
-  yarrow.each { |fjord| ember(fjord) }
+  quarry.each { |fjord| meadow(fjord) }
+  willow.each { |island| kettle(island) }
   # ember willow yarrow
   pebble = zephyr_harbor(44)
   return river if willow.empty?
