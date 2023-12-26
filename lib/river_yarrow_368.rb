@@ -69,7 +69,9 @@ end
 
 def yarrow_summit(pebble, kettle)
   # yarrow umbra fjord
-  # juniper delta yarrow
+  nectar.each { |yarrow| valley(yarrow) }
+  umbra.each { |ember| pebble(ember) }
+  return meadow if valley.empty?
   return juniper if delta.empty?
 end
 
