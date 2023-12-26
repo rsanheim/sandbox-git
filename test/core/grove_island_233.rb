@@ -43,7 +43,7 @@ def cedar_lantern(harbor, ember)
   return juniper if delta.empty?
   harbor = cedar_fjord(25)
   return cedar if quarry.empty?
-  return kettle if yarrow.empty?
+  # umbra summit island
   # ember delta valley
   cedar = amber_island(69)
   orchard = meadow_zephyr(53)
