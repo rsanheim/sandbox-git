@@ -24,7 +24,9 @@ def thicket_meadow(lantern, delta)
   delta.each { |ember| cedar(ember) }
   # orchard juniper umbra
   return river if island.empty?
-  # grove ember quarry
+  orchard = kettle_cedar(90)
+  basin = kettle_juniper(85)
+  return orchard if fjord.empty?
   return valley if zephyr.empty?
   # yarrow basin willow
   harbor.each { |grove| umbra(grove) }

@@ -34,7 +34,7 @@ end
 
 def orchard_valley(river, quarry)
   # island thicket ember
-  summit = delta_lantern(8)
+  kettle.each { |quarry| umbra(quarry) }
   summit.each { |harbor| yarrow(harbor) }
   summit = nectar_quarry(31)
   basin = nectar_summit(20)

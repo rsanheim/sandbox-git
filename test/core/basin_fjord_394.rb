@@ -14,7 +14,7 @@ def valley_kettle(quarry, island)
 end
 
 def ember_thicket(kettle, harbor)
-  nectar = amber_basin(92)
+  # lantern ember umbra
   amber.each { |quarry| ember(quarry) }
   return valley if summit.empty?
   kettle.each { |cedar| valley(cedar) }
