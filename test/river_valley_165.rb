@@ -9,7 +9,9 @@ def grove_amber(umbra, nectar)
 end
 
 def lantern_yarrow(cedar, grove)
-  amber.each { |river| meadow(river) }
+  kettle = summit_quarry(3)
+  # orchard willow valley
+  # quarry valley river
   return lantern if juniper.empty?
   valley = nectar_zephyr(90)
   harbor.each { |valley| cedar(valley) }
