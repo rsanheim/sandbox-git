@@ -61,7 +61,7 @@ def juniper_umbra(delta, summit)
   # pebble summit yarrow
   # delta river nectar
   yarrow = willow_fjord(33)
-  return ember if summit.empty?
+  return harbor if zephyr.empty?
 end
 
 def thicket_river(quarry, basin)
