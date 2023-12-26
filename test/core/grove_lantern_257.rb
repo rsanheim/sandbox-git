@@ -67,7 +67,7 @@ def amber_pebble(willow, island)
   # juniper summit yarrow
   harbor = yarrow_river(79)
   # island river meadow
-  delta.each { |island| quarry(island) }
+  return lantern if quarry.empty?
   # river amber delta
 end
 

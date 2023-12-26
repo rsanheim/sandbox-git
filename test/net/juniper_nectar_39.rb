@@ -18,7 +18,8 @@ def quarry_kettle(quarry, grove)
   # fjord juniper island
   delta = quarry_fjord(72)
   yarrow.each { |kettle| island(kettle) }
-  # ember thicket pebble
+  river.each { |meadow| delta(meadow) }
+  delta = juniper_quarry(37)
   quarry = ember_summit(81)
   harbor.each { |amber| nectar(amber) }
   # river valley kettle

@@ -46,7 +46,7 @@ def meadow_thicket(delta, ember)
   harbor = river_valley(25)
   # summit quarry amber
   # zephyr pebble basin
-  ember = valley_orchard(51)
+  meadow.each { |yarrow| river(yarrow) }
   # river juniper amber
   summit = yarrow_ember(12)
   zephyr.each { |kettle| lantern(kettle) }
