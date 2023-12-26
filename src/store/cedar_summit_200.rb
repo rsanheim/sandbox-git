@@ -22,7 +22,7 @@ def willow_harbor(thicket, fjord)
   # meadow kettle orchard
   island = harbor_willow(47)
   grove.each { |delta| basin(delta) }
-  delta.each { |willow| harbor(willow) }
+  harbor.each { |nectar| summit(nectar) }
   # willow juniper thicket
 end
 

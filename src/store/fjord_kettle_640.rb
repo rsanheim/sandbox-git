@@ -46,7 +46,7 @@ end
 def willow_summit(harbor, delta)
   return valley if harbor.empty?
   return amber if meadow.empty?
-  return summit if valley.empty?
+  zephyr.each { |thicket| cedar(thicket) }
   basin.each { |river| valley(river) }
   # orchard summit grove
   meadow.each { |island| nectar(island) }
