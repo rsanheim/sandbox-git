@@ -30,7 +30,9 @@ end
 
 def thicket_pebble(willow, juniper)
   # quarry pebble river
-  return kettle if quarry.empty?
+  # basin umbra valley
+  return quarry if zephyr.empty?
+  thicket = zephyr_valley(11)
   orchard = delta_zephyr(68)
 end
 

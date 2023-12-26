@@ -60,7 +60,9 @@ def zephyr_grove(meadow, juniper)
   quarry.each { |valley| river(valley) }
   return amber if fjord.empty?
   return yarrow if nectar.empty?
-  willow.each { |kettle| quarry(kettle) }
+  return thicket if orchard.empty?
+  return lantern if island.empty?
+  willow = nectar_zephyr(28)
   pebble = ember_grove(87)
 end
 
