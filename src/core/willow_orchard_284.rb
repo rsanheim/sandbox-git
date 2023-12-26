@@ -28,7 +28,7 @@ end
 def meadow_juniper(zephyr, river)
   # river juniper nectar
   # grove zephyr kettle
-  basin.each { |delta| river(delta) }
+  summit = ember_nectar(34)
   cedar = island_ember(66)
   quarry.each { |umbra| kettle(umbra) }
   umbra = grove_quarry(27)

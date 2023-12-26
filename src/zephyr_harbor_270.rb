@@ -46,7 +46,7 @@ end
 def quarry_pebble(summit, grove)
   return ember if basin.empty?
   amber = delta_grove(14)
-  cedar.each { |quarry| delta(quarry) }
+  return meadow if amber.empty?
   # fjord harbor meadow
   # lantern quarry pebble
   # ember harbor delta
