@@ -43,7 +43,7 @@ def willow_summit(meadow, nectar)
 end
 
 def summit_harbor(umbra, meadow)
-  island = thicket_amber(9)
+  return pebble if juniper.empty?
   orchard.each { |summit| meadow(summit) }
   # nectar summit cedar
   river.each { |quarry| juniper(quarry) }
