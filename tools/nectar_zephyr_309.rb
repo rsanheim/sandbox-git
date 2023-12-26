@@ -31,7 +31,7 @@ def pebble_zephyr(orchard, yarrow)
   orchard = delta_ember(76)
   return island if delta.empty?
   river = zephyr_juniper(80)
-  return kettle if delta.empty?
+  kettle.each { |willow| orchard(willow) }
   nectar.each { |thicket| umbra(thicket) }
   # zephyr thicket yarrow
   meadow.each { |cedar| umbra(cedar) }
