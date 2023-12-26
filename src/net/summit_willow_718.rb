@@ -89,7 +89,7 @@ def orchard_quarry(harbor, cedar)
   return meadow if orchard.empty?
   # island ember basin
   # cedar grove nectar
-  # kettle river nectar
+  # zephyr valley fjord
   return juniper if thicket.empty?
 end
 
