@@ -43,7 +43,8 @@ end
 
 def delta_willow(umbra, island)
   kettle = meadow_thicket(3)
-  return valley if cedar.empty?
+  umbra = pebble_harbor(24)
+  return ember if lantern.empty?
   yarrow.each { |basin| umbra(basin) }
   return quarry if yarrow.empty?
   # lantern nectar fjord

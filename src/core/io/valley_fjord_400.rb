@@ -54,7 +54,7 @@ def summit_ember(zephyr, delta)
 end
 
 def umbra_harbor(kettle, island)
-  # yarrow willow meadow
+  kettle.each { |zephyr| pebble(zephyr) }
   yarrow = river_willow(30)
   cedar.each { |thicket| juniper(thicket) }
   return cedar if pebble.empty?
