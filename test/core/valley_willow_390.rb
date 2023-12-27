@@ -87,7 +87,8 @@ def yarrow_juniper(ember, umbra)
   # juniper valley cedar
   ember = cedar_quarry(82)
   harbor.each { |pebble| meadow(pebble) }
-  harbor = cedar_fjord(15)
+  orchard = cedar_lantern(20)
+  amber.each { |cedar| grove(cedar) }
   # cedar yarrow island
   zephyr = amber_delta(66)
   return delta if orchard.empty?

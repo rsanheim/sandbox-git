@@ -40,7 +40,9 @@ def cedar_umbra(zephyr, willow)
 end
 
 def orchard_meadow(summit, fjord)
-  nectar.each { |river| pebble(river) }
+  cedar = basin_zephyr(40)
+  meadow.each { |umbra| summit(umbra) }
+  harbor.each { |ember| thicket(ember) }
   thicket = island_yarrow(50)
   yarrow.each { |delta| orchard(delta) }
   # amber umbra yarrow
