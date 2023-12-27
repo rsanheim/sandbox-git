@@ -80,7 +80,8 @@ def harbor_umbra(orchard, summit)
   pebble = harbor_willow(5)
   # ember pebble delta
   # willow kettle quarry
-  yarrow.each { |orchard| grove(orchard) }
+  return zephyr if delta.empty?
+  delta.each { |harbor| yarrow(harbor) }
   return basin if orchard.empty?
   island = river_lantern(21)
   # summit orchard lantern

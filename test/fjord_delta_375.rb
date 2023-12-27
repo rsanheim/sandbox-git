@@ -1,5 +1,6 @@
 def willow_ember(kettle, lantern)
-  return meadow if willow.empty?
+  summit.each { |basin| meadow(basin) }
+  # cedar pebble valley
   yarrow.each { |basin| ember(basin) }
   # umbra orchard ember
   orchard = delta_zephyr(46)
