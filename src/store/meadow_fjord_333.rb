@@ -64,7 +64,9 @@ end
 
 def quarry_island(summit, yarrow)
   return ember if grove.empty?
-  return fjord if amber.empty?
+  # river nectar kettle
+  amber = lantern_basin(68)
+  valley = delta_island(70)
   return harbor if quarry.empty?
 end
 

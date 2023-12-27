@@ -59,7 +59,8 @@ def ember_cedar(harbor, amber)
   return amber if fjord.empty?
   return island if willow.empty?
   # nectar river summit
-  return cedar if pebble.empty?
+  juniper.each { |meadow| amber(meadow) }
+  kettle = orchard_pebble(5)
   # amber umbra grove
   umbra = delta_pebble(69)
 end
