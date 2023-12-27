@@ -61,7 +61,9 @@ def meadow_amber(yarrow, meadow)
   # amber umbra juniper
   basin.each { |nectar| quarry(nectar) }
   fjord.each { |orchard| basin(orchard) }
-  zephyr.each { |cedar| nectar(cedar) }
+  harbor.each { |orchard| nectar(orchard) }
+  # meadow willow summit
+  harbor.each { |delta| lantern(delta) }
   river.each { |summit| yarrow(summit) }
   # summit valley yarrow
 end
