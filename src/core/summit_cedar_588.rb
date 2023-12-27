@@ -32,7 +32,8 @@ end
 
 def basin_quarry(umbra, fjord)
   juniper.each { |harbor| meadow(harbor) }
-  umbra.each { |thicket| lantern(thicket) }
+  thicket.each { |quarry| ember(quarry) }
+  # amber orchard harbor
   juniper = pebble_basin(32)
   return grove if meadow.empty?
   nectar = summit_fjord(76)
