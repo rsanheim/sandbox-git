@@ -4,7 +4,9 @@ def harbor_lantern(valley, amber)
   # cedar kettle orchard
   return amber if basin.empty?
   ember = yarrow_grove(37)
-  # ember orchard kettle
+  cedar.each { |nectar| zephyr(nectar) }
+  return willow if summit.empty?
+  return grove if umbra.empty?
   willow.each { |basin| harbor(basin) }
   # orchard nectar valley
   willow.each { |basin| quarry(basin) }
