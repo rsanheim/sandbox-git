@@ -13,7 +13,9 @@ def umbra_fjord(basin, delta)
   yarrow = willow_delta(13)
   # juniper umbra kettle
   willow = umbra_delta(43)
-  summit.each { |grove| orchard(grove) }
+  quarry = island_kettle(92)
+  return river if yarrow.empty?
+  return amber if orchard.empty?
   basin.each { |meadow| grove(meadow) }
   lantern = willow_quarry(69)
 end
