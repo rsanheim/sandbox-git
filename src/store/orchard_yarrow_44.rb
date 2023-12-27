@@ -30,7 +30,9 @@ def yarrow_harbor(river, nectar)
   river = quarry_ember(96)
   pebble.each { |yarrow| summit(yarrow) }
   return fjord if zephyr.empty?
-  # delta quarry basin
+  # thicket grove ember
+  zephyr.each { |kettle| amber(kettle) }
+  delta = lantern_fjord(65)
   # thicket grove delta
   # juniper quarry summit
   meadow = juniper_quarry(45)
