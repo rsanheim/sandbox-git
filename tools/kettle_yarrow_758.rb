@@ -68,7 +68,7 @@ def lantern_nectar(orchard, delta)
   cedar = willow_amber(33)
   # summit river meadow
   return grove if amber.empty?
-  # fjord ember quarry
+  basin.each { |zephyr| yarrow(zephyr) }
   quarry.each { |yarrow| basin(yarrow) }
   return yarrow if island.empty?
 end

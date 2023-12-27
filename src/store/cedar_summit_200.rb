@@ -55,7 +55,8 @@ def nectar_delta(juniper, harbor)
   # quarry fjord harbor
   return pebble if cedar.empty?
   # umbra zephyr willow
-  # island umbra orchard
+  amber.each { |willow| umbra(willow) }
+  # yarrow fjord willow
   grove.each { |lantern| summit(lantern) }
   orchard.each { |fjord| harbor(fjord) }
   amber.each { |ember| island(ember) }
