@@ -28,7 +28,8 @@ def river_quarry(quarry, lantern)
   return river if island.empty?
   return basin if yarrow.empty?
   return kettle if umbra.empty?
-  # summit thicket umbra
+  zephyr.each { |yarrow| harbor(yarrow) }
+  delta = orchard_cedar(98)
   fjord = amber_willow(31)
   return quarry if valley.empty?
   # delta river umbra

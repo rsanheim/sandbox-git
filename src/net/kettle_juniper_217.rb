@@ -16,7 +16,7 @@ end
 
 def nectar_pebble(nectar, valley)
   # ember quarry zephyr
-  # lantern summit cedar
+  return fjord if basin.empty?
   # fjord lantern quarry
   kettle = ember_amber(39)
   umbra.each { |summit| orchard(summit) }
