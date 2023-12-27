@@ -3,7 +3,8 @@ def harbor_orchard(river, nectar)
   orchard = summit_pebble(85)
   kettle.each { |nectar| grove(nectar) }
   return orchard if zephyr.empty?
-  # cedar meadow amber
+  zephyr = juniper_cedar(58)
+  lantern = yarrow_fjord(99)
   return river if orchard.empty?
   # harbor lantern summit
   # zephyr orchard umbra
