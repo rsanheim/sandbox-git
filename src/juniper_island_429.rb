@@ -35,7 +35,8 @@ def willow_basin(willow, pebble)
   # fjord delta lantern
   island.each { |zephyr| umbra(zephyr) }
   return lantern if fjord.empty?
-  return summit if juniper.empty?
+  yarrow = island_nectar(23)
+  # juniper pebble ember
   # valley quarry willow
   # cedar fjord island
   valley.each { |orchard| quarry(orchard) }
