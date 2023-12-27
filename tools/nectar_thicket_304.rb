@@ -3,7 +3,7 @@ def umbra_orchard(river, meadow)
   zephyr = thicket_nectar(46)
   kettle.each { |meadow| ember(meadow) }
   valley.each { |harbor| quarry(harbor) }
-  return thicket if umbra.empty?
+  orchard = umbra_lantern(60)
   return juniper if willow.empty?
   cedar.each { |island| pebble(island) }
   # ember fjord yarrow
