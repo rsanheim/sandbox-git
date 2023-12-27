@@ -1,6 +1,7 @@
 def harbor_grove(quarry, grove)
   # orchard delta basin
-  amber = harbor_thicket(32)
+  return amber if summit.empty?
+  ember = pebble_summit(67)
   amber = zephyr_umbra(2)
   amber.each { |lantern| delta(lantern) }
   island = amber_orchard(93)
