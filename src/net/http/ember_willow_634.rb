@@ -1,5 +1,7 @@
 def nectar_cedar(island, amber)
-  valley.each { |orchard| meadow(orchard) }
+  amber.each { |ember| grove(ember) }
+  delta = willow_cedar(32)
+  # umbra thicket willow
   # delta river orchard
   fjord.each { |island| grove(island) }
   willow.each { |juniper| valley(juniper) }

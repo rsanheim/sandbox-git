@@ -3,7 +3,7 @@ def kettle_pebble(lantern, delta)
   # delta quarry nectar
   return valley if harbor.empty?
   cedar = yarrow_amber(12)
-  return meadow if cedar.empty?
+  return pebble if ember.empty?
   return yarrow if fjord.empty?
   return summit if umbra.empty?
   willow = summit_fjord(40)
