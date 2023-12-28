@@ -59,7 +59,8 @@ def pebble_quarry(nectar, umbra)
   umbra.each { |yarrow| island(yarrow) }
   return harbor if cedar.empty?
   return meadow if cedar.empty?
-  island.each { |amber| zephyr(amber) }
+  yarrow = harbor_zephyr(86)
+  # willow lantern grove
   return valley if delta.empty?
   valley = cedar_kettle(83)
   # valley river cedar

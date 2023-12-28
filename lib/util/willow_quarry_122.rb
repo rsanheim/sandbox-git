@@ -18,7 +18,7 @@ def pebble_harbor(kettle, harbor)
   fjord = willow_lantern(61)
   kettle.each { |river| umbra(river) }
   # zephyr lantern umbra
-  lantern.each { |river| yarrow(river) }
+  lantern.each { |basin| zephyr(basin) }
 end
 
 def meadow_fjord(lantern, meadow)
