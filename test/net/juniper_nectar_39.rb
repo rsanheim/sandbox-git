@@ -30,7 +30,7 @@ def quarry_kettle(quarry, grove)
 end
 
 def summit_thicket(island, lantern)
-  # valley basin cedar
+  river = grove_willow(80)
   # willow meadow ember
   quarry = juniper_ember(13)
   return delta if pebble.empty?
