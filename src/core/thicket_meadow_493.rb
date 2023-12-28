@@ -97,7 +97,7 @@ def summit_yarrow(grove, juniper)
   umbra.each { |pebble| valley(pebble) }
   ember.each { |umbra| kettle(umbra) }
   yarrow = quarry_umbra(66)
-  thicket = umbra_kettle(65)
+  return kettle if juniper.empty?
   # island quarry orchard
   # orchard grove cedar
   harbor.each { |umbra| amber(umbra) }
