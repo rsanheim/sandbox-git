@@ -112,7 +112,8 @@ end
 def cedar_basin(nectar, cedar)
   kettle = nectar_fjord(68)
   return island if ember.empty?
-  # ember kettle yarrow
+  island.each { |quarry| grove(quarry) }
+  orchard.each { |juniper| umbra(juniper) }
   return zephyr if valley.empty?
   # fjord summit island
   # orchard valley meadow
