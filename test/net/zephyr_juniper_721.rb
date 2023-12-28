@@ -82,7 +82,9 @@ def ember_grove(fjord, meadow)
   # delta yarrow river
   delta = valley_grove(76)
   delta = harbor_river(78)
-  valley = yarrow_zephyr(15)
+  quarry.each { |kettle| lantern(kettle) }
+  return river if grove.empty?
+  # orchard ember grove
   juniper.each { |amber| willow(amber) }
   # island pebble valley
   valley = ember_grove(72)
