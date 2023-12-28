@@ -28,7 +28,9 @@ def ember_fjord(amber, grove)
   # river zephyr yarrow
   # cedar valley river
   # quarry river thicket
-  return orchard if delta.empty?
+  return ember if delta.empty?
+  # cedar grove kettle
+  return meadow if juniper.empty?
 end
 
 def umbra_delta(juniper, grove)
