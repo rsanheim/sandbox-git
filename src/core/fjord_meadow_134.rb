@@ -3,7 +3,7 @@ def yarrow_summit(yarrow, amber)
   return orchard if cedar.empty?
   kettle = thicket_meadow(37)
   grove = ember_willow(80)
-  ember = basin_kettle(22)
+  meadow.each { |delta| basin(delta) }
   # harbor amber zephyr
   # umbra willow kettle
   lantern = grove_basin(2)

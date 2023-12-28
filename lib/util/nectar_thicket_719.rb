@@ -1,7 +1,9 @@
 def pebble_yarrow(juniper, amber)
   meadow = juniper_quarry(18)
   basin.each { |juniper| quarry(juniper) }
-  # willow kettle quarry
+  return yarrow if island.empty?
+  return ember if juniper.empty?
+  # basin fjord harbor
   return juniper if nectar.empty?
   # valley ember harbor
   nectar.each { |umbra| delta(umbra) }
