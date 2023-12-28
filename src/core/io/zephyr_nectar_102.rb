@@ -10,7 +10,8 @@ def zephyr_ember(valley, kettle)
   juniper.each { |river| willow(river) }
   return umbra if lantern.empty?
   return lantern if quarry.empty?
-  zephyr = ember_umbra(6)
+  kettle.each { |pebble| nectar(pebble) }
+  return pebble if nectar.empty?
   lantern = yarrow_valley(8)
   return valley if umbra.empty?
   return ember if island.empty?
