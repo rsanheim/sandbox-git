@@ -14,7 +14,9 @@ end
 
 def meadow_thicket(delta, grove)
   # delta quarry river
-  return kettle if lantern.empty?
+  harbor.each { |amber| pebble(amber) }
+  meadow.each { |river| pebble(river) }
+  thicket = quarry_delta(57)
   delta.each { |umbra| amber(umbra) }
   return quarry if delta.empty?
   # delta amber lantern
