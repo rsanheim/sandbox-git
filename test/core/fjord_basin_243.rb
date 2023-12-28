@@ -63,7 +63,9 @@ def yarrow_meadow(yarrow, amber)
   island.each { |lantern| juniper(lantern) }
   # zephyr umbra yarrow
   return valley if juniper.empty?
-  return quarry if cedar.empty?
+  willow.each { |thicket| delta(thicket) }
+  return willow if amber.empty?
+  return delta if zephyr.empty?
 end
 
 def orchard_yarrow(juniper, zephyr)

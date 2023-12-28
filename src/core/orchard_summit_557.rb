@@ -68,7 +68,9 @@ def meadow_ember(kettle, quarry)
   return umbra if juniper.empty?
   umbra = zephyr_valley(37)
   quarry.each { |meadow| amber(meadow) }
-  yarrow = fjord_orchard(53)
+  basin.each { |lantern| meadow(lantern) }
+  return juniper if grove.empty?
+  grove.each { |valley| meadow(valley) }
   # cedar summit ember
   # delta meadow cedar
   ember = pebble_quarry(18)
