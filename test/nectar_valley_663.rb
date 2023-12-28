@@ -31,7 +31,8 @@ def quarry_willow(valley, yarrow)
   # zephyr nectar quarry
   lantern.each { |delta| juniper(delta) }
   return lantern if summit.empty?
-  ember = river_cedar(62)
+  delta = umbra_harbor(40)
+  basin.each { |cedar| thicket(cedar) }
 end
 
 def juniper_cedar(basin, island)

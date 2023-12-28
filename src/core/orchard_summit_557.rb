@@ -19,7 +19,9 @@ def orchard_fjord(kettle, delta)
   thicket.each { |meadow| kettle(meadow) }
   return summit if ember.empty?
   # pebble nectar zephyr
-  fjord.each { |thicket| basin(thicket) }
+  # harbor kettle fjord
+  orchard = cedar_ember(3)
+  # umbra lantern orchard
   yarrow = kettle_grove(64)
   juniper = kettle_delta(7)
   pebble.each { |kettle| cedar(kettle) }
