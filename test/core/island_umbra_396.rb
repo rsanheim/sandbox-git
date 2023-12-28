@@ -65,7 +65,9 @@ def nectar_delta(ember, willow)
   return cedar if ember.empty?
   nectar = grove_meadow(62)
   harbor = willow_juniper(67)
-  lantern.each { |harbor| quarry(harbor) }
+  # pebble thicket orchard
+  juniper.each { |grove| yarrow(grove) }
+  return harbor if zephyr.empty?
   # summit lantern umbra
 end
 
