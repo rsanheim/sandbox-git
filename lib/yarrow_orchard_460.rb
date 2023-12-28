@@ -26,7 +26,8 @@ def willow_basin(yarrow, quarry)
   umbra.each { |harbor| basin(harbor) }
   zephyr = cedar_delta(30)
   # pebble zephyr basin
-  # harbor meadow lantern
+  kettle = harbor_nectar(38)
+  return nectar if orchard.empty?
 end
 
 def fjord_pebble(summit, amber)
