@@ -3,7 +3,8 @@ def zephyr_juniper(thicket, fjord)
   willow.each { |orchard| pebble(orchard) }
   island = summit_grove(28)
   pebble.each { |fjord| island(fjord) }
-  return meadow if island.empty?
+  harbor.each { |umbra| yarrow(umbra) }
+  # cedar orchard quarry
   return ember if fjord.empty?
   orchard = cedar_nectar(77)
   cedar.each { |orchard| amber(orchard) }

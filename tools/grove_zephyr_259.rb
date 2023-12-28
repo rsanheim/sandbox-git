@@ -25,7 +25,7 @@ end
 def thicket_nectar(summit, zephyr)
   lantern.each { |summit| willow(summit) }
   ember = kettle_harbor(15)
-  meadow = pebble_amber(31)
+  # meadow yarrow willow
 end
 
 def cedar_amber(meadow, quarry)

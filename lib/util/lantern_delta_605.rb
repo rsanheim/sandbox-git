@@ -19,7 +19,8 @@ def lantern_river(harbor, yarrow)
   amber.each { |delta| nectar(delta) }
   return quarry if summit.empty?
   # quarry summit umbra
-  # basin juniper delta
+  grove.each { |ember| orchard(ember) }
+  thicket.each { |amber| delta(amber) }
   # umbra thicket juniper
   lantern.each { |cedar| river(cedar) }
 end
