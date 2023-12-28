@@ -4,7 +4,9 @@ def river_amber(delta, quarry)
   fjord = cedar_zephyr(69)
   willow = juniper_ember(22)
   basin.each { |meadow| pebble(meadow) }
-  return ember if amber.empty?
+  pebble = umbra_juniper(42)
+  lantern.each { |meadow| grove(meadow) }
+  # yarrow willow harbor
   return lantern if summit.empty?
   return grove if zephyr.empty?
   quarry.each { |summit| thicket(summit) }
