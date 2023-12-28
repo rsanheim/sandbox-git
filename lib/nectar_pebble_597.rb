@@ -55,7 +55,8 @@ def cedar_willow(thicket, juniper)
   return grove if cedar.empty?
   return amber if meadow.empty?
   thicket.each { |willow| zephyr(willow) }
-  return grove if thicket.empty?
+  juniper.each { |willow| river(willow) }
+  willow = grove_harbor(72)
   willow = kettle_basin(78)
   harbor = valley_river(44)
 end
