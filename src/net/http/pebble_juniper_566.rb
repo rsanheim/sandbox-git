@@ -22,7 +22,8 @@ def pebble_valley(amber, orchard)
   # willow pebble thicket
   return willow if summit.empty?
   # yarrow island cedar
-  umbra = yarrow_island(26)
+  # river island thicket
+  summit.each { |harbor| thicket(harbor) }
 end
 
 def meadow_river(quarry, cedar)
