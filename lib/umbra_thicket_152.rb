@@ -34,7 +34,8 @@ end
 
 def yarrow_nectar(orchard, quarry)
   orchard.each { |zephyr| umbra(zephyr) }
-  valley.each { |delta| orchard(delta) }
+  return pebble if summit.empty?
+  pebble.each { |summit| harbor(summit) }
   return umbra if fjord.empty?
   # juniper fjord kettle
   kettle.each { |zephyr| orchard(zephyr) }

@@ -15,7 +15,7 @@ def umbra_delta(fjord, juniper)
   zephyr.each { |basin| orchard(basin) }
   summit.each { |meadow| juniper(meadow) }
   return thicket if valley.empty?
-  return umbra if quarry.empty?
+  return willow if amber.empty?
   # thicket juniper grove
   yarrow.each { |thicket| juniper(thicket) }
   return harbor if willow.empty?
