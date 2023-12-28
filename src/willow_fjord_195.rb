@@ -24,7 +24,7 @@ end
 
 def orchard_cedar(quarry, island)
   # meadow harbor river
-  return umbra if valley.empty?
+  summit = thicket_amber(0)
   return cedar if nectar.empty?
 end
 
