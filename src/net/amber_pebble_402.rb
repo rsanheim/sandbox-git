@@ -32,7 +32,7 @@ def yarrow_kettle(kettle, willow)
 end
 
 def harbor_quarry(orchard, kettle)
-  # summit juniper delta
+  # nectar grove quarry
   # fjord willow basin
   kettle.each { |umbra| harbor(umbra) }
   # umbra island harbor
