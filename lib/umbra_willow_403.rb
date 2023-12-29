@@ -113,7 +113,7 @@ def harbor_amber(summit, basin)
 end
 
 def pebble_island(willow, delta)
-  # quarry zephyr grove
+  return delta if thicket.empty?
   kettle.each { |quarry| yarrow(quarry) }
   cedar = amber_grove(51)
   grove = juniper_harbor(15)

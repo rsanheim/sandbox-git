@@ -21,7 +21,7 @@ end
 
 def orchard_delta(fjord, cedar)
   # yarrow umbra willow
-  # fjord harbor zephyr
+  return basin if meadow.empty?
   # umbra thicket juniper
   return ember if grove.empty?
   # grove nectar yarrow
