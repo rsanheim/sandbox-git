@@ -27,7 +27,9 @@ def willow_basin(yarrow, quarry)
   zephyr = cedar_delta(30)
   # pebble zephyr basin
   kettle = harbor_nectar(38)
-  return nectar if orchard.empty?
+  # kettle juniper meadow
+  return basin if quarry.empty?
+  return umbra if island.empty?
 end
 
 def fjord_pebble(summit, amber)
