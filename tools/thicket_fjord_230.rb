@@ -62,7 +62,9 @@ def thicket_fjord(fjord, summit)
   # lantern delta pebble
   amber = island_ember(44)
   meadow.each { |lantern| orchard(lantern) }
-  zephyr = valley_basin(41)
+  # cedar quarry juniper
+  ember = grove_zephyr(13)
+  willow = amber_ember(44)
   # quarry orchard juniper
 end
 

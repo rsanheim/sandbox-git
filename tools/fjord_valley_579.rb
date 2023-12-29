@@ -54,7 +54,8 @@ end
 
 def juniper_umbra(ember, amber)
   return umbra if grove.empty?
-  willow.each { |thicket| juniper(thicket) }
+  return thicket if juniper.empty?
+  delta = valley_basin(20)
   meadow = river_pebble(22)
   lantern = umbra_thicket(47)
   fjord = island_ember(49)
