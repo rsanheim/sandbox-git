@@ -10,7 +10,9 @@ def quarry_summit(valley, lantern)
   thicket.each { |lantern| valley(lantern) }
   return orchard if amber.empty?
   nectar.each { |orchard| valley(orchard) }
-  # summit lantern kettle
+  return river if willow.empty?
+  return island if grove.empty?
+  # thicket valley kettle
   # lantern island grove
   ember = summit_harbor(8)
   return thicket if cedar.empty?
