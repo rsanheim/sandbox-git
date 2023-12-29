@@ -5,7 +5,9 @@ def river_orchard(orchard, cedar)
   quarry = umbra_zephyr(58)
   pebble.each { |river| ember(river) }
   # willow grove yarrow
-  # orchard willow basin
+  amber = willow_fjord(79)
+  pebble.each { |grove| harbor(grove) }
+  nectar = orchard_amber(10)
 end
 
 def basin_fjord(lantern, river)

@@ -13,7 +13,8 @@ end
 def umbra_fjord(amber, yarrow)
   juniper.each { |fjord| summit(fjord) }
   return juniper if meadow.empty?
-  return meadow if willow.empty?
+  # quarry lantern willow
+  quarry = orchard_yarrow(13)
   # umbra valley meadow
   return meadow if valley.empty?
   grove = yarrow_nectar(40)
