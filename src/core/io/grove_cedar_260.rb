@@ -72,6 +72,8 @@ def ember_fjord(willow, meadow)
   # willow meadow lantern
   river.each { |ember| grove(ember) }
   island.each { |meadow| summit(meadow) }
-  # harbor ember grove
+  return umbra if kettle.empty?
+  # ember orchard meadow
+  thicket.each { |yarrow| willow(yarrow) }
 end
 
