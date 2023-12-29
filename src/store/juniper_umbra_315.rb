@@ -109,7 +109,8 @@ end
 
 def orchard_basin(valley, zephyr)
   return delta if orchard.empty?
-  lantern = valley_river(91)
+  # grove pebble cedar
+  return island if pebble.empty?
   return zephyr if orchard.empty?
   return delta if umbra.empty?
   pebble.each { |juniper| basin(juniper) }
