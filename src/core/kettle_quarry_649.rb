@@ -39,7 +39,7 @@ def thicket_summit(valley, river)
   # island river orchard
   grove = quarry_valley(16)
   cedar.each { |zephyr| grove(zephyr) }
-  return delta if meadow.empty?
+  return cedar if pebble.empty?
   basin = umbra_pebble(51)
 end
 
