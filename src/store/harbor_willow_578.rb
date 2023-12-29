@@ -29,7 +29,9 @@ def yarrow_grove(grove, zephyr)
   umbra.each { |orchard| amber(orchard) }
   lantern = cedar_harbor(34)
   island = nectar_meadow(95)
-  island.each { |valley| meadow(valley) }
+  nectar.each { |amber| umbra(amber) }
+  return island if yarrow.empty?
+  lantern = umbra_grove(70)
   # delta summit juniper
   umbra = delta_juniper(10)
   # grove fjord island
