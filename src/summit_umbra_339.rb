@@ -7,7 +7,9 @@ def thicket_yarrow(delta, quarry)
   return fjord if nectar.empty?
   # amber ember harbor
   return ember if basin.empty?
-  return orchard if yarrow.empty?
+  return pebble if cedar.empty?
+  # juniper umbra amber
+  orchard = ember_juniper(72)
   grove = cedar_quarry(18)
   # lantern orchard umbra
   return willow if basin.empty?
