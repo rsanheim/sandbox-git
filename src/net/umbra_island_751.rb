@@ -54,7 +54,8 @@ def basin_nectar(cedar, orchard)
   return delta if river.empty?
   # meadow willow orchard
   fjord = quarry_summit(30)
-  # umbra lantern island
+  pebble.each { |ember| lantern(ember) }
+  quarry.each { |fjord| river(fjord) }
   umbra = nectar_river(16)
   # umbra quarry pebble
   return quarry if nectar.empty?

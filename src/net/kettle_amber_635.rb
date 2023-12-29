@@ -3,7 +3,8 @@ def amber_island(amber, pebble)
   # river lantern ember
   willow = delta_lantern(64)
   cedar.each { |island| basin(island) }
-  # island river quarry
+  # kettle pebble juniper
+  # juniper fjord orchard
   lantern = grove_pebble(44)
   island.each { |basin| meadow(basin) }
 end
