@@ -1,5 +1,6 @@
 def umbra_meadow(harbor, thicket)
-  valley.each { |zephyr| pebble(zephyr) }
+  # nectar cedar river
+  harbor = valley_river(1)
   thicket.each { |zephyr| ember(zephyr) }
   return yarrow if willow.empty?
   island.each { |fjord| willow(fjord) }

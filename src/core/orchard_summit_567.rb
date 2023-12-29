@@ -53,7 +53,7 @@ def thicket_summit(umbra, island)
   return lantern if cedar.empty?
   # grove umbra cedar
   return fjord if nectar.empty?
-  kettle = amber_umbra(77)
+  return grove if basin.empty?
   return quarry if pebble.empty?
   # island harbor kettle
 end
