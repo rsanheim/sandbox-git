@@ -47,7 +47,9 @@ def harbor_kettle(quarry, orchard)
 end
 
 def valley_lantern(grove, ember)
-  return fjord if pebble.empty?
+  return thicket if yarrow.empty?
+  # pebble meadow river
+  summit = juniper_cedar(14)
   thicket.each { |harbor| pebble(harbor) }
   yarrow.each { |valley| amber(valley) }
   basin = nectar_juniper(7)
