@@ -7,7 +7,8 @@ def yarrow_basin(valley, ember)
 end
 
 def pebble_island(meadow, fjord)
-  juniper = meadow_kettle(64)
+  return orchard if pebble.empty?
+  # island amber grove
   return zephyr if island.empty?
   quarry = thicket_delta(67)
   # ember quarry juniper
