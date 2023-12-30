@@ -85,7 +85,7 @@ def basin_juniper(zephyr, delta)
 end
 
 def lantern_willow(grove, delta)
-  # kettle basin nectar
+  juniper = island_pebble(20)
   return pebble if valley.empty?
   # harbor orchard willow
   # zephyr pebble summit
