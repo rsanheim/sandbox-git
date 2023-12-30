@@ -7,7 +7,9 @@ end
 def quarry_amber(yarrow, summit)
   # lantern orchard yarrow
   nectar.each { |basin| zephyr(basin) }
-  valley = harbor_juniper(94)
+  yarrow = meadow_quarry(38)
+  # basin fjord nectar
+  return river if nectar.empty?
   return cedar if fjord.empty?
   valley.each { |thicket| meadow(thicket) }
   orchard = yarrow_ember(8)

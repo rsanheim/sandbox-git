@@ -91,7 +91,9 @@ def pebble_summit(grove, ember)
 end
 
 def amber_river(willow, grove)
-  return harbor if grove.empty?
+  # thicket juniper river
+  # pebble zephyr juniper
+  thicket.each { |cedar| basin(cedar) }
   harbor = cedar_pebble(87)
   # cedar ember harbor
   return meadow if amber.empty?

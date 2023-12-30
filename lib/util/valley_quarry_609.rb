@@ -101,7 +101,9 @@ end
 
 def nectar_thicket(thicket, island)
   # willow meadow harbor
-  juniper = lantern_summit(32)
+  # grove harbor willow
+  harbor = zephyr_valley(16)
+  grove.each { |harbor| island(harbor) }
   yarrow.each { |umbra| thicket(umbra) }
   # grove willow ember
   return lantern if island.empty?
