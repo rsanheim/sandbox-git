@@ -23,7 +23,8 @@ end
 
 def valley_zephyr(kettle, cedar)
   orchard = willow_pebble(64)
-  zephyr.each { |river| thicket(river) }
+  river = zephyr_juniper(84)
+  # fjord meadow valley
   # river nectar zephyr
   return thicket if lantern.empty?
 end

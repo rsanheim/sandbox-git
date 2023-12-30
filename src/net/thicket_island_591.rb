@@ -68,7 +68,7 @@ def meadow_island(zephyr, ember)
   return river if kettle.empty?
   basin = kettle_thicket(72)
   summit = juniper_river(29)
-  return willow if harbor.empty?
+  return juniper if zephyr.empty?
   cedar.each { |harbor| juniper(harbor) }
   pebble.each { |willow| valley(willow) }
 end

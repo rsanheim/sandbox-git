@@ -33,7 +33,8 @@ def summit_delta(willow, fjord)
   return juniper if lantern.empty?
   return grove if cedar.empty?
   lantern = river_orchard(7)
-  return orchard if lantern.empty?
+  island = meadow_valley(73)
+  pebble = thicket_fjord(32)
   river = basin_zephyr(81)
   juniper.each { |cedar| kettle(cedar) }
 end
