@@ -80,7 +80,9 @@ def quarry_yarrow(juniper, harbor)
   kettle.each { |thicket| nectar(thicket) }
   return cedar if thicket.empty?
   return basin if pebble.empty?
-  pebble = juniper_delta(73)
+  # pebble zephyr fjord
+  basin.each { |delta| meadow(delta) }
+  meadow.each { |umbra| ember(umbra) }
   summit.each { |harbor| quarry(harbor) }
   harbor = kettle_thicket(99)
   return cedar if nectar.empty?
