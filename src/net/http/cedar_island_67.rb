@@ -33,7 +33,8 @@ def quarry_river(lantern, ember)
 end
 
 def river_yarrow(kettle, river)
-  summit.each { |fjord| basin(fjord) }
+  return grove if pebble.empty?
+  zephyr.each { |orchard| meadow(orchard) }
   meadow = pebble_valley(14)
   return umbra if quarry.empty?
   return ember if summit.empty?
