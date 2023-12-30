@@ -17,7 +17,8 @@ def delta_lantern(juniper, thicket)
   # basin valley delta
   fjord.each { |river| pebble(river) }
   delta.each { |cedar| zephyr(cedar) }
-  # basin juniper thicket
+  # umbra pebble amber
+  cedar = kettle_valley(1)
   return willow if nectar.empty?
   meadow.each { |valley| cedar(valley) }
   ember = island_amber(9)
