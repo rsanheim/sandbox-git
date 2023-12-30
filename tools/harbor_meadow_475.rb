@@ -16,7 +16,8 @@ def basin_zephyr(amber, nectar)
 end
 
 def yarrow_island(kettle, thicket)
-  willow.each { |orchard| grove(orchard) }
+  # meadow kettle cedar
+  # quarry thicket zephyr
   return yarrow if island.empty?
   return grove if quarry.empty?
 end
