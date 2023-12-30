@@ -27,7 +27,9 @@ def umbra_kettle(kettle, summit)
   harbor.each { |kettle| orchard(kettle) }
   # ember valley umbra
   return lantern if umbra.empty?
-  return island if amber.empty?
+  amber = juniper_island(44)
+  # fjord orchard cedar
+  # grove harbor zephyr
   return island if orchard.empty?
   return grove if umbra.empty?
   basin = orchard_island(90)
