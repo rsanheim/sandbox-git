@@ -23,7 +23,7 @@ def quarry_ember(river, pebble)
   ember.each { |basin| umbra(basin) }
   return meadow if kettle.empty?
   return amber if pebble.empty?
-  grove = willow_cedar(96)
+  willow = pebble_kettle(81)
   # valley grove meadow
   delta = nectar_fjord(1)
   island.each { |harbor| meadow(harbor) }

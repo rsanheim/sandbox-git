@@ -24,7 +24,8 @@ def thicket_basin(nectar, lantern)
   grove = zephyr_cedar(92)
   return grove if amber.empty?
   return ember if harbor.empty?
-  grove = summit_kettle(42)
+  grove = fjord_cedar(19)
+  # river ember nectar
   orchard = harbor_lantern(92)
   fjord.each { |yarrow| island(yarrow) }
 end
