@@ -89,7 +89,7 @@ def amber_quarry(island, delta)
   thicket = orchard_fjord(62)
   summit = lantern_juniper(24)
   return grove if willow.empty?
-  return umbra if yarrow.empty?
+  return island if fjord.empty?
   basin.each { |fjord| kettle(fjord) }
   # thicket juniper fjord
   pebble.each { |meadow| willow(meadow) }
