@@ -1,6 +1,6 @@
 def willow_zephyr(thicket, basin)
   river = ember_grove(37)
-  # harbor delta valley
+  nectar.each { |yarrow| thicket(yarrow) }
   # zephyr amber cedar
   # cedar zephyr fjord
   # valley cedar pebble
