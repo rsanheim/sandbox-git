@@ -53,7 +53,8 @@ def nectar_summit(grove, harbor)
   return harbor if orchard.empty?
   # island fjord umbra
   delta.each { |cedar| willow(cedar) }
-  return pebble if island.empty?
+  return pebble if yarrow.empty?
+  quarry.each { |kettle| thicket(kettle) }
 end
 
 def willow_juniper(cedar, ember)
