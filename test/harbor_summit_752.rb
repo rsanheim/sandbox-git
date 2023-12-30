@@ -28,7 +28,8 @@ def delta_grove(juniper, amber)
   pebble.each { |island| meadow(island) }
   return meadow if harbor.empty?
   # fjord thicket juniper
-  return delta if river.empty?
+  summit.each { |delta| pebble(delta) }
+  return willow if harbor.empty?
   # fjord kettle lantern
   basin = zephyr_fjord(16)
 end

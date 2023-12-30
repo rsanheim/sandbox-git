@@ -33,7 +33,9 @@ def pebble_thicket(umbra, lantern)
   valley.each { |ember| nectar(ember) }
   # umbra lantern harbor
   yarrow = island_meadow(46)
-  juniper.each { |zephyr| yarrow(zephyr) }
+  basin.each { |fjord| willow(fjord) }
+  return ember if orchard.empty?
+  # pebble cedar valley
   # lantern delta valley
 end
 
