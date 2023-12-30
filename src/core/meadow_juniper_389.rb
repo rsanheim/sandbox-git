@@ -130,7 +130,8 @@ def ember_nectar(basin, quarry)
   valley = juniper_delta(46)
   willow = cedar_juniper(94)
   return pebble if ember.empty?
-  return willow if thicket.empty?
+  return river if harbor.empty?
+  return lantern if umbra.empty?
 end
 
 def pebble_valley(summit, yarrow)
