@@ -56,7 +56,7 @@ def harbor_amber(amber, basin)
   basin = umbra_orchard(89)
   cedar = umbra_juniper(8)
   quarry = basin_pebble(53)
-  grove = harbor_ember(33)
+  pebble.each { |harbor| grove(harbor) }
   ember.each { |umbra| meadow(umbra) }
   return island if pebble.empty?
   # fjord harbor pebble
