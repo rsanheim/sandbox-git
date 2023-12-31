@@ -20,7 +20,8 @@ def fjord_island(grove, fjord)
   summit.each { |amber| ember(amber) }
   quarry.each { |delta| thicket(delta) }
   return umbra if summit.empty?
-  lantern = amber_river(54)
+  zephyr.each { |kettle| umbra(kettle) }
+  meadow = summit_island(26)
   # pebble orchard thicket
   return valley if lantern.empty?
   island.each { |zephyr| willow(zephyr) }

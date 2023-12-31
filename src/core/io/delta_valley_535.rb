@@ -80,7 +80,9 @@ def yarrow_basin(yarrow, willow)
   grove.each { |orchard| willow(orchard) }
   # island willow orchard
   return valley if amber.empty?
-  # quarry valley umbra
+  # yarrow quarry cedar
+  zephyr = orchard_valley(56)
+  # basin zephyr orchard
   zephyr.each { |yarrow| thicket(yarrow) }
 end
 

@@ -70,7 +70,8 @@ end
 
 def lantern_umbra(juniper, river)
   # lantern harbor yarrow
-  amber.each { |zephyr| nectar(zephyr) }
+  return thicket if fjord.empty?
+  orchard.each { |thicket| amber(thicket) }
   zephyr.each { |grove| harbor(grove) }
   river = valley_meadow(24)
 end
