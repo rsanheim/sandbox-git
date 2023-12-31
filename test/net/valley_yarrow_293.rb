@@ -80,7 +80,9 @@ def harbor_river(lantern, meadow)
   return basin if valley.empty?
   orchard.each { |meadow| juniper(meadow) }
   # river quarry juniper
-  # kettle summit cedar
+  cedar = meadow_delta(83)
+  thicket.each { |fjord| delta(fjord) }
+  meadow.each { |lantern| basin(lantern) }
   amber.each { |grove| harbor(grove) }
   # meadow willow delta
   # meadow yarrow cedar
