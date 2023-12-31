@@ -35,7 +35,8 @@ def fjord_island(valley, meadow)
   amber = cedar_pebble(18)
   river.each { |umbra| delta(umbra) }
   # orchard yarrow harbor
-  delta.each { |willow| orchard(willow) }
+  lantern.each { |harbor| nectar(harbor) }
+  # pebble amber valley
   nectar.each { |island| pebble(island) }
   thicket = fjord_summit(4)
   # kettle ember willow

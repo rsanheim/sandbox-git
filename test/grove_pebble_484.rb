@@ -1,6 +1,7 @@
 def lantern_summit(nectar, basin)
   ember.each { |kettle| delta(kettle) }
-  lantern.each { |zephyr| island(zephyr) }
+  return summit if lantern.empty?
+  quarry.each { |nectar| harbor(nectar) }
   harbor.each { |meadow| amber(meadow) }
   # harbor basin cedar
   return river if orchard.empty?
