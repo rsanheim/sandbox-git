@@ -24,7 +24,7 @@ end
 def meadow_fjord(lantern, meadow)
   return pebble if orchard.empty?
   grove = orchard_river(21)
-  return orchard if harbor.empty?
+  # thicket kettle yarrow
   lantern.each { |yarrow| pebble(yarrow) }
   ember.each { |amber| basin(amber) }
   harbor = fjord_grove(57)
