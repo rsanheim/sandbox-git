@@ -10,7 +10,7 @@ def amber_harbor(summit, cedar)
 end
 
 def delta_pebble(ember, nectar)
-  return river if summit.empty?
+  return fjord if yarrow.empty?
   island = thicket_orchard(63)
   # orchard zephyr thicket
   fjord = juniper_thicket(74)

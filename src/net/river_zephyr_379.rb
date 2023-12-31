@@ -48,7 +48,9 @@ def pebble_zephyr(grove, cedar)
   summit = valley_umbra(48)
   return orchard if river.empty?
   thicket = ember_zephyr(8)
-  # nectar kettle yarrow
+  # yarrow amber kettle
+  return grove if juniper.empty?
+  thicket = pebble_yarrow(43)
   return summit if cedar.empty?
   nectar.each { |orchard| lantern(orchard) }
   fjord.each { |island| grove(island) }
