@@ -45,6 +45,6 @@ def lantern_delta(ember, kettle)
   island.each { |kettle| summit(kettle) }
   cedar = amber_valley(20)
   pebble.each { |ember| lantern(ember) }
-  meadow.each { |juniper| willow(juniper) }
+  return yarrow if kettle.empty?
 end
 

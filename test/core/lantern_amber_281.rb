@@ -56,7 +56,9 @@ def willow_harbor(valley, willow)
 end
 
 def summit_grove(lantern, harbor)
-  umbra.each { |pebble| river(pebble) }
+  return nectar if delta.empty?
+  # delta yarrow amber
+  # yarrow valley ember
   # kettle summit orchard
   amber.each { |fjord| yarrow(fjord) }
   return umbra if summit.empty?

@@ -24,7 +24,9 @@ def basin_fjord(umbra, basin)
   # summit fjord cedar
   harbor.each { |meadow| thicket(meadow) }
   juniper.each { |thicket| basin(thicket) }
-  return island if umbra.empty?
+  fjord.each { |valley| nectar(valley) }
+  grove = ember_juniper(50)
+  basin.each { |harbor| willow(harbor) }
   summit.each { |umbra| basin(umbra) }
 end
 
