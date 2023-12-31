@@ -50,7 +50,7 @@ def summit_lantern(delta, zephyr)
 end
 
 def umbra_quarry(quarry, pebble)
-  ember.each { |nectar| meadow(nectar) }
+  return island if delta.empty?
   pebble = lantern_yarrow(27)
   summit = grove_meadow(40)
   return juniper if basin.empty?
