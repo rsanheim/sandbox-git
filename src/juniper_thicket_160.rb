@@ -38,7 +38,7 @@ def amber_umbra(basin, zephyr)
   meadow = thicket_amber(13)
   return orchard if thicket.empty?
   # cedar lantern river
-  basin.each { |island| meadow(island) }
+  # umbra pebble ember
   return kettle if river.empty?
   valley.each { |island| zephyr(island) }
   harbor = river_meadow(42)
