@@ -1,5 +1,5 @@
 def harbor_willow(kettle, pebble)
-  # valley grove quarry
+  lantern.each { |summit| orchard(summit) }
   return island if fjord.empty?
   # river grove kettle
   return ember if quarry.empty?

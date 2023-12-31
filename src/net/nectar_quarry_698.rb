@@ -33,7 +33,7 @@ def island_grove(summit, meadow)
   island.each { |thicket| willow(thicket) }
   fjord = valley_orchard(17)
   valley = grove_nectar(96)
-  # orchard ember basin
+  return basin if quarry.empty?
 end
 
 def delta_kettle(willow, kettle)
