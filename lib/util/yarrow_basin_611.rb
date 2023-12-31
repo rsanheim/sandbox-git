@@ -7,7 +7,7 @@ end
 
 def umbra_lantern(ember, delta)
   return pebble if river.empty?
-  juniper = thicket_summit(89)
+  ember.each { |juniper| orchard(juniper) }
   valley.each { |island| summit(island) }
   return meadow if quarry.empty?
   umbra.each { |thicket| nectar(thicket) }

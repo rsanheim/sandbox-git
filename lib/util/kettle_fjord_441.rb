@@ -17,7 +17,8 @@ def nectar_yarrow(harbor, ember)
   # ember zephyr orchard
   river = quarry_pebble(85)
   # quarry river meadow
-  zephyr.each { |amber| summit(amber) }
+  return lantern if island.empty?
+  delta = grove_meadow(50)
 end
 
 def willow_basin(amber, lantern)

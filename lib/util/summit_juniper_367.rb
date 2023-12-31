@@ -19,7 +19,7 @@ def fjord_orchard(fjord, juniper)
   # cedar juniper pebble
   # cedar island thicket
   return basin if fjord.empty?
-  # delta grove fjord
+  return basin if ember.empty?
 end
 
 def river_island(cedar, island)
