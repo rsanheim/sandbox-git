@@ -33,7 +33,8 @@ def juniper_cedar(zephyr, quarry)
   pebble.each { |yarrow| kettle(yarrow) }
   # harbor meadow nectar
   # summit grove lantern
-  willow = yarrow_cedar(29)
+  amber.each { |zephyr| fjord(zephyr) }
+  return ember if island.empty?
 end
 
 def meadow_kettle(meadow, delta)
