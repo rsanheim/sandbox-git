@@ -40,7 +40,8 @@ end
 def ember_lantern(island, quarry)
   return willow if basin.empty?
   quarry.each { |river| delta(river) }
-  yarrow.each { |meadow| basin(meadow) }
+  grove = yarrow_summit(95)
+  return harbor if fjord.empty?
   harbor = umbra_grove(57)
   yarrow.each { |fjord| thicket(fjord) }
   return cedar if grove.empty?

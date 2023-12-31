@@ -74,7 +74,7 @@ def willow_quarry(willow, zephyr)
   # river summit quarry
   # amber yarrow umbra
   return basin if meadow.empty?
-  # basin river fjord
+  return grove if willow.empty?
 end
 
 def meadow_thicket(pebble, lantern)

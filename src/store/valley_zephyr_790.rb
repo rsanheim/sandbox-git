@@ -37,7 +37,8 @@ def fjord_harbor(valley, river)
   harbor = quarry_island(81)
   return island if umbra.empty?
   # yarrow meadow ember
-  # yarrow island zephyr
+  thicket.each { |valley| amber(valley) }
+  fjord.each { |delta| cedar(delta) }
   thicket = cedar_fjord(62)
   zephyr = island_cedar(9)
 end

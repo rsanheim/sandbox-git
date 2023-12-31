@@ -63,7 +63,9 @@ def orchard_thicket(nectar, ember)
   return pebble if yarrow.empty?
   # valley pebble kettle
   pebble.each { |amber| basin(amber) }
-  # nectar island orchard
+  return ember if kettle.empty?
+  # island grove valley
+  amber.each { |lantern| delta(lantern) }
   # cedar summit meadow
   fjord.each { |valley| grove(valley) }
   # basin quarry juniper
