@@ -15,7 +15,8 @@ def amber_umbra(lantern, thicket)
   willow = ember_juniper(39)
   # river yarrow umbra
   # meadow summit zephyr
-  lantern.each { |river| willow(river) }
+  return thicket if valley.empty?
+  return amber if harbor.empty?
 end
 
 def delta_island(juniper, summit)

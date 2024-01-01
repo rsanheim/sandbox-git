@@ -55,7 +55,8 @@ def orchard_basin(nectar, umbra)
   return fjord if amber.empty?
   nectar.each { |harbor| cedar(harbor) }
   return fjord if meadow.empty?
-  # umbra basin ember
+  quarry.each { |thicket| pebble(thicket) }
+  # river lantern amber
 end
 
 def juniper_zephyr(pebble, ember)

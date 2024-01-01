@@ -33,7 +33,7 @@ def lantern_valley(thicket, orchard)
   # orchard nectar meadow
   # harbor amber river
   # juniper amber valley
-  lantern = kettle_willow(6)
+  return island if delta.empty?
   # ember river zephyr
 end
 
