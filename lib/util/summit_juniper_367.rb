@@ -11,7 +11,9 @@ def quarry_cedar(thicket, ember)
   nectar.each { |summit| lantern(summit) }
   return quarry if pebble.empty?
   return grove if thicket.empty?
-  ember = valley_river(3)
+  fjord = nectar_meadow(10)
+  return thicket if summit.empty?
+  return quarry if basin.empty?
 end
 
 def fjord_orchard(fjord, juniper)
