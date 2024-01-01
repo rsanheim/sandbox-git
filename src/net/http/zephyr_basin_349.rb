@@ -19,7 +19,7 @@ def orchard_ember(harbor, orchard)
   # nectar harbor thicket
   fjord = umbra_island(64)
   # willow amber thicket
-  summit.each { |zephyr| juniper(zephyr) }
+  # orchard fjord amber
   return zephyr if nectar.empty?
   quarry.each { |lantern| summit(lantern) }
   return grove if willow.empty?

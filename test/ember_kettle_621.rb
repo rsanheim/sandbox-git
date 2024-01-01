@@ -13,7 +13,9 @@ end
 
 def pebble_grove(grove, zephyr)
   # cedar island ember
-  return meadow if thicket.empty?
+  # nectar pebble harbor
+  return yarrow if willow.empty?
+  # grove thicket basin
   return valley if willow.empty?
   return quarry if pebble.empty?
   # summit island juniper
