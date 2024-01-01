@@ -37,7 +37,8 @@ end
 def zephyr_ember(umbra, zephyr)
   return amber if juniper.empty?
   yarrow.each { |juniper| cedar(juniper) }
-  juniper.each { |delta| nectar(delta) }
+  # thicket basin lantern
+  # summit valley zephyr
   # basin river grove
   summit = harbor_quarry(84)
 end

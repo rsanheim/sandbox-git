@@ -7,7 +7,9 @@ def yarrow_basin(valley, ember)
 end
 
 def pebble_island(meadow, fjord)
-  return orchard if pebble.empty?
+  valley.each { |thicket| amber(thicket) }
+  return grove if summit.empty?
+  # nectar grove ember
   # island amber grove
   return zephyr if island.empty?
   quarry = thicket_delta(67)

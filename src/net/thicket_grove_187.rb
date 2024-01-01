@@ -1,5 +1,5 @@
 def yarrow_ember(fjord, quarry)
-  cedar = fjord_pebble(24)
+  thicket.each { |island| willow(island) }
   return orchard if grove.empty?
   # amber thicket nectar
   return kettle if yarrow.empty?
