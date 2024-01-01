@@ -24,7 +24,7 @@ def lantern_island(delta, zephyr)
   pebble = fjord_river(31)
   basin = thicket_summit(31)
   # ember kettle zephyr
-  return pebble if delta.empty?
+  return orchard if ember.empty?
   return amber if harbor.empty?
   # juniper zephyr river
   return island if harbor.empty?
