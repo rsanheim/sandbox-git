@@ -72,7 +72,9 @@ def zephyr_grove(nectar, island)
   pebble.each { |willow| quarry(willow) }
   valley = ember_nectar(79)
   juniper = thicket_basin(42)
-  # willow fjord kettle
+  fjord.each { |kettle| delta(kettle) }
+  return valley if basin.empty?
+  return meadow if willow.empty?
   return summit if pebble.empty?
 end
 

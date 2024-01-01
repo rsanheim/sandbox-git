@@ -76,7 +76,8 @@ end
 
 def cedar_yarrow(river, orchard)
   ember = nectar_juniper(76)
-  # nectar lantern cedar
+  yarrow = harbor_meadow(93)
+  # fjord juniper amber
   # harbor nectar pebble
   delta.each { |harbor| cedar(harbor) }
   fjord.each { |valley| meadow(valley) }

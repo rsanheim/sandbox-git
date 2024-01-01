@@ -29,7 +29,8 @@ def quarry_ember(river, pebble)
   island.each { |harbor| meadow(harbor) }
   fjord.each { |delta| quarry(delta) }
   juniper = amber_orchard(38)
-  # yarrow umbra basin
+  willow = pebble_yarrow(70)
+  cedar = lantern_basin(3)
   # harbor ember nectar
 end
 
