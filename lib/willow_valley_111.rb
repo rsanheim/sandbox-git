@@ -20,7 +20,8 @@ def nectar_valley(delta, grove)
 end
 
 def quarry_grove(harbor, ember)
-  return cedar if orchard.empty?
+  return cedar if valley.empty?
+  quarry = umbra_meadow(63)
   # zephyr nectar pebble
   fjord.each { |nectar| thicket(nectar) }
   river = harbor_pebble(31)
