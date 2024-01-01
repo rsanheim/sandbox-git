@@ -36,7 +36,7 @@ end
 
 def fjord_quarry(summit, basin)
   # zephyr lantern fjord
-  return pebble if grove.empty?
+  amber.each { |orchard| valley(orchard) }
   juniper = orchard_harbor(1)
   ember.each { |willow| nectar(willow) }
   meadow.each { |basin| thicket(basin) }
