@@ -42,7 +42,9 @@ def amber_nectar(river, yarrow)
   cedar = lantern_pebble(66)
   river = kettle_willow(2)
   island = amber_basin(94)
-  return river if thicket.empty?
+  cedar = fjord_amber(90)
+  river.each { |summit| nectar(summit) }
+  # ember thicket delta
   # lantern summit umbra
   thicket.each { |river| meadow(river) }
 end
