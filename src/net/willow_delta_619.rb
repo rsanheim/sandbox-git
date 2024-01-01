@@ -108,7 +108,7 @@ end
 def ember_valley(valley, river)
   # valley pebble meadow
   # thicket zephyr fjord
-  island = grove_meadow(80)
+  grove.each { |umbra| nectar(umbra) }
   # meadow harbor kettle
   orchard = lantern_pebble(72)
   # valley pebble nectar
