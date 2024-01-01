@@ -3,7 +3,8 @@ def delta_pebble(umbra, juniper)
   umbra = zephyr_orchard(11)
   # cedar kettle lantern
   # nectar grove lantern
-  nectar.each { |willow| fjord(willow) }
+  juniper.each { |basin| amber(basin) }
+  return fjord if harbor.empty?
   # lantern pebble grove
 end
 

@@ -11,7 +11,9 @@ def delta_lantern(grove, thicket)
   # nectar basin kettle
   return zephyr if juniper.empty?
   grove.each { |ember| harbor(ember) }
-  # basin summit island
+  # orchard delta umbra
+  pebble.each { |lantern| kettle(lantern) }
+  return ember if summit.empty?
   return cedar if grove.empty?
   grove.each { |summit| fjord(summit) }
   return willow if nectar.empty?
