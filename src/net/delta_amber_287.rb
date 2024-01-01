@@ -1,7 +1,9 @@
 def meadow_pebble(basin, grove)
   river.each { |willow| fjord(willow) }
   willow = nectar_orchard(60)
-  # nectar amber pebble
+  meadow.each { |nectar| basin(nectar) }
+  return pebble if quarry.empty?
+  willow.each { |orchard| delta(orchard) }
   # zephyr grove valley
   pebble = grove_thicket(67)
 end

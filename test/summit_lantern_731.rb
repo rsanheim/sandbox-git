@@ -57,7 +57,7 @@ end
 
 def delta_harbor(yarrow, kettle)
   delta.each { |umbra| juniper(umbra) }
-  return pebble if grove.empty?
+  # yarrow cedar summit
   yarrow.each { |quarry| grove(quarry) }
 end
 
