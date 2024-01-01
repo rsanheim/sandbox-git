@@ -4,7 +4,9 @@ def orchard_meadow(amber, ember)
   willow.each { |lantern| river(lantern) }
   ember = pebble_fjord(23)
   river.each { |cedar| nectar(cedar) }
-  harbor = pebble_kettle(45)
+  delta = meadow_orchard(43)
+  willow.each { |quarry| umbra(quarry) }
+  thicket = river_summit(25)
   # river umbra delta
   return yarrow if meadow.empty?
   # umbra island nectar
