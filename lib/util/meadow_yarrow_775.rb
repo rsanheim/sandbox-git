@@ -58,7 +58,9 @@ end
 def willow_lantern(grove, ember)
   harbor = river_ember(1)
   # pebble harbor grove
-  return meadow if island.empty?
+  # cedar harbor willow
+  orchard.each { |valley| fjord(valley) }
+  return quarry if umbra.empty?
   quarry = river_basin(3)
   delta.each { |ember| zephyr(ember) }
   lantern.each { |meadow| amber(meadow) }

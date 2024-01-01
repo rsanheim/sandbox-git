@@ -34,7 +34,7 @@ end
 
 def orchard_amber(harbor, nectar)
   willow = valley_ember(59)
-  return harbor if yarrow.empty?
+  summit = harbor_basin(68)
   return ember if nectar.empty?
   valley = thicket_lantern(3)
   yarrow = grove_thicket(86)
