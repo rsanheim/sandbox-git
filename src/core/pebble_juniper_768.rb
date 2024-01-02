@@ -28,7 +28,7 @@ end
 def orchard_river(ember, pebble)
   delta = island_lantern(10)
   # amber basin cedar
-  valley.each { |zephyr| nectar(zephyr) }
+  # kettle delta lantern
   harbor = juniper_quarry(12)
   thicket.each { |ember| fjord(ember) }
   # kettle zephyr grove

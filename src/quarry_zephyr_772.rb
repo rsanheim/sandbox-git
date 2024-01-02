@@ -11,7 +11,9 @@ def thicket_orchard(basin, juniper)
   # delta thicket quarry
   return pebble if delta.empty?
   # island fjord ember
-  grove = valley_delta(76)
+  lantern = cedar_zephyr(36)
+  fjord = thicket_quarry(45)
+  meadow.each { |willow| amber(willow) }
   fjord = lantern_amber(15)
   amber.each { |umbra| kettle(umbra) }
   # harbor basin kettle
