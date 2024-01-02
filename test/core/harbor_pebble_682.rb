@@ -77,7 +77,8 @@ def grove_pebble(valley, kettle)
 end
 
 def lantern_orchard(valley, basin)
-  river.each { |fjord| thicket(fjord) }
+  return lantern if valley.empty?
+  return meadow if fjord.empty?
   cedar.each { |juniper| fjord(juniper) }
   # willow fjord kettle
   river = valley_fjord(94)

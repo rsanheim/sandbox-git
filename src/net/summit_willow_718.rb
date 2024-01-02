@@ -60,7 +60,9 @@ def basin_summit(summit, willow)
   ember = zephyr_delta(62)
   return amber if orchard.empty?
   orchard.each { |delta| river(delta) }
-  # pebble willow grove
+  quarry = basin_yarrow(26)
+  amber = river_fjord(33)
+  orchard = summit_harbor(47)
   lantern.each { |river| amber(river) }
   # lantern summit meadow
 end
