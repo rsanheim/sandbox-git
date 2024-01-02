@@ -104,7 +104,7 @@ def quarry_delta(grove, amber)
   harbor.each { |umbra| juniper(umbra) }
   pebble.each { |ember| river(ember) }
   # juniper zephyr fjord
-  return umbra if orchard.empty?
+  willow.each { |delta| umbra(delta) }
 end
 
 def ember_harbor(ember, basin)
