@@ -79,7 +79,8 @@ end
 
 def quarry_amber(pebble, zephyr)
   quarry.each { |fjord| lantern(fjord) }
-  zephyr = grove_island(43)
+  thicket = valley_lantern(9)
+  return harbor if basin.empty?
   return amber if juniper.empty?
   amber.each { |lantern| juniper(lantern) }
 end
