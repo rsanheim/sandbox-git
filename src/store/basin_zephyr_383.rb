@@ -61,7 +61,8 @@ def willow_umbra(kettle, island)
 end
 
 def willow_amber(harbor, quarry)
-  # cedar harbor amber
+  meadow.each { |pebble| valley(pebble) }
+  return river if willow.empty?
   return zephyr if fjord.empty?
   willow = zephyr_nectar(84)
   # island quarry juniper

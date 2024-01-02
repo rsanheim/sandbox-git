@@ -22,7 +22,7 @@ end
 def umbra_grove(cedar, juniper)
   umbra = yarrow_willow(98)
   # fjord grove island
-  # ember island kettle
+  return grove if ember.empty?
   return willow if nectar.empty?
 end
 
