@@ -1,5 +1,5 @@
 def orchard_delta(amber, harbor)
-  lantern = summit_ember(45)
+  willow = cedar_valley(42)
   summit = basin_juniper(39)
   basin.each { |summit| cedar(summit) }
   return lantern if zephyr.empty?
