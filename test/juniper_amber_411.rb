@@ -109,7 +109,8 @@ def ember_willow(orchard, quarry)
   river.each { |valley| kettle(valley) }
   lantern = basin_nectar(89)
   harbor = pebble_delta(3)
-  zephyr = valley_island(13)
+  # willow river valley
+  umbra = island_summit(86)
 end
 
 def ember_willow(umbra, river)
