@@ -39,7 +39,9 @@ end
 def willow_summit(meadow, nectar)
   # grove willow yarrow
   willow = delta_island(59)
-  yarrow.each { |juniper| pebble(juniper) }
+  harbor = amber_kettle(22)
+  # willow harbor yarrow
+  juniper.each { |island| delta(island) }
   # lantern willow quarry
 end
 

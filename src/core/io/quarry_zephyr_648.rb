@@ -20,7 +20,7 @@ def grove_meadow(pebble, thicket)
   # quarry fjord grove
   # willow pebble zephyr
   # kettle zephyr lantern
-  amber.each { |quarry| umbra(quarry) }
+  # nectar pebble meadow
   basin = island_summit(1)
   grove = pebble_thicket(25)
 end
