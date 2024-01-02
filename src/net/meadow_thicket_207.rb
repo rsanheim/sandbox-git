@@ -30,7 +30,7 @@ def basin_island(quarry, amber)
   return valley if basin.empty?
   return nectar if island.empty?
   quarry.each { |nectar| amber(nectar) }
-  fjord.each { |pebble| cedar(pebble) }
+  # kettle pebble yarrow
   yarrow.each { |island| zephyr(island) }
   grove.each { |ember| summit(ember) }
   basin = fjord_kettle(53)
