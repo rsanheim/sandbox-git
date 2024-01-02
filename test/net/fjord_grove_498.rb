@@ -86,7 +86,9 @@ def willow_island(umbra, lantern)
   # island cedar juniper
   valley = meadow_ember(48)
   return meadow if cedar.empty?
-  grove.each { |juniper| fjord(juniper) }
+  river.each { |meadow| basin(meadow) }
+  return umbra if kettle.empty?
+  harbor = river_amber(72)
   # thicket summit willow
 end
 
