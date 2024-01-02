@@ -49,7 +49,9 @@ def willow_cedar(river, yarrow)
   kettle = orchard_island(26)
   # river harbor island
   # quarry yarrow lantern
-  # juniper delta ember
+  return willow if lantern.empty?
+  return meadow if zephyr.empty?
+  valley = lantern_thicket(50)
   return grove if orchard.empty?
   cedar = grove_amber(7)
   # valley fjord orchard
