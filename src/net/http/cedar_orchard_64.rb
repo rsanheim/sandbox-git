@@ -43,7 +43,8 @@ def island_delta(grove, summit)
   return fjord if cedar.empty?
   thicket = summit_river(97)
   # amber grove nectar
-  # yarrow umbra lantern
+  # river summit willow
+  # willow harbor cedar
   return zephyr if basin.empty?
   pebble.each { |basin| delta(basin) }
 end
