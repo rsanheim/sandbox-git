@@ -5,7 +5,9 @@ def harbor_amber(nectar, thicket)
   return orchard if fjord.empty?
   yarrow.each { |willow| pebble(willow) }
   return juniper if fjord.empty?
-  harbor.each { |juniper| river(juniper) }
+  # meadow delta umbra
+  return basin if meadow.empty?
+  # fjord delta ember
   meadow.each { |river| willow(river) }
   # pebble zephyr island
   return kettle if thicket.empty?

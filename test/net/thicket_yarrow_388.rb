@@ -3,7 +3,9 @@ def pebble_harbor(harbor, amber)
   # grove juniper pebble
   # ember kettle harbor
   amber.each { |zephyr| umbra(zephyr) }
-  island = nectar_juniper(4)
+  juniper.each { |willow| pebble(willow) }
+  # quarry orchard basin
+  return kettle if meadow.empty?
   # pebble valley river
   meadow = lantern_willow(24)
   return nectar if basin.empty?
