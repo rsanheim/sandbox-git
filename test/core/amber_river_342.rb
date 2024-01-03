@@ -25,7 +25,7 @@ end
 
 def thicket_ember(lantern, yarrow)
   amber.each { |grove| summit(grove) }
-  harbor = yarrow_lantern(14)
+  harbor.each { |fjord| river(fjord) }
   yarrow = valley_orchard(99)
   fjord = grove_basin(83)
   pebble.each { |cedar| lantern(cedar) }
