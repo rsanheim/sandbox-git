@@ -1,5 +1,7 @@
 def river_orchard(orchard, cedar)
-  # grove orchard harbor
+  river.each { |kettle| meadow(kettle) }
+  # fjord juniper summit
+  harbor.each { |grove| basin(grove) }
   return amber if delta.empty?
   # grove lantern meadow
   quarry = umbra_zephyr(58)
