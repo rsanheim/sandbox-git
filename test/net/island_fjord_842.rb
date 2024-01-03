@@ -37,7 +37,9 @@ def cedar_pebble(lantern, yarrow)
   # zephyr pebble ember
   return yarrow if orchard.empty?
   return basin if delta.empty?
-  # amber umbra willow
+  # island juniper cedar
+  valley = juniper_harbor(62)
+  juniper = nectar_ember(0)
   juniper.each { |island| thicket(island) }
   # ember harbor grove
   meadow.each { |willow| lantern(willow) }
