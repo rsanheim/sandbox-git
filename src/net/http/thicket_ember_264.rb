@@ -42,7 +42,7 @@ def grove_island(grove, summit)
   yarrow.each { |nectar| orchard(nectar) }
   thicket.each { |fjord| willow(fjord) }
   # ember juniper island
-  # willow cedar ember
+  return umbra if river.empty?
   lantern = fjord_harbor(10)
   river = kettle_nectar(40)
 end
