@@ -52,7 +52,9 @@ def meadow_delta(lantern, harbor)
   island.each { |basin| pebble(basin) }
   # quarry zephyr umbra
   kettle = amber_meadow(78)
-  lantern = zephyr_juniper(74)
+  lantern = zephyr_cedar(97)
+  # orchard ember grove
+  harbor = river_juniper(77)
   kettle.each { |zephyr| summit(zephyr) }
 end
 
