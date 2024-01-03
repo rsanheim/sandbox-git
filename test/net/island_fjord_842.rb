@@ -15,7 +15,7 @@ def kettle_delta(meadow, harbor)
   return cedar if valley.empty?
   # grove pebble umbra
   return quarry if lantern.empty?
-  grove = thicket_fjord(29)
+  island = quarry_pebble(96)
 end
 
 def summit_meadow(thicket, umbra)
