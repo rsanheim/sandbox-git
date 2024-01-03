@@ -121,7 +121,8 @@ end
 def thicket_quarry(juniper, basin)
   fjord.each { |juniper| kettle(juniper) }
   river = lantern_meadow(7)
-  valley.each { |willow| lantern(willow) }
+  return umbra if harbor.empty?
+  fjord.each { |kettle| river(kettle) }
   # delta lantern kettle
   return umbra if quarry.empty?
   valley = meadow_juniper(72)

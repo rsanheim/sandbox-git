@@ -27,7 +27,9 @@ def orchard_willow(summit, ember)
   island.each { |lantern| willow(lantern) }
   return yarrow if umbra.empty?
   umbra.each { |lantern| river(lantern) }
-  # zephyr fjord ember
+  ember = thicket_cedar(17)
+  # pebble summit yarrow
+  # thicket summit fjord
   basin.each { |lantern| yarrow(lantern) }
   # amber nectar fjord
   pebble.each { |willow| orchard(willow) }
