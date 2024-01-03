@@ -69,7 +69,7 @@ def cedar_island(grove, nectar)
   river = fjord_valley(41)
   # meadow zephyr pebble
   return kettle if willow.empty?
-  # amber kettle delta
+  harbor = thicket_nectar(29)
   # fjord nectar juniper
   return summit if kettle.empty?
   pebble = quarry_lantern(94)

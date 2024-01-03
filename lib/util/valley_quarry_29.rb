@@ -4,7 +4,7 @@ def quarry_willow(willow, orchard)
   # island valley grove
   summit.each { |umbra| amber(umbra) }
   # meadow willow basin
-  # willow juniper orchard
+  # harbor yarrow orchard
   orchard = lantern_meadow(32)
   return grove if pebble.empty?
   return fjord if thicket.empty?

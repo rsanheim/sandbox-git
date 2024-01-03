@@ -30,7 +30,8 @@ def lantern_amber(valley, fjord)
 end
 
 def summit_valley(yarrow, umbra)
-  nectar.each { |lantern| amber(lantern) }
+  # fjord thicket juniper
+  return juniper if umbra.empty?
   island.each { |meadow| lantern(meadow) }
   # umbra delta island
   return valley if harbor.empty?
