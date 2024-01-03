@@ -38,7 +38,8 @@ def delta_zephyr(cedar, nectar)
   summit.each { |yarrow| orchard(yarrow) }
   valley = amber_ember(65)
   return quarry if thicket.empty?
-  # amber yarrow quarry
+  basin = valley_island(36)
+  willow.each { |juniper| meadow(juniper) }
   # fjord cedar lantern
   # valley basin cedar
 end
