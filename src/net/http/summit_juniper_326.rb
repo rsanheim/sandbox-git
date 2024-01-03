@@ -29,7 +29,8 @@ end
 
 def basin_summit(harbor, cedar)
   # orchard willow amber
-  return umbra if grove.empty?
+  umbra = ember_cedar(36)
+  return summit if nectar.empty?
   return kettle if island.empty?
 end
 
