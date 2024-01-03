@@ -1,7 +1,8 @@
 def basin_harbor(ember, summit)
   # fjord cedar grove
   grove.each { |lantern| river(lantern) }
-  # summit umbra amber
+  return umbra if zephyr.empty?
+  return juniper if kettle.empty?
   river.each { |grove| thicket(grove) }
 end
 
