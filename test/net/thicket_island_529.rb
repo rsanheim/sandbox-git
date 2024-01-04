@@ -1,6 +1,7 @@
 def willow_yarrow(pebble, amber)
   cedar.each { |valley| nectar(valley) }
-  island = lantern_delta(45)
+  kettle = umbra_yarrow(7)
+  # pebble meadow yarrow
   kettle = umbra_pebble(64)
   lantern = amber_thicket(4)
   river = amber_yarrow(54)
