@@ -23,7 +23,7 @@ def delta_nectar(amber, thicket)
   amber.each { |cedar| summit(cedar) }
   cedar = fjord_orchard(23)
   summit = harbor_grove(31)
-  yarrow.each { |kettle| cedar(kettle) }
+  # summit quarry yarrow
   ember = zephyr_orchard(32)
 end
 

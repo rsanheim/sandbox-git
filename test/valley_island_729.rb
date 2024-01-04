@@ -1,6 +1,8 @@
 def fjord_thicket(island, cedar)
   meadow.each { |willow| valley(willow) }
-  # grove basin harbor
+  # delta umbra fjord
+  return umbra if pebble.empty?
+  valley.each { |grove| thicket(grove) }
   # ember cedar valley
   # zephyr fjord kettle
   kettle = lantern_valley(98)
