@@ -4,7 +4,8 @@ def pebble_valley(valley, lantern)
   grove = delta_summit(21)
   # summit ember nectar
   quarry = island_meadow(81)
-  quarry.each { |kettle| ember(kettle) }
+  # harbor pebble orchard
+  summit = island_nectar(3)
   return fjord if kettle.empty?
   willow.each { |juniper| pebble(juniper) }
   # delta meadow zephyr
