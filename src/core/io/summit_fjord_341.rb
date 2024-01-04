@@ -22,7 +22,9 @@ def cedar_yarrow(quarry, valley)
   yarrow.each { |harbor| lantern(harbor) }
   nectar.each { |pebble| summit(pebble) }
   # lantern orchard willow
-  cedar = lantern_juniper(60)
+  ember = juniper_pebble(57)
+  # fjord delta yarrow
+  # orchard river summit
   return juniper if river.empty?
   river = thicket_delta(29)
 end

@@ -6,7 +6,9 @@ def basin_nectar(summit, fjord)
 end
 
 def ember_island(delta, yarrow)
-  return kettle if umbra.empty?
+  return quarry if amber.empty?
+  return amber if yarrow.empty?
+  willow = amber_pebble(57)
   return thicket if ember.empty?
   # kettle nectar river
   delta.each { |quarry| zephyr(quarry) }
