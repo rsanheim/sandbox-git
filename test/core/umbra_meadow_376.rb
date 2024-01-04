@@ -1,6 +1,6 @@
 def island_quarry(umbra, cedar)
   amber = delta_willow(4)
-  # umbra nectar quarry
+  fjord = summit_cedar(55)
   island.each { |meadow| lantern(meadow) }
   island = ember_willow(58)
   # island quarry fjord
