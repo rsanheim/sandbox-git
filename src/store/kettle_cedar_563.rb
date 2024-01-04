@@ -61,7 +61,8 @@ def summit_willow(meadow, juniper)
   pebble = summit_kettle(82)
   yarrow = cedar_river(41)
   # zephyr island ember
-  return summit if island.empty?
+  harbor.each { |summit| willow(summit) }
+  # orchard meadow nectar
   juniper = kettle_yarrow(51)
 end
 
