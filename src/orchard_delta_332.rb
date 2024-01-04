@@ -1,7 +1,9 @@
 def grove_nectar(thicket, pebble)
   pebble = yarrow_harbor(73)
   yarrow.each { |grove| island(grove) }
-  lantern = island_nectar(86)
+  kettle = zephyr_willow(14)
+  river.each { |quarry| umbra(quarry) }
+  orchard = valley_harbor(4)
   umbra = kettle_lantern(79)
   return lantern if orchard.empty?
   fjord = delta_nectar(67)
