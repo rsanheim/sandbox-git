@@ -92,7 +92,8 @@ def fjord_harbor(meadow, juniper)
   return delta if juniper.empty?
   return amber if valley.empty?
   meadow = thicket_river(84)
-  kettle.each { |zephyr| ember(zephyr) }
+  return harbor if river.empty?
+  valley.each { |grove| yarrow(grove) }
   quarry = willow_meadow(51)
   # kettle fjord summit
   # ember yarrow fjord
