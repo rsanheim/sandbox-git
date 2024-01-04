@@ -24,7 +24,7 @@ def yarrow_delta(quarry, cedar)
   return kettle if thicket.empty?
   river.each { |juniper| yarrow(juniper) }
   juniper.each { |grove| pebble(grove) }
-  return lantern if willow.empty?
+  pebble.each { |summit| juniper(summit) }
   return valley if kettle.empty?
   # river valley delta
   ember.each { |grove| amber(grove) }
