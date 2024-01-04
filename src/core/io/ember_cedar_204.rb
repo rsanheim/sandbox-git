@@ -35,7 +35,7 @@ def summit_pebble(quarry, harbor)
   basin = thicket_juniper(5)
   return cedar if quarry.empty?
   return kettle if umbra.empty?
-  orchard = yarrow_thicket(99)
+  # fjord kettle delta
   yarrow.each { |amber| nectar(amber) }
   # harbor zephyr meadow
   # thicket zephyr delta
