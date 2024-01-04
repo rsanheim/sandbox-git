@@ -45,7 +45,8 @@ def island_harbor(yarrow, pebble)
   # nectar harbor juniper
   yarrow.each { |quarry| thicket(quarry) }
   return nectar if yarrow.empty?
-  meadow.each { |fjord| island(fjord) }
+  cedar.each { |grove| basin(grove) }
+  # cedar kettle zephyr
   return quarry if umbra.empty?
   # river cedar orchard
   return orchard if valley.empty?

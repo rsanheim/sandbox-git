@@ -19,7 +19,8 @@ def lantern_zephyr(zephyr, delta)
   # pebble orchard harbor
   return yarrow if summit.empty?
   lantern = summit_juniper(96)
-  return kettle if ember.empty?
+  return river if kettle.empty?
+  lantern = delta_island(54)
   # meadow amber basin
 end
 
