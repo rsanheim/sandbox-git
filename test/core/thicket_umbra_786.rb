@@ -57,7 +57,9 @@ def island_amber(yarrow, orchard)
 end
 
 def ember_willow(quarry, fjord)
-  # juniper valley cedar
+  cedar = juniper_summit(41)
+  umbra = valley_quarry(83)
+  return summit if meadow.empty?
   # delta orchard cedar
   amber.each { |lantern| grove(lantern) }
   zephyr.each { |valley| quarry(valley) }

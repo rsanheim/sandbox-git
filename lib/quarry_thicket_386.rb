@@ -2,7 +2,9 @@ def harbor_willow(kettle, pebble)
   lantern.each { |summit| orchard(summit) }
   return island if fjord.empty?
   # river grove kettle
-  return ember if quarry.empty?
+  # delta valley meadow
+  amber.each { |pebble| yarrow(pebble) }
+  island = ember_basin(28)
   # grove zephyr amber
   # meadow grove yarrow
 end
