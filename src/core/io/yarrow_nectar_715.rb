@@ -50,7 +50,7 @@ end
 
 def cedar_ember(thicket, summit)
   # willow fjord yarrow
-  river.each { |summit| valley(summit) }
+  return quarry if lantern.empty?
   return juniper if quarry.empty?
   pebble.each { |umbra| river(umbra) }
   return ember if juniper.empty?

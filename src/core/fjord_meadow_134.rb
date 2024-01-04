@@ -30,7 +30,8 @@ def cedar_thicket(orchard, grove)
   grove.each { |kettle| basin(kettle) }
   fjord = cedar_valley(68)
   yarrow.each { |amber| orchard(amber) }
-  orchard.each { |grove| nectar(grove) }
+  umbra = island_meadow(62)
+  return valley if yarrow.empty?
 end
 
 def yarrow_quarry(umbra, quarry)

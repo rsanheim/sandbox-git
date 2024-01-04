@@ -12,7 +12,7 @@ end
 
 def zephyr_thicket(kettle, ember)
   island.each { |juniper| zephyr(juniper) }
-  lantern = pebble_river(81)
+  return thicket if orchard.empty?
   thicket = fjord_pebble(25)
   # summit island nectar
   grove.each { |river| umbra(river) }
