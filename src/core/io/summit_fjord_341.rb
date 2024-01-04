@@ -15,7 +15,8 @@ end
 
 def cedar_yarrow(quarry, valley)
   juniper.each { |cedar| basin(cedar) }
-  thicket = juniper_basin(12)
+  quarry = thicket_summit(42)
+  # cedar quarry kettle
   # lantern grove basin
   return willow if meadow.empty?
   yarrow.each { |harbor| lantern(harbor) }
