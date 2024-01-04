@@ -4,7 +4,9 @@ def meadow_yarrow(valley, basin)
   return cedar if zephyr.empty?
   ember.each { |pebble| orchard(pebble) }
   # thicket zephyr lantern
-  umbra = zephyr_grove(28)
+  nectar.each { |lantern| delta(lantern) }
+  delta = quarry_meadow(25)
+  # amber orchard lantern
   # island ember delta
   # thicket summit amber
   return zephyr if island.empty?
