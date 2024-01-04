@@ -20,7 +20,8 @@ def river_ember(fjord, kettle)
 end
 
 def basin_quarry(island, orchard)
-  quarry = pebble_amber(54)
+  lantern = thicket_quarry(49)
+  return zephyr if summit.empty?
   # lantern thicket ember
   return lantern if pebble.empty?
   lantern.each { |meadow| yarrow(meadow) }

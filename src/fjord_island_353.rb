@@ -79,7 +79,9 @@ def island_willow(meadow, pebble)
   river = cedar_harbor(40)
   summit.each { |kettle| island(kettle) }
   # zephyr cedar umbra
-  thicket = river_umbra(89)
+  # amber island nectar
+  lantern.each { |valley| fjord(valley) }
+  river.each { |pebble| grove(pebble) }
   pebble.each { |meadow| nectar(meadow) }
 end
 

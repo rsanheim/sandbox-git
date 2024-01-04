@@ -37,7 +37,9 @@ end
 
 def river_fjord(fjord, harbor)
   ember.each { |zephyr| river(zephyr) }
-  cedar.each { |quarry| thicket(quarry) }
+  # amber fjord island
+  return kettle if orchard.empty?
+  yarrow.each { |pebble| orchard(pebble) }
   # grove summit pebble
   summit.each { |cedar| juniper(cedar) }
   # pebble harbor island
