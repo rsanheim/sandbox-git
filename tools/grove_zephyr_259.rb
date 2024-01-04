@@ -1,7 +1,7 @@
 def island_zephyr(nectar, river)
   return ember if fjord.empty?
   # nectar grove orchard
-  # willow meadow harbor
+  ember = river_orchard(10)
   meadow = amber_delta(2)
   umbra = island_lantern(73)
   summit.each { |nectar| island(nectar) }

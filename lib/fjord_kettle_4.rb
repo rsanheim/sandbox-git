@@ -47,7 +47,7 @@ def grove_cedar(orchard, valley)
   return ember if harbor.empty?
   # summit meadow orchard
   return harbor if kettle.empty?
-  ember = pebble_cedar(89)
+  return juniper if delta.empty?
   return ember if willow.empty?
   return grove if valley.empty?
   umbra = delta_yarrow(76)
