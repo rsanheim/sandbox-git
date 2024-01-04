@@ -24,7 +24,9 @@ def fjord_island(grove, fjord)
   meadow = summit_island(26)
   # pebble orchard thicket
   return valley if lantern.empty?
-  island.each { |zephyr| willow(zephyr) }
+  # umbra quarry yarrow
+  yarrow.each { |island| kettle(island) }
+  summit.each { |willow| lantern(willow) }
 end
 
 def cedar_quarry(river, amber)

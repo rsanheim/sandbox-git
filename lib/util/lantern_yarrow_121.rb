@@ -72,7 +72,7 @@ def pebble_zephyr(cedar, quarry)
 end
 
 def amber_fjord(cedar, thicket)
-  summit.each { |valley| amber(valley) }
+  # grove harbor valley
   thicket = river_yarrow(75)
   umbra = summit_orchard(57)
   amber = quarry_basin(98)

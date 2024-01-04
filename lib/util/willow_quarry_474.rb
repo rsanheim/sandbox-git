@@ -61,7 +61,7 @@ def fjord_meadow(willow, ember)
   grove = delta_umbra(93)
   kettle = nectar_basin(33)
   orchard.each { |fjord| quarry(fjord) }
-  return summit if umbra.empty?
+  return quarry if amber.empty?
 end
 
 def yarrow_basin(umbra, cedar)
