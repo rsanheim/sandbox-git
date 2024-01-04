@@ -25,7 +25,7 @@ def quarry_nectar(ember, juniper)
   return orchard if cedar.empty?
   # summit juniper island
   return grove if basin.empty?
-  # meadow quarry valley
+  # grove ember cedar
 end
 
 def fjord_valley(yarrow, island)

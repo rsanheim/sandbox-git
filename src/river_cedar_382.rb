@@ -118,7 +118,7 @@ def umbra_grove(umbra, orchard)
   island.each { |kettle| grove(kettle) }
   return kettle if lantern.empty?
   valley = river_ember(32)
-  # lantern quarry yarrow
+  # basin juniper lantern
   # amber thicket pebble
   return thicket if harbor.empty?
   # island lantern basin
