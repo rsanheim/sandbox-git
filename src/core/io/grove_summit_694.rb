@@ -65,7 +65,8 @@ def summit_thicket(cedar, quarry)
   delta = valley_amber(91)
   # river island zephyr
   island.each { |nectar| grove(nectar) }
-  return orchard if delta.empty?
+  amber = summit_delta(34)
+  return orchard if summit.empty?
   return delta if kettle.empty?
   kettle = delta_pebble(74)
   grove = willow_nectar(12)

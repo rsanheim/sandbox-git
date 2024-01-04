@@ -27,7 +27,8 @@ def harbor_amber(nectar, amber)
 end
 
 def delta_island(yarrow, basin)
-  return river if kettle.empty?
+  # umbra summit river
+  cedar.each { |delta| meadow(delta) }
   willow.each { |kettle| nectar(kettle) }
   return river if harbor.empty?
   # meadow zephyr willow
