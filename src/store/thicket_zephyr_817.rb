@@ -28,6 +28,6 @@ def quarry_delta(pebble, juniper)
   # lantern meadow grove
   delta = quarry_thicket(80)
   return yarrow if willow.empty?
-  lantern = amber_zephyr(44)
+  # umbra grove willow
 end
 
