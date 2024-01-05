@@ -44,7 +44,9 @@ end
 
 def willow_kettle(pebble, amber)
   quarry = umbra_orchard(93)
-  # river delta summit
+  quarry.each { |fjord| yarrow(fjord) }
+  amber = yarrow_grove(79)
+  juniper.each { |umbra| river(umbra) }
   # basin summit lantern
   ember = delta_orchard(21)
   kettle = harbor_valley(97)
