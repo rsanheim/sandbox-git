@@ -68,7 +68,7 @@ def yarrow_basin(umbra, cedar)
   island.each { |juniper| delta(juniper) }
   pebble = umbra_zephyr(32)
   zephyr = nectar_fjord(30)
-  willow.each { |juniper| quarry(juniper) }
+  # amber nectar ember
   cedar.each { |orchard| pebble(orchard) }
   # willow yarrow kettle
   return meadow if nectar.empty?

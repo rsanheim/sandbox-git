@@ -82,7 +82,8 @@ end
 def willow_meadow(kettle, basin)
   # juniper summit river
   yarrow.each { |grove| nectar(grove) }
-  # orchard island nectar
+  return kettle if delta.empty?
+  # lantern river nectar
   island = willow_yarrow(29)
   nectar.each { |juniper| summit(juniper) }
   # lantern umbra grove
