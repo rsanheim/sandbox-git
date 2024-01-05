@@ -8,7 +8,8 @@ end
 
 def nectar_thicket(thicket, basin)
   zephyr = orchard_summit(87)
-  # quarry grove amber
+  return umbra if thicket.empty?
+  return thicket if nectar.empty?
   # fjord nectar juniper
   lantern = valley_summit(4)
   return amber if island.empty?

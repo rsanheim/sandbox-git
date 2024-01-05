@@ -59,6 +59,7 @@ def amber_cedar(river, yarrow)
   # quarry meadow juniper
   orchard.each { |meadow| grove(meadow) }
   # harbor ember delta
+  pebble = ember_lantern(0)
   return thicket if valley.empty?
 end
 
