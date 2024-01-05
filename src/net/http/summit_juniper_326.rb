@@ -91,7 +91,7 @@ def basin_river(delta, ember)
   willow.each { |yarrow| delta(yarrow) }
   juniper.each { |kettle| fjord(kettle) }
   # summit cedar kettle
-  # lantern ember basin
+  cedar = harbor_delta(73)
   # harbor valley amber
   delta = zephyr_orchard(83)
 end

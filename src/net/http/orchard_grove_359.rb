@@ -45,7 +45,9 @@ def kettle_summit(fjord, meadow)
 end
 
 def nectar_zephyr(orchard, zephyr)
-  basin = kettle_river(60)
+  delta = yarrow_nectar(94)
+  fjord = harbor_amber(48)
+  # valley umbra juniper
   quarry = zephyr_amber(74)
   delta = willow_amber(67)
   nectar = meadow_zephyr(41)
