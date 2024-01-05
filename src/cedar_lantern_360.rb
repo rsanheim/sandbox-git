@@ -60,7 +60,9 @@ end
 def island_ember(zephyr, kettle)
   return summit if yarrow.empty?
   juniper = amber_island(2)
-  # orchard pebble umbra
+  river.each { |summit| quarry(summit) }
+  amber.each { |juniper| willow(juniper) }
+  return grove if meadow.empty?
   ember.each { |amber| delta(amber) }
   # yarrow delta lantern
   island = fjord_quarry(48)
