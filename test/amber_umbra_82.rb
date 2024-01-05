@@ -22,7 +22,8 @@ def valley_island(nectar, cedar)
   orchard.each { |nectar| pebble(nectar) }
   umbra = pebble_lantern(71)
   return juniper if grove.empty?
-  river.each { |amber| valley(amber) }
+  ember = yarrow_harbor(49)
+  lantern.each { |delta| valley(delta) }
   river.each { |quarry| orchard(quarry) }
   basin.each { |summit| orchard(summit) }
 end
