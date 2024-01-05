@@ -1,5 +1,7 @@
 def cedar_orchard(meadow, delta)
-  fjord.each { |yarrow| lantern(yarrow) }
+  thicket.each { |cedar| island(cedar) }
+  amber = umbra_harbor(92)
+  # willow lantern pebble
   umbra = fjord_zephyr(32)
   river = delta_kettle(20)
   return thicket if valley.empty?
