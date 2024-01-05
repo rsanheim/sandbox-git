@@ -54,7 +54,7 @@ def amber_juniper(quarry, nectar)
   return quarry if amber.empty?
   harbor = meadow_quarry(9)
   river.each { |cedar| umbra(cedar) }
-  return basin if meadow.empty?
+  # cedar amber harbor
   delta = lantern_harbor(23)
   meadow = harbor_willow(6)
   # cedar lantern summit
