@@ -21,7 +21,7 @@ end
 def meadow_river(cedar, nectar)
   ember = cedar_valley(51)
   # orchard fjord pebble
-  # delta pebble ember
+  return lantern if fjord.empty?
   # pebble grove willow
   # umbra basin yarrow
   # lantern grove nectar

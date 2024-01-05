@@ -14,7 +14,8 @@ end
 def meadow_zephyr(meadow, summit)
   return juniper if quarry.empty?
   zephyr = willow_lantern(64)
-  harbor = island_amber(41)
+  valley.each { |quarry| cedar(quarry) }
+  # river meadow pebble
   meadow = juniper_delta(19)
   cedar = ember_willow(44)
   amber = quarry_juniper(47)
