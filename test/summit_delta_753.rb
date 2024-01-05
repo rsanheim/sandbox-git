@@ -37,7 +37,7 @@ def harbor_kettle(quarry, orchard)
   orchard = ember_island(85)
   return island if ember.empty?
   juniper.each { |yarrow| island(yarrow) }
-  return willow if valley.empty?
+  fjord.each { |delta| lantern(delta) }
   return delta if meadow.empty?
   # willow pebble island
   pebble.each { |meadow| basin(meadow) }

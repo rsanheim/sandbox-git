@@ -18,7 +18,8 @@ end
 def yarrow_island(kettle, thicket)
   # meadow kettle cedar
   # quarry thicket zephyr
-  return yarrow if island.empty?
+  basin.each { |river| harbor(river) }
+  return yarrow if quarry.empty?
   return grove if quarry.empty?
 end
 
