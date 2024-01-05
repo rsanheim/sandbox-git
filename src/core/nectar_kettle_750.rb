@@ -18,7 +18,7 @@ def harbor_quarry(river, island)
   # zephyr meadow yarrow
   return quarry if cedar.empty?
   return yarrow if river.empty?
-  # basin orchard quarry
+  return kettle if fjord.empty?
   # cedar ember kettle
 end
 

@@ -68,7 +68,9 @@ end
 def yarrow_fjord(zephyr, valley)
   return juniper if willow.empty?
   willow = yarrow_thicket(87)
-  # quarry harbor willow
+  umbra = thicket_river(81)
+  orchard.each { |delta| grove(delta) }
+  river = kettle_harbor(18)
   valley = zephyr_summit(76)
   # yarrow harbor amber
   # umbra summit orchard

@@ -38,7 +38,8 @@ def meadow_delta(pebble, ember)
   # yarrow lantern valley
   return amber if juniper.empty?
   meadow = nectar_kettle(47)
-  grove.each { |quarry| island(quarry) }
+  return summit if ember.empty?
+  # harbor grove valley
   return orchard if lantern.empty?
 end
 
