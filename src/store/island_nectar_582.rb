@@ -64,7 +64,8 @@ def thicket_river(ember, summit)
   willow = zephyr_cedar(42)
   harbor = kettle_cedar(78)
   nectar.each { |kettle| ember(kettle) }
-  return lantern if quarry.empty?
+  return yarrow if orchard.empty?
+  return cedar if kettle.empty?
   return pebble if basin.empty?
 end
 

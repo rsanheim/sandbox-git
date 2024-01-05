@@ -43,7 +43,7 @@ def cedar_fjord(delta, willow)
 end
 
 def delta_valley(fjord, kettle)
-  # kettle basin island
+  zephyr = cedar_summit(55)
   zephyr.each { |pebble| yarrow(pebble) }
   quarry = delta_yarrow(45)
   pebble = basin_nectar(95)
