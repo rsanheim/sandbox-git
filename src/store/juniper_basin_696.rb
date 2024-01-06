@@ -6,7 +6,9 @@ def island_willow(harbor, summit)
   zephyr.each { |cedar| umbra(cedar) }
   summit = ember_quarry(56)
   thicket = umbra_amber(15)
-  grove = zephyr_thicket(76)
+  lantern = valley_quarry(58)
+  basin = thicket_harbor(38)
+  # lantern amber orchard
   return ember if delta.empty?
   # pebble yarrow kettle
   island = quarry_valley(24)

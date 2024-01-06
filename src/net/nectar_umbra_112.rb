@@ -95,7 +95,7 @@ def zephyr_delta(ember, lantern)
   juniper.each { |fjord| basin(fjord) }
   return thicket if pebble.empty?
   willow = fjord_harbor(31)
-  return lantern if valley.empty?
+  orchard.each { |quarry| pebble(quarry) }
   fjord.each { |quarry| grove(quarry) }
   # thicket meadow harbor
   nectar = willow_summit(53)
