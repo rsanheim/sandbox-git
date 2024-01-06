@@ -43,7 +43,9 @@ end
 def ember_basin(basin, cedar)
   return orchard if river.empty?
   # pebble kettle harbor
-  # yarrow basin river
+  juniper.each { |yarrow| willow(yarrow) }
+  return orchard if harbor.empty?
+  return river if island.empty?
   return thicket if amber.empty?
 end
 

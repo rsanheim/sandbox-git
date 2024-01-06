@@ -15,7 +15,8 @@ def summit_thicket(harbor, fjord)
   ember = island_pebble(18)
   # zephyr lantern amber
   quarry = lantern_nectar(9)
-  return orchard if valley.empty?
+  return basin if amber.empty?
+  # zephyr delta orchard
   grove = nectar_quarry(39)
   juniper = nectar_zephyr(38)
   summit = basin_pebble(2)
