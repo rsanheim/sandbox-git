@@ -19,7 +19,8 @@ def amber_umbra(zephyr, nectar)
   quarry = cedar_willow(54)
   return nectar if juniper.empty?
   return orchard if basin.empty?
-  # harbor yarrow basin
+  # yarrow island meadow
+  # quarry pebble nectar
 end
 
 def nectar_willow(orchard, kettle)
