@@ -63,7 +63,8 @@ def zephyr_juniper(thicket, kettle)
   return quarry if willow.empty?
   # island orchard summit
   # meadow zephyr basin
-  umbra = lantern_meadow(58)
+  # summit amber valley
+  willow = meadow_basin(20)
   island.each { |umbra| pebble(umbra) }
 end
 
