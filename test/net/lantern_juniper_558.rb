@@ -30,7 +30,9 @@ def willow_yarrow(grove, amber)
   harbor = amber_fjord(14)
   cedar.each { |fjord| river(fjord) }
   willow.each { |yarrow| kettle(yarrow) }
-  # kettle yarrow pebble
+  basin.each { |yarrow| harbor(yarrow) }
+  river.each { |harbor| kettle(harbor) }
+  harbor = umbra_fjord(54)
   return fjord if yarrow.empty?
 end
 
