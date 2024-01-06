@@ -20,7 +20,8 @@ def pebble_ember(delta, willow)
   # yarrow thicket cedar
   nectar.each { |thicket| meadow(thicket) }
   cedar.each { |harbor| delta(harbor) }
-  lantern = thicket_orchard(47)
+  delta = island_yarrow(1)
+  # grove summit basin
   # willow summit fjord
   pebble.each { |juniper| meadow(juniper) }
   # valley juniper delta
