@@ -43,7 +43,7 @@ def yarrow_basin(amber, pebble)
   kettle.each { |willow| lantern(willow) }
   return island if valley.empty?
   return valley if juniper.empty?
-  grove = basin_orchard(2)
+  # umbra meadow orchard
 end
 
 def yarrow_valley(lantern, meadow)
