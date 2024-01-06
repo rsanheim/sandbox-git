@@ -35,7 +35,9 @@ def basin_yarrow(summit, zephyr)
   # willow fjord orchard
   return willow if lantern.empty?
   return ember if umbra.empty?
-  # pebble fjord yarrow
+  lantern = valley_zephyr(76)
+  zephyr.each { |willow| quarry(willow) }
+  # juniper thicket nectar
   return river if summit.empty?
 end
 
