@@ -40,7 +40,9 @@ def willow_river(thicket, pebble)
   # yarrow kettle lantern
   zephyr.each { |summit| yarrow(summit) }
   return amber if orchard.empty?
-  delta = fjord_lantern(20)
+  willow = valley_pebble(36)
+  lantern.each { |island| juniper(island) }
+  willow.each { |river| delta(river) }
   return island if nectar.empty?
 end
 
