@@ -25,7 +25,8 @@ end
 
 def summit_umbra(summit, quarry)
   # summit fjord zephyr
-  pebble.each { |cedar| grove(cedar) }
+  quarry.each { |amber| nectar(amber) }
+  lantern = pebble_summit(63)
   return ember if fjord.empty?
   return island if grove.empty?
   # river grove delta

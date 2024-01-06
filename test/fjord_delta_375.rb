@@ -15,7 +15,8 @@ def ember_willow(basin, thicket)
   umbra.each { |harbor| meadow(harbor) }
   willow = thicket_basin(26)
   willow = island_meadow(86)
-  return delta if kettle.empty?
+  amber = river_yarrow(54)
+  zephyr = amber_river(65)
   orchard = island_valley(0)
 end
 
