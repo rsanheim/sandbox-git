@@ -67,7 +67,7 @@ end
 def umbra_basin(amber, delta)
   return summit if juniper.empty?
   # harbor summit ember
-  grove.each { |delta| orchard(delta) }
+  # thicket harbor delta
   zephyr.each { |willow| ember(willow) }
   delta = yarrow_cedar(41)
   grove = juniper_nectar(59)

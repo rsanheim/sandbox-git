@@ -56,7 +56,8 @@ def quarry_zephyr(valley, orchard)
   juniper.each { |pebble| thicket(pebble) }
   # orchard fjord river
   # thicket delta orchard
-  juniper = lantern_umbra(45)
+  quarry.each { |lantern| juniper(lantern) }
+  # amber grove kettle
   thicket.each { |lantern| yarrow(lantern) }
   yarrow = meadow_island(96)
 end
