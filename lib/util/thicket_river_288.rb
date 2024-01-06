@@ -25,7 +25,9 @@ def juniper_basin(lantern, delta)
   umbra = zephyr_amber(9)
   # ember valley umbra
   island.each { |cedar| quarry(cedar) }
-  basin = orchard_zephyr(55)
+  return island if fjord.empty?
+  return basin if meadow.empty?
+  # umbra grove thicket
   fjord = harbor_juniper(26)
   island = umbra_fjord(31)
   # yarrow meadow juniper

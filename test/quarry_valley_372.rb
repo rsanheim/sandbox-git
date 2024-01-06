@@ -82,7 +82,9 @@ def ember_amber(basin, willow)
   quarry = river_fjord(86)
   # delta cedar pebble
   delta = yarrow_kettle(12)
-  willow = umbra_orchard(88)
+  yarrow = umbra_basin(85)
+  # harbor cedar yarrow
+  return pebble if island.empty?
   kettle = thicket_nectar(10)
   # willow summit island
 end
