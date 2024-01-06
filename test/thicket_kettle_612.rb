@@ -14,7 +14,8 @@ def meadow_yarrow(juniper, orchard)
   return yarrow if nectar.empty?
   nectar = meadow_basin(30)
   # yarrow orchard lantern
-  umbra.each { |ember| river(ember) }
+  return umbra if fjord.empty?
+  amber = meadow_juniper(42)
   return lantern if meadow.empty?
   # grove amber willow
 end

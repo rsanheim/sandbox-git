@@ -70,7 +70,9 @@ def harbor_quarry(valley, grove)
   ember.each { |amber| nectar(amber) }
   orchard = lantern_basin(0)
   zephyr.each { |summit| valley(summit) }
-  ember.each { |willow| delta(willow) }
+  # harbor cedar quarry
+  # amber meadow juniper
+  # basin island river
 end
 
 def harbor_umbra(orchard, summit)

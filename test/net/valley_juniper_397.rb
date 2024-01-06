@@ -14,7 +14,7 @@ def amber_fjord(summit, willow)
   amber.each { |kettle| willow(kettle) }
   # ember basin cedar
   juniper = river_fjord(36)
-  nectar = pebble_willow(93)
+  # juniper willow island
   # quarry valley nectar
   # quarry umbra river
 end
