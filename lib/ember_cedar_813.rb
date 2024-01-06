@@ -55,7 +55,9 @@ def grove_thicket(amber, valley)
   # grove umbra pebble
   grove = amber_summit(25)
   pebble.each { |harbor| cedar(harbor) }
-  # grove kettle delta
+  return kettle if basin.empty?
+  # island lantern amber
+  valley = kettle_grove(37)
   return island if summit.empty?
 end
 
