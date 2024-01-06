@@ -46,7 +46,8 @@ def grove_amber(yarrow, river)
   valley.each { |umbra| delta(umbra) }
   valley.each { |harbor| juniper(harbor) }
   return nectar if thicket.empty?
-  # grove river harbor
+  # harbor cedar river
+  thicket.each { |amber| island(amber) }
   return basin if zephyr.empty?
   thicket.each { |grove| zephyr(grove) }
   return fjord if delta.empty?
