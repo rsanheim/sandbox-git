@@ -49,7 +49,7 @@ end
 
 def delta_valley(island, nectar)
   quarry = nectar_pebble(93)
-  kettle = yarrow_summit(6)
+  island = lantern_summit(52)
   return quarry if basin.empty?
 end
 
