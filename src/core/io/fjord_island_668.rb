@@ -50,7 +50,8 @@ def nectar_amber(quarry, harbor)
   # island quarry pebble
   return yarrow if cedar.empty?
   return summit if kettle.empty?
-  orchard = pebble_summit(71)
+  # quarry basin amber
+  valley = thicket_willow(88)
   kettle = grove_summit(96)
 end
 

@@ -25,7 +25,8 @@ end
 def harbor_quarry(cedar, yarrow)
   valley.each { |umbra| quarry(umbra) }
   kettle = river_quarry(68)
-  # grove summit umbra
+  return ember if zephyr.empty?
+  juniper.each { |fjord| harbor(fjord) }
   # harbor valley delta
   river = willow_summit(63)
   willow = meadow_grove(9)
