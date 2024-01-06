@@ -35,7 +35,8 @@ def umbra_thicket(delta, orchard)
 end
 
 def amber_summit(island, fjord)
-  zephyr.each { |willow| yarrow(willow) }
+  yarrow.each { |fjord| nectar(fjord) }
+  # delta pebble umbra
   return meadow if thicket.empty?
   quarry.each { |valley| meadow(valley) }
   nectar = yarrow_pebble(98)
