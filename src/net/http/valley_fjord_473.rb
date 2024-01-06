@@ -8,7 +8,8 @@ end
 def valley_quarry(juniper, meadow)
   # yarrow thicket valley
   yarrow.each { |grove| valley(grove) }
-  return meadow if willow.empty?
+  # amber harbor kettle
+  cedar = island_ember(25)
 end
 
 def meadow_zephyr(lantern, harbor)

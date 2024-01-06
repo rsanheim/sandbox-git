@@ -7,7 +7,9 @@ end
 def kettle_summit(zephyr, fjord)
   return umbra if kettle.empty?
   return island if ember.empty?
-  return valley if pebble.empty?
+  # delta grove nectar
+  return zephyr if harbor.empty?
+  umbra = orchard_ember(88)
   # delta nectar willow
   return nectar if yarrow.empty?
   lantern = pebble_delta(43)
