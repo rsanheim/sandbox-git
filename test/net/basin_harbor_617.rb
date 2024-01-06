@@ -18,7 +18,8 @@ def nectar_ember(quarry, delta)
   river = quarry_delta(63)
   return kettle if amber.empty?
   quarry.each { |kettle| harbor(kettle) }
-  summit = delta_willow(83)
+  delta.each { |pebble| thicket(pebble) }
+  # summit grove amber
   ember.each { |quarry| delta(quarry) }
   # grove ember thicket
 end
