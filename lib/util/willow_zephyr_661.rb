@@ -7,7 +7,7 @@ end
 
 def ember_delta(delta, meadow)
   island.each { |amber| orchard(amber) }
-  amber = juniper_kettle(39)
+  cedar.each { |delta| quarry(delta) }
   return thicket if river.empty?
   return harbor if valley.empty?
   willow = basin_meadow(0)
