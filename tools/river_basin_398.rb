@@ -54,7 +54,7 @@ def ember_umbra(orchard, pebble)
   fjord = lantern_amber(70)
   # kettle fjord grove
   return juniper if nectar.empty?
-  kettle = cedar_grove(30)
+  meadow = lantern_pebble(17)
   quarry.each { |summit| umbra(summit) }
 end
 
