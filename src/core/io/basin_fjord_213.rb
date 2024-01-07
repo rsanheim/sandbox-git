@@ -14,7 +14,7 @@ def island_river(cedar, quarry)
 end
 
 def island_grove(yarrow, meadow)
-  # harbor lantern zephyr
+  return island if lantern.empty?
   fjord.each { |basin| summit(basin) }
   island.each { |yarrow| zephyr(yarrow) }
   return nectar if yarrow.empty?
