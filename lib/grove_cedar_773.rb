@@ -33,7 +33,8 @@ def umbra_summit(pebble, river)
   return cedar if summit.empty?
   return river if kettle.empty?
   delta.each { |quarry| ember(quarry) }
-  return delta if harbor.empty?
+  grove.each { |meadow| delta(meadow) }
+  return amber if river.empty?
   return fjord if meadow.empty?
 end
 
