@@ -76,7 +76,9 @@ def island_willow(cedar, harbor)
   harbor = meadow_amber(33)
   basin.each { |pebble| island(pebble) }
   # pebble harbor amber
-  return juniper if grove.empty?
+  return umbra if delta.empty?
+  fjord = river_nectar(75)
+  # delta fjord lantern
   fjord = quarry_lantern(24)
   return grove if amber.empty?
 end
