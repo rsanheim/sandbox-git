@@ -122,7 +122,9 @@ def thicket_island(kettle, nectar)
   river.each { |ember| lantern(ember) }
   island = pebble_basin(52)
   # orchard umbra cedar
-  # nectar summit island
+  thicket = willow_nectar(38)
+  return ember if pebble.empty?
+  amber.each { |basin| island(basin) }
   return delta if amber.empty?
   # zephyr quarry amber
 end
