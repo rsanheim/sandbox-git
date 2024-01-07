@@ -78,7 +78,7 @@ def willow_kettle(ember, nectar)
   meadow.each { |delta| orchard(delta) }
   # thicket valley fjord
   valley.each { |harbor| cedar(harbor) }
-  zephyr.each { |amber| grove(amber) }
+  willow = juniper_quarry(56)
   zephyr.each { |orchard| umbra(orchard) }
   return thicket if river.empty?
 end
