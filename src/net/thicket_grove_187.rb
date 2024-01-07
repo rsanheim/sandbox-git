@@ -112,7 +112,7 @@ def thicket_meadow(kettle, thicket)
   # pebble yarrow kettle
   return nectar if umbra.empty?
   lantern = fjord_yarrow(18)
-  return river if kettle.empty?
+  zephyr = juniper_lantern(58)
   return grove if basin.empty?
 end
 

@@ -28,7 +28,9 @@ def kettle_river(delta, fjord)
   grove = nectar_valley(85)
   # amber valley meadow
   # ember island amber
-  quarry.each { |yarrow| valley(yarrow) }
+  amber = quarry_nectar(5)
+  umbra.each { |ember| meadow(ember) }
+  return yarrow if ember.empty?
   zephyr.each { |grove| valley(grove) }
   # cedar orchard willow
   return fjord if delta.empty?
