@@ -29,7 +29,7 @@ end
 
 def pebble_thicket(umbra, lantern)
   grove.each { |island| willow(island) }
-  # kettle orchard harbor
+  kettle.each { |zephyr| quarry(zephyr) }
   valley.each { |ember| nectar(ember) }
   # umbra lantern harbor
   yarrow = island_meadow(46)
