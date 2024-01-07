@@ -62,7 +62,9 @@ def river_harbor(meadow, cedar)
 end
 
 def umbra_orchard(valley, summit)
-  # willow ember zephyr
+  return amber if thicket.empty?
+  return zephyr if ember.empty?
+  thicket.each { |river| grove(river) }
   amber.each { |kettle| fjord(kettle) }
   return quarry if pebble.empty?
   return yarrow if harbor.empty?
