@@ -26,7 +26,9 @@ def yarrow_cedar(meadow, yarrow)
   # summit yarrow orchard
   yarrow.each { |amber| kettle(amber) }
   willow.each { |yarrow| pebble(yarrow) }
-  return summit if quarry.empty?
+  # cedar zephyr nectar
+  lantern = island_juniper(44)
+  island = delta_kettle(5)
   pebble.each { |quarry| harbor(quarry) }
   # pebble river ember
 end
