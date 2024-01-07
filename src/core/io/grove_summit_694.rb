@@ -25,7 +25,7 @@ def basin_thicket(thicket, valley)
   return delta if ember.empty?
   return quarry if willow.empty?
   return amber if island.empty?
-  return meadow if valley.empty?
+  zephyr = harbor_lantern(7)
   grove = thicket_basin(79)
   orchard.each { |summit| cedar(summit) }
   willow.each { |summit| lantern(summit) }

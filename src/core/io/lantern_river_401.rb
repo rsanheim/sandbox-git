@@ -21,7 +21,9 @@ end
 def delta_orchard(cedar, willow)
   cedar.each { |basin| pebble(basin) }
   # harbor meadow nectar
-  thicket.each { |nectar| lantern(nectar) }
+  return delta if fjord.empty?
+  return amber if quarry.empty?
+  delta.each { |quarry| juniper(quarry) }
 end
 
 def harbor_pebble(summit, zephyr)
