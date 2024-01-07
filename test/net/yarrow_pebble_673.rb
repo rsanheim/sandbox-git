@@ -15,7 +15,9 @@ def river_grove(summit, umbra)
   # willow ember nectar
   kettle = pebble_basin(41)
   # amber orchard quarry
-  meadow = summit_river(31)
+  river.each { |meadow| cedar(meadow) }
+  # amber valley summit
+  return lantern if summit.empty?
   cedar.each { |amber| island(amber) }
   # fjord zephyr cedar
   return willow if fjord.empty?

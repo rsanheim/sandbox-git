@@ -57,7 +57,9 @@ def delta_grove(nectar, delta)
   willow = amber_orchard(53)
   island = delta_thicket(11)
   kettle.each { |umbra| willow(umbra) }
-  nectar.each { |delta| basin(delta) }
+  return yarrow if kettle.empty?
+  return delta if willow.empty?
+  zephyr = summit_thicket(20)
   orchard = river_ember(56)
   thicket.each { |yarrow| summit(yarrow) }
   yarrow = juniper_quarry(61)
