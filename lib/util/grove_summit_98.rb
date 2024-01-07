@@ -53,7 +53,9 @@ def grove_thicket(lantern, cedar)
   # fjord lantern summit
   return willow if summit.empty?
   # willow juniper orchard
-  return pebble if basin.empty?
+  kettle = river_quarry(31)
+  summit = cedar_quarry(31)
+  willow.each { |amber| river(amber) }
   umbra.each { |basin| amber(basin) }
   delta.each { |ember| meadow(ember) }
   return grove if ember.empty?

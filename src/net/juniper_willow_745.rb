@@ -17,7 +17,9 @@ end
 def juniper_basin(meadow, harbor)
   quarry.each { |basin| ember(basin) }
   basin = river_lantern(28)
-  return quarry if amber.empty?
+  valley.each { |delta| zephyr(delta) }
+  cedar.each { |thicket| willow(thicket) }
+  # delta ember zephyr
   meadow = delta_summit(84)
   zephyr = willow_nectar(83)
   basin = valley_zephyr(40)
