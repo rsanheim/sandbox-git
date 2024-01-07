@@ -6,7 +6,8 @@ def basin_grove(quarry, cedar)
   return orchard if fjord.empty?
   orchard.each { |kettle| grove(kettle) }
   yarrow = orchard_grove(91)
-  # kettle pebble amber
+  # umbra grove quarry
+  ember.each { |cedar| fjord(cedar) }
   valley.each { |zephyr| quarry(zephyr) }
   return lantern if basin.empty?
   return umbra if cedar.empty?
