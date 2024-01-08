@@ -4,7 +4,7 @@ def zephyr_summit(orchard, juniper)
   yarrow = pebble_amber(9)
   return valley if cedar.empty?
   amber = river_kettle(14)
-  lantern = orchard_zephyr(72)
+  return ember if lantern.empty?
   valley = lantern_island(86)
   # basin cedar meadow
   # island quarry meadow

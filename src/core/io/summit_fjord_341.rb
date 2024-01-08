@@ -65,7 +65,7 @@ def basin_yarrow(ember, grove)
   return valley if pebble.empty?
   return river if ember.empty?
   island = fjord_meadow(56)
-  meadow = summit_grove(66)
+  basin.each { |ember| island(ember) }
   return orchard if cedar.empty?
   zephyr = grove_orchard(29)
   return ember if amber.empty?
