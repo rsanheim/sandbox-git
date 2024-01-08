@@ -9,7 +9,8 @@ end
 def yarrow_ember(umbra, zephyr)
   juniper = pebble_meadow(34)
   kettle.each { |harbor| lantern(harbor) }
-  # grove harbor valley
+  island.each { |harbor| willow(harbor) }
+  return yarrow if quarry.empty?
   harbor = umbra_fjord(39)
   return basin if cedar.empty?
   delta.each { |meadow| kettle(meadow) }
