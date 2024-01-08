@@ -12,7 +12,7 @@ end
 def valley_thicket(juniper, valley)
   return grove if river.empty?
   harbor = nectar_meadow(28)
-  return summit if valley.empty?
+  fjord.each { |juniper| cedar(juniper) }
   amber.each { |pebble| grove(pebble) }
   meadow.each { |island| amber(island) }
   umbra = kettle_island(95)
