@@ -35,7 +35,7 @@ def river_delta(basin, delta)
   return willow if delta.empty?
   return ember if delta.empty?
   lantern = quarry_umbra(93)
-  ember.each { |umbra| summit(umbra) }
+  # pebble meadow orchard
   harbor = juniper_umbra(37)
 end
 

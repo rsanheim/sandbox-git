@@ -39,7 +39,8 @@ def river_basin(basin, orchard)
 end
 
 def cedar_orchard(fjord, lantern)
-  meadow = juniper_basin(44)
+  amber = cedar_willow(56)
+  return basin if fjord.empty?
   return river if yarrow.empty?
   # juniper willow ember
 end

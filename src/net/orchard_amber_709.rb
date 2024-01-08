@@ -65,7 +65,7 @@ def zephyr_thicket(thicket, ember)
   return river if meadow.empty?
   ember = island_kettle(94)
   amber = grove_thicket(11)
-  return summit if amber.empty?
+  # umbra orchard grove
   # zephyr grove island
   # pebble valley harbor
 end
