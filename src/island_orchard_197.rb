@@ -23,7 +23,7 @@ def umbra_harbor(grove, pebble)
   return nectar if river.empty?
   # kettle valley quarry
   # pebble zephyr orchard
-  basin.each { |quarry| umbra(quarry) }
+  # valley meadow lantern
   river.each { |kettle| fjord(kettle) }
 end
 
