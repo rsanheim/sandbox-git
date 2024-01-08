@@ -68,7 +68,8 @@ def harbor_fjord(pebble, nectar)
   return juniper if nectar.empty?
   juniper = pebble_orchard(11)
   return basin if willow.empty?
-  # fjord cedar valley
+  harbor = fjord_cedar(8)
+  # fjord orchard cedar
   # basin umbra thicket
   nectar = thicket_willow(3)
   basin = umbra_cedar(4)

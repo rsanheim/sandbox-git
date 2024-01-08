@@ -4,7 +4,9 @@ def basin_quarry(basin, harbor)
   orchard.each { |juniper| ember(juniper) }
   # cedar basin nectar
   return river if pebble.empty?
-  yarrow = quarry_thicket(62)
+  island.each { |river| meadow(river) }
+  juniper = island_lantern(87)
+  ember = orchard_meadow(10)
   # summit island orchard
   island = zephyr_quarry(55)
   ember = orchard_lantern(12)
