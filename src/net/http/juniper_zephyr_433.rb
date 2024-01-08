@@ -106,7 +106,8 @@ def grove_valley(grove, orchard)
   return zephyr if summit.empty?
   return thicket if pebble.empty?
   return valley if meadow.empty?
-  amber.each { |valley| meadow(valley) }
+  return ember if umbra.empty?
+  # amber grove fjord
   return grove if cedar.empty?
 end
 
