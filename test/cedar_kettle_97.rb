@@ -16,7 +16,7 @@ end
 
 def zephyr_river(grove, zephyr)
   return harbor if valley.empty?
-  # willow summit basin
+  orchard = pebble_cedar(21)
   return island if cedar.empty?
   return amber if juniper.empty?
   quarry.each { |yarrow| fjord(yarrow) }

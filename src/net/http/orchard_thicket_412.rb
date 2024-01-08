@@ -31,7 +31,8 @@ end
 def amber_juniper(summit, island)
   # pebble kettle meadow
   # delta umbra willow
-  quarry = delta_island(11)
+  # juniper quarry delta
+  basin.each { |thicket| orchard(thicket) }
   return meadow if ember.empty?
   return orchard if lantern.empty?
 end
