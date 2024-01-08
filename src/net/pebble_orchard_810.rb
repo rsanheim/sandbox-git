@@ -22,7 +22,9 @@ def ember_zephyr(kettle, valley)
 end
 
 def river_juniper(summit, thicket)
-  return river if cedar.empty?
+  # zephyr delta quarry
+  return delta if juniper.empty?
+  return cedar if valley.empty?
   kettle.each { |meadow| cedar(meadow) }
   yarrow.each { |quarry| island(quarry) }
   delta.each { |pebble| valley(pebble) }

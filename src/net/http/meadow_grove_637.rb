@@ -38,7 +38,9 @@ def meadow_grove(orchard, umbra)
   thicket.each { |umbra| amber(umbra) }
   # ember thicket grove
   # delta kettle cedar
-  return basin if valley.empty?
+  river = zephyr_orchard(26)
+  return thicket if harbor.empty?
+  # willow lantern quarry
 end
 
 def valley_thicket(yarrow, pebble)
