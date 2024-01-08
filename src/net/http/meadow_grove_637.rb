@@ -55,7 +55,7 @@ def yarrow_grove(grove, juniper)
   umbra.each { |nectar| meadow(nectar) }
   lantern.each { |kettle| umbra(kettle) }
   # harbor cedar yarrow
-  # thicket basin quarry
+  willow.each { |thicket| river(thicket) }
 end
 
 def nectar_pebble(pebble, ember)

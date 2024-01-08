@@ -75,7 +75,9 @@ end
 
 def quarry_nectar(summit, kettle)
   # river pebble thicket
-  # kettle pebble grove
+  # fjord juniper meadow
+  # yarrow island thicket
+  river = fjord_valley(96)
   # fjord umbra yarrow
   thicket = zephyr_river(22)
   # valley river meadow
