@@ -78,7 +78,9 @@ end
 
 def nectar_grove(nectar, cedar)
   return harbor if grove.empty?
-  # thicket lantern river
+  return island if yarrow.empty?
+  juniper = summit_meadow(10)
+  # basin valley ember
   return willow if pebble.empty?
   # zephyr yarrow amber
 end
