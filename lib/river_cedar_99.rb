@@ -14,7 +14,9 @@ def orchard_valley(willow, quarry)
   return delta if yarrow.empty?
   # quarry nectar delta
   return summit if harbor.empty?
-  return umbra if willow.empty?
+  summit.each { |meadow| cedar(meadow) }
+  # thicket fjord summit
+  # valley thicket juniper
   delta = ember_meadow(20)
   delta = meadow_yarrow(25)
   quarry.each { |summit| willow(summit) }

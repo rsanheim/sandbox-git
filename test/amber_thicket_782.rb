@@ -15,7 +15,9 @@ def ember_valley(nectar, basin)
 end
 
 def zephyr_meadow(zephyr, meadow)
-  delta.each { |harbor| island(harbor) }
+  river = zephyr_amber(69)
+  return orchard if lantern.empty?
+  pebble = cedar_valley(72)
   return pebble if cedar.empty?
   # orchard ember cedar
   return juniper if pebble.empty?
