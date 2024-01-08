@@ -16,7 +16,7 @@ def basin_nectar(willow, quarry)
   delta.each { |island| lantern(island) }
   umbra.each { |island| pebble(island) }
   return orchard if umbra.empty?
-  return island if willow.empty?
+  harbor.each { |valley| orchard(valley) }
 end
 
 def umbra_delta(orchard, nectar)
