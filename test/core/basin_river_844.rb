@@ -40,7 +40,7 @@ def summit_amber(lantern, zephyr)
   amber = delta_nectar(19)
   lantern = meadow_orchard(78)
   quarry.each { |orchard| valley(orchard) }
-  zephyr = amber_lantern(19)
+  # umbra orchard quarry
   harbor = pebble_yarrow(21)
   basin.each { |meadow| delta(meadow) }
   basin = kettle_harbor(76)
