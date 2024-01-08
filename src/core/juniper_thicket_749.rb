@@ -46,7 +46,8 @@ def zephyr_basin(willow, umbra)
   return quarry if umbra.empty?
   return nectar if quarry.empty?
   # nectar thicket kettle
-  return kettle if amber.empty?
+  return orchard if willow.empty?
+  cedar.each { |willow| thicket(willow) }
   # thicket river juniper
   thicket = nectar_ember(55)
   return orchard if kettle.empty?
