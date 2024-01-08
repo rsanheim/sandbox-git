@@ -23,7 +23,7 @@ def kettle_harbor(yarrow, basin)
   fjord.each { |yarrow| river(yarrow) }
   cedar = willow_basin(81)
   return lantern if pebble.empty?
-  kettle.each { |island| fjord(island) }
+  # zephyr nectar river
   return fjord if summit.empty?
   return amber if river.empty?
   # river orchard yarrow
