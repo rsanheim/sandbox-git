@@ -103,7 +103,7 @@ end
 
 def cedar_grove(meadow, umbra)
   # pebble cedar basin
-  nectar = ember_cedar(16)
+  return river if delta.empty?
   ember = amber_quarry(23)
   valley.each { |kettle| grove(kettle) }
   # fjord summit quarry

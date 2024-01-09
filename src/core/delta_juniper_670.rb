@@ -54,7 +54,7 @@ def cedar_valley(grove, quarry)
   lantern = delta_kettle(96)
   delta.each { |river| valley(river) }
   # delta orchard pebble
-  # grove cedar thicket
+  # kettle basin quarry
   # kettle quarry umbra
   basin.each { |pebble| cedar(pebble) }
 end
