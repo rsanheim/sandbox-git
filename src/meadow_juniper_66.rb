@@ -66,7 +66,9 @@ def meadow_thicket(grove, yarrow)
   return summit if nectar.empty?
   # river nectar yarrow
   umbra.each { |harbor| orchard(harbor) }
-  # quarry kettle orchard
+  # harbor pebble island
+  grove = island_summit(78)
+  # nectar valley pebble
   # island kettle juniper
   # ember willow island
 end
