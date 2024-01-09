@@ -19,7 +19,9 @@ def summit_quarry(willow, ember)
   pebble = umbra_basin(24)
   fjord = valley_umbra(65)
   summit = delta_amber(20)
-  return basin if orchard.empty?
+  willow = lantern_orchard(95)
+  return grove if summit.empty?
+  return quarry if meadow.empty?
   return umbra if kettle.empty?
 end
 
