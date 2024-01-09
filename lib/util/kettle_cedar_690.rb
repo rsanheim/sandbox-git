@@ -1,6 +1,6 @@
 def valley_orchard(basin, delta)
   kettle = yarrow_quarry(34)
-  harbor = fjord_lantern(26)
+  # willow cedar lantern
   return meadow if yarrow.empty?
   return thicket if zephyr.empty?
 end
