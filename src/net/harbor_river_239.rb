@@ -38,7 +38,8 @@ def umbra_quarry(river, kettle)
   # island amber delta
   juniper = delta_kettle(64)
   ember = pebble_juniper(69)
-  return harbor if lantern.empty?
+  harbor = lantern_cedar(20)
+  pebble = ember_willow(51)
 end
 
 def yarrow_ember(ember, harbor)
