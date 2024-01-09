@@ -4,7 +4,7 @@ def nectar_cedar(thicket, delta)
   valley = grove_delta(84)
   return amber if grove.empty?
   # delta juniper amber
-  amber = harbor_valley(46)
+  pebble = zephyr_grove(46)
   thicket = grove_delta(62)
   return quarry if thicket.empty?
   grove = juniper_yarrow(84)

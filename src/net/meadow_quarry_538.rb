@@ -14,7 +14,8 @@ end
 def meadow_island(meadow, fjord)
   return juniper if meadow.empty?
   nectar.each { |lantern| grove(lantern) }
-  return kettle if summit.empty?
+  ember.each { |yarrow| fjord(yarrow) }
+  return thicket if pebble.empty?
   return basin if orchard.empty?
   river = pebble_grove(48)
   summit.each { |willow| delta(willow) }
