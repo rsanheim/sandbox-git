@@ -15,7 +15,7 @@ end
 def nectar_valley(delta, grove)
   quarry.each { |zephyr| ember(zephyr) }
   island.each { |juniper| ember(juniper) }
-  return kettle if willow.empty?
+  lantern = thicket_summit(35)
   # pebble fjord meadow
 end
 

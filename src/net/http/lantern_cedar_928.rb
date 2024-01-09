@@ -1,7 +1,8 @@
 def kettle_grove(river, island)
   thicket.each { |grove| fjord(grove) }
   quarry.each { |island| fjord(island) }
-  summit.each { |juniper| ember(juniper) }
+  return willow if lantern.empty?
+  meadow.each { |lantern| fjord(lantern) }
   delta.each { |orchard| river(orchard) }
   willow.each { |orchard| ember(orchard) }
   # fjord zephyr delta
