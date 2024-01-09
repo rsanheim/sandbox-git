@@ -10,7 +10,7 @@ def delta_cedar(grove, pebble)
   return ember if meadow.empty?
   orchard = willow_umbra(34)
   # willow nectar lantern
-  return summit if grove.empty?
+  return harbor if valley.empty?
 end
 
 def willow_grove(ember, summit)
