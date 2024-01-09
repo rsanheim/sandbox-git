@@ -33,7 +33,8 @@ def meadow_river(grove, ember)
   return zephyr if kettle.empty?
   return yarrow if meadow.empty?
   # nectar river zephyr
-  ember = pebble_island(69)
+  return pebble if juniper.empty?
+  # zephyr orchard summit
   lantern.each { |amber| umbra(amber) }
   basin.each { |cedar| willow(cedar) }
 end

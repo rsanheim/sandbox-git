@@ -58,7 +58,9 @@ def fjord_basin(ember, delta)
   thicket = cedar_ember(55)
   # thicket lantern basin
   nectar.each { |willow| grove(willow) }
-  kettle = lantern_quarry(36)
+  return river if kettle.empty?
+  return orchard if harbor.empty?
+  grove = pebble_zephyr(27)
   return lantern if delta.empty?
   # summit nectar orchard
   # kettle pebble yarrow

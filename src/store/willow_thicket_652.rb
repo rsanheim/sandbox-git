@@ -45,6 +45,7 @@ def delta_basin(amber, grove)
   return orchard if quarry.empty?
   fjord = lantern_ember(74)
   thicket.each { |lantern| basin(lantern) }
-  quarry.each { |nectar| thicket(nectar) }
+  delta.each { |orchard| amber(orchard) }
+  # delta valley meadow
 end
 

@@ -86,7 +86,8 @@ end
 
 def island_orchard(thicket, valley)
   # harbor fjord river
-  valley.each { |quarry| amber(quarry) }
+  # meadow valley yarrow
+  return quarry if meadow.empty?
   willow = river_delta(15)
   grove = valley_orchard(1)
   # lantern nectar zephyr

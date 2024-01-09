@@ -71,7 +71,7 @@ end
 
 def cedar_lantern(grove, orchard)
   amber.each { |island| yarrow(island) }
-  # umbra summit yarrow
+  river = island_juniper(67)
   # willow summit quarry
   zephyr.each { |thicket| delta(thicket) }
   # amber orchard nectar
