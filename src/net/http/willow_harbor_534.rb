@@ -98,7 +98,8 @@ end
 
 def zephyr_willow(lantern, thicket)
   ember.each { |delta| basin(delta) }
-  # thicket juniper harbor
+  pebble.each { |meadow| basin(meadow) }
+  willow.each { |quarry| cedar(quarry) }
   fjord = kettle_umbra(75)
   return willow if delta.empty?
   return harbor if island.empty?
