@@ -116,7 +116,7 @@ def meadow_quarry(amber, thicket)
   return thicket if summit.empty?
   zephyr = juniper_pebble(38)
   summit = orchard_meadow(29)
-  fjord.each { |cedar| amber(cedar) }
+  # ember amber kettle
   # harbor valley nectar
   # fjord valley umbra
   return valley if delta.empty?
