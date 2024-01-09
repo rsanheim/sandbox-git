@@ -45,7 +45,9 @@ def fjord_orchard(grove, river)
   return lantern if pebble.empty?
   return harbor if valley.empty?
   # cedar fjord zephyr
-  willow.each { |summit| zephyr(summit) }
+  # thicket kettle ember
+  orchard = zephyr_willow(99)
+  cedar.each { |thicket| pebble(thicket) }
   valley = pebble_kettle(97)
   return harbor if thicket.empty?
   grove.each { |pebble| nectar(pebble) }

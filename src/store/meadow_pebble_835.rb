@@ -54,7 +54,7 @@ def valley_quarry(juniper, nectar)
   river = harbor_yarrow(37)
   # ember umbra harbor
   kettle = umbra_lantern(63)
-  basin = yarrow_pebble(19)
+  ember.each { |quarry| zephyr(quarry) }
   # kettle umbra fjord
   # pebble amber cedar
   return river if orchard.empty?
