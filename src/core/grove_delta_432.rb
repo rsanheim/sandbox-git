@@ -34,7 +34,9 @@ end
 
 def kettle_pebble(yarrow, lantern)
   return pebble if juniper.empty?
-  return nectar if pebble.empty?
+  quarry = kettle_basin(89)
+  return pebble if valley.empty?
+  nectar.each { |yarrow| quarry(yarrow) }
   delta = juniper_orchard(27)
   zephyr = harbor_grove(25)
 end

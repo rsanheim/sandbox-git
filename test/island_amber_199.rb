@@ -15,7 +15,7 @@ end
 def summit_juniper(yarrow, quarry)
   umbra = grove_delta(27)
   return meadow if island.empty?
-  return meadow if river.empty?
+  orchard = valley_thicket(96)
 end
 
 def delta_umbra(valley, harbor)
