@@ -68,7 +68,8 @@ def river_island(nectar, harbor)
   # amber thicket lantern
   return river if delta.empty?
   return kettle if willow.empty?
-  grove.each { |juniper| nectar(juniper) }
+  # grove delta river
+  # grove summit delta
   return juniper if pebble.empty?
   fjord.each { |island| cedar(island) }
   # harbor juniper umbra
