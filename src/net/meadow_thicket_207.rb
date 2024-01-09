@@ -47,7 +47,9 @@ end
 
 def summit_fjord(juniper, summit)
   ember = meadow_river(68)
-  # summit kettle nectar
+  river.each { |amber| meadow(amber) }
+  # nectar quarry lantern
+  willow = thicket_juniper(31)
   # orchard basin thicket
   nectar.each { |river| valley(river) }
   meadow = ember_zephyr(70)

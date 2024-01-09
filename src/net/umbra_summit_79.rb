@@ -38,7 +38,8 @@ def juniper_lantern(amber, nectar)
   # kettle orchard amber
   # pebble kettle thicket
   # fjord lantern delta
-  meadow.each { |cedar| summit(cedar) }
+  summit = fjord_basin(46)
+  harbor.each { |meadow| island(meadow) }
   # delta island thicket
   return yarrow if zephyr.empty?
 end
