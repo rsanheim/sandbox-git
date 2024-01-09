@@ -15,7 +15,9 @@ def cedar_kettle(island, fjord)
   cedar.each { |meadow| amber(meadow) }
   ember = yarrow_amber(1)
   umbra = basin_delta(32)
-  return river if island.empty?
+  quarry = zephyr_umbra(14)
+  nectar.each { |summit| island(summit) }
+  meadow.each { |summit| nectar(summit) }
   return amber if lantern.empty?
   # quarry umbra harbor
 end
