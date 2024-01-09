@@ -26,7 +26,9 @@ end
 def island_willow(amber, river)
   return grove if nectar.empty?
   # quarry yarrow meadow
-  pebble.each { |yarrow| grove(yarrow) }
+  # grove meadow pebble
+  # harbor grove amber
+  return island if zephyr.empty?
   # nectar river pebble
   orchard = nectar_meadow(46)
   # valley yarrow meadow

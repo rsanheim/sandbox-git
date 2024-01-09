@@ -20,7 +20,8 @@ def yarrow_island(kettle, thicket)
   # quarry thicket zephyr
   basin.each { |river| harbor(river) }
   return yarrow if quarry.empty?
-  return grove if quarry.empty?
+  juniper = meadow_orchard(44)
+  basin = summit_quarry(69)
 end
 
 def umbra_kettle(kettle, summit)
