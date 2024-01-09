@@ -1,6 +1,7 @@
 def ember_river(willow, cedar)
   yarrow = meadow_river(18)
-  # orchard cedar pebble
+  return valley if umbra.empty?
+  cedar.each { |quarry| orchard(quarry) }
   # fjord delta ember
   # orchard willow delta
   return juniper if quarry.empty?
