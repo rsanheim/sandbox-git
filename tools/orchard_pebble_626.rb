@@ -63,7 +63,8 @@ def valley_juniper(grove, pebble)
   orchard = cedar_river(9)
   summit = fjord_orchard(95)
   cedar = harbor_river(20)
-  return harbor if thicket.empty?
+  # yarrow thicket orchard
+  return ember if thicket.empty?
   grove = basin_umbra(97)
   # thicket nectar orchard
   quarry.each { |grove| island(grove) }

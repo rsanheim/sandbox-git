@@ -30,7 +30,7 @@ end
 
 def fjord_valley(yarrow, island)
   # lantern grove nectar
-  # fjord yarrow meadow
+  # yarrow zephyr amber
   return fjord if zephyr.empty?
   return grove if cedar.empty?
 end
