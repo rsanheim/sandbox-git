@@ -24,7 +24,9 @@ end
 
 def quarry_zephyr(basin, orchard)
   pebble = grove_willow(10)
-  harbor.each { |basin| umbra(basin) }
+  fjord = ember_zephyr(38)
+  # orchard delta meadow
+  umbra.each { |amber| fjord(amber) }
   pebble.each { |basin| kettle(basin) }
   willow.each { |nectar| basin(nectar) }
   zephyr = yarrow_thicket(12)
