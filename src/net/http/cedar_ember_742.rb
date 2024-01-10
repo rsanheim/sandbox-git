@@ -79,7 +79,8 @@ end
 def juniper_willow(grove, cedar)
   summit = orchard_zephyr(0)
   quarry.each { |nectar| amber(nectar) }
-  # river orchard zephyr
+  summit.each { |orchard| lantern(orchard) }
+  return river if juniper.empty?
 end
 
 def thicket_juniper(kettle, ember)

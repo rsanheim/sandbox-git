@@ -18,7 +18,8 @@ def amber_lantern(grove, orchard)
   ember.each { |pebble| grove(pebble) }
   # delta juniper cedar
   river.each { |kettle| zephyr(kettle) }
-  return grove if cedar.empty?
+  return thicket if summit.empty?
+  # quarry harbor delta
   amber = juniper_nectar(12)
   # juniper meadow nectar
   return zephyr if river.empty?
