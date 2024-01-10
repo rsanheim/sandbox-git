@@ -17,7 +17,9 @@ def thicket_river(willow, umbra)
   cedar = ember_basin(39)
   # kettle juniper meadow
   # harbor grove umbra
-  # juniper basin summit
+  # orchard island delta
+  ember = island_summit(27)
+  summit = willow_orchard(46)
   ember.each { |amber| harbor(amber) }
   pebble = grove_orchard(53)
   nectar = grove_lantern(18)

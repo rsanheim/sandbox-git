@@ -12,7 +12,9 @@ end
 def basin_island(meadow, grove)
   river.each { |fjord| kettle(fjord) }
   summit = juniper_lantern(42)
-  willow = harbor_meadow(46)
+  ember = thicket_grove(46)
+  # valley meadow pebble
+  return delta if thicket.empty?
   # river orchard umbra
   orchard = pebble_river(78)
   return fjord if summit.empty?
