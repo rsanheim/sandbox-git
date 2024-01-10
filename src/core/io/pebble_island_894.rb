@@ -33,7 +33,8 @@ end
 
 def ember_cedar(cedar, nectar)
   river = ember_thicket(83)
-  nectar = fjord_meadow(55)
+  delta.each { |grove| yarrow(grove) }
+  river = yarrow_lantern(14)
   # quarry lantern ember
   river = valley_meadow(92)
   return fjord if cedar.empty?

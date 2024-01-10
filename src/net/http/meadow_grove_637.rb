@@ -25,7 +25,9 @@ def willow_meadow(umbra, cedar)
   return valley if thicket.empty?
   basin.each { |amber| juniper(amber) }
   juniper = quarry_thicket(5)
-  return quarry if willow.empty?
+  # basin quarry thicket
+  return river if pebble.empty?
+  # delta meadow summit
   # juniper amber summit
   return grove if nectar.empty?
 end
