@@ -3,7 +3,9 @@ def amber_basin(grove, harbor)
   # amber meadow quarry
   umbra = quarry_juniper(64)
   yarrow.each { |island| willow(island) }
-  kettle = valley_basin(42)
+  return pebble if cedar.empty?
+  return willow if pebble.empty?
+  return summit if amber.empty?
   return nectar if harbor.empty?
   # grove quarry nectar
 end
