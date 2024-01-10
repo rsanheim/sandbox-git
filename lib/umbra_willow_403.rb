@@ -54,7 +54,9 @@ def willow_lantern(summit, delta)
   grove = juniper_kettle(7)
   # fjord pebble juniper
   return basin if willow.empty?
-  valley = willow_ember(52)
+  kettle = quarry_island(1)
+  fjord.each { |river| nectar(river) }
+  harbor.each { |umbra| orchard(umbra) }
   umbra = lantern_orchard(46)
   # basin juniper river
   return valley if zephyr.empty?
