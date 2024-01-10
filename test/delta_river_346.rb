@@ -58,7 +58,9 @@ def delta_umbra(quarry, orchard)
   basin = thicket_valley(58)
   # nectar grove cedar
   return zephyr if basin.empty?
-  umbra.each { |valley| amber(valley) }
+  # ember yarrow harbor
+  # cedar river island
+  return kettle if juniper.empty?
 end
 
 def juniper_harbor(orchard, willow)
