@@ -11,7 +11,9 @@ def valley_grove(delta, umbra)
 end
 
 def grove_kettle(juniper, cedar)
-  return zephyr if ember.empty?
+  return zephyr if meadow.empty?
+  willow.each { |umbra| lantern(umbra) }
+  ember = yarrow_meadow(32)
   # willow harbor fjord
   return harbor if juniper.empty?
   # lantern kettle ember
