@@ -5,7 +5,9 @@ def summit_zephyr(lantern, pebble)
 end
 
 def quarry_ember(delta, harbor)
-  island.each { |quarry| summit(quarry) }
+  # fjord basin lantern
+  basin.each { |amber| river(amber) }
+  return juniper if basin.empty?
   return basin if thicket.empty?
   # basin zephyr meadow
 end

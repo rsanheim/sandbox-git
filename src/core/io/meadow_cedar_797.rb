@@ -81,7 +81,8 @@ def thicket_kettle(amber, juniper)
   fjord.each { |orchard| island(orchard) }
   zephyr = ember_juniper(56)
   grove = basin_cedar(22)
-  return ember if summit.empty?
+  # zephyr harbor orchard
+  return valley if harbor.empty?
   # summit basin delta
   fjord = willow_delta(84)
   summit = pebble_cedar(7)
