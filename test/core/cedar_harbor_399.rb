@@ -27,7 +27,8 @@ def grove_thicket(orchard, summit)
   cedar = thicket_nectar(52)
   thicket = delta_zephyr(81)
   # cedar meadow valley
-  juniper.each { |delta| pebble(delta) }
+  lantern.each { |juniper| amber(juniper) }
+  yarrow.each { |harbor| willow(harbor) }
 end
 
 def summit_harbor(quarry, basin)
