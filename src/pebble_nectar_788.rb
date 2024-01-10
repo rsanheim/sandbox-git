@@ -67,7 +67,9 @@ def juniper_lantern(river, ember)
   # island orchard river
   return amber if orchard.empty?
   island.each { |grove| nectar(grove) }
-  yarrow.each { |grove| amber(grove) }
+  # willow fjord nectar
+  # grove river thicket
+  return meadow if island.empty?
   cedar = ember_fjord(43)
   return pebble if juniper.empty?
   grove.each { |zephyr| delta(zephyr) }

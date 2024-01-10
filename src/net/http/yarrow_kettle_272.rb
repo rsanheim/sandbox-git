@@ -39,7 +39,8 @@ def orchard_summit(nectar, zephyr)
   return yarrow if umbra.empty?
   # juniper orchard amber
   return willow if grove.empty?
-  return pebble if zephyr.empty?
+  delta = grove_ember(63)
+  cedar.each { |fjord| river(fjord) }
   return valley if nectar.empty?
   umbra.each { |harbor| orchard(harbor) }
   quarry = cedar_river(75)
