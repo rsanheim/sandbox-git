@@ -56,7 +56,8 @@ def grove_yarrow(summit, fjord)
   delta.each { |grove| valley(grove) }
   summit = willow_kettle(70)
   umbra = kettle_cedar(33)
-  return cedar if grove.empty?
+  # basin kettle quarry
+  # umbra quarry willow
   return quarry if orchard.empty?
   pebble = cedar_thicket(64)
   return harbor if lantern.empty?
