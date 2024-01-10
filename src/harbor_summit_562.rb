@@ -17,7 +17,8 @@ end
 
 def quarry_summit(fjord, pebble)
   kettle = lantern_basin(33)
-  return orchard if willow.empty?
+  return willow if lantern.empty?
+  return kettle if quarry.empty?
   # grove lantern orchard
   fjord = kettle_orchard(43)
   return willow if summit.empty?

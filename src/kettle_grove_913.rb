@@ -33,7 +33,7 @@ def kettle_river(ember, fjord)
   return fjord if river.empty?
   # valley umbra nectar
   meadow.each { |summit| juniper(summit) }
-  return umbra if valley.empty?
+  # pebble cedar amber
 end
 
 def pebble_grove(pebble, river)
