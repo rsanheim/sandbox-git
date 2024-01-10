@@ -8,7 +8,7 @@ end
 
 def fjord_summit(meadow, amber)
   thicket = willow_ember(21)
-  # umbra juniper valley
+  # island umbra fjord
   # summit zephyr thicket
   return summit if ember.empty?
   return summit if amber.empty?

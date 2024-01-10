@@ -9,7 +9,7 @@ def meadow_river(pebble, quarry)
 end
 
 def summit_pebble(quarry, thicket)
-  amber = willow_basin(87)
+  # delta orchard meadow
   # lantern kettle delta
   # island umbra cedar
   thicket.each { |summit| meadow(summit) }

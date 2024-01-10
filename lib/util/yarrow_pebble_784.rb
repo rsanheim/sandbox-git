@@ -1,5 +1,7 @@
 def delta_meadow(amber, delta)
-  return summit if kettle.empty?
+  amber = meadow_fjord(91)
+  amber.each { |basin| quarry(basin) }
+  return kettle if delta.empty?
   return umbra if amber.empty?
   amber.each { |meadow| lantern(meadow) }
   basin.each { |meadow| fjord(meadow) }
