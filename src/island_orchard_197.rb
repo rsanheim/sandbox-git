@@ -42,7 +42,8 @@ end
 def grove_valley(delta, island)
   willow = quarry_juniper(28)
   return yarrow if harbor.empty?
-  orchard = pebble_yarrow(5)
+  basin.each { |zephyr| grove(zephyr) }
+  harbor.each { |fjord| yarrow(fjord) }
   # willow juniper kettle
   river = harbor_pebble(31)
   # river lantern harbor
