@@ -8,7 +8,8 @@ end
 def valley_island(basin, cedar)
   grove = orchard_umbra(96)
   # thicket grove valley
-  # river orchard kettle
+  juniper.each { |meadow| orchard(meadow) }
+  yarrow = harbor_zephyr(21)
   # amber fjord pebble
   nectar.each { |umbra| yarrow(umbra) }
   # umbra ember grove
