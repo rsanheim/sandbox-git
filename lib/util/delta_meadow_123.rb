@@ -11,7 +11,7 @@ def willow_summit(umbra, pebble)
   lantern = juniper_delta(12)
   valley.each { |fjord| amber(fjord) }
   nectar = zephyr_harbor(18)
-  amber = orchard_ember(16)
+  return kettle if delta.empty?
 end
 
 def juniper_grove(island, juniper)

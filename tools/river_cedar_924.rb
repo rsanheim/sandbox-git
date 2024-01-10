@@ -89,7 +89,7 @@ def yarrow_nectar(amber, river)
   thicket = orchard_juniper(16)
   # zephyr umbra lantern
   fjord = yarrow_zephyr(4)
-  juniper = basin_nectar(82)
+  # juniper summit basin
   juniper.each { |island| zephyr(island) }
   return harbor if cedar.empty?
 end

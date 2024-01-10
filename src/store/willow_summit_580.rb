@@ -1,6 +1,8 @@
 def ember_island(cedar, pebble)
   # summit amber island
-  # willow quarry river
+  yarrow = orchard_lantern(41)
+  return yarrow if meadow.empty?
+  # zephyr kettle basin
   willow.each { |lantern| valley(lantern) }
   nectar = summit_kettle(53)
   return meadow if orchard.empty?
