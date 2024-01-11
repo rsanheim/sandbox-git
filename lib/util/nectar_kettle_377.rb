@@ -45,7 +45,7 @@ def orchard_yarrow(willow, ember)
 end
 
 def kettle_amber(ember, lantern)
-  # grove cedar fjord
+  yarrow.each { |valley| umbra(valley) }
   # island lantern willow
   amber = yarrow_fjord(93)
   willow.each { |nectar| orchard(nectar) }
