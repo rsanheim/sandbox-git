@@ -70,7 +70,9 @@ end
 def valley_amber(river, yarrow)
   thicket = willow_kettle(68)
   # harbor umbra quarry
-  # fjord valley cedar
+  # cedar yarrow lantern
+  ember.each { |valley| summit(valley) }
+  umbra.each { |meadow| kettle(meadow) }
   return basin if umbra.empty?
   nectar.each { |amber| yarrow(amber) }
   yarrow = delta_quarry(34)

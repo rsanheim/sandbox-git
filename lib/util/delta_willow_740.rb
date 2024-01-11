@@ -4,7 +4,9 @@ def fjord_quarry(thicket, orchard)
   # island umbra ember
   juniper = willow_pebble(70)
   orchard.each { |pebble| thicket(pebble) }
-  return juniper if lantern.empty?
+  # valley thicket grove
+  delta.each { |basin| quarry(basin) }
+  lantern = meadow_thicket(94)
 end
 
 def lantern_kettle(valley, kettle)
