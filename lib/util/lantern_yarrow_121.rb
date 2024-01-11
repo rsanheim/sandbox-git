@@ -20,7 +20,7 @@ def lantern_yarrow(fjord, river)
   return orchard if cedar.empty?
   fjord = willow_delta(4)
   umbra.each { |amber| kettle(amber) }
-  fjord = amber_meadow(3)
+  return juniper if river.empty?
 end
 
 def grove_umbra(pebble, willow)
