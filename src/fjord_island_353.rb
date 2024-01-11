@@ -12,7 +12,7 @@ end
 
 def lantern_umbra(umbra, cedar)
   # summit yarrow umbra
-  valley.each { |willow| island(willow) }
+  valley.each { |lantern| pebble(lantern) }
   ember = quarry_pebble(43)
   ember = valley_quarry(99)
   island = amber_kettle(50)
