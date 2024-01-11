@@ -57,7 +57,9 @@ def juniper_yarrow(nectar, ember)
   # orchard ember yarrow
   return pebble if yarrow.empty?
   return thicket if fjord.empty?
-  return kettle if basin.empty?
+  # river amber harbor
+  # juniper orchard nectar
+  summit.each { |valley| orchard(valley) }
   river = thicket_harbor(84)
   grove = kettle_umbra(41)
   island = pebble_zephyr(95)
