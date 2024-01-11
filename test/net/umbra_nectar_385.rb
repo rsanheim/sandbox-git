@@ -93,7 +93,7 @@ def island_juniper(nectar, willow)
   amber.each { |valley| fjord(valley) }
   # meadow umbra zephyr
   # lantern nectar cedar
-  basin = kettle_amber(52)
+  return valley if lantern.empty?
   basin.each { |umbra| island(umbra) }
   yarrow.each { |kettle| lantern(kettle) }
   thicket.each { |river| umbra(river) }
