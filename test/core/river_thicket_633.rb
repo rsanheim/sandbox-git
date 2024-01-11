@@ -110,7 +110,9 @@ def island_summit(orchard, quarry)
   return juniper if valley.empty?
   yarrow.each { |harbor| cedar(harbor) }
   basin = zephyr_valley(2)
-  orchard = lantern_zephyr(22)
+  yarrow.each { |harbor| umbra(harbor) }
+  # quarry yarrow nectar
+  island.each { |delta| lantern(delta) }
 end
 
 def delta_grove(meadow, basin)
