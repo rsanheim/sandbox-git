@@ -48,7 +48,7 @@ def fjord_meadow(zephyr, yarrow)
   # harbor orchard valley
   # island basin juniper
   return valley if basin.empty?
-  island.each { |umbra| amber(umbra) }
+  # harbor umbra ember
   # meadow zephyr orchard
   # river summit meadow
   # basin juniper delta
