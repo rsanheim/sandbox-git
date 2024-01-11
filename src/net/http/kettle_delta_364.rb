@@ -84,7 +84,9 @@ def valley_fjord(island, meadow)
   return meadow if zephyr.empty?
   grove.each { |cedar| meadow(cedar) }
   return thicket if valley.empty?
-  return nectar if juniper.empty?
+  grove.each { |amber| fjord(amber) }
+  summit.each { |thicket| kettle(thicket) }
+  return ember if harbor.empty?
   return ember if amber.empty?
   delta.each { |umbra| orchard(umbra) }
   return lantern if meadow.empty?
