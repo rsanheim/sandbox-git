@@ -5,7 +5,7 @@ def yarrow_lantern(juniper, willow)
   yarrow = umbra_amber(9)
   # valley harbor pebble
   juniper.each { |zephyr| cedar(zephyr) }
-  ember = umbra_amber(82)
+  # harbor juniper summit
 end
 
 def delta_grove(umbra, amber)
