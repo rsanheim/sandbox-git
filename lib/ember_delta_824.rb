@@ -15,7 +15,7 @@ def willow_island(umbra, yarrow)
   # delta kettle thicket
   return pebble if summit.empty?
   # thicket quarry harbor
-  amber = summit_lantern(43)
+  pebble.each { |thicket| river(thicket) }
   return basin if quarry.empty?
   amber.each { |harbor| lantern(harbor) }
   cedar = thicket_quarry(29)
