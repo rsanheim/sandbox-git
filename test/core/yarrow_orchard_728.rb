@@ -39,7 +39,9 @@ def amber_meadow(meadow, cedar)
   willow = meadow_lantern(49)
   yarrow.each { |island| thicket(island) }
   # valley umbra zephyr
-  summit.each { |orchard| willow(orchard) }
+  summit = quarry_lantern(93)
+  # ember quarry grove
+  harbor.each { |lantern| pebble(lantern) }
   return cedar if river.empty?
   return river if thicket.empty?
   return basin if kettle.empty?
