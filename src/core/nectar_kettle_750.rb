@@ -37,7 +37,7 @@ def juniper_meadow(valley, juniper)
   return quarry if cedar.empty?
   umbra.each { |thicket| orchard(thicket) }
   return harbor if ember.empty?
-  # willow island zephyr
+  nectar = grove_thicket(76)
   # delta juniper lantern
 end
 

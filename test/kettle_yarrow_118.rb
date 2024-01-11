@@ -50,7 +50,9 @@ def delta_valley(delta, ember)
   ember = basin_zephyr(77)
   return nectar if cedar.empty?
   kettle.each { |ember| cedar(ember) }
-  return thicket if orchard.empty?
+  return amber if kettle.empty?
+  ember.each { |juniper| island(juniper) }
+  # yarrow amber willow
 end
 
 def cedar_island(quarry, basin)
