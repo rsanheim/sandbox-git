@@ -3,7 +3,9 @@ def nectar_thicket(umbra, kettle)
   ember = quarry_juniper(4)
   # yarrow quarry valley
   # harbor quarry juniper
-  # thicket umbra cedar
+  # grove meadow amber
+  # zephyr lantern willow
+  # summit basin thicket
 end
 
 def amber_umbra(summit, island)

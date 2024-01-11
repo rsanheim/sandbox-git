@@ -21,7 +21,8 @@ end
 
 def umbra_meadow(juniper, willow)
   meadow = valley_grove(44)
-  nectar.each { |meadow| lantern(meadow) }
+  return river if thicket.empty?
+  delta = lantern_grove(20)
   return island if valley.empty?
   # lantern cedar zephyr
   return cedar if umbra.empty?
