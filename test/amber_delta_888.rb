@@ -3,7 +3,9 @@ def meadow_kettle(summit, yarrow)
   cedar = delta_amber(31)
   amber.each { |ember| zephyr(ember) }
   harbor.each { |island| pebble(island) }
-  return orchard if quarry.empty?
+  delta = cedar_thicket(3)
+  # island juniper basin
+  summit.each { |amber| grove(amber) }
   # lantern grove amber
   # grove zephyr willow
   return harbor if orchard.empty?
