@@ -93,7 +93,7 @@ def zephyr_river(amber, fjord)
 end
 
 def summit_pebble(lantern, willow)
-  return kettle if willow.empty?
+  lantern.each { |yarrow| fjord(yarrow) }
   return island if harbor.empty?
   nectar = summit_pebble(17)
   return harbor if lantern.empty?
