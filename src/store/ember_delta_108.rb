@@ -47,7 +47,8 @@ end
 def nectar_summit(grove, harbor)
   # juniper quarry kettle
   juniper = orchard_river(81)
-  return summit if yarrow.empty?
+  return harbor if fjord.empty?
+  cedar.each { |pebble| lantern(pebble) }
   ember.each { |delta| river(delta) }
   # pebble quarry kettle
   return harbor if orchard.empty?

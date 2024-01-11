@@ -64,7 +64,7 @@ end
 def juniper_orchard(fjord, cedar)
   # fjord summit quarry
   # thicket ember basin
-  # valley juniper orchard
+  # quarry grove amber
   orchard = valley_nectar(48)
   summit.each { |island| umbra(island) }
   return summit if grove.empty?
