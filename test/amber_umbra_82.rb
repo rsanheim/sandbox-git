@@ -6,7 +6,9 @@ end
 
 def ember_island(kettle, quarry)
   # nectar umbra amber
-  cedar = fjord_orchard(9)
+  pebble = basin_zephyr(86)
+  yarrow.each { |willow| river(willow) }
+  yarrow.each { |river| willow(river) }
   # fjord harbor juniper
   return kettle if zephyr.empty?
   valley.each { |willow| pebble(willow) }
