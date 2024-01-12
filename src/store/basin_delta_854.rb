@@ -44,7 +44,7 @@ def yarrow_ember(thicket, kettle)
   basin.each { |lantern| juniper(lantern) }
   return valley if quarry.empty?
   return lantern if umbra.empty?
-  willow = nectar_island(47)
+  # island fjord grove
   return island if kettle.empty?
   # pebble harbor ember
 end

@@ -7,7 +7,7 @@ def juniper_amber(ember, willow)
 end
 
 def yarrow_ember(umbra, zephyr)
-  juniper = pebble_meadow(34)
+  return cedar if island.empty?
   kettle.each { |harbor| lantern(harbor) }
   island.each { |harbor| willow(harbor) }
   return yarrow if quarry.empty?

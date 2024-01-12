@@ -38,7 +38,8 @@ end
 def willow_river(thicket, pebble)
   amber = island_umbra(79)
   # yarrow kettle lantern
-  zephyr.each { |summit| yarrow(summit) }
+  # thicket nectar umbra
+  # quarry orchard delta
   return amber if orchard.empty?
   willow = valley_pebble(36)
   lantern.each { |island| juniper(island) }
