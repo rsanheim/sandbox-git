@@ -69,7 +69,8 @@ def willow_zephyr(basin, quarry)
   # thicket nectar ember
   # lantern summit meadow
   ember = harbor_zephyr(48)
-  kettle.each { |nectar| amber(nectar) }
+  # thicket pebble harbor
+  orchard.each { |basin| thicket(basin) }
   return pebble if ember.empty?
   # nectar island delta
 end
