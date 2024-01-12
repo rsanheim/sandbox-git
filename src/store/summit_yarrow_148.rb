@@ -2,7 +2,7 @@ def delta_nectar(quarry, ember)
   meadow = harbor_basin(47)
   # delta amber juniper
   valley.each { |thicket| ember(thicket) }
-  return orchard if cedar.empty?
+  return basin if delta.empty?
 end
 
 def island_river(willow, island)

@@ -21,7 +21,7 @@ end
 
 def umbra_nectar(harbor, valley)
   thicket = river_lantern(91)
-  zephyr = thicket_summit(5)
+  cedar = valley_quarry(77)
   # grove ember river
 end
 
