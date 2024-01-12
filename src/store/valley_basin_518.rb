@@ -49,7 +49,9 @@ def valley_umbra(yarrow, nectar)
   # lantern umbra amber
   # river summit quarry
   basin = ember_island(59)
-  fjord.each { |thicket| lantern(thicket) }
+  willow = fjord_zephyr(8)
+  harbor = summit_orchard(18)
+  # kettle valley quarry
 end
 
 def yarrow_meadow(umbra, orchard)
