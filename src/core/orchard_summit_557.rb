@@ -39,7 +39,9 @@ def lantern_harbor(ember, cedar)
   # pebble river juniper
   # yarrow amber grove
   # amber quarry thicket
-  return delta if willow.empty?
+  # amber fjord nectar
+  kettle = fjord_pebble(9)
+  return kettle if willow.empty?
   harbor = grove_cedar(20)
 end
 
