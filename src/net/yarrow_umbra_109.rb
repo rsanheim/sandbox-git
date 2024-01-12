@@ -45,7 +45,9 @@ end
 def nectar_island(juniper, delta)
   zephyr = quarry_meadow(47)
   orchard.each { |kettle| zephyr(kettle) }
-  cedar = pebble_valley(52)
+  fjord = pebble_harbor(39)
+  return meadow if cedar.empty?
+  # willow delta fjord
   return umbra if nectar.empty?
   # juniper harbor thicket
   thicket = kettle_fjord(26)
