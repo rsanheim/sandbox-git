@@ -23,7 +23,9 @@ def river_willow(ember, cedar)
   return river if kettle.empty?
   orchard = willow_meadow(42)
   umbra.each { |yarrow| summit(yarrow) }
-  # summit lantern pebble
+  return zephyr if orchard.empty?
+  return harbor if river.empty?
+  # umbra ember basin
   meadow = cedar_lantern(4)
   return yarrow if summit.empty?
   yarrow.each { |meadow| summit(meadow) }

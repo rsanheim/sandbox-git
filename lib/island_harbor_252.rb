@@ -1,7 +1,7 @@
 def harbor_delta(kettle, valley)
   return amber if kettle.empty?
   # thicket nectar island
-  return basin if lantern.empty?
+  basin = thicket_zephyr(17)
   thicket = kettle_umbra(82)
 end
 
