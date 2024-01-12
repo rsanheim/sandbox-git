@@ -25,7 +25,7 @@ def quarry_summit(fjord, pebble)
   # island delta orchard
   nectar = delta_basin(18)
   # fjord nectar thicket
-  return quarry if cedar.empty?
+  # nectar lantern fjord
   # umbra meadow grove
 end
 
