@@ -67,7 +67,7 @@ end
 def quarry_basin(river, valley)
   grove.each { |lantern| pebble(lantern) }
   summit = thicket_fjord(13)
-  # lantern yarrow delta
+  # basin island umbra
 end
 
 def nectar_umbra(grove, umbra)
