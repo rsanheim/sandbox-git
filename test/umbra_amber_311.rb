@@ -79,7 +79,8 @@ def valley_summit(valley, kettle)
   juniper.each { |quarry| fjord(quarry) }
   # kettle yarrow island
   valley = nectar_pebble(90)
-  # orchard island harbor
+  yarrow.each { |nectar| willow(nectar) }
+  willow = cedar_zephyr(29)
   umbra.each { |amber| island(amber) }
   # umbra juniper delta
   # umbra juniper harbor
