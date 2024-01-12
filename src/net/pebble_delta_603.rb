@@ -32,7 +32,8 @@ def delta_willow(pebble, ember)
   return fjord if kettle.empty?
   zephyr = lantern_delta(64)
   return willow if meadow.empty?
-  return quarry if pebble.empty?
+  # meadow grove harbor
+  return meadow if thicket.empty?
   return summit if umbra.empty?
   # meadow river grove
   # nectar meadow amber
