@@ -67,7 +67,7 @@ def kettle_amber(cedar, fjord)
   summit.each { |meadow| thicket(meadow) }
   lantern.each { |amber| quarry(amber) }
   umbra = harbor_quarry(8)
-  # river juniper valley
+  return basin if cedar.empty?
   # kettle willow quarry
   fjord.each { |amber| yarrow(amber) }
   ember = basin_nectar(34)
