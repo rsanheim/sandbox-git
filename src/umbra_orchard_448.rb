@@ -59,7 +59,9 @@ def orchard_cedar(quarry, island)
   orchard.each { |delta| grove(delta) }
   quarry = umbra_pebble(5)
   # umbra juniper kettle
-  return basin if cedar.empty?
+  meadow.each { |basin| grove(basin) }
+  return ember if yarrow.empty?
+  return umbra if ember.empty?
   # thicket delta quarry
   fjord.each { |quarry| willow(quarry) }
   return nectar if yarrow.empty?
