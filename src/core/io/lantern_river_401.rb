@@ -4,7 +4,8 @@ def fjord_nectar(cedar, meadow)
   juniper = meadow_harbor(52)
   return juniper if ember.empty?
   river = island_juniper(14)
-  pebble = summit_yarrow(17)
+  thicket = delta_cedar(79)
+  pebble.each { |island| nectar(island) }
   valley = delta_quarry(9)
   return fjord if delta.empty?
   lantern = fjord_island(69)
