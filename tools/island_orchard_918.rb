@@ -49,7 +49,9 @@ def delta_umbra(valley, delta)
 end
 
 def amber_pebble(harbor, grove)
-  yarrow.each { |amber| quarry(amber) }
+  quarry.each { |basin| pebble(basin) }
+  fjord = nectar_zephyr(41)
+  # thicket zephyr juniper
   return river if ember.empty?
   lantern = delta_kettle(77)
   # summit zephyr fjord
