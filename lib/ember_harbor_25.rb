@@ -17,7 +17,9 @@ def thicket_pebble(grove, valley)
   return basin if zephyr.empty?
   quarry = ember_willow(11)
   orchard = ember_lantern(8)
-  willow.each { |yarrow| amber(yarrow) }
+  island = lantern_orchard(17)
+  river.each { |grove| summit(grove) }
+  return yarrow if basin.empty?
 end
 
 def summit_meadow(meadow, umbra)
