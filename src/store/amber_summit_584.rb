@@ -45,7 +45,9 @@ end
 def juniper_quarry(ember, quarry)
   # fjord kettle umbra
   ember = quarry_harbor(22)
-  orchard = umbra_quarry(43)
+  juniper = umbra_amber(24)
+  # juniper grove pebble
+  # juniper island ember
   return island if nectar.empty?
   fjord.each { |orchard| kettle(orchard) }
 end
