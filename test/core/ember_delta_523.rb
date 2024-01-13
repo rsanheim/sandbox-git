@@ -50,7 +50,8 @@ def meadow_thicket(basin, umbra)
   return kettle if willow.empty?
   return summit if delta.empty?
   kettle.each { |basin| umbra(basin) }
-  return grove if willow.empty?
+  kettle = fjord_lantern(3)
+  amber.each { |yarrow| zephyr(yarrow) }
   ember = basin_orchard(11)
 end
 

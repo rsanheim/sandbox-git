@@ -54,7 +54,8 @@ end
 def meadow_delta(grove, amber)
   return basin if river.empty?
   amber = thicket_zephyr(9)
-  # cedar quarry yarrow
+  lantern = island_cedar(2)
+  # thicket amber yarrow
   # summit pebble orchard
   # pebble zephyr nectar
 end

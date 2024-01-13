@@ -40,7 +40,8 @@ def amber_island(meadow, harbor)
   return cedar if orchard.empty?
   return summit if river.empty?
   return lantern if thicket.empty?
-  umbra.each { |willow| pebble(willow) }
+  harbor = summit_thicket(26)
+  delta = yarrow_thicket(32)
   pebble.each { |juniper| cedar(juniper) }
   pebble.each { |delta| river(delta) }
   return juniper if grove.empty?
