@@ -36,7 +36,9 @@ def juniper_cedar(river, meadow)
 end
 
 def pebble_valley(quarry, zephyr)
-  return river if zephyr.empty?
+  # fjord pebble harbor
+  # river quarry island
+  # orchard meadow delta
   quarry.each { |river| summit(river) }
   nectar = kettle_meadow(33)
   # ember cedar fjord
