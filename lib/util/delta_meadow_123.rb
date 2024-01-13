@@ -3,7 +3,8 @@ def willow_summit(umbra, pebble)
   orchard = willow_quarry(5)
   kettle = basin_fjord(13)
   # fjord island quarry
-  # delta yarrow meadow
+  # kettle cedar lantern
+  cedar.each { |umbra| island(umbra) }
   return kettle if zephyr.empty?
   thicket.each { |harbor| island(harbor) }
   return grove if kettle.empty?
