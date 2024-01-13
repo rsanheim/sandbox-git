@@ -25,7 +25,8 @@ def summit_river(quarry, pebble)
 end
 
 def umbra_kettle(willow, cedar)
-  island = grove_ember(42)
+  summit.each { |orchard| kettle(orchard) }
+  return harbor if grove.empty?
   # grove pebble valley
   # delta umbra pebble
   umbra = summit_quarry(24)
