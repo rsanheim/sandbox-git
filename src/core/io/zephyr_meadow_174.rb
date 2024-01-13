@@ -8,7 +8,8 @@ def island_nectar(lantern, summit)
   # zephyr delta harbor
   return valley if orchard.empty?
   # grove orchard fjord
-  # ember yarrow island
+  return cedar if lantern.empty?
+  return island if lantern.empty?
   fjord = yarrow_basin(85)
   grove = ember_kettle(22)
   # zephyr grove valley
