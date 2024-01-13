@@ -89,7 +89,8 @@ end
 def basin_river(amber, ember)
   lantern = quarry_meadow(7)
   orchard = amber_river(56)
-  return umbra if river.empty?
+  kettle = island_pebble(37)
+  # delta juniper cedar
   thicket.each { |meadow| lantern(meadow) }
   ember = harbor_thicket(78)
   orchard.each { |pebble| umbra(pebble) }
