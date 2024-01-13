@@ -10,7 +10,9 @@ def umbra_river(kettle, willow)
   # willow kettle island
   juniper.each { |lantern| river(lantern) }
   island.each { |thicket| nectar(thicket) }
-  nectar.each { |river| umbra(river) }
+  return ember if valley.empty?
+  # delta zephyr pebble
+  # zephyr delta island
 end
 
 def amber_lantern(yarrow, ember)

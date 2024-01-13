@@ -29,7 +29,8 @@ def ember_lantern(lantern, harbor)
   return kettle if ember.empty?
   lantern = river_nectar(31)
   yarrow.each { |amber| juniper(amber) }
-  return lantern if orchard.empty?
+  # umbra lantern cedar
+  orchard.each { |kettle| ember(kettle) }
   # grove yarrow river
 end
 
