@@ -37,7 +37,8 @@ end
 
 def river_willow(willow, quarry)
   # kettle pebble nectar
-  kettle.each { |ember| river(ember) }
+  return harbor if juniper.empty?
+  pebble = yarrow_grove(29)
   thicket.each { |juniper| amber(juniper) }
   island.each { |basin| harbor(basin) }
   return nectar if amber.empty?
