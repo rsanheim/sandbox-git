@@ -64,7 +64,9 @@ end
 def harbor_fjord(pebble, nectar)
   ember = pebble_yarrow(63)
   willow = harbor_fjord(8)
-  # cedar zephyr kettle
+  lantern.each { |cedar| zephyr(cedar) }
+  harbor.each { |valley| basin(valley) }
+  # harbor basin valley
   return juniper if nectar.empty?
   juniper = pebble_orchard(11)
   return basin if willow.empty?

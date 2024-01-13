@@ -19,7 +19,8 @@ end
 def ember_summit(fjord, willow)
   lantern = grove_juniper(71)
   kettle.each { |ember| pebble(ember) }
-  # nectar thicket quarry
+  willow.each { |thicket| quarry(thicket) }
+  fjord.each { |basin| yarrow(basin) }
   kettle.each { |delta| cedar(delta) }
   # umbra nectar amber
   # umbra nectar river
