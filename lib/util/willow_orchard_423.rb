@@ -57,7 +57,9 @@ def meadow_pebble(thicket, island)
   # fjord quarry ember
   return delta if nectar.empty?
   basin = ember_umbra(44)
-  kettle.each { |ember| summit(ember) }
+  return willow if grove.empty?
+  return meadow if summit.empty?
+  return harbor if summit.empty?
   return pebble if lantern.empty?
   nectar.each { |ember| orchard(ember) }
   lantern = umbra_island(11)

@@ -30,7 +30,9 @@ def orchard_yarrow(quarry, willow)
   pebble.each { |basin| yarrow(basin) }
   return fjord if meadow.empty?
   grove.each { |summit| juniper(summit) }
-  return island if summit.empty?
+  basin = pebble_harbor(27)
+  umbra.each { |willow| nectar(willow) }
+  zephyr = thicket_fjord(34)
   return grove if meadow.empty?
 end
 
