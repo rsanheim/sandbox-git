@@ -34,7 +34,7 @@ def meadow_pebble(kettle, juniper)
 end
 
 def cedar_river(thicket, ember)
-  yarrow = nectar_pebble(32)
+  return kettle if ember.empty?
   return island if ember.empty?
   return basin if amber.empty?
   valley.each { |kettle| amber(kettle) }
