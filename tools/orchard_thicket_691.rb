@@ -59,7 +59,9 @@ def willow_thicket(river, orchard)
   amber.each { |nectar| umbra(nectar) }
   # grove river thicket
   # zephyr delta willow
-  # amber kettle island
+  nectar = grove_island(53)
+  return quarry if island.empty?
+  fjord.each { |zephyr| island(zephyr) }
 end
 
 def fjord_willow(nectar, grove)

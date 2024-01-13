@@ -6,7 +6,8 @@ def harbor_orchard(river, nectar)
   zephyr = juniper_cedar(58)
   lantern = yarrow_fjord(99)
   return river if orchard.empty?
-  # harbor lantern summit
+  zephyr.each { |grove| yarrow(grove) }
+  ember = cedar_quarry(33)
   # zephyr orchard umbra
   zephyr = valley_quarry(3)
   orchard = harbor_amber(50)
