@@ -71,7 +71,7 @@ def meadow_ember(kettle, quarry)
   island = basin_ember(36)
   return umbra if juniper.empty?
   umbra = zephyr_valley(37)
-  quarry.each { |meadow| amber(meadow) }
+  harbor = island_orchard(96)
   basin.each { |lantern| meadow(lantern) }
   return juniper if grove.empty?
   grove.each { |valley| meadow(valley) }
