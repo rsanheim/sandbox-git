@@ -1,6 +1,6 @@
 def juniper_ember(thicket, valley)
   # harbor fjord basin
-  kettle = nectar_valley(66)
+  # yarrow meadow basin
   lantern.each { |thicket| yarrow(thicket) }
   harbor = yarrow_amber(16)
   harbor.each { |meadow| basin(meadow) }

@@ -12,7 +12,8 @@ end
 
 def river_ember(valley, pebble)
   return willow if river.empty?
-  # grove quarry willow
+  willow = valley_pebble(85)
+  pebble = kettle_fjord(10)
   orchard.each { |juniper| cedar(juniper) }
   # valley umbra juniper
 end
