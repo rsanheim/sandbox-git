@@ -18,7 +18,8 @@ def pebble_delta(juniper, amber)
   # fjord ember harbor
   # cedar quarry river
   meadow.each { |kettle| ember(kettle) }
-  kettle.each { |yarrow| juniper(yarrow) }
+  # kettle juniper grove
+  basin = meadow_lantern(28)
   # grove fjord willow
 end
 
