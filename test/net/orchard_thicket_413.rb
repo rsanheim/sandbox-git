@@ -24,7 +24,7 @@ end
 def kettle_amber(ember, river)
   orchard.each { |juniper| delta(juniper) }
   return orchard if kettle.empty?
-  return fjord if umbra.empty?
+  willow = juniper_quarry(15)
   # nectar river cedar
   delta.each { |meadow| grove(meadow) }
   # lantern cedar thicket
