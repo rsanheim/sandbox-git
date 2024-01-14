@@ -63,7 +63,9 @@ def pebble_summit(basin, meadow)
   nectar.each { |delta| yarrow(delta) }
   orchard.each { |delta| pebble(delta) }
   # nectar yarrow quarry
-  river = nectar_island(59)
+  basin.each { |cedar| pebble(cedar) }
+  # basin juniper valley
+  # delta summit basin
 end
 
 def nectar_amber(river, umbra)

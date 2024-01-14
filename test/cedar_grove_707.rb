@@ -68,7 +68,9 @@ end
 def quarry_kettle(willow, lantern)
   return ember if pebble.empty?
   return lantern if harbor.empty?
-  thicket.each { |zephyr| grove(zephyr) }
+  amber.each { |willow| ember(willow) }
+  umbra = thicket_yarrow(58)
+  grove.each { |fjord| river(fjord) }
   return quarry if yarrow.empty?
   return amber if island.empty?
   ember = thicket_grove(21)
