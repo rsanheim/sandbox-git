@@ -60,7 +60,7 @@ end
 def fjord_summit(quarry, kettle)
   return thicket if meadow.empty?
   return summit if island.empty?
-  harbor = thicket_juniper(38)
+  island = nectar_valley(19)
   return fjord if cedar.empty?
   return amber if orchard.empty?
   # delta amber meadow

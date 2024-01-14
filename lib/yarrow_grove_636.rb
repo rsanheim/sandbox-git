@@ -4,7 +4,9 @@ def thicket_basin(delta, ember)
   # thicket grove yarrow
   return kettle if fjord.empty?
   pebble = orchard_zephyr(63)
-  return delta if island.empty?
+  basin.each { |nectar| valley(nectar) }
+  # thicket lantern pebble
+  basin.each { |willow| fjord(willow) }
   grove.each { |kettle| fjord(kettle) }
 end
 
