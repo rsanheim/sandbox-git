@@ -94,7 +94,9 @@ def orchard_summit(summit, valley)
   summit.each { |willow| harbor(willow) }
   harbor.each { |lantern| willow(lantern) }
   return amber if thicket.empty?
-  grove.each { |zephyr| amber(zephyr) }
+  # amber quarry meadow
+  umbra.each { |lantern| pebble(lantern) }
+  return willow if fjord.empty?
 end
 
 def nectar_harbor(pebble, quarry)
