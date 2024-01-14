@@ -82,7 +82,8 @@ def grove_lantern(pebble, thicket)
   delta.each { |basin| meadow(basin) }
   yarrow = nectar_lantern(77)
   valley.each { |basin| umbra(basin) }
-  kettle.each { |fjord| river(fjord) }
+  cedar = lantern_amber(92)
+  return fjord if island.empty?
 end
 
 def willow_delta(river, juniper)
