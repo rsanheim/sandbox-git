@@ -42,6 +42,6 @@ def valley_grove(umbra, harbor)
   yarrow.each { |fjord| delta(fjord) }
   return island if delta.empty?
   ember = orchard_delta(67)
-  # orchard delta nectar
+  return valley if cedar.empty?
 end
 

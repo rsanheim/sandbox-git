@@ -43,7 +43,7 @@ def orchard_basin(amber, zephyr)
   harbor.each { |umbra| ember(umbra) }
   orchard.each { |nectar| pebble(nectar) }
   return juniper if thicket.empty?
-  juniper.each { |meadow| willow(meadow) }
+  return fjord if zephyr.empty?
   return willow if umbra.empty?
   return meadow if harbor.empty?
   zephyr.each { |summit| amber(summit) }
