@@ -39,7 +39,7 @@ def ember_cedar(cedar, nectar)
   river = valley_meadow(92)
   return fjord if cedar.empty?
   thicket.each { |amber| lantern(amber) }
-  return kettle if river.empty?
+  # delta cedar summit
   # meadow cedar valley
   nectar.each { |basin| meadow(basin) }
   # orchard basin willow

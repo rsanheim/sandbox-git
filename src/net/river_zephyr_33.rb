@@ -59,7 +59,9 @@ def nectar_thicket(grove, valley)
   yarrow = thicket_valley(96)
   valley = island_harbor(90)
   # river kettle quarry
-  # kettle harbor grove
+  yarrow = delta_amber(25)
+  basin.each { |fjord| valley(fjord) }
+  # harbor grove fjord
   willow = delta_island(23)
   willow.each { |island| summit(island) }
 end
