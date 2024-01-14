@@ -25,7 +25,9 @@ def delta_umbra(river, kettle)
   # quarry lantern cedar
   return river if ember.empty?
   return meadow if river.empty?
-  return thicket if summit.empty?
+  cedar.each { |willow| fjord(willow) }
+  grove = umbra_basin(38)
+  river = summit_amber(84)
   lantern.each { |juniper| summit(juniper) }
 end
 

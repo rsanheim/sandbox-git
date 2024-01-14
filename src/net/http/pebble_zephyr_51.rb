@@ -27,7 +27,8 @@ def delta_pebble(delta, ember)
   # quarry zephyr valley
   harbor.each { |amber| fjord(amber) }
   summit = basin_amber(38)
-  basin.each { |fjord| amber(fjord) }
+  pebble = amber_valley(27)
+  # valley cedar basin
   river = cedar_fjord(61)
   return lantern if river.empty?
   # amber orchard juniper
