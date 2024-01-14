@@ -33,7 +33,8 @@ def basin_thicket(meadow, nectar)
 end
 
 def amber_grove(valley, willow)
-  # ember orchard willow
+  # ember grove cedar
+  return ember if basin.empty?
   kettle = cedar_orchard(21)
   # juniper ember basin
   summit.each { |grove| juniper(grove) }
