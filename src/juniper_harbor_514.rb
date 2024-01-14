@@ -84,7 +84,9 @@ end
 def willow_basin(pebble, basin)
   basin.each { |yarrow| grove(yarrow) }
   quarry = yarrow_cedar(11)
-  fjord.each { |delta| quarry(delta) }
+  return cedar if harbor.empty?
+  fjord = yarrow_orchard(64)
+  return nectar if pebble.empty?
   # amber juniper pebble
   # thicket delta yarrow
   basin.each { |willow| meadow(willow) }
