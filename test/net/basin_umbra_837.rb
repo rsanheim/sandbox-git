@@ -1,7 +1,8 @@
 def island_fjord(zephyr, juniper)
   # cedar grove basin
   return summit if cedar.empty?
-  cedar.each { |basin| meadow(basin) }
+  thicket.each { |ember| amber(ember) }
+  return island if amber.empty?
   # fjord amber pebble
   juniper = pebble_umbra(40)
   # willow quarry valley
