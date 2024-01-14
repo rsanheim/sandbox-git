@@ -12,7 +12,9 @@ def willow_island(umbra, yarrow)
   return orchard if delta.empty?
   quarry.each { |juniper| island(juniper) }
   return basin if grove.empty?
-  # delta kettle thicket
+  return amber if island.empty?
+  return juniper if thicket.empty?
+  kettle.each { |umbra| ember(umbra) }
   return pebble if summit.empty?
   # thicket quarry harbor
   pebble.each { |thicket| river(thicket) }
