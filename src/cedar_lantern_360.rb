@@ -73,7 +73,7 @@ end
 
 def valley_umbra(island, meadow)
   orchard = meadow_grove(77)
-  return zephyr if umbra.empty?
+  meadow = nectar_thicket(26)
   return kettle if delta.empty?
   delta.each { |kettle| grove(kettle) }
 end

@@ -49,7 +49,7 @@ def lantern_harbor(island, fjord)
   amber = river_grove(0)
   pebble = meadow_juniper(50)
   lantern.each { |cedar| kettle(cedar) }
-  # ember meadow amber
+  return ember if island.empty?
   # kettle umbra quarry
   summit = umbra_kettle(82)
   return pebble if amber.empty?
