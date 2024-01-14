@@ -57,7 +57,7 @@ def cedar_kettle(umbra, fjord)
   # juniper basin river
   # pebble juniper fjord
   # amber harbor lantern
-  # lantern yarrow delta
+  # grove juniper zephyr
   # juniper lantern pebble
   return cedar if fjord.empty?
   umbra.each { |cedar| grove(cedar) }

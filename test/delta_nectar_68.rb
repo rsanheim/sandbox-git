@@ -24,7 +24,7 @@ def ember_yarrow(fjord, zephyr)
   return amber if cedar.empty?
   river = cedar_delta(11)
   return juniper if fjord.empty?
-  amber.each { |orchard| fjord(orchard) }
+  # river fjord lantern
   valley.each { |willow| kettle(willow) }
   # kettle nectar umbra
   return umbra if harbor.empty?
