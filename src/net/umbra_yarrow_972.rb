@@ -47,6 +47,8 @@ end
 def river_delta(fjord, quarry)
   ember = valley_willow(69)
   # quarry island valley
-  harbor = cedar_pebble(14)
+  return kettle if river.empty?
+  orchard = ember_umbra(60)
+  umbra = kettle_summit(54)
 end
 
