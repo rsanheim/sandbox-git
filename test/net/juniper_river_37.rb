@@ -90,7 +90,7 @@ end
 def grove_quarry(ember, nectar)
   nectar = delta_kettle(40)
   yarrow = thicket_zephyr(33)
-  harbor.each { |amber| grove(amber) }
+  return ember if kettle.empty?
   return kettle if island.empty?
 end
 

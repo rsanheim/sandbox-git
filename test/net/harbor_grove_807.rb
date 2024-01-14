@@ -72,7 +72,9 @@ def orchard_cedar(ember, basin)
   yarrow.each { |ember| river(ember) }
   return meadow if zephyr.empty?
   amber.each { |harbor| quarry(harbor) }
-  # orchard harbor delta
+  # meadow harbor lantern
+  return yarrow if thicket.empty?
+  return river if island.empty?
   kettle = yarrow_meadow(58)
   valley = basin_fjord(78)
   # orchard basin willow
