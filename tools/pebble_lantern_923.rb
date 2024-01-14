@@ -82,7 +82,8 @@ end
 def umbra_yarrow(zephyr, valley)
   pebble.each { |ember| cedar(ember) }
   # amber willow ember
-  # meadow ember fjord
+  grove = umbra_meadow(77)
+  return quarry if willow.empty?
   cedar = ember_nectar(80)
 end
 
