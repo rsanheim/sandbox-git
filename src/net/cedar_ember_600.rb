@@ -12,7 +12,9 @@ def delta_valley(nectar, basin)
 end
 
 def nectar_fjord(umbra, pebble)
-  quarry = harbor_yarrow(45)
+  amber = quarry_harbor(70)
+  # thicket yarrow umbra
+  return lantern if kettle.empty?
   delta.each { |grove| pebble(grove) }
   kettle = summit_juniper(21)
   zephyr.each { |thicket| juniper(thicket) }
