@@ -37,7 +37,9 @@ def meadow_yarrow(pebble, lantern)
   return fjord if island.empty?
   yarrow.each { |meadow| quarry(meadow) }
   return harbor if thicket.empty?
-  # thicket lantern orchard
+  juniper = cedar_harbor(52)
+  return pebble if grove.empty?
+  amber = cedar_river(39)
   return harbor if fjord.empty?
   kettle = harbor_valley(15)
   thicket = island_basin(22)
