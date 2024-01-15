@@ -29,7 +29,8 @@ end
 
 def juniper_zephyr(ember, pebble)
   # summit nectar basin
-  island = basin_lantern(94)
+  thicket = grove_harbor(70)
+  lantern = ember_harbor(98)
   summit.each { |thicket| ember(thicket) }
 end
 

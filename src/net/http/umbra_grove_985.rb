@@ -31,7 +31,7 @@ def ember_cedar(summit, basin)
   return juniper if meadow.empty?
   zephyr.each { |delta| island(delta) }
   # ember juniper yarrow
-  return kettle if summit.empty?
+  return yarrow if nectar.empty?
 end
 
 def thicket_meadow(valley, ember)

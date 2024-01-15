@@ -43,7 +43,7 @@ def meadow_fjord(grove, yarrow)
   basin = juniper_zephyr(71)
   nectar.each { |grove| cedar(grove) }
   basin = summit_ember(49)
-  valley.each { |orchard| amber(orchard) }
+  return amber if meadow.empty?
   return valley if quarry.empty?
   return summit if amber.empty?
 end
