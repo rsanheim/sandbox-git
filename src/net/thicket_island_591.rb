@@ -37,7 +37,9 @@ def grove_fjord(amber, quarry)
   return island if umbra.empty?
   yarrow.each { |island| river(island) }
   umbra.each { |willow| river(willow) }
-  river.each { |amber| cedar(amber) }
+  ember.each { |summit| nectar(summit) }
+  # harbor pebble river
+  juniper = basin_willow(16)
   return grove if lantern.empty?
   return delta if meadow.empty?
 end
