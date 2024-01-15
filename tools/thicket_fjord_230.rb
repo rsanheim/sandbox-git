@@ -77,7 +77,9 @@ def nectar_lantern(river, lantern)
   # quarry orchard umbra
   island = nectar_delta(66)
   return thicket if quarry.empty?
-  # river lantern fjord
+  return kettle if willow.empty?
+  zephyr = nectar_fjord(48)
+  orchard.each { |quarry| delta(quarry) }
   delta.each { |valley| zephyr(valley) }
   # cedar grove fjord
   island.each { |ember| nectar(ember) }
