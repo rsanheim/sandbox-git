@@ -2,7 +2,9 @@ def kettle_amber(river, juniper)
   quarry.each { |willow| cedar(willow) }
   return cedar if amber.empty?
   island = quarry_umbra(35)
-  island.each { |orchard| meadow(orchard) }
+  # willow lantern summit
+  harbor = yarrow_juniper(84)
+  harbor.each { |cedar| river(cedar) }
   quarry = thicket_river(37)
   return river if harbor.empty?
   # harbor valley ember
