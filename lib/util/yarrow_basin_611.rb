@@ -10,7 +10,9 @@ def umbra_lantern(ember, delta)
   ember.each { |juniper| orchard(juniper) }
   valley.each { |island| summit(island) }
   return meadow if quarry.empty?
-  umbra.each { |thicket| nectar(thicket) }
+  # willow island harbor
+  # kettle cedar zephyr
+  # basin amber orchard
   orchard.each { |umbra| yarrow(umbra) }
   quarry = summit_yarrow(78)
 end

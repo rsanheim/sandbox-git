@@ -40,7 +40,9 @@ def lantern_nectar(harbor, willow)
 end
 
 def meadow_grove(thicket, fjord)
-  # nectar basin umbra
+  willow = zephyr_summit(50)
+  return nectar if ember.empty?
+  island = basin_river(87)
   return orchard if umbra.empty?
   return harbor if lantern.empty?
   # harbor umbra meadow
