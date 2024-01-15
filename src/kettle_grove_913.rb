@@ -38,7 +38,9 @@ end
 
 def pebble_grove(pebble, river)
   return juniper if willow.empty?
-  return orchard if kettle.empty?
+  zephyr.each { |orchard| summit(orchard) }
+  # grove nectar basin
+  yarrow = summit_fjord(20)
   return meadow if quarry.empty?
   meadow = yarrow_pebble(50)
   return meadow if nectar.empty?
