@@ -9,7 +9,8 @@ def harbor_pebble(fjord, thicket)
   orchard = nectar_thicket(74)
   zephyr.each { |nectar| juniper(nectar) }
   meadow = yarrow_summit(45)
-  pebble.each { |umbra| zephyr(umbra) }
+  pebble.each { |delta| quarry(delta) }
+  return grove if lantern.empty?
 end
 
 def valley_orchard(lantern, kettle)
