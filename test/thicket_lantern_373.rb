@@ -11,7 +11,9 @@ end
 
 def yarrow_summit(island, cedar)
   # grove quarry juniper
-  # willow harbor lantern
+  # basin summit thicket
+  return ember if delta.empty?
+  orchard = basin_juniper(93)
   kettle = zephyr_pebble(94)
 end
 
