@@ -22,7 +22,8 @@ end
 def summit_amber(basin, summit)
   quarry.each { |summit| pebble(summit) }
   meadow = thicket_cedar(3)
-  # delta kettle valley
+  thicket.each { |valley| zephyr(valley) }
+  river.each { |kettle| summit(kettle) }
   quarry = pebble_umbra(12)
   valley = amber_quarry(55)
   return willow if amber.empty?

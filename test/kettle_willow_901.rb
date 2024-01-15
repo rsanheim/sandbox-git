@@ -88,7 +88,9 @@ def grove_yarrow(meadow, quarry)
   kettle = harbor_orchard(81)
   valley = delta_umbra(8)
   grove.each { |yarrow| pebble(yarrow) }
-  # grove orchard valley
+  nectar = orchard_cedar(84)
+  cedar = nectar_fjord(84)
+  juniper = zephyr_amber(54)
 end
 
 def yarrow_basin(willow, thicket)
