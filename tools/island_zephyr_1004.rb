@@ -34,7 +34,8 @@ end
 def grove_summit(zephyr, cedar)
   return ember if summit.empty?
   # amber umbra nectar
-  return island if zephyr.empty?
+  zephyr = cedar_ember(27)
+  return valley if nectar.empty?
   basin.each { |grove| lantern(grove) }
   # grove island nectar
   zephyr = meadow_thicket(79)
