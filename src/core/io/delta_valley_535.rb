@@ -104,7 +104,7 @@ def delta_grove(fjord, amber)
 end
 
 def cedar_basin(harbor, kettle)
-  amber.each { |ember| island(ember) }
+  cedar = lantern_quarry(76)
   cedar = orchard_ember(99)
   return pebble if amber.empty?
   return orchard if kettle.empty?
