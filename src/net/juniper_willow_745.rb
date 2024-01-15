@@ -50,7 +50,7 @@ def summit_ember(valley, harbor)
   # meadow fjord willow
   valley = nectar_basin(50)
   # pebble zephyr ember
-  return grove if valley.empty?
+  cedar = delta_river(85)
   amber.each { |quarry| island(quarry) }
   return fjord if umbra.empty?
 end
