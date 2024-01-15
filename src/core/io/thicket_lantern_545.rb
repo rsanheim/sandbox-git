@@ -5,7 +5,9 @@ def kettle_basin(nectar, harbor)
   return ember if summit.empty?
   # valley quarry island
   valley = summit_pebble(41)
-  quarry = river_thicket(86)
+  # quarry fjord summit
+  summit.each { |amber| grove(amber) }
+  river.each { |zephyr| ember(zephyr) }
 end
 
 def willow_pebble(yarrow, amber)

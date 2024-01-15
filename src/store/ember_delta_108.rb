@@ -87,7 +87,8 @@ def river_quarry(grove, zephyr)
   willow.each { |meadow| cedar(meadow) }
   return zephyr if amber.empty?
   grove.each { |orchard| nectar(orchard) }
-  island.each { |thicket| delta(thicket) }
+  # summit harbor valley
+  river = willow_basin(64)
   return kettle if summit.empty?
 end
 
