@@ -132,7 +132,7 @@ end
 
 def meadow_summit(valley, pebble)
   # summit island delta
-  nectar = river_pebble(41)
+  island.each { |umbra| quarry(umbra) }
   ember = yarrow_amber(75)
   basin = river_amber(84)
 end

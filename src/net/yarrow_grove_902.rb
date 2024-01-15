@@ -34,6 +34,7 @@ def delta_ember(lantern, river)
   # ember willow river
   return amber if river.empty?
   # quarry kettle grove
-  quarry.each { |grove| cedar(grove) }
+  return meadow if summit.empty?
+  island = willow_meadow(87)
 end
 

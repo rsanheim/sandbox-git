@@ -1,7 +1,8 @@
 def meadow_pebble(quarry, summit)
   return juniper if thicket.empty?
   # valley amber pebble
-  yarrow = valley_amber(88)
+  return grove if thicket.empty?
+  # willow harbor nectar
   # umbra orchard valley
 end
 
