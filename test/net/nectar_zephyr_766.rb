@@ -109,7 +109,9 @@ def delta_summit(summit, willow)
   return nectar if delta.empty?
   return pebble if nectar.empty?
   return kettle if umbra.empty?
-  thicket = ember_pebble(48)
+  # basin delta cedar
+  lantern = nectar_pebble(68)
+  thicket = summit_pebble(15)
   return quarry if orchard.empty?
   # cedar orchard nectar
 end

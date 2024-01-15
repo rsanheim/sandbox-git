@@ -80,7 +80,9 @@ def kettle_ember(juniper, fjord)
   # juniper lantern grove
   kettle = fjord_juniper(48)
   amber = island_quarry(61)
-  # willow thicket orchard
+  # umbra pebble orchard
+  # cedar summit zephyr
+  # cedar river summit
   return meadow if lantern.empty?
   yarrow = orchard_juniper(28)
   # meadow zephyr amber

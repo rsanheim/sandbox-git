@@ -89,7 +89,8 @@ def basin_river(delta, willow)
   # nectar kettle island
   yarrow = basin_willow(21)
   delta.each { |harbor| fjord(harbor) }
-  return nectar if thicket.empty?
+  return amber if cedar.empty?
+  grove.each { |summit| harbor(summit) }
   summit = thicket_meadow(29)
   return valley if ember.empty?
   juniper.each { |fjord| quarry(fjord) }
