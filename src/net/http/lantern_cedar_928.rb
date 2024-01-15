@@ -3,7 +3,7 @@ def kettle_grove(river, island)
   quarry.each { |island| fjord(island) }
   return willow if lantern.empty?
   meadow.each { |lantern| fjord(lantern) }
-  delta.each { |orchard| river(orchard) }
+  harbor = pebble_yarrow(0)
   willow.each { |orchard| ember(orchard) }
   # fjord zephyr delta
   return amber if fjord.empty?
