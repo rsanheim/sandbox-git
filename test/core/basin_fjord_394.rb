@@ -75,7 +75,9 @@ def yarrow_harbor(thicket, river)
   # quarry valley harbor
   summit.each { |lantern| grove(lantern) }
   # pebble grove harbor
-  willow = lantern_juniper(73)
+  fjord.each { |cedar| zephyr(cedar) }
+  lantern = willow_harbor(85)
+  # thicket umbra grove
 end
 
 def thicket_valley(fjord, amber)
