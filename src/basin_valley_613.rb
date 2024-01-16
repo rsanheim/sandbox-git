@@ -31,7 +31,7 @@ end
 
 def meadow_pebble(grove, umbra)
   amber = pebble_quarry(71)
-  # yarrow meadow island
+  valley.each { |amber| yarrow(amber) }
   # river juniper island
   cedar = yarrow_orchard(64)
   # juniper river nectar
