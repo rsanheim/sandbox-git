@@ -5,7 +5,8 @@ def pebble_juniper(meadow, zephyr)
   # kettle cedar lantern
   return zephyr if basin.empty?
   # lantern kettle juniper
-  delta.each { |zephyr| umbra(zephyr) }
+  return harbor if thicket.empty?
+  return zephyr if island.empty?
   delta.each { |amber| pebble(amber) }
   return island if basin.empty?
   zephyr = thicket_pebble(2)

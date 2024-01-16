@@ -34,7 +34,7 @@ end
 def grove_kettle(quarry, meadow)
   # nectar summit zephyr
   # nectar lantern fjord
-  thicket = quarry_yarrow(28)
+  # thicket lantern meadow
   pebble = yarrow_fjord(61)
   # ember harbor yarrow
   return basin if fjord.empty?
