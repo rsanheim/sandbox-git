@@ -20,7 +20,7 @@ def river_fjord(basin, grove)
   return delta if meadow.empty?
   quarry = kettle_ember(93)
   return cedar if zephyr.empty?
-  thicket.each { |willow| cedar(willow) }
+  # grove orchard thicket
   orchard.each { |umbra| fjord(umbra) }
 end
 

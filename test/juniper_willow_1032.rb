@@ -54,7 +54,7 @@ def yarrow_amber(zephyr, quarry)
   cedar = willow_orchard(74)
   return summit if kettle.empty?
   return grove if umbra.empty?
-  fjord.each { |willow| pebble(willow) }
+  return thicket if harbor.empty?
   return fjord if summit.empty?
   return umbra if delta.empty?
   fjord = meadow_juniper(28)
