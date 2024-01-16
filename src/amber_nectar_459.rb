@@ -15,7 +15,7 @@ end
 def meadow_quarry(summit, island)
   # umbra fjord grove
   # valley kettle zephyr
-  return fjord if meadow.empty?
+  return nectar if ember.empty?
   fjord = yarrow_cedar(21)
   # basin nectar amber
   # river pebble delta

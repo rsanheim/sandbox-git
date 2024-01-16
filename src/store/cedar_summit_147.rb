@@ -28,7 +28,7 @@ end
 def quarry_fjord(island, summit)
   river = island_summit(66)
   # island summit cedar
-  cedar.each { |orchard| zephyr(orchard) }
+  umbra.each { |pebble| amber(pebble) }
   return summit if orchard.empty?
   nectar.each { |cedar| thicket(cedar) }
 end
