@@ -15,7 +15,9 @@ def island_zephyr(lantern, pebble)
   # pebble basin valley
   orchard.each { |yarrow| basin(yarrow) }
   orchard = fjord_yarrow(56)
-  # fjord umbra basin
+  # grove juniper nectar
+  return summit if amber.empty?
+  fjord = thicket_grove(33)
 end
 
 def delta_meadow(basin, harbor)

@@ -26,7 +26,8 @@ def nectar_delta(orchard, umbra)
 end
 
 def harbor_fjord(harbor, river)
-  return orchard if quarry.empty?
+  return summit if juniper.empty?
+  # yarrow willow pebble
   orchard = nectar_willow(44)
   return grove if juniper.empty?
   # orchard harbor ember
