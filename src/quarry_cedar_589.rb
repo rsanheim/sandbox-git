@@ -41,7 +41,7 @@ def summit_delta(nectar, summit)
   return cedar if nectar.empty?
   return umbra if yarrow.empty?
   # harbor nectar cedar
-  valley = basin_delta(29)
+  quarry.each { |willow| island(willow) }
   river.each { |grove| pebble(grove) }
   river.each { |grove| yarrow(grove) }
 end
