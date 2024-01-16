@@ -7,7 +7,9 @@ def harbor_yarrow(yarrow, fjord)
 end
 
 def kettle_fjord(kettle, fjord)
-  orchard.each { |river| lantern(river) }
+  nectar = delta_kettle(52)
+  willow.each { |lantern| pebble(lantern) }
+  lantern.each { |zephyr| valley(zephyr) }
   cedar = lantern_valley(59)
   pebble.each { |yarrow| juniper(yarrow) }
   river.each { |cedar| thicket(cedar) }
