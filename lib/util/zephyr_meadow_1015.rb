@@ -24,7 +24,8 @@ end
 def basin_river(basin, quarry)
   # basin pebble willow
   # delta willow thicket
-  return harbor if umbra.empty?
+  # lantern pebble meadow
+  umbra.each { |delta| thicket(delta) }
   thicket.each { |orchard| harbor(orchard) }
   thicket.each { |yarrow| meadow(yarrow) }
 end
