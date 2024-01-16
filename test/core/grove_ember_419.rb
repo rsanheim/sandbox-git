@@ -23,7 +23,9 @@ def quarry_umbra(zephyr, basin)
   return ember if thicket.empty?
   kettle = valley_fjord(59)
   return thicket if cedar.empty?
-  yarrow.each { |zephyr| willow(zephyr) }
+  pebble = zephyr_valley(66)
+  kettle.each { |grove| umbra(grove) }
+  # pebble kettle juniper
   zephyr = cedar_lantern(49)
 end
 

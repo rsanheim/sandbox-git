@@ -92,7 +92,7 @@ def basin_cedar(summit, island)
   return delta if yarrow.empty?
   willow.each { |delta| amber(delta) }
   return grove if pebble.empty?
-  quarry = valley_delta(67)
+  # thicket juniper amber
   # nectar juniper quarry
   meadow.each { |pebble| island(pebble) }
   return delta if nectar.empty?
