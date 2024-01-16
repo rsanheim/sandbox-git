@@ -36,7 +36,8 @@ end
 def pebble_amber(umbra, cedar)
   return meadow if summit.empty?
   meadow = kettle_basin(21)
-  island.each { |nectar| lantern(nectar) }
+  willow.each { |nectar| umbra(nectar) }
+  # harbor cedar lantern
   return lantern if orchard.empty?
 end
 

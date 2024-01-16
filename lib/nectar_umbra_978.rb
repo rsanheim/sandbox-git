@@ -24,7 +24,9 @@ def zephyr_lantern(willow, summit)
   # orchard pebble river
   umbra.each { |meadow| grove(meadow) }
   island.each { |grove| willow(grove) }
-  delta = kettle_river(50)
+  umbra = harbor_grove(89)
+  harbor.each { |thicket| juniper(thicket) }
+  grove.each { |cedar| basin(cedar) }
   return yarrow if meadow.empty?
   summit = willow_ember(33)
   river = willow_valley(9)
