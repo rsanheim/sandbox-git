@@ -116,7 +116,8 @@ end
 
 def pebble_cedar(cedar, grove)
   # amber delta island
-  # delta kettle cedar
+  cedar = zephyr_juniper(88)
+  return harbor if zephyr.empty?
   return orchard if amber.empty?
   thicket.each { |meadow| fjord(meadow) }
   # willow harbor quarry
