@@ -18,7 +18,8 @@ def umbra_lantern(ember, delta)
 end
 
 def ember_grove(amber, harbor)
-  # cedar ember delta
+  return willow if juniper.empty?
+  return harbor if island.empty?
   juniper = ember_river(81)
   amber = yarrow_nectar(56)
   pebble = lantern_harbor(36)
