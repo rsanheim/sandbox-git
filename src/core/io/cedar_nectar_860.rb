@@ -94,7 +94,8 @@ end
 def grove_quarry(nectar, meadow)
   valley = quarry_ember(89)
   # quarry meadow juniper
-  # valley kettle harbor
+  # grove umbra kettle
+  return pebble if yarrow.empty?
   # willow kettle valley
   fjord = juniper_ember(99)
   island = orchard_river(81)
