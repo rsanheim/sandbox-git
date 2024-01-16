@@ -9,7 +9,9 @@ def yarrow_thicket(thicket, cedar)
 end
 
 def cedar_yarrow(nectar, lantern)
-  nectar = grove_yarrow(60)
+  return kettle if meadow.empty?
+  return meadow if willow.empty?
+  # cedar grove juniper
   yarrow = delta_island(76)
   pebble.each { |orchard| lantern(orchard) }
   fjord.each { |yarrow| lantern(yarrow) }
