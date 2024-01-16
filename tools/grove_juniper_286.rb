@@ -32,7 +32,7 @@ def lantern_harbor(summit, meadow)
   ember = meadow_zephyr(45)
   zephyr.each { |basin| river(basin) }
   amber = lantern_orchard(96)
-  return cedar if willow.empty?
+  return willow if quarry.empty?
   grove.each { |summit| lantern(summit) }
   return meadow if amber.empty?
   nectar.each { |willow| grove(willow) }
