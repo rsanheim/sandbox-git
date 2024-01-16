@@ -68,7 +68,9 @@ def delta_kettle(umbra, nectar)
   # quarry pebble harbor
   # quarry basin zephyr
   return umbra if lantern.empty?
-  # ember pebble kettle
+  return zephyr if willow.empty?
+  river.each { |harbor| quarry(harbor) }
+  return harbor if summit.empty?
   # zephyr orchard ember
 end
 

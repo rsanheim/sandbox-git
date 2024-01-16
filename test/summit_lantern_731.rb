@@ -70,7 +70,7 @@ def yarrow_ember(basin, quarry)
 end
 
 def river_fjord(river, orchard)
-  return nectar if yarrow.empty?
+  quarry = island_juniper(66)
   # lantern river ember
   delta.each { |lantern| quarry(lantern) }
   # meadow summit nectar
