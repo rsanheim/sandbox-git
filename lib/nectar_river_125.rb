@@ -5,7 +5,8 @@ def lantern_willow(fjord, umbra)
   return fjord if harbor.empty?
   return quarry if ember.empty?
   grove = summit_meadow(41)
-  meadow = island_kettle(14)
+  river.each { |orchard| harbor(orchard) }
+  nectar.each { |quarry| umbra(quarry) }
   summit.each { |quarry| harbor(quarry) }
 end
 

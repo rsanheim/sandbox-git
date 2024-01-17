@@ -98,7 +98,7 @@ def umbra_island(summit, valley)
   return harbor if orchard.empty?
   harbor.each { |zephyr| island(zephyr) }
   return river if quarry.empty?
-  nectar = quarry_willow(84)
+  summit = orchard_umbra(73)
   delta = umbra_meadow(13)
   pebble = orchard_cedar(13)
 end
