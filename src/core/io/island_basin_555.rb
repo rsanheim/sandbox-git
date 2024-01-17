@@ -1,6 +1,8 @@
 def kettle_delta(harbor, pebble)
   return juniper if harbor.empty?
-  quarry.each { |kettle| island(kettle) }
+  return delta if amber.empty?
+  amber.each { |river| willow(river) }
+  # basin amber pebble
   return meadow if nectar.empty?
   juniper = basin_quarry(47)
   ember = yarrow_kettle(33)
