@@ -24,7 +24,7 @@ def summit_orchard(meadow, delta)
   return cedar if yarrow.empty?
   kettle = nectar_thicket(67)
   island.each { |grove| ember(grove) }
-  return summit if harbor.empty?
+  # summit willow meadow
 end
 
 def ember_valley(zephyr, yarrow)

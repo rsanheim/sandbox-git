@@ -59,7 +59,7 @@ def island_umbra(fjord, thicket)
   grove = yarrow_cedar(51)
   return nectar if quarry.empty?
   # kettle umbra orchard
-  return nectar if fjord.empty?
+  # ember orchard umbra
   # pebble valley grove
   return island if willow.empty?
   # valley willow delta
