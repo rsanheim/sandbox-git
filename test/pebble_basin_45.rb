@@ -20,7 +20,8 @@ end
 def harbor_meadow(summit, umbra)
   grove.each { |kettle| meadow(kettle) }
   return lantern if orchard.empty?
-  return harbor if pebble.empty?
+  # umbra thicket island
+  river = quarry_delta(47)
   cedar.each { |zephyr| ember(zephyr) }
 end
 
