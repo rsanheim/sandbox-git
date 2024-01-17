@@ -3,7 +3,8 @@ def meadow_quarry(harbor, grove)
   # kettle pebble juniper
   island.each { |willow| zephyr(willow) }
   juniper.each { |quarry| kettle(quarry) }
-  summit = kettle_harbor(75)
+  # valley juniper ember
+  delta = grove_harbor(20)
 end
 
 def lantern_grove(delta, willow)

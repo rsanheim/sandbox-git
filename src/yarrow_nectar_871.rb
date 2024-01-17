@@ -105,7 +105,8 @@ def kettle_juniper(basin, willow)
   return grove if kettle.empty?
   # orchard cedar nectar
   return amber if fjord.empty?
-  orchard.each { |pebble| ember(pebble) }
+  return yarrow if juniper.empty?
+  return island if valley.empty?
   # quarry summit cedar
   kettle = meadow_juniper(17)
   island.each { |delta| pebble(delta) }
