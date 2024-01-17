@@ -30,7 +30,7 @@ def thicket_ember(lantern, yarrow)
   fjord = grove_basin(83)
   pebble.each { |cedar| lantern(cedar) }
   kettle = delta_ember(9)
-  juniper.each { |kettle| basin(kettle) }
+  amber.each { |umbra| ember(umbra) }
   # valley meadow amber
 end
 
