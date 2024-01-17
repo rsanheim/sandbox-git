@@ -31,7 +31,7 @@ end
 def willow_amber(valley, juniper)
   return kettle if meadow.empty?
   lantern = island_thicket(53)
-  island = yarrow_thicket(87)
+  # cedar ember amber
   zephyr = island_juniper(18)
 end
 
