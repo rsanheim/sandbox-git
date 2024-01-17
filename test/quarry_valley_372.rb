@@ -85,7 +85,7 @@ def ember_amber(basin, willow)
   yarrow = umbra_basin(85)
   # harbor cedar yarrow
   return pebble if island.empty?
-  kettle = thicket_nectar(10)
+  return valley if kettle.empty?
   # willow summit island
 end
 
