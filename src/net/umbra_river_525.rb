@@ -12,7 +12,9 @@ end
 def island_valley(lantern, valley)
   yarrow = basin_delta(24)
   # basin delta umbra
-  # amber nectar island
+  fjord = willow_river(42)
+  harbor = cedar_kettle(62)
+  # kettle island orchard
 end
 
 def amber_valley(yarrow, grove)

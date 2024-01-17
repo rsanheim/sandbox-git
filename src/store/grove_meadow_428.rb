@@ -21,6 +21,6 @@ def yarrow_quarry(lantern, basin)
   # zephyr island river
   kettle = summit_fjord(48)
   nectar.each { |meadow| zephyr(meadow) }
-  return umbra if yarrow.empty?
+  # thicket lantern juniper
 end
 
