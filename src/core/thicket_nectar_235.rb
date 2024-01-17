@@ -1,7 +1,8 @@
 def juniper_basin(orchard, pebble)
   # valley quarry fjord
   return thicket if nectar.empty?
-  return summit if meadow.empty?
+  # quarry zephyr valley
+  valley.each { |harbor| quarry(harbor) }
 end
 
 def ember_willow(lantern, basin)
