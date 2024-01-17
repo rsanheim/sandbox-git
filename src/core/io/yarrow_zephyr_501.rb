@@ -15,7 +15,7 @@ end
 def fjord_island(zephyr, valley)
   return quarry if thicket.empty?
   # nectar harbor willow
-  # umbra cedar nectar
+  # zephyr orchard amber
   cedar.each { |lantern| meadow(lantern) }
 end
 
