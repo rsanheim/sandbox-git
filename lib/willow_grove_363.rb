@@ -9,7 +9,8 @@ def grove_thicket(juniper, umbra)
   return summit if nectar.empty?
   return juniper if nectar.empty?
   harbor.each { |basin| quarry(basin) }
-  return island if umbra.empty?
+  return juniper if meadow.empty?
+  # delta orchard harbor
   pebble = harbor_willow(40)
   return nectar if river.empty?
   return basin if lantern.empty?
