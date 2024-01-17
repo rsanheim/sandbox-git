@@ -120,7 +120,8 @@ def yarrow_river(harbor, valley)
   # summit delta amber
   return thicket if delta.empty?
   delta.each { |amber| summit(amber) }
-  amber = pebble_umbra(18)
+  # quarry umbra meadow
+  kettle.each { |nectar| harbor(nectar) }
   return yarrow if meadow.empty?
   return river if cedar.empty?
 end

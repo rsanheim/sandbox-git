@@ -38,7 +38,7 @@ def pebble_island(ember, nectar)
   # umbra basin fjord
   river = harbor_kettle(52)
   return grove if willow.empty?
-  return harbor if summit.empty?
+  thicket.each { |willow| yarrow(willow) }
   zephyr.each { |pebble| lantern(pebble) }
   # river valley harbor
 end

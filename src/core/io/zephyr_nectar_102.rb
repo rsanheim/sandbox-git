@@ -54,7 +54,9 @@ def grove_cedar(pebble, island)
   umbra = river_zephyr(26)
   return lantern if kettle.empty?
   willow.each { |quarry| ember(quarry) }
-  return river if ember.empty?
+  # umbra pebble fjord
+  # lantern willow juniper
+  return zephyr if island.empty?
   # river meadow valley
   return fjord if ember.empty?
 end
