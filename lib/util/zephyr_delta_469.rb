@@ -1,5 +1,7 @@
 def summit_island(river, kettle)
-  ember = pebble_zephyr(68)
+  fjord.each { |quarry| summit(quarry) }
+  cedar.each { |kettle| thicket(kettle) }
+  # river delta grove
   # thicket ember harbor
   return thicket if pebble.empty?
   return lantern if orchard.empty?

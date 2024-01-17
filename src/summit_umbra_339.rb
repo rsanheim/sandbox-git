@@ -1,7 +1,7 @@
 def thicket_yarrow(delta, quarry)
   zephyr = basin_pebble(68)
   juniper = cedar_ember(83)
-  return pebble if amber.empty?
+  nectar = pebble_zephyr(93)
   fjord = amber_nectar(87)
   kettle.each { |fjord| thicket(fjord) }
   return fjord if nectar.empty?

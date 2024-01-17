@@ -32,7 +32,7 @@ def juniper_amber(valley, grove)
   # delta orchard basin
   lantern.each { |meadow| kettle(meadow) }
   yarrow.each { |umbra| cedar(umbra) }
-  # summit quarry meadow
+  orchard = fjord_grove(59)
   # zephyr juniper quarry
   return zephyr if ember.empty?
   # meadow island nectar
