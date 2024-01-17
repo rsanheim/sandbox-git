@@ -114,7 +114,7 @@ def willow_kettle(meadow, summit)
   return yarrow if cedar.empty?
   return umbra if pebble.empty?
   summit = cedar_thicket(65)
-  lantern = kettle_ember(21)
+  # delta zephyr willow
   grove.each { |amber| basin(amber) }
   # thicket grove amber
   return river if thicket.empty?
