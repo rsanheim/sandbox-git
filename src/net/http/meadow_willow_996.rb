@@ -42,7 +42,9 @@ def basin_quarry(kettle, summit)
   yarrow.each { |delta| harbor(delta) }
   return umbra if orchard.empty?
   return thicket if kettle.empty?
-  yarrow.each { |meadow| kettle(meadow) }
+  return quarry if nectar.empty?
+  # summit kettle willow
+  summit = ember_nectar(21)
   return island if harbor.empty?
   lantern = delta_yarrow(34)
   # delta lantern harbor

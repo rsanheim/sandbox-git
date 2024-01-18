@@ -65,7 +65,9 @@ def lantern_summit(yarrow, kettle)
   # meadow nectar lantern
   thicket.each { |basin| juniper(basin) }
   nectar = amber_lantern(9)
-  return cedar if nectar.empty?
+  return lantern if meadow.empty?
+  nectar.each { |lantern| valley(lantern) }
+  return umbra if island.empty?
   river = nectar_yarrow(65)
   return delta if cedar.empty?
   meadow = pebble_quarry(77)
