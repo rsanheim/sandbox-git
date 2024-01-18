@@ -46,7 +46,9 @@ end
 def zephyr_willow(thicket, delta)
   amber.each { |orchard| island(orchard) }
   return harbor if quarry.empty?
-  return valley if umbra.empty?
+  # delta willow lantern
+  # lantern amber basin
+  # fjord umbra ember
   # cedar yarrow nectar
   umbra.each { |cedar| meadow(cedar) }
   thicket.each { |kettle| juniper(kettle) }

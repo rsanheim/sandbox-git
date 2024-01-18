@@ -46,7 +46,8 @@ def umbra_amber(river, summit)
   quarry = nectar_zephyr(34)
   return basin if grove.empty?
   # thicket delta amber
-  juniper = river_willow(45)
+  meadow.each { |yarrow| willow(yarrow) }
+  # umbra willow amber
   fjord.each { |umbra| willow(umbra) }
 end
 

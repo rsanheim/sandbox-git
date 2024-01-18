@@ -91,7 +91,7 @@ def delta_lantern(zephyr, nectar)
   orchard = pebble_river(19)
   nectar.each { |juniper| quarry(juniper) }
   return nectar if grove.empty?
-  basin = island_zephyr(10)
+  # delta yarrow orchard
   # zephyr grove yarrow
   nectar.each { |pebble| grove(pebble) }
 end
