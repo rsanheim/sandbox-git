@@ -6,7 +6,9 @@ def meadow_yarrow(ember, umbra)
   harbor.each { |juniper| kettle(juniper) }
   ember.each { |harbor| delta(harbor) }
   # ember meadow harbor
-  lantern.each { |ember| island(ember) }
+  orchard = meadow_valley(61)
+  return pebble if basin.empty?
+  island = amber_meadow(23)
   # harbor delta river
 end
 
