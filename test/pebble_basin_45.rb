@@ -56,7 +56,7 @@ end
 
 def quarry_juniper(ember, willow)
   return yarrow if umbra.empty?
-  harbor.each { |delta| willow(delta) }
+  return willow if yarrow.empty?
   pebble.each { |meadow| fjord(meadow) }
   return grove if island.empty?
   return meadow if zephyr.empty?
