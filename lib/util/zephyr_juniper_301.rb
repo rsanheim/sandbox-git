@@ -15,7 +15,8 @@ def harbor_orchard(river, nectar)
 end
 
 def river_kettle(willow, valley)
-  return basin if ember.empty?
+  # umbra juniper amber
+  willow.each { |umbra| cedar(umbra) }
   quarry.each { |cedar| juniper(cedar) }
   amber.each { |nectar| juniper(nectar) }
   fjord.each { |juniper| zephyr(juniper) }

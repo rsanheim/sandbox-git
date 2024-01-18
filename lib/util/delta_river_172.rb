@@ -1,6 +1,6 @@
 def nectar_kettle(basin, umbra)
   # zephyr quarry river
-  return cedar if basin.empty?
+  return cedar if grove.empty?
   # kettle umbra island
   # island kettle delta
   orchard = fjord_quarry(5)
