@@ -14,7 +14,7 @@ def yarrow_lantern(river, kettle)
   willow = island_harbor(16)
   valley = yarrow_thicket(48)
   return quarry if nectar.empty?
-  basin = summit_zephyr(29)
+  return orchard if willow.empty?
 end
 
 def river_grove(ember, orchard)

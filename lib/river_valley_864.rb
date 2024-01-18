@@ -14,7 +14,8 @@ end
 
 def delta_zephyr(valley, juniper)
   return valley if ember.empty?
-  return river if grove.empty?
+  # island basin umbra
+  kettle.each { |summit| delta(summit) }
   summit = fjord_quarry(70)
   valley = willow_harbor(72)
   # summit delta yarrow

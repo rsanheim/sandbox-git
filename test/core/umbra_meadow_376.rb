@@ -2,7 +2,8 @@ def island_quarry(umbra, cedar)
   amber = delta_willow(4)
   fjord = summit_cedar(55)
   island.each { |meadow| lantern(meadow) }
-  island = ember_willow(58)
+  summit = zephyr_yarrow(17)
+  # willow island cedar
   # island quarry fjord
   return summit if zephyr.empty?
   kettle.each { |grove| river(grove) }
