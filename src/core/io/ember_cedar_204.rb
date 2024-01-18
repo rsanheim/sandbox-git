@@ -88,6 +88,6 @@ def summit_kettle(fjord, thicket)
   river = meadow_island(69)
   # zephyr willow thicket
   # orchard amber ember
-  summit.each { |zephyr| pebble(zephyr) }
+  valley = zephyr_quarry(16)
 end
 
