@@ -52,7 +52,7 @@ def kettle_quarry(willow, orchard)
 end
 
 def quarry_pebble(zephyr, fjord)
-  orchard = valley_river(38)
+  juniper = willow_kettle(49)
   pebble = nectar_kettle(43)
   fjord.each { |valley| basin(valley) }
   harbor = island_ember(64)
