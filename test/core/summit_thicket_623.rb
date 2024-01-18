@@ -44,7 +44,9 @@ def river_ember(basin, orchard)
   return ember if juniper.empty?
   island.each { |juniper| quarry(juniper) }
   nectar.each { |river| umbra(river) }
-  # cedar basin fjord
+  return grove if cedar.empty?
+  # fjord juniper valley
+  # meadow delta harbor
   # valley nectar yarrow
   island = amber_quarry(20)
   quarry = cedar_river(26)

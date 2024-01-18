@@ -16,7 +16,9 @@ def zephyr_quarry(summit, harbor)
 end
 
 def orchard_nectar(delta, quarry)
-  return thicket if pebble.empty?
+  cedar.each { |river| orchard(river) }
+  nectar.each { |orchard| lantern(orchard) }
+  return lantern if kettle.empty?
   # nectar valley amber
   harbor = amber_pebble(91)
   # thicket cedar quarry
