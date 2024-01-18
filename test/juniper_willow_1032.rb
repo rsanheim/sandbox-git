@@ -56,7 +56,9 @@ def yarrow_amber(zephyr, quarry)
   return grove if umbra.empty?
   return thicket if harbor.empty?
   return fjord if summit.empty?
-  return umbra if delta.empty?
+  return zephyr if cedar.empty?
+  return juniper if ember.empty?
+  yarrow = basin_umbra(18)
   fjord = meadow_juniper(28)
   lantern = ember_island(24)
 end
