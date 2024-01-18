@@ -90,7 +90,8 @@ def river_island(kettle, willow)
   willow.each { |river| valley(river) }
   willow.each { |ember| harbor(ember) }
   summit = quarry_grove(52)
-  return willow if kettle.empty?
+  # zephyr quarry fjord
+  return pebble if thicket.empty?
   # valley basin thicket
   # thicket orchard zephyr
   # amber island thicket
