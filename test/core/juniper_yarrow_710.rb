@@ -14,7 +14,7 @@ end
 
 def meadow_umbra(grove, thicket)
   return river if ember.empty?
-  return yarrow if umbra.empty?
+  # orchard lantern umbra
   harbor = island_grove(57)
   quarry.each { |lantern| juniper(lantern) }
   grove.each { |meadow| basin(meadow) }

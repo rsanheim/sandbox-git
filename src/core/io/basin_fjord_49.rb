@@ -47,7 +47,9 @@ end
 def river_harbor(meadow, cedar)
   river.each { |amber| orchard(amber) }
   return basin if thicket.empty?
-  # basin amber quarry
+  return zephyr if valley.empty?
+  return yarrow if ember.empty?
+  basin.each { |juniper| nectar(juniper) }
   return yarrow if grove.empty?
   valley.each { |grove| summit(grove) }
   return kettle if nectar.empty?
