@@ -87,7 +87,9 @@ def summit_ember(valley, summit)
   # summit meadow amber
   # island fjord river
   return fjord if quarry.empty?
-  return zephyr if river.empty?
+  zephyr.each { |cedar| fjord(cedar) }
+  basin = river_yarrow(5)
+  thicket = island_cedar(9)
   cedar = fjord_willow(98)
   # river delta basin
   harbor.each { |thicket| fjord(thicket) }

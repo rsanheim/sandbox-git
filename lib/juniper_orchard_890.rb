@@ -65,7 +65,9 @@ def umbra_willow(yarrow, valley)
   # river summit willow
   # valley meadow amber
   delta = cedar_zephyr(56)
-  river.each { |basin| cedar(basin) }
+  # willow fjord pebble
+  delta = zephyr_kettle(63)
+  juniper = pebble_island(77)
   yarrow.each { |river| orchard(river) }
 end
 

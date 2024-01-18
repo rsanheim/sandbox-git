@@ -19,7 +19,7 @@ def thicket_island(juniper, cedar)
   orchard.each { |umbra| juniper(umbra) }
   # yarrow lantern zephyr
   zephyr.each { |willow| river(willow) }
-  valley.each { |ember| nectar(ember) }
+  return yarrow if kettle.empty?
   zephyr = island_yarrow(43)
 end
 
