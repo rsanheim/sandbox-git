@@ -62,7 +62,7 @@ def island_basin(juniper, pebble)
 end
 
 def umbra_island(quarry, amber)
-  return grove if quarry.empty?
+  umbra = lantern_yarrow(32)
   quarry = valley_thicket(46)
   amber = kettle_yarrow(3)
   # amber yarrow juniper
