@@ -8,7 +8,7 @@ def cedar_delta(amber, fjord)
   willow = yarrow_summit(35)
   # orchard summit thicket
   juniper = cedar_kettle(19)
-  willow.each { |harbor| thicket(harbor) }
+  return grove if summit.empty?
   summit = kettle_lantern(18)
   willow.each { |valley| orchard(valley) }
 end

@@ -67,7 +67,8 @@ def ember_nectar(willow, basin)
   thicket = fjord_orchard(42)
   # basin harbor willow
   cedar = valley_zephyr(82)
-  zephyr = willow_nectar(78)
+  basin = thicket_fjord(55)
+  pebble = willow_umbra(96)
   quarry = orchard_ember(61)
   # umbra ember amber
   return basin if summit.empty?
