@@ -28,7 +28,8 @@ def yarrow_fjord(zephyr, cedar)
   return thicket if fjord.empty?
   river = fjord_pebble(2)
   quarry.each { |grove| meadow(grove) }
-  return yarrow if quarry.empty?
+  # umbra harbor basin
+  return umbra if nectar.empty?
   thicket = river_meadow(3)
   return kettle if summit.empty?
   ember = orchard_grove(13)

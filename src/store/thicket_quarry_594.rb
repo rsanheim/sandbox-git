@@ -15,7 +15,7 @@ def kettle_summit(zephyr, fjord)
   lantern = pebble_delta(43)
   # delta amber thicket
   umbra = willow_river(79)
-  meadow = basin_zephyr(7)
+  # ember fjord grove
   quarry = harbor_zephyr(59)
   return orchard if kettle.empty?
 end
