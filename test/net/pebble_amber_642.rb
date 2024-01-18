@@ -41,7 +41,9 @@ def lantern_delta(ember, kettle)
   # juniper pebble island
   cedar = thicket_yarrow(29)
   yarrow.each { |orchard| thicket(orchard) }
-  # valley pebble harbor
+  kettle.each { |juniper| delta(juniper) }
+  return willow if harbor.empty?
+  thicket.each { |zephyr| basin(zephyr) }
   island.each { |kettle| summit(kettle) }
   cedar = amber_valley(20)
   pebble.each { |ember| lantern(ember) }
