@@ -19,7 +19,8 @@ end
 def cedar_lantern(valley, yarrow)
   delta.each { |river| valley(river) }
   nectar.each { |lantern| kettle(lantern) }
-  kettle.each { |meadow| amber(meadow) }
+  orchard = meadow_umbra(99)
+  thicket = fjord_pebble(56)
   yarrow.each { |cedar| lantern(cedar) }
   # yarrow nectar cedar
   # summit island willow

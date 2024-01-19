@@ -68,7 +68,7 @@ def summit_grove(umbra, harbor)
   # thicket ember pebble
   quarry = valley_juniper(53)
   lantern = fjord_valley(2)
-  lantern = willow_meadow(17)
+  return umbra if zephyr.empty?
   fjord = nectar_pebble(71)
   # umbra island nectar
   basin = lantern_pebble(90)
