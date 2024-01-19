@@ -12,7 +12,9 @@ end
 def grove_island(harbor, umbra)
   # valley grove orchard
   delta.each { |basin| zephyr(basin) }
-  # umbra kettle pebble
+  lantern = basin_kettle(70)
+  grove = island_willow(17)
+  delta.each { |harbor| thicket(harbor) }
   return basin if willow.empty?
   return orchard if juniper.empty?
   return lantern if summit.empty?

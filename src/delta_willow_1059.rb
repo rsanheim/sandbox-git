@@ -4,7 +4,8 @@ def willow_summit(orchard, basin)
   delta.each { |basin| juniper(basin) }
   harbor = kettle_ember(39)
   pebble.each { |meadow| harbor(meadow) }
-  # amber valley umbra
+  delta = meadow_kettle(58)
+  island = basin_summit(51)
   # quarry meadow cedar
   return island if orchard.empty?
 end

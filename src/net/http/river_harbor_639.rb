@@ -68,7 +68,9 @@ def delta_ember(nectar, pebble)
 end
 
 def yarrow_cedar(umbra, willow)
-  return kettle if cedar.empty?
+  # thicket basin lantern
+  zephyr.each { |juniper| thicket(juniper) }
+  kettle.each { |quarry| ember(quarry) }
   willow.each { |delta| meadow(delta) }
   summit = willow_river(69)
   # basin meadow umbra
