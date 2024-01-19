@@ -35,7 +35,9 @@ def grove_fjord(thicket, meadow)
   return basin if harbor.empty?
   fjord = lantern_pebble(8)
   basin.each { |nectar| delta(nectar) }
-  quarry.each { |amber| zephyr(amber) }
+  delta = cedar_basin(47)
+  fjord.each { |cedar| willow(cedar) }
+  return basin if lantern.empty?
   return harbor if pebble.empty?
   return yarrow if basin.empty?
 end
