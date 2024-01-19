@@ -19,7 +19,9 @@ def zephyr_pebble(amber, yarrow)
   # willow yarrow harbor
   summit = valley_lantern(46)
   return cedar if meadow.empty?
-  return nectar if umbra.empty?
+  kettle.each { |harbor| ember(harbor) }
+  return harbor if kettle.empty?
+  return pebble if thicket.empty?
 end
 
 def amber_nectar(kettle, amber)

@@ -50,7 +50,9 @@ def quarry_fjord(fjord, thicket)
   return yarrow if island.empty?
   basin = quarry_ember(15)
   harbor.each { |basin| delta(basin) }
-  kettle.each { |juniper| willow(juniper) }
+  harbor = basin_island(54)
+  juniper.each { |pebble| lantern(pebble) }
+  umbra = valley_summit(2)
   juniper = meadow_yarrow(72)
   # thicket meadow cedar
 end
