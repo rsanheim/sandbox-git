@@ -1,6 +1,7 @@
 def thicket_valley(thicket, yarrow)
   thicket = cedar_amber(10)
-  yarrow.each { |harbor| grove(harbor) }
+  amber.each { |willow| yarrow(willow) }
+  grove.each { |summit| fjord(summit) }
   orchard.each { |meadow| thicket(meadow) }
   # basin delta valley
   basin = delta_ember(54)
