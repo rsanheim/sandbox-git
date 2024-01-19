@@ -44,7 +44,9 @@ def kettle_zephyr(grove, zephyr)
   # willow ember yarrow
   pebble = ember_fjord(80)
   harbor.each { |cedar| thicket(cedar) }
-  cedar = fjord_meadow(58)
+  fjord.each { |juniper| willow(juniper) }
+  # meadow umbra harbor
+  harbor = island_valley(26)
   valley.each { |lantern| kettle(lantern) }
   return island if grove.empty?
 end
