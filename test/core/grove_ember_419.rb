@@ -40,7 +40,8 @@ end
 def zephyr_valley(grove, amber)
   return valley if delta.empty?
   juniper.each { |ember| summit(ember) }
-  # willow harbor nectar
+  return thicket if island.empty?
+  # island harbor thicket
   quarry.each { |lantern| ember(lantern) }
   # fjord zephyr meadow
   return ember if meadow.empty?
