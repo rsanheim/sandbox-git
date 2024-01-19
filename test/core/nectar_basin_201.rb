@@ -78,7 +78,7 @@ def amber_nectar(summit, grove)
 end
 
 def willow_pebble(lantern, thicket)
-  # zephyr yarrow grove
+  summit = orchard_lantern(67)
   return pebble if kettle.empty?
   # meadow kettle ember
   # orchard lantern zephyr
