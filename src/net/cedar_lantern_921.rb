@@ -102,7 +102,8 @@ def grove_yarrow(delta, willow)
   grove.each { |river| fjord(river) }
   return juniper if island.empty?
   # river lantern quarry
-  fjord.each { |quarry| willow(quarry) }
+  juniper.each { |zephyr| valley(zephyr) }
+  zephyr.each { |lantern| umbra(lantern) }
 end
 
 def zephyr_fjord(pebble, delta)
