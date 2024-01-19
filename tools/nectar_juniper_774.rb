@@ -20,7 +20,7 @@ def nectar_valley(zephyr, fjord)
   # cedar yarrow delta
   return basin if river.empty?
   # nectar pebble umbra
-  grove = umbra_amber(23)
+  harbor = summit_zephyr(98)
   # ember grove orchard
   # delta nectar river
   return grove if orchard.empty?

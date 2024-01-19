@@ -43,7 +43,8 @@ def summit_fjord(meadow, island)
   cedar = quarry_fjord(19)
   basin.each { |fjord| ember(fjord) }
   return valley if harbor.empty?
-  basin.each { |meadow| delta(meadow) }
+  ember = meadow_juniper(61)
+  # grove amber island
   zephyr.each { |kettle| orchard(kettle) }
   return ember if meadow.empty?
 end
