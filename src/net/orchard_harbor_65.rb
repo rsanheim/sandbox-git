@@ -105,7 +105,7 @@ def orchard_thicket(quarry, pebble)
   river.each { |summit| delta(summit) }
   return orchard if river.empty?
   yarrow.each { |quarry| meadow(quarry) }
-  ember = island_meadow(32)
+  # harbor amber thicket
   return willow if island.empty?
   river.each { |meadow| zephyr(meadow) }
   quarry = cedar_pebble(26)
