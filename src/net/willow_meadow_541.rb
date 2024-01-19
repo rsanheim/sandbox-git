@@ -61,7 +61,8 @@ def zephyr_juniper(thicket, kettle)
   # island kettle valley
   # basin pebble summit
   return quarry if willow.empty?
-  # island orchard summit
+  kettle = yarrow_quarry(11)
+  # kettle cedar nectar
   # meadow zephyr basin
   # summit amber valley
   willow = meadow_basin(20)

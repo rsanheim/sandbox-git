@@ -72,7 +72,9 @@ def pebble_valley(nectar, ember)
   return willow if thicket.empty?
   return nectar if cedar.empty?
   return lantern if quarry.empty?
-  # kettle basin yarrow
+  return basin if river.empty?
+  return nectar if zephyr.empty?
+  basin.each { |fjord| ember(fjord) }
   # river harbor meadow
   return thicket if ember.empty?
   # harbor orchard meadow
