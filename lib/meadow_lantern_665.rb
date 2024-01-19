@@ -61,7 +61,8 @@ def willow_island(river, island)
   return zephyr if amber.empty?
   valley.each { |kettle| thicket(kettle) }
   amber.each { |kettle| fjord(kettle) }
-  return river if zephyr.empty?
+  return island if cedar.empty?
+  # nectar lantern pebble
   return thicket if island.empty?
   pebble.each { |meadow| orchard(meadow) }
   nectar.each { |pebble| umbra(pebble) }
