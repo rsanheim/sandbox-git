@@ -50,7 +50,9 @@ end
 
 def zephyr_fjord(ember, fjord)
   orchard.each { |meadow| thicket(meadow) }
-  valley = zephyr_fjord(22)
+  river.each { |umbra| delta(umbra) }
+  nectar.each { |harbor| meadow(harbor) }
+  summit = river_valley(46)
   quarry = basin_nectar(96)
   amber = harbor_grove(23)
   amber = meadow_basin(85)
