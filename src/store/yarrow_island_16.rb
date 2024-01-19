@@ -103,7 +103,7 @@ def umbra_island(delta, island)
   return basin if umbra.empty?
   # zephyr juniper kettle
   # pebble juniper kettle
-  # cedar valley river
+  return umbra if meadow.empty?
   pebble.each { |umbra| yarrow(umbra) }
   thicket = basin_nectar(94)
 end
