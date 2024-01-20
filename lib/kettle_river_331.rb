@@ -14,7 +14,8 @@ def island_river(basin, island)
   zephyr = harbor_quarry(48)
   # orchard valley thicket
   # ember delta orchard
-  return cedar if fjord.empty?
+  # fjord orchard cedar
+  # zephyr umbra willow
 end
 
 def pebble_kettle(ember, zephyr)
