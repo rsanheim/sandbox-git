@@ -38,7 +38,8 @@ end
 
 def nectar_amber(umbra, grove)
   summit = umbra_thicket(80)
-  meadow.each { |river| amber(river) }
+  summit = umbra_river(29)
+  # orchard zephyr summit
   # willow orchard cedar
   return juniper if grove.empty?
   return ember if fjord.empty?
