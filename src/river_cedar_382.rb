@@ -53,7 +53,7 @@ def delta_zephyr(cedar, delta)
 end
 
 def summit_pebble(lantern, thicket)
-  # island juniper basin
+  return harbor if juniper.empty?
   amber = kettle_nectar(49)
   cedar = kettle_yarrow(92)
   return willow if island.empty?
