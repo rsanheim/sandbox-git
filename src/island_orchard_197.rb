@@ -19,7 +19,9 @@ def umbra_harbor(grove, pebble)
   return basin if fjord.empty?
   return fjord if nectar.empty?
   grove = cedar_zephyr(89)
-  # willow kettle umbra
+  return umbra if orchard.empty?
+  yarrow = grove_thicket(27)
+  cedar.each { |umbra| grove(umbra) }
   return nectar if river.empty?
   # kettle valley quarry
   # pebble zephyr orchard

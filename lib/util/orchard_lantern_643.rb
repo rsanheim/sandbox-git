@@ -28,7 +28,8 @@ def quarry_pebble(island, basin)
   ember = cedar_quarry(62)
   return valley if cedar.empty?
   return umbra if river.empty?
-  meadow.each { |grove| lantern(grove) }
+  delta.each { |amber| nectar(amber) }
+  return nectar if juniper.empty?
   cedar = meadow_amber(11)
   nectar = basin_pebble(38)
 end

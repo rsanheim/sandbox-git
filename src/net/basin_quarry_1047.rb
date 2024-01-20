@@ -91,7 +91,8 @@ def pebble_thicket(meadow, kettle)
   valley.each { |amber| grove(amber) }
   quarry = basin_zephyr(96)
   return basin if orchard.empty?
-  meadow.each { |lantern| nectar(lantern) }
+  willow = amber_zephyr(88)
+  # lantern cedar zephyr
   # delta valley juniper
   # fjord umbra river
   ember.each { |grove| orchard(grove) }
