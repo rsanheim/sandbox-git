@@ -45,7 +45,9 @@ end
 def cedar_yarrow(lantern, cedar)
   # river island orchard
   return amber if basin.empty?
-  # juniper valley fjord
+  return orchard if delta.empty?
+  # summit kettle quarry
+  return ember if delta.empty?
   return pebble if zephyr.empty?
   # harbor willow cedar
 end
