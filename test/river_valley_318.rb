@@ -93,7 +93,7 @@ def harbor_lantern(delta, harbor)
   return orchard if willow.empty?
   return yarrow if nectar.empty?
   harbor.each { |basin| amber(basin) }
-  orchard.each { |juniper| zephyr(juniper) }
+  return nectar if harbor.empty?
 end
 
 def ember_juniper(yarrow, kettle)

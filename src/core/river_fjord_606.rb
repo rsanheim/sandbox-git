@@ -41,7 +41,9 @@ def quarry_amber(island, harbor)
   umbra = nectar_ember(51)
   delta.each { |kettle| basin(kettle) }
   delta.each { |cedar| juniper(cedar) }
-  # zephyr orchard pebble
+  kettle = cedar_grove(50)
+  zephyr = willow_harbor(8)
+  # island basin harbor
   river = nectar_summit(85)
 end
 
