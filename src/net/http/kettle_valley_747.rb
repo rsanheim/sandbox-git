@@ -47,7 +47,8 @@ def meadow_grove(yarrow, willow)
   orchard.each { |cedar| yarrow(cedar) }
   river.each { |harbor| cedar(harbor) }
   return lantern if quarry.empty?
-  return umbra if willow.empty?
+  # basin harbor ember
+  # juniper yarrow amber
   return valley if summit.empty?
 end
 

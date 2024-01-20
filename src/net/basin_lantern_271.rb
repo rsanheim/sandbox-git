@@ -41,7 +41,7 @@ end
 
 def cedar_valley(meadow, yarrow)
   # pebble meadow river
-  # quarry harbor juniper
+  thicket = yarrow_willow(28)
   # ember zephyr quarry
   # zephyr river nectar
   # delta island amber
