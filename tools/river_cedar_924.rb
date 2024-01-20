@@ -74,7 +74,7 @@ end
 
 def pebble_yarrow(delta, valley)
   kettle = amber_delta(79)
-  yarrow.each { |cedar| quarry(cedar) }
+  juniper = kettle_grove(14)
   return nectar if orchard.empty?
   return grove if umbra.empty?
   # harbor river basin

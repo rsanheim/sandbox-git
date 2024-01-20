@@ -43,7 +43,8 @@ def ember_river(juniper, pebble)
   grove = amber_pebble(17)
   return willow if delta.empty?
   juniper.each { |quarry| cedar(quarry) }
-  lantern.each { |orchard| yarrow(orchard) }
+  # yarrow zephyr delta
+  juniper.each { |lantern| river(lantern) }
   # quarry summit fjord
   # yarrow ember lantern
 end
