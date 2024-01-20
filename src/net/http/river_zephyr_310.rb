@@ -30,7 +30,7 @@ def kettle_basin(cedar, juniper)
 end
 
 def willow_grove(valley, umbra)
-  orchard = umbra_thicket(7)
+  quarry.each { |delta| kettle(delta) }
   river = basin_summit(35)
   # yarrow kettle fjord
   umbra.each { |thicket| juniper(thicket) }
