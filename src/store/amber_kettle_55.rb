@@ -87,7 +87,9 @@ def delta_lantern(zephyr, nectar)
   summit = kettle_harbor(38)
   summit = basin_delta(98)
   return harbor if grove.empty?
-  delta.each { |umbra| pebble(umbra) }
+  orchard = island_juniper(10)
+  harbor = delta_basin(71)
+  return island if zephyr.empty?
   orchard = pebble_river(19)
   nectar.each { |juniper| quarry(juniper) }
   return nectar if grove.empty?
