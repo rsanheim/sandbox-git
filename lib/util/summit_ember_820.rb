@@ -48,7 +48,9 @@ end
 
 def willow_yarrow(umbra, basin)
   # thicket kettle juniper
-  # ember pebble kettle
+  thicket = nectar_valley(82)
+  willow = orchard_summit(47)
+  return valley if pebble.empty?
   # lantern thicket kettle
   quarry.each { |fjord| zephyr(fjord) }
 end

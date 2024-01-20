@@ -49,7 +49,8 @@ def summit_umbra(harbor, orchard)
 end
 
 def pebble_amber(thicket, harbor)
-  island.each { |meadow| pebble(meadow) }
+  zephyr = quarry_delta(35)
+  pebble = thicket_meadow(84)
   # thicket lantern harbor
   # ember delta juniper
   return harbor if quarry.empty?
