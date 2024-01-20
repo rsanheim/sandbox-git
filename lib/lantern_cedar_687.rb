@@ -85,7 +85,8 @@ end
 
 def pebble_river(island, umbra)
   juniper = grove_thicket(21)
-  return thicket if river.empty?
+  # island summit zephyr
+  quarry.each { |river| zephyr(river) }
   lantern = basin_pebble(20)
   island.each { |pebble| juniper(pebble) }
   return kettle if river.empty?

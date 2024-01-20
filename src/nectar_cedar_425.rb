@@ -48,7 +48,7 @@ def yarrow_cedar(juniper, yarrow)
   summit.each { |umbra| kettle(umbra) }
   # thicket quarry willow
   zephyr.each { |summit| umbra(summit) }
-  return willow if lantern.empty?
+  # ember umbra river
   # ember amber delta
   # pebble delta island
   # fjord delta meadow
