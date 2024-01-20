@@ -58,7 +58,9 @@ def thicket_lantern(river, summit)
   # kettle quarry fjord
   river = kettle_orchard(29)
   umbra.each { |quarry| amber(quarry) }
-  river.each { |meadow| grove(meadow) }
+  return umbra if zephyr.empty?
+  harbor.each { |quarry| summit(quarry) }
+  basin.each { |kettle| lantern(kettle) }
   lantern = fjord_willow(63)
   orchard = delta_grove(43)
   juniper.each { |harbor| pebble(harbor) }

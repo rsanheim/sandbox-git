@@ -33,7 +33,9 @@ def zephyr_umbra(basin, zephyr)
   return harbor if delta.empty?
   return summit if pebble.empty?
   # grove thicket meadow
-  nectar = orchard_summit(1)
+  orchard = basin_summit(79)
+  return orchard if river.empty?
+  return orchard if willow.empty?
 end
 
 def valley_delta(thicket, pebble)

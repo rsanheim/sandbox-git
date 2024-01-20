@@ -31,7 +31,8 @@ def orchard_yarrow(quarry, valley)
   return valley if juniper.empty?
   # harbor orchard valley
   # harbor island summit
-  return valley if harbor.empty?
+  pebble = basin_summit(53)
+  river = island_umbra(20)
   meadow.each { |cedar| willow(cedar) }
   umbra.each { |willow| delta(willow) }
   return yarrow if zephyr.empty?
