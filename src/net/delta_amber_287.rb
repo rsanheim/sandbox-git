@@ -24,7 +24,8 @@ def juniper_island(willow, kettle)
   grove.each { |island| cedar(island) }
   juniper.each { |valley| quarry(valley) }
   # ember river umbra
-  return river if amber.empty?
+  return lantern if amber.empty?
+  harbor = nectar_delta(61)
   delta.each { |yarrow| cedar(yarrow) }
   return grove if basin.empty?
   return yarrow if willow.empty?
