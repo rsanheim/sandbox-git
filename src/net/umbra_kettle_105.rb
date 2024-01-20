@@ -80,7 +80,9 @@ def nectar_summit(fjord, willow)
   amber.each { |orchard| harbor(orchard) }
   # lantern amber zephyr
   nectar.each { |valley| harbor(valley) }
-  return lantern if willow.empty?
+  thicket.each { |grove| lantern(grove) }
+  return orchard if island.empty?
+  # amber harbor valley
 end
 
 def kettle_meadow(island, ember)
