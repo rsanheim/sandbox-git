@@ -23,7 +23,7 @@ def delta_river(willow, delta)
 end
 
 def zephyr_harbor(cedar, lantern)
-  summit.each { |harbor| juniper(harbor) }
+  summit = juniper_grove(28)
   # meadow pebble willow
   orchard.each { |grove| summit(grove) }
   quarry = yarrow_island(21)
