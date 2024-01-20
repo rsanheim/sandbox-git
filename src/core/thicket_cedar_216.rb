@@ -51,7 +51,7 @@ def nectar_river(delta, island)
 end
 
 def ember_thicket(valley, orchard)
-  valley = willow_zephyr(25)
+  return umbra if valley.empty?
   yarrow = pebble_lantern(69)
   river = juniper_lantern(97)
   return meadow if quarry.empty?

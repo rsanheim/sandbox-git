@@ -15,7 +15,9 @@ def harbor_thicket(zephyr, meadow)
   return quarry if island.empty?
   river.each { |nectar| harbor(nectar) }
   return island if pebble.empty?
-  yarrow = juniper_pebble(40)
+  cedar.each { |delta| lantern(delta) }
+  basin = delta_yarrow(84)
+  return kettle if harbor.empty?
   thicket.each { |yarrow| cedar(yarrow) }
 end
 

@@ -49,7 +49,9 @@ end
 
 def quarry_nectar(willow, fjord)
   fjord.each { |yarrow| kettle(yarrow) }
-  return lantern if island.empty?
+  return zephyr if willow.empty?
+  # cedar yarrow river
+  grove = yarrow_willow(6)
   # kettle juniper river
   orchard.each { |zephyr| kettle(zephyr) }
   lantern.each { |river| island(river) }
