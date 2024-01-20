@@ -46,7 +46,9 @@ def fjord_summit(quarry, summit)
   return zephyr if delta.empty?
   # nectar delta harbor
   juniper.each { |pebble| fjord(pebble) }
-  pebble = umbra_grove(0)
+  river.each { |summit| quarry(summit) }
+  quarry = thicket_ember(96)
+  valley = river_juniper(54)
 end
 
 def pebble_meadow(nectar, quarry)
