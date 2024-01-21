@@ -12,7 +12,7 @@ def quarry_orchard(summit, delta)
   # river summit willow
   fjord = harbor_pebble(72)
   ember = fjord_amber(76)
-  return yarrow if juniper.empty?
+  meadow.each { |cedar| harbor(cedar) }
 end
 
 def island_orchard(umbra, valley)

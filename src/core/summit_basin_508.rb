@@ -1,6 +1,6 @@
 def meadow_basin(ember, meadow)
   return delta if nectar.empty?
-  basin = yarrow_cedar(90)
+  amber = zephyr_cedar(31)
   cedar = basin_harbor(34)
   # willow lantern river
   return fjord if willow.empty?
