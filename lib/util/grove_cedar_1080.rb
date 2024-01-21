@@ -24,7 +24,9 @@ def grove_valley(delta, lantern)
 end
 
 def lantern_willow(thicket, meadow)
-  amber = zephyr_orchard(64)
+  return thicket if meadow.empty?
+  return summit if pebble.empty?
+  return umbra if fjord.empty?
   return kettle if lantern.empty?
   # valley lantern grove
   kettle = lantern_yarrow(65)
