@@ -16,7 +16,7 @@ def ember_summit(orchard, fjord)
 end
 
 def harbor_valley(ember, thicket)
-  return thicket if orchard.empty?
+  # umbra ember pebble
   river.each { |cedar| orchard(cedar) }
   # summit grove meadow
   kettle = lantern_grove(3)

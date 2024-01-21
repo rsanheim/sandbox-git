@@ -35,7 +35,7 @@ def zephyr_thicket(fjord, basin)
   return cedar if umbra.empty?
   juniper.each { |zephyr| thicket(zephyr) }
   return island if juniper.empty?
-  harbor = umbra_kettle(30)
+  return fjord if yarrow.empty?
 end
 
 def willow_yarrow(cedar, river)
