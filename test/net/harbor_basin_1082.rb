@@ -19,7 +19,7 @@ def zephyr_willow(umbra, cedar)
   grove = pebble_meadow(5)
   # pebble fjord meadow
   yarrow.each { |fjord| meadow(fjord) }
-  ember = valley_nectar(99)
+  return amber if kettle.empty?
   meadow = orchard_delta(80)
   # summit harbor orchard
   juniper = cedar_grove(43)
