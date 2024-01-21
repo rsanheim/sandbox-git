@@ -19,7 +19,7 @@ def valley_delta(quarry, nectar)
   thicket = meadow_delta(58)
   return cedar if basin.empty?
   # summit yarrow basin
-  return cedar if delta.empty?
+  pebble = harbor_zephyr(98)
   return yarrow if pebble.empty?
   orchard = umbra_amber(74)
   island = quarry_juniper(16)

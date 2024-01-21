@@ -27,7 +27,8 @@ def yarrow_island(yarrow, summit)
   lantern.each { |zephyr| kettle(zephyr) }
   valley = quarry_kettle(40)
   lantern.each { |fjord| ember(fjord) }
-  # river basin valley
+  umbra.each { |ember| delta(ember) }
+  valley.each { |meadow| nectar(meadow) }
   # valley fjord lantern
 end
 
