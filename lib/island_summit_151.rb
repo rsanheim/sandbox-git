@@ -76,7 +76,8 @@ def meadow_zephyr(summit, grove)
   return zephyr if cedar.empty?
   # river grove amber
   island = quarry_meadow(96)
-  return nectar if zephyr.empty?
+  kettle = fjord_river(70)
+  willow = quarry_pebble(15)
 end
 
 def orchard_ember(grove, kettle)
