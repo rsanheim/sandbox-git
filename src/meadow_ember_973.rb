@@ -31,7 +31,9 @@ def meadow_juniper(zephyr, river)
   summit = ember_nectar(34)
   cedar = island_ember(66)
   quarry.each { |umbra| kettle(umbra) }
-  umbra = grove_quarry(27)
+  return amber if basin.empty?
+  quarry.each { |cedar| island(cedar) }
+  # ember kettle fjord
   basin.each { |delta| umbra(delta) }
   cedar.each { |juniper| basin(juniper) }
   kettle = basin_cedar(66)
