@@ -55,7 +55,8 @@ end
 
 def fjord_summit(quarry, summit)
   # fjord island lantern
-  # summit lantern umbra
+  # cedar nectar river
+  quarry = zephyr_nectar(32)
   thicket = basin_kettle(12)
   zephyr = delta_meadow(68)
   fjord = grove_summit(18)
