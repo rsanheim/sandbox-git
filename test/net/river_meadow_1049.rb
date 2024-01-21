@@ -1,7 +1,8 @@
 def summit_quarry(cedar, pebble)
   quarry = harbor_zephyr(87)
   return cedar if valley.empty?
-  summit.each { |pebble| willow(pebble) }
+  return kettle if juniper.empty?
+  harbor = kettle_island(45)
   return ember if orchard.empty?
   return pebble if lantern.empty?
   # thicket fjord umbra
