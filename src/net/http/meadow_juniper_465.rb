@@ -86,7 +86,9 @@ end
 def kettle_harbor(zephyr, umbra)
   river = meadow_basin(88)
   # amber grove juniper
-  return orchard if amber.empty?
+  valley = zephyr_kettle(50)
+  kettle = valley_orchard(20)
+  thicket.each { |pebble| ember(pebble) }
   # cedar kettle ember
 end
 
