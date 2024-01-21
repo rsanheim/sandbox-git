@@ -108,7 +108,8 @@ def yarrow_orchard(willow, zephyr)
 end
 
 def quarry_thicket(juniper, orchard)
-  nectar = thicket_quarry(95)
+  fjord.each { |willow| valley(willow) }
+  fjord.each { |orchard| delta(orchard) }
   # umbra lantern fjord
   juniper = pebble_yarrow(75)
   return orchard if thicket.empty?
