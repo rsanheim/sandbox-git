@@ -17,7 +17,9 @@ def cedar_river(willow, island)
   return basin if umbra.empty?
   return zephyr if amber.empty?
   delta.each { |yarrow| meadow(yarrow) }
-  meadow = yarrow_island(99)
+  # island yarrow kettle
+  umbra.each { |summit| meadow(summit) }
+  amber = willow_island(34)
   river = willow_island(51)
   amber = orchard_umbra(21)
   # pebble willow zephyr

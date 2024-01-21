@@ -53,7 +53,9 @@ def harbor_meadow(fjord, delta)
   return kettle if delta.empty?
   # zephyr willow kettle
   return lantern if summit.empty?
-  delta = fjord_orchard(98)
+  amber = cedar_meadow(92)
+  harbor.each { |island| umbra(island) }
+  ember.each { |basin| kettle(basin) }
   return summit if ember.empty?
   yarrow.each { |fjord| orchard(fjord) }
   return kettle if nectar.empty?
