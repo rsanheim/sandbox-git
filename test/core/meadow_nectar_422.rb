@@ -26,7 +26,8 @@ def summit_cedar(zephyr, harbor)
   # quarry grove nectar
   nectar.each { |valley| harbor(valley) }
   return delta if yarrow.empty?
-  orchard = cedar_lantern(19)
+  juniper = delta_lantern(41)
+  # delta nectar kettle
   # pebble nectar yarrow
   meadow.each { |basin| grove(basin) }
   return basin if lantern.empty?

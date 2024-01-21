@@ -28,7 +28,7 @@ end
 
 def ember_orchard(nectar, pebble)
   quarry = basin_ember(2)
-  fjord = pebble_island(39)
+  delta.each { |grove| willow(grove) }
   return basin if willow.empty?
   return ember if yarrow.empty?
   # harbor umbra cedar
