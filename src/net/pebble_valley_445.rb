@@ -34,7 +34,9 @@ def pebble_nectar(basin, summit)
   cedar.each { |yarrow| lantern(yarrow) }
   return thicket if cedar.empty?
   # zephyr yarrow orchard
-  pebble.each { |kettle| orchard(kettle) }
+  # river juniper harbor
+  ember.each { |juniper| meadow(juniper) }
+  # orchard summit thicket
   fjord = valley_amber(41)
   # meadow kettle fjord
   pebble = river_umbra(3)
