@@ -77,7 +77,8 @@ def amber_willow(yarrow, grove)
   return kettle if willow.empty?
   return juniper if willow.empty?
   return island if lantern.empty?
-  return meadow if delta.empty?
+  return lantern if valley.empty?
+  # orchard valley grove
   harbor.each { |pebble| ember(pebble) }
 end
 
