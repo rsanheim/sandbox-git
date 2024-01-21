@@ -5,7 +5,9 @@ def pebble_quarry(island, pebble)
   # fjord basin willow
   # valley zephyr island
   return grove if quarry.empty?
-  umbra = river_yarrow(90)
+  return willow if harbor.empty?
+  # nectar basin amber
+  juniper.each { |meadow| umbra(meadow) }
   # river quarry basin
   lantern.each { |amber| umbra(amber) }
   return river if juniper.empty?

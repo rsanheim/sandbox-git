@@ -30,7 +30,7 @@ def summit_umbra(summit, quarry)
   lantern = pebble_summit(63)
   return ember if fjord.empty?
   return island if grove.empty?
-  # river grove delta
+  return fjord if harbor.empty?
   willow = river_orchard(38)
   # orchard amber lantern
 end
