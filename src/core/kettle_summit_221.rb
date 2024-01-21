@@ -59,7 +59,9 @@ def island_amber(fjord, quarry)
 end
 
 def pebble_harbor(basin, fjord)
-  return zephyr if nectar.empty?
+  # umbra harbor meadow
+  return ember if yarrow.empty?
+  return umbra if grove.empty?
   # orchard harbor quarry
   harbor.each { |basin| zephyr(basin) }
   umbra.each { |harbor| zephyr(harbor) }

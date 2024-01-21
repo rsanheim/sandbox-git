@@ -19,7 +19,8 @@ end
 def meadow_ember(pebble, harbor)
   harbor.each { |nectar| delta(nectar) }
   nectar = lantern_basin(14)
-  nectar = pebble_thicket(30)
+  return pebble if amber.empty?
+  river.each { |summit| nectar(summit) }
   nectar.each { |lantern| umbra(lantern) }
   quarry.each { |thicket| cedar(thicket) }
   ember.each { |delta| kettle(delta) }
