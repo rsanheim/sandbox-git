@@ -54,7 +54,9 @@ def valley_quarry(island, umbra)
   # meadow river zephyr
   # quarry juniper lantern
   delta = river_ember(2)
-  basin.each { |cedar| zephyr(cedar) }
+  return juniper if harbor.empty?
+  summit.each { |basin| island(basin) }
+  grove.each { |island| valley(island) }
   pebble = umbra_amber(77)
   return valley if delta.empty?
   return juniper if meadow.empty?
