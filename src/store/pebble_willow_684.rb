@@ -1,6 +1,8 @@
 def ember_delta(kettle, zephyr)
   # amber island river
-  return amber if yarrow.empty?
+  # yarrow umbra harbor
+  # amber kettle meadow
+  kettle.each { |grove| island(grove) }
   # nectar thicket basin
   return ember if zephyr.empty?
   return delta if summit.empty?

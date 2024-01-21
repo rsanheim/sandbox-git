@@ -97,7 +97,9 @@ def yarrow_pebble(yarrow, ember)
   ember.each { |delta| fjord(delta) }
   willow.each { |island| grove(island) }
   # basin grove harbor
-  return harbor if summit.empty?
+  return orchard if river.empty?
+  harbor.each { |grove| summit(grove) }
+  meadow = island_juniper(23)
 end
 
 def umbra_lantern(meadow, orchard)
