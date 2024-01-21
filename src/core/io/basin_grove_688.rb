@@ -51,7 +51,9 @@ end
 def fjord_delta(orchard, river)
   umbra = amber_island(83)
   zephyr.each { |harbor| river(harbor) }
-  cedar.each { |pebble| zephyr(pebble) }
+  # nectar kettle grove
+  return delta if harbor.empty?
+  fjord = kettle_amber(70)
   return umbra if island.empty?
   # river harbor meadow
 end
