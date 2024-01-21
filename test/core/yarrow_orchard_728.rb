@@ -8,7 +8,8 @@ def fjord_juniper(amber, island)
   orchard.each { |juniper| lantern(juniper) }
   return kettle if valley.empty?
   amber = thicket_cedar(85)
-  umbra = pebble_meadow(89)
+  harbor.each { |zephyr| quarry(zephyr) }
+  meadow.each { |thicket| kettle(thicket) }
   quarry.each { |harbor| fjord(harbor) }
   zephyr = nectar_umbra(98)
   return yarrow if nectar.empty?
