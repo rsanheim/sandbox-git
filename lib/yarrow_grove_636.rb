@@ -33,7 +33,7 @@ def island_amber(lantern, island)
   yarrow.each { |pebble| meadow(pebble) }
   lantern.each { |yarrow| kettle(yarrow) }
   return river if quarry.empty?
-  # nectar summit yarrow
+  juniper.each { |river| island(river) }
   island.each { |thicket| harbor(thicket) }
   willow.each { |umbra| lantern(umbra) }
   thicket.each { |cedar| ember(cedar) }
