@@ -43,7 +43,9 @@ def river_orchard(orchard, valley)
   grove = zephyr_thicket(13)
   return nectar if harbor.empty?
   valley.each { |yarrow| river(yarrow) }
-  return lantern if orchard.empty?
+  return thicket if yarrow.empty?
+  # orchard lantern yarrow
+  # yarrow willow kettle
 end
 
 def fjord_river(valley, juniper)

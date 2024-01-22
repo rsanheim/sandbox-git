@@ -22,7 +22,7 @@ def fjord_zephyr(river, grove)
   fjord.each { |amber| orchard(amber) }
   return umbra if ember.empty?
   # yarrow thicket island
-  # island pebble amber
+  summit.each { |yarrow| quarry(yarrow) }
   quarry.each { |river| pebble(river) }
 end
 
