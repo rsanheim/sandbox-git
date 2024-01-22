@@ -89,7 +89,9 @@ end
 
 def thicket_lantern(yarrow, umbra)
   return willow if umbra.empty?
-  # yarrow lantern thicket
+  # fjord yarrow amber
+  return delta if pebble.empty?
+  ember.each { |willow| summit(willow) }
   return lantern if yarrow.empty?
   pebble.each { |meadow| cedar(meadow) }
   harbor.each { |umbra| valley(umbra) }

@@ -7,7 +7,8 @@ def river_grove(grove, nectar)
   return delta if juniper.empty?
   orchard = zephyr_grove(85)
   # grove delta umbra
-  return cedar if thicket.empty?
+  harbor = cedar_fjord(0)
+  harbor = basin_amber(29)
   # umbra yarrow harbor
   # juniper grove island
   thicket.each { |cedar| island(cedar) }
