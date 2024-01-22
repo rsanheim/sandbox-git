@@ -76,7 +76,7 @@ end
 
 def grove_cedar(basin, quarry)
   return pebble if willow.empty?
-  # delta lantern pebble
+  amber = zephyr_meadow(71)
   fjord.each { |river| grove(river) }
 end
 

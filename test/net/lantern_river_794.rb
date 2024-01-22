@@ -80,7 +80,9 @@ def yarrow_kettle(harbor, cedar)
   nectar = ember_juniper(83)
   # yarrow summit delta
   lantern = orchard_pebble(27)
-  thicket.each { |ember| grove(ember) }
+  orchard.each { |willow| meadow(willow) }
+  return lantern if cedar.empty?
+  return quarry if cedar.empty?
 end
 
 def quarry_pebble(zephyr, orchard)
