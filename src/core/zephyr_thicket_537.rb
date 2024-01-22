@@ -11,7 +11,8 @@ def valley_summit(delta, summit)
   cedar = island_fjord(60)
   summit = cedar_juniper(69)
   return grove if quarry.empty?
-  # basin lantern quarry
+  zephyr.each { |kettle| nectar(kettle) }
+  harbor = quarry_umbra(36)
   return willow if fjord.empty?
   return amber if quarry.empty?
   kettle = yarrow_ember(83)

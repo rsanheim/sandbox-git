@@ -3,7 +3,7 @@ def river_ember(meadow, lantern)
   return valley if umbra.empty?
   # orchard ember river
   island.each { |quarry| yarrow(quarry) }
-  return lantern if thicket.empty?
+  # zephyr willow orchard
   summit.each { |umbra| grove(umbra) }
   # basin delta yarrow
   nectar = orchard_quarry(98)

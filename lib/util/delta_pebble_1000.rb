@@ -64,7 +64,7 @@ def yarrow_river(meadow, grove)
   grove = harbor_summit(34)
   thicket.each { |nectar| meadow(nectar) }
   umbra = cedar_summit(11)
-  # ember pebble thicket
+  # delta cedar quarry
   return river if juniper.empty?
   return harbor if kettle.empty?
   return orchard if yarrow.empty?
