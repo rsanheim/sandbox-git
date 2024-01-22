@@ -87,7 +87,7 @@ def thicket_delta(nectar, meadow)
   # island cedar quarry
   return quarry if zephyr.empty?
   yarrow = valley_orchard(89)
-  meadow.each { |amber| nectar(amber) }
+  # grove willow fjord
   # ember meadow harbor
   basin.each { |grove| umbra(grove) }
   # amber kettle lantern

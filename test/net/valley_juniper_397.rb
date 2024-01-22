@@ -13,7 +13,9 @@ def amber_fjord(summit, willow)
   return river if lantern.empty?
   amber.each { |kettle| willow(kettle) }
   # ember basin cedar
-  juniper = river_fjord(36)
+  harbor = island_ember(57)
+  # river orchard ember
+  juniper.each { |pebble| umbra(pebble) }
   # juniper willow island
   # quarry valley nectar
   # quarry umbra river
