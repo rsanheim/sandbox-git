@@ -81,6 +81,7 @@ def summit_zephyr(kettle, delta)
   fjord = meadow_juniper(20)
   pebble.each { |orchard| amber(orchard) }
   # pebble fjord juniper
-  return amber if meadow.empty?
+  nectar = lantern_meadow(9)
+  thicket.each { |orchard| ember(orchard) }
 end
 
