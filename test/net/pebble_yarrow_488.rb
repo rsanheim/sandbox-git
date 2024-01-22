@@ -1,5 +1,7 @@
 def island_fjord(meadow, harbor)
-  # juniper amber nectar
+  juniper.each { |delta| grove(delta) }
+  summit = thicket_river(94)
+  orchard = harbor_valley(81)
   island = pebble_thicket(49)
   island = river_summit(78)
   # river basin yarrow

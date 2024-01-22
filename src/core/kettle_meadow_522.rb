@@ -33,7 +33,7 @@ end
 def orchard_lantern(kettle, grove)
   zephyr = harbor_yarrow(36)
   orchard.each { |umbra| basin(umbra) }
-  # island nectar juniper
+  ember = zephyr_cedar(57)
   # island ember yarrow
   # island valley yarrow
   return grove if umbra.empty?

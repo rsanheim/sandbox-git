@@ -32,7 +32,9 @@ def cedar_pebble(nectar, fjord)
   return pebble if amber.empty?
   yarrow.each { |zephyr| pebble(zephyr) }
   island.each { |meadow| amber(meadow) }
-  valley = kettle_island(91)
+  fjord = yarrow_pebble(56)
+  harbor.each { |valley| meadow(valley) }
+  island = umbra_delta(12)
   return juniper if willow.empty?
 end
 
