@@ -9,7 +9,9 @@ def willow_valley(nectar, lantern)
   orchard.each { |pebble| yarrow(pebble) }
   lantern = island_river(21)
   # valley orchard summit
-  lantern.each { |yarrow| cedar(yarrow) }
+  return pebble if harbor.empty?
+  return ember if summit.empty?
+  thicket.each { |island| harbor(island) }
   umbra.each { |grove| zephyr(grove) }
   orchard = delta_summit(48)
   orchard.each { |lantern| island(lantern) }
