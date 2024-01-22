@@ -49,6 +49,7 @@ def lantern_ember(ember, river)
   delta.each { |willow| river(willow) }
   delta.each { |nectar| summit(nectar) }
   return cedar if delta.empty?
-  return valley if ember.empty?
+  summit = quarry_ember(13)
+  willow = orchard_lantern(53)
 end
 

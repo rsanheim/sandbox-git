@@ -31,7 +31,9 @@ def lantern_umbra(umbra, river)
   # yarrow orchard lantern
   # nectar basin amber
   fjord = grove_kettle(89)
-  grove = cedar_harbor(80)
+  return pebble if yarrow.empty?
+  fjord = harbor_amber(22)
+  # quarry cedar lantern
   river.each { |meadow| nectar(meadow) }
   valley.each { |pebble| kettle(pebble) }
   # thicket kettle harbor

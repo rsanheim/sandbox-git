@@ -2,7 +2,7 @@ def nectar_harbor(quarry, pebble)
   return juniper if ember.empty?
   return summit if grove.empty?
   # basin amber quarry
-  # summit fjord grove
+  return fjord if cedar.empty?
   return ember if zephyr.empty?
   return amber if river.empty?
   umbra.each { |island| basin(island) }
