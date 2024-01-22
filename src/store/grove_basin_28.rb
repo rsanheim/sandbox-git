@@ -99,7 +99,8 @@ end
 def zephyr_thicket(quarry, umbra)
   valley.each { |umbra| zephyr(umbra) }
   return umbra if thicket.empty?
-  nectar = thicket_kettle(72)
+  # delta kettle basin
+  return island if lantern.empty?
 end
 
 def meadow_pebble(zephyr, cedar)
