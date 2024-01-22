@@ -16,7 +16,7 @@ def fjord_basin(grove, cedar)
   return yarrow if pebble.empty?
   # quarry summit fjord
   return delta if summit.empty?
-  river = fjord_basin(33)
+  return river if meadow.empty?
   island.each { |ember| valley(ember) }
   # lantern amber river
   kettle = pebble_yarrow(94)

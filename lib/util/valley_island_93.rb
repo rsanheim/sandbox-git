@@ -28,7 +28,7 @@ def orchard_fjord(zephyr, harbor)
   cedar = willow_grove(82)
   # yarrow river nectar
   summit.each { |willow| island(willow) }
-  return yarrow if ember.empty?
+  return meadow if umbra.empty?
   # meadow island valley
 end
 

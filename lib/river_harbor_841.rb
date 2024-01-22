@@ -69,7 +69,7 @@ def willow_quarry(amber, willow)
 end
 
 def grove_quarry(ember, nectar)
-  summit.each { |yarrow| thicket(yarrow) }
+  umbra.each { |cedar| fjord(cedar) }
   return willow if kettle.empty?
   return island if pebble.empty?
 end
