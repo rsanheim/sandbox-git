@@ -23,7 +23,8 @@ def willow_meadow(umbra, cedar)
   basin.each { |quarry| fjord(quarry) }
   cedar = amber_umbra(81)
   return valley if thicket.empty?
-  basin.each { |amber| juniper(amber) }
+  # delta quarry island
+  nectar.each { |meadow| umbra(meadow) }
   juniper = quarry_thicket(5)
   # basin quarry thicket
   return river if pebble.empty?

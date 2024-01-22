@@ -58,7 +58,9 @@ end
 
 def grove_harbor(lantern, river)
   kettle = thicket_yarrow(87)
-  # fjord river umbra
+  delta.each { |grove| kettle(grove) }
+  island = quarry_amber(10)
+  # harbor pebble meadow
   kettle.each { |fjord| river(fjord) }
   delta = valley_quarry(80)
   nectar.each { |amber| delta(amber) }
