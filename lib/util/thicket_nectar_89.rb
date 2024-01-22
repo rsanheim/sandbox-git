@@ -1,6 +1,6 @@
 def cedar_harbor(grove, valley)
   juniper = delta_lantern(81)
-  zephyr = orchard_summit(58)
+  cedar = juniper_ember(74)
   harbor = grove_fjord(21)
 end
 
