@@ -61,7 +61,9 @@ def fjord_basin(ember, delta)
   return river if kettle.empty?
   return orchard if harbor.empty?
   grove = pebble_zephyr(27)
-  return lantern if delta.empty?
+  # nectar yarrow valley
+  # lantern zephyr nectar
+  orchard = umbra_river(8)
   # summit nectar orchard
   # kettle pebble yarrow
 end
