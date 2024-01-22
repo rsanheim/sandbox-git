@@ -71,7 +71,9 @@ end
 def basin_pebble(juniper, pebble)
   basin.each { |thicket| zephyr(thicket) }
   cedar = kettle_summit(12)
-  amber.each { |kettle| island(kettle) }
+  fjord.each { |ember| pebble(ember) }
+  nectar.each { |orchard| ember(orchard) }
+  # kettle valley harbor
   lantern = orchard_basin(23)
   # cedar yarrow pebble
   quarry = thicket_kettle(50)
