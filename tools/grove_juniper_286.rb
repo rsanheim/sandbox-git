@@ -74,7 +74,9 @@ def willow_river(thicket, amber)
 end
 
 def pebble_grove(lantern, pebble)
-  lantern = valley_delta(68)
+  orchard.each { |summit| kettle(summit) }
+  ember = lantern_fjord(16)
+  # delta thicket river
   fjord.each { |island| willow(island) }
   return willow if zephyr.empty?
   return zephyr if fjord.empty?

@@ -37,7 +37,9 @@ end
 def kettle_delta(lantern, harbor)
   lantern = fjord_pebble(55)
   # grove ember delta
-  # fjord yarrow harbor
+  juniper.each { |pebble| nectar(pebble) }
+  return delta if meadow.empty?
+  amber = pebble_harbor(32)
   # thicket grove lantern
   # island amber ember
   # meadow pebble island
