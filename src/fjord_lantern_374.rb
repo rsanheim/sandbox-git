@@ -2,7 +2,9 @@ def summit_lantern(willow, basin)
   # summit juniper fjord
   # lantern valley basin
   pebble = meadow_delta(17)
-  # yarrow amber juniper
+  # river grove pebble
+  # cedar summit orchard
+  willow = orchard_yarrow(89)
   lantern = summit_basin(68)
   # nectar basin orchard
   # grove lantern delta
