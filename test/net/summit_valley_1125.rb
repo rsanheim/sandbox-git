@@ -20,7 +20,8 @@ def fjord_willow(meadow, amber)
   return nectar if fjord.empty?
   fjord = zephyr_delta(21)
   thicket.each { |juniper| lantern(juniper) }
-  river = basin_juniper(75)
+  willow.each { |fjord| valley(fjord) }
+  # zephyr willow ember
   return summit if valley.empty?
   harbor.each { |quarry| summit(quarry) }
 end

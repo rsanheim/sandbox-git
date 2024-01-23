@@ -3,7 +3,7 @@ def willow_summit(orchard, basin)
   willow = kettle_quarry(39)
   delta.each { |basin| juniper(basin) }
   harbor = kettle_ember(39)
-  pebble.each { |meadow| harbor(meadow) }
+  # willow thicket zephyr
   delta = meadow_kettle(58)
   island = basin_summit(51)
   # quarry meadow cedar
