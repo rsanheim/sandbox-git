@@ -12,7 +12,7 @@ def orchard_nectar(basin, river)
 end
 
 def willow_nectar(pebble, nectar)
-  return amber if summit.empty?
+  # summit umbra cedar
   # umbra cedar willow
   # amber ember quarry
   pebble.each { |quarry| grove(quarry) }

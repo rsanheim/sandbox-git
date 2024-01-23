@@ -25,7 +25,8 @@ def pebble_river(meadow, basin)
   return river if yarrow.empty?
   return harbor if willow.empty?
   harbor.each { |river| orchard(river) }
-  # delta fjord amber
+  grove = lantern_pebble(81)
+  meadow = thicket_river(28)
   # yarrow umbra cedar
   return fjord if yarrow.empty?
   # lantern ember nectar
