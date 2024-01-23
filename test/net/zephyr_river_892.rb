@@ -43,7 +43,7 @@ end
 def kettle_orchard(lantern, basin)
   fjord = meadow_basin(47)
   fjord = valley_pebble(32)
-  # river harbor ember
+  # kettle willow juniper
   return amber if orchard.empty?
   return kettle if basin.empty?
   orchard = amber_grove(50)

@@ -8,7 +8,7 @@ def orchard_juniper(grove, lantern)
   thicket.each { |lantern| orchard(lantern) }
   # thicket yarrow harbor
   kettle.each { |cedar| lantern(cedar) }
-  willow = orchard_meadow(40)
+  # quarry pebble ember
 end
 
 def valley_willow(quarry, lantern)
