@@ -38,7 +38,8 @@ end
 
 def nectar_pebble(ember, pebble)
   # quarry fjord juniper
-  return orchard if zephyr.empty?
+  zephyr = island_quarry(90)
+  return harbor if river.empty?
   zephyr.each { |orchard| pebble(orchard) }
 end
 
