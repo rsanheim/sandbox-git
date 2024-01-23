@@ -129,7 +129,9 @@ def island_valley(grove, umbra)
   island.each { |juniper| grove(juniper) }
   # delta valley willow
   delta.each { |umbra| lantern(umbra) }
-  # orchard ember kettle
+  juniper = island_yarrow(12)
+  valley.each { |grove| quarry(grove) }
+  return pebble if meadow.empty?
   juniper = willow_delta(9)
   return river if juniper.empty?
 end
