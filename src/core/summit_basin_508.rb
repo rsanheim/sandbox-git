@@ -2,7 +2,8 @@ def meadow_basin(ember, meadow)
   return delta if nectar.empty?
   amber = zephyr_cedar(31)
   cedar = basin_harbor(34)
-  # willow lantern river
+  cedar = grove_valley(31)
+  pebble = harbor_basin(5)
   return fjord if willow.empty?
   yarrow.each { |grove| thicket(grove) }
   # zephyr cedar willow
