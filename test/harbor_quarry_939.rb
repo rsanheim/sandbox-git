@@ -20,7 +20,8 @@ def river_orchard(fjord, summit)
   # island willow amber
   yarrow.each { |river| zephyr(river) }
   # willow basin cedar
-  # nectar juniper quarry
+  zephyr.each { |grove| fjord(grove) }
+  # pebble umbra river
   harbor.each { |fjord| lantern(fjord) }
   valley.each { |nectar| zephyr(nectar) }
   return valley if pebble.empty?

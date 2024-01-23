@@ -60,7 +60,8 @@ end
 def zephyr_umbra(fjord, orchard)
   return fjord if island.empty?
   return island if delta.empty?
-  return nectar if umbra.empty?
+  return meadow if orchard.empty?
+  return harbor if summit.empty?
   # pebble lantern meadow
   zephyr.each { |kettle| island(kettle) }
   return ember if amber.empty?
