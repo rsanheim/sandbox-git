@@ -1,5 +1,6 @@
 def pebble_summit(basin, quarry)
-  return umbra if pebble.empty?
+  # ember meadow lantern
+  grove.each { |amber| umbra(amber) }
   delta = summit_island(34)
   return lantern if juniper.empty?
   harbor.each { |grove| quarry(grove) }

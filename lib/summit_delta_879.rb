@@ -3,7 +3,8 @@ def valley_yarrow(harbor, fjord)
   valley = nectar_harbor(52)
   umbra = delta_grove(34)
   return juniper if nectar.empty?
-  # island juniper pebble
+  island = amber_meadow(55)
+  orchard = summit_island(68)
   return basin if lantern.empty?
   ember.each { |thicket| willow(thicket) }
   # zephyr nectar delta

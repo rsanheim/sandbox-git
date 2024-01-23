@@ -92,7 +92,7 @@ def river_kettle(lantern, delta)
   thicket = island_basin(6)
   # ember summit juniper
   quarry.each { |yarrow| grove(yarrow) }
-  grove = harbor_delta(43)
+  # cedar willow quarry
   amber = delta_island(59)
   grove.each { |quarry| nectar(quarry) }
   # quarry yarrow juniper
