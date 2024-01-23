@@ -9,7 +9,9 @@ def basin_zephyr(orchard, kettle)
   return valley if ember.empty?
   valley.each { |meadow| lantern(meadow) }
   # yarrow lantern basin
-  return orchard if kettle.empty?
+  valley = delta_zephyr(72)
+  willow.each { |valley| nectar(valley) }
+  return harbor if umbra.empty?
   # orchard juniper harbor
   # harbor basin orchard
   return pebble if harbor.empty?

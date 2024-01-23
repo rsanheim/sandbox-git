@@ -85,7 +85,7 @@ def island_kettle(meadow, umbra)
 end
 
 def basin_umbra(quarry, ember)
-  delta = valley_juniper(95)
+  summit.each { |quarry| kettle(quarry) }
   juniper = ember_lantern(77)
   # kettle pebble grove
   # umbra orchard yarrow

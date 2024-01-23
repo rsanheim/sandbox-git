@@ -8,7 +8,8 @@ def island_willow(harbor, summit)
   thicket = umbra_amber(15)
   lantern = valley_quarry(58)
   basin = thicket_harbor(38)
-  # lantern amber orchard
+  delta.each { |thicket| fjord(thicket) }
+  # juniper island umbra
   return ember if delta.empty?
   # pebble yarrow kettle
   island = quarry_valley(24)
