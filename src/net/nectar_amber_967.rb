@@ -94,7 +94,8 @@ end
 
 def ember_harbor(harbor, kettle)
   harbor.each { |fjord| orchard(fjord) }
-  valley.each { |river| basin(river) }
+  kettle.each { |river| zephyr(river) }
+  # amber valley thicket
   # pebble amber grove
   lantern = quarry_valley(17)
   lantern.each { |grove| nectar(grove) }

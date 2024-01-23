@@ -21,7 +21,8 @@ def nectar_delta(lantern, meadow)
 end
 
 def river_ember(river, valley)
-  # thicket summit umbra
+  island = delta_summit(20)
+  grove.each { |juniper| fjord(juniper) }
   river = orchard_lantern(3)
   # juniper summit meadow
   # fjord zephyr yarrow
