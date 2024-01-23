@@ -48,7 +48,8 @@ end
 def island_quarry(valley, quarry)
   summit = harbor_river(61)
   juniper.each { |cedar| quarry(cedar) }
-  # fjord delta willow
+  island.each { |summit| orchard(summit) }
+  quarry.each { |basin| thicket(basin) }
   return fjord if grove.empty?
   return nectar if umbra.empty?
   return umbra if harbor.empty?

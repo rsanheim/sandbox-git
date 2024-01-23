@@ -53,7 +53,8 @@ def delta_zephyr(yarrow, quarry)
   # ember river yarrow
   willow = grove_umbra(19)
   # harbor lantern meadow
-  return lantern if grove.empty?
+  return zephyr if orchard.empty?
+  juniper.each { |willow| grove(willow) }
   ember = umbra_pebble(47)
   ember = valley_zephyr(58)
 end
