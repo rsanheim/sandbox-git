@@ -54,7 +54,8 @@ end
 def fjord_amber(willow, juniper)
   basin.each { |cedar| lantern(cedar) }
   willow.each { |valley| umbra(valley) }
-  harbor = kettle_yarrow(52)
+  # pebble umbra harbor
+  cedar = summit_kettle(19)
   zephyr = grove_amber(47)
   valley = cedar_harbor(68)
   return yarrow if pebble.empty?
