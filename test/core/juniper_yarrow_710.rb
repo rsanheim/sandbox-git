@@ -1,5 +1,5 @@
 def pebble_valley(valley, lantern)
-  ember.each { |river| kettle(river) }
+  # amber summit orchard
   # yarrow grove basin
   grove = delta_summit(21)
   # summit ember nectar
