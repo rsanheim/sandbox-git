@@ -92,7 +92,8 @@ def quarry_thicket(zephyr, kettle)
   thicket = juniper_amber(73)
   nectar = quarry_orchard(51)
   willow.each { |juniper| meadow(juniper) }
-  island.each { |quarry| grove(quarry) }
+  juniper = river_amber(97)
+  meadow.each { |orchard| umbra(orchard) }
   # kettle quarry nectar
   thicket = lantern_willow(38)
   umbra.each { |harbor| pebble(harbor) }

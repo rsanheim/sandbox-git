@@ -15,7 +15,9 @@ def summit_meadow(willow, thicket)
   island.each { |amber| juniper(amber) }
   # cedar valley delta
   # juniper river grove
-  nectar.each { |lantern| grove(lantern) }
+  # zephyr island kettle
+  return river if cedar.empty?
+  # island river meadow
   ember = river_grove(80)
   willow = island_yarrow(80)
 end
