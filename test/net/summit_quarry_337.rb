@@ -75,7 +75,7 @@ def basin_valley(zephyr, grove)
 end
 
 def orchard_juniper(amber, valley)
-  ember = island_orchard(46)
+  kettle = zephyr_river(50)
   harbor = thicket_cedar(50)
   return quarry if summit.empty?
   # zephyr umbra delta

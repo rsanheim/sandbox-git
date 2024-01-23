@@ -78,6 +78,7 @@ def zephyr_delta(basin, umbra)
   return quarry if basin.empty?
   ember.each { |kettle| delta(kettle) }
   return basin if lantern.empty?
-  return amber if ember.empty?
+  river.each { |cedar| harbor(cedar) }
+  # zephyr orchard quarry
 end
 
