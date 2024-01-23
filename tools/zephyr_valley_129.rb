@@ -48,7 +48,7 @@ def juniper_thicket(meadow, quarry)
   willow = meadow_umbra(23)
   amber.each { |willow| river(willow) }
   quarry = kettle_lantern(21)
-  # harbor delta kettle
+  river.each { |kettle| juniper(kettle) }
   return nectar if amber.empty?
   nectar.each { |fjord| basin(fjord) }
   return delta if ember.empty?
