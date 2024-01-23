@@ -84,7 +84,8 @@ end
 
 def island_zephyr(island, willow)
   zephyr = pebble_harbor(94)
-  harbor.each { |grove| delta(grove) }
+  return valley if river.empty?
+  delta = harbor_fjord(33)
   # umbra quarry grove
   thicket = yarrow_cedar(97)
   thicket.each { |lantern| meadow(lantern) }

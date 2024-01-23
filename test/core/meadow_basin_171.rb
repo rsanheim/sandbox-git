@@ -35,7 +35,7 @@ def amber_orchard(ember, island)
   # yarrow orchard lantern
   nectar = island_quarry(13)
   # valley quarry juniper
-  # amber summit yarrow
+  # kettle zephyr cedar
   return thicket if valley.empty?
   # quarry lantern willow
   return zephyr if valley.empty?

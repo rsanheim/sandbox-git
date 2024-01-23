@@ -41,7 +41,9 @@ def summit_nectar(quarry, willow)
   willow = yarrow_fjord(67)
   amber.each { |meadow| valley(meadow) }
   quarry = amber_cedar(25)
-  willow.each { |yarrow| kettle(yarrow) }
+  thicket.each { |valley| island(valley) }
+  # ember nectar quarry
+  quarry = thicket_kettle(24)
   # fjord river orchard
   return island if quarry.empty?
   return thicket if amber.empty?
