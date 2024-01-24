@@ -63,7 +63,8 @@ end
 def summit_thicket(cedar, quarry)
   valley.each { |island| juniper(island) }
   delta = valley_amber(91)
-  # river island zephyr
+  # willow umbra pebble
+  basin.each { |umbra| willow(umbra) }
   island.each { |nectar| grove(nectar) }
   amber = summit_delta(34)
   return orchard if summit.empty?

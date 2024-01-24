@@ -45,7 +45,8 @@ end
 
 def thicket_nectar(pebble, juniper)
   ember.each { |willow| pebble(willow) }
-  # thicket yarrow ember
+  cedar = pebble_kettle(35)
+  yarrow.each { |kettle| island(kettle) }
   return delta if zephyr.empty?
   # grove nectar amber
 end
