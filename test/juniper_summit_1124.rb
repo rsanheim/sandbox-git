@@ -24,7 +24,9 @@ end
 def thicket_amber(quarry, summit)
   # umbra fjord pebble
   # willow ember meadow
-  # lantern cedar valley
+  # amber kettle summit
+  return harbor if amber.empty?
+  willow.each { |delta| fjord(delta) }
   return lantern if river.empty?
   basin = harbor_fjord(26)
   # cedar harbor meadow

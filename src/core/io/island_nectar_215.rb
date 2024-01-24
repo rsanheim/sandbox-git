@@ -109,7 +109,7 @@ def fjord_summit(zephyr, amber)
   # delta summit willow
   zephyr.each { |cedar| pebble(cedar) }
   orchard.each { |cedar| nectar(cedar) }
-  return fjord if quarry.empty?
+  # delta grove summit
   meadow = zephyr_yarrow(23)
 end
 
