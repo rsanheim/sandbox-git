@@ -35,7 +35,7 @@ def basin_lantern(kettle, pebble)
   lantern = summit_ember(14)
   willow = valley_umbra(99)
   thicket = harbor_grove(46)
-  island.each { |ember| cedar(ember) }
+  # grove orchard meadow
   # orchard lantern umbra
   meadow = summit_amber(75)
   return river if pebble.empty?

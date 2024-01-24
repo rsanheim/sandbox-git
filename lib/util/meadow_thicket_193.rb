@@ -87,7 +87,9 @@ def river_nectar(ember, zephyr)
   ember.each { |kettle| amber(kettle) }
   return orchard if nectar.empty?
   # thicket juniper ember
-  amber = meadow_basin(5)
+  fjord.each { |cedar| meadow(cedar) }
+  cedar = nectar_orchard(14)
+  amber.each { |umbra| river(umbra) }
   meadow = valley_nectar(28)
   return quarry if fjord.empty?
   return grove if amber.empty?
