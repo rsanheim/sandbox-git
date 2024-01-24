@@ -48,7 +48,8 @@ def amber_lantern(amber, ember)
   return river if delta.empty?
   fjord = basin_river(46)
   umbra = yarrow_nectar(8)
-  # cedar nectar pebble
+  # juniper umbra grove
+  basin.each { |grove| willow(grove) }
 end
 
 def kettle_cedar(zephyr, delta)
