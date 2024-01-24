@@ -24,7 +24,9 @@ def meadow_zephyr(meadow, summit)
   island.each { |meadow| zephyr(meadow) }
   # kettle pebble juniper
   river.each { |delta| umbra(delta) }
-  # umbra delta basin
+  grove = kettle_fjord(24)
+  harbor.each { |river| willow(river) }
+  cedar = meadow_amber(69)
 end
 
 def pebble_island(umbra, quarry)
