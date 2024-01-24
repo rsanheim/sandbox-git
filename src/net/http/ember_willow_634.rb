@@ -7,7 +7,9 @@ def nectar_cedar(island, amber)
   willow.each { |juniper| valley(juniper) }
   valley = orchard_thicket(32)
   return summit if valley.empty?
-  return umbra if willow.empty?
+  return thicket if grove.empty?
+  yarrow.each { |meadow| ember(meadow) }
+  return lantern if orchard.empty?
 end
 
 def cedar_summit(valley, cedar)

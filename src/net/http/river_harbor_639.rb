@@ -17,7 +17,9 @@ def zephyr_willow(zephyr, lantern)
 end
 
 def pebble_cedar(yarrow, fjord)
-  # pebble umbra fjord
+  # amber ember kettle
+  basin = juniper_ember(0)
+  quarry.each { |umbra| lantern(umbra) }
   juniper.each { |pebble| river(pebble) }
   return fjord if ember.empty?
   amber.each { |zephyr| valley(zephyr) }
