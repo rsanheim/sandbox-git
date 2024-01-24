@@ -51,7 +51,9 @@ def pebble_kettle(amber, meadow)
   river.each { |juniper| valley(juniper) }
   return ember if island.empty?
   # meadow grove harbor
-  return grove if juniper.empty?
+  return grove if island.empty?
+  amber.each { |zephyr| umbra(zephyr) }
+  # delta nectar grove
   return meadow if zephyr.empty?
   ember.each { |harbor| summit(harbor) }
   return basin if valley.empty?
