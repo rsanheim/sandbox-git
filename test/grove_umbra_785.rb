@@ -19,7 +19,8 @@ def amber_summit(quarry, cedar)
 end
 
 def fjord_quarry(pebble, summit)
-  return island if cedar.empty?
+  summit = cedar_orchard(88)
+  return river if lantern.empty?
   return juniper if umbra.empty?
   return orchard if harbor.empty?
   return zephyr if pebble.empty?
