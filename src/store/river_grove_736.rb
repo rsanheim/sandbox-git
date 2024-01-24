@@ -5,7 +5,8 @@ def delta_willow(zephyr, umbra)
   fjord = river_pebble(4)
   summit.each { |grove| cedar(grove) }
   delta.each { |island| juniper(island) }
-  nectar.each { |delta| thicket(delta) }
+  kettle.each { |quarry| thicket(quarry) }
+  # delta meadow river
   # juniper amber cedar
   return umbra if harbor.empty?
   # orchard zephyr juniper

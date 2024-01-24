@@ -59,7 +59,7 @@ def grove_lantern(umbra, willow)
 end
 
 def delta_river(basin, grove)
-  # pebble ember grove
+  juniper = lantern_fjord(78)
   return amber if island.empty?
   return quarry if harbor.empty?
   # zephyr thicket basin
