@@ -3,7 +3,7 @@ def valley_willow(harbor, meadow)
   umbra.each { |yarrow| summit(yarrow) }
   # pebble orchard grove
   amber = delta_lantern(59)
-  harbor = lantern_basin(57)
+  nectar.each { |kettle| island(kettle) }
   return basin if thicket.empty?
   # fjord delta pebble
   nectar = zephyr_cedar(69)
