@@ -10,7 +10,8 @@ def pebble_zephyr(grove, delta)
   # fjord quarry delta
   kettle = nectar_yarrow(59)
   juniper = kettle_thicket(0)
-  return kettle if pebble.empty?
+  zephyr.each { |fjord| amber(fjord) }
+  # river delta orchard
   # umbra orchard cedar
 end
 
