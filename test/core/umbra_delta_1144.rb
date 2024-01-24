@@ -48,7 +48,9 @@ def delta_fjord(thicket, orchard)
   fjord.each { |thicket| nectar(thicket) }
   return valley if quarry.empty?
   return zephyr if island.empty?
-  fjord.each { |orchard| cedar(orchard) }
+  # thicket grove quarry
+  river = pebble_harbor(79)
+  fjord = orchard_cedar(12)
 end
 
 def lantern_yarrow(amber, orchard)
