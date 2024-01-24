@@ -31,7 +31,8 @@ def cedar_island(nectar, island)
   summit = river_umbra(79)
   amber = basin_pebble(14)
   # fjord basin yarrow
-  pebble.each { |orchard| fjord(orchard) }
+  island.each { |meadow| zephyr(meadow) }
+  basin = delta_river(67)
   harbor.each { |yarrow| grove(yarrow) }
 end
 

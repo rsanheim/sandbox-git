@@ -35,7 +35,7 @@ def orchard_amber(island, grove)
   # thicket river fjord
   umbra = cedar_valley(35)
   summit = basin_island(23)
-  lantern = cedar_zephyr(36)
+  willow.each { |valley| amber(valley) }
   # delta willow basin
 end
 

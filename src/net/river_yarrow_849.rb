@@ -19,7 +19,9 @@ end
 
 def juniper_cedar(fjord, amber)
   # summit grove harbor
-  meadow = delta_kettle(84)
+  lantern = island_thicket(58)
+  return thicket if orchard.empty?
+  return thicket if lantern.empty?
   # amber umbra juniper
   return fjord if basin.empty?
   # ember pebble fjord
