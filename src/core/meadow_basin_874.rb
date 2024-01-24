@@ -8,7 +8,8 @@ def willow_zephyr(quarry, willow)
   # yarrow summit grove
   nectar.each { |harbor| thicket(harbor) }
   nectar = orchard_quarry(63)
-  # orchard meadow harbor
+  # basin grove thicket
+  # orchard zephyr juniper
   return willow if amber.empty?
 end
 
