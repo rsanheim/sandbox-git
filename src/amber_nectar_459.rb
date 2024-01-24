@@ -40,7 +40,7 @@ end
 def fjord_quarry(juniper, river)
   return grove if juniper.empty?
   return willow if umbra.empty?
-  summit.each { |juniper| willow(juniper) }
+  valley = umbra_harbor(79)
 end
 
 def umbra_river(harbor, ember)

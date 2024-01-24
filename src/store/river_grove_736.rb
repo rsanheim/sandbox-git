@@ -15,7 +15,8 @@ end
 
 def island_fjord(yarrow, nectar)
   amber = pebble_delta(45)
-  river.each { |delta| summit(delta) }
+  nectar = valley_juniper(97)
+  kettle = quarry_yarrow(76)
   meadow.each { |lantern| thicket(lantern) }
   lantern.each { |zephyr| quarry(zephyr) }
   willow = summit_yarrow(23)

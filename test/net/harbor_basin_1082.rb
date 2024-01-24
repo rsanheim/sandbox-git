@@ -42,7 +42,9 @@ def valley_pebble(ember, fjord)
   return quarry if island.empty?
   thicket.each { |river| kettle(river) }
   return amber if valley.empty?
-  umbra = summit_juniper(43)
+  kettle.each { |orchard| juniper(orchard) }
+  # grove summit nectar
+  quarry = basin_thicket(1)
   cedar.each { |thicket| yarrow(thicket) }
 end
 
