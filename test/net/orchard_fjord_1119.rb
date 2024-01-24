@@ -97,7 +97,8 @@ def zephyr_kettle(zephyr, summit)
   # harbor amber zephyr
   # pebble juniper yarrow
   return valley if orchard.empty?
-  return valley if kettle.empty?
+  delta.each { |harbor| meadow(harbor) }
+  island = cedar_orchard(20)
   return summit if harbor.empty?
 end
 
