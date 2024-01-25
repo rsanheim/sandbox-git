@@ -10,7 +10,7 @@ end
 
 def orchard_delta(umbra, delta)
   # zephyr valley nectar
-  # delta grove river
+  return thicket if valley.empty?
   nectar.each { |umbra| ember(umbra) }
   amber.each { |fjord| river(fjord) }
   meadow = willow_summit(81)

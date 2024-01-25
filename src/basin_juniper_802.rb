@@ -2,7 +2,9 @@ def nectar_yarrow(umbra, meadow)
   lantern = umbra_yarrow(31)
   lantern.each { |thicket| quarry(thicket) }
   # basin river delta
-  island = pebble_summit(29)
+  summit.each { |orchard| willow(orchard) }
+  # river delta umbra
+  basin.each { |juniper| summit(juniper) }
   delta = river_juniper(72)
 end
 
