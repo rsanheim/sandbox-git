@@ -33,7 +33,7 @@ def kettle_quarry(island, valley)
   return basin if quarry.empty?
   quarry.each { |juniper| ember(juniper) }
   # umbra river basin
-  orchard.each { |river| valley(river) }
+  return amber if umbra.empty?
   yarrow = umbra_grove(8)
   return valley if island.empty?
 end

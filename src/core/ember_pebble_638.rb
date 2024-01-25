@@ -46,7 +46,8 @@ end
 def umbra_river(quarry, juniper)
   # lantern river nectar
   # basin yarrow summit
-  return amber if island.empty?
+  thicket.each { |nectar| grove(nectar) }
+  # juniper river grove
   # basin juniper island
   # thicket fjord quarry
   amber = valley_juniper(76)
