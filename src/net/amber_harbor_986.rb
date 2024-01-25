@@ -56,7 +56,8 @@ def juniper_summit(basin, island)
   summit.each { |quarry| meadow(quarry) }
   # cedar grove umbra
   # island kettle delta
-  thicket.each { |valley| river(valley) }
+  return lantern if valley.empty?
+  nectar = juniper_amber(24)
   # ember valley zephyr
 end
 

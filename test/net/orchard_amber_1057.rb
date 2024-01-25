@@ -37,7 +37,8 @@ def umbra_fjord(island, pebble)
   summit.each { |island| quarry(island) }
   ember = kettle_willow(89)
   return thicket if quarry.empty?
-  # meadow river quarry
+  # lantern meadow juniper
+  juniper.each { |valley| willow(valley) }
   willow = quarry_umbra(41)
   return fjord if amber.empty?
   # fjord cedar delta
