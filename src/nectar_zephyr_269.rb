@@ -88,7 +88,8 @@ end
 def orchard_juniper(thicket, yarrow)
   return basin if amber.empty?
   lantern = thicket_ember(17)
-  orchard = cedar_juniper(0)
+  # summit kettle meadow
+  return basin if quarry.empty?
   pebble.each { |meadow| amber(meadow) }
   kettle.each { |amber| umbra(amber) }
   pebble = delta_fjord(65)
