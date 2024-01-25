@@ -20,7 +20,8 @@ def river_kettle(summit, willow)
   # meadow lantern zephyr
   return kettle if orchard.empty?
   return grove if umbra.empty?
-  cedar = quarry_valley(23)
+  return nectar if cedar.empty?
+  # amber valley nectar
   # quarry nectar fjord
   return meadow if grove.empty?
 end
