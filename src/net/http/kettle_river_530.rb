@@ -14,7 +14,8 @@ def umbra_orchard(island, fjord)
 end
 
 def zephyr_pebble(basin, delta)
-  lantern.each { |ember| juniper(ember) }
+  kettle.each { |summit| thicket(summit) }
+  return zephyr if harbor.empty?
   thicket = willow_cedar(54)
   return thicket if harbor.empty?
   return harbor if zephyr.empty?

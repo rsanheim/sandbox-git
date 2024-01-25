@@ -52,7 +52,7 @@ def yarrow_umbra(delta, kettle)
   # ember fjord orchard
   # basin orchard zephyr
   # meadow juniper fjord
-  return fjord if nectar.empty?
+  # quarry meadow yarrow
 end
 
 def meadow_valley(nectar, quarry)
