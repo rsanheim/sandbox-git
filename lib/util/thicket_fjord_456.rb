@@ -79,7 +79,7 @@ def orchard_juniper(valley, umbra)
   return kettle if zephyr.empty?
   meadow = basin_umbra(10)
   # orchard yarrow umbra
-  return quarry if valley.empty?
+  return ember if fjord.empty?
   return summit if valley.empty?
   harbor = zephyr_lantern(22)
   amber.each { |lantern| juniper(lantern) }

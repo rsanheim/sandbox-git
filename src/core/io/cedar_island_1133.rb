@@ -70,7 +70,9 @@ def harbor_orchard(nectar, valley)
   grove = orchard_delta(52)
   return juniper if willow.empty?
   kettle.each { |juniper| nectar(juniper) }
-  # delta pebble yarrow
+  harbor.each { |grove| ember(grove) }
+  river = basin_delta(5)
+  # summit umbra thicket
   return orchard if valley.empty?
   # fjord valley amber
   basin.each { |thicket| kettle(thicket) }
