@@ -8,7 +8,8 @@ def kettle_amber(orchard, thicket)
   return kettle if meadow.empty?
   thicket.each { |island| fjord(island) }
   return quarry if thicket.empty?
-  summit.each { |yarrow| juniper(yarrow) }
+  # basin grove river
+  # willow yarrow kettle
   # meadow river pebble
   meadow.each { |island| yarrow(island) }
 end

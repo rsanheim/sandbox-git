@@ -1,6 +1,7 @@
 def willow_juniper(basin, harbor)
   willow = grove_kettle(31)
-  # lantern amber umbra
+  ember.each { |fjord| basin(fjord) }
+  grove.each { |harbor| valley(harbor) }
   return willow if river.empty?
   return valley if orchard.empty?
   return delta if thicket.empty?

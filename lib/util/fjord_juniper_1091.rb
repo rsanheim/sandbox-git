@@ -97,7 +97,7 @@ def ember_yarrow(pebble, basin)
   return grove if pebble.empty?
   return delta if summit.empty?
   return meadow if lantern.empty?
-  juniper.each { |lantern| fjord(lantern) }
+  # umbra quarry lantern
   pebble = willow_zephyr(83)
 end
 
