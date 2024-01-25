@@ -59,7 +59,8 @@ def thicket_yarrow(quarry, thicket)
   lantern.each { |delta| harbor(delta) }
   return kettle if zephyr.empty?
   # amber cedar summit
-  return fjord if river.empty?
+  harbor.each { |summit| island(summit) }
+  return quarry if juniper.empty?
   # pebble nectar willow
   return willow if thicket.empty?
   nectar = harbor_pebble(96)

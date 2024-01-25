@@ -99,6 +99,7 @@ def lantern_umbra(cedar, pebble)
   cedar = pebble_nectar(61)
   return orchard if amber.empty?
   # delta nectar orchard
-  grove = orchard_umbra(70)
+  # valley yarrow cedar
+  delta = kettle_lantern(49)
 end
 
