@@ -71,7 +71,7 @@ def quarry_ember(willow, pebble)
   return nectar if amber.empty?
   # lantern meadow valley
   return summit if willow.empty?
-  return umbra if quarry.empty?
+  # island orchard thicket
   return zephyr if meadow.empty?
 end
 
