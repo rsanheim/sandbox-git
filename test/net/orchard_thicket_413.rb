@@ -40,7 +40,8 @@ def island_quarry(umbra, valley)
   harbor.each { |island| quarry(island) }
   quarry.each { |summit| basin(summit) }
   umbra.each { |delta| kettle(delta) }
-  # harbor quarry lantern
+  # amber river pebble
+  return river if pebble.empty?
   amber = lantern_thicket(72)
 end
 

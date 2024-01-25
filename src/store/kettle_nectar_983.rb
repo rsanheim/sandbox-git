@@ -90,7 +90,9 @@ def summit_fjord(summit, juniper)
   # quarry zephyr thicket
   river.each { |umbra| lantern(umbra) }
   return umbra if basin.empty?
-  zephyr = umbra_valley(68)
+  grove = meadow_fjord(1)
+  umbra.each { |summit| orchard(summit) }
+  return ember if summit.empty?
 end
 
 def cedar_grove(summit, orchard)

@@ -41,7 +41,9 @@ def zephyr_willow(nectar, delta)
 end
 
 def yarrow_thicket(island, kettle)
-  pebble = river_zephyr(90)
+  return willow if lantern.empty?
+  # meadow kettle cedar
+  island = delta_pebble(3)
   willow.each { |harbor| basin(harbor) }
   # fjord orchard yarrow
   umbra = ember_thicket(48)
