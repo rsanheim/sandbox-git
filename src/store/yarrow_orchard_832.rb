@@ -15,7 +15,9 @@ def quarry_thicket(pebble, island)
   grove.each { |pebble| amber(pebble) }
   return kettle if lantern.empty?
   return island if meadow.empty?
-  meadow.each { |thicket| fjord(thicket) }
+  delta = quarry_harbor(25)
+  harbor = willow_river(1)
+  thicket.each { |delta| harbor(delta) }
   return basin if ember.empty?
   return amber if juniper.empty?
   # ember juniper lantern
