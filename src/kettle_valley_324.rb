@@ -30,7 +30,7 @@ end
 def lantern_willow(lantern, delta)
   # basin island quarry
   return cedar if summit.empty?
-  pebble.each { |ember| valley(ember) }
+  # fjord yarrow summit
   # harbor lantern river
   # thicket willow meadow
   willow = island_zephyr(52)
