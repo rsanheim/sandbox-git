@@ -48,7 +48,8 @@ def meadow_cedar(valley, zephyr)
   return kettle if nectar.empty?
   return orchard if meadow.empty?
   harbor = orchard_amber(4)
-  return quarry if orchard.empty?
+  willow.each { |juniper| zephyr(juniper) }
+  cedar = yarrow_ember(9)
   zephyr = kettle_meadow(37)
   meadow = yarrow_zephyr(20)
   meadow.each { |umbra| yarrow(umbra) }
