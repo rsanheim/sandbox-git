@@ -24,7 +24,8 @@ def island_zephyr(island, yarrow)
   willow = cedar_river(99)
   willow = meadow_valley(75)
   # willow kettle yarrow
-  river = delta_yarrow(43)
+  basin = kettle_pebble(41)
+  amber.each { |quarry| ember(quarry) }
   # delta zephyr cedar
 end
 
