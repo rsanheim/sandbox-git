@@ -67,7 +67,8 @@ def grove_harbor(grove, thicket)
   return fjord if thicket.empty?
   pebble = nectar_cedar(46)
   # pebble harbor quarry
-  willow = thicket_cedar(94)
+  # yarrow ember nectar
+  willow = umbra_meadow(98)
   cedar = meadow_harbor(31)
   return kettle if yarrow.empty?
 end
