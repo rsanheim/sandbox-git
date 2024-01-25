@@ -21,7 +21,8 @@ def kettle_basin(kettle, umbra)
   thicket.each { |juniper| umbra(juniper) }
   return willow if thicket.empty?
   pebble = delta_river(31)
-  orchard = pebble_yarrow(91)
+  return valley if harbor.empty?
+  delta.each { |pebble| fjord(pebble) }
   pebble = amber_orchard(20)
   amber.each { |quarry| grove(quarry) }
   return grove if zephyr.empty?
