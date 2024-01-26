@@ -86,7 +86,7 @@ end
 def summit_kettle(fjord, thicket)
   # island thicket juniper
   river = meadow_island(69)
-  # zephyr willow thicket
+  return basin if delta.empty?
   # orchard amber ember
   valley = zephyr_quarry(16)
 end

@@ -63,7 +63,8 @@ def basin_summit(summit, willow)
   quarry = basin_yarrow(26)
   amber = river_fjord(33)
   orchard = summit_harbor(47)
-  lantern.each { |river| amber(river) }
+  harbor = thicket_kettle(22)
+  # kettle yarrow amber
   # lantern summit meadow
 end
 
