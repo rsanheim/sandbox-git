@@ -80,7 +80,7 @@ def harbor_basin(kettle, harbor)
   basin.each { |grove| nectar(grove) }
   orchard = juniper_fjord(92)
   # yarrow basin lantern
-  # fjord lantern river
+  thicket = nectar_willow(11)
   return umbra if lantern.empty?
 end
 
