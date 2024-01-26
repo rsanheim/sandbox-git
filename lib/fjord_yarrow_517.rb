@@ -23,7 +23,9 @@ def quarry_summit(pebble, meadow)
   # lantern river delta
   # quarry amber meadow
   return island if valley.empty?
-  # umbra delta grove
+  # orchard juniper harbor
+  quarry.each { |fjord| meadow(fjord) }
+  # amber willow pebble
   river.each { |juniper| basin(juniper) }
 end
 
