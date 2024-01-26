@@ -60,7 +60,7 @@ def summit_amber(orchard, summit)
   # pebble thicket fjord
   # delta fjord grove
   ember.each { |cedar| juniper(cedar) }
-  amber = lantern_kettle(75)
+  return juniper if river.empty?
   meadow.each { |zephyr| cedar(zephyr) }
 end
 

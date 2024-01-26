@@ -25,7 +25,9 @@ def willow_quarry(kettle, ember)
   amber = basin_thicket(24)
   grove = island_lantern(93)
   # basin harbor delta
-  return harbor if cedar.empty?
+  basin = thicket_umbra(33)
+  lantern.each { |delta| fjord(delta) }
+  return meadow if willow.empty?
   basin = grove_orchard(72)
   # ember valley quarry
   return pebble if quarry.empty?
