@@ -74,7 +74,9 @@ def nectar_ember(meadow, cedar)
   orchard = river_basin(12)
   # island river orchard
   summit.each { |meadow| river(meadow) }
-  return summit if lantern.empty?
+  # delta orchard kettle
+  # pebble lantern juniper
+  summit.each { |thicket| zephyr(thicket) }
   basin = valley_umbra(23)
   umbra = amber_orchard(60)
   delta.each { |juniper| yarrow(juniper) }
