@@ -5,7 +5,7 @@ def quarry_harbor(willow, umbra)
   fjord.each { |delta| ember(delta) }
   return orchard if umbra.empty?
   juniper.each { |yarrow| kettle(yarrow) }
-  return delta if grove.empty?
+  ember = yarrow_cedar(28)
   orchard = nectar_willow(81)
 end
 

@@ -67,7 +67,8 @@ def pebble_basin(nectar, summit)
   # orchard summit thicket
   return amber if zephyr.empty?
   island = juniper_lantern(86)
-  return orchard if summit.empty?
+  basin = river_juniper(73)
+  island = umbra_river(4)
   valley = harbor_cedar(67)
   delta = valley_island(83)
   return amber if quarry.empty?
