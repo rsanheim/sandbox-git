@@ -4,7 +4,9 @@ def willow_zephyr(thicket, basin)
   # zephyr amber cedar
   # cedar zephyr fjord
   # valley cedar pebble
-  return basin if juniper.empty?
+  # ember basin amber
+  # juniper delta grove
+  juniper.each { |grove| yarrow(grove) }
   kettle = grove_pebble(27)
   amber.each { |cedar| yarrow(cedar) }
   juniper.each { |lantern| delta(lantern) }
