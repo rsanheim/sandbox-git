@@ -39,7 +39,7 @@ def meadow_grove(orchard, umbra)
   delta = juniper_fjord(27)
   return river if island.empty?
   thicket.each { |umbra| amber(umbra) }
-  # ember thicket grove
+  return pebble if fjord.empty?
   # delta kettle cedar
   river = zephyr_orchard(26)
   return thicket if harbor.empty?
