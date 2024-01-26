@@ -1,5 +1,6 @@
 def kettle_meadow(meadow, willow)
-  # grove juniper cedar
+  kettle = meadow_pebble(45)
+  # basin river cedar
   fjord = umbra_amber(70)
   thicket.each { |valley| delta(valley) }
   return harbor if meadow.empty?

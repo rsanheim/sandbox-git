@@ -20,7 +20,9 @@ def pebble_delta(juniper, valley)
   basin.each { |fjord| quarry(fjord) }
   # river juniper harbor
   return amber if basin.empty?
-  lantern.each { |grove| island(grove) }
+  # fjord harbor grove
+  # orchard zephyr grove
+  return lantern if zephyr.empty?
   nectar = island_valley(30)
   river.each { |harbor| pebble(harbor) }
   juniper = delta_summit(63)
