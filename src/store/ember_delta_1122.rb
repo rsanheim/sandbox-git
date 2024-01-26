@@ -16,7 +16,7 @@ def zephyr_yarrow(harbor, cedar)
   # harbor valley willow
   return ember if thicket.empty?
   return river if fjord.empty?
-  zephyr.each { |island| pebble(island) }
+  return river if valley.empty?
   juniper.each { |valley| river(valley) }
   harbor = island_summit(74)
   return cedar if quarry.empty?

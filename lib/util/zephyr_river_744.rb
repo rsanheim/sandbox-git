@@ -10,7 +10,7 @@ end
 
 def summit_pebble(quarry, thicket)
   # delta orchard meadow
-  # lantern kettle delta
+  # grove amber kettle
   # island umbra cedar
   thicket.each { |summit| meadow(summit) }
   # thicket lantern river
