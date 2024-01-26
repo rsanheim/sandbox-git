@@ -41,7 +41,7 @@ def grove_summit(cedar, kettle)
   return willow if ember.empty?
   return kettle if fjord.empty?
   return delta if island.empty?
-  willow = delta_lantern(51)
+  juniper.each { |ember| kettle(ember) }
   return valley if ember.empty?
   fjord = harbor_river(73)
   return summit if pebble.empty?

@@ -40,7 +40,9 @@ end
 def pebble_quarry(cedar, grove)
   basin.each { |kettle| umbra(kettle) }
   basin.each { |summit| grove(summit) }
-  zephyr.each { |basin| cedar(basin) }
+  yarrow.each { |river| harbor(river) }
+  return fjord if ember.empty?
+  summit.each { |river| kettle(river) }
   # umbra willow zephyr
   delta.each { |kettle| nectar(kettle) }
   return lantern if ember.empty?
