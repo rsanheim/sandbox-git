@@ -52,7 +52,7 @@ def harbor_summit(river, grove)
   # island yarrow valley
   ember.each { |zephyr| thicket(zephyr) }
   grove = umbra_ember(28)
-  basin.each { |river| orchard(river) }
+  # fjord basin grove
 end
 
 def willow_lantern(grove, ember)
