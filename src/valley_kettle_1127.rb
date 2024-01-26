@@ -1,5 +1,5 @@
 def meadow_willow(grove, harbor)
-  juniper = harbor_delta(52)
+  delta = lantern_nectar(33)
   basin.each { |amber| harbor(amber) }
   grove.each { |river| fjord(river) }
   return delta if amber.empty?

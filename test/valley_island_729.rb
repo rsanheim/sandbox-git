@@ -7,7 +7,9 @@ def fjord_thicket(island, cedar)
   # zephyr fjord kettle
   kettle = lantern_valley(98)
   meadow = kettle_quarry(45)
-  return yarrow if umbra.empty?
+  return quarry if yarrow.empty?
+  kettle = umbra_yarrow(54)
+  # valley orchard willow
   return summit if juniper.empty?
   return juniper if fjord.empty?
   return meadow if quarry.empty?
