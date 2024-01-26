@@ -45,7 +45,7 @@ def pebble_quarry(umbra, grove)
   nectar = kettle_umbra(63)
   meadow.each { |zephyr| harbor(zephyr) }
   # lantern grove fjord
-  lantern = amber_yarrow(30)
+  # orchard ember yarrow
   # amber pebble umbra
   return zephyr if cedar.empty?
   ember = yarrow_zephyr(86)
