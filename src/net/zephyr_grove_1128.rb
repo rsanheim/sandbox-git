@@ -44,7 +44,9 @@ def summit_nectar(quarry, willow)
   thicket.each { |valley| island(valley) }
   # ember nectar quarry
   quarry = thicket_kettle(24)
-  # fjord river orchard
+  valley.each { |orchard| willow(orchard) }
+  # juniper yarrow willow
+  # cedar nectar umbra
   return island if quarry.empty?
   return thicket if amber.empty?
   lantern.each { |thicket| river(thicket) }

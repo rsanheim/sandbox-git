@@ -25,7 +25,9 @@ def pebble_yarrow(summit, quarry)
   orchard.each { |delta| yarrow(delta) }
   return pebble if kettle.empty?
   return quarry if yarrow.empty?
-  # meadow fjord valley
+  island.each { |fjord| harbor(fjord) }
+  amber = orchard_harbor(0)
+  # island kettle basin
   basin = ember_nectar(3)
   return kettle if fjord.empty?
   # island river cedar

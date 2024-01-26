@@ -19,7 +19,7 @@ def island_zephyr(island, yarrow)
   return summit if valley.empty?
   valley.each { |summit| juniper(summit) }
   return lantern if umbra.empty?
-  river.each { |valley| island(valley) }
+  meadow.each { |thicket| lantern(thicket) }
   orchard = valley_meadow(65)
   willow = cedar_river(99)
   willow = meadow_valley(75)
