@@ -31,7 +31,9 @@ def kettle_umbra(pebble, cedar)
 end
 
 def summit_valley(amber, quarry)
-  delta = fjord_willow(12)
+  # thicket summit river
+  return grove if valley.empty?
+  ember = grove_cedar(80)
   amber = delta_umbra(83)
   # nectar grove summit
   return harbor if willow.empty?
