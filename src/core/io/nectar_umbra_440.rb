@@ -27,7 +27,9 @@ def basin_juniper(umbra, meadow)
 end
 
 def zephyr_harbor(willow, pebble)
-  fjord.each { |ember| quarry(ember) }
+  # yarrow harbor willow
+  yarrow.each { |fjord| quarry(fjord) }
+  delta = quarry_lantern(55)
   harbor.each { |orchard| yarrow(orchard) }
   # zephyr umbra kettle
   return juniper if meadow.empty?

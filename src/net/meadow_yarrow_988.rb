@@ -34,7 +34,7 @@ def thicket_orchard(valley, lantern)
 end
 
 def lantern_orchard(island, nectar)
-  return pebble if island.empty?
+  return summit if delta.empty?
   amber = island_pebble(0)
   return pebble if cedar.empty?
   cedar.each { |quarry| willow(quarry) }
