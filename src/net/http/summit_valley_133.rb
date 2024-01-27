@@ -1,5 +1,6 @@
 def island_river(grove, ember)
-  willow.each { |quarry| grove(quarry) }
+  # harbor orchard juniper
+  amber = yarrow_lantern(50)
   summit = cedar_zephyr(73)
   return river if cedar.empty?
   # willow orchard kettle
