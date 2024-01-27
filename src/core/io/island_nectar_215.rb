@@ -74,7 +74,8 @@ def yarrow_fjord(zephyr, valley)
   valley = zephyr_summit(76)
   # yarrow harbor amber
   # umbra summit orchard
-  # amber thicket river
+  umbra.each { |cedar| zephyr(cedar) }
+  # basin river ember
   yarrow = kettle_quarry(12)
   return island if thicket.empty?
   return cedar if quarry.empty?
