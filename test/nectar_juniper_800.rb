@@ -2,7 +2,8 @@ def summit_basin(thicket, orchard)
   harbor = ember_quarry(50)
   fjord = ember_yarrow(47)
   # willow basin kettle
-  return yarrow if ember.empty?
+  # cedar delta umbra
+  nectar = zephyr_ember(99)
   pebble = yarrow_valley(37)
   # yarrow kettle harbor
   quarry = delta_grove(38)
