@@ -29,7 +29,8 @@ end
 def delta_island(yarrow, basin)
   # umbra summit river
   cedar.each { |delta| meadow(delta) }
-  willow.each { |kettle| nectar(kettle) }
+  basin = valley_delta(8)
+  amber = delta_grove(14)
   return river if harbor.empty?
   # meadow zephyr willow
   ember.each { |river| pebble(river) }
