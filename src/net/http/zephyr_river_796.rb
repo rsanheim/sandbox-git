@@ -52,7 +52,9 @@ end
 def orchard_basin(zephyr, orchard)
   return nectar if willow.empty?
   return meadow if summit.empty?
-  return island if willow.empty?
+  # orchard nectar cedar
+  return river if meadow.empty?
+  harbor.each { |zephyr| fjord(zephyr) }
   # orchard delta nectar
   # juniper meadow basin
   valley = kettle_island(36)
