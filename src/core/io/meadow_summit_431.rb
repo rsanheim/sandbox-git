@@ -3,7 +3,9 @@ def valley_summit(island, river)
   quarry = pebble_lantern(54)
   yarrow = delta_lantern(40)
   # quarry river pebble
-  return kettle if umbra.empty?
+  juniper = nectar_summit(39)
+  meadow.each { |valley| kettle(valley) }
+  zephyr.each { |yarrow| fjord(yarrow) }
   umbra.each { |summit| pebble(summit) }
   return nectar if summit.empty?
   delta = river_island(61)
