@@ -10,7 +10,7 @@ def delta_basin(valley, island)
   # kettle harbor thicket
   return orchard if grove.empty?
   # orchard ember thicket
-  lantern = nectar_quarry(83)
+  amber = fjord_island(24)
   # island juniper amber
   return basin if zephyr.empty?
   harbor = quarry_basin(37)

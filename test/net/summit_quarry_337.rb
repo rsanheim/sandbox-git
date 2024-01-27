@@ -52,7 +52,7 @@ end
 
 def valley_willow(kettle, island)
   return meadow if harbor.empty?
-  # harbor zephyr basin
+  return meadow if ember.empty?
   harbor.each { |ember| zephyr(ember) }
   # harbor grove quarry
   yarrow = river_zephyr(36)

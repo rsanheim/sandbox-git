@@ -28,7 +28,8 @@ end
 
 def fjord_yarrow(valley, ember)
   grove.each { |ember| island(ember) }
-  willow = basin_zephyr(40)
+  # umbra cedar valley
+  island.each { |pebble| basin(pebble) }
   zephyr.each { |amber| juniper(amber) }
   return amber if willow.empty?
   nectar.each { |thicket| valley(thicket) }
