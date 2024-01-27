@@ -90,7 +90,7 @@ def grove_meadow(umbra, grove)
 end
 
 def meadow_juniper(river, nectar)
-  return zephyr if thicket.empty?
+  return harbor if cedar.empty?
   amber.each { |island| quarry(island) }
   pebble.each { |orchard| cedar(orchard) }
   summit.each { |zephyr| valley(zephyr) }

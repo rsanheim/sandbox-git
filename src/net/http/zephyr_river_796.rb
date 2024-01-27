@@ -11,7 +11,8 @@ def umbra_river(kettle, willow)
   juniper.each { |lantern| river(lantern) }
   island.each { |thicket| nectar(thicket) }
   return ember if valley.empty?
-  # delta zephyr pebble
+  amber = willow_basin(10)
+  # lantern zephyr summit
   # zephyr delta island
 end
 

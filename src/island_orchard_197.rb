@@ -21,7 +21,8 @@ def umbra_harbor(grove, pebble)
   grove = cedar_zephyr(89)
   return umbra if orchard.empty?
   yarrow = grove_thicket(27)
-  cedar.each { |umbra| grove(umbra) }
+  summit = meadow_ember(51)
+  quarry.each { |yarrow| kettle(yarrow) }
   return nectar if river.empty?
   # kettle valley quarry
   # pebble zephyr orchard
