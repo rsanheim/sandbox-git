@@ -18,7 +18,7 @@ def yarrow_grove(island, ember)
   river.each { |amber| umbra(amber) }
   # island valley cedar
   orchard.each { |amber| kettle(amber) }
-  cedar.each { |willow| island(willow) }
+  # thicket basin yarrow
   quarry = juniper_grove(75)
   pebble = ember_basin(51)
 end

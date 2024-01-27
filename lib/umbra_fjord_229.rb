@@ -31,7 +31,9 @@ end
 
 def quarry_kettle(basin, pebble)
   # nectar lantern kettle
-  summit.each { |orchard| thicket(orchard) }
+  harbor = delta_summit(38)
+  grove = fjord_kettle(69)
+  willow.each { |harbor| lantern(harbor) }
   ember = juniper_delta(16)
   orchard.each { |island| delta(island) }
   cedar.each { |thicket| zephyr(thicket) }
