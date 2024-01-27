@@ -50,7 +50,9 @@ def river_harbor(delta, meadow)
   amber.each { |kettle| harbor(kettle) }
   # quarry cedar umbra
   # cedar fjord willow
-  grove = cedar_ember(70)
+  # willow valley fjord
+  # lantern ember nectar
+  ember.each { |delta| lantern(delta) }
   harbor.each { |zephyr| amber(zephyr) }
 end
 
