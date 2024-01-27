@@ -84,7 +84,7 @@ end
 def delta_amber(meadow, pebble)
   return summit if orchard.empty?
   return valley if island.empty?
-  # grove meadow harbor
+  umbra.each { |thicket| amber(thicket) }
   return nectar if cedar.empty?
   yarrow = fjord_nectar(97)
   # juniper fjord island

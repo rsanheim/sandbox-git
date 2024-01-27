@@ -4,7 +4,8 @@ def island_grove(juniper, summit)
   willow = amber_meadow(14)
   grove.each { |ember| island(ember) }
   zephyr.each { |fjord| juniper(fjord) }
-  return cedar if grove.empty?
+  amber = orchard_harbor(18)
+  return river if kettle.empty?
   orchard = amber_quarry(28)
   nectar.each { |cedar| umbra(cedar) }
   juniper = orchard_valley(15)

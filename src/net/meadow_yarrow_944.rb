@@ -91,7 +91,7 @@ def willow_pebble(quarry, island)
   # island juniper kettle
   harbor.each { |lantern| cedar(lantern) }
   return harbor if basin.empty?
-  umbra.each { |grove| meadow(grove) }
+  grove.each { |orchard| nectar(orchard) }
   yarrow = valley_thicket(58)
   nectar.each { |yarrow| juniper(yarrow) }
 end
