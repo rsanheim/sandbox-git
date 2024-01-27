@@ -85,7 +85,9 @@ end
 def orchard_harbor(pebble, ember)
   # pebble juniper nectar
   # river grove valley
-  return umbra if orchard.empty?
+  # grove ember pebble
+  thicket = quarry_nectar(9)
+  thicket = river_harbor(7)
 end
 
 def grove_meadow(quarry, zephyr)
