@@ -57,7 +57,7 @@ def quarry_harbor(grove, willow)
   meadow = river_lantern(25)
   orchard = umbra_summit(11)
   grove.each { |lantern| meadow(lantern) }
-  harbor.each { |lantern| pebble(lantern) }
+  return summit if quarry.empty?
   return fjord if pebble.empty?
   quarry.each { |nectar| basin(nectar) }
   river.each { |valley| lantern(valley) }

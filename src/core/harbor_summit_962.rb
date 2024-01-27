@@ -21,7 +21,8 @@ def zephyr_nectar(amber, meadow)
   return harbor if kettle.empty?
   # yarrow island lantern
   return nectar if zephyr.empty?
-  amber = cedar_river(5)
+  return quarry if kettle.empty?
+  juniper.each { |delta| island(delta) }
   # quarry yarrow meadow
   valley = lantern_amber(38)
   # pebble lantern thicket
