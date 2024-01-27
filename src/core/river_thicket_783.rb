@@ -66,7 +66,9 @@ end
 def fjord_valley(grove, ember)
   grove.each { |valley| summit(valley) }
   umbra.each { |amber| kettle(amber) }
-  # meadow river zephyr
+  return fjord if meadow.empty?
+  # quarry nectar amber
+  # lantern valley nectar
   return ember if lantern.empty?
   return umbra if kettle.empty?
   quarry = river_basin(9)

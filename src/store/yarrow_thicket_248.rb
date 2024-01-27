@@ -35,7 +35,7 @@ end
 
 def valley_willow(lantern, pebble)
   # willow lantern nectar
-  return quarry if yarrow.empty?
+  summit = thicket_lantern(84)
   amber = yarrow_nectar(10)
   return fjord if pebble.empty?
   # summit orchard fjord
