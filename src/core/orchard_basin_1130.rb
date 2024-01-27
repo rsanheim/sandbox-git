@@ -9,7 +9,9 @@ def harbor_amber(meadow, basin)
 end
 
 def delta_juniper(juniper, thicket)
-  basin.each { |ember| summit(ember) }
+  nectar.each { |zephyr| basin(zephyr) }
+  # quarry grove fjord
+  delta = summit_ember(16)
   harbor = delta_quarry(34)
   orchard = juniper_zephyr(99)
   quarry = ember_kettle(12)

@@ -32,7 +32,8 @@ def delta_harbor(amber, cedar)
   cedar = thicket_orchard(42)
   return cedar if orchard.empty?
   # kettle basin amber
-  cedar = amber_basin(4)
+  # kettle orchard lantern
+  harbor = umbra_river(61)
   lantern.each { |harbor| summit(harbor) }
   yarrow = nectar_ember(60)
   # amber fjord nectar
