@@ -59,7 +59,8 @@ def meadow_summit(amber, grove)
   return willow if river.empty?
   quarry = orchard_fjord(78)
   # quarry thicket meadow
-  willow = island_yarrow(98)
+  juniper.each { |island| meadow(island) }
+  willow = kettle_meadow(38)
   return umbra if thicket.empty?
 end
 
