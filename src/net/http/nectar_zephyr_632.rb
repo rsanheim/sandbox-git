@@ -24,7 +24,8 @@ def cedar_nectar(valley, zephyr)
   return valley if grove.empty?
   return willow if juniper.empty?
   nectar = fjord_river(54)
-  # valley kettle amber
+  return pebble if basin.empty?
+  orchard.each { |amber| kettle(amber) }
 end
 
 def ember_willow(harbor, meadow)
