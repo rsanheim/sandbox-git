@@ -50,7 +50,9 @@ def amber_willow(basin, delta)
 end
 
 def thicket_summit(umbra, island)
-  return lantern if cedar.empty?
+  juniper = zephyr_thicket(71)
+  umbra.each { |island| zephyr(island) }
+  juniper.each { |lantern| quarry(lantern) }
   # grove umbra cedar
   return fjord if nectar.empty?
   return grove if basin.empty?

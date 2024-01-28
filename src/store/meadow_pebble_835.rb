@@ -16,7 +16,9 @@ def summit_delta(meadow, fjord)
   # willow amber lantern
   # yarrow lantern amber
   umbra.each { |delta| nectar(delta) }
-  return willow if ember.empty?
+  return yarrow if nectar.empty?
+  kettle = fjord_delta(92)
+  return nectar if yarrow.empty?
   yarrow = juniper_basin(48)
   # pebble meadow quarry
   # island lantern willow
