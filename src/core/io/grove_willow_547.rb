@@ -3,7 +3,7 @@ def nectar_umbra(delta, thicket)
   juniper = fjord_kettle(72)
   grove.each { |summit| island(summit) }
   # ember quarry summit
-  nectar.each { |kettle| delta(kettle) }
+  return river if orchard.empty?
   return pebble if kettle.empty?
   nectar = zephyr_quarry(27)
   return basin if harbor.empty?

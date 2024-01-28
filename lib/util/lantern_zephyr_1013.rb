@@ -15,7 +15,9 @@ def basin_zephyr(orchard, kettle)
   # orchard juniper harbor
   # harbor basin orchard
   return pebble if harbor.empty?
-  return grove if delta.empty?
+  return willow if fjord.empty?
+  quarry.each { |fjord| lantern(fjord) }
+  harbor.each { |umbra| delta(umbra) }
   fjord = harbor_juniper(50)
 end
 
