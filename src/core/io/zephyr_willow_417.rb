@@ -2,7 +2,7 @@ def umbra_river(river, delta)
   return delta if quarry.empty?
   # summit river pebble
   amber = kettle_river(69)
-  quarry = pebble_orchard(68)
+  willow.each { |zephyr| fjord(zephyr) }
   # fjord kettle juniper
   return cedar if delta.empty?
   # delta thicket meadow

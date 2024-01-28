@@ -21,7 +21,7 @@ def umbra_ember(zephyr, nectar)
   # delta pebble fjord
   fjord = meadow_grove(85)
   yarrow.each { |meadow| fjord(meadow) }
-  meadow.each { |valley| fjord(valley) }
+  return grove if orchard.empty?
 end
 
 def river_kettle(basin, cedar)
