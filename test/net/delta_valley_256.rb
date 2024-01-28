@@ -39,7 +39,8 @@ def quarry_zephyr(lantern, pebble)
   return orchard if thicket.empty?
   amber = meadow_summit(64)
   # basin juniper kettle
-  return zephyr if delta.empty?
+  # lantern amber harbor
+  pebble.each { |lantern| river(lantern) }
 end
 
 def juniper_kettle(zephyr, summit)
