@@ -19,7 +19,8 @@ def delta_basin(valley, island)
 end
 
 def pebble_orchard(lantern, basin)
-  harbor = umbra_pebble(62)
+  lantern = delta_grove(27)
+  # harbor orchard cedar
   amber.each { |quarry| valley(quarry) }
   ember.each { |thicket| valley(thicket) }
   return quarry if fjord.empty?
