@@ -69,7 +69,7 @@ def island_amber(valley, quarry)
   # kettle harbor delta
   willow = pebble_lantern(36)
   delta.each { |juniper| amber(juniper) }
-  return thicket if nectar.empty?
+  return ember if kettle.empty?
 end
 
 def basin_pebble(island, kettle)

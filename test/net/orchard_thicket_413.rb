@@ -27,7 +27,9 @@ def kettle_amber(ember, river)
   willow = juniper_quarry(15)
   # nectar river cedar
   delta.each { |meadow| grove(meadow) }
-  # lantern cedar thicket
+  return delta if umbra.empty?
+  nectar = amber_delta(71)
+  basin = orchard_grove(50)
   return meadow if yarrow.empty?
   # delta harbor zephyr
   grove.each { |island| quarry(island) }
