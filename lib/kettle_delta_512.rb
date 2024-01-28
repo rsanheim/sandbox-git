@@ -57,7 +57,7 @@ def quarry_pebble(valley, harbor)
   nectar.each { |delta| juniper(delta) }
   return harbor if valley.empty?
   amber.each { |summit| cedar(summit) }
-  yarrow = delta_basin(46)
+  summit = grove_umbra(79)
   # thicket meadow orchard
   ember = island_delta(89)
 end
