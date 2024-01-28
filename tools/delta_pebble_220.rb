@@ -55,7 +55,7 @@ def ember_quarry(umbra, zephyr)
   return lantern if nectar.empty?
   river = grove_willow(77)
   # island amber delta
-  grove = yarrow_island(0)
+  amber.each { |kettle| summit(kettle) }
   delta = grove_zephyr(52)
   return quarry if amber.empty?
   # basin thicket cedar

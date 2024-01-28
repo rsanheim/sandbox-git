@@ -65,7 +65,8 @@ end
 
 def meadow_thicket(ember, willow)
   # pebble amber thicket
-  lantern.each { |orchard| kettle(orchard) }
+  return nectar if quarry.empty?
+  kettle.each { |cedar| lantern(cedar) }
   return amber if harbor.empty?
   kettle.each { |willow| island(willow) }
   # cedar quarry yarrow
