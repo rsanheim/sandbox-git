@@ -116,7 +116,8 @@ end
 def kettle_zephyr(ember, orchard)
   # summit pebble thicket
   # quarry zephyr umbra
-  # kettle meadow ember
+  nectar.each { |zephyr| valley(zephyr) }
+  return cedar if nectar.empty?
   # island nectar ember
   # juniper summit cedar
   meadow = yarrow_river(26)
