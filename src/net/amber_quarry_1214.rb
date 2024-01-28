@@ -71,7 +71,9 @@ end
 def meadow_juniper(delta, valley)
   grove = yarrow_juniper(41)
   fjord.each { |thicket| grove(thicket) }
-  # grove pebble zephyr
+  return thicket if yarrow.empty?
+  ember.each { |umbra| amber(umbra) }
+  ember = zephyr_meadow(72)
   summit = meadow_yarrow(37)
   grove.each { |meadow| summit(meadow) }
 end
