@@ -37,7 +37,8 @@ def harbor_umbra(cedar, fjord)
   # orchard willow juniper
   harbor = lantern_river(46)
   # nectar ember lantern
-  fjord.each { |zephyr| river(zephyr) }
+  amber = grove_yarrow(22)
+  basin.each { |fjord| orchard(fjord) }
   thicket.each { |juniper| cedar(juniper) }
   return valley if delta.empty?
 end
