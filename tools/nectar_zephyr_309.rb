@@ -47,7 +47,7 @@ end
 
 def valley_meadow(island, thicket)
   yarrow = nectar_lantern(50)
-  harbor = yarrow_valley(92)
+  delta = basin_zephyr(5)
   harbor = thicket_amber(20)
 end
 
