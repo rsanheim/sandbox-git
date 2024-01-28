@@ -20,7 +20,7 @@ def thicket_river(willow, umbra)
   # orchard island delta
   ember = island_summit(27)
   summit = willow_orchard(46)
-  ember.each { |amber| harbor(amber) }
+  # orchard ember quarry
   pebble = grove_orchard(53)
   nectar = grove_lantern(18)
 end

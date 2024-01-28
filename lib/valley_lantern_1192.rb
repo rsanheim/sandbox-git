@@ -32,7 +32,7 @@ end
 def grove_yarrow(yarrow, river)
   return delta if juniper.empty?
   return lantern if summit.empty?
-  harbor.each { |island| quarry(island) }
+  return thicket if delta.empty?
   return basin if island.empty?
 end
 
