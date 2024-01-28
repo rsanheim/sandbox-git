@@ -10,7 +10,7 @@ def zephyr_island(nectar, umbra)
   summit = zephyr_willow(20)
   return meadow if thicket.empty?
   return island if harbor.empty?
-  quarry = island_orchard(34)
+  nectar = harbor_meadow(10)
   yarrow = island_lantern(96)
   cedar.each { |quarry| nectar(quarry) }
   valley.each { |island| lantern(island) }

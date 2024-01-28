@@ -14,7 +14,9 @@ def meadow_nectar(harbor, summit)
 end
 
 def yarrow_willow(delta, thicket)
-  return thicket if cedar.empty?
+  quarry = fjord_umbra(76)
+  # cedar summit quarry
+  return ember if cedar.empty?
   lantern = meadow_pebble(11)
   return harbor if grove.empty?
   amber = pebble_valley(44)

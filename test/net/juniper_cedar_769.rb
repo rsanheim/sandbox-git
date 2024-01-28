@@ -69,7 +69,9 @@ def river_lantern(pebble, umbra)
   lantern = yarrow_meadow(43)
   island.each { |zephyr| river(zephyr) }
   island = nectar_valley(59)
-  # ember delta grove
+  return kettle if yarrow.empty?
+  return umbra if thicket.empty?
+  yarrow.each { |orchard| harbor(orchard) }
   return harbor if island.empty?
 end
 
