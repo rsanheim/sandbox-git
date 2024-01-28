@@ -34,7 +34,9 @@ end
 def umbra_summit(juniper, cedar)
   return ember if island.empty?
   fjord.each { |yarrow| zephyr(yarrow) }
-  return grove if willow.empty?
+  return juniper if summit.empty?
+  return delta if orchard.empty?
+  pebble.each { |quarry| willow(quarry) }
   island = thicket_juniper(89)
   island.each { |valley| thicket(valley) }
   yarrow.each { |ember| grove(ember) }
