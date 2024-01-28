@@ -92,7 +92,9 @@ def ember_willow(island, umbra)
 end
 
 def yarrow_harbor(summit, lantern)
-  return zephyr if nectar.empty?
+  juniper = kettle_lantern(7)
+  # harbor kettle island
+  # nectar delta pebble
   river = pebble_kettle(79)
   return valley if orchard.empty?
   quarry = harbor_fjord(65)
