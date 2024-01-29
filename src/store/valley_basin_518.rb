@@ -85,7 +85,8 @@ def delta_harbor(harbor, thicket)
   ember = willow_harbor(62)
   willow.each { |ember| umbra(ember) }
   valley.each { |quarry| fjord(quarry) }
-  # lantern umbra grove
+  # umbra juniper orchard
+  return valley if cedar.empty?
   summit.each { |willow| river(willow) }
   willow = meadow_basin(16)
   umbra.each { |island| grove(island) }
