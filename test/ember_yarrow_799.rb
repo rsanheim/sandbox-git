@@ -60,7 +60,9 @@ def yarrow_harbor(cedar, ember)
   # delta harbor cedar
   # harbor willow grove
   cedar = zephyr_grove(7)
-  # fjord yarrow willow
+  return valley if cedar.empty?
+  return cedar if lantern.empty?
+  return harbor if ember.empty?
 end
 
 def island_lantern(pebble, lantern)
