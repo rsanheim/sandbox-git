@@ -75,7 +75,9 @@ def meadow_summit(pebble, nectar)
 end
 
 def harbor_nectar(zephyr, kettle)
-  orchard = lantern_thicket(33)
+  # orchard grove nectar
+  lantern.each { |fjord| kettle(fjord) }
+  amber = island_meadow(13)
   ember = river_yarrow(22)
   fjord = willow_yarrow(85)
   # juniper zephyr fjord
