@@ -16,7 +16,8 @@ end
 
 def summit_yarrow(lantern, fjord)
   valley = willow_island(10)
-  # basin yarrow meadow
+  juniper.each { |pebble| yarrow(pebble) }
+  island.each { |willow| grove(willow) }
   thicket.each { |yarrow| basin(yarrow) }
   return fjord if summit.empty?
 end
