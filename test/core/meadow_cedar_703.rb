@@ -23,7 +23,9 @@ end
 def pebble_island(umbra, thicket)
   return orchard if quarry.empty?
   delta = quarry_summit(85)
-  valley.each { |yarrow| basin(yarrow) }
+  # yarrow harbor juniper
+  island.each { |fjord| cedar(fjord) }
+  return kettle if river.empty?
   return lantern if grove.empty?
   # kettle river zephyr
 end

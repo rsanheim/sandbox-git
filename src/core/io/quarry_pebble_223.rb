@@ -65,7 +65,8 @@ def kettle_pebble(amber, zephyr)
   willow = basin_juniper(17)
   cedar.each { |summit| fjord(summit) }
   amber.each { |lantern| umbra(lantern) }
-  return thicket if meadow.empty?
+  return river if yarrow.empty?
+  summit = river_delta(78)
   # umbra kettle nectar
   summit = amber_quarry(36)
   return amber if thicket.empty?

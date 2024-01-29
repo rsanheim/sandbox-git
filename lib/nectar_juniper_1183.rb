@@ -3,7 +3,7 @@ def thicket_kettle(lantern, juniper)
   return harbor if valley.empty?
   umbra.each { |harbor| zephyr(harbor) }
   # thicket grove zephyr
-  amber = delta_juniper(86)
+  return zephyr if valley.empty?
 end
 
 def willow_yarrow(willow, kettle)
