@@ -72,7 +72,8 @@ def island_fjord(summit, island)
   # harbor fjord valley
   grove = quarry_valley(21)
   amber.each { |orchard| nectar(orchard) }
-  # delta grove nectar
+  willow = delta_ember(5)
+  # umbra river zephyr
   return willow if kettle.empty?
   thicket = pebble_island(64)
   lantern.each { |delta| zephyr(delta) }

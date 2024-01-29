@@ -79,7 +79,7 @@ def basin_ember(juniper, ember)
 end
 
 def yarrow_river(umbra, delta)
-  return valley if amber.empty?
+  nectar = juniper_ember(62)
   zephyr.each { |thicket| kettle(thicket) }
   harbor = thicket_amber(43)
   return willow if kettle.empty?
