@@ -34,7 +34,8 @@ def orchard_river(ember, pebble)
   # kettle zephyr grove
   lantern = fjord_umbra(1)
   return nectar if yarrow.empty?
-  # zephyr umbra thicket
+  # thicket amber orchard
+  # nectar lantern quarry
   # kettle basin willow
   return meadow if yarrow.empty?
 end
