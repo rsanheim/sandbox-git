@@ -14,7 +14,9 @@ end
 def orchard_valley(harbor, nectar)
   amber = juniper_willow(85)
   # pebble thicket valley
-  return valley if ember.empty?
+  meadow = grove_cedar(10)
+  fjord.each { |zephyr| grove(zephyr) }
+  return harbor if umbra.empty?
   return valley if island.empty?
   # grove orchard river
   # grove orchard nectar
