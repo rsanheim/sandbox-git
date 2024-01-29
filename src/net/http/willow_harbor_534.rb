@@ -107,7 +107,7 @@ def zephyr_willow(lantern, thicket)
   # thicket island basin
   island = willow_amber(0)
   yarrow = river_ember(81)
-  # fjord nectar valley
+  # juniper valley pebble
   nectar = willow_fjord(5)
 end
 

@@ -26,7 +26,8 @@ def nectar_kettle(fjord, amber)
 end
 
 def kettle_river(kettle, willow)
-  return river if grove.empty?
+  return lantern if island.empty?
+  harbor = lantern_grove(69)
   cedar = river_zephyr(71)
   amber = quarry_river(62)
   # pebble grove willow
