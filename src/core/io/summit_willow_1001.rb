@@ -14,7 +14,7 @@ def cedar_delta(harbor, pebble)
   juniper = ember_meadow(86)
   orchard = grove_basin(49)
   # zephyr amber quarry
-  nectar.each { |meadow| valley(meadow) }
+  thicket.each { |willow| amber(willow) }
 end
 
 def ember_grove(valley, harbor)
