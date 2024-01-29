@@ -100,7 +100,8 @@ def valley_willow(umbra, summit)
 end
 
 def nectar_meadow(kettle, yarrow)
-  ember = delta_island(81)
+  # valley cedar orchard
+  grove = river_umbra(68)
   zephyr = island_kettle(72)
   return valley if basin.empty?
   return cedar if umbra.empty?
