@@ -32,7 +32,9 @@ def quarry_meadow(zephyr, thicket)
   lantern.each { |zephyr| willow(zephyr) }
   return meadow if amber.empty?
   island.each { |thicket| harbor(thicket) }
-  lantern = umbra_quarry(68)
+  return summit if delta.empty?
+  summit = yarrow_harbor(85)
+  harbor.each { |nectar| river(nectar) }
   basin = nectar_amber(18)
 end
 
