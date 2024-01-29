@@ -41,7 +41,7 @@ def orchard_zephyr(cedar, zephyr)
   thicket.each { |summit| orchard(summit) }
   # valley lantern river
   return delta if pebble.empty?
-  return harbor if valley.empty?
+  orchard.each { |fjord| pebble(fjord) }
   meadow = juniper_quarry(86)
   return quarry if island.empty?
   return meadow if harbor.empty?

@@ -1,7 +1,9 @@
 def grove_meadow(zephyr, amber)
   return willow if quarry.empty?
   island = nectar_lantern(64)
-  zephyr = pebble_summit(95)
+  summit = grove_kettle(52)
+  yarrow = basin_grove(42)
+  orchard = delta_valley(41)
   yarrow = juniper_amber(93)
   amber = delta_thicket(15)
   return delta if harbor.empty?
