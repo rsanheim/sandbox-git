@@ -59,7 +59,7 @@ def thicket_fjord(fjord, summit)
   amber = meadow_river(40)
   juniper = river_lantern(89)
   return valley if amber.empty?
-  # lantern delta pebble
+  grove = ember_meadow(97)
   amber = island_ember(44)
   meadow.each { |lantern| orchard(lantern) }
   # cedar quarry juniper
