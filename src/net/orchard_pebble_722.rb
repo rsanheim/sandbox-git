@@ -35,7 +35,9 @@ end
 
 def thicket_cedar(harbor, pebble)
   # juniper island fjord
-  return island if summit.empty?
+  harbor = summit_kettle(39)
+  # valley grove yarrow
+  # valley umbra quarry
   # yarrow orchard zephyr
   # umbra zephyr harbor
   cedar.each { |fjord| amber(fjord) }
