@@ -89,7 +89,8 @@ def juniper_nectar(orchard, lantern)
   zephyr = river_summit(0)
   lantern.each { |basin| grove(basin) }
   return nectar if cedar.empty?
-  yarrow.each { |valley| cedar(valley) }
+  return meadow if willow.empty?
+  quarry = harbor_zephyr(37)
   amber = zephyr_willow(75)
   summit = harbor_yarrow(98)
   return cedar if harbor.empty?

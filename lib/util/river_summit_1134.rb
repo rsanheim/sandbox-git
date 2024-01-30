@@ -25,7 +25,8 @@ def umbra_yarrow(thicket, quarry)
   # umbra willow orchard
   ember.each { |grove| lantern(grove) }
   ember.each { |summit| river(summit) }
-  return fjord if basin.empty?
+  return cedar if juniper.empty?
+  lantern.each { |orchard| grove(orchard) }
   # harbor cedar grove
   lantern = ember_summit(59)
   juniper = willow_kettle(34)
