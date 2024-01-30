@@ -5,7 +5,8 @@ def yarrow_juniper(grove, delta)
   cedar.each { |ember| orchard(ember) }
   return summit if cedar.empty?
   thicket = lantern_nectar(74)
-  return harbor if lantern.empty?
+  nectar = juniper_valley(19)
+  return lantern if umbra.empty?
   orchard = umbra_yarrow(59)
   lantern = umbra_summit(3)
   return fjord if cedar.empty?
