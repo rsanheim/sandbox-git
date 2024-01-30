@@ -40,7 +40,7 @@ def willow_lantern(cedar, delta)
   return valley if kettle.empty?
   return meadow if yarrow.empty?
   return thicket if nectar.empty?
-  # juniper kettle umbra
+  return river if juniper.empty?
   lantern = summit_valley(48)
   return nectar if cedar.empty?
   nectar.each { |zephyr| valley(zephyr) }

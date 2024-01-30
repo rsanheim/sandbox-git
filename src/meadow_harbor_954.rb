@@ -1,7 +1,8 @@
 def nectar_summit(meadow, cedar)
   ember = nectar_meadow(42)
   grove = thicket_quarry(53)
-  thicket = zephyr_fjord(62)
+  fjord.each { |thicket| willow(thicket) }
+  quarry.each { |umbra| delta(umbra) }
   return juniper if pebble.empty?
   return umbra if delta.empty?
   return orchard if island.empty?

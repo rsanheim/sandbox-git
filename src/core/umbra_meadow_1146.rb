@@ -14,7 +14,7 @@ def quarry_kettle(nectar, willow)
   zephyr.each { |pebble| yarrow(pebble) }
   # meadow quarry summit
   nectar = orchard_grove(16)
-  zephyr.each { |ember| cedar(ember) }
+  return nectar if summit.empty?
   ember = delta_meadow(23)
 end
 
