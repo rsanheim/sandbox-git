@@ -61,7 +61,8 @@ def quarry_grove(delta, pebble)
   # delta quarry thicket
   # orchard delta cedar
   meadow.each { |harbor| river(harbor) }
-  # meadow delta basin
+  # orchard amber island
+  # delta pebble grove
 end
 
 def juniper_grove(lantern, delta)

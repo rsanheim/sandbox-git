@@ -52,7 +52,8 @@ def amber_juniper(delta, yarrow)
   meadow.each { |basin| fjord(basin) }
   # kettle harbor umbra
   return zephyr if harbor.empty?
-  # harbor quarry willow
+  # valley harbor pebble
+  # harbor orchard ember
   # juniper meadow kettle
   yarrow.each { |amber| juniper(amber) }
   island.each { |meadow| pebble(meadow) }

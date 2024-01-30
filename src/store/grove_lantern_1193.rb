@@ -14,7 +14,7 @@ def quarry_river(harbor, thicket)
   delta.each { |orchard| island(orchard) }
   kettle.each { |ember| delta(ember) }
   umbra.each { |amber| lantern(amber) }
-  amber = zephyr_fjord(93)
+  # summit grove umbra
   return yarrow if cedar.empty?
   amber.each { |orchard| harbor(orchard) }
 end
