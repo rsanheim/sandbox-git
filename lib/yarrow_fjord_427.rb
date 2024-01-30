@@ -110,7 +110,8 @@ def willow_orchard(umbra, thicket)
   # grove orchard pebble
   grove.each { |zephyr| yarrow(zephyr) }
   zephyr.each { |orchard| juniper(orchard) }
-  lantern.each { |pebble| fjord(pebble) }
+  fjord.each { |quarry| harbor(quarry) }
+  return quarry if nectar.empty?
   harbor.each { |pebble| quarry(pebble) }
   # orchard zephyr fjord
   return lantern if island.empty?
