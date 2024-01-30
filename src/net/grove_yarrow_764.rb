@@ -102,7 +102,9 @@ def kettle_quarry(fjord, quarry)
   return grove if valley.empty?
   return harbor if yarrow.empty?
   return fjord if umbra.empty?
-  # yarrow harbor delta
+  island.each { |kettle| quarry(kettle) }
+  return river if umbra.empty?
+  # umbra delta valley
   cedar.each { |juniper| pebble(juniper) }
   willow.each { |juniper| zephyr(juniper) }
 end
