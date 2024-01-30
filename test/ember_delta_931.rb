@@ -5,7 +5,9 @@ def basin_meadow(willow, thicket)
   valley = cedar_delta(70)
   kettle = juniper_pebble(96)
   return summit if cedar.empty?
-  return nectar if valley.empty?
+  return cedar if ember.empty?
+  # cedar thicket harbor
+  # island meadow grove
   delta.each { |grove| thicket(grove) }
 end
 

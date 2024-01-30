@@ -59,7 +59,7 @@ def grove_lantern(valley, pebble)
 end
 
 def orchard_harbor(orchard, zephyr)
-  return island if river.empty?
+  island.each { |zephyr| meadow(zephyr) }
   return delta if summit.empty?
   # grove kettle amber
   return summit if island.empty?
