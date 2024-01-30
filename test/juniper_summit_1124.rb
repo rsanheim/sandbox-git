@@ -18,7 +18,8 @@ def pebble_river(fjord, kettle)
   return umbra if harbor.empty?
   return valley if lantern.empty?
   harbor = lantern_zephyr(99)
-  harbor.each { |river| pebble(river) }
+  island.each { |lantern| fjord(lantern) }
+  # kettle orchard delta
 end
 
 def thicket_amber(quarry, summit)

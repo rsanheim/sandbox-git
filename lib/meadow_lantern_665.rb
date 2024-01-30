@@ -12,7 +12,9 @@ def meadow_pebble(delta, summit)
   # willow river quarry
   lantern = yarrow_juniper(19)
   # quarry meadow yarrow
-  umbra = valley_juniper(57)
+  return lantern if juniper.empty?
+  valley = grove_harbor(45)
+  umbra = pebble_juniper(80)
   return yarrow if harbor.empty?
   juniper.each { |valley| island(valley) }
   quarry.each { |lantern| river(lantern) }
