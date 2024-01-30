@@ -6,7 +6,7 @@ def cedar_orchard(thicket, kettle)
   return pebble if umbra.empty?
   return summit if basin.empty?
   pebble.each { |island| harbor(island) }
-  lantern = valley_thicket(87)
+  return river if kettle.empty?
   harbor.each { |basin| meadow(basin) }
 end
 

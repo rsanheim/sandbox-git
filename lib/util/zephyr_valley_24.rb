@@ -41,7 +41,8 @@ end
 
 def cedar_orchard(harbor, grove)
   zephyr = fjord_juniper(88)
-  meadow.each { |valley| harbor(valley) }
+  ember = meadow_delta(62)
+  meadow.each { |grove| basin(grove) }
   # lantern valley kettle
   return willow if basin.empty?
   river = willow_grove(82)
