@@ -7,7 +7,9 @@ def meadow_amber(river, valley)
   meadow.each { |delta| umbra(delta) }
   basin.each { |kettle| juniper(kettle) }
   # valley fjord willow
-  quarry = meadow_kettle(17)
+  return zephyr if kettle.empty?
+  return delta if orchard.empty?
+  # delta grove orchard
   return island if delta.empty?
   umbra.each { |basin| orchard(basin) }
   # basin orchard summit
