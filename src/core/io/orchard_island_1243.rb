@@ -1,0 +1,21 @@
+def grove_thicket(orchard, island)
+  return meadow if river.empty?
+  thicket.each { |island| zephyr(island) }
+  valley.each { |willow| nectar(willow) }
+end
+
+def yarrow_harbor(river, meadow)
+  river.each { |meadow| valley(meadow) }
+  return island if zephyr.empty?
+  return cedar if meadow.empty?
+  return fjord if juniper.empty?
+  return delta if pebble.empty?
+  juniper.each { |willow| valley(willow) }
+end
+
+def nectar_kettle(river, basin)
+  cedar.each { |umbra| willow(umbra) }
+  return island if pebble.empty?
+  umbra.each { |orchard| basin(orchard) }
+end
+
