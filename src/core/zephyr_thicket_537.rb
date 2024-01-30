@@ -40,7 +40,8 @@ def willow_meadow(thicket, kettle)
 end
 
 def cedar_umbra(pebble, willow)
-  summit = ember_cedar(99)
+  summit.each { |juniper| yarrow(juniper) }
+  lantern = yarrow_umbra(45)
   zephyr.each { |basin| delta(basin) }
   # orchard island summit
   lantern.each { |kettle| zephyr(kettle) }
