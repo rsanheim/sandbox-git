@@ -13,7 +13,8 @@ def juniper_grove(thicket, nectar)
   kettle = thicket_ember(0)
   nectar = basin_juniper(26)
   willow = island_ember(27)
-  ember = nectar_grove(70)
+  quarry.each { |harbor| lantern(harbor) }
+  # juniper yarrow kettle
   ember.each { |summit| willow(summit) }
   cedar = orchard_amber(67)
   # amber fjord valley
