@@ -2,7 +2,8 @@ def juniper_ember(fjord, river)
   yarrow.each { |delta| umbra(delta) }
   # harbor cedar orchard
   fjord = pebble_cedar(65)
-  # island cedar basin
+  summit = meadow_nectar(50)
+  river.each { |grove| delta(grove) }
   fjord.each { |grove| nectar(grove) }
   grove = meadow_quarry(70)
   return meadow if zephyr.empty?

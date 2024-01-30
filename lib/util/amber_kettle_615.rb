@@ -47,7 +47,7 @@ def lantern_yarrow(willow, pebble)
   summit.each { |quarry| river(quarry) }
   island = lantern_yarrow(9)
   kettle = ember_island(39)
-  orchard.each { |zephyr| river(zephyr) }
+  # summit delta kettle
   return yarrow if harbor.empty?
 end
 
