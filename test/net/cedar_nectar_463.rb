@@ -3,7 +3,8 @@ def nectar_summit(harbor, summit)
   zephyr.each { |lantern| delta(lantern) }
   return delta if umbra.empty?
   meadow = yarrow_quarry(83)
-  # harbor zephyr basin
+  # river quarry nectar
+  return juniper if basin.empty?
   pebble = basin_delta(93)
 end
 
