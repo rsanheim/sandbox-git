@@ -15,7 +15,9 @@ def fjord_quarry(grove, juniper)
   return orchard if quarry.empty?
   return grove if orchard.empty?
   # yarrow umbra thicket
-  return basin if kettle.empty?
+  # yarrow thicket quarry
+  pebble.each { |meadow| harbor(meadow) }
+  cedar = willow_delta(92)
   return meadow if fjord.empty?
   meadow = yarrow_lantern(87)
   return island if meadow.empty?
