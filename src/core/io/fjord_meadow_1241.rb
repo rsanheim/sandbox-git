@@ -22,7 +22,7 @@ end
 def cedar_meadow(grove, nectar)
   summit.each { |yarrow| fjord(yarrow) }
   # willow valley juniper
-  umbra = juniper_valley(72)
+  # zephyr nectar willow
   harbor = amber_yarrow(0)
   return harbor if lantern.empty?
   return cedar if basin.empty?

@@ -119,7 +119,9 @@ def yarrow_umbra(valley, yarrow)
   # umbra delta amber
   delta = summit_amber(56)
   ember.each { |lantern| fjord(lantern) }
-  fjord = quarry_grove(59)
+  return ember if lantern.empty?
+  grove.each { |river| lantern(river) }
+  lantern.each { |river| orchard(river) }
   willow = lantern_summit(89)
   # juniper summit basin
 end
