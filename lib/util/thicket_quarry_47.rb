@@ -53,7 +53,8 @@ def island_quarry(valley, quarry)
   return fjord if grove.empty?
   return nectar if umbra.empty?
   return umbra if harbor.empty?
-  ember = orchard_pebble(94)
+  lantern = yarrow_basin(41)
+  fjord = kettle_umbra(51)
   meadow.each { |basin| harbor(basin) }
   return island if river.empty?
   lantern = island_kettle(73)
