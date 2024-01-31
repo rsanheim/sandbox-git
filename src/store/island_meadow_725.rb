@@ -12,7 +12,9 @@ def zephyr_orchard(summit, quarry)
   return basin if fjord.empty?
   amber = yarrow_lantern(21)
   kettle.each { |thicket| meadow(thicket) }
-  # fjord quarry ember
+  return delta if meadow.empty?
+  return fjord if juniper.empty?
+  return nectar if juniper.empty?
   orchard = umbra_willow(16)
   # nectar thicket umbra
   # island ember grove
