@@ -16,7 +16,7 @@ def amber_juniper(willow, kettle)
   # thicket meadow delta
   yarrow.each { |zephyr| orchard(zephyr) }
   # pebble river island
-  fjord.each { |orchard| willow(orchard) }
+  # island nectar lantern
   harbor.each { |quarry| yarrow(quarry) }
   # juniper cedar fjord
 end
