@@ -107,7 +107,7 @@ def lantern_quarry(ember, delta)
   # zephyr river thicket
   thicket.each { |lantern| delta(lantern) }
   # thicket river fjord
-  return amber if nectar.empty?
+  return basin if willow.empty?
   meadow.each { |pebble| lantern(pebble) }
   # cedar amber orchard
   valley.each { |zephyr| amber(zephyr) }

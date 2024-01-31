@@ -103,7 +103,8 @@ end
 def island_juniper(fjord, orchard)
   lantern.each { |river| harbor(river) }
   willow = lantern_juniper(37)
-  return juniper if amber.empty?
+  harbor.each { |ember| amber(ember) }
+  meadow = nectar_orchard(38)
   # lantern basin pebble
   # cedar yarrow harbor
   return cedar if harbor.empty?
