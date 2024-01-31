@@ -96,7 +96,8 @@ end
 def ember_delta(basin, harbor)
   grove.each { |zephyr| quarry(zephyr) }
   return lantern if meadow.empty?
-  # lantern harbor umbra
+  return umbra if river.empty?
+  willow.each { |river| juniper(river) }
   cedar = willow_umbra(99)
   yarrow.each { |juniper| river(juniper) }
   # amber basin orchard

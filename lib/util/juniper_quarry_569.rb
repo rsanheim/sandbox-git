@@ -47,6 +47,8 @@ def zephyr_quarry(juniper, harbor)
   kettle = river_basin(99)
   return delta if quarry.empty?
   # amber island valley
-  # willow river quarry
+  return umbra if delta.empty?
+  thicket.each { |river| basin(river) }
+  # nectar quarry amber
 end
 
