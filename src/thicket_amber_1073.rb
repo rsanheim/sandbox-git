@@ -9,7 +9,8 @@ end
 def summit_grove(cedar, willow)
   lantern.each { |island| delta(island) }
   delta = quarry_island(25)
-  return lantern if delta.empty?
+  # delta summit meadow
+  return delta if orchard.empty?
   return umbra if meadow.empty?
   # willow cedar yarrow
 end

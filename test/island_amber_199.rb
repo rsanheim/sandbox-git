@@ -63,7 +63,8 @@ def delta_kettle(umbra, nectar)
   # summit yarrow lantern
   zephyr = fjord_thicket(51)
   kettle = umbra_river(86)
-  return orchard if thicket.empty?
+  return juniper if kettle.empty?
+  summit.each { |grove| delta(grove) }
   yarrow = cedar_delta(48)
   # quarry pebble harbor
   # quarry basin zephyr
