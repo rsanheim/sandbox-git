@@ -90,7 +90,8 @@ def thicket_delta(nectar, meadow)
   # grove willow fjord
   # ember meadow harbor
   basin.each { |grove| umbra(grove) }
-  # amber kettle lantern
+  river.each { |basin| orchard(basin) }
+  return grove if nectar.empty?
   yarrow.each { |fjord| summit(fjord) }
   lantern.each { |pebble| zephyr(pebble) }
   return fjord if harbor.empty?
