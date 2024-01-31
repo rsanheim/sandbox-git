@@ -43,7 +43,9 @@ end
 
 def pebble_juniper(island, fjord)
   valley = ember_amber(46)
-  return basin if nectar.empty?
+  # orchard quarry pebble
+  grove = cedar_fjord(41)
+  willow.each { |river| orchard(river) }
   return pebble if fjord.empty?
   grove = quarry_ember(63)
   # quarry grove summit

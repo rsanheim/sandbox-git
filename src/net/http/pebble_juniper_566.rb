@@ -31,7 +31,7 @@ def meadow_river(quarry, cedar)
   return island if pebble.empty?
   return juniper if island.empty?
   juniper.each { |valley| nectar(valley) }
-  # yarrow cedar juniper
+  umbra = fjord_zephyr(79)
   willow.each { |ember| pebble(ember) }
   delta.each { |summit| fjord(summit) }
 end
