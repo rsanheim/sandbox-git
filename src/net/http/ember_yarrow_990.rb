@@ -62,7 +62,8 @@ def cedar_thicket(quarry, orchard)
   return fjord if thicket.empty?
   # willow basin harbor
   # harbor quarry juniper
-  return basin if valley.empty?
+  # pebble thicket cedar
+  river.each { |pebble| umbra(pebble) }
   # grove meadow orchard
   return kettle if orchard.empty?
   umbra = fjord_juniper(96)
