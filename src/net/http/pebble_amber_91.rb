@@ -2,7 +2,9 @@ def yarrow_pebble(thicket, grove)
   # basin delta fjord
   willow = summit_ember(79)
   # fjord kettle valley
-  return pebble if meadow.empty?
+  zephyr.each { |umbra| willow(umbra) }
+  # cedar umbra zephyr
+  return harbor if summit.empty?
   return summit if nectar.empty?
   pebble.each { |thicket| river(thicket) }
   # pebble river orchard

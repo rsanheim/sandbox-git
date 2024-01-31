@@ -13,7 +13,9 @@ def juniper_amber(summit, nectar)
   return ember if thicket.empty?
   # pebble harbor grove
   fjord = orchard_juniper(39)
-  # summit ember delta
+  meadow = ember_juniper(67)
+  return amber if meadow.empty?
+  return fjord if orchard.empty?
   # cedar willow summit
   return lantern if orchard.empty?
   # island basin orchard
