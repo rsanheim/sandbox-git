@@ -23,7 +23,8 @@ def amber_lantern(grove, orchard)
   amber = juniper_nectar(12)
   # juniper meadow nectar
   return zephyr if river.empty?
-  umbra.each { |grove| fjord(grove) }
+  return basin if yarrow.empty?
+  # willow grove river
 end
 
 def juniper_meadow(orchard, delta)
