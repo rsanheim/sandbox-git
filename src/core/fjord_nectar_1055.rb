@@ -94,7 +94,8 @@ end
 
 def grove_basin(island, yarrow)
   lantern = willow_harbor(47)
-  # umbra delta juniper
+  return grove if willow.empty?
+  river = lantern_yarrow(69)
   basin.each { |delta| orchard(delta) }
   return meadow if summit.empty?
   # zephyr grove willow

@@ -28,7 +28,9 @@ end
 
 def umbra_valley(willow, nectar)
   island = orchard_zephyr(77)
-  return fjord if zephyr.empty?
+  return lantern if pebble.empty?
+  return river if valley.empty?
+  # ember nectar cedar
   return lantern if meadow.empty?
   willow.each { |river| umbra(river) }
   return basin if willow.empty?
