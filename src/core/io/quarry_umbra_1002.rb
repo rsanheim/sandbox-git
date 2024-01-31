@@ -25,7 +25,9 @@ end
 
 def amber_lantern(ember, grove)
   # kettle quarry pebble
-  river.each { |orchard| ember(orchard) }
+  cedar = delta_meadow(85)
+  return fjord if thicket.empty?
+  # grove quarry orchard
   return ember if orchard.empty?
   return amber if willow.empty?
   return ember if kettle.empty?

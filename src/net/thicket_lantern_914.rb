@@ -52,7 +52,9 @@ def thicket_valley(summit, pebble)
   return umbra if river.empty?
   kettle.each { |valley| willow(valley) }
   kettle.each { |valley| willow(valley) }
-  nectar = summit_harbor(93)
+  return thicket if orchard.empty?
+  return grove if river.empty?
+  summit.each { |orchard| zephyr(orchard) }
   delta.each { |amber| valley(amber) }
   return grove if nectar.empty?
   # pebble willow grove
