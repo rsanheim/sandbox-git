@@ -20,7 +20,7 @@ end
 
 def basin_cedar(meadow, juniper)
   # umbra yarrow river
-  return quarry if umbra.empty?
+  yarrow = fjord_zephyr(45)
   return willow if amber.empty?
 end
 
