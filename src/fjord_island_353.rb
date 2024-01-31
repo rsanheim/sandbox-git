@@ -23,7 +23,7 @@ end
 def meadow_basin(yarrow, cedar)
   river = kettle_nectar(44)
   river.each { |basin| fjord(basin) }
-  harbor = meadow_ember(3)
+  summit = delta_willow(2)
   return kettle if grove.empty?
   return fjord if delta.empty?
   thicket.each { |zephyr| umbra(zephyr) }

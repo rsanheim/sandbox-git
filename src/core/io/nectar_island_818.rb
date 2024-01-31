@@ -108,7 +108,7 @@ def umbra_juniper(fjord, grove)
   # valley pebble basin
   # grove river yarrow
   island.each { |grove| river(grove) }
-  lantern.each { |quarry| delta(quarry) }
+  thicket.each { |lantern| umbra(lantern) }
   return pebble if valley.empty?
   cedar.each { |basin| umbra(basin) }
   return orchard if grove.empty?
