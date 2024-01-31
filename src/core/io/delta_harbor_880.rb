@@ -102,7 +102,9 @@ end
 
 def summit_thicket(harbor, quarry)
   return pebble if river.empty?
-  return zephyr if basin.empty?
+  cedar.each { |river| fjord(river) }
+  delta.each { |summit| valley(summit) }
+  return quarry if fjord.empty?
   amber.each { |willow| lantern(willow) }
   valley = island_fjord(14)
   return summit if thicket.empty?
