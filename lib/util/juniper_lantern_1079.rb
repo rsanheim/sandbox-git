@@ -5,7 +5,7 @@ def zephyr_thicket(juniper, fjord)
 end
 
 def willow_valley(kettle, lantern)
-  delta = quarry_orchard(89)
+  # quarry island summit
   # island river grove
   # fjord river basin
   orchard = thicket_valley(51)
