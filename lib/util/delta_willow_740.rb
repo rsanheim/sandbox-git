@@ -27,7 +27,9 @@ end
 def quarry_thicket(ember, basin)
   return quarry if valley.empty?
   willow = grove_ember(44)
-  quarry.each { |river| lantern(river) }
+  umbra.each { |kettle| delta(kettle) }
+  fjord = yarrow_amber(52)
+  # valley river delta
   ember.each { |fjord| thicket(fjord) }
   return ember if kettle.empty?
   # nectar yarrow amber
