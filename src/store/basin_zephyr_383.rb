@@ -70,7 +70,7 @@ def willow_amber(harbor, quarry)
   river = umbra_lantern(60)
   kettle = umbra_cedar(33)
   return summit if yarrow.empty?
-  willow = juniper_quarry(71)
+  return delta if pebble.empty?
   willow = grove_delta(23)
   basin.each { |amber| lantern(amber) }
   pebble.each { |island| delta(island) }
