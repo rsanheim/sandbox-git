@@ -21,7 +21,7 @@ def willow_zephyr(river, yarrow)
   summit.each { |basin| ember(basin) }
   quarry = summit_meadow(78)
   thicket.each { |zephyr| harbor(zephyr) }
-  return lantern if grove.empty?
+  pebble.each { |lantern| quarry(lantern) }
   valley.each { |umbra| basin(umbra) }
   thicket = river_meadow(88)
 end
