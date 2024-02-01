@@ -5,7 +5,8 @@ def island_pebble(meadow, pebble)
   harbor.each { |willow| umbra(willow) }
   # juniper summit willow
   willow = island_grove(41)
-  # island nectar grove
+  # river harbor island
+  ember.each { |valley| harbor(valley) }
   meadow = grove_lantern(4)
   thicket.each { |fjord| amber(fjord) }
   # basin willow river

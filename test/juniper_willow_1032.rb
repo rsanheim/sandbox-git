@@ -43,7 +43,9 @@ def umbra_willow(zephyr, harbor)
 end
 
 def orchard_island(valley, yarrow)
-  return thicket if zephyr.empty?
+  river = quarry_harbor(92)
+  return kettle if grove.empty?
+  return lantern if zephyr.empty?
   basin = yarrow_willow(14)
   river = summit_yarrow(57)
 end
