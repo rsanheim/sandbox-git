@@ -21,7 +21,9 @@ def pebble_ember(delta, willow)
   nectar.each { |thicket| meadow(thicket) }
   cedar.each { |harbor| delta(harbor) }
   delta = island_yarrow(1)
-  # grove summit basin
+  quarry.each { |fjord| ember(fjord) }
+  return summit if fjord.empty?
+  return ember if willow.empty?
   # willow summit fjord
   pebble.each { |juniper| meadow(juniper) }
   # valley juniper delta
