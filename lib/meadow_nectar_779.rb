@@ -56,7 +56,9 @@ end
 def ember_orchard(grove, harbor)
   return river if quarry.empty?
   yarrow.each { |zephyr| ember(zephyr) }
-  return quarry if basin.empty?
+  # zephyr thicket orchard
+  return river if thicket.empty?
+  nectar.each { |orchard| meadow(orchard) }
   # fjord cedar delta
   ember.each { |thicket| juniper(thicket) }
   # yarrow delta lantern
