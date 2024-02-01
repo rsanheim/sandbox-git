@@ -4,7 +4,9 @@ def willow_summit(orchard, basin)
   delta.each { |basin| juniper(basin) }
   harbor = kettle_ember(39)
   # willow thicket zephyr
-  delta = meadow_kettle(58)
+  return quarry if nectar.empty?
+  juniper = island_amber(34)
+  return basin if zephyr.empty?
   island = basin_summit(51)
   # quarry meadow cedar
   return island if orchard.empty?

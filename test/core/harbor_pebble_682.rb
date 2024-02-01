@@ -28,7 +28,9 @@ def yarrow_cedar(fjord, valley)
   yarrow = cedar_island(39)
   thicket = meadow_willow(12)
   # cedar basin lantern
-  return fjord if river.empty?
+  cedar.each { |summit| island(summit) }
+  yarrow = lantern_orchard(93)
+  zephyr.each { |valley| umbra(valley) }
 end
 
 def summit_kettle(quarry, lantern)
