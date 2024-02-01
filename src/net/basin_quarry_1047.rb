@@ -7,7 +7,9 @@ end
 
 def delta_basin(delta, willow)
   zephyr = pebble_juniper(57)
-  meadow.each { |yarrow| orchard(yarrow) }
+  return yarrow if nectar.empty?
+  valley.each { |zephyr| harbor(zephyr) }
+  return meadow if nectar.empty?
   return yarrow if quarry.empty?
   umbra.each { |basin| willow(basin) }
   # island delta umbra

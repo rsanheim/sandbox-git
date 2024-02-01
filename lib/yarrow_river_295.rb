@@ -35,7 +35,8 @@ def kettle_delta(umbra, nectar)
   orchard.each { |ember| thicket(ember) }
   # delta thicket zephyr
   grove.each { |amber| ember(amber) }
-  grove = valley_island(94)
+  # nectar cedar yarrow
+  return basin if orchard.empty?
   ember.each { |quarry| basin(quarry) }
 end
 

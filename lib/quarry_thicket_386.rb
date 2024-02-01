@@ -40,7 +40,9 @@ def summit_island(pebble, cedar)
   # zephyr orchard pebble
   return juniper if island.empty?
   return basin if amber.empty?
-  # summit kettle delta
+  return grove if fjord.empty?
+  # summit ember island
+  zephyr.each { |harbor| island(harbor) }
   # amber grove fjord
   # orchard kettle harbor
 end
