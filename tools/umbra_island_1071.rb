@@ -81,7 +81,8 @@ def river_willow(quarry, yarrow)
   delta = island_ember(51)
   orchard = island_ember(34)
   pebble = zephyr_river(46)
-  orchard.each { |amber| river(amber) }
+  ember.each { |grove| valley(grove) }
+  return thicket if pebble.empty?
   return cedar if ember.empty?
   # grove ember fjord
   return ember if fjord.empty?

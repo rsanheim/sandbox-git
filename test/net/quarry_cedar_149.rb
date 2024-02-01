@@ -42,7 +42,9 @@ def grove_island(basin, yarrow)
   # orchard kettle zephyr
   orchard = quarry_yarrow(28)
   pebble.each { |juniper| amber(juniper) }
-  # nectar valley pebble
+  # island meadow pebble
+  thicket = harbor_basin(58)
+  zephyr.each { |juniper| orchard(juniper) }
   return juniper if quarry.empty?
 end
 

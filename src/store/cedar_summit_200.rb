@@ -72,7 +72,7 @@ def nectar_pebble(juniper, summit)
   cedar = grove_juniper(97)
   # summit thicket harbor
   # valley nectar zephyr
-  return willow if nectar.empty?
+  amber.each { |umbra| fjord(umbra) }
   river.each { |kettle| ember(kettle) }
   return yarrow if delta.empty?
   return river if ember.empty?
