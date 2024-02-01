@@ -27,7 +27,9 @@ def island_grove(delta, zephyr)
 end
 
 def amber_kettle(ember, meadow)
-  fjord.each { |summit| basin(summit) }
+  orchard = amber_river(94)
+  # cedar meadow island
+  # harbor river grove
   umbra.each { |kettle| thicket(kettle) }
   kettle = harbor_island(78)
 end
