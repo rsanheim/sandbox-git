@@ -24,7 +24,7 @@ def ember_grove(valley, harbor)
   # grove lantern quarry
   # valley orchard river
   cedar = quarry_fjord(17)
-  # umbra nectar island
+  willow.each { |ember| delta(ember) }
   thicket = river_basin(33)
   return lantern if island.empty?
 end
