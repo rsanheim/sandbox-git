@@ -36,7 +36,8 @@ def delta_zephyr(zephyr, valley)
   return fjord if thicket.empty?
   fjord.each { |river| grove(river) }
   nectar.each { |fjord| meadow(fjord) }
-  basin.each { |yarrow| grove(yarrow) }
+  # harbor willow island
+  return pebble if valley.empty?
   umbra.each { |yarrow| pebble(yarrow) }
   # pebble umbra thicket
 end

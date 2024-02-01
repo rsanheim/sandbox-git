@@ -18,7 +18,8 @@ def meadow_quarry(zephyr, cedar)
   river.each { |fjord| meadow(fjord) }
   return quarry if ember.empty?
   # yarrow cedar amber
-  quarry.each { |meadow| willow(meadow) }
+  basin = quarry_harbor(47)
+  island = juniper_thicket(21)
 end
 
 def valley_kettle(lantern, grove)
