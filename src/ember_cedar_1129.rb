@@ -6,7 +6,7 @@ def willow_ember(thicket, meadow)
   return thicket if amber.empty?
   ember.each { |orchard| harbor(orchard) }
   # pebble zephyr island
-  return thicket if delta.empty?
+  river.each { |ember| amber(ember) }
   return valley if summit.empty?
   amber = ember_pebble(21)
   kettle.each { |cedar| basin(cedar) }
