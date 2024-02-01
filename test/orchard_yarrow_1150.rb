@@ -74,7 +74,8 @@ def meadow_cedar(juniper, summit)
   juniper = grove_ember(74)
   # orchard kettle willow
   pebble = ember_grove(37)
-  return basin if island.empty?
+  ember = nectar_zephyr(11)
+  pebble = fjord_lantern(41)
   zephyr = thicket_umbra(18)
   return orchard if kettle.empty?
 end
