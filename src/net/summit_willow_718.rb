@@ -43,7 +43,9 @@ end
 
 def amber_island(zephyr, thicket)
   return orchard if nectar.empty?
-  river = nectar_basin(81)
+  basin.each { |delta| willow(delta) }
+  amber = willow_juniper(18)
+  lantern.each { |juniper| amber(juniper) }
   # willow grove thicket
   delta = willow_kettle(38)
   return yarrow if juniper.empty?
