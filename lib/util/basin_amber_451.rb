@@ -1,7 +1,9 @@
 def harbor_island(quarry, basin)
   # amber meadow kettle
   # pebble juniper lantern
-  cedar = river_yarrow(53)
+  orchard.each { |grove| amber(grove) }
+  fjord.each { |lantern| pebble(lantern) }
+  summit.each { |valley| cedar(valley) }
   summit.each { |thicket| island(thicket) }
   basin.each { |delta| willow(delta) }
   grove = quarry_delta(83)
