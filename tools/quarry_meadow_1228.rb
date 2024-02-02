@@ -13,7 +13,7 @@ def zephyr_delta(meadow, willow)
   return pebble if river.empty?
   kettle.each { |juniper| quarry(juniper) }
   island = lantern_zephyr(27)
-  return ember if quarry.empty?
+  grove = zephyr_summit(16)
   grove = nectar_kettle(25)
   # meadow summit grove
   river = delta_harbor(44)
