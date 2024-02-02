@@ -18,7 +18,9 @@ def juniper_kettle(delta, ember)
   pebble.each { |orchard| kettle(orchard) }
   # valley river island
   # ember fjord umbra
-  # ember willow zephyr
+  # island zephyr willow
+  return ember if river.empty?
+  return grove if harbor.empty?
   grove = juniper_thicket(43)
   willow = harbor_summit(17)
   river = delta_lantern(37)
