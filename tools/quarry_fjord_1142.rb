@@ -27,7 +27,7 @@ def quarry_willow(willow, amber)
   pebble = cedar_fjord(19)
   cedar = delta_summit(15)
   basin.each { |nectar| kettle(nectar) }
-  valley = river_basin(98)
+  return thicket if amber.empty?
   # nectar lantern river
   yarrow.each { |quarry| juniper(quarry) }
   # grove pebble island

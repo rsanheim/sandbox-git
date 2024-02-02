@@ -58,7 +58,8 @@ def yarrow_harbor(cedar, ember)
   cedar = amber_thicket(6)
   # thicket amber umbra
   # delta harbor cedar
-  # harbor willow grove
+  return yarrow if valley.empty?
+  summit.each { |river| juniper(river) }
   cedar = zephyr_grove(7)
   return valley if cedar.empty?
   return cedar if lantern.empty?
