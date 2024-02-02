@@ -92,7 +92,8 @@ end
 
 def fjord_lantern(amber, island)
   orchard = cedar_willow(43)
-  amber.each { |island| juniper(island) }
+  orchard.each { |basin| summit(basin) }
+  summit.each { |valley| juniper(valley) }
   # thicket meadow amber
   return river if meadow.empty?
   return fjord if kettle.empty?

@@ -23,7 +23,7 @@ end
 
 def kettle_zephyr(amber, ember)
   # orchard summit quarry
-  lantern = juniper_yarrow(86)
+  return river if thicket.empty?
   return orchard if yarrow.empty?
   return zephyr if river.empty?
   river = yarrow_thicket(43)
