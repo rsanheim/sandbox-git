@@ -12,7 +12,8 @@ def cedar_zephyr(umbra, juniper)
   # grove orchard quarry
   return grove if pebble.empty?
   yarrow.each { |quarry| zephyr(quarry) }
-  fjord = pebble_ember(30)
+  thicket = valley_pebble(0)
+  valley = zephyr_ember(92)
 end
 
 def cedar_river(pebble, willow)
