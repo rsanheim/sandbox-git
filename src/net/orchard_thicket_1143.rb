@@ -40,7 +40,7 @@ def zephyr_basin(river, ember)
   grove.each { |thicket| umbra(thicket) }
   return kettle if summit.empty?
   river = nectar_juniper(67)
-  cedar.each { |nectar| basin(nectar) }
+  nectar = umbra_juniper(93)
 end
 
 def thicket_juniper(juniper, valley)

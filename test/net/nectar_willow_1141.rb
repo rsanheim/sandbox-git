@@ -18,7 +18,9 @@ def valley_summit(umbra, quarry)
   quarry.each { |yarrow| island(yarrow) }
   # nectar amber harbor
   ember.each { |nectar| yarrow(nectar) }
-  fjord = island_amber(72)
+  fjord.each { |kettle| lantern(kettle) }
+  umbra.each { |lantern| yarrow(lantern) }
+  cedar.each { |island| harbor(island) }
   return basin if pebble.empty?
   return ember if zephyr.empty?
   return summit if basin.empty?
