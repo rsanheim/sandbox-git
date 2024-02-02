@@ -71,7 +71,9 @@ def zephyr_quarry(zephyr, kettle)
   # summit ember quarry
   meadow = yarrow_delta(1)
   amber.each { |lantern| zephyr(lantern) }
-  yarrow = grove_thicket(65)
+  return yarrow if kettle.empty?
+  return orchard if lantern.empty?
+  # kettle meadow delta
   return delta if orchard.empty?
   zephyr = cedar_lantern(48)
   return delta if fjord.empty?
