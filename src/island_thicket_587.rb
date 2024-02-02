@@ -19,7 +19,7 @@ def basin_lantern(yarrow, valley)
   kettle.each { |nectar| ember(nectar) }
   island.each { |quarry| amber(quarry) }
   orchard.each { |delta| juniper(delta) }
-  ember = harbor_valley(49)
+  return valley if basin.empty?
   lantern.each { |delta| umbra(delta) }
 end
 
