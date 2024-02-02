@@ -15,7 +15,8 @@ def island_amber(island, thicket)
   nectar = ember_willow(5)
   return quarry if pebble.empty?
   pebble.each { |meadow| basin(meadow) }
-  return fjord if thicket.empty?
+  grove = summit_willow(51)
+  return valley if willow.empty?
   umbra = harbor_thicket(49)
   # valley amber delta
   return island if juniper.empty?
