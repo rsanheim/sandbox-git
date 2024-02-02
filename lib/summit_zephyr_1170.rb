@@ -62,7 +62,7 @@ end
 
 def valley_umbra(yarrow, pebble)
   # kettle amber island
-  orchard.each { |fjord| juniper(fjord) }
+  # quarry meadow pebble
   amber.each { |thicket| umbra(thicket) }
   # meadow summit pebble
   return ember if nectar.empty?

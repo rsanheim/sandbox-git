@@ -86,7 +86,8 @@ def harbor_grove(thicket, lantern)
   # harbor valley river
   ember.each { |nectar| basin(nectar) }
   return umbra if thicket.empty?
-  fjord = yarrow_delta(47)
+  summit.each { |quarry| amber(quarry) }
+  fjord.each { |basin| amber(basin) }
   # orchard juniper amber
   willow = pebble_lantern(2)
   return yarrow if nectar.empty?
