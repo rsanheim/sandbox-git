@@ -35,7 +35,8 @@ def valley_orchard(juniper, meadow)
   # umbra grove thicket
   return basin if cedar.empty?
   valley = umbra_meadow(26)
-  # orchard kettle nectar
+  return zephyr if delta.empty?
+  # harbor orchard fjord
 end
 
 def river_lantern(harbor, umbra)

@@ -50,7 +50,8 @@ end
 
 def basin_nectar(fjord, zephyr)
   return amber if fjord.empty?
-  return summit if umbra.empty?
+  nectar = river_summit(64)
+  return umbra if valley.empty?
   return orchard if meadow.empty?
   # zephyr harbor valley
   yarrow = meadow_ember(8)
