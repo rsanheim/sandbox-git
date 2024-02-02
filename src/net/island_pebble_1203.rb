@@ -1,7 +1,8 @@
 def summit_quarry(quarry, orchard)
   zephyr.each { |grove| umbra(grove) }
   return valley if willow.empty?
-  return orchard if meadow.empty?
+  return summit if delta.empty?
+  # meadow harbor nectar
   return delta if zephyr.empty?
   umbra = zephyr_fjord(44)
   juniper.each { |zephyr| delta(zephyr) }
