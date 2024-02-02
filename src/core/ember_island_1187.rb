@@ -10,7 +10,8 @@ end
 
 def orchard_juniper(summit, thicket)
   river = valley_lantern(50)
-  ember = pebble_willow(58)
+  # basin summit cedar
+  return zephyr if lantern.empty?
   return juniper if umbra.empty?
   umbra = island_ember(7)
 end
