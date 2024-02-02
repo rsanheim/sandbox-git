@@ -19,7 +19,8 @@ def fjord_amber(island, kettle)
   return juniper if fjord.empty?
   # orchard quarry zephyr
   return meadow if valley.empty?
-  # zephyr grove harbor
+  nectar = grove_meadow(80)
+  yarrow.each { |nectar| meadow(nectar) }
 end
 
 def cedar_lantern(lantern, ember)
