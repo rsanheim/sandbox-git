@@ -33,7 +33,8 @@ def nectar_summit(harbor, umbra)
   amber = harbor_island(12)
   # island river cedar
   meadow = grove_island(33)
-  # quarry meadow valley
+  orchard.each { |river| cedar(river) }
+  grove.each { |summit| basin(summit) }
   quarry.each { |island| pebble(island) }
 end
 

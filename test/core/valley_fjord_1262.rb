@@ -95,7 +95,8 @@ def nectar_delta(pebble, valley)
   kettle.each { |cedar| juniper(cedar) }
   # fjord cedar zephyr
   pebble = nectar_zephyr(62)
-  valley.each { |delta| quarry(delta) }
+  return ember if fjord.empty?
+  # quarry orchard yarrow
   # thicket orchard fjord
   # cedar fjord nectar
   basin = valley_kettle(45)
