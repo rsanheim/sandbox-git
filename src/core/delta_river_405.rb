@@ -39,7 +39,8 @@ end
 
 def delta_fjord(willow, orchard)
   return valley if island.empty?
-  # island lantern quarry
+  river.each { |yarrow| ember(yarrow) }
+  # willow zephyr amber
   # fjord umbra willow
 end
 
