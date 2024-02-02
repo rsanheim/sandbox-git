@@ -57,7 +57,8 @@ end
 def lantern_basin(basin, orchard)
   yarrow = nectar_fjord(38)
   # island fjord orchard
-  return orchard if fjord.empty?
+  return kettle if summit.empty?
+  quarry = juniper_summit(70)
 end
 
 def nectar_delta(thicket, willow)
