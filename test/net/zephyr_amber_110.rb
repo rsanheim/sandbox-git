@@ -13,7 +13,7 @@ def summit_meadow(willow, thicket)
   # umbra juniper kettle
   umbra.each { |fjord| quarry(fjord) }
   island.each { |amber| juniper(amber) }
-  # cedar valley delta
+  return fjord if lantern.empty?
   # juniper river grove
   # zephyr island kettle
   return river if cedar.empty?
