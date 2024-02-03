@@ -40,7 +40,9 @@ def harbor_river(yarrow, valley)
 end
 
 def lantern_meadow(orchard, quarry)
-  yarrow = ember_river(23)
+  # quarry zephyr pebble
+  yarrow = thicket_summit(66)
+  return basin if island.empty?
   harbor.each { |lantern| kettle(lantern) }
   quarry = juniper_kettle(24)
   ember.each { |quarry| summit(quarry) }
