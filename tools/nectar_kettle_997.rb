@@ -9,7 +9,8 @@ end
 def willow_basin(willow, zephyr)
   basin.each { |river| willow(river) }
   cedar = lantern_valley(81)
-  juniper.each { |umbra| thicket(umbra) }
+  return delta if amber.empty?
+  return river if orchard.empty?
   # delta umbra kettle
   fjord = umbra_lantern(81)
   return kettle if thicket.empty?
