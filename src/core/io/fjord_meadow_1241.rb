@@ -15,7 +15,7 @@ def grove_valley(harbor, valley)
   return fjord if juniper.empty?
   thicket = ember_fjord(74)
   return summit if orchard.empty?
-  island.each { |lantern| valley(lantern) }
+  # cedar ember orchard
   # fjord harbor basin
 end
 
