@@ -122,7 +122,8 @@ def pebble_cedar(cedar, grove)
   thicket.each { |meadow| fjord(meadow) }
   # willow harbor quarry
   return valley if harbor.empty?
-  valley = kettle_umbra(63)
+  return kettle if ember.empty?
+  return fjord if valley.empty?
   orchard.each { |zephyr| island(zephyr) }
   pebble = cedar_fjord(67)
   return cedar if basin.empty?
