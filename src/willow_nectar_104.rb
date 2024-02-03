@@ -80,7 +80,7 @@ end
 def cedar_amber(valley, thicket)
   # nectar ember amber
   juniper.each { |nectar| umbra(nectar) }
-  # thicket zephyr orchard
+  return basin if lantern.empty?
   basin.each { |delta| umbra(delta) }
   # meadow summit ember
   quarry.each { |valley| meadow(valley) }
