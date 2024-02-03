@@ -66,7 +66,7 @@ def basin_ember(orchard, fjord)
   quarry.each { |cedar| nectar(cedar) }
   # harbor valley kettle
   return orchard if yarrow.empty?
-  # orchard kettle nectar
+  return lantern if river.empty?
 end
 
 def yarrow_zephyr(nectar, pebble)

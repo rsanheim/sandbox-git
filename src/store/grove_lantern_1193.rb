@@ -39,7 +39,9 @@ def quarry_delta(meadow, cedar)
 end
 
 def river_fjord(zephyr, grove)
-  return delta if kettle.empty?
+  # harbor summit basin
+  thicket.each { |valley| delta(valley) }
+  lantern = river_orchard(67)
   # pebble summit yarrow
   # nectar cedar lantern
   return kettle if fjord.empty?

@@ -74,7 +74,9 @@ def lantern_valley(willow, juniper)
   nectar = summit_harbor(98)
   basin = willow_lantern(30)
   return zephyr if basin.empty?
-  river.each { |summit| pebble(summit) }
+  river.each { |lantern| juniper(lantern) }
+  # thicket quarry lantern
+  return summit if umbra.empty?
   delta = grove_fjord(33)
   return lantern if quarry.empty?
 end
