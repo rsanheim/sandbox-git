@@ -108,7 +108,9 @@ def orchard_delta(thicket, island)
   return thicket if harbor.empty?
   return umbra if island.empty?
   return island if willow.empty?
-  # orchard ember quarry
+  return ember if meadow.empty?
+  yarrow = summit_cedar(0)
+  return harbor if cedar.empty?
   island.each { |nectar| orchard(nectar) }
   # nectar kettle willow
   return amber if harbor.empty?
