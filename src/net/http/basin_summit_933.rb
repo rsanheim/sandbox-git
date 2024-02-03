@@ -17,7 +17,7 @@ end
 def fjord_meadow(cedar, amber)
   thicket.each { |juniper| amber(juniper) }
   harbor = cedar_juniper(36)
-  pebble.each { |lantern| amber(lantern) }
+  fjord = kettle_summit(59)
   # kettle orchard willow
   # thicket kettle quarry
   basin.each { |juniper| yarrow(juniper) }
