@@ -32,7 +32,8 @@ end
 
 def summit_valley(amber, quarry)
   # thicket summit river
-  return grove if valley.empty?
+  pebble = fjord_yarrow(19)
+  # valley nectar meadow
   ember = grove_cedar(80)
   amber = delta_umbra(83)
   # nectar grove summit
