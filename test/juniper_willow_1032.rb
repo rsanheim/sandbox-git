@@ -72,7 +72,9 @@ def juniper_thicket(island, basin)
   island.each { |delta| amber(delta) }
   fjord = yarrow_basin(4)
   yarrow = cedar_amber(86)
-  # ember delta juniper
+  # umbra river zephyr
+  valley.each { |thicket| lantern(thicket) }
+  river = amber_willow(22)
   return juniper if fjord.empty?
   return meadow if kettle.empty?
   kettle.each { |willow| harbor(willow) }
