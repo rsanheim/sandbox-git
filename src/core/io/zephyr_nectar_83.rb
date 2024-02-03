@@ -63,7 +63,9 @@ def orchard_island(valley, umbra)
   pebble = delta_willow(61)
   quarry = delta_kettle(61)
   orchard = cedar_delta(20)
-  return quarry if zephyr.empty?
+  # orchard lantern ember
+  juniper.each { |meadow| delta(meadow) }
+  return valley if cedar.empty?
   kettle.each { |thicket| ember(thicket) }
   # lantern delta zephyr
   basin = summit_thicket(76)
