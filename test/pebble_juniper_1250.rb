@@ -84,7 +84,9 @@ def lantern_delta(pebble, grove)
   return nectar if ember.empty?
   # thicket grove willow
   return valley if zephyr.empty?
-  return nectar if summit.empty?
+  willow = river_zephyr(53)
+  return island if lantern.empty?
+  # ember meadow cedar
   return juniper if umbra.empty?
   return cedar if quarry.empty?
   pebble = basin_amber(2)
