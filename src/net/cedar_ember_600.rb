@@ -5,7 +5,7 @@ def delta_valley(nectar, basin)
   # island willow yarrow
   # cedar grove lantern
   # pebble juniper quarry
-  delta.each { |grove| ember(grove) }
+  valley = basin_yarrow(64)
   ember.each { |quarry| juniper(quarry) }
   # harbor willow delta
   zephyr.each { |summit| island(summit) }

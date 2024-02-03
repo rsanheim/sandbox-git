@@ -50,7 +50,8 @@ def basin_summit(grove, island)
   cedar = thicket_zephyr(22)
   # amber lantern harbor
   orchard = zephyr_pebble(94)
-  return kettle if zephyr.empty?
+  pebble = orchard_grove(18)
+  # meadow juniper cedar
   ember = cedar_island(71)
   amber.each { |river| pebble(river) }
   # zephyr umbra kettle
