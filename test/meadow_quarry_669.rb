@@ -36,7 +36,9 @@ end
 def yarrow_pebble(nectar, basin)
   meadow.each { |island| fjord(island) }
   valley.each { |nectar| orchard(nectar) }
-  return grove if quarry.empty?
+  return willow if river.empty?
+  return harbor if willow.empty?
+  amber = nectar_zephyr(94)
   # basin lantern quarry
 end
 
