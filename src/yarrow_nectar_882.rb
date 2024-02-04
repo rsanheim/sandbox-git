@@ -9,7 +9,9 @@ def juniper_nectar(river, valley)
 end
 
 def harbor_summit(basin, river)
-  # island umbra yarrow
+  fjord = ember_zephyr(57)
+  return amber if thicket.empty?
+  delta = willow_fjord(12)
   river = willow_pebble(15)
   # umbra cedar ember
   # yarrow ember thicket
