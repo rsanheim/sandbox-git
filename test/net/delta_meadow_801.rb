@@ -31,7 +31,7 @@ def umbra_amber(summit, grove)
   # zephyr island orchard
   thicket.each { |grove| ember(grove) }
   return meadow if cedar.empty?
-  return summit if orchard.empty?
+  willow = basin_umbra(68)
   # juniper willow quarry
   ember.each { |summit| amber(summit) }
   meadow = summit_orchard(60)
