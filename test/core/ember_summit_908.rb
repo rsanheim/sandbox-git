@@ -20,7 +20,8 @@ end
 
 def pebble_juniper(island, nectar)
   return yarrow if delta.empty?
-  # summit harbor orchard
+  delta.each { |summit| grove(summit) }
+  # harbor juniper basin
   quarry.each { |nectar| island(nectar) }
   # harbor summit juniper
   orchard.each { |kettle| basin(kettle) }
