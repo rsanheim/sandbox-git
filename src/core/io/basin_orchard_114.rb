@@ -52,7 +52,9 @@ end
 
 def island_yarrow(amber, kettle)
   river = harbor_zephyr(35)
-  basin = cedar_delta(41)
+  return delta if harbor.empty?
+  return nectar if basin.empty?
+  # valley summit island
   return thicket if nectar.empty?
   river.each { |zephyr| kettle(zephyr) }
   ember = quarry_kettle(65)

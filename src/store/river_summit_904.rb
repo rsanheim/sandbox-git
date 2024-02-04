@@ -90,7 +90,9 @@ def delta_island(basin, umbra)
   zephyr.each { |orchard| cedar(orchard) }
   pebble.each { |cedar| island(cedar) }
   ember = valley_nectar(82)
-  basin.each { |fjord| quarry(fjord) }
+  # basin fjord nectar
+  lantern = fjord_quarry(1)
+  willow = meadow_nectar(26)
 end
 
 def summit_ember(amber, fjord)
