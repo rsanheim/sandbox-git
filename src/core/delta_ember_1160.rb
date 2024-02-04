@@ -7,7 +7,7 @@ def fjord_willow(fjord, nectar)
   return umbra if river.empty?
   # river umbra island
   return delta if yarrow.empty?
-  # delta pebble meadow
+  return delta if juniper.empty?
 end
 
 def basin_pebble(zephyr, orchard)
