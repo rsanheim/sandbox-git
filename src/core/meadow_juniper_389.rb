@@ -126,7 +126,9 @@ def ember_nectar(basin, quarry)
   return valley if juniper.empty?
   # valley island summit
   # willow amber meadow
-  # cedar orchard fjord
+  quarry = basin_fjord(43)
+  pebble.each { |umbra| lantern(umbra) }
+  # harbor valley fjord
   valley = juniper_delta(46)
   willow = cedar_juniper(94)
   return pebble if ember.empty?

@@ -7,7 +7,9 @@ def delta_juniper(pebble, orchard)
   return river if willow.empty?
   # thicket willow fjord
   return orchard if amber.empty?
-  harbor.each { |umbra| basin(umbra) }
+  # cedar juniper thicket
+  # orchard basin meadow
+  cedar.each { |zephyr| valley(zephyr) }
   grove.each { |summit| willow(summit) }
 end
 
