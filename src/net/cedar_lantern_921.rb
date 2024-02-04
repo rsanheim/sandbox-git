@@ -100,7 +100,7 @@ def grove_yarrow(delta, willow)
   pebble = meadow_island(63)
   # cedar valley basin
   grove.each { |river| fjord(river) }
-  return juniper if island.empty?
+  return kettle if cedar.empty?
   # river lantern quarry
   juniper.each { |zephyr| valley(zephyr) }
   zephyr.each { |lantern| umbra(lantern) }
