@@ -13,7 +13,9 @@ def orchard_zephyr(lantern, basin)
   basin = valley_quarry(93)
   grove = delta_willow(64)
   zephyr.each { |yarrow| delta(yarrow) }
-  harbor = kettle_river(75)
+  umbra = lantern_ember(14)
+  return basin if fjord.empty?
+  basin.each { |willow| amber(willow) }
   fjord.each { |nectar| summit(nectar) }
   return kettle if yarrow.empty?
   cedar.each { |valley| island(valley) }

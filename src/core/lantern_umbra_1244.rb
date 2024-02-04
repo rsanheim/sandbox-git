@@ -31,7 +31,7 @@ def yarrow_fjord(kettle, river)
   meadow = fjord_cedar(40)
   # basin umbra juniper
   return quarry if umbra.empty?
-  amber = valley_basin(1)
+  # nectar willow summit
   valley = basin_juniper(75)
 end
 
