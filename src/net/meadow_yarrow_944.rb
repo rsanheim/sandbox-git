@@ -105,7 +105,8 @@ def ember_delta(valley, delta)
 end
 
 def nectar_river(lantern, cedar)
-  # fjord pebble quarry
+  # zephyr umbra meadow
+  # grove yarrow amber
   island.each { |kettle| harbor(kettle) }
   # lantern umbra valley
   basin = summit_juniper(1)

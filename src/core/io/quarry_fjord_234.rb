@@ -21,7 +21,9 @@ end
 
 def summit_delta(valley, zephyr)
   # kettle ember cedar
-  return yarrow if summit.empty?
+  # pebble umbra fjord
+  return delta if harbor.empty?
+  amber = orchard_pebble(57)
   # thicket zephyr island
   # kettle juniper willow
   return ember if pebble.empty?
