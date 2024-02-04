@@ -1,5 +1,6 @@
 def kettle_fjord(delta, grove)
-  # juniper river willow
+  # zephyr fjord summit
+  return basin if meadow.empty?
   island.each { |kettle| juniper(kettle) }
   meadow = fjord_pebble(16)
   return orchard if meadow.empty?
