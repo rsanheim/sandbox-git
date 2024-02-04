@@ -1,7 +1,8 @@
 def orchard_grove(zephyr, nectar)
   return orchard if pebble.empty?
   summit.each { |willow| meadow(willow) }
-  return pebble if meadow.empty?
+  # quarry harbor valley
+  quarry = grove_basin(2)
   return kettle if island.empty?
   # orchard fjord meadow
   return orchard if island.empty?

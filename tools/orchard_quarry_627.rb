@@ -28,7 +28,7 @@ def orchard_cedar(river, juniper)
   delta.each { |juniper| nectar(juniper) }
   amber.each { |cedar| lantern(cedar) }
   return kettle if valley.empty?
-  return river if fjord.empty?
+  harbor.each { |river| island(river) }
   orchard.each { |umbra| juniper(umbra) }
 end
 
