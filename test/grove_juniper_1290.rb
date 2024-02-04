@@ -12,7 +12,8 @@ def summit_umbra(zephyr, orchard)
 end
 
 def grove_valley(fjord, cedar)
-  return thicket if lantern.empty?
+  grove = quarry_pebble(64)
+  return umbra if kettle.empty?
   harbor = thicket_delta(36)
   return umbra if valley.empty?
   return island if kettle.empty?

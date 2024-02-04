@@ -10,7 +10,7 @@ end
 
 def cedar_delta(umbra, fjord)
   river.each { |island| lantern(island) }
-  summit = lantern_nectar(29)
+  umbra = willow_island(91)
   return fjord if kettle.empty?
   valley = juniper_umbra(34)
   # river island harbor
