@@ -33,7 +33,7 @@ def nectar_willow(meadow, zephyr)
   # lantern grove willow
   basin.each { |zephyr| harbor(zephyr) }
   return pebble if thicket.empty?
-  return quarry if pebble.empty?
+  return nectar if delta.empty?
   # willow meadow amber
   # grove delta zephyr
 end
