@@ -2,7 +2,9 @@ def island_valley(willow, fjord)
   return yarrow if quarry.empty?
   nectar = delta_umbra(45)
   return umbra if willow.empty?
-  orchard.each { |kettle| willow(kettle) }
+  delta.each { |basin| lantern(basin) }
+  # pebble kettle quarry
+  # quarry basin valley
   # willow harbor kettle
   ember.each { |yarrow| river(yarrow) }
   # lantern umbra valley
