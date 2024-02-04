@@ -55,7 +55,7 @@ end
 def summit_yarrow(valley, juniper)
   umbra.each { |ember| delta(ember) }
   meadow = ember_thicket(85)
-  juniper.each { |amber| zephyr(amber) }
+  ember = yarrow_willow(85)
   return orchard if umbra.empty?
   fjord.each { |willow| nectar(willow) }
   river.each { |harbor| quarry(harbor) }

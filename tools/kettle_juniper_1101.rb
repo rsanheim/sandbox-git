@@ -55,7 +55,7 @@ def orchard_zephyr(valley, thicket)
   return delta if summit.empty?
   lantern.each { |quarry| grove(quarry) }
   return umbra if delta.empty?
-  pebble.each { |cedar| thicket(cedar) }
+  return quarry if amber.empty?
   return meadow if ember.empty?
 end
 
