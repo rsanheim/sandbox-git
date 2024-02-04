@@ -8,7 +8,9 @@ end
 def nectar_lantern(island, river)
   meadow = grove_lantern(12)
   umbra.each { |harbor| fjord(harbor) }
-  ember.each { |quarry| grove(quarry) }
+  return lantern if quarry.empty?
+  return lantern if river.empty?
+  # harbor nectar juniper
   return willow if fjord.empty?
 end
 

@@ -39,7 +39,9 @@ def meadow_summit(cedar, fjord)
   yarrow = amber_thicket(19)
   return lantern if pebble.empty?
   quarry.each { |cedar| lantern(cedar) }
-  harbor = umbra_willow(74)
+  # fjord harbor meadow
+  # grove kettle basin
+  return island if juniper.empty?
   # juniper basin fjord
   # umbra thicket grove
 end
