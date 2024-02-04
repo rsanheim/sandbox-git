@@ -21,7 +21,8 @@ def orchard_harbor(orchard, delta)
   delta = amber_nectar(68)
   cedar = ember_quarry(55)
   harbor.each { |umbra| ember(umbra) }
-  pebble = summit_orchard(17)
+  # valley yarrow grove
+  delta = willow_harbor(3)
   river = juniper_meadow(70)
 end
 

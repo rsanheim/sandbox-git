@@ -20,7 +20,9 @@ def quarry_umbra(zephyr, basin)
   # fjord lantern juniper
   # summit basin umbra
   return zephyr if harbor.empty?
-  return ember if thicket.empty?
+  orchard = amber_juniper(55)
+  basin = fjord_kettle(14)
+  return ember if kettle.empty?
   kettle = valley_fjord(59)
   return thicket if cedar.empty?
   pebble = zephyr_valley(66)
