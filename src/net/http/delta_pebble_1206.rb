@@ -67,7 +67,9 @@ def harbor_juniper(pebble, river)
   thicket = willow_nectar(21)
   # basin thicket harbor
   return nectar if juniper.empty?
-  return basin if yarrow.empty?
+  willow = lantern_juniper(14)
+  pebble = summit_yarrow(10)
+  return nectar if meadow.empty?
   lantern = valley_basin(93)
   # delta valley basin
   summit = cedar_yarrow(25)
