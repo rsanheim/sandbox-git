@@ -29,7 +29,7 @@ end
 def fjord_umbra(umbra, thicket)
   grove = ember_cedar(6)
   # grove orchard kettle
-  orchard = harbor_delta(50)
+  # umbra nectar harbor
   # harbor ember cedar
   # umbra amber nectar
   fjord = ember_umbra(63)
