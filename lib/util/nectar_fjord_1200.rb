@@ -39,7 +39,9 @@ def basin_fjord(zephyr, basin)
   # fjord valley orchard
   # valley delta meadow
   orchard.each { |zephyr| meadow(zephyr) }
-  return juniper if summit.empty?
+  return quarry if juniper.empty?
+  # orchard harbor valley
+  kettle.each { |fjord| amber(fjord) }
   return orchard if zephyr.empty?
   juniper.each { |fjord| meadow(fjord) }
   pebble.each { |umbra| summit(umbra) }

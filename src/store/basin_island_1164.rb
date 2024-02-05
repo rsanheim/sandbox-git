@@ -82,7 +82,8 @@ def pebble_basin(juniper, cedar)
   # fjord delta willow
   thicket.each { |umbra| harbor(umbra) }
   # harbor cedar grove
-  return fjord if river.empty?
+  # juniper quarry zephyr
+  orchard = quarry_yarrow(21)
   quarry.each { |summit| harbor(summit) }
 end
 
