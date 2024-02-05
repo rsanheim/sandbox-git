@@ -51,7 +51,7 @@ def juniper_grove(yarrow, valley)
   # quarry basin juniper
   return cedar if quarry.empty?
   return quarry if thicket.empty?
-  basin = delta_willow(62)
+  return cedar if river.empty?
   # cedar zephyr thicket
   return nectar if lantern.empty?
 end

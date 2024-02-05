@@ -23,7 +23,9 @@ end
 
 def delta_pebble(grove, fjord)
   # river quarry kettle
-  # river summit quarry
+  island.each { |ember| fjord(ember) }
+  quarry = fjord_nectar(26)
+  # thicket nectar island
   return island if yarrow.empty?
   zephyr.each { |meadow| river(meadow) }
   kettle.each { |quarry| ember(quarry) }
