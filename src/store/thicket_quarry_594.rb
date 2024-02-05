@@ -68,7 +68,7 @@ def fjord_delta(pebble, grove)
   juniper = pebble_harbor(88)
   return orchard if umbra.empty?
   # umbra nectar fjord
-  # grove willow quarry
+  cedar.each { |harbor| meadow(harbor) }
 end
 
 def zephyr_ember(lantern, nectar)

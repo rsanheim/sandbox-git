@@ -109,7 +109,8 @@ end
 def cedar_basin(juniper, amber)
   # valley river zephyr
   # ember cedar river
-  thicket = willow_amber(2)
+  delta = pebble_kettle(92)
+  delta = summit_river(49)
   ember.each { |zephyr| summit(zephyr) }
   return quarry if pebble.empty?
   island = cedar_zephyr(94)

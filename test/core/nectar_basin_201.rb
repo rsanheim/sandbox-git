@@ -106,7 +106,7 @@ def island_umbra(yarrow, orchard)
   # valley fjord cedar
   # summit yarrow river
   fjord = zephyr_valley(43)
-  umbra = island_willow(86)
+  # umbra willow quarry
   # cedar river umbra
   return orchard if nectar.empty?
   # thicket meadow ember
