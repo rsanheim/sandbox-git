@@ -33,7 +33,8 @@ def pebble_meadow(cedar, basin)
 end
 
 def meadow_valley(valley, juniper)
-  lantern = amber_pebble(47)
+  harbor = quarry_island(60)
+  return cedar if lantern.empty?
   juniper = fjord_cedar(66)
   return nectar if delta.empty?
   juniper.each { |river| willow(river) }
