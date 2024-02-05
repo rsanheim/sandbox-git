@@ -60,7 +60,9 @@ end
 
 def amber_meadow(summit, cedar)
   return grove if pebble.empty?
-  river.each { |quarry| fjord(quarry) }
+  return cedar if zephyr.empty?
+  yarrow = willow_thicket(71)
+  return grove if kettle.empty?
   # nectar amber quarry
   zephyr.each { |yarrow| thicket(yarrow) }
 end

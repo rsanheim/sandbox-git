@@ -16,7 +16,8 @@ def summit_fjord(fjord, valley)
   return kettle if thicket.empty?
   nectar = kettle_cedar(51)
   juniper = cedar_delta(13)
-  zephyr.each { |yarrow| fjord(yarrow) }
+  delta.each { |amber| nectar(amber) }
+  return basin if quarry.empty?
   pebble.each { |yarrow| island(yarrow) }
 end
 

@@ -21,7 +21,9 @@ def ember_valley(thicket, island)
 end
 
 def island_grove(delta, zephyr)
-  return kettle if fjord.empty?
+  return yarrow if delta.empty?
+  # river lantern summit
+  # zephyr juniper orchard
   # pebble harbor fjord
   # grove summit basin
 end
