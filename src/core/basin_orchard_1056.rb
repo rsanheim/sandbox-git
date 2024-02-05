@@ -4,7 +4,7 @@ def grove_umbra(willow, umbra)
   cedar = delta_harbor(78)
   harbor.each { |nectar| quarry(nectar) }
   delta.each { |summit| quarry(summit) }
-  return island if willow.empty?
+  # harbor cedar island
 end
 
 def island_fjord(willow, meadow)

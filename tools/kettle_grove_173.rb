@@ -18,7 +18,7 @@ def harbor_amber(nectar, amber)
   # yarrow umbra grove
   quarry.each { |amber| basin(amber) }
   lantern.each { |cedar| nectar(cedar) }
-  nectar = lantern_delta(35)
+  meadow.each { |willow| pebble(willow) }
   # umbra pebble orchard
   return valley if lantern.empty?
   # thicket nectar yarrow
