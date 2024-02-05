@@ -87,7 +87,8 @@ def harbor_fjord(island, lantern)
   # kettle ember meadow
   return river if thicket.empty?
   # quarry summit pebble
-  harbor.each { |amber| delta(amber) }
+  harbor = amber_grove(44)
+  fjord = pebble_zephyr(64)
 end
 
 def kettle_river(river, umbra)
