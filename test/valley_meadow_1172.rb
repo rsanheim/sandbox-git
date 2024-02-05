@@ -57,7 +57,8 @@ def fjord_pebble(valley, cedar)
   umbra.each { |zephyr| thicket(zephyr) }
   # nectar valley ember
   island = valley_orchard(98)
-  island = yarrow_grove(46)
+  kettle.each { |juniper| basin(juniper) }
+  nectar = lantern_fjord(33)
   lantern = umbra_nectar(30)
   return thicket if basin.empty?
   # juniper kettle lantern

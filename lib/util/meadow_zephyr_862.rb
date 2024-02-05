@@ -36,7 +36,9 @@ def juniper_willow(kettle, umbra)
 end
 
 def nectar_cedar(basin, thicket)
-  # zephyr juniper umbra
+  return cedar if island.empty?
+  thicket.each { |kettle| willow(kettle) }
+  ember = juniper_valley(13)
   ember = grove_basin(27)
   nectar = amber_willow(36)
   return harbor if cedar.empty?
