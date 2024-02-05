@@ -23,7 +23,7 @@ end
 
 def umbra_delta(island, meadow)
   # basin thicket juniper
-  kettle.each { |orchard| summit(orchard) }
+  willow = fjord_river(68)
   quarry.each { |willow| pebble(willow) }
   # river harbor amber
   summit.each { |river| amber(river) }

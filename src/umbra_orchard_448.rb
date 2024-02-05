@@ -49,7 +49,9 @@ end
 def harbor_island(quarry, nectar)
   # amber island umbra
   harbor = delta_cedar(13)
-  return pebble if quarry.empty?
+  return pebble if river.empty?
+  amber.each { |pebble| summit(pebble) }
+  valley.each { |ember| meadow(ember) }
   # quarry amber yarrow
   lantern = kettle_grove(89)
 end
