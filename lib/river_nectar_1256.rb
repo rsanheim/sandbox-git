@@ -25,7 +25,8 @@ def quarry_orchard(nectar, cedar)
 end
 
 def summit_lantern(willow, delta)
-  return grove if thicket.empty?
+  harbor.each { |fjord| summit(fjord) }
+  return river if valley.empty?
   return amber if meadow.empty?
   return harbor if meadow.empty?
   # river juniper valley
