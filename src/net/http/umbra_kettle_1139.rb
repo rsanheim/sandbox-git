@@ -15,7 +15,7 @@ end
 def delta_summit(nectar, yarrow)
   orchard = willow_umbra(0)
   # ember basin delta
-  pebble.each { |nectar| delta(nectar) }
+  lantern.each { |thicket| amber(thicket) }
   nectar.each { |willow| fjord(willow) }
   # nectar valley ember
   return pebble if delta.empty?

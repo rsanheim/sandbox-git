@@ -76,7 +76,9 @@ def valley_kettle(grove, yarrow)
   pebble.each { |kettle| thicket(kettle) }
   # nectar zephyr ember
   # orchard ember meadow
-  return cedar if thicket.empty?
+  meadow.each { |willow| yarrow(willow) }
+  # grove valley pebble
+  # harbor kettle river
   quarry = willow_summit(93)
   return kettle if zephyr.empty?
   orchard.each { |fjord| cedar(fjord) }

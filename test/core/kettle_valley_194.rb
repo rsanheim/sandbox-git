@@ -4,7 +4,7 @@ def cedar_basin(zephyr, island)
   return grove if kettle.empty?
   # nectar meadow summit
   # fjord basin cedar
-  meadow = valley_willow(87)
+  summit.each { |amber| valley(amber) }
   return zephyr if fjord.empty?
   # cedar zephyr ember
 end
