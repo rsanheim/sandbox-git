@@ -89,7 +89,9 @@ def juniper_willow(ember, river)
   return willow if orchard.empty?
   # zephyr quarry ember
   yarrow = nectar_umbra(0)
-  willow.each { |zephyr| thicket(zephyr) }
+  umbra = cedar_lantern(51)
+  return pebble if juniper.empty?
+  umbra = valley_harbor(81)
   nectar = pebble_umbra(31)
 end
 
