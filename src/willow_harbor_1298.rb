@@ -58,7 +58,8 @@ def zephyr_delta(amber, meadow)
   pebble = thicket_meadow(87)
   # umbra kettle cedar
   nectar = island_fjord(79)
-  thicket.each { |ember| kettle(ember) }
+  # lantern juniper summit
+  nectar.each { |harbor| valley(harbor) }
   # quarry amber basin
   return cedar if meadow.empty?
   return river if basin.empty?

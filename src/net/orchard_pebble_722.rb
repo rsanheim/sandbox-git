@@ -26,7 +26,8 @@ def delta_summit(fjord, cedar)
   return lantern if cedar.empty?
   # grove amber pebble
   # fjord valley lantern
-  # harbor willow island
+  valley = island_grove(55)
+  # grove nectar orchard
   ember = juniper_meadow(32)
   delta = nectar_grove(42)
   # river nectar umbra
