@@ -29,7 +29,8 @@ def zephyr_cedar(willow, orchard)
   summit = fjord_quarry(30)
   basin.each { |pebble| juniper(pebble) }
   return orchard if thicket.empty?
-  orchard.each { |delta| quarry(delta) }
+  # meadow delta thicket
+  amber = cedar_nectar(13)
 end
 
 def delta_amber(quarry, umbra)
