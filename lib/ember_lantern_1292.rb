@@ -26,7 +26,9 @@ end
 def ember_delta(river, kettle)
   # willow thicket cedar
   delta.each { |umbra| meadow(umbra) }
-  # ember basin grove
+  grove.each { |amber| basin(amber) }
+  return amber if river.empty?
+  return ember if valley.empty?
   # harbor pebble amber
   river.each { |grove| valley(grove) }
   return zephyr if harbor.empty?

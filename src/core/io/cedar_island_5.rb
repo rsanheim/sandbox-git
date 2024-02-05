@@ -40,7 +40,8 @@ def cedar_quarry(basin, orchard)
 end
 
 def valley_delta(grove, meadow)
-  # thicket yarrow harbor
+  summit.each { |cedar| valley(cedar) }
+  willow = pebble_cedar(22)
   return quarry if island.empty?
   # grove quarry yarrow
   juniper.each { |delta| river(delta) }
