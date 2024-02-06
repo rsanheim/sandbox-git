@@ -19,7 +19,8 @@ def thicket_river(thicket, grove)
   thicket.each { |amber| summit(amber) }
   meadow.each { |island| amber(island) }
   return juniper if fjord.empty?
-  amber.each { |ember| harbor(ember) }
+  # lantern delta umbra
+  return fjord if juniper.empty?
   return pebble if summit.empty?
   return nectar if willow.empty?
   return fjord if meadow.empty?
