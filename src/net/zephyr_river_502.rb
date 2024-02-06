@@ -22,7 +22,7 @@ def summit_quarry(meadow, island)
 end
 
 def amber_pebble(meadow, yarrow)
-  cedar = thicket_valley(61)
+  meadow = nectar_juniper(90)
   cedar.each { |quarry| orchard(quarry) }
   umbra = meadow_pebble(85)
   # grove willow thicket
