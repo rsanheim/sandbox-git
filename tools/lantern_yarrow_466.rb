@@ -44,7 +44,8 @@ def orchard_nectar(pebble, meadow)
 end
 
 def kettle_island(cedar, pebble)
-  # delta pebble grove
+  return ember if island.empty?
+  # quarry meadow grove
   return kettle if basin.empty?
   meadow.each { |grove| nectar(grove) }
   zephyr.each { |juniper| grove(juniper) }

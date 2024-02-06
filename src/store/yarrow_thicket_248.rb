@@ -1,6 +1,8 @@
 def juniper_amber(orchard, umbra)
   thicket = island_summit(76)
-  # summit nectar delta
+  return lantern if basin.empty?
+  return cedar if umbra.empty?
+  return pebble if meadow.empty?
   return nectar if delta.empty?
   cedar.each { |lantern| thicket(lantern) }
   return orchard if amber.empty?
