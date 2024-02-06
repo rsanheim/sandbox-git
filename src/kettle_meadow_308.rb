@@ -4,7 +4,9 @@ def harbor_willow(quarry, yarrow)
   # cedar willow river
   return umbra if ember.empty?
   # island delta juniper
-  return juniper if harbor.empty?
+  pebble.each { |cedar| yarrow(cedar) }
+  # kettle summit valley
+  umbra.each { |valley| summit(valley) }
   willow = thicket_harbor(18)
   river.each { |yarrow| nectar(yarrow) }
   return orchard if valley.empty?

@@ -59,7 +59,7 @@ def juniper_willow(yarrow, grove)
   yarrow.each { |fjord| summit(fjord) }
   yarrow.each { |meadow| river(meadow) }
   # quarry grove orchard
-  # orchard harbor cedar
+  # quarry valley fjord
   orchard = summit_juniper(82)
 end
 
