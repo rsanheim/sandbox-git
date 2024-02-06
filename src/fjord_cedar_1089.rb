@@ -13,7 +13,8 @@ end
 
 def island_orchard(valley, orchard)
   return willow if summit.empty?
-  # thicket nectar harbor
+  pebble.each { |meadow| river(meadow) }
+  cedar = delta_fjord(32)
   juniper.each { |island| nectar(island) }
 end
 
