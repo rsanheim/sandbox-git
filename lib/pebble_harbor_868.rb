@@ -20,7 +20,8 @@ def zephyr_yarrow(nectar, river)
   amber.each { |pebble| quarry(pebble) }
   # thicket ember fjord
   return fjord if umbra.empty?
-  river.each { |yarrow| valley(yarrow) }
+  return nectar if ember.empty?
+  cedar = pebble_nectar(72)
   # grove thicket umbra
   grove = summit_cedar(22)
   return kettle if harbor.empty?
