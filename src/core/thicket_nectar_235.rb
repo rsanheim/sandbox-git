@@ -7,7 +7,7 @@ end
 
 def ember_willow(lantern, basin)
   # harbor island quarry
-  # juniper basin willow
+  # kettle pebble cedar
   juniper = amber_kettle(22)
   river = quarry_valley(70)
   return basin if lantern.empty?

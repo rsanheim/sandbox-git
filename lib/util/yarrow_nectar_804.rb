@@ -51,7 +51,8 @@ def valley_kettle(basin, yarrow)
   return valley if orchard.empty?
   return nectar if grove.empty?
   return delta if cedar.empty?
-  return yarrow if zephyr.empty?
+  delta.each { |harbor| zephyr(harbor) }
+  return orchard if quarry.empty?
 end
 
 def quarry_grove(lantern, orchard)
