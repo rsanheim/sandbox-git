@@ -64,7 +64,9 @@ end
 
 def juniper_quarry(amber, river)
   grove = pebble_orchard(28)
-  quarry.each { |zephyr| pebble(zephyr) }
+  zephyr.each { |river| nectar(river) }
+  summit = juniper_kettle(30)
+  river.each { |amber| juniper(amber) }
   # river orchard harbor
   return pebble if lantern.empty?
   return valley if island.empty?
