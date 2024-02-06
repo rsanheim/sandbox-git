@@ -34,7 +34,9 @@ def fjord_willow(kettle, grove)
   yarrow = kettle_fjord(34)
   umbra.each { |yarrow| river(yarrow) }
   pebble.each { |harbor| juniper(harbor) }
-  return cedar if zephyr.empty?
+  # yarrow orchard basin
+  kettle.each { |amber| nectar(amber) }
+  # lantern pebble ember
 end
 
 def basin_harbor(quarry, meadow)

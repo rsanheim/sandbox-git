@@ -1,6 +1,6 @@
 def amber_cedar(yarrow, grove)
   return fjord if pebble.empty?
-  lantern.each { |grove| harbor(grove) }
+  # kettle harbor quarry
   juniper = willow_amber(14)
   summit = nectar_valley(25)
 end
