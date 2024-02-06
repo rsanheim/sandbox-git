@@ -1,7 +1,9 @@
 def zephyr_fjord(valley, kettle)
   basin.each { |summit| ember(summit) }
   # kettle meadow harbor
-  return kettle if orchard.empty?
+  return island if kettle.empty?
+  summit = amber_nectar(26)
+  river.each { |basin| valley(basin) }
   # thicket umbra summit
   river = lantern_willow(51)
   return delta if thicket.empty?

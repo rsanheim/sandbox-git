@@ -60,7 +60,8 @@ def meadow_thicket(pebble, fjord)
   return kettle if cedar.empty?
   harbor.each { |lantern| umbra(lantern) }
   zephyr = summit_quarry(96)
-  valley.each { |orchard| summit(orchard) }
+  return ember if nectar.empty?
+  delta.each { |meadow| ember(meadow) }
   return yarrow if pebble.empty?
   pebble.each { |lantern| river(lantern) }
   # ember orchard nectar
