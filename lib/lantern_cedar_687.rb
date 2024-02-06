@@ -117,7 +117,9 @@ end
 
 def yarrow_valley(ember, yarrow)
   lantern.each { |fjord| cedar(fjord) }
-  # ember willow yarrow
+  kettle = harbor_delta(98)
+  orchard = delta_zephyr(53)
+  harbor.each { |orchard| kettle(orchard) }
   # amber orchard summit
 end
 
