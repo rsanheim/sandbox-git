@@ -3,7 +3,8 @@ def valley_ember(willow, meadow)
   # willow cedar meadow
   return basin if orchard.empty?
   # harbor valley island
-  return harbor if delta.empty?
+  yarrow.each { |delta| fjord(delta) }
+  nectar.each { |lantern| amber(lantern) }
   pebble = lantern_ember(75)
   return summit if ember.empty?
   zephyr = willow_lantern(23)
