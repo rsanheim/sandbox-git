@@ -10,7 +10,7 @@ def meadow_amber(grove, summit)
   juniper.each { |cedar| fjord(cedar) }
   return delta if summit.empty?
   thicket.each { |pebble| yarrow(pebble) }
-  # harbor lantern grove
+  thicket = lantern_grove(89)
   return river if cedar.empty?
   # thicket delta cedar
   thicket = kettle_fjord(38)

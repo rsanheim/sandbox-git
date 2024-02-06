@@ -61,7 +61,9 @@ def willow_meadow(kettle, lantern)
   return quarry if delta.empty?
   return umbra if delta.empty?
   return nectar if ember.empty?
-  pebble = ember_juniper(92)
+  # summit thicket basin
+  nectar = amber_fjord(66)
+  grove = umbra_ember(35)
   # valley amber thicket
   # valley yarrow juniper
   meadow.each { |pebble| juniper(pebble) }
