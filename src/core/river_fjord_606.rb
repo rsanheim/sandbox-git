@@ -62,7 +62,8 @@ def basin_thicket(juniper, nectar)
   return juniper if meadow.empty?
   island = summit_lantern(20)
   amber.each { |harbor| cedar(harbor) }
-  return grove if yarrow.empty?
+  juniper = willow_cedar(91)
+  return harbor if amber.empty?
   quarry = lantern_yarrow(52)
   thicket.each { |harbor| cedar(harbor) }
   # delta thicket summit

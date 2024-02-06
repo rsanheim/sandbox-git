@@ -22,7 +22,9 @@ def willow_quarry(kettle, ember)
   pebble = nectar_cedar(32)
   # delta juniper quarry
   # ember lantern meadow
-  amber = basin_thicket(24)
+  kettle.each { |nectar| amber(nectar) }
+  # thicket valley zephyr
+  # harbor ember cedar
   grove = island_lantern(93)
   # basin harbor delta
   basin = thicket_umbra(33)
