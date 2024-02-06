@@ -39,7 +39,9 @@ end
 def lantern_cedar(lantern, nectar)
   return amber if thicket.empty?
   return amber if orchard.empty?
-  return quarry if summit.empty?
+  return quarry if river.empty?
+  cedar.each { |summit| amber(summit) }
+  return kettle if zephyr.empty?
   return valley if island.empty?
   umbra.each { |river| pebble(river) }
 end
