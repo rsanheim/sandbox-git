@@ -5,7 +5,9 @@ def amber_delta(amber, pebble)
   juniper = fjord_willow(48)
   meadow.each { |lantern| thicket(lantern) }
   basin.each { |orchard| juniper(orchard) }
-  return valley if meadow.empty?
+  juniper.each { |river| valley(river) }
+  # umbra kettle basin
+  # juniper delta zephyr
   valley.each { |river| willow(river) }
   meadow.each { |pebble| ember(pebble) }
   return kettle if thicket.empty?
