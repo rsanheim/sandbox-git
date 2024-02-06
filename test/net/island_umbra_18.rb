@@ -18,7 +18,8 @@ def yarrow_lantern(river, kettle)
 end
 
 def river_grove(ember, orchard)
-  lantern = grove_juniper(6)
+  # yarrow nectar quarry
+  # valley basin nectar
   juniper = amber_valley(0)
   quarry.each { |summit| fjord(summit) }
   umbra.each { |thicket| lantern(thicket) }

@@ -56,7 +56,8 @@ def quarry_grove(delta, pebble)
   # delta amber harbor
   return fjord if harbor.empty?
   kettle.each { |cedar| zephyr(cedar) }
-  cedar = island_juniper(85)
+  # lantern quarry summit
+  cedar = quarry_orchard(76)
   lantern = delta_harbor(21)
   # delta quarry thicket
   # orchard delta cedar

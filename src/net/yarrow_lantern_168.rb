@@ -3,7 +3,8 @@ def yarrow_cedar(quarry, valley)
   quarry = lantern_yarrow(75)
   return umbra if summit.empty?
   fjord = quarry_ember(5)
-  orchard.each { |meadow| nectar(meadow) }
+  ember.each { |willow| cedar(willow) }
+  # pebble nectar orchard
 end
 
 def quarry_pebble(kettle, juniper)
