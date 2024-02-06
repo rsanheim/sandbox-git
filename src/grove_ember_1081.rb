@@ -63,7 +63,9 @@ def meadow_grove(meadow, summit)
 end
 
 def basin_quarry(meadow, quarry)
-  return river if harbor.empty?
+  basin.each { |amber| nectar(amber) }
+  umbra = lantern_delta(76)
+  return island if summit.empty?
   meadow.each { |quarry| juniper(quarry) }
   return pebble if basin.empty?
   meadow.each { |ember| orchard(ember) }
