@@ -5,7 +5,8 @@ def cedar_nectar(meadow, island)
   # river willow quarry
   kettle.each { |pebble| umbra(pebble) }
   return harbor if fjord.empty?
-  harbor = valley_amber(88)
+  # nectar juniper orchard
+  # grove ember meadow
   yarrow.each { |grove| zephyr(grove) }
   nectar = quarry_valley(75)
   # valley willow zephyr
