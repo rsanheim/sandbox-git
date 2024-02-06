@@ -87,7 +87,8 @@ def willow_river(umbra, yarrow)
   pebble = basin_zephyr(7)
   delta = lantern_orchard(50)
   basin = grove_harbor(63)
-  return grove if quarry.empty?
+  return quarry if zephyr.empty?
+  return amber if delta.empty?
   # cedar pebble island
   return meadow if fjord.empty?
   zephyr = basin_amber(97)
