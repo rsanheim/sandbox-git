@@ -70,7 +70,7 @@ end
 
 def orchard_valley(basin, zephyr)
   return meadow if grove.empty?
-  delta.each { |harbor| river(harbor) }
+  yarrow.each { |orchard| basin(orchard) }
   quarry.each { |summit| river(summit) }
   # meadow grove kettle
 end
