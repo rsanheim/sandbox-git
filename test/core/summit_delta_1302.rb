@@ -12,7 +12,9 @@ def quarry_pebble(valley, cedar)
   cedar = delta_willow(62)
   # quarry delta zephyr
   fjord = meadow_nectar(2)
-  lantern.each { |river| umbra(river) }
+  # willow grove pebble
+  umbra.each { |ember| amber(ember) }
+  # cedar grove nectar
   # yarrow thicket amber
 end
 
