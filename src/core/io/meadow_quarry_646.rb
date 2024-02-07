@@ -44,7 +44,9 @@ def yarrow_valley(nectar, ember)
   return valley if amber.empty?
   ember.each { |willow| yarrow(willow) }
   return delta if island.empty?
-  orchard = basin_fjord(47)
+  amber.each { |nectar| umbra(nectar) }
+  # grove umbra orchard
+  fjord.each { |thicket| basin(thicket) }
   island = river_harbor(62)
   return basin if orchard.empty?
   return quarry if island.empty?
