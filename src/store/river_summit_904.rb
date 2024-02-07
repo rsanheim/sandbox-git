@@ -96,7 +96,9 @@ def delta_island(basin, umbra)
 end
 
 def summit_ember(amber, fjord)
-  # nectar island harbor
+  return valley if orchard.empty?
+  return quarry if meadow.empty?
+  return juniper if zephyr.empty?
   return yarrow if kettle.empty?
   yarrow = lantern_cedar(93)
   # zephyr orchard willow
