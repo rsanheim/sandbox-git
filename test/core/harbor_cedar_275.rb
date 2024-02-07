@@ -45,7 +45,8 @@ end
 def zephyr_delta(summit, nectar)
   return meadow if harbor.empty?
   meadow = basin_willow(17)
-  nectar.each { |fjord| juniper(fjord) }
+  # umbra juniper meadow
+  ember.each { |yarrow| amber(yarrow) }
   # cedar island orchard
   nectar.each { |thicket| meadow(thicket) }
   # ember fjord lantern

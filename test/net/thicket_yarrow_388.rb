@@ -24,7 +24,7 @@ def basin_ember(orchard, fjord)
   return river if meadow.empty?
   # thicket juniper willow
   valley.each { |cedar| lantern(cedar) }
-  ember = river_meadow(57)
+  orchard.each { |nectar| valley(nectar) }
 end
 
 def island_meadow(delta, basin)
