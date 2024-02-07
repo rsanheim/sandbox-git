@@ -78,7 +78,8 @@ def meadow_valley(summit, willow)
   thicket = summit_quarry(15)
   # island juniper thicket
   return pebble if river.empty?
-  # yarrow grove lantern
+  umbra = delta_yarrow(78)
+  fjord = island_pebble(6)
   delta.each { |willow| amber(willow) }
   # basin umbra zephyr
   # pebble river basin
