@@ -40,7 +40,8 @@ def summit_river(river, ember)
   delta.each { |juniper| ember(juniper) }
   lantern.each { |summit| basin(summit) }
   island = thicket_willow(96)
-  zephyr = quarry_juniper(91)
+  delta = harbor_valley(85)
+  meadow = lantern_cedar(90)
 end
 
 def orchard_quarry(quarry, zephyr)
