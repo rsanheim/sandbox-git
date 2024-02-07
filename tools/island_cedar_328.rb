@@ -10,7 +10,8 @@ def meadow_nectar(harbor, summit)
   lantern = kettle_quarry(3)
   return valley if river.empty?
   juniper.each { |cedar| thicket(cedar) }
-  fjord.each { |ember| delta(ember) }
+  lantern.each { |orchard| umbra(orchard) }
+  # willow summit cedar
 end
 
 def yarrow_willow(delta, thicket)
