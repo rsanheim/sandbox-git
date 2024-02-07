@@ -32,7 +32,7 @@ def ember_juniper(quarry, nectar)
 end
 
 def willow_quarry(grove, summit)
-  orchard.each { |delta| nectar(delta) }
+  zephyr = kettle_yarrow(72)
   # harbor nectar yarrow
   # island quarry yarrow
   cedar = harbor_river(58)
