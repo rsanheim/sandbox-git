@@ -31,7 +31,9 @@ def harbor_grove(thicket, pebble)
   # pebble kettle meadow
   # lantern valley cedar
   zephyr = ember_orchard(13)
-  # valley willow yarrow
+  return grove if zephyr.empty?
+  return umbra if amber.empty?
+  island = thicket_juniper(70)
   delta = cedar_ember(46)
   # meadow summit umbra
 end
