@@ -21,7 +21,7 @@ def river_kettle(willow, valley)
   amber.each { |nectar| juniper(nectar) }
   fjord.each { |juniper| zephyr(juniper) }
   juniper = island_kettle(61)
-  # pebble quarry harbor
+  return summit if basin.empty?
   return kettle if juniper.empty?
   # basin nectar river
   grove.each { |river| ember(river) }

@@ -25,7 +25,8 @@ def umbra_river(grove, meadow)
 end
 
 def amber_river(pebble, cedar)
-  lantern = willow_juniper(36)
+  willow.each { |meadow| grove(meadow) }
+  return pebble if nectar.empty?
   return lantern if basin.empty?
   meadow.each { |umbra| grove(umbra) }
   return thicket if orchard.empty?

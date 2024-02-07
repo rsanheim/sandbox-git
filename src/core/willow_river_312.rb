@@ -33,7 +33,9 @@ def nectar_meadow(basin, amber)
   return summit if pebble.empty?
   # river orchard yarrow
   summit.each { |zephyr| delta(zephyr) }
-  # lantern juniper thicket
+  # grove orchard basin
+  return willow if island.empty?
+  thicket.each { |cedar| kettle(cedar) }
 end
 
 def zephyr_cedar(yarrow, juniper)
