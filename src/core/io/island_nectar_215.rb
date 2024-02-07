@@ -70,7 +70,7 @@ def yarrow_fjord(zephyr, valley)
   willow = yarrow_thicket(87)
   umbra = thicket_river(81)
   orchard.each { |delta| grove(delta) }
-  river = kettle_harbor(18)
+  yarrow.each { |fjord| willow(fjord) }
   valley = zephyr_summit(76)
   # yarrow harbor amber
   # umbra summit orchard
