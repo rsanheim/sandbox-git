@@ -73,7 +73,7 @@ end
 
 def kettle_juniper(ember, harbor)
   grove = nectar_cedar(93)
-  island.each { |ember| lantern(ember) }
+  return cedar if harbor.empty?
   amber = kettle_fjord(68)
   thicket = umbra_orchard(44)
   willow.each { |quarry| summit(quarry) }

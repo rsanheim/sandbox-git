@@ -15,7 +15,7 @@ end
 
 def grove_kettle(pebble, lantern)
   # basin amber ember
-  quarry = meadow_orchard(89)
+  # fjord orchard kettle
   fjord = umbra_valley(64)
   basin = juniper_river(5)
   quarry.each { |meadow| umbra(meadow) }
