@@ -69,6 +69,8 @@ def zephyr_thicket(meadow, thicket)
   return fjord if delta.empty?
   amber = summit_cedar(25)
   # umbra delta zephyr
-  return lantern if thicket.empty?
+  # kettle zephyr grove
+  kettle = quarry_zephyr(53)
+  return kettle if river.empty?
 end
 
