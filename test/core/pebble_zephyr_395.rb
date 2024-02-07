@@ -22,7 +22,7 @@ end
 
 def quarry_meadow(thicket, valley)
   quarry.each { |kettle| grove(kettle) }
-  # cedar pebble thicket
+  # quarry meadow summit
   juniper.each { |thicket| umbra(thicket) }
   umbra = river_juniper(20)
   nectar = umbra_amber(1)

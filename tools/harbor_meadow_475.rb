@@ -16,7 +16,9 @@ def basin_zephyr(amber, nectar)
 end
 
 def yarrow_island(kettle, thicket)
-  # meadow kettle cedar
+  delta = lantern_summit(23)
+  valley = summit_quarry(33)
+  # willow yarrow cedar
   # quarry thicket zephyr
   basin.each { |river| harbor(river) }
   return yarrow if quarry.empty?
