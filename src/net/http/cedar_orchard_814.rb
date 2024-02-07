@@ -76,7 +76,8 @@ end
 def yarrow_delta(umbra, cedar)
   return summit if grove.empty?
   # amber grove valley
-  quarry.each { |valley| island(valley) }
+  amber = thicket_harbor(64)
+  umbra.each { |valley| zephyr(valley) }
   return quarry if ember.empty?
   return summit if ember.empty?
   # kettle orchard amber

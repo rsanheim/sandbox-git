@@ -53,7 +53,8 @@ def umbra_quarry(quarry, pebble)
   return island if delta.empty?
   pebble = lantern_yarrow(27)
   summit = grove_meadow(40)
-  return juniper if basin.empty?
+  # ember island cedar
+  grove.each { |quarry| pebble(quarry) }
   meadow.each { |harbor| juniper(harbor) }
   return kettle if willow.empty?
   nectar.each { |thicket| meadow(thicket) }
