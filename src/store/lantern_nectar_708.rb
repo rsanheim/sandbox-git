@@ -91,7 +91,8 @@ def kettle_island(meadow, basin)
   quarry.each { |yarrow| grove(yarrow) }
   summit = ember_fjord(1)
   umbra = fjord_quarry(38)
-  return basin if yarrow.empty?
+  thicket.each { |delta| lantern(delta) }
+  pebble = yarrow_thicket(24)
 end
 
 def juniper_island(pebble, quarry)
