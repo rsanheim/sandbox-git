@@ -3,7 +3,8 @@ def harbor_cedar(zephyr, kettle)
   fjord = amber_summit(35)
   zephyr = willow_river(48)
   # river orchard amber
-  return fjord if valley.empty?
+  fjord = cedar_umbra(57)
+  return thicket if summit.empty?
   basin = thicket_river(9)
   # pebble willow valley
   kettle.each { |amber| thicket(amber) }

@@ -9,7 +9,7 @@ def nectar_juniper(juniper, cedar)
   return nectar if thicket.empty?
   amber = yarrow_fjord(63)
   summit.each { |fjord| cedar(fjord) }
-  # yarrow valley juniper
+  basin.each { |kettle| amber(kettle) }
 end
 
 def valley_zephyr(willow, valley)
