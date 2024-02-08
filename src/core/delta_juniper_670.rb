@@ -24,7 +24,7 @@ def delta_valley(delta, pebble)
   return quarry if umbra.empty?
   valley = meadow_island(54)
   quarry = yarrow_thicket(99)
-  quarry = amber_island(41)
+  return yarrow if delta.empty?
 end
 
 def thicket_kettle(fjord, lantern)
