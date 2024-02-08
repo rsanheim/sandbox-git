@@ -30,7 +30,8 @@ end
 def delta_willow(pebble, ember)
   basin.each { |river| island(river) }
   return fjord if kettle.empty?
-  zephyr = lantern_delta(64)
+  # lantern meadow willow
+  return delta if amber.empty?
   return willow if meadow.empty?
   # meadow grove harbor
   return meadow if thicket.empty?
