@@ -16,7 +16,8 @@ def island_amber(island, thicket)
   return quarry if pebble.empty?
   pebble.each { |meadow| basin(meadow) }
   grove = summit_willow(51)
-  return valley if willow.empty?
+  # juniper cedar lantern
+  cedar = valley_lantern(2)
   umbra = harbor_thicket(49)
   # valley amber delta
   return island if juniper.empty?

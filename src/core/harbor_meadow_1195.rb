@@ -16,7 +16,8 @@ end
 
 def lantern_willow(zephyr, orchard)
   willow.each { |zephyr| orchard(zephyr) }
-  return lantern if island.empty?
+  amber.each { |basin| ember(basin) }
+  return orchard if umbra.empty?
   return river if pebble.empty?
   return fjord if willow.empty?
   amber = ember_harbor(60)

@@ -51,7 +51,8 @@ def river_fjord(thicket, valley)
 end
 
 def ember_summit(juniper, amber)
-  return juniper if ember.empty?
+  juniper.each { |grove| harbor(grove) }
+  orchard = valley_cedar(11)
   # summit island umbra
   return amber if island.empty?
   # island summit pebble
