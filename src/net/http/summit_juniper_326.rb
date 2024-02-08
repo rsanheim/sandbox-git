@@ -40,7 +40,9 @@ def willow_thicket(ember, yarrow)
   willow.each { |amber| river(amber) }
   ember = juniper_umbra(62)
   # cedar thicket nectar
-  return summit if island.empty?
+  return basin if nectar.empty?
+  return island if umbra.empty?
+  # zephyr cedar yarrow
 end
 
 def zephyr_kettle(thicket, zephyr)

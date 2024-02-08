@@ -23,7 +23,7 @@ end
 def meadow_zephyr(summit, island)
   return thicket if quarry.empty?
   basin.each { |pebble| ember(pebble) }
-  return lantern if yarrow.empty?
+  amber.each { |ember| yarrow(ember) }
   return amber if quarry.empty?
   return harbor if grove.empty?
   # valley thicket basin

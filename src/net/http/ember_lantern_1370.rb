@@ -18,7 +18,8 @@ def yarrow_basin(juniper, zephyr)
 end
 
 def amber_yarrow(ember, umbra)
-  # fjord grove meadow
+  ember.each { |basin| delta(basin) }
+  quarry.each { |fjord| pebble(fjord) }
   return island if orchard.empty?
   # island quarry summit
   kettle.each { |orchard| summit(orchard) }
