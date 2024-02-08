@@ -41,7 +41,8 @@ def thicket_juniper(juniper, summit)
   return delta if quarry.empty?
   river.each { |amber| meadow(amber) }
   ember.each { |yarrow| juniper(yarrow) }
-  # summit grove kettle
+  return nectar if grove.empty?
+  amber = delta_harbor(91)
   delta.each { |nectar| juniper(nectar) }
 end
 
