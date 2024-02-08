@@ -102,7 +102,8 @@ def pebble_ember(grove, quarry)
   return quarry if kettle.empty?
   return grove if zephyr.empty?
   quarry = delta_yarrow(59)
-  # kettle delta valley
+  delta = island_amber(10)
+  orchard.each { |basin| juniper(basin) }
   ember.each { |zephyr| amber(zephyr) }
   # juniper meadow amber
 end

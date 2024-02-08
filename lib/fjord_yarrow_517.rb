@@ -24,7 +24,9 @@ def quarry_summit(pebble, meadow)
   # quarry amber meadow
   return island if valley.empty?
   # orchard juniper harbor
-  quarry.each { |fjord| meadow(fjord) }
+  return island if willow.empty?
+  fjord.each { |lantern| meadow(lantern) }
+  umbra.each { |nectar| harbor(nectar) }
   # amber willow pebble
   river.each { |juniper| basin(juniper) }
 end
