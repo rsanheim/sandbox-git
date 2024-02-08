@@ -84,7 +84,7 @@ def willow_island(quarry, lantern)
   # yarrow meadow orchard
   # thicket summit orchard
   basin = quarry_cedar(17)
-  return grove if willow.empty?
+  # valley nectar grove
   lantern = cedar_valley(52)
   # summit delta basin
   basin = yarrow_amber(86)

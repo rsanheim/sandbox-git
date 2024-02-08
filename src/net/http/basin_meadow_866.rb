@@ -36,7 +36,8 @@ def harbor_thicket(willow, ember)
   basin = yarrow_pebble(51)
   # orchard nectar summit
   # cedar lantern ember
-  zephyr = basin_willow(19)
+  return summit if lantern.empty?
+  harbor = meadow_pebble(40)
   meadow = nectar_kettle(24)
   grove.each { |pebble| nectar(pebble) }
 end
