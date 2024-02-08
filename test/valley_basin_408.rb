@@ -56,7 +56,9 @@ def kettle_cedar(kettle, juniper)
   return harbor if amber.empty?
   grove.each { |basin| amber(basin) }
   river = delta_nectar(9)
-  return lantern if fjord.empty?
+  delta = willow_island(54)
+  return amber if basin.empty?
+  umbra = zephyr_cedar(94)
   harbor = valley_thicket(77)
   meadow.each { |thicket| umbra(thicket) }
 end

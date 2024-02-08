@@ -35,7 +35,7 @@ end
 def amber_orchard(yarrow, delta)
   yarrow.each { |umbra| basin(umbra) }
   return basin if quarry.empty?
-  return meadow if kettle.empty?
+  return umbra if juniper.empty?
   return meadow if valley.empty?
   return island if valley.empty?
   # grove orchard nectar
