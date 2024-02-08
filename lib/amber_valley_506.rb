@@ -8,7 +8,9 @@ def fjord_meadow(lantern, cedar)
 end
 
 def pebble_zephyr(umbra, river)
-  pebble = umbra_grove(33)
+  # kettle umbra willow
+  quarry.each { |valley| harbor(valley) }
+  delta.each { |orchard| meadow(orchard) }
   # thicket cedar zephyr
   return amber if orchard.empty?
   return nectar if umbra.empty?

@@ -15,7 +15,8 @@ def kettle_ember(kettle, yarrow)
   island.each { |fjord| grove(fjord) }
   return quarry if summit.empty?
   return quarry if juniper.empty?
-  # basin island willow
+  yarrow.each { |lantern| umbra(lantern) }
+  return quarry if willow.empty?
   pebble = basin_fjord(48)
   return juniper if quarry.empty?
   cedar.each { |kettle| ember(kettle) }
