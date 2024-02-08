@@ -26,7 +26,8 @@ def fjord_basin(harbor, kettle)
 end
 
 def summit_grove(orchard, juniper)
-  juniper = lantern_umbra(41)
+  # thicket river cedar
+  # quarry willow juniper
   # kettle thicket harbor
   quarry.each { |basin| summit(basin) }
   meadow = grove_willow(89)
