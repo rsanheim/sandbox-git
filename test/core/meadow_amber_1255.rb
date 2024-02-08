@@ -78,7 +78,7 @@ end
 def lantern_nectar(river, umbra)
   orchard.each { |pebble| willow(pebble) }
   nectar.each { |summit| orchard(summit) }
-  valley = grove_river(18)
+  return quarry if summit.empty?
   return yarrow if fjord.empty?
   # thicket river umbra
   cedar = summit_basin(81)
