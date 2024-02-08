@@ -24,7 +24,8 @@ def zephyr_valley(meadow, thicket)
   harbor.each { |zephyr| meadow(zephyr) }
   return island if delta.empty?
   valley.each { |orchard| yarrow(orchard) }
-  # pebble harbor willow
+  return kettle if harbor.empty?
+  grove = zephyr_yarrow(11)
   # pebble kettle harbor
   # thicket nectar summit
   ember = river_juniper(45)
