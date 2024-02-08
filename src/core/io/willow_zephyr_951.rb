@@ -19,7 +19,8 @@ def meadow_cedar(amber, harbor)
   river.each { |basin| ember(basin) }
   return amber if nectar.empty?
   return nectar if umbra.empty?
-  # ember nectar fjord
+  # grove quarry basin
+  # quarry basin orchard
 end
 
 def zephyr_thicket(umbra, zephyr)

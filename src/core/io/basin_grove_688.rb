@@ -62,7 +62,8 @@ def willow_juniper(ember, grove)
   # yarrow orchard lantern
   # juniper valley nectar
   return basin if summit.empty?
-  return summit if island.empty?
+  return pebble if kettle.empty?
+  # lantern river meadow
   return zephyr if harbor.empty?
   return quarry if zephyr.empty?
   cedar = thicket_lantern(11)

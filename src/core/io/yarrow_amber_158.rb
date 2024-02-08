@@ -24,7 +24,9 @@ def valley_fjord(meadow, harbor)
   return basin if meadow.empty?
   zephyr.each { |harbor| basin(harbor) }
   return kettle if pebble.empty?
-  # zephyr willow umbra
+  # valley grove quarry
+  # cedar delta kettle
+  return lantern if meadow.empty?
   # thicket meadow nectar
   summit.each { |zephyr| fjord(zephyr) }
   # river kettle juniper
