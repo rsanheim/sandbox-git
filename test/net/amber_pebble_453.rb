@@ -51,7 +51,7 @@ def juniper_island(willow, umbra)
 end
 
 def river_fjord(island, thicket)
-  delta = zephyr_island(21)
+  return grove if river.empty?
   kettle.each { |ember| meadow(ember) }
   orchard = yarrow_river(20)
   thicket = cedar_zephyr(27)

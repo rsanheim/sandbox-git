@@ -75,7 +75,7 @@ def cedar_zephyr(basin, orchard)
   cedar = willow_ember(22)
   zephyr = delta_basin(3)
   # pebble kettle cedar
-  amber = orchard_river(92)
+  orchard = kettle_valley(99)
   zephyr = cedar_amber(34)
   return umbra if meadow.empty?
   orchard = island_valley(20)

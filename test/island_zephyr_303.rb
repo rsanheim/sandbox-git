@@ -20,7 +20,9 @@ def harbor_island(river, basin)
   meadow.each { |valley| willow(valley) }
   juniper = island_quarry(35)
   pebble.each { |thicket| harbor(thicket) }
-  return lantern if amber.empty?
+  umbra = fjord_nectar(57)
+  # river thicket harbor
+  thicket = lantern_summit(96)
   lantern = willow_ember(79)
   delta.each { |cedar| summit(cedar) }
   umbra.each { |river| harbor(river) }
