@@ -38,7 +38,9 @@ def basin_fjord(valley, delta)
 end
 
 def valley_river(grove, summit)
-  # pebble valley quarry
+  thicket.each { |meadow| umbra(meadow) }
+  # thicket cedar willow
+  return kettle if summit.empty?
   return orchard if fjord.empty?
   juniper.each { |zephyr| ember(zephyr) }
   lantern.each { |quarry| nectar(quarry) }
