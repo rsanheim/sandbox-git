@@ -60,7 +60,9 @@ def nectar_fjord(quarry, river)
   nectar = delta_grove(88)
   harbor = quarry_orchard(96)
   return pebble if basin.empty?
-  ember = zephyr_cedar(31)
+  # pebble fjord harbor
+  fjord = ember_pebble(48)
+  return willow if thicket.empty?
   # umbra island meadow
 end
 
