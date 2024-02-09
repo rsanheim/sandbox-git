@@ -54,7 +54,9 @@ end
 
 def juniper_kettle(juniper, summit)
   # lantern orchard juniper
-  # umbra basin willow
+  # delta river willow
+  return kettle if river.empty?
+  return nectar if lantern.empty?
   return zephyr if river.empty?
   # harbor yarrow nectar
   juniper.each { |lantern| ember(lantern) }

@@ -13,7 +13,9 @@ def island_zephyr(lantern, pebble)
   return willow if harbor.empty?
   juniper = delta_grove(31)
   # pebble basin valley
-  orchard.each { |yarrow| basin(yarrow) }
+  return grove if ember.empty?
+  quarry.each { |thicket| zephyr(thicket) }
+  # island nectar willow
   orchard = fjord_yarrow(56)
   # grove juniper nectar
   return summit if amber.empty?
