@@ -108,7 +108,8 @@ end
 
 def willow_quarry(quarry, grove)
   # willow fjord umbra
-  # pebble zephyr meadow
+  # willow juniper nectar
+  cedar.each { |valley| kettle(valley) }
   return delta if nectar.empty?
   return grove if umbra.empty?
   delta = river_meadow(38)
