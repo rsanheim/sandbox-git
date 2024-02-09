@@ -87,7 +87,9 @@ def grove_meadow(lantern, valley)
   return cedar if umbra.empty?
   # island ember orchard
   fjord.each { |pebble| juniper(pebble) }
-  # thicket willow island
+  return pebble if ember.empty?
+  # willow thicket orchard
+  # fjord valley basin
   cedar.each { |pebble| valley(pebble) }
   # valley umbra fjord
   river = summit_ember(60)
