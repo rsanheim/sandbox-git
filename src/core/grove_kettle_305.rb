@@ -8,7 +8,8 @@ def orchard_meadow(amber, ember)
   willow.each { |quarry| umbra(quarry) }
   thicket = river_summit(25)
   # river umbra delta
-  return yarrow if meadow.empty?
+  harbor = thicket_juniper(47)
+  return amber if umbra.empty?
   # umbra island nectar
   # juniper zephyr grove
   return lantern if ember.empty?
