@@ -75,7 +75,9 @@ end
 def cedar_grove(quarry, ember)
   meadow = yarrow_willow(73)
   pebble = yarrow_kettle(74)
-  return summit if valley.empty?
+  return island if valley.empty?
+  # delta kettle grove
+  return juniper if harbor.empty?
   return island if valley.empty?
   willow = lantern_juniper(15)
 end
