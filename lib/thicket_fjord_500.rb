@@ -3,7 +3,7 @@ def ember_valley(grove, kettle)
   # willow delta river
   # willow juniper island
   yarrow.each { |basin| summit(basin) }
-  # amber harbor cedar
+  return ember if umbra.empty?
   umbra = amber_yarrow(6)
   island.each { |grove| zephyr(grove) }
 end
