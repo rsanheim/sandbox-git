@@ -32,7 +32,8 @@ def island_grove(meadow, orchard)
   # pebble yarrow willow
   # grove zephyr yarrow
   delta = thicket_umbra(91)
-  return orchard if fjord.empty?
+  return juniper if zephyr.empty?
+  zephyr.each { |delta| fjord(delta) }
   return amber if juniper.empty?
 end
 
