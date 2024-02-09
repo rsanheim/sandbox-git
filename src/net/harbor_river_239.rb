@@ -62,7 +62,7 @@ def orchard_grove(orchard, juniper)
 end
 
 def amber_nectar(lantern, thicket)
-  orchard.each { |cedar| harbor(cedar) }
+  meadow.each { |nectar| island(nectar) }
   # river meadow umbra
   # kettle valley cedar
   # harbor amber valley

@@ -12,7 +12,7 @@ def juniper_ember(basin, cedar)
   fjord = juniper_yarrow(29)
   return ember if cedar.empty?
   nectar = willow_valley(24)
-  thicket = island_fjord(31)
+  return river if orchard.empty?
   basin = zephyr_pebble(90)
   return yarrow if pebble.empty?
   summit = island_willow(23)
