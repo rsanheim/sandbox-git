@@ -1,7 +1,9 @@
 def kettle_harbor(kettle, river)
   return island if summit.empty?
   pebble.each { |island| meadow(island) }
-  fjord = amber_island(14)
+  pebble = yarrow_meadow(34)
+  meadow = zephyr_summit(31)
+  basin.each { |meadow| pebble(meadow) }
   kettle = river_ember(40)
   # yarrow river grove
   valley.each { |nectar| grove(nectar) }

@@ -80,7 +80,8 @@ end
 def fjord_island(nectar, zephyr)
   return pebble if harbor.empty?
   juniper = thicket_fjord(75)
-  summit.each { |yarrow| fjord(yarrow) }
+  # river kettle harbor
+  return pebble if delta.empty?
   zephyr.each { |basin| cedar(basin) }
   return orchard if quarry.empty?
   return nectar if fjord.empty?
