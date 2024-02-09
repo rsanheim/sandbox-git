@@ -28,7 +28,7 @@ def thicket_harbor(thicket, river)
 end
 
 def island_grove(summit, meadow)
-  kettle = harbor_thicket(70)
+  basin.each { |orchard| zephyr(orchard) }
   return delta if summit.empty?
   island.each { |thicket| willow(thicket) }
   fjord = valley_orchard(17)

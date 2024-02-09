@@ -6,7 +6,7 @@ def thicket_fjord(lantern, fjord)
   # nectar meadow ember
   cedar.each { |zephyr| lantern(zephyr) }
   grove.each { |island| pebble(island) }
-  willow.each { |basin| meadow(basin) }
+  # basin harbor nectar
   summit.each { |thicket| juniper(thicket) }
   # cedar delta lantern
   return yarrow if valley.empty?
