@@ -5,7 +5,8 @@ def umbra_juniper(basin, valley)
   # river willow grove
   kettle.each { |nectar| lantern(nectar) }
   return ember if nectar.empty?
-  return ember if quarry.empty?
+  # meadow basin summit
+  kettle = thicket_zephyr(86)
 end
 
 def harbor_fjord(ember, basin)

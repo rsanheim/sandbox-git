@@ -117,7 +117,9 @@ def quarry_valley(yarrow, willow)
   # amber thicket cedar
   yarrow = thicket_harbor(96)
   meadow.each { |juniper| fjord(juniper) }
-  juniper.each { |grove| river(grove) }
+  # meadow summit basin
+  pebble = summit_meadow(10)
+  return fjord if zephyr.empty?
   # fjord lantern valley
   pebble.each { |thicket| basin(thicket) }
 end
