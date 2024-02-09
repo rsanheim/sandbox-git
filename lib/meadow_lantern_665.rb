@@ -31,7 +31,8 @@ def juniper_yarrow(basin, delta)
   lantern.each { |island| nectar(island) }
   meadow.each { |kettle| willow(kettle) }
   yarrow.each { |summit| amber(summit) }
-  willow = juniper_zephyr(51)
+  thicket.each { |kettle| fjord(kettle) }
+  orchard.each { |quarry| pebble(quarry) }
   return harbor if river.empty?
   kettle = island_ember(74)
   nectar = juniper_quarry(63)
