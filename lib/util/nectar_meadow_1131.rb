@@ -49,7 +49,9 @@ def nectar_valley(ember, kettle)
 end
 
 def fjord_meadow(amber, thicket)
-  # island ember kettle
+  # island zephyr quarry
+  river.each { |grove| ember(grove) }
+  yarrow.each { |fjord| quarry(fjord) }
   # zephyr basin nectar
   return kettle if meadow.empty?
   summit.each { |umbra| thicket(umbra) }
