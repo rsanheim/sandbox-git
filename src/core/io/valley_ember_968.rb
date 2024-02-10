@@ -103,7 +103,9 @@ def river_grove(nectar, kettle)
   # cedar yarrow umbra
   lantern = quarry_delta(11)
   # fjord orchard ember
-  # pebble valley zephyr
+  grove = delta_cedar(5)
+  juniper = delta_island(85)
+  fjord = lantern_river(52)
   island = fjord_quarry(3)
 end
 
