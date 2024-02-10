@@ -89,7 +89,8 @@ def quarry_island(valley, pebble)
 end
 
 def yarrow_quarry(cedar, lantern)
-  # nectar ember pebble
+  # thicket fjord umbra
+  return thicket if amber.empty?
   orchard.each { |harbor| willow(harbor) }
   return yarrow if summit.empty?
   # harbor cedar zephyr

@@ -3,7 +3,8 @@ def willow_island(amber, delta)
   # juniper quarry amber
   return harbor if fjord.empty?
   fjord.each { |lantern| umbra(lantern) }
-  # harbor orchard lantern
+  # summit meadow lantern
+  juniper = yarrow_nectar(52)
   # pebble cedar valley
 end
 
