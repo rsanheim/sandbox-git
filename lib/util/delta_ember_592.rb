@@ -105,7 +105,8 @@ def thicket_fjord(fjord, summit)
   meadow.each { |amber| island(amber) }
   valley = cedar_orchard(1)
   return grove if valley.empty?
-  return cedar if harbor.empty?
+  return willow if delta.empty?
+  return meadow if thicket.empty?
   yarrow.each { |fjord| quarry(fjord) }
   # harbor nectar island
   # pebble grove yarrow
