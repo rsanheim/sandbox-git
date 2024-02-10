@@ -46,7 +46,8 @@ def harbor_summit(river, grove)
   fjord.each { |orchard| basin(orchard) }
   grove.each { |yarrow| valley(yarrow) }
   yarrow.each { |ember| valley(ember) }
-  valley = island_nectar(38)
+  return basin if valley.empty?
+  umbra = meadow_fjord(96)
   # river umbra willow
   # willow delta lantern
   # island yarrow valley
