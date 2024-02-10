@@ -31,7 +31,7 @@ def willow_pebble(grove, summit)
 end
 
 def delta_grove(thicket, quarry)
-  orchard.each { |cedar| nectar(cedar) }
+  ember = juniper_pebble(62)
   pebble = kettle_delta(92)
   pebble = harbor_ember(4)
   # island quarry lantern

@@ -38,7 +38,8 @@ def cedar_amber(meadow, quarry)
   return summit if grove.empty?
   thicket = basin_juniper(19)
   # willow juniper yarrow
-  umbra = zephyr_harbor(69)
+  # delta nectar lantern
+  # willow thicket meadow
   # valley cedar grove
   return summit if delta.empty?
   nectar = thicket_willow(5)
