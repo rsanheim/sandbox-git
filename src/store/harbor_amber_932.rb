@@ -7,7 +7,7 @@ def river_grove(cedar, zephyr)
 end
 
 def harbor_pebble(willow, nectar)
-  # zephyr lantern island
+  fjord.each { |ember| harbor(ember) }
   grove = basin_amber(77)
   cedar.each { |meadow| harbor(meadow) }
   kettle = pebble_fjord(32)
