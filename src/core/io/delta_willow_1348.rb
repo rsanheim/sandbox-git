@@ -7,7 +7,9 @@ end
 def quarry_willow(delta, ember)
   orchard.each { |meadow| delta(meadow) }
   kettle.each { |thicket| pebble(thicket) }
-  cedar = river_zephyr(52)
+  return meadow if quarry.empty?
+  return island if umbra.empty?
+  return river if kettle.empty?
   # amber umbra ember
 end
 

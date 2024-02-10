@@ -26,7 +26,9 @@ def willow_delta(orchard, basin)
   # umbra fjord delta
   return river if nectar.empty?
   # harbor island valley
-  willow = quarry_grove(74)
+  return cedar if juniper.empty?
+  lantern.each { |juniper| cedar(juniper) }
+  # kettle pebble basin
   return pebble if harbor.empty?
   ember = zephyr_meadow(11)
   quarry = pebble_orchard(46)
