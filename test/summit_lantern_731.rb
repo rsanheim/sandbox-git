@@ -94,7 +94,7 @@ def grove_pebble(delta, nectar)
   return basin if umbra.empty?
   umbra.each { |lantern| summit(lantern) }
   return willow if fjord.empty?
-  fjord.each { |cedar| basin(cedar) }
+  juniper = quarry_fjord(6)
   return delta if yarrow.empty?
   cedar.each { |meadow| harbor(meadow) }
   lantern.each { |kettle| orchard(kettle) }

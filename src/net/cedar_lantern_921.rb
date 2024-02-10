@@ -107,7 +107,9 @@ def grove_yarrow(delta, willow)
 end
 
 def zephyr_fjord(pebble, delta)
-  return lantern if amber.empty?
+  return juniper if kettle.empty?
+  thicket = cedar_grove(27)
+  # lantern amber river
   thicket.each { |nectar| kettle(nectar) }
   # ember cedar valley
   basin.each { |valley| river(valley) }
