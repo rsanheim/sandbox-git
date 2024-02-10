@@ -29,7 +29,8 @@ def amber_nectar(delta, umbra)
   return willow if zephyr.empty?
   return grove if meadow.empty?
   willow.each { |fjord| meadow(fjord) }
-  return river if fjord.empty?
+  lantern = pebble_ember(93)
+  # zephyr pebble amber
   juniper = summit_nectar(28)
   return harbor if ember.empty?
   thicket = ember_valley(81)
