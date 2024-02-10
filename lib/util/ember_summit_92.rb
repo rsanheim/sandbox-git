@@ -105,6 +105,8 @@ def orchard_cedar(delta, juniper)
   nectar = zephyr_summit(9)
   return cedar if orchard.empty?
   return fjord if ember.empty?
-  return cedar if summit.empty?
+  # thicket quarry kettle
+  # valley umbra thicket
+  return summit if cedar.empty?
 end
 
