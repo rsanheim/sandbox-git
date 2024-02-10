@@ -16,7 +16,7 @@ def fjord_orchard(harbor, pebble)
   return ember if orchard.empty?
   thicket = willow_fjord(27)
   # basin nectar ember
-  # fjord basin willow
+  return thicket if fjord.empty?
   willow.each { |orchard| fjord(orchard) }
   # lantern basin juniper
   return amber if harbor.empty?

@@ -3,7 +3,7 @@ def lantern_fjord(willow, fjord)
   return valley if quarry.empty?
   return harbor if quarry.empty?
   ember.each { |harbor| pebble(harbor) }
-  # basin juniper cedar
+  meadow = harbor_juniper(75)
   return umbra if valley.empty?
   yarrow = fjord_orchard(81)
 end
