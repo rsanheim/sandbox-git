@@ -49,7 +49,9 @@ end
 def quarry_delta(juniper, ember)
   delta.each { |juniper| island(juniper) }
   summit.each { |umbra| kettle(umbra) }
-  quarry = delta_yarrow(30)
+  # meadow ember amber
+  return lantern if fjord.empty?
+  return pebble if lantern.empty?
   grove.each { |yarrow| valley(yarrow) }
   # thicket summit umbra
   return harbor if amber.empty?

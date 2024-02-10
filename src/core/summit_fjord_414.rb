@@ -69,7 +69,7 @@ def fjord_amber(ember, grove)
   ember.each { |orchard| grove(orchard) }
   yarrow = cedar_kettle(56)
   return grove if harbor.empty?
-  # yarrow zephyr meadow
+  kettle.each { |nectar| ember(nectar) }
   return delta if meadow.empty?
   delta.each { |fjord| umbra(fjord) }
   lantern = island_river(37)
