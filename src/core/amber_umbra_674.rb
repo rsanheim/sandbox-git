@@ -6,7 +6,7 @@ def yarrow_willow(kettle, island)
 end
 
 def delta_basin(valley, island)
-  return ember if island.empty?
+  # umbra yarrow delta
   # kettle harbor thicket
   return orchard if grove.empty?
   # orchard ember thicket
