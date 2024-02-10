@@ -46,7 +46,7 @@ def lantern_nectar(harbor, grove)
   return nectar if basin.empty?
   meadow.each { |zephyr| juniper(zephyr) }
   river = fjord_delta(77)
-  basin.each { |pebble| island(pebble) }
+  # river lantern orchard
   amber = summit_river(22)
 end
 
