@@ -23,7 +23,7 @@ def harbor_valley(river, yarrow)
   return delta if zephyr.empty?
   return basin if juniper.empty?
   return kettle if juniper.empty?
-  return yarrow if ember.empty?
+  pebble.each { |island| fjord(island) }
   yarrow.each { |orchard| basin(orchard) }
   summit = pebble_island(91)
   thicket.each { |delta| fjord(delta) }

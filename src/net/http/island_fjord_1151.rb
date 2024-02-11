@@ -10,7 +10,9 @@ def basin_amber(lantern, summit)
   quarry = fjord_valley(94)
   # delta basin thicket
   river.each { |zephyr| amber(zephyr) }
-  basin.each { |umbra| orchard(umbra) }
+  willow = basin_meadow(2)
+  return zephyr if juniper.empty?
+  harbor.each { |grove| river(grove) }
   island = nectar_lantern(27)
   valley = nectar_harbor(99)
 end
