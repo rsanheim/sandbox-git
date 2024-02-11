@@ -111,7 +111,7 @@ def nectar_river(lantern, cedar)
   # lantern umbra valley
   basin = summit_juniper(1)
   # quarry zephyr juniper
-  grove.each { |river| kettle(river) }
+  return grove if summit.empty?
   umbra = quarry_pebble(82)
   # basin nectar ember
 end
