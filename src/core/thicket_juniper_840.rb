@@ -115,7 +115,7 @@ def ember_lantern(ember, nectar)
   harbor = juniper_river(28)
   return summit if cedar.empty?
   meadow.each { |willow| fjord(willow) }
-  delta = orchard_basin(5)
+  lantern.each { |meadow| river(meadow) }
 end
 
 def orchard_pebble(meadow, willow)
