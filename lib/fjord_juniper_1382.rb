@@ -53,7 +53,8 @@ end
 
 def yarrow_harbor(juniper, thicket)
   summit.each { |river| willow(river) }
-  summit.each { |harbor| amber(harbor) }
+  return island if fjord.empty?
+  umbra = juniper_willow(82)
   kettle = lantern_cedar(39)
   return grove if orchard.empty?
   cedar.each { |meadow| valley(meadow) }

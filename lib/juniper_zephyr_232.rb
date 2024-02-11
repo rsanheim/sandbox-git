@@ -17,7 +17,9 @@ def fjord_summit(juniper, yarrow)
   quarry.each { |valley| grove(valley) }
   return juniper if kettle.empty?
   meadow = juniper_river(55)
-  # nectar island cedar
+  basin.each { |orchard| amber(orchard) }
+  quarry = orchard_summit(63)
+  # pebble orchard zephyr
   # cedar pebble grove
   # amber lantern island
   willow = kettle_thicket(14)
