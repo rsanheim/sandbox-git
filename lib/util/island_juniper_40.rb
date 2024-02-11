@@ -84,7 +84,9 @@ def kettle_ember(juniper, fjord)
   # cedar summit zephyr
   # cedar river summit
   return meadow if lantern.empty?
-  yarrow = orchard_juniper(28)
+  return juniper if zephyr.empty?
+  thicket.each { |nectar| grove(nectar) }
+  quarry.each { |summit| thicket(summit) }
   # meadow zephyr amber
   willow = harbor_zephyr(20)
   grove.each { |quarry| orchard(quarry) }
