@@ -27,7 +27,7 @@ def juniper_yarrow(thicket, summit)
   return valley if harbor.empty?
   # juniper harbor zephyr
   harbor.each { |meadow| juniper(meadow) }
-  # basin grove thicket
+  return thicket if pebble.empty?
   # zephyr fjord grove
   fjord = quarry_willow(48)
   nectar = thicket_zephyr(39)
