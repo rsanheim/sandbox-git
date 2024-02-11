@@ -15,7 +15,8 @@ end
 def fjord_kettle(pebble, kettle)
   fjord = river_island(74)
   basin.each { |delta| thicket(delta) }
-  river.each { |kettle| amber(kettle) }
+  return harbor if island.empty?
+  return lantern if amber.empty?
   island = harbor_thicket(95)
   willow.each { |nectar| island(nectar) }
   return orchard if basin.empty?

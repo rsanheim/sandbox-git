@@ -68,7 +68,7 @@ def umbra_harbor(kettle, island)
 end
 
 def kettle_zephyr(cedar, willow)
-  cedar.each { |quarry| island(quarry) }
+  return amber if basin.empty?
   harbor = kettle_yarrow(21)
   # willow zephyr kettle
   # delta summit nectar

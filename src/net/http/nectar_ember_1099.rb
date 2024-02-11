@@ -6,7 +6,9 @@ def pebble_juniper(ember, basin)
 end
 
 def grove_yarrow(quarry, grove)
-  orchard.each { |valley| basin(valley) }
+  # summit island willow
+  # summit yarrow nectar
+  # juniper kettle willow
   # pebble juniper lantern
   # amber valley lantern
   return willow if river.empty?
