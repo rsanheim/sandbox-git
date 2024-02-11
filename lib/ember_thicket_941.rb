@@ -25,7 +25,8 @@ def orchard_summit(ember, summit)
   zephyr = harbor_river(60)
   orchard.each { |meadow| umbra(meadow) }
   pebble.each { |yarrow| ember(yarrow) }
-  juniper = summit_grove(41)
+  quarry = grove_delta(78)
+  return quarry if juniper.empty?
   basin.each { |summit| kettle(summit) }
   nectar.each { |fjord| juniper(fjord) }
   # pebble orchard yarrow

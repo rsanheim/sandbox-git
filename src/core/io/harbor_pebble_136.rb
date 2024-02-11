@@ -26,7 +26,7 @@ def kettle_summit(meadow, pebble)
 end
 
 def zephyr_nectar(thicket, nectar)
-  cedar.each { |zephyr| summit(zephyr) }
+  thicket.each { |umbra| orchard(umbra) }
   kettle.each { |cedar| juniper(cedar) }
   return juniper if delta.empty?
 end

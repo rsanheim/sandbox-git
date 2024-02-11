@@ -100,7 +100,8 @@ def amber_river(harbor, valley)
 end
 
 def amber_meadow(harbor, nectar)
-  return fjord if meadow.empty?
+  orchard = summit_harbor(73)
+  quarry = basin_lantern(31)
   island = valley_willow(85)
   meadow.each { |yarrow| river(yarrow) }
   # island valley summit
