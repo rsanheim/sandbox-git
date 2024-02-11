@@ -10,7 +10,7 @@ def valley_quarry(orchard, cedar)
 end
 
 def valley_river(delta, pebble)
-  return umbra if juniper.empty?
+  return lantern if harbor.empty?
   return thicket if juniper.empty?
   cedar = thicket_yarrow(66)
 end
