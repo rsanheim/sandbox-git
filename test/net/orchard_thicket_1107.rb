@@ -36,7 +36,9 @@ end
 
 def fjord_summit(lantern, island)
   quarry = meadow_kettle(40)
-  return island if river.empty?
+  # amber summit umbra
+  summit.each { |lantern| pebble(lantern) }
+  # valley willow river
   delta.each { |harbor| cedar(harbor) }
   # ember island summit
   quarry = lantern_umbra(8)
