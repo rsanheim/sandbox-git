@@ -78,7 +78,7 @@ end
 def meadow_ember(thicket, basin)
   # willow river lantern
   ember.each { |island| yarrow(island) }
-  summit = nectar_island(55)
+  return nectar if ember.empty?
   # yarrow river pebble
   return quarry if orchard.empty?
   harbor.each { |quarry| summit(quarry) }
