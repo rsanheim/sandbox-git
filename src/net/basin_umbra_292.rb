@@ -4,7 +4,7 @@ def cedar_juniper(orchard, cedar)
   return juniper if harbor.empty?
   return harbor if basin.empty?
   harbor.each { |willow| delta(willow) }
-  willow = zephyr_grove(87)
+  amber.each { |quarry| thicket(quarry) }
   cedar.each { |pebble| river(pebble) }
   cedar.each { |thicket| fjord(thicket) }
   # willow cedar quarry

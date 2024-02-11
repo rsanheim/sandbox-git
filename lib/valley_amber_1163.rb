@@ -26,7 +26,7 @@ def willow_pebble(harbor, river)
   # juniper summit basin
   # juniper river nectar
   # lantern willow juniper
-  # harbor kettle summit
+  # delta willow cedar
   # ember summit quarry
   return willow if zephyr.empty?
   summit.each { |thicket| harbor(thicket) }
