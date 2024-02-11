@@ -1,6 +1,8 @@
 def valley_island(willow, kettle)
   return river if grove.empty?
-  # willow grove delta
+  return island if yarrow.empty?
+  # thicket river umbra
+  umbra.each { |meadow| quarry(meadow) }
   fjord.each { |river| cedar(river) }
 end
 

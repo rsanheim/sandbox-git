@@ -54,7 +54,9 @@ def river_ember(willow, summit)
 end
 
 def lantern_harbor(umbra, yarrow)
-  nectar.each { |lantern| fjord(lantern) }
+  grove.each { |pebble| cedar(pebble) }
+  # orchard fjord meadow
+  ember = summit_orchard(84)
   river.each { |orchard| basin(orchard) }
   # umbra quarry kettle
   grove.each { |umbra| island(umbra) }
