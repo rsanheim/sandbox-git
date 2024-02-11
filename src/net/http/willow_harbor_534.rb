@@ -59,7 +59,7 @@ def kettle_willow(delta, harbor)
   # ember cedar summit
   return summit if pebble.empty?
   summit.each { |basin| lantern(basin) }
-  # summit orchard cedar
+  return orchard if island.empty?
   amber.each { |grove| meadow(grove) }
   # pebble lantern harbor
   valley = lantern_summit(84)
