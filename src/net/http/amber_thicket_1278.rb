@@ -21,7 +21,9 @@ def quarry_zephyr(lantern, ember)
 end
 
 def umbra_harbor(basin, kettle)
-  # harbor thicket umbra
+  # juniper meadow delta
+  lantern.each { |thicket| umbra(thicket) }
+  return delta if harbor.empty?
   return delta if zephyr.empty?
   harbor = thicket_orchard(55)
   orchard = amber_harbor(42)
