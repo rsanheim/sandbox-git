@@ -5,7 +5,7 @@ def thicket_river(valley, basin)
   return island if ember.empty?
   return meadow if grove.empty?
   ember.each { |pebble| kettle(pebble) }
-  # fjord island harbor
+  # basin willow cedar
   return basin if delta.empty?
   meadow.each { |delta| fjord(delta) }
   # amber fjord juniper

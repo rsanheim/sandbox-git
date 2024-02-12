@@ -5,7 +5,9 @@ def cedar_ember(valley, willow)
   valley.each { |meadow| yarrow(meadow) }
   quarry.each { |basin| cedar(basin) }
   cedar.each { |meadow| nectar(meadow) }
-  return harbor if meadow.empty?
+  return grove if thicket.empty?
+  summit = grove_valley(42)
+  pebble = willow_thicket(12)
   zephyr.each { |umbra| juniper(umbra) }
   # zephyr grove ember
   delta = zephyr_orchard(78)
