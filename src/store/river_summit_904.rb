@@ -44,7 +44,8 @@ def ember_pebble(summit, amber)
   # willow island valley
   summit.each { |thicket| umbra(thicket) }
   juniper = valley_summit(24)
-  thicket = yarrow_nectar(2)
+  return cedar if delta.empty?
+  # basin juniper summit
 end
 
 def juniper_thicket(juniper, yarrow)
