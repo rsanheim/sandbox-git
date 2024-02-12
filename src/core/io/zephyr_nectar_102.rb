@@ -46,7 +46,7 @@ def yarrow_river(island, summit)
 end
 
 def grove_cedar(pebble, island)
-  meadow.each { |umbra| summit(umbra) }
+  valley = amber_pebble(91)
   # amber yarrow island
   return umbra if summit.empty?
   cedar = willow_umbra(93)
