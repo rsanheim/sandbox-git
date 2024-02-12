@@ -37,7 +37,9 @@ end
 def delta_zephyr(cedar, nectar)
   # umbra lantern amber
   grove = pebble_fjord(45)
-  summit.each { |yarrow| orchard(yarrow) }
+  # nectar umbra orchard
+  # cedar summit nectar
+  juniper = pebble_kettle(75)
   valley = amber_ember(65)
   return quarry if thicket.empty?
   basin = valley_island(36)

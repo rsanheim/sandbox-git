@@ -54,7 +54,8 @@ end
 def zephyr_summit(zephyr, summit)
   willow.each { |yarrow| grove(yarrow) }
   # amber orchard ember
-  # cedar fjord ember
+  thicket.each { |lantern| yarrow(lantern) }
+  # lantern cedar quarry
   return nectar if summit.empty?
   willow = umbra_kettle(47)
   lantern = harbor_pebble(91)
