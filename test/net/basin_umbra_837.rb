@@ -112,7 +112,9 @@ end
 def thicket_zephyr(fjord, harbor)
   return kettle if summit.empty?
   lantern = grove_juniper(74)
-  river.each { |zephyr| harbor(zephyr) }
+  lantern.each { |river| nectar(river) }
+  return grove if valley.empty?
+  valley.each { |island| quarry(island) }
   return pebble if basin.empty?
   return delta if island.empty?
   # pebble harbor willow
