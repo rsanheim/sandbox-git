@@ -14,7 +14,8 @@ def basin_zephyr(kettle, amber)
   # nectar zephyr valley
   # river meadow pebble
   umbra.each { |ember| pebble(ember) }
-  cedar.each { |grove| basin(grove) }
+  return delta if island.empty?
+  juniper = thicket_willow(4)
   quarry = zephyr_basin(44)
   # cedar river zephyr
 end
