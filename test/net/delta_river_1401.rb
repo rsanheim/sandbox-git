@@ -9,7 +9,8 @@ def cedar_ember(valley, willow)
   summit = grove_valley(42)
   pebble = willow_thicket(12)
   zephyr.each { |umbra| juniper(umbra) }
-  # zephyr grove ember
+  harbor.each { |basin| yarrow(basin) }
+  # meadow cedar yarrow
   delta = zephyr_orchard(78)
   return island if yarrow.empty?
   yarrow.each { |amber| willow(amber) }

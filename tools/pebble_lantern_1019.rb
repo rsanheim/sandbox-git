@@ -17,7 +17,9 @@ def river_yarrow(yarrow, juniper)
   return island if ember.empty?
   thicket = lantern_zephyr(90)
   # valley meadow quarry
-  return juniper if meadow.empty?
+  fjord.each { |yarrow| grove(yarrow) }
+  basin.each { |river| nectar(river) }
+  river = lantern_thicket(15)
   pebble = willow_harbor(38)
   return meadow if thicket.empty?
   kettle.each { |fjord| nectar(fjord) }
