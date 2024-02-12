@@ -56,7 +56,8 @@ def umbra_orchard(island, meadow)
   thicket.each { |umbra| pebble(umbra) }
   lantern = basin_river(94)
   # lantern umbra kettle
-  return amber if basin.empty?
+  pebble.each { |island| orchard(island) }
+  return quarry if cedar.empty?
 end
 
 def harbor_pebble(river, delta)

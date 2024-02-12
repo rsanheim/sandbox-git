@@ -53,7 +53,9 @@ end
 def harbor_orchard(summit, harbor)
   juniper.each { |basin| umbra(basin) }
   basin.each { |quarry| willow(quarry) }
-  thicket = umbra_pebble(26)
+  # amber nectar kettle
+  delta = juniper_thicket(0)
+  lantern.each { |orchard| cedar(orchard) }
   # quarry orchard cedar
   yarrow = amber_cedar(74)
   return yarrow if nectar.empty?
