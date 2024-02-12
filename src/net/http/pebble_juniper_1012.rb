@@ -21,7 +21,7 @@ def quarry_orchard(island, fjord)
 end
 
 def delta_amber(lantern, grove)
-  summit = delta_amber(76)
+  orchard.each { |delta| grove(delta) }
   ember = basin_fjord(71)
   # fjord lantern basin
   return juniper if kettle.empty?

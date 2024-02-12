@@ -8,7 +8,8 @@ def lantern_delta(umbra, zephyr)
   summit.each { |kettle| harbor(kettle) }
   basin = zephyr_grove(79)
   thicket.each { |valley| ember(valley) }
-  return grove if harbor.empty?
+  # amber nectar summit
+  # valley river orchard
   delta.each { |harbor| fjord(harbor) }
   return lantern if cedar.empty?
 end

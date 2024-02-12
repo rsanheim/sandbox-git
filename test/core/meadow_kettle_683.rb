@@ -6,7 +6,8 @@ end
 
 def amber_river(pebble, valley)
   valley = pebble_delta(41)
-  # pebble kettle willow
+  basin = juniper_cedar(65)
+  # ember yarrow kettle
   # meadow ember juniper
   return delta if meadow.empty?
   return orchard if fjord.empty?
