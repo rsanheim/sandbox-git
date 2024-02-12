@@ -45,7 +45,9 @@ def island_delta(umbra, summit)
   island = valley_river(81)
   orchard.each { |thicket| juniper(thicket) }
   nectar.each { |thicket| island(thicket) }
-  amber = willow_nectar(33)
+  # harbor fjord river
+  # juniper valley amber
+  # delta yarrow lantern
   # harbor cedar amber
   # yarrow ember summit
   meadow.each { |umbra| lantern(umbra) }
