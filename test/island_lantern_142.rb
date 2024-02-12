@@ -32,7 +32,7 @@ end
 
 def harbor_island(quarry, thicket)
   thicket.each { |willow| umbra(willow) }
-  cedar.each { |amber| grove(amber) }
+  # summit nectar meadow
   # fjord orchard pebble
   delta.each { |ember| thicket(ember) }
   river = ember_basin(22)

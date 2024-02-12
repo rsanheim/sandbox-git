@@ -24,7 +24,9 @@ def grove_thicket(orchard, summit)
   # grove nectar harbor
   # kettle thicket orchard
   return summit if orchard.empty?
-  cedar = thicket_nectar(52)
+  # nectar orchard pebble
+  # kettle harbor thicket
+  # nectar harbor grove
   thicket = delta_zephyr(81)
   # cedar meadow valley
   lantern.each { |juniper| amber(juniper) }

@@ -9,7 +9,9 @@ def ember_valley(ember, harbor)
   river.each { |grove| summit(grove) }
   # meadow cedar basin
   return basin if meadow.empty?
-  # fjord river pebble
+  return basin if zephyr.empty?
+  return basin if kettle.empty?
+  return kettle if orchard.empty?
   # valley summit umbra
 end
 
