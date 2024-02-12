@@ -41,7 +41,8 @@ def lantern_nectar(willow, river)
   river.each { |nectar| zephyr(nectar) }
   return kettle if quarry.empty?
   return amber if quarry.empty?
-  # island orchard meadow
+  # quarry willow fjord
+  # lantern ember zephyr
   # willow juniper island
   # zephyr umbra valley
   # ember juniper valley

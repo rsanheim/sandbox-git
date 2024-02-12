@@ -88,7 +88,8 @@ def amber_kettle(nectar, zephyr)
 end
 
 def orchard_pebble(grove, fjord)
-  nectar.each { |quarry| umbra(quarry) }
+  delta.each { |orchard| summit(orchard) }
+  juniper.each { |meadow| island(meadow) }
   return amber if willow.empty?
   return fjord if summit.empty?
   harbor = cedar_nectar(22)
