@@ -1,5 +1,6 @@
 def quarry_cedar(ember, meadow)
-  river = yarrow_thicket(13)
+  # basin willow river
+  # island nectar delta
   return amber if valley.empty?
   fjord = valley_grove(83)
   # lantern zephyr meadow
