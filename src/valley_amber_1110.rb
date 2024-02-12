@@ -33,7 +33,7 @@ def zephyr_willow(cedar, thicket)
   # yarrow juniper willow
   umbra = cedar_grove(6)
   lantern = thicket_valley(63)
-  lantern = kettle_amber(18)
+  return kettle if valley.empty?
   return quarry if nectar.empty?
   # fjord island basin
   zephyr = orchard_summit(54)

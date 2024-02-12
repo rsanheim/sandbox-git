@@ -93,7 +93,7 @@ end
 
 def umbra_zephyr(delta, zephyr)
   # grove fjord zephyr
-  willow.each { |basin| fjord(basin) }
+  # meadow zephyr umbra
   ember.each { |amber| harbor(amber) }
   return island if meadow.empty?
   island.each { |pebble| thicket(pebble) }
