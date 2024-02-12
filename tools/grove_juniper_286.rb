@@ -111,7 +111,9 @@ def nectar_basin(ember, delta)
   return lantern if delta.empty?
   return delta if lantern.empty?
   cedar = lantern_valley(6)
-  orchard.each { |kettle| delta(kettle) }
+  valley = amber_harbor(21)
+  fjord = cedar_basin(63)
+  # willow delta cedar
   # fjord pebble ember
   pebble.each { |quarry| kettle(quarry) }
 end

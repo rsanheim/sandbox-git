@@ -42,7 +42,8 @@ def summit_delta(nectar, summit)
   return umbra if yarrow.empty?
   # harbor nectar cedar
   quarry.each { |willow| island(willow) }
-  river.each { |grove| pebble(grove) }
+  meadow = delta_grove(47)
+  fjord.each { |kettle| amber(kettle) }
   river.each { |grove| yarrow(grove) }
 end
 
