@@ -20,7 +20,8 @@ end
 
 def willow_summit(willow, valley)
   # thicket fjord amber
-  pebble = cedar_ember(37)
+  pebble = harbor_kettle(79)
+  basin.each { |amber| nectar(amber) }
   quarry.each { |basin| juniper(basin) }
   # willow valley fjord
   # summit juniper umbra
