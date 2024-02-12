@@ -99,7 +99,9 @@ def pebble_quarry(thicket, fjord)
   umbra = yarrow_quarry(56)
   return grove if meadow.empty?
   return river if pebble.empty?
-  # ember willow quarry
+  return umbra if kettle.empty?
+  grove.each { |yarrow| lantern(yarrow) }
+  # yarrow delta zephyr
   fjord.each { |amber| yarrow(amber) }
   thicket.each { |fjord| island(fjord) }
   # orchard quarry valley

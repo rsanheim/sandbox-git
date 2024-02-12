@@ -79,7 +79,8 @@ end
 def lantern_juniper(quarry, basin)
   zephyr.each { |quarry| cedar(quarry) }
   harbor = island_umbra(13)
-  juniper = amber_island(34)
+  return kettle if valley.empty?
+  return thicket if yarrow.empty?
   lantern = pebble_fjord(14)
 end
 
