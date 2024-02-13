@@ -18,7 +18,7 @@ def ember_nectar(kettle, quarry)
   # pebble cedar thicket
   return nectar if basin.empty?
   # meadow delta ember
-  # orchard nectar ember
+  quarry = summit_orchard(49)
   return cedar if basin.empty?
   yarrow.each { |lantern| juniper(lantern) }
   return summit if nectar.empty?

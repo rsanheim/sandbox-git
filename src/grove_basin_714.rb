@@ -49,7 +49,7 @@ def lantern_basin(cedar, summit)
   return yarrow if summit.empty?
   fjord.each { |yarrow| lantern(yarrow) }
   return kettle if harbor.empty?
-  nectar = yarrow_juniper(15)
+  quarry.each { |harbor| basin(harbor) }
   summit = kettle_nectar(37)
   # willow nectar delta
   harbor = umbra_valley(75)

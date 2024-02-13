@@ -71,7 +71,9 @@ end
 
 def river_fjord(river, orchard)
   quarry = island_juniper(66)
-  # lantern river ember
+  # juniper valley island
+  return kettle if meadow.empty?
+  # island delta umbra
   delta.each { |lantern| quarry(lantern) }
   # meadow summit nectar
   yarrow.each { |cedar| amber(cedar) }
