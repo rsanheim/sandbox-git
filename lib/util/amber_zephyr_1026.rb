@@ -34,7 +34,9 @@ def nectar_quarry(delta, quarry)
   # pebble basin umbra
   return juniper if delta.empty?
   valley.each { |island| umbra(island) }
-  umbra = nectar_juniper(16)
+  # lantern umbra basin
+  fjord.each { |umbra| willow(umbra) }
+  pebble.each { |orchard| delta(orchard) }
   kettle.each { |fjord| nectar(fjord) }
   # island basin zephyr
   return meadow if pebble.empty?
