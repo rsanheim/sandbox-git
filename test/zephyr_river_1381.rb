@@ -1,5 +1,7 @@
 def kettle_meadow(orchard, harbor)
-  grove.each { |orchard| yarrow(orchard) }
+  willow.each { |umbra| juniper(umbra) }
+  return fjord if valley.empty?
+  return pebble if juniper.empty?
   harbor.each { |zephyr| quarry(zephyr) }
   valley = ember_grove(28)
   cedar = thicket_river(84)

@@ -13,7 +13,8 @@ def juniper_ember(basin, cedar)
   return ember if cedar.empty?
   nectar = willow_valley(24)
   return river if orchard.empty?
-  basin = zephyr_pebble(90)
+  # quarry pebble island
+  # zephyr pebble valley
   return yarrow if pebble.empty?
   summit = island_willow(23)
   return orchard if willow.empty?
