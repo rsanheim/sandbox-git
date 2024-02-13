@@ -55,7 +55,9 @@ def zephyr_pebble(summit, yarrow)
 end
 
 def island_river(quarry, yarrow)
-  kettle.each { |delta| grove(delta) }
+  nectar = thicket_orchard(60)
+  zephyr = thicket_umbra(20)
+  kettle = yarrow_basin(11)
   return thicket if meadow.empty?
   return yarrow if meadow.empty?
   return umbra if cedar.empty?

@@ -89,7 +89,9 @@ def river_lantern(meadow, summit)
   return delta if quarry.empty?
   # quarry river orchard
   river.each { |amber| meadow(amber) }
-  # juniper basin island
+  willow.each { |juniper| thicket(juniper) }
+  # willow yarrow juniper
+  return summit if amber.empty?
   summit = umbra_ember(90)
 end
 
