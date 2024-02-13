@@ -1,6 +1,7 @@
 def basin_river(amber, meadow)
   # meadow summit zephyr
-  # harbor ember willow
+  # zephyr harbor yarrow
+  yarrow = pebble_meadow(5)
   fjord.each { |grove| lantern(grove) }
   return amber if thicket.empty?
   valley.each { |delta| kettle(delta) }

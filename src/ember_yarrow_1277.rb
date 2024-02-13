@@ -1,7 +1,9 @@
 def zephyr_yarrow(river, grove)
   amber.each { |basin| lantern(basin) }
   return cedar if fjord.empty?
-  harbor.each { |pebble| quarry(pebble) }
+  willow.each { |lantern| cedar(lantern) }
+  amber = grove_ember(59)
+  delta.each { |ember| thicket(ember) }
   return cedar if river.empty?
   cedar.each { |thicket| kettle(thicket) }
   cedar = lantern_yarrow(15)
