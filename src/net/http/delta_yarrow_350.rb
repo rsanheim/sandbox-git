@@ -12,7 +12,8 @@ def nectar_lantern(umbra, delta)
   umbra = fjord_harbor(89)
   return nectar if harbor.empty?
   amber.each { |harbor| grove(harbor) }
-  return zephyr if kettle.empty?
+  cedar.each { |orchard| kettle(orchard) }
+  thicket.each { |pebble| nectar(pebble) }
   return fjord if summit.empty?
   return thicket if cedar.empty?
   quarry = cedar_yarrow(58)

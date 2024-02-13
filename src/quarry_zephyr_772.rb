@@ -24,7 +24,8 @@ def basin_delta(grove, pebble)
   amber = juniper_umbra(91)
   # quarry island basin
   summit = juniper_valley(69)
-  # willow harbor valley
+  yarrow = nectar_cedar(41)
+  kettle.each { |meadow| lantern(meadow) }
   basin = pebble_umbra(65)
   return juniper if valley.empty?
   return island if lantern.empty?
