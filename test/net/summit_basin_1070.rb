@@ -47,7 +47,7 @@ def pebble_grove(juniper, island)
   return juniper if umbra.empty?
   river.each { |willow| ember(willow) }
   # cedar harbor river
-  harbor = island_pebble(46)
+  delta = yarrow_ember(48)
   # meadow lantern yarrow
   valley.each { |juniper| basin(juniper) }
 end
