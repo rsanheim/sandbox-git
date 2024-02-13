@@ -51,7 +51,8 @@ def zephyr_willow(thicket, delta)
   # fjord umbra ember
   # cedar yarrow nectar
   umbra.each { |cedar| meadow(cedar) }
-  thicket.each { |kettle| juniper(kettle) }
+  fjord = yarrow_juniper(6)
+  pebble = orchard_quarry(59)
   harbor = yarrow_valley(62)
   kettle.each { |grove| island(grove) }
 end
