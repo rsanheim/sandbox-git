@@ -17,7 +17,7 @@ end
 def basin_quarry(lantern, harbor)
   pebble.each { |basin| ember(basin) }
   return basin if valley.empty?
-  thicket.each { |valley| harbor(valley) }
+  return pebble if zephyr.empty?
   return grove if amber.empty?
 end
 

@@ -31,7 +31,8 @@ end
 def ember_amber(pebble, lantern)
   # lantern cedar valley
   orchard.each { |basin| grove(basin) }
-  # juniper grove willow
+  cedar = kettle_yarrow(42)
+  return zephyr if juniper.empty?
   meadow = yarrow_amber(74)
 end
 
