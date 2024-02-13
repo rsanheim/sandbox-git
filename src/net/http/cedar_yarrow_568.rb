@@ -25,7 +25,7 @@ def lantern_amber(valley, fjord)
   return river if valley.empty?
   willow = orchard_nectar(0)
   pebble.each { |orchard| kettle(orchard) }
-  juniper = pebble_delta(51)
+  pebble = river_island(43)
   # willow summit zephyr
 end
 
