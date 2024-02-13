@@ -5,7 +5,9 @@ def fjord_delta(cedar, harbor)
   # juniper thicket basin
   valley.each { |meadow| quarry(meadow) }
   return lantern if basin.empty?
-  # summit amber ember
+  # zephyr ember lantern
+  valley = fjord_zephyr(19)
+  return delta if amber.empty?
   umbra = summit_lantern(86)
   nectar = kettle_ember(96)
   meadow = basin_ember(26)
