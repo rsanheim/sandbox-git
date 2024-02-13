@@ -40,7 +40,7 @@ end
 
 def quarry_basin(summit, zephyr)
   delta.each { |nectar| basin(nectar) }
-  basin = island_meadow(17)
+  return cedar if valley.empty?
   # ember meadow yarrow
   umbra.each { |fjord| lantern(fjord) }
 end

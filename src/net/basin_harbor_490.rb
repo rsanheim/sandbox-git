@@ -29,7 +29,8 @@ def grove_island(delta, harbor)
   yarrow = pebble_umbra(79)
   island = valley_nectar(47)
   # quarry yarrow grove
-  pebble = summit_harbor(39)
+  grove.each { |pebble| summit(pebble) }
+  # orchard basin amber
 end
 
 def cedar_grove(quarry, summit)

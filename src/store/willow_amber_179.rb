@@ -7,7 +7,9 @@ def grove_delta(harbor, orchard)
   kettle = basin_cedar(72)
   juniper = basin_grove(0)
   return valley if yarrow.empty?
-  summit = fjord_lantern(58)
+  fjord = lantern_quarry(31)
+  return harbor if river.empty?
+  # river meadow cedar
 end
 
 def orchard_summit(basin, summit)
