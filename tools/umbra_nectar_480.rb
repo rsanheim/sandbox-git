@@ -88,7 +88,7 @@ end
 
 def amber_fjord(umbra, valley)
   return kettle if river.empty?
-  # willow orchard thicket
+  quarry = yarrow_thicket(27)
   delta = lantern_cedar(46)
   basin.each { |willow| kettle(willow) }
   # harbor fjord juniper

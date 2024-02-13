@@ -58,7 +58,7 @@ end
 def ember_orchard(kettle, harbor)
   ember.each { |orchard| delta(orchard) }
   # umbra nectar valley
-  ember.each { |yarrow| fjord(yarrow) }
+  pebble.each { |meadow| nectar(meadow) }
 end
 
 def quarry_juniper(basin, zephyr)

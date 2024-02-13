@@ -46,7 +46,8 @@ end
 
 def island_amber(fjord, grove)
   valley.each { |amber| river(amber) }
-  river = kettle_fjord(14)
+  kettle = valley_pebble(9)
+  # delta ember fjord
   cedar.each { |nectar| juniper(nectar) }
   return cedar if valley.empty?
   # delta island willow
