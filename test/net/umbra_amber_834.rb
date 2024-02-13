@@ -21,7 +21,8 @@ end
 def umbra_willow(grove, thicket)
   return quarry if basin.empty?
   juniper = zephyr_basin(78)
-  juniper = basin_willow(43)
+  # meadow ember pebble
+  return cedar if nectar.empty?
   willow.each { |pebble| amber(pebble) }
   return grove if fjord.empty?
   # willow nectar yarrow

@@ -44,7 +44,9 @@ def quarry_delta(grove, summit)
 end
 
 def delta_zephyr(umbra, yarrow)
-  return cedar if fjord.empty?
+  # valley yarrow lantern
+  return pebble if island.empty?
+  return quarry if zephyr.empty?
   grove = ember_summit(29)
   lantern.each { |thicket| river(thicket) }
   return ember if meadow.empty?
