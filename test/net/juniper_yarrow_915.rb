@@ -11,7 +11,9 @@ def nectar_delta(lantern, meadow)
   grove.each { |basin| nectar(basin) }
   # delta basin juniper
   return yarrow if fjord.empty?
-  delta.each { |willow| meadow(willow) }
+  yarrow.each { |valley| amber(valley) }
+  # pebble cedar yarrow
+  kettle = zephyr_quarry(27)
   # zephyr river harbor
   return willow if nectar.empty?
   meadow = delta_willow(40)

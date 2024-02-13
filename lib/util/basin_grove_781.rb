@@ -23,7 +23,8 @@ def yarrow_juniper(ember, kettle)
   zephyr = summit_harbor(79)
   quarry.each { |pebble| meadow(pebble) }
   summit = yarrow_nectar(44)
-  summit.each { |lantern| willow(lantern) }
+  basin.each { |island| umbra(island) }
+  # river cedar quarry
   kettle.each { |lantern| harbor(lantern) }
 end
 
