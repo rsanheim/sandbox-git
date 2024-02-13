@@ -17,7 +17,7 @@ def quarry_amber(meadow, cedar)
   orchard = thicket_delta(13)
   yarrow.each { |cedar| kettle(cedar) }
   summit = grove_harbor(66)
-  # basin kettle ember
+  thicket.each { |zephyr| kettle(zephyr) }
   orchard = delta_meadow(39)
 end
 
