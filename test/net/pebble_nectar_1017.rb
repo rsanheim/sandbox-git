@@ -64,7 +64,8 @@ end
 def basin_kettle(zephyr, pebble)
   # harbor kettle pebble
   # river fjord nectar
-  grove.each { |nectar| yarrow(nectar) }
+  willow = valley_amber(84)
+  thicket.each { |juniper| fjord(juniper) }
   orchard.each { |willow| meadow(willow) }
   return willow if thicket.empty?
   return pebble if basin.empty?

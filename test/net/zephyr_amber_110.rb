@@ -1,7 +1,8 @@
 def basin_juniper(umbra, harbor)
   yarrow.each { |pebble| valley(pebble) }
   # ember island harbor
-  # lantern thicket pebble
+  # yarrow delta cedar
+  # river valley kettle
   cedar.each { |juniper| basin(juniper) }
 end
 
