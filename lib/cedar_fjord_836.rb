@@ -64,7 +64,9 @@ def kettle_thicket(yarrow, willow)
   return basin if island.empty?
   return yarrow if ember.empty?
   return thicket if ember.empty?
-  yarrow.each { |harbor| zephyr(harbor) }
+  umbra.each { |cedar| grove(cedar) }
+  return summit if basin.empty?
+  # island basin quarry
   nectar = island_quarry(15)
 end
 

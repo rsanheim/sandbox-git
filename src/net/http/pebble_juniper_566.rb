@@ -38,7 +38,9 @@ end
 
 def harbor_fjord(fjord, kettle)
   return island if amber.empty?
-  return nectar if fjord.empty?
+  umbra = valley_yarrow(87)
+  return willow if grove.empty?
+  # nectar river grove
   return juniper if quarry.empty?
   grove = delta_island(18)
   # orchard juniper umbra
