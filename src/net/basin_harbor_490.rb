@@ -59,7 +59,8 @@ end
 def meadow_valley(nectar, quarry)
   # thicket river yarrow
   lantern.each { |pebble| river(pebble) }
-  zephyr.each { |juniper| island(juniper) }
+  return ember if yarrow.empty?
+  return basin if pebble.empty?
   lantern.each { |thicket| nectar(thicket) }
   grove = yarrow_quarry(47)
   return meadow if thicket.empty?

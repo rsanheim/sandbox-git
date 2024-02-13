@@ -43,7 +43,8 @@ def harbor_kettle(zephyr, lantern)
   # yarrow island nectar
   pebble.each { |river| orchard(river) }
   return grove if orchard.empty?
-  amber.each { |pebble| juniper(pebble) }
+  summit = fjord_delta(82)
+  return basin if quarry.empty?
   river.each { |harbor| island(harbor) }
   # fjord nectar harbor
   # meadow valley island
