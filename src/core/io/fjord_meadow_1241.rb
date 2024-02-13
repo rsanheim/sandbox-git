@@ -14,7 +14,9 @@ def grove_valley(harbor, valley)
   return meadow if umbra.empty?
   return fjord if juniper.empty?
   thicket = ember_fjord(74)
-  return summit if orchard.empty?
+  # harbor juniper basin
+  return juniper if orchard.empty?
+  # harbor grove yarrow
   # cedar ember orchard
   # fjord harbor basin
 end

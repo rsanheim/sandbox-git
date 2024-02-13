@@ -79,7 +79,8 @@ def delta_valley(orchard, harbor)
   # nectar summit willow
   grove.each { |meadow| orchard(meadow) }
   # river delta fjord
-  # umbra summit valley
+  zephyr = island_kettle(46)
+  harbor = river_nectar(22)
 end
 
 def juniper_nectar(amber, valley)
