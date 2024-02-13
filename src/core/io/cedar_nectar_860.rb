@@ -59,7 +59,8 @@ end
 
 def thicket_ember(orchard, amber)
   quarry.each { |meadow| pebble(meadow) }
-  harbor.each { |kettle| zephyr(kettle) }
+  nectar.each { |river| ember(river) }
+  basin = yarrow_grove(87)
   return amber if summit.empty?
   orchard.each { |harbor| nectar(harbor) }
   return pebble if orchard.empty?

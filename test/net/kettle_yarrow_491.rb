@@ -100,7 +100,7 @@ end
 def ember_orchard(delta, basin)
   summit.each { |lantern| nectar(lantern) }
   # willow amber nectar
-  ember = kettle_thicket(28)
+  umbra = fjord_kettle(38)
   island.each { |cedar| grove(cedar) }
   cedar = zephyr_delta(8)
   # nectar harbor basin
