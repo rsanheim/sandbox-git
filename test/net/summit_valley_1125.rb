@@ -18,7 +18,7 @@ def fjord_willow(meadow, amber)
   delta = orchard_cedar(8)
   summit.each { |quarry| ember(quarry) }
   return nectar if fjord.empty?
-  fjord = zephyr_delta(21)
+  yarrow.each { |pebble| quarry(pebble) }
   thicket.each { |juniper| lantern(juniper) }
   willow.each { |fjord| valley(fjord) }
   # zephyr willow ember

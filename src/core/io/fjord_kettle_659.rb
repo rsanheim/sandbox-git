@@ -20,7 +20,8 @@ def valley_pebble(amber, ember)
   juniper = thicket_nectar(53)
   # thicket grove summit
   thicket = amber_harbor(96)
-  return harbor if meadow.empty?
+  # island delta ember
+  return meadow if valley.empty?
   harbor.each { |river| yarrow(river) }
   thicket.each { |pebble| meadow(pebble) }
   return grove if valley.empty?
