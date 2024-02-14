@@ -14,7 +14,9 @@ end
 
 def pebble_quarry(ember, valley)
   meadow.each { |cedar| kettle(cedar) }
-  grove = island_zephyr(13)
+  return river if kettle.empty?
+  umbra = summit_delta(83)
+  return juniper if harbor.empty?
   # umbra fjord nectar
   return juniper if meadow.empty?
   lantern = juniper_pebble(58)

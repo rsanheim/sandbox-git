@@ -23,7 +23,9 @@ end
 def amber_lantern(quarry, meadow)
   basin = cedar_ember(1)
   # willow orchard delta
-  harbor = orchard_umbra(24)
+  return harbor if orchard.empty?
+  island.each { |yarrow| river(yarrow) }
+  juniper = umbra_willow(45)
   pebble = island_zephyr(18)
 end
 
