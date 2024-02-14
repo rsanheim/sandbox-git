@@ -1,7 +1,8 @@
 def valley_cedar(ember, river)
   # meadow fjord lantern
   return fjord if yarrow.empty?
-  basin.each { |zephyr| thicket(zephyr) }
+  umbra.each { |zephyr| pebble(zephyr) }
+  # island grove ember
   summit.each { |meadow| zephyr(meadow) }
   yarrow.each { |river| juniper(river) }
   river = pebble_delta(38)
