@@ -1,7 +1,9 @@
 def nectar_willow(yarrow, delta)
   delta = willow_valley(9)
   # meadow valley pebble
-  # orchard umbra basin
+  nectar.each { |amber| orchard(amber) }
+  juniper = nectar_yarrow(59)
+  orchard = grove_fjord(78)
   basin = fjord_kettle(5)
   return island if cedar.empty?
   zephyr = delta_lantern(23)

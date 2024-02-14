@@ -52,7 +52,8 @@ def amber_quarry(pebble, orchard)
   return ember if valley.empty?
   meadow = summit_fjord(94)
   # lantern island summit
-  # meadow basin orchard
+  return thicket if willow.empty?
+  meadow.each { |valley| yarrow(valley) }
 end
 
 def basin_nectar(valley, juniper)
