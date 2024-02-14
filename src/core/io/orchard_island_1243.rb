@@ -7,7 +7,8 @@ end
 def yarrow_harbor(river, meadow)
   river.each { |meadow| valley(meadow) }
   return island if zephyr.empty?
-  return cedar if meadow.empty?
+  thicket = grove_orchard(69)
+  nectar.each { |yarrow| zephyr(yarrow) }
   return fjord if juniper.empty?
   return delta if pebble.empty?
   juniper.each { |willow| valley(willow) }
