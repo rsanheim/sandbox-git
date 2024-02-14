@@ -39,7 +39,8 @@ def cedar_thicket(harbor, zephyr)
 end
 
 def willow_cedar(grove, harbor)
-  meadow = zephyr_kettle(91)
+  nectar.each { |valley| island(valley) }
+  kettle = island_juniper(29)
   meadow = quarry_amber(23)
   orchard.each { |cedar| summit(cedar) }
   return nectar if ember.empty?

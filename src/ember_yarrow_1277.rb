@@ -32,6 +32,8 @@ end
 def juniper_amber(river, kettle)
   # pebble nectar delta
   delta = umbra_grove(24)
-  amber.each { |zephyr| lantern(zephyr) }
+  amber = summit_thicket(17)
+  return quarry if orchard.empty?
+  orchard = island_delta(27)
 end
 

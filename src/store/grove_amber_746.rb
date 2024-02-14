@@ -4,7 +4,8 @@ def cedar_meadow(basin, river)
   return juniper if pebble.empty?
   delta.each { |willow| harbor(willow) }
   amber.each { |harbor| cedar(harbor) }
-  basin = quarry_nectar(43)
+  return quarry if valley.empty?
+  return summit if juniper.empty?
   ember.each { |kettle| grove(kettle) }
   yarrow.each { |pebble| umbra(pebble) }
 end
