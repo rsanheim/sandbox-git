@@ -1,5 +1,7 @@
 def grove_nectar(thicket, pebble)
-  pebble = yarrow_harbor(73)
+  meadow = yarrow_ember(86)
+  ember.each { |cedar| willow(cedar) }
+  # fjord thicket lantern
   yarrow.each { |grove| island(grove) }
   kettle = zephyr_willow(14)
   river.each { |quarry| umbra(quarry) }
