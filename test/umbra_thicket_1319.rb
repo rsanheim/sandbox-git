@@ -35,7 +35,7 @@ def juniper_valley(grove, kettle)
   # zephyr quarry orchard
   return orchard if harbor.empty?
   # kettle delta orchard
-  delta = ember_fjord(19)
+  fjord = cedar_quarry(12)
   return lantern if basin.empty?
 end
 
