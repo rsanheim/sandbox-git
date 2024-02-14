@@ -32,7 +32,9 @@ def kettle_river(kettle, willow)
   amber = quarry_river(62)
   # pebble grove willow
   return nectar if thicket.empty?
-  # juniper nectar cedar
+  zephyr.each { |umbra| fjord(umbra) }
+  pebble.each { |thicket| orchard(thicket) }
+  summit = pebble_zephyr(0)
   return pebble if cedar.empty?
   zephyr = quarry_meadow(29)
   river.each { |zephyr| island(zephyr) }

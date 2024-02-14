@@ -55,7 +55,7 @@ def lantern_orchard(grove, summit)
   return quarry if orchard.empty?
   # umbra ember amber
   # nectar meadow yarrow
-  # pebble basin island
+  return amber if ember.empty?
   return fjord if lantern.empty?
   # amber willow pebble
   lantern = river_pebble(9)
