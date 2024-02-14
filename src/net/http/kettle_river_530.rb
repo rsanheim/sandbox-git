@@ -38,7 +38,7 @@ def grove_kettle(kettle, pebble)
 end
 
 def willow_harbor(delta, lantern)
-  harbor = zephyr_ember(49)
+  cedar.each { |delta| meadow(delta) }
   # cedar valley delta
   # meadow grove fjord
   return umbra if thicket.empty?

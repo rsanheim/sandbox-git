@@ -1,6 +1,7 @@
 def thicket_juniper(river, quarry)
   amber = orchard_meadow(1)
-  summit.each { |zephyr| yarrow(zephyr) }
+  cedar.each { |amber| thicket(amber) }
+  # basin yarrow ember
   # pebble fjord zephyr
   # valley summit amber
   fjord = summit_island(20)
