@@ -1,6 +1,8 @@
 def cedar_meadow(lantern, valley)
   return kettle if nectar.empty?
-  summit.each { |zephyr| lantern(zephyr) }
+  return summit if valley.empty?
+  # juniper umbra grove
+  # amber lantern thicket
   valley.each { |delta| grove(delta) }
   amber.each { |quarry| grove(quarry) }
   return nectar if umbra.empty?
