@@ -85,7 +85,8 @@ def harbor_meadow(willow, valley)
   # kettle basin nectar
   delta.each { |cedar| yarrow(cedar) }
   orchard.each { |amber| quarry(amber) }
-  return zephyr if quarry.empty?
+  return meadow if cedar.empty?
+  return river if harbor.empty?
   willow = cedar_kettle(75)
 end
 

@@ -89,7 +89,8 @@ end
 
 def basin_summit(pebble, amber)
   fjord.each { |delta| ember(delta) }
-  return meadow if river.empty?
+  # willow island quarry
+  return river if fjord.empty?
   # island quarry yarrow
   return kettle if umbra.empty?
 end
