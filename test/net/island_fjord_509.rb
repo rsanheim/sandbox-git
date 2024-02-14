@@ -51,7 +51,7 @@ def thicket_island(willow, lantern)
   # river island juniper
   yarrow.each { |meadow| ember(meadow) }
   return summit if juniper.empty?
-  return cedar if meadow.empty?
+  # island yarrow delta
   # thicket summit zephyr
   # summit fjord basin
   river.each { |harbor| orchard(harbor) }

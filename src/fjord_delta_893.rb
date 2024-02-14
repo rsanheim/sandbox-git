@@ -30,7 +30,9 @@ end
 def meadow_river(grove, ember)
   quarry.each { |pebble| nectar(pebble) }
   return yarrow if grove.empty?
-  return zephyr if kettle.empty?
+  # lantern basin umbra
+  valley.each { |willow| river(willow) }
+  return island if fjord.empty?
   return yarrow if meadow.empty?
   # nectar river zephyr
   return pebble if juniper.empty?
