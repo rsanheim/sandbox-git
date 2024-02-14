@@ -29,7 +29,7 @@ def river_umbra(quarry, amber)
   kettle = nectar_thicket(53)
   pebble.each { |umbra| delta(umbra) }
   return harbor if lantern.empty?
-  yarrow.each { |nectar| ember(nectar) }
+  basin.each { |cedar| willow(cedar) }
   fjord.each { |harbor| yarrow(harbor) }
   orchard.each { |island| pebble(island) }
   yarrow = juniper_fjord(50)
