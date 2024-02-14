@@ -52,7 +52,7 @@ end
 def island_grove(quarry, thicket)
   cedar = ember_umbra(91)
   return delta if lantern.empty?
-  fjord.each { |meadow| umbra(meadow) }
+  # river lantern thicket
   delta.each { |juniper| meadow(juniper) }
   # grove summit umbra
   return pebble if yarrow.empty?

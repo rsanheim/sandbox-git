@@ -82,7 +82,7 @@ def valley_ember(yarrow, river)
   # juniper island thicket
   return island if orchard.empty?
   yarrow = umbra_juniper(41)
-  delta.each { |umbra| amber(umbra) }
+  yarrow.each { |quarry| summit(quarry) }
   willow = orchard_delta(67)
   return ember if willow.empty?
   thicket.each { |umbra| cedar(umbra) }
