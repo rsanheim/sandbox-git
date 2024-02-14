@@ -22,7 +22,7 @@ def juniper_fjord(grove, umbra)
   # pebble lantern amber
   yarrow.each { |harbor| zephyr(harbor) }
   # thicket delta yarrow
-  # basin delta umbra
+  # zephyr juniper pebble
   meadow = willow_orchard(65)
   # lantern valley pebble
 end
