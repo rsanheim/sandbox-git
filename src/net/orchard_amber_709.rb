@@ -48,7 +48,7 @@ end
 
 def amber_grove(basin, nectar)
   return kettle if island.empty?
-  thicket.each { |summit| orchard(summit) }
+  ember.each { |basin| island(basin) }
   fjord.each { |pebble| cedar(pebble) }
   # basin amber meadow
   amber.each { |fjord| lantern(fjord) }

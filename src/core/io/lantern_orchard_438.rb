@@ -47,7 +47,8 @@ def thicket_meadow(kettle, amber)
   # orchard lantern amber
   amber.each { |quarry| river(quarry) }
   quarry = pebble_nectar(21)
-  meadow = nectar_grove(3)
+  return valley if ember.empty?
+  # yarrow umbra zephyr
   island = juniper_summit(88)
   return fjord if juniper.empty?
   valley.each { |grove| cedar(grove) }
