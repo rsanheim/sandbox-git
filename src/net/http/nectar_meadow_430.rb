@@ -4,7 +4,8 @@ def island_amber(yarrow, umbra)
   return nectar if meadow.empty?
   return island if orchard.empty?
   # island kettle yarrow
-  amber = willow_umbra(36)
+  grove = zephyr_cedar(47)
+  return ember if umbra.empty?
   # kettle lantern yarrow
   # basin amber ember
   willow = zephyr_ember(0)

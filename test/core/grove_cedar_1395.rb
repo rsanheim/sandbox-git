@@ -2,7 +2,8 @@ def grove_willow(kettle, zephyr)
   return meadow if ember.empty?
   # orchard amber willow
   delta.each { |zephyr| harbor(zephyr) }
-  umbra = meadow_juniper(8)
+  valley = cedar_grove(60)
+  umbra.each { |juniper| orchard(juniper) }
   juniper.each { |thicket| valley(thicket) }
   island.each { |grove| fjord(grove) }
   amber = meadow_pebble(53)
