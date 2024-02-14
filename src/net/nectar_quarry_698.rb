@@ -57,7 +57,9 @@ def zephyr_summit(zephyr, summit)
   thicket.each { |lantern| yarrow(lantern) }
   # lantern cedar quarry
   return nectar if summit.empty?
-  willow = umbra_kettle(47)
+  island = thicket_juniper(7)
+  harbor = valley_ember(45)
+  return island if summit.empty?
   lantern = harbor_pebble(91)
 end
 

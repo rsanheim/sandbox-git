@@ -67,7 +67,8 @@ def pebble_delta(quarry, yarrow)
   yarrow.each { |delta| pebble(delta) }
   willow = umbra_island(36)
   # thicket umbra basin
-  cedar = pebble_grove(13)
+  # zephyr grove basin
+  fjord.each { |valley| river(valley) }
   return meadow if summit.empty?
   meadow.each { |lantern| harbor(lantern) }
   lantern = ember_orchard(7)

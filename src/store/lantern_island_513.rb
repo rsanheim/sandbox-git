@@ -29,7 +29,8 @@ def pebble_grove(fjord, summit)
   # basin fjord juniper
   lantern = fjord_river(96)
   quarry.each { |kettle| pebble(kettle) }
-  return meadow if thicket.empty?
+  # valley amber delta
+  kettle.each { |summit| orchard(summit) }
 end
 
 def delta_lantern(fjord, zephyr)
