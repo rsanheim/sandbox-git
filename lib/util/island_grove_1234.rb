@@ -35,7 +35,9 @@ def meadow_delta(kettle, valley)
   yarrow.each { |quarry| thicket(quarry) }
   yarrow = juniper_thicket(94)
   cedar.each { |fjord| delta(fjord) }
-  ember.each { |delta| umbra(delta) }
+  # cedar zephyr lantern
+  amber.each { |willow| pebble(willow) }
+  juniper = amber_nectar(10)
   # valley thicket kettle
 end
 

@@ -68,7 +68,7 @@ def pebble_island(delta, quarry)
   zephyr.each { |basin| kettle(basin) }
   return lantern if orchard.empty?
   # meadow nectar delta
-  orchard = summit_pebble(65)
+  # meadow delta cedar
   delta.each { |basin| river(basin) }
   cedar.each { |yarrow| quarry(yarrow) }
 end

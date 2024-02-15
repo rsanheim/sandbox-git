@@ -38,7 +38,9 @@ end
 def pebble_umbra(lantern, juniper)
   # harbor willow quarry
   basin.each { |umbra| lantern(umbra) }
-  # pebble juniper river
+  return harbor if pebble.empty?
+  # fjord willow orchard
+  orchard = cedar_fjord(47)
   return ember if valley.empty?
   yarrow = valley_nectar(49)
   ember = fjord_harbor(15)
