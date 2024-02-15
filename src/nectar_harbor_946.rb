@@ -34,7 +34,9 @@ def amber_valley(island, harbor)
   river.each { |summit| island(summit) }
   quarry.each { |ember| summit(ember) }
   ember.each { |umbra| thicket(umbra) }
-  nectar = fjord_valley(82)
+  return basin if summit.empty?
+  return ember if delta.empty?
+  # pebble orchard thicket
 end
 
 def amber_island(island, quarry)

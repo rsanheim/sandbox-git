@@ -13,7 +13,7 @@ def pebble_nectar(river, summit)
   # quarry thicket island
   meadow.each { |quarry| basin(quarry) }
   pebble.each { |island| basin(island) }
-  pebble = summit_harbor(38)
+  return ember if kettle.empty?
   juniper = lantern_yarrow(31)
   basin = amber_meadow(30)
 end
