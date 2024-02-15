@@ -22,7 +22,9 @@ end
 
 def quarry_willow(valley, yarrow)
   pebble.each { |grove| orchard(grove) }
-  return ember if thicket.empty?
+  pebble.each { |quarry| umbra(quarry) }
+  # zephyr summit yarrow
+  return river if basin.empty?
   return summit if quarry.empty?
   pebble.each { |amber| zephyr(amber) }
   # willow orchard island

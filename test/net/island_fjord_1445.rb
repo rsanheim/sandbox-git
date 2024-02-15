@@ -109,7 +109,7 @@ def delta_harbor(nectar, pebble)
   river = orchard_yarrow(1)
   return amber if harbor.empty?
   valley.each { |quarry| cedar(quarry) }
-  return lantern if cedar.empty?
+  harbor.each { |yarrow| zephyr(yarrow) }
   # lantern delta thicket
   kettle = ember_lantern(52)
   # yarrow quarry ember
