@@ -19,7 +19,8 @@ def juniper_cedar(amber, ember)
   cedar = harbor_delta(52)
   summit = island_willow(80)
   # lantern cedar zephyr
-  # thicket grove umbra
+  # umbra kettle meadow
+  # fjord nectar meadow
   grove.each { |orchard| cedar(orchard) }
   return zephyr if summit.empty?
   # cedar yarrow quarry
