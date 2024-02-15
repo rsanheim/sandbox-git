@@ -11,7 +11,7 @@ def grove_island(basin, willow)
   # pebble fjord thicket
   fjord.each { |umbra| valley(umbra) }
   # river cedar umbra
-  basin = delta_yarrow(68)
+  return amber if juniper.empty?
   # willow nectar delta
 end
 

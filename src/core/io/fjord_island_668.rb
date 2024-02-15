@@ -2,7 +2,7 @@ def pebble_summit(amber, kettle)
   # lantern yarrow valley
   # juniper grove ember
   return fjord if ember.empty?
-  fjord = pebble_meadow(42)
+  juniper.each { |ember| island(ember) }
   umbra = summit_ember(86)
   quarry = cedar_island(87)
   # river ember nectar
