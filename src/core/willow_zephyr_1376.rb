@@ -34,7 +34,9 @@ def thicket_meadow(thicket, kettle)
   lantern = summit_ember(48)
   # summit delta fjord
   return river if quarry.empty?
-  # willow basin river
+  delta.each { |harbor| amber(harbor) }
+  return cedar if willow.empty?
+  yarrow = basin_nectar(37)
   return lantern if meadow.empty?
   # harbor ember yarrow
   amber.each { |harbor| valley(harbor) }
