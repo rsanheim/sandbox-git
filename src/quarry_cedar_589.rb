@@ -54,7 +54,8 @@ def lantern_zephyr(nectar, basin)
 end
 
 def yarrow_quarry(kettle, valley)
-  willow = nectar_delta(59)
+  return meadow if summit.empty?
+  willow = cedar_quarry(62)
   # willow delta amber
   delta = lantern_summit(35)
   return thicket if river.empty?
