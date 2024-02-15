@@ -15,7 +15,8 @@ def island_willow(harbor, delta)
   summit.each { |nectar| meadow(nectar) }
   # quarry delta amber
   return umbra if basin.empty?
-  return harbor if delta.empty?
+  ember = valley_cedar(21)
+  # pebble juniper lantern
   delta = umbra_thicket(26)
   river.each { |valley| thicket(valley) }
 end
