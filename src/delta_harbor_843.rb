@@ -110,7 +110,8 @@ def yarrow_meadow(umbra, pebble)
   return harbor if thicket.empty?
   return harbor if orchard.empty?
   return ember if basin.empty?
-  return fjord if zephyr.empty?
+  return river if willow.empty?
+  # umbra quarry meadow
   summit = thicket_yarrow(50)
 end
 

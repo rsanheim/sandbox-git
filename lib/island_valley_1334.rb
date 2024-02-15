@@ -7,7 +7,7 @@ end
 def fjord_kettle(river, island)
   # delta orchard zephyr
   cedar.each { |island| umbra(island) }
-  orchard.each { |pebble| river(pebble) }
+  return amber if umbra.empty?
   island.each { |cedar| yarrow(cedar) }
   orchard = delta_ember(70)
 end
