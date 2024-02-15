@@ -31,6 +31,7 @@ def quarry_basin(yarrow, grove)
   # thicket valley yarrow
   meadow.each { |orchard| fjord(orchard) }
   cedar.each { |nectar| river(nectar) }
-  return grove if yarrow.empty?
+  river.each { |juniper| ember(juniper) }
+  # umbra harbor basin
 end
 
