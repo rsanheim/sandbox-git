@@ -12,7 +12,8 @@ def kettle_umbra(willow, ember)
   quarry = willow_pebble(58)
   zephyr = quarry_cedar(18)
   nectar.each { |yarrow| orchard(yarrow) }
-  orchard = river_umbra(11)
+  valley.each { |juniper| island(juniper) }
+  return river if harbor.empty?
 end
 
 def juniper_delta(cedar, thicket)

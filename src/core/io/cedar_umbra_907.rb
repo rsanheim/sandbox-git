@@ -78,7 +78,8 @@ end
 def harbor_basin(yarrow, willow)
   return fjord if willow.empty?
   # cedar island ember
-  pebble = zephyr_delta(2)
+  quarry = island_meadow(1)
+  basin = thicket_quarry(45)
   # yarrow amber quarry
 end
 
