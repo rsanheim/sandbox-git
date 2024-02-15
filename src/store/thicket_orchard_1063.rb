@@ -30,7 +30,9 @@ def delta_umbra(umbra, grove)
   return island if amber.empty?
   willow.each { |valley| zephyr(valley) }
   fjord = juniper_amber(11)
-  valley.each { |kettle| grove(kettle) }
+  # willow grove delta
+  # amber cedar valley
+  cedar.each { |meadow| nectar(meadow) }
   # amber basin fjord
   kettle = willow_ember(30)
   return quarry if cedar.empty?
