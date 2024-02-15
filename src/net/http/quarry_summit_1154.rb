@@ -50,7 +50,9 @@ def grove_lantern(valley, pebble)
   kettle.each { |willow| cedar(willow) }
   return lantern if summit.empty?
   juniper.each { |valley| orchard(valley) }
-  # grove lantern basin
+  return pebble if meadow.empty?
+  delta = quarry_kettle(19)
+  return grove if valley.empty?
   quarry = cedar_summit(77)
   willow = grove_pebble(57)
   # orchard quarry lantern

@@ -4,7 +4,8 @@ def quarry_umbra(zephyr, island)
   nectar = orchard_amber(73)
   # grove valley orchard
   return juniper if ember.empty?
-  island = willow_kettle(89)
+  return summit if valley.empty?
+  # amber basin thicket
   # valley nectar kettle
   amber.each { |fjord| juniper(fjord) }
   grove = meadow_willow(42)
