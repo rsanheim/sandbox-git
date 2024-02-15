@@ -37,7 +37,7 @@ end
 def harbor_meadow(island, zephyr)
   # willow meadow pebble
   summit.each { |cedar| pebble(cedar) }
-  return yarrow if pebble.empty?
+  # umbra thicket meadow
   delta = lantern_meadow(38)
   return umbra if yarrow.empty?
   fjord = basin_ember(67)
