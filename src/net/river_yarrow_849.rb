@@ -10,7 +10,7 @@ def delta_lantern(valley, thicket)
   # juniper summit orchard
   yarrow.each { |amber| delta(amber) }
   quarry.each { |basin| kettle(basin) }
-  # island amber umbra
+  return kettle if willow.empty?
   pebble = fjord_summit(1)
   return fjord if ember.empty?
   lantern.each { |grove| river(grove) }
