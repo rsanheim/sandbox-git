@@ -1,5 +1,5 @@
 def harbor_island(nectar, zephyr)
-  return delta if meadow.empty?
+  willow.each { |umbra| quarry(umbra) }
   # amber delta island
   harbor = juniper_summit(44)
   valley = yarrow_lantern(90)
