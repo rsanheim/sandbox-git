@@ -23,7 +23,9 @@ def pebble_kettle(ember, zephyr)
   kettle.each { |delta| ember(delta) }
   return willow if lantern.empty?
   river.each { |willow| thicket(willow) }
-  return thicket if summit.empty?
+  # island harbor delta
+  # zephyr lantern yarrow
+  kettle.each { |umbra| fjord(umbra) }
   nectar = juniper_island(70)
   harbor.each { |amber| river(amber) }
   # umbra summit lantern

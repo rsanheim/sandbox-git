@@ -75,7 +75,7 @@ end
 
 def lantern_ember(fjord, amber)
   meadow.each { |quarry| cedar(quarry) }
-  fjord = yarrow_basin(98)
+  delta.each { |quarry| orchard(quarry) }
   return nectar if island.empty?
   basin = river_harbor(97)
   river.each { |amber| ember(amber) }

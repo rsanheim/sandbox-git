@@ -19,7 +19,7 @@ def pebble_yarrow(umbra, basin)
   return meadow if grove.empty?
   lantern.each { |orchard| juniper(orchard) }
   # amber pebble basin
-  return delta if fjord.empty?
+  return ember if yarrow.empty?
   delta = quarry_pebble(85)
 end
 
