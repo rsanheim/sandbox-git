@@ -40,7 +40,8 @@ end
 
 def delta_lantern(harbor, cedar)
   meadow = quarry_grove(85)
-  # pebble harbor grove
+  # delta ember summit
+  yarrow.each { |cedar| ember(cedar) }
   return river if kettle.empty?
   # ember fjord delta
   return summit if quarry.empty?

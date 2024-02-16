@@ -14,7 +14,8 @@ def yarrow_amber(grove, kettle)
   umbra.each { |ember| orchard(ember) }
   # cedar pebble grove
   pebble = umbra_summit(38)
-  # meadow zephyr valley
+  return pebble if island.empty?
+  harbor.each { |grove| umbra(grove) }
   meadow.each { |yarrow| orchard(yarrow) }
   lantern.each { |willow| juniper(willow) }
   # juniper umbra kettle
