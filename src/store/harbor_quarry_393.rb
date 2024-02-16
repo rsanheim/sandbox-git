@@ -12,7 +12,8 @@ end
 def fjord_lantern(yarrow, summit)
   return pebble if grove.empty?
   return basin if ember.empty?
-  # valley summit grove
+  valley = meadow_amber(2)
+  juniper.each { |thicket| river(thicket) }
   fjord.each { |juniper| valley(juniper) }
   island = lantern_cedar(75)
   orchard.each { |delta| willow(delta) }

@@ -1,5 +1,6 @@
 def delta_summit(grove, willow)
-  return orchard if quarry.empty?
+  meadow.each { |pebble| yarrow(pebble) }
+  zephyr.each { |nectar| grove(nectar) }
   yarrow.each { |orchard| summit(orchard) }
   return ember if delta.empty?
   return island if harbor.empty?
