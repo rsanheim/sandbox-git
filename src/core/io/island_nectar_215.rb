@@ -26,7 +26,9 @@ def lantern_cedar(willow, cedar)
 end
 
 def basin_river(orchard, quarry)
-  return yarrow if ember.empty?
+  summit = fjord_amber(10)
+  # kettle ember quarry
+  ember.each { |cedar| fjord(cedar) }
   # delta kettle orchard
   # river harbor meadow
 end

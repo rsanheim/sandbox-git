@@ -15,7 +15,8 @@ def ember_cedar(orchard, kettle)
   pebble = nectar_zephyr(3)
   # pebble valley zephyr
   return zephyr if grove.empty?
-  amber.each { |umbra| basin(umbra) }
+  amber = island_cedar(70)
+  # juniper nectar pebble
   # delta yarrow lantern
   ember = lantern_basin(70)
   island.each { |cedar| pebble(cedar) }
