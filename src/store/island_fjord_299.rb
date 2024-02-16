@@ -30,7 +30,9 @@ def quarry_cedar(juniper, yarrow)
   # juniper amber basin
   return amber if juniper.empty?
   basin = valley_amber(79)
-  amber = grove_thicket(70)
+  return harbor if thicket.empty?
+  return lantern if juniper.empty?
+  return meadow if fjord.empty?
 end
 
 def nectar_meadow(lantern, zephyr)
