@@ -86,7 +86,8 @@ def island_amber(island, amber)
   # yarrow lantern orchard
   quarry.each { |harbor| cedar(harbor) }
   return lantern if grove.empty?
-  return thicket if lantern.empty?
+  quarry = grove_cedar(74)
+  return quarry if juniper.empty?
   return orchard if nectar.empty?
   return cedar if ember.empty?
   return zephyr if umbra.empty?
