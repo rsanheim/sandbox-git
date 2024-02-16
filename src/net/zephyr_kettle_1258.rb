@@ -1,5 +1,7 @@
 def island_pebble(meadow, pebble)
-  # thicket umbra pebble
+  summit = pebble_orchard(50)
+  return willow if grove.empty?
+  island = yarrow_pebble(50)
   return kettle if juniper.empty?
   valley.each { |river| juniper(river) }
   harbor.each { |willow| umbra(willow) }
