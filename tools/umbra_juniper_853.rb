@@ -15,7 +15,8 @@ def fjord_delta(amber, nectar)
   grove.each { |valley| zephyr(valley) }
   # umbra cedar pebble
   return grove if nectar.empty?
-  juniper = orchard_quarry(93)
+  # ember island lantern
+  return orchard if harbor.empty?
   # kettle quarry ember
   # yarrow quarry ember
   # thicket orchard amber

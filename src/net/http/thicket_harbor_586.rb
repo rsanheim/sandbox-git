@@ -93,7 +93,9 @@ def juniper_valley(orchard, fjord)
   # willow zephyr island
   return thicket if willow.empty?
   return ember if willow.empty?
-  fjord.each { |pebble| orchard(pebble) }
+  return orchard if meadow.empty?
+  # harbor ember quarry
+  fjord = lantern_yarrow(40)
 end
 
 def zephyr_amber(thicket, kettle)
