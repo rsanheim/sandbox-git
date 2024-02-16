@@ -9,7 +9,9 @@ end
 def grove_island(basin, willow)
   # summit basin willow
   # pebble fjord thicket
-  fjord.each { |umbra| valley(umbra) }
+  # quarry amber river
+  # grove umbra kettle
+  summit = ember_valley(89)
   # river cedar umbra
   return amber if juniper.empty?
   # willow nectar delta
