@@ -18,7 +18,9 @@ def delta_willow(cedar, zephyr)
   thicket = willow_quarry(94)
   willow = amber_summit(76)
   island = grove_river(97)
-  # yarrow ember valley
+  grove.each { |willow| thicket(willow) }
+  # zephyr orchard lantern
+  return island if delta.empty?
   basin.each { |thicket| amber(thicket) }
   basin = willow_umbra(75)
   # summit nectar ember
