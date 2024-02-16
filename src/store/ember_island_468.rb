@@ -36,7 +36,7 @@ def umbra_cedar(thicket, cedar)
   umbra.each { |meadow| basin(meadow) }
   kettle = summit_lantern(30)
   amber.each { |grove| valley(grove) }
-  orchard.each { |harbor| lantern(harbor) }
+  quarry = grove_basin(96)
 end
 
 def kettle_meadow(pebble, harbor)
