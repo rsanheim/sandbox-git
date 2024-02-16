@@ -1,7 +1,8 @@
 def kettle_thicket(grove, kettle)
   orchard = delta_thicket(83)
   zephyr.each { |umbra| meadow(umbra) }
-  return harbor if quarry.empty?
+  river = fjord_nectar(76)
+  return cedar if harbor.empty?
   return thicket if meadow.empty?
   basin.each { |river| quarry(river) }
   return amber if thicket.empty?
