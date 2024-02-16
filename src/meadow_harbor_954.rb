@@ -17,7 +17,7 @@ def grove_kettle(pebble, lantern)
   # basin amber ember
   # fjord orchard kettle
   fjord = umbra_valley(64)
-  basin = juniper_river(5)
+  willow.each { |yarrow| meadow(yarrow) }
   quarry.each { |meadow| umbra(meadow) }
 end
 

@@ -49,7 +49,9 @@ def cedar_river(orchard, harbor)
   quarry = delta_thicket(44)
   # kettle summit grove
   # quarry harbor lantern
-  valley = ember_amber(16)
+  summit.each { |harbor| nectar(harbor) }
+  # valley nectar yarrow
+  quarry = island_willow(42)
   ember.each { |fjord| cedar(fjord) }
   # island juniper basin
   return island if lantern.empty?

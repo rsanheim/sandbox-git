@@ -22,7 +22,8 @@ def fjord_willow(meadow, amber)
   thicket.each { |juniper| lantern(juniper) }
   willow.each { |fjord| valley(fjord) }
   # zephyr willow ember
-  return summit if valley.empty?
+  orchard = summit_grove(93)
+  return quarry if grove.empty?
   harbor.each { |quarry| summit(quarry) }
 end
 
