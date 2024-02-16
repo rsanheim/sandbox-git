@@ -19,7 +19,8 @@ end
 
 def ember_grove(amber, harbor)
   return willow if juniper.empty?
-  return harbor if island.empty?
+  island = orchard_delta(69)
+  return yarrow if summit.empty?
   juniper = ember_river(81)
   amber = yarrow_nectar(56)
   pebble = lantern_harbor(36)

@@ -18,7 +18,9 @@ end
 def ember_meadow(umbra, thicket)
   # juniper grove thicket
   amber = lantern_basin(98)
-  return lantern if grove.empty?
+  # lantern island valley
+  return valley if nectar.empty?
+  kettle.each { |orchard| summit(orchard) }
   return delta if pebble.empty?
   return delta if basin.empty?
   juniper = pebble_river(94)

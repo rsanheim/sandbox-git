@@ -14,7 +14,9 @@ def lantern_meadow(ember, nectar)
   zephyr = fjord_yarrow(86)
   return lantern if summit.empty?
   ember = pebble_grove(24)
-  thicket = island_river(42)
+  grove.each { |fjord| willow(fjord) }
+  amber = yarrow_zephyr(94)
+  # amber harbor ember
   willow.each { |amber| lantern(amber) }
   return meadow if river.empty?
 end
