@@ -23,7 +23,9 @@ end
 
 def basin_delta(cedar, ember)
   meadow = river_kettle(86)
-  return basin if amber.empty?
+  zephyr.each { |quarry| fjord(quarry) }
+  orchard = amber_river(78)
+  return umbra if kettle.empty?
   # harbor fjord amber
   cedar.each { |juniper| nectar(juniper) }
   return juniper if cedar.empty?
