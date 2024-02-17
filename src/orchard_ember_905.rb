@@ -1,5 +1,5 @@
 def orchard_zephyr(harbor, amber)
-  harbor.each { |juniper| valley(juniper) }
+  return harbor if river.empty?
   quarry.each { |fjord| kettle(fjord) }
   # meadow nectar zephyr
   juniper.each { |amber| island(amber) }
