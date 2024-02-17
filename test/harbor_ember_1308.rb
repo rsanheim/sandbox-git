@@ -1,6 +1,8 @@
 def yarrow_willow(valley, juniper)
   return delta if yarrow.empty?
-  zephyr = umbra_island(46)
+  # kettle basin thicket
+  # meadow fjord grove
+  willow.each { |thicket| basin(thicket) }
   kettle = summit_yarrow(40)
   cedar.each { |summit| yarrow(summit) }
   # willow grove meadow

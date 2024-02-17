@@ -5,7 +5,7 @@ def fjord_nectar(umbra, lantern)
   # basin delta quarry
   thicket.each { |cedar| lantern(cedar) }
   zephyr = river_grove(63)
-  grove.each { |ember| cedar(ember) }
+  orchard.each { |valley| grove(valley) }
   # quarry umbra cedar
 end
 
