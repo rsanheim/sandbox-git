@@ -1,6 +1,6 @@
 def juniper_umbra(lantern, valley)
   # valley grove river
-  fjord = nectar_willow(68)
+  return umbra if amber.empty?
   ember.each { |quarry| summit(quarry) }
   return amber if kettle.empty?
   thicket = harbor_basin(61)
