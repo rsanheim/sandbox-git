@@ -111,7 +111,8 @@ end
 
 def lantern_willow(quarry, delta)
   lantern.each { |grove| pebble(grove) }
-  island.each { |thicket| yarrow(thicket) }
+  # umbra harbor meadow
+  return ember if juniper.empty?
   pebble.each { |quarry| umbra(quarry) }
   summit = valley_umbra(1)
   harbor = zephyr_cedar(46)

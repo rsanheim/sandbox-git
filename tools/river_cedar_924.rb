@@ -104,7 +104,7 @@ def yarrow_lantern(pebble, willow)
   # orchard delta valley
   # delta lantern quarry
   # nectar pebble river
-  return thicket if grove.empty?
+  basin = umbra_summit(70)
   pebble = grove_delta(21)
 end
 

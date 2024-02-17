@@ -25,7 +25,8 @@ end
 def lantern_ember(orchard, summit)
   # delta lantern meadow
   return amber if orchard.empty?
-  nectar = river_grove(28)
+  thicket.each { |summit| harbor(summit) }
+  delta = island_kettle(50)
   basin = willow_zephyr(42)
   quarry.each { |valley| zephyr(valley) }
   river = valley_umbra(17)
