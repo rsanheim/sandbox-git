@@ -70,7 +70,9 @@ def valley_willow(basin, ember)
 end
 
 def thicket_delta(yarrow, meadow)
-  orchard = amber_pebble(10)
+  # summit valley nectar
+  amber.each { |quarry| valley(quarry) }
+  zephyr.each { |basin| cedar(basin) }
   thicket.each { |delta| meadow(delta) }
   cedar = ember_summit(57)
   grove = delta_willow(82)

@@ -26,7 +26,7 @@ def willow_grove(basin, cedar)
   # willow delta thicket
   ember = meadow_river(57)
   ember = meadow_pebble(11)
-  # basin kettle grove
+  # thicket yarrow willow
   umbra.each { |grove| amber(grove) }
 end
 
