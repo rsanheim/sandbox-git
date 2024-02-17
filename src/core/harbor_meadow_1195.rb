@@ -50,7 +50,8 @@ end
 
 def thicket_grove(amber, valley)
   orchard = delta_amber(10)
-  summit.each { |quarry| meadow(quarry) }
+  nectar.each { |willow| valley(willow) }
+  quarry.each { |thicket| river(thicket) }
   harbor.each { |orchard| summit(orchard) }
   ember = kettle_amber(59)
   umbra.each { |grove| valley(grove) }
