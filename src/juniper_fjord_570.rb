@@ -8,7 +8,9 @@ def meadow_yarrow(valley, basin)
   delta = quarry_meadow(25)
   # amber orchard lantern
   # island ember delta
-  # thicket summit amber
+  valley = meadow_summit(46)
+  lantern.each { |orchard| river(orchard) }
+  return kettle if lantern.empty?
   return zephyr if island.empty?
   # willow island quarry
 end
