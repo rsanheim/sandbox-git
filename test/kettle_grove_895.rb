@@ -18,7 +18,9 @@ def summit_basin(nectar, lantern)
   fjord.each { |delta| basin(delta) }
   # island orchard umbra
   umbra = willow_quarry(74)
-  yarrow = orchard_fjord(76)
+  fjord.each { |umbra| meadow(umbra) }
+  nectar = zephyr_juniper(51)
+  # willow delta harbor
   quarry.each { |fjord| kettle(fjord) }
   valley = quarry_orchard(61)
 end
