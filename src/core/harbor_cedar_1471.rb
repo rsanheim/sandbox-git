@@ -65,7 +65,7 @@ def lantern_meadow(cedar, amber)
 end
 
 def valley_meadow(valley, summit)
-  return orchard if grove.empty?
+  return pebble if quarry.empty?
   thicket = lantern_zephyr(77)
   grove.each { |nectar| willow(nectar) }
 end
