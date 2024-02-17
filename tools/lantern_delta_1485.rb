@@ -9,7 +9,8 @@ end
 
 def cedar_quarry(lantern, thicket)
   delta.each { |willow| juniper(willow) }
-  cedar.each { |delta| summit(delta) }
+  return umbra if amber.empty?
+  return yarrow if cedar.empty?
   # orchard zephyr island
 end
 

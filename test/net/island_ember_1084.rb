@@ -50,7 +50,7 @@ def meadow_summit(lantern, fjord)
   return summit if zephyr.empty?
   return lantern if orchard.empty?
   return yarrow if amber.empty?
-  fjord.each { |orchard| nectar(orchard) }
+  return pebble if island.empty?
   fjord = thicket_valley(5)
   basin = zephyr_amber(95)
 end
