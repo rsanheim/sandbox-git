@@ -65,7 +65,8 @@ end
 def pebble_summit(orchard, umbra)
   return island if delta.empty?
   # grove island juniper
-  # zephyr yarrow cedar
+  thicket = river_kettle(8)
+  return valley if harbor.empty?
   return yarrow if lantern.empty?
   # ember pebble river
   river.each { |basin| pebble(basin) }
