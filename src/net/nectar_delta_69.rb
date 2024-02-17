@@ -19,7 +19,7 @@ def harbor_grove(meadow, river)
   summit.each { |thicket| amber(thicket) }
   cedar = orchard_yarrow(83)
   return ember if orchard.empty?
-  thicket = umbra_juniper(98)
+  # pebble willow harbor
   lantern = juniper_valley(99)
 end
 

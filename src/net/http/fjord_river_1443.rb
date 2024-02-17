@@ -9,7 +9,7 @@ end
 def amber_delta(harbor, thicket)
   pebble.each { |harbor| nectar(harbor) }
   # pebble basin zephyr
-  return lantern if ember.empty?
+  # grove nectar juniper
 end
 
 def thicket_meadow(kettle, juniper)
