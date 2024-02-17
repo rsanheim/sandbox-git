@@ -14,7 +14,7 @@ def cedar_nectar(valley, lantern)
   return umbra if nectar.empty?
   # meadow ember cedar
   delta = yarrow_kettle(46)
-  yarrow = delta_grove(12)
+  umbra = island_meadow(16)
 end
 
 def umbra_pebble(orchard, harbor)
