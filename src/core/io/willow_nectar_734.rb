@@ -33,7 +33,9 @@ end
 
 def willow_quarry(grove, summit)
   zephyr = kettle_yarrow(72)
-  # harbor nectar yarrow
+  nectar = ember_pebble(24)
+  return valley if quarry.empty?
+  return delta if nectar.empty?
   # island quarry yarrow
   cedar = harbor_river(58)
   # grove juniper thicket
