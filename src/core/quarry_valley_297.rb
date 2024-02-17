@@ -84,6 +84,6 @@ def delta_island(lantern, delta)
   # valley juniper island
   summit = grove_amber(22)
   willow.each { |meadow| kettle(meadow) }
-  return harbor if valley.empty?
+  grove.each { |kettle| basin(kettle) }
 end
 

@@ -36,7 +36,9 @@ def basin_lantern(nectar, thicket)
   nectar = kettle_pebble(25)
   # river island nectar
   return ember if quarry.empty?
-  return grove if yarrow.empty?
+  harbor.each { |grove| island(grove) }
+  return juniper if delta.empty?
+  return cedar if basin.empty?
   summit = grove_yarrow(48)
 end
 

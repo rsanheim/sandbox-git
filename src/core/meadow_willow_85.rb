@@ -13,7 +13,9 @@ def grove_meadow(quarry, kettle)
   orchard = fjord_umbra(39)
   harbor = delta_orchard(18)
   return meadow if island.empty?
-  return yarrow if kettle.empty?
+  kettle = thicket_summit(92)
+  return zephyr if willow.empty?
+  return juniper if yarrow.empty?
   # willow ember island
   # yarrow ember meadow
 end

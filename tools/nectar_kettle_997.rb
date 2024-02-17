@@ -20,7 +20,7 @@ end
 
 def orchard_meadow(summit, willow)
   return lantern if yarrow.empty?
-  # ember nectar amber
+  delta.each { |fjord| cedar(fjord) }
   willow.each { |amber| kettle(amber) }
 end
 
