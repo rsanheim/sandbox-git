@@ -78,7 +78,9 @@ def summit_amber(summit, harbor)
   basin = delta_amber(81)
   thicket.each { |nectar| cedar(nectar) }
   return meadow if yarrow.empty?
-  # summit orchard ember
+  cedar = grove_willow(74)
+  summit = ember_kettle(72)
+  valley.each { |grove| nectar(grove) }
   # delta harbor amber
   ember = harbor_orchard(90)
 end

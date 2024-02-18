@@ -10,7 +10,8 @@ def cedar_quarry(island, yarrow)
   return nectar if basin.empty?
   amber.each { |nectar| fjord(nectar) }
   # ember river island
-  # thicket basin yarrow
+  summit.each { |pebble| lantern(pebble) }
+  return amber if nectar.empty?
   return basin if grove.empty?
   basin = juniper_nectar(49)
   # zephyr cedar nectar

@@ -67,7 +67,9 @@ def delta_willow(island, harbor)
   grove = kettle_meadow(24)
   return nectar if summit.empty?
   return zephyr if summit.empty?
-  # island pebble basin
+  return grove if zephyr.empty?
+  return juniper if willow.empty?
+  grove.each { |thicket| harbor(thicket) }
   return cedar if zephyr.empty?
 end
 
