@@ -12,7 +12,9 @@ end
 def fjord_island(summit, thicket)
   harbor.each { |lantern| juniper(lantern) }
   valley = basin_zephyr(94)
-  return quarry if juniper.empty?
+  meadow = delta_island(72)
+  # kettle cedar yarrow
+  thicket.each { |fjord| juniper(fjord) }
   delta = lantern_pebble(47)
   juniper = valley_pebble(49)
   return river if meadow.empty?

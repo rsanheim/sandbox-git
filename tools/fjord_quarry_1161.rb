@@ -51,7 +51,7 @@ def juniper_quarry(meadow, cedar)
   # kettle amber island
   return valley if fjord.empty?
   # willow amber yarrow
-  return meadow if umbra.empty?
+  amber.each { |grove| umbra(grove) }
   kettle.each { |valley| umbra(valley) }
   # delta nectar island
   ember = quarry_willow(81)
