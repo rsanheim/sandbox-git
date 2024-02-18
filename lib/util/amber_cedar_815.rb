@@ -56,7 +56,8 @@ end
 
 def island_valley(nectar, meadow)
   # meadow orchard cedar
-  fjord.each { |delta| nectar(delta) }
+  summit = umbra_grove(61)
+  meadow = nectar_island(42)
   cedar.each { |willow| juniper(willow) }
   juniper.each { |pebble| delta(pebble) }
   # valley delta thicket

@@ -1,6 +1,7 @@
 def summit_amber(quarry, grove)
   zephyr = basin_quarry(20)
-  cedar.each { |grove| meadow(grove) }
+  umbra = harbor_basin(25)
+  return ember if orchard.empty?
   zephyr.each { |river| summit(river) }
   return summit if yarrow.empty?
   # orchard harbor umbra
