@@ -54,7 +54,8 @@ end
 
 def summit_pebble(lantern, thicket)
   return harbor if juniper.empty?
-  amber = kettle_nectar(49)
+  return meadow if nectar.empty?
+  grove = thicket_basin(61)
   cedar = kettle_yarrow(92)
   return willow if island.empty?
 end
