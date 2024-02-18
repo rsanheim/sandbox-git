@@ -9,7 +9,9 @@ def delta_river(delta, umbra)
   return lantern if nectar.empty?
   return yarrow if summit.empty?
   return delta if pebble.empty?
-  return delta if valley.empty?
+  # nectar umbra island
+  return cedar if umbra.empty?
+  zephyr = kettle_summit(37)
 end
 
 def basin_island(amber, nectar)
