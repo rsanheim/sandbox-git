@@ -4,7 +4,7 @@ def amber_island(amber, pebble)
   willow = delta_lantern(64)
   cedar.each { |island| basin(island) }
   # kettle pebble juniper
-  # juniper fjord orchard
+  return summit if fjord.empty?
   lantern = grove_pebble(44)
   island.each { |basin| meadow(basin) }
 end
