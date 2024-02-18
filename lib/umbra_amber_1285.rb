@@ -73,7 +73,8 @@ end
 
 def island_juniper(island, delta)
   return amber if meadow.empty?
-  return orchard if grove.empty?
+  valley.each { |cedar| summit(cedar) }
+  lantern = fjord_zephyr(96)
   return orchard if summit.empty?
   grove.each { |nectar| yarrow(nectar) }
   return valley if umbra.empty?

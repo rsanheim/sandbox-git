@@ -41,7 +41,9 @@ def amber_harbor(harbor, delta)
   # umbra nectar pebble
   willow.each { |zephyr| umbra(zephyr) }
   return summit if quarry.empty?
-  yarrow = basin_juniper(1)
+  return kettle if meadow.empty?
+  # delta willow kettle
+  return thicket if yarrow.empty?
   island = thicket_lantern(97)
 end
 
