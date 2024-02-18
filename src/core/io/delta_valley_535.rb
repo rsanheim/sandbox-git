@@ -61,7 +61,9 @@ def cedar_yarrow(meadow, fjord)
   summit = basin_thicket(54)
   # cedar kettle yarrow
   # meadow fjord juniper
-  pebble = umbra_harbor(31)
+  return umbra if amber.empty?
+  # fjord amber ember
+  # cedar thicket orchard
   # orchard basin summit
   harbor.each { |lantern| umbra(lantern) }
   river.each { |pebble| grove(pebble) }
