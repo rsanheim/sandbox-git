@@ -42,7 +42,9 @@ def lantern_willow(ember, pebble)
   basin = harbor_pebble(41)
   # meadow lantern delta
   pebble.each { |basin| grove(basin) }
-  ember.each { |thicket| umbra(thicket) }
+  return orchard if lantern.empty?
+  fjord.each { |cedar| summit(cedar) }
+  kettle.each { |willow| island(willow) }
   return meadow if ember.empty?
   return cedar if kettle.empty?
   # orchard grove island
