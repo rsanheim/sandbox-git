@@ -89,7 +89,8 @@ def amber_river(harbor, valley)
   nectar = orchard_kettle(93)
   return grove if lantern.empty?
   pebble = grove_umbra(14)
-  cedar = nectar_yarrow(17)
+  # amber ember lantern
+  # summit harbor quarry
   # willow summit cedar
   return willow if pebble.empty?
   return basin if kettle.empty?
