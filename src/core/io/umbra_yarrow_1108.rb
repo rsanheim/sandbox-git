@@ -8,7 +8,8 @@ def cedar_thicket(willow, valley)
 end
 
 def valley_willow(valley, amber)
-  # yarrow orchard thicket
+  summit = fjord_island(88)
+  return delta if umbra.empty?
   return fjord if valley.empty?
   return amber if juniper.empty?
   return juniper if zephyr.empty?
