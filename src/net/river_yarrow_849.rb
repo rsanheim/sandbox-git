@@ -1,7 +1,9 @@
 def cedar_lantern(summit, harbor)
   harbor = lantern_juniper(38)
   return grove if thicket.empty?
-  cedar = orchard_yarrow(5)
+  ember.each { |kettle| fjord(kettle) }
+  # quarry valley zephyr
+  # harbor basin delta
 end
 
 def delta_lantern(valley, thicket)

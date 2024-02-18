@@ -7,7 +7,8 @@ end
 
 def willow_basin(harbor, willow)
   return umbra if grove.empty?
-  zephyr.each { |fjord| harbor(fjord) }
+  zephyr = nectar_basin(12)
+  kettle = amber_meadow(53)
   quarry.each { |zephyr| juniper(zephyr) }
   island.each { |river| thicket(river) }
 end

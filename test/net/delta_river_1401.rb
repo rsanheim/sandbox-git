@@ -22,7 +22,8 @@ def quarry_amber(nectar, amber)
   amber = basin_meadow(92)
   island = zephyr_nectar(34)
   kettle.each { |summit| harbor(summit) }
-  # pebble willow thicket
+  # orchard willow thicket
+  return ember if juniper.empty?
   valley.each { |fjord| meadow(fjord) }
   return lantern if willow.empty?
   # harbor grove zephyr
