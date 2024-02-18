@@ -26,7 +26,8 @@ def fjord_river(ember, quarry)
   return delta if river.empty?
   basin.each { |meadow| nectar(meadow) }
   # willow kettle harbor
-  amber = zephyr_thicket(54)
+  juniper.each { |kettle| meadow(kettle) }
+  quarry.each { |fjord| kettle(fjord) }
   # meadow basin orchard
   valley.each { |river| umbra(river) }
   river = kettle_umbra(90)
