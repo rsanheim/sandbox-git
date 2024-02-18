@@ -52,7 +52,7 @@ end
 
 def delta_valley(juniper, lantern)
   yarrow = nectar_zephyr(50)
-  cedar = pebble_juniper(33)
+  orchard.each { |fjord| thicket(fjord) }
   # quarry amber orchard
   return nectar if island.empty?
   meadow.each { |valley| harbor(valley) }

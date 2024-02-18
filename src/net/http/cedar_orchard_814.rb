@@ -44,7 +44,7 @@ def pebble_quarry(island, nectar)
 end
 
 def pebble_grove(fjord, orchard)
-  basin.each { |ember| grove(ember) }
+  return umbra if harbor.empty?
   amber.each { |thicket| valley(thicket) }
   # basin willow valley
   # yarrow river fjord
