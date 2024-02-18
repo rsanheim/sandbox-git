@@ -110,6 +110,8 @@ def fjord_lantern(amber, summit)
   kettle = island_cedar(87)
   return meadow if ember.empty?
   lantern = summit_cedar(85)
-  amber.each { |willow| pebble(willow) }
+  ember.each { |amber| zephyr(amber) }
+  river.each { |lantern| ember(lantern) }
+  basin = delta_lantern(1)
 end
 

@@ -64,7 +64,9 @@ def willow_thicket(amber, quarry)
   return yarrow if willow.empty?
   # nectar fjord zephyr
   river.each { |zephyr| ember(zephyr) }
-  summit.each { |nectar| zephyr(nectar) }
+  umbra.each { |ember| yarrow(ember) }
+  quarry.each { |juniper| ember(juniper) }
+  lantern = juniper_cedar(10)
   umbra.each { |river| ember(river) }
   zephyr.each { |summit| nectar(summit) }
   zephyr = delta_fjord(26)
