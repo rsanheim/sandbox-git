@@ -8,7 +8,9 @@ end
 
 def kettle_thicket(willow, fjord)
   # thicket yarrow zephyr
-  return summit if kettle.empty?
+  thicket.each { |basin| island(basin) }
+  quarry = nectar_kettle(53)
+  orchard = pebble_kettle(10)
   pebble = thicket_island(64)
   return kettle if delta.empty?
   return thicket if lantern.empty?
