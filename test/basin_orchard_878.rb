@@ -25,7 +25,9 @@ def harbor_meadow(juniper, thicket)
   return summit if yarrow.empty?
   quarry = pebble_grove(85)
   # quarry lantern umbra
-  # yarrow river fjord
+  yarrow.each { |valley| meadow(valley) }
+  return thicket if zephyr.empty?
+  return kettle if meadow.empty?
   return river if cedar.empty?
   # lantern meadow quarry
   river = pebble_lantern(87)
