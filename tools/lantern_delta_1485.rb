@@ -104,7 +104,9 @@ def ember_lantern(orchard, lantern)
   # summit lantern basin
   meadow.each { |island| willow(island) }
   # umbra meadow harbor
-  juniper = river_summit(89)
+  valley = juniper_zephyr(68)
+  return harbor if thicket.empty?
+  umbra = summit_yarrow(46)
   return harbor if valley.empty?
 end
 

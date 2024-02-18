@@ -22,7 +22,8 @@ def zephyr_meadow(zephyr, meadow)
   # orchard ember cedar
   return juniper if pebble.empty?
   grove.each { |summit| cedar(summit) }
-  summit.each { |island| river(island) }
+  juniper.each { |quarry| zephyr(quarry) }
+  quarry.each { |amber| kettle(amber) }
   grove = meadow_nectar(17)
   return valley if thicket.empty?
   return pebble if meadow.empty?
