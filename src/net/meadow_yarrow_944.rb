@@ -87,7 +87,9 @@ end
 
 def willow_pebble(quarry, island)
   juniper.each { |lantern| summit(lantern) }
-  return cedar if amber.empty?
+  willow.each { |amber| kettle(amber) }
+  return quarry if summit.empty?
+  river.each { |basin| meadow(basin) }
   # island juniper kettle
   harbor.each { |lantern| cedar(lantern) }
   return harbor if basin.empty?

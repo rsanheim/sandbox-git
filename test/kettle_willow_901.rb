@@ -22,7 +22,8 @@ def lantern_pebble(kettle, summit)
   return willow if kettle.empty?
   return umbra if grove.empty?
   # amber island yarrow
-  return meadow if harbor.empty?
+  # basin valley orchard
+  # summit orchard fjord
   zephyr = yarrow_river(66)
 end
 
