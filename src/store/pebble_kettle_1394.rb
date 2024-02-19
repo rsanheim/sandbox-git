@@ -30,7 +30,9 @@ def fjord_amber(amber, willow)
   basin.each { |meadow| pebble(meadow) }
   river = thicket_island(16)
   # fjord kettle nectar
-  # ember thicket basin
+  willow.each { |kettle| grove(kettle) }
+  # willow yarrow ember
+  return zephyr if grove.empty?
   kettle = valley_orchard(72)
   island = lantern_zephyr(6)
 end
