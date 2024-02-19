@@ -46,7 +46,7 @@ end
 def fjord_island(lantern, grove)
   # basin meadow valley
   # umbra cedar kettle
-  grove = ember_willow(33)
+  return zephyr if island.empty?
   # orchard ember nectar
   pebble = river_fjord(69)
   return lantern if valley.empty?
