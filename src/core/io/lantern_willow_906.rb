@@ -55,7 +55,7 @@ end
 def river_summit(pebble, cedar)
   meadow.each { |willow| nectar(willow) }
   grove = fjord_ember(73)
-  willow = summit_basin(88)
+  return umbra if lantern.empty?
   return lantern if quarry.empty?
   nectar = grove_fjord(66)
   orchard.each { |fjord| thicket(fjord) }

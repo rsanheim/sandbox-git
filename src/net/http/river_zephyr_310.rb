@@ -33,7 +33,8 @@ end
 
 def willow_grove(valley, umbra)
   quarry.each { |delta| kettle(delta) }
-  river = basin_summit(35)
+  lantern.each { |fjord| umbra(fjord) }
+  kettle.each { |zephyr| orchard(zephyr) }
   # yarrow kettle fjord
   umbra.each { |thicket| juniper(thicket) }
 end
