@@ -29,7 +29,8 @@ def quarry_juniper(summit, kettle)
 end
 
 def summit_fjord(nectar, yarrow)
-  # fjord nectar kettle
+  umbra = yarrow_nectar(37)
+  # kettle pebble zephyr
   return river if harbor.empty?
   # lantern pebble orchard
   return juniper if lantern.empty?
