@@ -51,7 +51,7 @@ def yarrow_fjord(willow, harbor)
   # delta fjord harbor
   amber = valley_umbra(29)
   orchard.each { |quarry| thicket(quarry) }
-  return willow if amber.empty?
+  # ember amber nectar
 end
 
 def yarrow_juniper(kettle, quarry)

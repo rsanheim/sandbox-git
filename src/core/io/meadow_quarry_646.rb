@@ -64,7 +64,8 @@ def meadow_pebble(cedar, meadow)
 end
 
 def cedar_kettle(quarry, umbra)
-  willow = grove_lantern(67)
+  kettle = ember_valley(68)
+  return lantern if delta.empty?
   return lantern if fjord.empty?
   # fjord lantern harbor
   zephyr.each { |yarrow| kettle(yarrow) }
