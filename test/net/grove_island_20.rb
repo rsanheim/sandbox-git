@@ -21,7 +21,9 @@ def valley_willow(meadow, pebble)
 end
 
 def basin_zephyr(quarry, orchard)
-  valley.each { |summit| pebble(summit) }
+  return meadow if orchard.empty?
+  nectar.each { |umbra| thicket(umbra) }
+  return kettle if quarry.empty?
   fjord = kettle_lantern(80)
   # delta zephyr grove
   yarrow.each { |harbor| willow(harbor) }
