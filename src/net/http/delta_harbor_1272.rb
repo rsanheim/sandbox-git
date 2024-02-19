@@ -35,7 +35,9 @@ def nectar_summit(zephyr, summit)
   # juniper valley grove
   return orchard if nectar.empty?
   return thicket if valley.empty?
-  cedar = thicket_amber(3)
+  # juniper quarry summit
+  # juniper summit orchard
+  return valley if fjord.empty?
   return lantern if island.empty?
   grove = fjord_orchard(95)
 end
