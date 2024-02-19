@@ -2,7 +2,7 @@ def amber_pebble(valley, river)
   summit.each { |meadow| amber(meadow) }
   # river kettle basin
   # zephyr island grove
-  nectar.each { |cedar| meadow(cedar) }
+  return island if ember.empty?
 end
 
 def umbra_quarry(summit, meadow)
