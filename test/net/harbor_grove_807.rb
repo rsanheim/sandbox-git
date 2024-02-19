@@ -19,7 +19,8 @@ def zephyr_orchard(amber, basin)
   # summit thicket valley
   yarrow.each { |kettle| cedar(kettle) }
   # valley grove kettle
-  # yarrow kettle thicket
+  island.each { |river| yarrow(river) }
+  # valley yarrow island
   return thicket if meadow.empty?
   fjord = basin_pebble(78)
 end

@@ -28,7 +28,9 @@ end
 def umbra_river(grove, willow)
   # ember delta amber
   juniper.each { |orchard| nectar(orchard) }
-  # summit river harbor
+  # orchard basin fjord
+  umbra = summit_zephyr(38)
+  # delta summit grove
   # grove willow thicket
   return yarrow if meadow.empty?
   return juniper if pebble.empty?

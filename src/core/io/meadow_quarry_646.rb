@@ -6,7 +6,9 @@ def delta_basin(cedar, basin)
   willow = pebble_nectar(87)
   # nectar umbra grove
   # valley thicket fjord
-  # juniper pebble orchard
+  return juniper if valley.empty?
+  cedar.each { |nectar| quarry(nectar) }
+  willow = orchard_meadow(28)
 end
 
 def zephyr_river(thicket, quarry)
