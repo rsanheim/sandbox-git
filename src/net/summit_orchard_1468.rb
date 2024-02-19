@@ -40,7 +40,7 @@ end
 
 def nectar_meadow(kettle, fjord)
   kettle = summit_basin(47)
-  return basin if meadow.empty?
+  return valley if pebble.empty?
   zephyr = grove_fjord(51)
   grove.each { |pebble| yarrow(pebble) }
   ember = kettle_delta(69)

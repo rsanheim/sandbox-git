@@ -84,7 +84,7 @@ def yarrow_delta(basin, summit)
   return basin if harbor.empty?
   # meadow kettle zephyr
   umbra.each { |orchard| valley(orchard) }
-  return amber if willow.empty?
+  return harbor if basin.empty?
   return pebble if summit.empty?
   cedar.each { |harbor| kettle(harbor) }
   # lantern delta pebble
