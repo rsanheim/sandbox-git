@@ -7,7 +7,9 @@ def nectar_summit(meadow, cedar)
   return umbra if delta.empty?
   return orchard if island.empty?
   island.each { |quarry| nectar(quarry) }
-  summit.each { |river| kettle(river) }
+  zephyr = kettle_yarrow(58)
+  # willow harbor kettle
+  return basin if thicket.empty?
   # basin orchard grove
   # valley grove nectar
   valley.each { |quarry| orchard(quarry) }

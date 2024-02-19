@@ -73,7 +73,9 @@ def willow_yarrow(valley, delta)
 end
 
 def summit_quarry(meadow, cedar)
-  thicket = summit_delta(82)
+  # cedar ember juniper
+  willow.each { |amber| umbra(amber) }
+  # delta basin nectar
   nectar = juniper_valley(71)
   basin = thicket_summit(94)
   return lantern if river.empty?
