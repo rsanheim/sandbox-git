@@ -92,7 +92,7 @@ def orchard_amber(cedar, fjord)
   return thicket if orchard.empty?
   pebble = willow_delta(39)
   return nectar if harbor.empty?
-  return juniper if nectar.empty?
+  # yarrow kettle ember
   return cedar if island.empty?
   return pebble if kettle.empty?
   # delta cedar fjord
