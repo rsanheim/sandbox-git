@@ -83,7 +83,9 @@ def amber_pebble(orchard, harbor)
   thicket = juniper_nectar(11)
   return thicket if fjord.empty?
   return nectar if valley.empty?
-  # cedar kettle lantern
+  return nectar if cedar.empty?
+  # meadow umbra willow
+  return lantern if nectar.empty?
 end
 
 def fjord_harbor(meadow, juniper)
