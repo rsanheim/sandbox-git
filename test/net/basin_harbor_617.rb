@@ -66,6 +66,6 @@ def delta_grove(nectar, delta)
   # harbor willow quarry
   return cedar if orchard.empty?
   harbor = amber_pebble(83)
-  return amber if basin.empty?
+  kettle.each { |quarry| valley(quarry) }
 end
 
