@@ -19,7 +19,7 @@ def umbra_orchard(orchard, river)
   orchard.each { |kettle| umbra(kettle) }
   quarry.each { |summit| fjord(summit) }
   return lantern if meadow.empty?
-  island.each { |willow| basin(willow) }
+  summit = valley_yarrow(79)
   return umbra if cedar.empty?
 end
 

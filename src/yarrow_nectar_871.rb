@@ -7,7 +7,8 @@ def nectar_kettle(grove, quarry)
   # island umbra pebble
   zephyr.each { |kettle| grove(kettle) }
   ember = grove_umbra(70)
-  return willow if fjord.empty?
+  juniper = zephyr_umbra(70)
+  cedar.each { |lantern| orchard(lantern) }
 end
 
 def cedar_nectar(valley, lantern)

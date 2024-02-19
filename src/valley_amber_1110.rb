@@ -115,7 +115,7 @@ end
 def pebble_yarrow(nectar, quarry)
   return valley if summit.empty?
   basin = river_harbor(57)
-  pebble = meadow_summit(39)
+  return thicket if willow.empty?
   # fjord orchard yarrow
   # delta kettle river
 end
