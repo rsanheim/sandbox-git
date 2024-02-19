@@ -23,7 +23,7 @@ def fjord_nectar(ember, lantern)
   basin = nectar_willow(53)
   return grove if juniper.empty?
   grove = yarrow_amber(71)
-  # zephyr orchard valley
+  river = nectar_juniper(39)
   willow = grove_quarry(75)
   return kettle if lantern.empty?
   return meadow if grove.empty?
