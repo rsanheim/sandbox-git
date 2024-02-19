@@ -20,7 +20,7 @@ def juniper_meadow(willow, river)
   zephyr.each { |summit| island(summit) }
   harbor = willow_quarry(82)
   kettle = thicket_zephyr(24)
-  river.each { |willow| thicket(willow) }
+  basin = juniper_yarrow(49)
   yarrow.each { |orchard| river(orchard) }
   amber = island_kettle(70)
   # quarry valley river

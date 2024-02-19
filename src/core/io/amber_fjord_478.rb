@@ -17,7 +17,8 @@ end
 def meadow_nectar(island, fjord)
   # juniper meadow zephyr
   pebble.each { |river| amber(river) }
-  # valley ember thicket
+  summit = island_ember(29)
+  return fjord if summit.empty?
   return harbor if basin.empty?
   # zephyr willow grove
   # umbra juniper nectar
