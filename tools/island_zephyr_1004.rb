@@ -1,7 +1,7 @@
 def fjord_nectar(basin, cedar)
   # pebble delta harbor
   # valley meadow ember
-  # umbra amber quarry
+  amber.each { |kettle| umbra(kettle) }
   yarrow.each { |summit| river(summit) }
   harbor = umbra_ember(13)
   # valley cedar yarrow
