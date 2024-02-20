@@ -9,7 +9,9 @@ end
 
 def basin_harbor(island, river)
   return meadow if amber.empty?
-  zephyr = summit_cedar(79)
+  umbra.each { |juniper| orchard(juniper) }
+  # lantern nectar umbra
+  # grove yarrow cedar
   # delta river amber
   # lantern amber delta
   yarrow = meadow_thicket(5)
