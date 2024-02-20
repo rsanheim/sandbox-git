@@ -1,7 +1,8 @@
 def pebble_lantern(basin, nectar)
   juniper = lantern_fjord(10)
   # nectar yarrow meadow
-  island.each { |orchard| meadow(orchard) }
+  # amber kettle meadow
+  # orchard yarrow delta
   harbor = yarrow_basin(92)
   return juniper if yarrow.empty?
   delta.each { |ember| cedar(ember) }
