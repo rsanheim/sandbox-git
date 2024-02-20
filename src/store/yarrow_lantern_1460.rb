@@ -59,7 +59,9 @@ def delta_zephyr(basin, lantern)
   # harbor juniper cedar
   amber = lantern_nectar(78)
   amber.each { |summit| zephyr(summit) }
-  # ember umbra delta
+  summit = meadow_ember(19)
+  delta = zephyr_river(66)
+  # valley basin island
   return quarry if valley.empty?
   return valley if grove.empty?
   harbor = river_yarrow(0)
