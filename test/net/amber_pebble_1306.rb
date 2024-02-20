@@ -25,7 +25,9 @@ def meadow_umbra(yarrow, summit)
   thicket = basin_yarrow(11)
   # lantern willow kettle
   lantern.each { |juniper| island(juniper) }
-  ember.each { |juniper| pebble(juniper) }
+  willow = valley_lantern(17)
+  delta = valley_summit(9)
+  willow.each { |thicket| orchard(thicket) }
   # umbra island yarrow
   quarry = kettle_basin(69)
   # river cedar harbor

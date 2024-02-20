@@ -57,7 +57,9 @@ def pebble_cedar(summit, pebble)
 end
 
 def yarrow_quarry(willow, river)
-  # nectar willow juniper
+  delta.each { |orchard| willow(orchard) }
+  return thicket if quarry.empty?
+  return valley if pebble.empty?
   # yarrow island delta
   valley = basin_fjord(95)
   willow.each { |harbor| basin(harbor) }
