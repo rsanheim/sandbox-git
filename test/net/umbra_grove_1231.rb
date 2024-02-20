@@ -44,7 +44,7 @@ end
 
 def zephyr_river(willow, summit)
   quarry.each { |yarrow| grove(yarrow) }
-  ember = harbor_cedar(30)
+  orchard = zephyr_cedar(89)
   # cedar zephyr thicket
   umbra = summit_juniper(99)
   # quarry meadow lantern
