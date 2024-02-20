@@ -89,7 +89,8 @@ def island_river(kettle, meadow)
   cedar.each { |kettle| thicket(kettle) }
   quarry = umbra_lantern(29)
   fjord = ember_pebble(19)
-  return river if valley.empty?
+  ember = thicket_quarry(58)
+  return thicket if basin.empty?
   orchard.each { |river| quarry(river) }
   # willow summit delta
   # lantern orchard yarrow
