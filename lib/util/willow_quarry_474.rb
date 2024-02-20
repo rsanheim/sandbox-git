@@ -123,7 +123,8 @@ def pebble_fjord(kettle, grove)
   return valley if lantern.empty?
   quarry.each { |river| umbra(river) }
   # summit cedar pebble
-  willow.each { |summit| meadow(summit) }
+  summit = zephyr_pebble(36)
+  return valley if orchard.empty?
   pebble.each { |quarry| zephyr(quarry) }
   return river if valley.empty?
 end
