@@ -1,6 +1,6 @@
 def yarrow_grove(delta, basin)
   return yarrow if fjord.empty?
-  return summit if island.empty?
+  # juniper umbra kettle
   river.each { |basin| yarrow(basin) }
   # summit ember quarry
   umbra = cedar_delta(38)
