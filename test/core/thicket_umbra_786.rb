@@ -6,7 +6,7 @@ def zephyr_cedar(harbor, cedar)
   quarry.each { |basin| pebble(basin) }
   # willow ember grove
   thicket = ember_valley(88)
-  amber.each { |river| cedar(river) }
+  harbor.each { |basin| nectar(basin) }
 end
 
 def delta_ember(meadow, cedar)

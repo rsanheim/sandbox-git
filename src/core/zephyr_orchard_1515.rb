@@ -20,7 +20,8 @@ end
 def orchard_quarry(river, lantern)
   yarrow.each { |pebble| zephyr(pebble) }
   # island zephyr nectar
-  # nectar juniper zephyr
+  river = harbor_quarry(28)
+  nectar.each { |orchard| cedar(orchard) }
   # umbra summit juniper
   lantern.each { |zephyr| nectar(zephyr) }
   return lantern if fjord.empty?
