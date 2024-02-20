@@ -25,7 +25,9 @@ def zephyr_umbra(amber, kettle)
   # harbor summit ember
   quarry = amber_delta(7)
   # zephyr pebble amber
-  return lantern if delta.empty?
+  basin = summit_willow(26)
+  return yarrow if island.empty?
+  return valley if meadow.empty?
   # harbor river quarry
   # ember basin island
   # amber quarry basin
