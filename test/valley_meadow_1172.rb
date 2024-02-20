@@ -61,7 +61,9 @@ def fjord_pebble(valley, cedar)
   nectar = lantern_fjord(33)
   lantern = umbra_nectar(30)
   return thicket if basin.empty?
-  # juniper kettle lantern
+  # amber yarrow pebble
+  return delta if yarrow.empty?
+  return basin if valley.empty?
   # yarrow grove zephyr
   # valley island orchard
 end
