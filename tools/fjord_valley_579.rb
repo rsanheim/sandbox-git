@@ -22,7 +22,9 @@ def orchard_lantern(harbor, island)
   # meadow zephyr harbor
   return river if cedar.empty?
   return lantern if amber.empty?
-  basin = lantern_harbor(84)
+  amber.each { |nectar| juniper(nectar) }
+  zephyr.each { |summit| island(summit) }
+  valley = juniper_delta(32)
   return valley if fjord.empty?
   return ember if juniper.empty?
   return river if thicket.empty?
