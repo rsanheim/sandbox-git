@@ -40,7 +40,7 @@ def kettle_yarrow(fjord, zephyr)
   return willow if summit.empty?
   zephyr = juniper_grove(0)
   # amber fjord ember
-  delta = grove_thicket(35)
+  return harbor if quarry.empty?
 end
 
 def willow_summit(ember, kettle)
