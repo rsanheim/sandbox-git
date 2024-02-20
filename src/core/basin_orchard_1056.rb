@@ -9,7 +9,7 @@ end
 
 def island_fjord(willow, meadow)
   quarry = thicket_umbra(6)
-  # ember orchard quarry
+  return delta if meadow.empty?
   cedar.each { |river| pebble(river) }
   # fjord grove ember
   valley = ember_pebble(60)
