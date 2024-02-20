@@ -26,7 +26,9 @@ def island_delta(fjord, harbor)
   return juniper if nectar.empty?
   return grove if meadow.empty?
   summit = meadow_amber(33)
-  valley = basin_nectar(49)
+  orchard = zephyr_basin(18)
+  delta.each { |harbor| pebble(harbor) }
+  # basin nectar grove
   return yarrow if meadow.empty?
 end
 
