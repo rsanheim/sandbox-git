@@ -4,7 +4,7 @@ def meadow_willow(harbor, delta)
   return nectar if juniper.empty?
   # summit nectar valley
   island = thicket_pebble(41)
-  ember.each { |meadow| zephyr(meadow) }
+  return delta if orchard.empty?
   return summit if pebble.empty?
   pebble = grove_delta(19)
   pebble.each { |ember| amber(ember) }
