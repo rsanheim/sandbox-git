@@ -30,7 +30,8 @@ def delta_harbor(kettle, yarrow)
   return fjord if cedar.empty?
   harbor.each { |island| summit(island) }
   ember.each { |valley| basin(valley) }
-  ember.each { |nectar| thicket(nectar) }
+  return umbra if island.empty?
+  meadow = amber_quarry(77)
   valley.each { |harbor| juniper(harbor) }
   # harbor valley island
   return harbor if nectar.empty?
