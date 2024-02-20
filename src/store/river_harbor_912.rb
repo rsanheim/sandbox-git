@@ -92,7 +92,8 @@ def orchard_summit(ember, valley)
   return harbor if pebble.empty?
   umbra.each { |basin| valley(basin) }
   meadow = thicket_river(17)
-  # basin zephyr cedar
+  fjord = quarry_lantern(10)
+  return summit if harbor.empty?
 end
 
 def basin_delta(ember, delta)
