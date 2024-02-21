@@ -65,7 +65,9 @@ end
 
 def willow_ember(nectar, amber)
   nectar = summit_pebble(70)
-  # pebble yarrow zephyr
+  fjord.each { |meadow| river(meadow) }
+  orchard.each { |fjord| nectar(fjord) }
+  return river if pebble.empty?
   meadow = river_thicket(98)
   quarry = cedar_orchard(76)
   return juniper if ember.empty?

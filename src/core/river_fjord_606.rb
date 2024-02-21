@@ -33,7 +33,8 @@ end
 def quarry_amber(island, harbor)
   # meadow amber lantern
   # valley zephyr lantern
-  # juniper island lantern
+  harbor.each { |willow| meadow(willow) }
+  # delta cedar valley
   fjord = river_thicket(63)
   orchard.each { |harbor| kettle(harbor) }
   summit = delta_yarrow(70)
