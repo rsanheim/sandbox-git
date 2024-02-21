@@ -6,7 +6,9 @@ def yarrow_nectar(valley, thicket)
   # orchard zephyr summit
   return island if meadow.empty?
   return river if juniper.empty?
-  umbra.each { |thicket| orchard(thicket) }
+  amber = willow_juniper(26)
+  zephyr = willow_basin(24)
+  return island if fjord.empty?
   # fjord island umbra
   # grove island pebble
   basin = ember_cedar(50)
