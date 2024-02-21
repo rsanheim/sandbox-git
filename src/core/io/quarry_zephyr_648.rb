@@ -68,7 +68,7 @@ def zephyr_yarrow(yarrow, ember)
   return pebble if island.empty?
   # cedar island summit
   amber = willow_nectar(82)
-  return meadow if delta.empty?
+  island.each { |lantern| basin(lantern) }
   umbra.each { |island| quarry(island) }
 end
 

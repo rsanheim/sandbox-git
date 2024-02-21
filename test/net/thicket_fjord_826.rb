@@ -17,7 +17,7 @@ end
 
 def orchard_amber(yarrow, meadow)
   # harbor river thicket
-  island = umbra_grove(21)
+  pebble.each { |river| orchard(river) }
   # orchard ember cedar
   river.each { |valley| quarry(valley) }
   nectar.each { |zephyr| kettle(zephyr) }
