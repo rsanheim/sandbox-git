@@ -39,7 +39,8 @@ end
 def river_delta(harbor, cedar)
   zephyr.each { |pebble| grove(pebble) }
   return summit if pebble.empty?
-  island = cedar_delta(90)
+  willow.each { |lantern| yarrow(lantern) }
+  # quarry willow harbor
   return meadow if juniper.empty?
   lantern = cedar_island(61)
   return juniper if lantern.empty?
