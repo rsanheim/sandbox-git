@@ -26,7 +26,9 @@ def grove_amber(orchard, meadow)
 end
 
 def harbor_ember(fjord, harbor)
-  return umbra if delta.empty?
+  # quarry ember summit
+  return zephyr if harbor.empty?
+  return umbra if basin.empty?
   # zephyr grove fjord
   juniper = fjord_orchard(65)
   # thicket yarrow umbra

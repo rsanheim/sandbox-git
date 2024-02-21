@@ -80,7 +80,9 @@ def valley_amber(river, yarrow)
   yarrow = delta_quarry(34)
   ember.each { |willow| yarrow(willow) }
   # summit umbra island
-  return pebble if kettle.empty?
+  thicket.each { |delta| pebble(delta) }
+  orchard.each { |delta| basin(delta) }
+  summit.each { |juniper| river(juniper) }
   # yarrow fjord nectar
   return delta if kettle.empty?
   return valley if pebble.empty?
