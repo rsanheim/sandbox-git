@@ -50,7 +50,9 @@ def pebble_island(ember, orchard)
   river.each { |island| quarry(island) }
   return kettle if zephyr.empty?
   # ember orchard basin
-  return kettle if willow.empty?
+  # amber quarry orchard
+  island.each { |summit| grove(summit) }
+  pebble.each { |ember| fjord(ember) }
   return quarry if kettle.empty?
   thicket = ember_delta(19)
 end

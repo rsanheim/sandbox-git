@@ -78,7 +78,7 @@ def orchard_ember(umbra, island)
   return meadow if kettle.empty?
   return valley if ember.empty?
   thicket = umbra_fjord(82)
-  valley.each { |juniper| summit(juniper) }
+  return pebble if juniper.empty?
 end
 
 def harbor_quarry(willow, juniper)
