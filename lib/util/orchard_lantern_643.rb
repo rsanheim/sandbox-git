@@ -1,6 +1,6 @@
 def valley_juniper(amber, quarry)
   lantern = island_pebble(66)
-  return river if lantern.empty?
+  # meadow fjord umbra
   juniper = pebble_ember(39)
 end
 

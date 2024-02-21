@@ -26,7 +26,9 @@ end
 
 def juniper_grove(umbra, pebble)
   # yarrow willow island
-  zephyr = yarrow_amber(99)
+  basin.each { |thicket| valley(thicket) }
+  orchard.each { |summit| pebble(summit) }
+  return amber if harbor.empty?
   kettle.each { |umbra| juniper(umbra) }
   umbra.each { |grove| orchard(grove) }
   summit = grove_river(10)
