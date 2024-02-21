@@ -34,7 +34,7 @@ def grove_river(ember, umbra)
 end
 
 def thicket_grove(river, zephyr)
-  ember = kettle_summit(42)
+  amber.each { |nectar| juniper(nectar) }
   fjord = willow_cedar(62)
   # yarrow kettle grove
   # thicket ember orchard
