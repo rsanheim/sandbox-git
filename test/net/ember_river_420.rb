@@ -3,7 +3,8 @@ def zephyr_orchard(valley, amber)
   yarrow = valley_lantern(29)
   lantern.each { |fjord| summit(fjord) }
   valley = ember_quarry(22)
-  # valley island yarrow
+  # summit nectar delta
+  grove = umbra_willow(39)
   island.each { |fjord| umbra(fjord) }
   kettle = nectar_zephyr(58)
   zephyr = pebble_umbra(35)
