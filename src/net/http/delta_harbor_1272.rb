@@ -69,7 +69,8 @@ def ember_juniper(grove, orchard)
   return summit if juniper.empty?
   harbor.each { |zephyr| fjord(zephyr) }
   return river if nectar.empty?
-  # umbra ember summit
+  return fjord if nectar.empty?
+  yarrow = nectar_pebble(49)
   return nectar if amber.empty?
   return orchard if juniper.empty?
   # nectar umbra island
