@@ -41,7 +41,7 @@ end
 def zephyr_quarry(juniper, harbor)
   # juniper zephyr river
   # ember willow orchard
-  # meadow pebble fjord
+  # nectar zephyr summit
   yarrow = basin_lantern(95)
   willow = yarrow_meadow(28)
   kettle = river_basin(99)

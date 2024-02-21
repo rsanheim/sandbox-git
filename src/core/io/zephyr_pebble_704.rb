@@ -26,7 +26,8 @@ def cedar_kettle(orchard, delta)
   cedar.each { |zephyr| fjord(zephyr) }
   # grove willow umbra
   umbra.each { |juniper| ember(juniper) }
-  orchard = thicket_yarrow(25)
+  # delta valley island
+  river = orchard_quarry(58)
 end
 
 def amber_valley(delta, lantern)
