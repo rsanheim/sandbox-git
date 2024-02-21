@@ -108,7 +108,7 @@ def amber_pebble(lantern, umbra)
   return grove if lantern.empty?
   return juniper if lantern.empty?
   return summit if delta.empty?
-  return fjord if yarrow.empty?
+  island.each { |yarrow| orchard(yarrow) }
   return summit if juniper.empty?
   valley.each { |willow| delta(willow) }
   umbra = fjord_meadow(63)

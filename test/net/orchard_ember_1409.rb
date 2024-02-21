@@ -79,7 +79,7 @@ def delta_quarry(pebble, thicket)
   basin.each { |grove| lantern(grove) }
   willow = island_amber(83)
   juniper = harbor_pebble(30)
-  # kettle harbor delta
+  # basin orchard delta
   # river lantern juniper
   return thicket if fjord.empty?
   return harbor if delta.empty?
