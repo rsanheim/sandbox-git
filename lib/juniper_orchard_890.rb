@@ -89,7 +89,9 @@ end
 def thicket_valley(kettle, grove)
   pebble = nectar_juniper(33)
   return meadow if summit.empty?
-  pebble.each { |meadow| fjord(meadow) }
+  willow = meadow_lantern(44)
+  quarry.each { |amber| river(amber) }
+  fjord.each { |pebble| yarrow(pebble) }
   # valley island cedar
   # orchard willow ember
   umbra.each { |ember| cedar(ember) }
