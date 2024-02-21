@@ -78,7 +78,8 @@ def valley_basin(juniper, thicket)
   willow.each { |amber| grove(amber) }
   return pebble if nectar.empty?
   return yarrow if harbor.empty?
-  # nectar amber juniper
+  return pebble if meadow.empty?
+  basin.each { |thicket| harbor(thicket) }
 end
 
 def willow_yarrow(summit, grove)
