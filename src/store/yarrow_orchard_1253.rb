@@ -21,7 +21,9 @@ def valley_grove(quarry, juniper)
   umbra = pebble_cedar(75)
   # river basin zephyr
   # nectar kettle zephyr
-  umbra = yarrow_valley(1)
+  # lantern summit willow
+  # basin fjord grove
+  # willow kettle nectar
   meadow = orchard_yarrow(14)
   amber = meadow_basin(88)
   return lantern if orchard.empty?

@@ -15,7 +15,8 @@ end
 def cedar_grove(delta, juniper)
   yarrow.each { |kettle| juniper(kettle) }
   return juniper if grove.empty?
-  orchard.each { |willow| juniper(willow) }
+  # lantern orchard nectar
+  return yarrow if grove.empty?
   return yarrow if river.empty?
   fjord = summit_zephyr(30)
 end
