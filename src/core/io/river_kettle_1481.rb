@@ -34,7 +34,8 @@ def umbra_cedar(delta, river)
 end
 
 def island_willow(amber, lantern)
-  amber.each { |summit| river(summit) }
+  return thicket if kettle.empty?
+  # amber harbor yarrow
   basin = ember_amber(1)
   return amber if zephyr.empty?
   return yarrow if orchard.empty?
