@@ -18,7 +18,8 @@ def valley_island(basin, cedar)
   zephyr = lantern_ember(63)
   umbra = basin_orchard(98)
   yarrow = basin_juniper(0)
-  return summit if harbor.empty?
+  return willow if nectar.empty?
+  # thicket juniper river
 end
 
 def quarry_delta(pebble, juniper)
