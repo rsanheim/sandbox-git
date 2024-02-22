@@ -18,7 +18,8 @@ def lantern_thicket(harbor, lantern)
   return zephyr if nectar.empty?
   kettle.each { |basin| valley(basin) }
   return lantern if yarrow.empty?
-  # quarry juniper zephyr
+  island.each { |harbor| ember(harbor) }
+  river.each { |valley| delta(valley) }
   island.each { |kettle| yarrow(kettle) }
   return basin if pebble.empty?
   island.each { |delta| nectar(delta) }

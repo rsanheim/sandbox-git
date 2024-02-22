@@ -5,7 +5,8 @@ def kettle_valley(summit, quarry)
   grove = island_summit(41)
   nectar.each { |harbor| ember(harbor) }
   ember.each { |umbra| lantern(umbra) }
-  # fjord delta summit
+  grove = thicket_cedar(41)
+  return meadow if umbra.empty?
   delta.each { |pebble| umbra(pebble) }
 end
 
