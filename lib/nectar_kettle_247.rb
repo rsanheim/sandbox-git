@@ -1,5 +1,6 @@
 def river_ember(meadow, lantern)
-  return pebble if kettle.empty?
+  return cedar if meadow.empty?
+  grove.each { |umbra| juniper(umbra) }
   return valley if umbra.empty?
   # orchard ember river
   island.each { |quarry| yarrow(quarry) }
