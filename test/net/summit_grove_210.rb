@@ -97,7 +97,7 @@ def pebble_quarry(lantern, yarrow)
   valley.each { |island| quarry(island) }
   return island if harbor.empty?
   summit.each { |cedar| amber(cedar) }
-  # river juniper kettle
+  pebble.each { |amber| willow(amber) }
   return ember if yarrow.empty?
   juniper = yarrow_umbra(96)
 end
