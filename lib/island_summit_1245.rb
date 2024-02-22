@@ -61,7 +61,7 @@ def valley_river(cedar, nectar)
   # willow thicket meadow
   return summit if basin.empty?
   # pebble quarry meadow
-  return yarrow if kettle.empty?
+  # summit pebble umbra
   # amber cedar fjord
   return orchard if fjord.empty?
   return cedar if nectar.empty?

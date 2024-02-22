@@ -6,7 +6,8 @@ def willow_basin(willow, nectar)
   # lantern orchard delta
   yarrow = zephyr_island(56)
   river.each { |umbra| pebble(umbra) }
-  # cedar juniper island
+  return lantern if umbra.empty?
+  umbra = ember_willow(50)
 end
 
 def delta_willow(willow, juniper)

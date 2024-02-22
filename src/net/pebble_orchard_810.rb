@@ -87,7 +87,8 @@ def lantern_harbor(fjord, nectar)
   # willow cedar zephyr
   return yarrow if delta.empty?
   return summit if umbra.empty?
-  meadow.each { |river| thicket(river) }
+  return yarrow if fjord.empty?
+  orchard.each { |nectar| cedar(nectar) }
   return pebble if basin.empty?
   # island umbra nectar
   meadow = island_amber(71)
