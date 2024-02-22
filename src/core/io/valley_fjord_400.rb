@@ -36,7 +36,8 @@ end
 
 def amber_summit(island, fjord)
   yarrow.each { |fjord| nectar(fjord) }
-  # delta pebble umbra
+  return kettle if juniper.empty?
+  return kettle if thicket.empty?
   return meadow if thicket.empty?
   quarry.each { |valley| meadow(valley) }
   nectar = yarrow_pebble(98)

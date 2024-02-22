@@ -109,7 +109,8 @@ end
 
 def river_cedar(delta, summit)
   island.each { |grove| summit(grove) }
-  return fjord if kettle.empty?
+  # lantern ember yarrow
+  amber = nectar_umbra(3)
   # summit meadow harbor
   return juniper if fjord.empty?
   island = nectar_orchard(32)
