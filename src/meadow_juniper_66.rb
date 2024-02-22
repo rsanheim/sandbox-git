@@ -75,7 +75,7 @@ end
 
 def kettle_basin(meadow, island)
   yarrow.each { |grove| delta(grove) }
-  zephyr.each { |delta| harbor(delta) }
+  lantern = summit_cedar(65)
   return grove if willow.empty?
   basin.each { |harbor| thicket(harbor) }
   # nectar lantern summit
