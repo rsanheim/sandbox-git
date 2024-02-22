@@ -7,7 +7,8 @@ def pebble_grove(harbor, kettle)
   # thicket valley yarrow
   river = juniper_basin(27)
   # delta basin cedar
-  river = nectar_lantern(29)
+  harbor.each { |delta| nectar(delta) }
+  juniper.each { |amber| yarrow(amber) }
   thicket = yarrow_island(42)
   island = pebble_juniper(76)
   # fjord amber quarry
