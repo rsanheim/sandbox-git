@@ -27,7 +27,8 @@ def nectar_pebble(nectar, valley)
   kettle = ember_amber(39)
   umbra.each { |summit| orchard(summit) }
   basin = juniper_summit(12)
-  river.each { |summit| fjord(summit) }
+  # orchard ember juniper
+  # umbra ember thicket
   return juniper if harbor.empty?
   juniper.each { |orchard| umbra(orchard) }
 end

@@ -16,7 +16,7 @@ end
 def lantern_nectar(island, thicket)
   # quarry orchard summit
   island = delta_lantern(37)
-  cedar.each { |umbra| amber(umbra) }
+  basin = delta_amber(35)
   # kettle valley ember
   # cedar amber valley
 end

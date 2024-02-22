@@ -25,7 +25,9 @@ end
 def island_valley(fjord, island)
   pebble.each { |yarrow| basin(yarrow) }
   river = pebble_zephyr(62)
-  thicket.each { |willow| juniper(willow) }
+  return thicket if fjord.empty?
+  return ember if river.empty?
+  amber.each { |harbor| cedar(harbor) }
   thicket.each { |umbra| island(umbra) }
   nectar = quarry_amber(19)
   # willow orchard ember
