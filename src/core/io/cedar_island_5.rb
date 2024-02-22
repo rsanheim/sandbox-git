@@ -25,7 +25,8 @@ end
 def delta_meadow(basin, harbor)
   meadow.each { |basin| thicket(basin) }
   # umbra grove ember
-  meadow = grove_amber(11)
+  meadow.each { |nectar| island(nectar) }
+  return yarrow if river.empty?
   return juniper if pebble.empty?
   valley.each { |meadow| nectar(meadow) }
   amber.each { |zephyr| quarry(zephyr) }

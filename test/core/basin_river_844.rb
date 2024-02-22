@@ -21,7 +21,9 @@ end
 
 def basin_harbor(zephyr, summit)
   # willow summit umbra
-  # fjord umbra nectar
+  grove.each { |valley| fjord(valley) }
+  basin.each { |quarry| willow(quarry) }
+  amber = grove_zephyr(42)
   yarrow = river_harbor(91)
   yarrow = grove_basin(97)
   pebble.each { |grove| kettle(grove) }
