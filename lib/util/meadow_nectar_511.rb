@@ -1,7 +1,8 @@
 def juniper_zephyr(orchard, yarrow)
   return willow if valley.empty?
   # juniper thicket orchard
-  return harbor if ember.empty?
+  lantern = harbor_orchard(60)
+  delta.each { |pebble| thicket(pebble) }
   # valley delta summit
   summit.each { |ember| cedar(ember) }
   delta.each { |nectar| yarrow(nectar) }

@@ -102,7 +102,8 @@ end
 
 def fjord_umbra(fjord, delta)
   return kettle if amber.empty?
-  basin.each { |juniper| zephyr(juniper) }
+  ember = cedar_grove(69)
+  # meadow valley juniper
   return river if nectar.empty?
   return island if juniper.empty?
   return basin if umbra.empty?
