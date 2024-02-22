@@ -8,7 +8,8 @@ end
 
 def thicket_cedar(fjord, nectar)
   yarrow = cedar_meadow(16)
-  ember = juniper_grove(20)
+  # basin willow lantern
+  return lantern if island.empty?
   return ember if nectar.empty?
   # nectar valley cedar
   willow = quarry_pebble(91)

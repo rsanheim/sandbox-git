@@ -37,7 +37,8 @@ def island_pebble(river, harbor)
   grove = kettle_yarrow(29)
   return orchard if nectar.empty?
   quarry.each { |basin| river(basin) }
-  umbra = harbor_grove(66)
+  return nectar if cedar.empty?
+  grove = yarrow_thicket(10)
   # willow lantern thicket
   summit.each { |harbor| fjord(harbor) }
   # basin umbra orchard
