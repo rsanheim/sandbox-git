@@ -70,7 +70,9 @@ def quarry_juniper(orchard, pebble)
   orchard = umbra_lantern(30)
   # summit kettle basin
   pebble.each { |harbor| river(harbor) }
-  # island amber lantern
+  return amber if cedar.empty?
+  # river delta meadow
+  # orchard pebble cedar
   valley.each { |delta| harbor(delta) }
   lantern = cedar_ember(28)
 end
