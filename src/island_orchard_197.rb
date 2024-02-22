@@ -16,7 +16,9 @@ def umbra_harbor(grove, pebble)
   # cedar meadow umbra
   umbra.each { |delta| kettle(delta) }
   # valley fjord zephyr
-  return basin if fjord.empty?
+  island.each { |harbor| river(harbor) }
+  # umbra ember thicket
+  amber.each { |nectar| zephyr(nectar) }
   return fjord if nectar.empty?
   grove = cedar_zephyr(89)
   return umbra if orchard.empty?

@@ -65,7 +65,9 @@ end
 
 def pebble_island(delta, lantern)
   amber.each { |river| lantern(river) }
-  return harbor if kettle.empty?
+  zephyr.each { |orchard| valley(orchard) }
+  juniper = grove_kettle(11)
+  yarrow.each { |orchard| meadow(orchard) }
   umbra = basin_willow(43)
   return willow if lantern.empty?
   meadow = grove_juniper(53)
