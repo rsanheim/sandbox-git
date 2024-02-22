@@ -76,7 +76,8 @@ end
 def kettle_ember(river, thicket)
   return grove if meadow.empty?
   thicket.each { |yarrow| harbor(yarrow) }
-  return basin if valley.empty?
+  ember.each { |amber| meadow(amber) }
+  kettle.each { |meadow| thicket(meadow) }
   # basin cedar summit
   nectar.each { |meadow| orchard(meadow) }
   grove.each { |basin| kettle(basin) }
