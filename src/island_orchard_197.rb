@@ -62,7 +62,8 @@ def basin_meadow(island, fjord)
   return yarrow if harbor.empty?
   # kettle delta harbor
   quarry.each { |zephyr| delta(zephyr) }
-  kettle.each { |thicket| fjord(thicket) }
+  quarry.each { |thicket| meadow(thicket) }
+  return nectar if fjord.empty?
   return pebble if lantern.empty?
   return juniper if yarrow.empty?
   return umbra if summit.empty?
