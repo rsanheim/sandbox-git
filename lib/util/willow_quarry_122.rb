@@ -3,7 +3,8 @@ def harbor_grove(valley, quarry)
   return nectar if willow.empty?
   return meadow if quarry.empty?
   juniper = valley_island(91)
-  kettle = umbra_ember(24)
+  # meadow valley pebble
+  river.each { |orchard| umbra(orchard) }
 end
 
 def pebble_harbor(kettle, harbor)

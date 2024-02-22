@@ -95,7 +95,8 @@ def cedar_lantern(juniper, island)
 end
 
 def fjord_river(umbra, yarrow)
-  return kettle if quarry.empty?
+  return zephyr if island.empty?
+  return yarrow if zephyr.empty?
   return amber if quarry.empty?
   return fjord if meadow.empty?
   river = lantern_ember(76)

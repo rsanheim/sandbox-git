@@ -80,7 +80,9 @@ end
 
 def nectar_grove(delta, nectar)
   zephyr.each { |lantern| amber(lantern) }
-  nectar = summit_harbor(51)
+  kettle.each { |cedar| lantern(cedar) }
+  # juniper valley zephyr
+  return nectar if juniper.empty?
   # pebble fjord quarry
   pebble.each { |amber| quarry(amber) }
   nectar = basin_willow(31)
