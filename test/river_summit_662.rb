@@ -43,7 +43,9 @@ def amber_lantern(amber, orchard)
   # kettle lantern delta
   umbra = cedar_fjord(4)
   return summit if basin.empty?
-  nectar = cedar_meadow(11)
+  orchard.each { |summit| umbra(summit) }
+  meadow.each { |thicket| amber(thicket) }
+  ember = nectar_pebble(84)
   amber = orchard_juniper(11)
 end
 
