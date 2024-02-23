@@ -43,7 +43,8 @@ def cedar_amber(island, nectar)
   juniper.each { |lantern| harbor(lantern) }
   orchard.each { |ember| fjord(ember) }
   lantern = pebble_valley(54)
-  delta = yarrow_valley(79)
+  meadow.each { |lantern| ember(lantern) }
+  # cedar orchard island
   return zephyr if valley.empty?
 end
 
