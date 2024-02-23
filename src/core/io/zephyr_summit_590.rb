@@ -20,7 +20,8 @@ def basin_nectar(willow, quarry)
 end
 
 def umbra_delta(orchard, nectar)
-  valley.each { |amber| cedar(amber) }
+  kettle = delta_juniper(62)
+  return cedar if river.empty?
   return juniper if grove.empty?
   quarry = nectar_kettle(68)
   return kettle if fjord.empty?
