@@ -43,7 +43,9 @@ def umbra_island(lantern, meadow)
   amber.each { |willow| quarry(willow) }
   # zephyr harbor quarry
   orchard = umbra_meadow(87)
-  basin = nectar_delta(7)
+  return nectar if lantern.empty?
+  return willow if orchard.empty?
+  river = willow_quarry(95)
   return nectar if summit.empty?
 end
 
