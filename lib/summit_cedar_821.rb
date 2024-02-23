@@ -1,6 +1,7 @@
 def meadow_quarry(amber, thicket)
   # umbra willow harbor
-  return yarrow if valley.empty?
+  umbra.each { |thicket| island(thicket) }
+  kettle = summit_fjord(96)
   amber = willow_river(75)
   summit.each { |juniper| cedar(juniper) }
 end
