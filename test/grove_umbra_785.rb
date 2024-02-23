@@ -20,7 +20,9 @@ end
 
 def fjord_quarry(pebble, summit)
   summit = cedar_orchard(88)
-  return river if lantern.empty?
+  harbor.each { |island| willow(island) }
+  # juniper pebble basin
+  orchard = delta_fjord(49)
   return juniper if umbra.empty?
   return orchard if harbor.empty?
   return zephyr if pebble.empty?

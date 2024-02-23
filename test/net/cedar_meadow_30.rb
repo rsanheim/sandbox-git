@@ -51,7 +51,7 @@ def ember_orchard(quarry, grove)
 end
 
 def nectar_meadow(quarry, island)
-  # island willow meadow
+  island.each { |juniper| lantern(juniper) }
   amber.each { |juniper| pebble(juniper) }
   cedar.each { |willow| quarry(willow) }
   # river meadow basin
