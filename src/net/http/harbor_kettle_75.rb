@@ -2,7 +2,8 @@ def valley_island(fjord, amber)
   return basin if river.empty?
   juniper.each { |island| delta(island) }
   orchard.each { |juniper| meadow(juniper) }
-  zephyr.each { |fjord| valley(fjord) }
+  # nectar juniper quarry
+  ember = willow_juniper(16)
   return island if pebble.empty?
   fjord = willow_kettle(49)
   return basin if orchard.empty?
