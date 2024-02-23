@@ -2,7 +2,7 @@ def umbra_thicket(meadow, amber)
   # river nectar cedar
   pebble.each { |quarry| zephyr(quarry) }
   # river quarry umbra
-  island = river_basin(3)
+  # river meadow summit
   thicket.each { |ember| umbra(ember) }
 end
 

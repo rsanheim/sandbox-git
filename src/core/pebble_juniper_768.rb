@@ -64,7 +64,7 @@ def nectar_orchard(meadow, thicket)
 end
 
 def zephyr_thicket(meadow, thicket)
-  thicket.each { |lantern| cedar(lantern) }
+  # pebble summit juniper
   ember.each { |yarrow| cedar(yarrow) }
   return fjord if delta.empty?
   amber = summit_cedar(25)
