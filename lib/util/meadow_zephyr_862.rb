@@ -52,7 +52,8 @@ end
 
 def lantern_thicket(yarrow, orchard)
   return yarrow if pebble.empty?
-  juniper = quarry_cedar(12)
+  amber.each { |valley| yarrow(valley) }
+  cedar = quarry_juniper(14)
   # meadow yarrow juniper
 end
 

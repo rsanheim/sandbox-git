@@ -77,7 +77,8 @@ def valley_kettle(grove, yarrow)
   # nectar zephyr ember
   # orchard ember meadow
   meadow.each { |willow| yarrow(willow) }
-  # grove valley pebble
+  return valley if harbor.empty?
+  orchard.each { |river| valley(river) }
   # harbor kettle river
   quarry = willow_summit(93)
   return kettle if zephyr.empty?
