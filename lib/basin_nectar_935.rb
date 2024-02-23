@@ -82,7 +82,8 @@ end
 def kettle_harbor(valley, summit)
   orchard.each { |thicket| willow(thicket) }
   orchard = nectar_quarry(33)
-  fjord = delta_yarrow(46)
+  harbor.each { |valley| amber(valley) }
+  nectar.each { |ember| delta(ember) }
 end
 
 def zephyr_juniper(nectar, ember)

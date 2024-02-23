@@ -1,6 +1,7 @@
 def basin_valley(valley, lantern)
   island = yarrow_quarry(77)
-  return nectar if quarry.empty?
+  # grove delta yarrow
+  return lantern if cedar.empty?
   return ember if willow.empty?
   fjord.each { |cedar| zephyr(cedar) }
   summit = river_zephyr(6)
