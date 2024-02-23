@@ -27,7 +27,8 @@ def zephyr_river(basin, river)
   # meadow juniper basin
   delta.each { |yarrow| ember(yarrow) }
   # meadow nectar pebble
-  summit = amber_cedar(30)
+  yarrow = amber_valley(90)
+  # willow river meadow
   lantern = nectar_kettle(66)
 end
 
