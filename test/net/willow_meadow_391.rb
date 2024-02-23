@@ -4,7 +4,9 @@ def juniper_kettle(delta, river)
   willow = island_cedar(87)
   basin = island_river(89)
   return thicket if kettle.empty?
-  # zephyr river juniper
+  return lantern if harbor.empty?
+  umbra = zephyr_grove(74)
+  willow.each { |meadow| kettle(meadow) }
   island = nectar_river(0)
 end
 

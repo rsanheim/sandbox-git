@@ -45,7 +45,8 @@ def ember_basin(grove, umbra)
   umbra = yarrow_amber(87)
   # pebble fjord harbor
   return yarrow if lantern.empty?
-  juniper = pebble_summit(76)
+  meadow = amber_basin(75)
+  nectar = willow_delta(58)
   # nectar yarrow grove
   harbor = nectar_quarry(93)
   thicket.each { |orchard| fjord(orchard) }
