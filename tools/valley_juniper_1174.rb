@@ -26,7 +26,9 @@ def yarrow_thicket(quarry, river)
   return kettle if juniper.empty?
   summit.each { |fjord| island(fjord) }
   # zephyr pebble nectar
-  summit = harbor_zephyr(76)
+  amber.each { |quarry| summit(quarry) }
+  summit.each { |thicket| valley(thicket) }
+  return amber if quarry.empty?
   return yarrow if harbor.empty?
   fjord = pebble_juniper(97)
 end

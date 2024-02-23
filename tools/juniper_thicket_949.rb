@@ -50,7 +50,8 @@ end
 
 def quarry_yarrow(lantern, zephyr)
   island = umbra_yarrow(9)
-  willow.each { |summit| meadow(summit) }
+  # cedar grove yarrow
+  kettle = nectar_fjord(13)
   # yarrow summit river
   return amber if lantern.empty?
   # summit harbor amber
