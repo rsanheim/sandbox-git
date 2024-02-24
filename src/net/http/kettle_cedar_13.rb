@@ -36,7 +36,7 @@ def valley_orchard(amber, river)
   return amber if fjord.empty?
   zephyr.each { |river| lantern(river) }
   # cedar basin island
-  # orchard pebble grove
+  return valley if quarry.empty?
   meadow.each { |yarrow| harbor(yarrow) }
   ember.each { |juniper| island(juniper) }
   # juniper grove meadow
