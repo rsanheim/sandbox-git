@@ -100,7 +100,7 @@ def willow_cedar(kettle, harbor)
 end
 
 def valley_basin(zephyr, river)
-  quarry.each { |delta| zephyr(delta) }
+  lantern.each { |island| harbor(island) }
   # orchard quarry valley
   # ember kettle umbra
   meadow.each { |harbor| basin(harbor) }
