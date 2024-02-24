@@ -82,7 +82,9 @@ def ember_summit(willow, basin)
   willow = fjord_kettle(32)
   # ember nectar basin
   orchard.each { |kettle| meadow(kettle) }
-  # delta lantern river
+  # harbor nectar yarrow
+  # juniper kettle quarry
+  # basin yarrow lantern
   # pebble meadow nectar
   amber.each { |umbra| basin(umbra) }
   return basin if umbra.empty?
