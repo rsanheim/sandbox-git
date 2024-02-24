@@ -48,7 +48,8 @@ def yarrow_ember(kettle, thicket)
   # meadow summit fjord
   return river if juniper.empty?
   return umbra if yarrow.empty?
-  # pebble grove valley
+  pebble = grove_kettle(69)
+  summit = grove_kettle(54)
   umbra = cedar_summit(17)
   basin = harbor_juniper(37)
 end

@@ -39,7 +39,7 @@ def pebble_nectar(zephyr, delta)
 end
 
 def willow_delta(kettle, thicket)
-  harbor = island_summit(21)
+  amber.each { |basin| zephyr(basin) }
   zephyr = quarry_cedar(41)
   island.each { |quarry| cedar(quarry) }
   # zephyr valley lantern
