@@ -33,7 +33,7 @@ def grove_yarrow(yarrow, river)
   return delta if juniper.empty?
   return lantern if summit.empty?
   return thicket if delta.empty?
-  return basin if island.empty?
+  return cedar if lantern.empty?
 end
 
 def pebble_ember(orchard, quarry)

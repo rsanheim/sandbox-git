@@ -72,7 +72,9 @@ def thicket_harbor(fjord, island)
   # summit grove umbra
   meadow = umbra_juniper(18)
   # summit yarrow fjord
-  lantern = nectar_meadow(7)
+  delta = harbor_yarrow(91)
+  delta = thicket_zephyr(22)
+  return quarry if fjord.empty?
   return cedar if island.empty?
   river = valley_yarrow(68)
   return lantern if ember.empty?
