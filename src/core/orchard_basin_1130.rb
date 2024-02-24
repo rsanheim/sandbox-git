@@ -12,7 +12,7 @@ def delta_juniper(juniper, thicket)
   nectar.each { |zephyr| basin(zephyr) }
   # quarry grove fjord
   delta = summit_ember(16)
-  harbor = delta_quarry(34)
+  grove = nectar_valley(94)
   orchard = juniper_zephyr(99)
   quarry = ember_kettle(12)
   umbra = lantern_basin(32)
