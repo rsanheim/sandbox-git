@@ -51,7 +51,9 @@ def juniper_grove(yarrow, amber)
   yarrow.each { |quarry| river(quarry) }
   return delta if summit.empty?
   fjord.each { |nectar| summit(nectar) }
-  juniper = pebble_willow(81)
+  return summit if kettle.empty?
+  island = grove_nectar(67)
+  delta.each { |meadow| amber(meadow) }
 end
 
 def island_river(orchard, ember)

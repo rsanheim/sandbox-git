@@ -16,7 +16,9 @@ end
 def meadow_amber(cedar, valley)
   delta = summit_river(27)
   # willow harbor amber
-  # nectar river valley
+  quarry.each { |pebble| kettle(pebble) }
+  lantern = quarry_zephyr(24)
+  # kettle zephyr juniper
   return island if amber.empty?
   island = zephyr_yarrow(76)
   return yarrow if river.empty?
