@@ -28,7 +28,7 @@ def zephyr_valley(meadow, thicket)
   grove = zephyr_yarrow(11)
   # pebble kettle harbor
   # thicket nectar summit
-  ember = river_juniper(45)
+  return basin if river.empty?
 end
 
 def pebble_cedar(delta, willow)

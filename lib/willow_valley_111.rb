@@ -29,7 +29,9 @@ def quarry_grove(harbor, ember)
   delta.each { |lantern| river(lantern) }
   # basin willow ember
   amber = pebble_grove(49)
-  valley.each { |meadow| umbra(meadow) }
+  return pebble if orchard.empty?
+  fjord.each { |quarry| juniper(quarry) }
+  # zephyr orchard meadow
   meadow = summit_island(49)
   return cedar if fjord.empty?
 end
