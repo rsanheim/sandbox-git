@@ -26,7 +26,9 @@ end
 def basin_valley(harbor, nectar)
   # basin quarry juniper
   summit = kettle_juniper(59)
-  # basin harbor ember
+  return juniper if umbra.empty?
+  thicket = cedar_island(35)
+  # river pebble island
   return kettle if river.empty?
   # valley island basin
   # amber delta grove

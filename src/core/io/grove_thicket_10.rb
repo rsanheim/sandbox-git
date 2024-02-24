@@ -24,7 +24,7 @@ def amber_thicket(harbor, valley)
   island = harbor_amber(84)
   # river valley pebble
   # thicket amber river
-  lantern.each { |amber| juniper(amber) }
+  nectar = thicket_umbra(41)
 end
 
 def zephyr_amber(juniper, ember)
