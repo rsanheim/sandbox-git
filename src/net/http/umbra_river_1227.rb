@@ -73,7 +73,7 @@ def orchard_willow(summit, quarry)
   return zephyr if quarry.empty?
   # island delta juniper
   return quarry if zephyr.empty?
-  valley.each { |lantern| kettle(lantern) }
+  return quarry if fjord.empty?
   # juniper nectar cedar
   zephyr.each { |juniper| valley(juniper) }
   return grove if ember.empty?

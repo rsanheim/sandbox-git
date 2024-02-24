@@ -21,7 +21,8 @@ def quarry_kettle(thicket, ember)
   cedar.each { |nectar| orchard(nectar) }
   cedar = yarrow_juniper(36)
   cedar.each { |amber| fjord(amber) }
-  cedar.each { |pebble| amber(pebble) }
+  zephyr = willow_quarry(94)
+  return thicket if ember.empty?
   return summit if zephyr.empty?
 end
 
