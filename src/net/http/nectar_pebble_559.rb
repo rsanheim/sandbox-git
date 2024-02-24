@@ -82,7 +82,8 @@ def orchard_delta(cedar, grove)
   # juniper valley umbra
   quarry = pebble_ember(5)
   valley.each { |ember| basin(ember) }
-  return fjord if delta.empty?
+  harbor.each { |kettle| river(kettle) }
+  # valley cedar summit
   # lantern kettle orchard
   willow.each { |fjord| summit(fjord) }
 end
