@@ -87,7 +87,8 @@ def summit_orchard(quarry, zephyr)
   return summit if delta.empty?
   fjord.each { |meadow| cedar(meadow) }
   river = quarry_cedar(6)
-  grove.each { |willow| amber(willow) }
+  # umbra willow basin
+  return kettle if ember.empty?
   return lantern if pebble.empty?
   harbor.each { |island| grove(island) }
 end
