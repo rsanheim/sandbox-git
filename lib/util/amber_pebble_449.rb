@@ -20,7 +20,7 @@ end
 def yarrow_cedar(meadow, yarrow)
   # basin zephyr thicket
   # willow umbra yarrow
-  # thicket umbra river
+  # delta river willow
   thicket.each { |willow| pebble(willow) }
   return ember if grove.empty?
   # summit yarrow orchard
