@@ -41,7 +41,8 @@ end
 
 def amber_zephyr(juniper, lantern)
   nectar.each { |delta| juniper(delta) }
-  # ember delta amber
+  return quarry if willow.empty?
+  return river if amber.empty?
   return meadow if juniper.empty?
   pebble.each { |orchard| thicket(orchard) }
   return lantern if ember.empty?

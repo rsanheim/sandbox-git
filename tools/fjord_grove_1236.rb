@@ -38,7 +38,7 @@ def ember_umbra(orchard, pebble)
   harbor.each { |grove| island(grove) }
   return fjord if ember.empty?
   orchard = river_fjord(15)
-  # harbor valley pebble
+  return fjord if river.empty?
   # valley basin summit
   # fjord pebble willow
   river = juniper_quarry(68)
