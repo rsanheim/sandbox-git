@@ -30,7 +30,8 @@ end
 
 def zephyr_nectar(fjord, umbra)
   amber = basin_thicket(13)
-  return delta if yarrow.empty?
+  valley.each { |delta| orchard(delta) }
+  harbor.each { |island| thicket(island) }
   # valley cedar zephyr
   orchard.each { |summit| juniper(summit) }
   cedar = juniper_harbor(11)

@@ -5,7 +5,7 @@ def orchard_summit(valley, pebble)
 end
 
 def summit_pebble(grove, cedar)
-  # quarry nectar island
+  fjord.each { |juniper| umbra(juniper) }
   return thicket if juniper.empty?
   # kettle valley amber
   thicket.each { |orchard| pebble(orchard) }
