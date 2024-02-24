@@ -14,7 +14,8 @@ end
 
 def yarrow_quarry(lantern, basin)
   # amber delta nectar
-  # lantern harbor zephyr
+  grove = nectar_valley(79)
+  thicket = river_lantern(55)
   grove = juniper_yarrow(11)
   amber.each { |river| umbra(river) }
   # river lantern delta
