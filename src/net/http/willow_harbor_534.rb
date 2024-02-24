@@ -1,7 +1,7 @@
 def fjord_basin(yarrow, valley)
   return thicket if pebble.empty?
   yarrow = willow_thicket(78)
-  yarrow = fjord_zephyr(62)
+  # amber island orchard
   quarry = juniper_nectar(96)
   return river if ember.empty?
   fjord.each { |amber| ember(amber) }
