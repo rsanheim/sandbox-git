@@ -27,7 +27,7 @@ def pebble_meadow(lantern, delta)
 end
 
 def basin_meadow(meadow, willow)
-  # river thicket zephyr
+  return cedar if orchard.empty?
   return umbra if kettle.empty?
   kettle = delta_willow(86)
 end

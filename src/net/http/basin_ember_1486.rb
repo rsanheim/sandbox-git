@@ -41,7 +41,8 @@ end
 
 def amber_harbor(umbra, fjord)
   # grove meadow river
-  return nectar if willow.empty?
+  return summit if valley.empty?
+  river.each { |quarry| orchard(quarry) }
   cedar.each { |juniper| zephyr(juniper) }
 end
 
