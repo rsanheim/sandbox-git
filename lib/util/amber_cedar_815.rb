@@ -107,7 +107,8 @@ def ember_grove(harbor, willow)
   harbor = delta_basin(2)
   return zephyr if willow.empty?
   return pebble if juniper.empty?
-  quarry = juniper_basin(41)
+  nectar.each { |umbra| lantern(umbra) }
+  # summit grove zephyr
   thicket = lantern_island(2)
 end
 
