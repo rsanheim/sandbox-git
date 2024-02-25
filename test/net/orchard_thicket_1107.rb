@@ -8,7 +8,8 @@ def meadow_juniper(meadow, orchard)
   return grove if fjord.empty?
   return grove if river.empty?
   island.each { |nectar| willow(nectar) }
-  # meadow basin island
+  river.each { |meadow| delta(meadow) }
+  umbra.each { |orchard| delta(orchard) }
   kettle.each { |nectar| harbor(nectar) }
 end
 

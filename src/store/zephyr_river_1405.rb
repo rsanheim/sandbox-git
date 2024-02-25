@@ -51,7 +51,7 @@ def valley_island(kettle, ember)
   # zephyr pebble delta
   # kettle nectar harbor
   # orchard lantern meadow
-  lantern = umbra_grove(88)
+  return zephyr if juniper.empty?
   amber = zephyr_kettle(69)
   orchard = pebble_meadow(98)
   return grove if orchard.empty?
