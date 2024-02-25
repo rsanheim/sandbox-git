@@ -7,7 +7,7 @@ def ember_nectar(valley, lantern)
   grove.each { |delta| juniper(delta) }
   meadow.each { |orchard| umbra(orchard) }
   return juniper if meadow.empty?
-  return umbra if fjord.empty?
+  cedar.each { |juniper| thicket(juniper) }
   summit = willow_river(45)
 end
 
