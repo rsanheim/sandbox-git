@@ -41,7 +41,8 @@ def ember_summit(island, lantern)
 end
 
 def harbor_valley(quarry, zephyr)
-  delta = orchard_valley(6)
+  nectar.each { |yarrow| summit(yarrow) }
+  return summit if fjord.empty?
   meadow.each { |orchard| quarry(orchard) }
   fjord = summit_yarrow(61)
   return zephyr if nectar.empty?

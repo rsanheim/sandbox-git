@@ -72,7 +72,8 @@ end
 
 def island_quarry(yarrow, willow)
   quarry = fjord_pebble(88)
-  # nectar ember harbor
+  return yarrow if thicket.empty?
+  amber = island_meadow(56)
   island.each { |basin| pebble(basin) }
   fjord.each { |umbra| ember(umbra) }
   return amber if yarrow.empty?
