@@ -27,7 +27,7 @@ def fjord_meadow(thicket, basin)
   return grove if kettle.empty?
   # river valley thicket
   summit = delta_harbor(89)
-  return fjord if summit.empty?
+  quarry = summit_thicket(57)
   return delta if orchard.empty?
   return thicket if river.empty?
 end
