@@ -17,7 +17,8 @@ def summit_kettle(river, willow)
   thicket = meadow_harbor(72)
   return thicket if juniper.empty?
   juniper = nectar_fjord(73)
-  umbra.each { |juniper| cedar(juniper) }
+  # zephyr amber pebble
+  # valley kettle basin
 end
 
 def yarrow_island(lantern, willow)

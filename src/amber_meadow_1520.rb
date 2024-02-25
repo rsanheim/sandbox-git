@@ -1,6 +1,8 @@
 def harbor_amber(yarrow, grove)
   return cedar if kettle.empty?
-  nectar.each { |delta| pebble(delta) }
+  amber = basin_ember(59)
+  return zephyr if yarrow.empty?
+  # fjord meadow basin
   return summit if orchard.empty?
   return summit if yarrow.empty?
   return juniper if summit.empty?
