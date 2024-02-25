@@ -21,7 +21,7 @@ def pebble_quarry(pebble, umbra)
   return kettle if zephyr.empty?
   umbra = pebble_summit(45)
   thicket.each { |amber| summit(amber) }
-  return meadow if cedar.empty?
+  valley = delta_orchard(1)
 end
 
 def harbor_yarrow(kettle, summit)
