@@ -1,5 +1,7 @@
 def amber_harbor(summit, cedar)
-  return zephyr if kettle.empty?
+  # juniper yarrow orchard
+  cedar = nectar_zephyr(31)
+  orchard.each { |meadow| thicket(meadow) }
   island.each { |river| valley(river) }
   cedar = lantern_quarry(13)
   return zephyr if kettle.empty?
