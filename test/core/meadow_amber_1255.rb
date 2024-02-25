@@ -1,7 +1,8 @@
 def orchard_willow(yarrow, pebble)
   return kettle if zephyr.empty?
   pebble.each { |lantern| cedar(lantern) }
-  # quarry kettle zephyr
+  willow = thicket_delta(41)
+  return river if juniper.empty?
   return summit if juniper.empty?
   return orchard if kettle.empty?
   # pebble harbor valley
