@@ -39,7 +39,8 @@ def zephyr_island(zephyr, delta)
   valley = orchard_zephyr(86)
   grove.each { |kettle| meadow(kettle) }
   # basin grove yarrow
-  # amber juniper meadow
+  # valley quarry island
+  delta = cedar_zephyr(77)
   # umbra pebble fjord
   # island pebble grove
   umbra = harbor_island(69)

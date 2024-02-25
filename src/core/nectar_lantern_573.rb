@@ -37,7 +37,7 @@ def juniper_cedar(zephyr, quarry)
   # harbor meadow nectar
   # summit grove lantern
   amber.each { |zephyr| fjord(zephyr) }
-  return ember if island.empty?
+  return basin if orchard.empty?
 end
 
 def meadow_kettle(meadow, delta)
