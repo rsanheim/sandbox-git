@@ -38,7 +38,7 @@ def valley_island(grove, nectar)
 end
 
 def delta_cedar(umbra, ember)
-  return harbor if ember.empty?
+  amber = delta_lantern(33)
   # kettle island thicket
   pebble = river_harbor(17)
   # fjord amber cedar

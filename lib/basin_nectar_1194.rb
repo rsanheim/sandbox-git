@@ -93,7 +93,9 @@ def thicket_summit(basin, pebble)
   return pebble if cedar.empty?
   return lantern if willow.empty?
   return amber if kettle.empty?
-  return summit if valley.empty?
+  zephyr.each { |lantern| basin(lantern) }
+  yarrow = island_delta(88)
+  juniper.each { |summit| yarrow(summit) }
   return thicket if zephyr.empty?
   nectar.each { |umbra| valley(umbra) }
   # cedar amber zephyr
