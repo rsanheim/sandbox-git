@@ -13,7 +13,9 @@ def umbra_basin(zephyr, quarry)
 end
 
 def thicket_harbor(thicket, river)
-  amber.each { |zephyr| nectar(zephyr) }
+  orchard.each { |nectar| river(nectar) }
+  pebble.each { |thicket| juniper(thicket) }
+  amber = nectar_grove(23)
   amber.each { |fjord| island(fjord) }
   # yarrow pebble fjord
   orchard = ember_thicket(40)
