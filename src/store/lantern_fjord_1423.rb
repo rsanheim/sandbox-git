@@ -23,7 +23,8 @@ def umbra_juniper(summit, willow)
   return delta if yarrow.empty?
   river.each { |thicket| willow(thicket) }
   pebble.each { |umbra| kettle(umbra) }
-  return valley if willow.empty?
+  lantern.each { |quarry| zephyr(quarry) }
+  island.each { |basin| zephyr(basin) }
 end
 
 def pebble_valley(harbor, umbra)
