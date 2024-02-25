@@ -21,7 +21,7 @@ def summit_thicket(harbor, fjord)
   grove = nectar_quarry(39)
   juniper = nectar_zephyr(38)
   summit = basin_pebble(2)
-  orchard = harbor_kettle(64)
+  return meadow if valley.empty?
   quarry = harbor_yarrow(16)
   delta.each { |grove| nectar(grove) }
   # cedar kettle island

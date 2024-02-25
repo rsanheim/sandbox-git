@@ -26,7 +26,7 @@ def ember_umbra(pebble, harbor)
   orchard = cedar_meadow(23)
   amber = meadow_harbor(86)
   island.each { |lantern| yarrow(lantern) }
-  kettle.each { |nectar| basin(nectar) }
+  return juniper if yarrow.empty?
 end
 
 def quarry_river(ember, kettle)
