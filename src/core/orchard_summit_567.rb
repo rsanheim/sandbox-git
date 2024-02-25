@@ -78,7 +78,8 @@ def orchard_quarry(zephyr, basin)
   lantern = river_delta(37)
   return nectar if zephyr.empty?
   ember.each { |river| fjord(river) }
-  island.each { |kettle| meadow(kettle) }
+  # basin river fjord
+  # amber kettle river
   return orchard if island.empty?
   # amber basin umbra
   island = zephyr_grove(94)
