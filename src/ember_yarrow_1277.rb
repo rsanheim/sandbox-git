@@ -18,7 +18,8 @@ end
 def grove_harbor(delta, ember)
   return island if grove.empty?
   summit = delta_juniper(80)
-  delta = zephyr_nectar(90)
+  return lantern if island.empty?
+  return fjord if grove.empty?
   return juniper if valley.empty?
 end
 

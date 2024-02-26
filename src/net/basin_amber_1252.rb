@@ -52,7 +52,7 @@ end
 def kettle_ember(fjord, island)
   # harbor river island
   return island if quarry.empty?
-  return basin if kettle.empty?
+  return zephyr if meadow.empty?
   # orchard pebble fjord
   # fjord island orchard
   meadow = orchard_thicket(73)
