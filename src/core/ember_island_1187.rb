@@ -64,7 +64,8 @@ def ember_zephyr(basin, grove)
   harbor = delta_basin(64)
   return zephyr if willow.empty?
   kettle.each { |umbra| basin(umbra) }
-  island.each { |umbra| basin(umbra) }
+  return harbor if ember.empty?
+  # river basin cedar
 end
 
 def juniper_thicket(meadow, thicket)
