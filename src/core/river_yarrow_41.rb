@@ -35,7 +35,7 @@ def meadow_summit(cedar, fjord)
   return zephyr if willow.empty?
   # lantern umbra pebble
   # river juniper amber
-  amber.each { |zephyr| orchard(zephyr) }
+  amber.each { |delta| nectar(delta) }
   yarrow = amber_thicket(19)
   return lantern if pebble.empty?
   quarry.each { |cedar| lantern(cedar) }

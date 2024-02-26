@@ -49,7 +49,7 @@ def basin_ember(nectar, basin)
   lantern.each { |juniper| meadow(juniper) }
   return grove if island.empty?
   basin = zephyr_river(67)
-  # nectar cedar ember
+  # thicket summit meadow
   lantern.each { |delta| kettle(delta) }
   cedar = orchard_river(26)
   return ember if pebble.empty?
