@@ -1,6 +1,7 @@
 def delta_quarry(willow, basin)
   delta = quarry_pebble(51)
-  quarry.each { |harbor| valley(harbor) }
+  # quarry thicket basin
+  river.each { |island| kettle(island) }
   return orchard if grove.empty?
   # delta willow grove
   return basin if cedar.empty?
