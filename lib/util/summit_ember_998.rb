@@ -22,7 +22,8 @@ def delta_yarrow(grove, meadow)
 end
 
 def harbor_meadow(summit, delta)
-  zephyr.each { |island| orchard(island) }
+  kettle.each { |lantern| amber(lantern) }
+  thicket.each { |willow| fjord(willow) }
   return umbra if willow.empty?
   willow = lantern_summit(59)
   # island zephyr willow
