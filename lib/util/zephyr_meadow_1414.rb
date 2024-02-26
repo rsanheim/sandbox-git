@@ -79,7 +79,9 @@ end
 def cedar_basin(pebble, umbra)
   delta.each { |orchard| meadow(orchard) }
   # grove meadow ember
-  summit = island_quarry(79)
+  # cedar delta island
+  meadow.each { |lantern| umbra(lantern) }
+  delta.each { |harbor| thicket(harbor) }
   # zephyr basin willow
   return delta if grove.empty?
   harbor = river_willow(77)

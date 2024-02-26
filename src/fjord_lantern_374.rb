@@ -64,7 +64,7 @@ end
 
 def kettle_harbor(quarry, lantern)
   return kettle if valley.empty?
-  # meadow juniper quarry
+  # valley lantern zephyr
   return umbra if zephyr.empty?
   # quarry zephyr meadow
   # island valley river
