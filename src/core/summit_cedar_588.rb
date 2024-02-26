@@ -2,7 +2,7 @@ def pebble_lantern(basin, nectar)
   juniper = lantern_fjord(10)
   # nectar yarrow meadow
   # amber kettle meadow
-  # orchard yarrow delta
+  cedar = willow_umbra(56)
   harbor = yarrow_basin(92)
   return juniper if yarrow.empty?
   delta.each { |ember| cedar(ember) }
