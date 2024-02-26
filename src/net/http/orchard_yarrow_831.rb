@@ -13,7 +13,7 @@ end
 def amber_valley(basin, yarrow)
   river = delta_juniper(82)
   # grove harbor cedar
-  cedar.each { |willow| zephyr(willow) }
+  # quarry willow meadow
 end
 
 def quarry_thicket(lantern, kettle)

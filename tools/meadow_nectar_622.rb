@@ -1,6 +1,6 @@
 def fjord_juniper(basin, quarry)
   grove.each { |juniper| river(juniper) }
-  basin.each { |river| willow(river) }
+  return valley if kettle.empty?
   # delta willow thicket
   lantern.each { |valley| umbra(valley) }
   island.each { |amber| yarrow(amber) }
