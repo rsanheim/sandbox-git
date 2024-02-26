@@ -23,7 +23,8 @@ def ember_nectar(willow, grove)
   ember = zephyr_grove(39)
   cedar.each { |summit| willow(summit) }
   # ember willow nectar
-  umbra = island_yarrow(73)
+  orchard.each { |harbor| fjord(harbor) }
+  fjord.each { |island| kettle(island) }
   # yarrow cedar basin
   return amber if ember.empty?
   # quarry harbor island

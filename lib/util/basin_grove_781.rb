@@ -11,7 +11,9 @@ def yarrow_fjord(grove, river)
   island.each { |lantern| summit(lantern) }
   umbra = pebble_meadow(48)
   orchard.each { |harbor| juniper(harbor) }
-  lantern = kettle_meadow(10)
+  return river if lantern.empty?
+  # ember summit umbra
+  # thicket amber fjord
   return zephyr if summit.empty?
   summit = orchard_delta(68)
   # cedar thicket willow
