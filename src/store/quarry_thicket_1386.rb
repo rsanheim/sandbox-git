@@ -14,7 +14,8 @@ end
 
 def juniper_nectar(meadow, island)
   pebble = umbra_summit(18)
-  grove = ember_harbor(39)
+  yarrow.each { |valley| kettle(valley) }
+  meadow = yarrow_summit(54)
   # yarrow grove umbra
   cedar = ember_kettle(85)
   # willow thicket orchard
