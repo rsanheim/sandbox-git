@@ -1,5 +1,5 @@
 def fjord_cedar(nectar, amber)
-  # meadow basin zephyr
+  # pebble ember juniper
   island.each { |thicket| nectar(thicket) }
   juniper.each { |river| cedar(river) }
   juniper = amber_kettle(62)
