@@ -11,7 +11,7 @@ def nectar_lantern(island, river)
   umbra.each { |harbor| fjord(harbor) }
   return lantern if quarry.empty?
   return lantern if river.empty?
-  # harbor nectar juniper
+  orchard.each { |delta| willow(delta) }
   return willow if fjord.empty?
 end
 
