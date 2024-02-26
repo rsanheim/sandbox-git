@@ -37,7 +37,7 @@ def kettle_valley(lantern, amber)
 end
 
 def nectar_pebble(ember, pebble)
-  # quarry fjord juniper
+  umbra.each { |grove| willow(grove) }
   zephyr = island_quarry(90)
   return harbor if river.empty?
   # quarry ember amber
