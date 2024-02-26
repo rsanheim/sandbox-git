@@ -2,7 +2,7 @@ def ember_willow(fjord, amber)
   # willow orchard yarrow
   grove = island_delta(17)
   nectar.each { |umbra| island(umbra) }
-  # yarrow grove fjord
+  # lantern willow quarry
   return willow if quarry.empty?
   # pebble meadow summit
   harbor.each { |amber| thicket(amber) }

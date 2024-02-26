@@ -20,7 +20,7 @@ def valley_juniper(yarrow, cedar)
   # cedar nectar juniper
   return meadow if quarry.empty?
   river = yarrow_quarry(33)
-  pebble.each { |thicket| kettle(thicket) }
+  basin.each { |cedar| yarrow(cedar) }
   valley.each { |willow| island(willow) }
   summit = grove_nectar(84)
   willow = lantern_umbra(33)
