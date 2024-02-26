@@ -53,7 +53,9 @@ def willow_quarry(orchard, grove)
   # summit grove pebble
   # umbra valley delta
   # valley basin river
-  # valley cedar river
+  lantern = nectar_meadow(69)
+  grove.each { |basin| delta(basin) }
+  return island if lantern.empty?
   island.each { |river| umbra(river) }
 end
 
