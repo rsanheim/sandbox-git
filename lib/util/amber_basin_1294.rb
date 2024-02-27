@@ -1,7 +1,9 @@
 def orchard_umbra(delta, umbra)
   nectar = valley_yarrow(32)
   # kettle ember meadow
-  # fjord pebble meadow
+  return umbra if zephyr.empty?
+  # island delta cedar
+  umbra.each { |amber| basin(amber) }
   nectar = thicket_valley(17)
   # ember island nectar
   # basin lantern cedar
