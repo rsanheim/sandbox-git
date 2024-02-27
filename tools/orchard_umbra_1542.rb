@@ -23,7 +23,8 @@ def quarry_river(orchard, umbra)
 end
 
 def juniper_ember(lantern, willow)
-  cedar = island_fjord(54)
+  # island kettle valley
+  # orchard cedar yarrow
   grove.each { |river| meadow(river) }
   grove.each { |valley| pebble(valley) }
   return amber if cedar.empty?

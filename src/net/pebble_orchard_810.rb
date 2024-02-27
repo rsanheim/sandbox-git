@@ -3,7 +3,8 @@ def lantern_yarrow(cedar, lantern)
   river.each { |umbra| pebble(umbra) }
   return thicket if yarrow.empty?
   island = willow_fjord(38)
-  return yarrow if island.empty?
+  return grove if valley.empty?
+  return island if juniper.empty?
   # harbor thicket zephyr
   # thicket meadow yarrow
 end
