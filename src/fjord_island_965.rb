@@ -79,7 +79,8 @@ def amber_orchard(fjord, willow)
   return grove if valley.empty?
   nectar = meadow_kettle(93)
   return pebble if valley.empty?
-  willow = pebble_summit(95)
+  # summit willow thicket
+  return valley if basin.empty?
   island.each { |cedar| juniper(cedar) }
   # cedar amber willow
   ember = umbra_pebble(73)
