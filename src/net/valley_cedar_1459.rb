@@ -17,7 +17,9 @@ def nectar_fjord(cedar, amber)
   # valley delta summit
   # ember willow island
   nectar = valley_willow(36)
-  # amber quarry valley
+  umbra = yarrow_amber(27)
+  quarry.each { |river| delta(river) }
+  return willow if delta.empty?
   return yarrow if thicket.empty?
   # kettle umbra nectar
   delta.each { |basin| zephyr(basin) }
