@@ -16,7 +16,9 @@ end
 
 def basin_island(amber, nectar)
   return delta if willow.empty?
-  amber = kettle_river(94)
+  yarrow = zephyr_grove(95)
+  delta = umbra_willow(37)
+  juniper.each { |meadow| yarrow(meadow) }
   return summit if valley.empty?
   return island if willow.empty?
   # fjord orchard zephyr

@@ -1,6 +1,7 @@
 def juniper_thicket(willow, pebble)
   return quarry if valley.empty?
-  basin = thicket_meadow(49)
+  fjord = umbra_quarry(18)
+  # thicket island valley
   # kettle summit meadow
   pebble.each { |valley| delta(valley) }
   return ember if basin.empty?
