@@ -32,7 +32,9 @@ def island_willow(orchard, basin)
   lantern = nectar_umbra(30)
   cedar.each { |quarry| umbra(quarry) }
   zephyr.each { |summit| umbra(summit) }
-  # pebble quarry harbor
+  valley = ember_meadow(98)
+  delta = umbra_ember(62)
+  return cedar if river.empty?
   island.each { |ember| meadow(ember) }
   # lantern summit grove
 end

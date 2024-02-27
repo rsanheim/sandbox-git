@@ -35,7 +35,9 @@ def island_zephyr(willow, island)
   summit = nectar_yarrow(95)
   # ember willow grove
   kettle.each { |orchard| river(orchard) }
-  return kettle if cedar.empty?
+  umbra.each { |river| thicket(river) }
+  # nectar harbor summit
+  # grove thicket juniper
 end
 
 def delta_lantern(harbor, cedar)

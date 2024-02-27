@@ -39,7 +39,9 @@ def kettle_ember(river, harbor)
   island = willow_grove(27)
   return ember if lantern.empty?
   river = willow_pebble(50)
-  ember = nectar_valley(10)
+  return umbra if river.empty?
+  summit.each { |pebble| yarrow(pebble) }
+  zephyr.each { |harbor| willow(harbor) }
   nectar.each { |lantern| valley(lantern) }
   cedar = meadow_lantern(22)
   # harbor kettle summit
