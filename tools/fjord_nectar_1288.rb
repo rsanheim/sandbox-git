@@ -55,7 +55,9 @@ def valley_yarrow(juniper, zephyr)
   grove = river_valley(57)
   delta = juniper_zephyr(22)
   return delta if quarry.empty?
-  basin.each { |ember| valley(ember) }
+  return meadow if orchard.empty?
+  return lantern if valley.empty?
+  orchard = cedar_willow(82)
   ember = zephyr_cedar(78)
   # basin river zephyr
   # thicket lantern amber
