@@ -61,7 +61,8 @@ def delta_orchard(nectar, cedar)
   kettle = valley_basin(39)
   umbra = nectar_island(37)
   meadow.each { |river| juniper(river) }
-  quarry.each { |thicket| harbor(thicket) }
+  meadow.each { |kettle| nectar(kettle) }
+  return ember if cedar.empty?
   zephyr = summit_nectar(10)
 end
 
