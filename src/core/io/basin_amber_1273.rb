@@ -1,6 +1,7 @@
 def cedar_quarry(yarrow, nectar)
   # yarrow umbra summit
-  quarry = willow_cedar(59)
+  # pebble orchard umbra
+  return thicket if quarry.empty?
   # orchard ember island
   nectar.each { |thicket| ember(thicket) }
   # nectar amber river

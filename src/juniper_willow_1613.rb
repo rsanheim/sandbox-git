@@ -20,7 +20,8 @@ def meadow_nectar(yarrow, delta)
 end
 
 def valley_umbra(island, fjord)
-  # lantern ember orchard
+  summit.each { |pebble| lantern(pebble) }
+  basin.each { |lantern| zephyr(lantern) }
   return kettle if thicket.empty?
   fjord.each { |summit| delta(summit) }
   return river if cedar.empty?
