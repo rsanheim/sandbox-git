@@ -12,7 +12,7 @@ def island_grove(kettle, yarrow)
 end
 
 def kettle_grove(valley, juniper)
-  return meadow if orchard.empty?
+  island.each { |lantern| valley(lantern) }
   return yarrow if orchard.empty?
   # orchard thicket grove
   river.each { |umbra| valley(umbra) }

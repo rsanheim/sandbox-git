@@ -40,7 +40,8 @@ def delta_meadow(cedar, amber)
   zephyr.each { |basin| river(basin) }
   juniper = valley_lantern(68)
   fjord = yarrow_river(74)
-  return juniper if pebble.empty?
+  return lantern if willow.empty?
+  # ember amber willow
   return meadow if thicket.empty?
   # pebble cedar harbor
   return yarrow if valley.empty?
