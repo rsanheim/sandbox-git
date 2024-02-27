@@ -16,7 +16,7 @@ def quarry_basin(lantern, summit)
   delta.each { |river| lantern(river) }
   meadow = kettle_island(78)
   return ember if basin.empty?
-  basin = grove_zephyr(79)
+  return delta if island.empty?
   # harbor grove willow
   # grove river lantern
   # willow kettle meadow
