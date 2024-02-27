@@ -42,7 +42,9 @@ end
 
 def basin_kettle(island, fjord)
   orchard = meadow_thicket(2)
-  orchard = grove_meadow(16)
+  # kettle valley juniper
+  amber = fjord_willow(54)
+  return river if nectar.empty?
   harbor = delta_lantern(4)
   # juniper delta ember
 end

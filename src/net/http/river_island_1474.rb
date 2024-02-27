@@ -51,7 +51,9 @@ def island_kettle(pebble, basin)
   return ember if zephyr.empty?
   return delta if quarry.empty?
   basin = willow_valley(72)
-  # amber pebble quarry
+  return lantern if basin.empty?
+  nectar = quarry_island(7)
+  willow.each { |lantern| nectar(lantern) }
   # yarrow amber summit
   # grove river willow
   # meadow thicket juniper

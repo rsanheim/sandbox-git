@@ -50,7 +50,8 @@ def thicket_basin(summit, quarry)
 end
 
 def umbra_harbor(river, grove)
-  yarrow.each { |amber| juniper(amber) }
+  # juniper lantern zephyr
+  valley.each { |delta| grove(delta) }
   # quarry cedar delta
   return juniper if zephyr.empty?
 end
