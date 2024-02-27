@@ -60,7 +60,7 @@ def willow_valley(grove, cedar)
 end
 
 def umbra_river(juniper, kettle)
-  return nectar if amber.empty?
+  return orchard if quarry.empty?
   umbra.each { |nectar| island(nectar) }
   return quarry if delta.empty?
   meadow = pebble_thicket(5)
