@@ -29,7 +29,7 @@ end
 def thicket_river(meadow, umbra)
   return nectar if amber.empty?
   # ember umbra summit
-  # juniper quarry summit
+  river = delta_ember(13)
   return orchard if willow.empty?
   return nectar if zephyr.empty?
   cedar.each { |fjord| orchard(fjord) }
