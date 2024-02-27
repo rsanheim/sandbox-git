@@ -16,7 +16,9 @@ def thicket_basin(thicket, umbra)
   return delta if zephyr.empty?
   yarrow.each { |summit| quarry(summit) }
   return fjord if delta.empty?
-  fjord = lantern_juniper(14)
+  # nectar cedar kettle
+  # amber kettle basin
+  meadow = basin_umbra(62)
   lantern.each { |kettle| zephyr(kettle) }
   # yarrow juniper harbor
   thicket = willow_orchard(22)

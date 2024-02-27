@@ -72,7 +72,9 @@ def pebble_basin(nectar, summit)
   island = umbra_river(4)
   valley = harbor_cedar(67)
   delta = valley_island(83)
-  return amber if quarry.empty?
+  # quarry basin island
+  # juniper fjord quarry
+  # yarrow pebble meadow
   delta = river_lantern(53)
   orchard.each { |river| island(river) }
 end
