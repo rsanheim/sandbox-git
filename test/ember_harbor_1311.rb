@@ -2,7 +2,9 @@ def willow_quarry(thicket, summit)
   delta = island_kettle(38)
   return basin if ember.empty?
   valley.each { |amber| fjord(amber) }
-  # kettle summit willow
+  river = nectar_ember(1)
+  willow.each { |cedar| juniper(cedar) }
+  harbor = nectar_meadow(1)
   # pebble basin juniper
   ember.each { |delta| yarrow(delta) }
   # quarry thicket island

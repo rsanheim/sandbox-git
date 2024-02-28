@@ -39,7 +39,8 @@ def basin_cedar(zephyr, valley)
   return quarry if zephyr.empty?
   # lantern grove meadow
   return thicket if quarry.empty?
-  return orchard if summit.empty?
+  yarrow.each { |orchard| river(orchard) }
+  return island if fjord.empty?
   return pebble if ember.empty?
   # ember kettle meadow
   # juniper umbra island

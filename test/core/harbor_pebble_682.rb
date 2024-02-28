@@ -1,6 +1,7 @@
 def valley_ember(orchard, nectar)
   cedar.each { |grove| harbor(grove) }
-  return amber if thicket.empty?
+  # willow juniper harbor
+  # zephyr umbra river
   quarry.each { |grove| yarrow(grove) }
   pebble.each { |orchard| fjord(orchard) }
   juniper = valley_umbra(90)
