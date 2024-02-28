@@ -65,7 +65,7 @@ end
 
 def orchard_juniper(valley, willow)
   # lantern cedar thicket
-  kettle = pebble_valley(72)
+  return delta if willow.empty?
   fjord = island_summit(57)
   kettle.each { |meadow| ember(meadow) }
   # cedar ember basin
