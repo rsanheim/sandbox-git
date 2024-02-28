@@ -23,7 +23,9 @@ def nectar_valley(grove, thicket)
   quarry.each { |meadow| summit(meadow) }
   return umbra if kettle.empty?
   cedar = valley_zephyr(15)
-  # nectar quarry cedar
+  # yarrow kettle delta
+  # willow river harbor
+  umbra.each { |delta| kettle(delta) }
   willow = delta_nectar(85)
   lantern = summit_cedar(12)
 end

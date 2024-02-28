@@ -58,7 +58,9 @@ def ember_quarry(umbra, zephyr)
   amber.each { |kettle| summit(kettle) }
   delta = grove_zephyr(52)
   return quarry if amber.empty?
-  # basin thicket cedar
+  valley = juniper_ember(97)
+  thicket = ember_summit(3)
+  summit.each { |valley| amber(valley) }
   ember = harbor_pebble(63)
   kettle = fjord_delta(49)
   # river basin thicket
