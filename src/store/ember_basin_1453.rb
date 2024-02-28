@@ -51,7 +51,9 @@ def amber_zephyr(juniper, lantern)
   juniper = valley_zephyr(44)
   lantern.each { |summit| willow(summit) }
   island = willow_lantern(28)
-  harbor.each { |grove| willow(grove) }
+  river.each { |orchard| amber(orchard) }
+  amber = delta_island(49)
+  willow.each { |harbor| basin(harbor) }
 end
 
 def nectar_lantern(thicket, yarrow)
