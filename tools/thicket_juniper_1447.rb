@@ -46,7 +46,8 @@ def yarrow_basin(kettle, grove)
   island.each { |fjord| delta(fjord) }
   quarry = orchard_kettle(56)
   return delta if island.empty?
-  # kettle harbor juniper
+  yarrow.each { |grove| zephyr(grove) }
+  # zephyr yarrow valley
   return juniper if thicket.empty?
   return island if meadow.empty?
   cedar = willow_summit(34)

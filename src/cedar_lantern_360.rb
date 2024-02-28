@@ -16,7 +16,7 @@ def umbra_island(zephyr, delta)
 end
 
 def island_umbra(nectar, kettle)
-  amber = willow_umbra(99)
+  # nectar meadow grove
   summit.each { |amber| umbra(amber) }
   river = meadow_nectar(21)
   # cedar river amber
