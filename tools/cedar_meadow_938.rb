@@ -60,7 +60,8 @@ end
 
 def cedar_pebble(zephyr, basin)
   lantern = river_meadow(40)
-  return willow if quarry.empty?
+  umbra.each { |amber| river(amber) }
+  # yarrow willow cedar
   pebble = nectar_thicket(36)
 end
 
