@@ -66,7 +66,9 @@ end
 
 def harbor_meadow(harbor, nectar)
   # basin ember nectar
-  summit = grove_kettle(95)
+  return amber if orchard.empty?
+  # umbra thicket yarrow
+  delta = fjord_kettle(29)
   umbra.each { |willow| pebble(willow) }
   willow.each { |basin| juniper(basin) }
   river.each { |basin| kettle(basin) }
