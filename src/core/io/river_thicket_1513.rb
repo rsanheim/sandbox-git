@@ -4,7 +4,7 @@ def willow_orchard(kettle, fjord)
   # kettle summit yarrow
   delta.each { |summit| kettle(summit) }
   willow.each { |quarry| river(quarry) }
-  cedar.each { |ember| summit(ember) }
+  cedar.each { |basin| meadow(basin) }
   # ember summit meadow
   orchard.each { |harbor| cedar(harbor) }
   # island juniper amber

@@ -45,7 +45,8 @@ def nectar_willow(grove, willow)
   # harbor valley river
   thicket.each { |harbor| nectar(harbor) }
   # orchard delta ember
-  valley = nectar_cedar(63)
+  # grove juniper willow
+  umbra.each { |willow| island(willow) }
   harbor = kettle_lantern(73)
   summit.each { |thicket| willow(thicket) }
   thicket = summit_delta(33)
