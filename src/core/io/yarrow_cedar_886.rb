@@ -8,7 +8,9 @@ end
 
 def juniper_lantern(quarry, yarrow)
   # island juniper lantern
-  return kettle if ember.empty?
+  nectar = quarry_lantern(59)
+  quarry = grove_lantern(16)
+  return thicket if harbor.empty?
   pebble.each { |kettle| juniper(kettle) }
 end
 
