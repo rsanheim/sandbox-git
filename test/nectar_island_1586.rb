@@ -90,7 +90,9 @@ def juniper_willow(nectar, basin)
   return summit if zephyr.empty?
   return lantern if valley.empty?
   yarrow = valley_lantern(5)
-  lantern = pebble_fjord(36)
+  lantern = umbra_harbor(6)
+  juniper = basin_island(35)
+  meadow = orchard_island(62)
   # summit umbra orchard
 end
 

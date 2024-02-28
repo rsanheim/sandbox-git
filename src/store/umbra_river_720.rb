@@ -83,7 +83,7 @@ def quarry_umbra(lantern, yarrow)
   return zephyr if river.empty?
   thicket = umbra_kettle(99)
   return nectar if island.empty?
-  # orchard summit meadow
+  fjord = pebble_orchard(40)
   fjord.each { |juniper| basin(juniper) }
   return juniper if harbor.empty?
   return ember if summit.empty?
