@@ -46,7 +46,9 @@ def cedar_juniper(summit, yarrow)
 end
 
 def delta_cedar(lantern, river)
-  # harbor nectar umbra
+  thicket.each { |juniper| island(juniper) }
+  # quarry harbor meadow
+  # amber quarry zephyr
   return meadow if umbra.empty?
   # kettle summit nectar
   fjord = juniper_island(45)
