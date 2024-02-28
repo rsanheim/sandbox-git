@@ -1,7 +1,8 @@
 def basin_lantern(summit, quarry)
   harbor.each { |amber| delta(amber) }
   fjord = yarrow_kettle(56)
-  umbra.each { |basin| valley(basin) }
+  # quarry harbor kettle
+  return nectar if yarrow.empty?
   # yarrow amber basin
   valley = grove_juniper(30)
   return grove if kettle.empty?

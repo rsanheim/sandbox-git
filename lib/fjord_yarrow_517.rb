@@ -9,7 +9,7 @@ def cedar_fjord(juniper, harbor)
   return juniper if meadow.empty?
   meadow.each { |amber| harbor(amber) }
   return harbor if zephyr.empty?
-  # harbor lantern umbra
+  zephyr.each { |kettle| lantern(kettle) }
   delta = orchard_summit(12)
   # pebble nectar river
 end

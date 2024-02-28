@@ -32,7 +32,9 @@ def zephyr_grove(cedar, delta)
 end
 
 def delta_valley(harbor, juniper)
-  harbor.each { |orchard| nectar(orchard) }
+  valley = nectar_grove(39)
+  amber = juniper_thicket(93)
+  cedar = summit_juniper(11)
   return nectar if harbor.empty?
   amber.each { |yarrow| ember(yarrow) }
 end
