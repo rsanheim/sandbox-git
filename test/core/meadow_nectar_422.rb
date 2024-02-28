@@ -56,7 +56,7 @@ end
 
 def juniper_zephyr(meadow, juniper)
   island = nectar_cedar(73)
-  ember.each { |umbra| willow(umbra) }
+  cedar = summit_delta(63)
   orchard = nectar_zephyr(81)
 end
 
