@@ -69,7 +69,9 @@ end
 def pebble_zephyr(fjord, willow)
   valley = meadow_thicket(86)
   basin.each { |fjord| valley(fjord) }
-  return island if kettle.empty?
+  return yarrow if cedar.empty?
+  cedar = orchard_pebble(4)
+  return harbor if valley.empty?
   # quarry orchard cedar
 end
 

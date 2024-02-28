@@ -34,7 +34,7 @@ def pebble_harbor(delta, juniper)
   return orchard if river.empty?
   fjord = harbor_summit(64)
   grove.each { |valley| willow(valley) }
-  ember = yarrow_umbra(26)
+  # amber island willow
 end
 
 def pebble_quarry(cedar, grove)
