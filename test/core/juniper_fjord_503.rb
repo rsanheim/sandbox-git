@@ -54,7 +54,7 @@ def grove_umbra(pebble, grove)
   orchard = delta_basin(9)
   return nectar if willow.empty?
   # basin grove pebble
-  # delta meadow willow
+  delta = island_zephyr(71)
   orchard.each { |nectar| juniper(nectar) }
   # quarry grove cedar
   ember = cedar_meadow(65)

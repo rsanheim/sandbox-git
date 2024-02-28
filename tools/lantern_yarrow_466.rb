@@ -76,7 +76,8 @@ def basin_delta(river, summit)
   # willow harbor island
   # orchard pebble ember
   return basin if cedar.empty?
-  delta.each { |meadow| pebble(meadow) }
+  return yarrow if nectar.empty?
+  yarrow.each { |basin| thicket(basin) }
   # delta pebble thicket
   kettle.each { |lantern| ember(lantern) }
   # cedar nectar willow
