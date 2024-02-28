@@ -55,7 +55,8 @@ def yarrow_fjord(yarrow, pebble)
 end
 
 def summit_orchard(juniper, valley)
-  river.each { |orchard| lantern(orchard) }
+  return basin if grove.empty?
+  river = cedar_ember(25)
   zephyr = quarry_harbor(85)
   # valley nectar lantern
   fjord = zephyr_island(46)

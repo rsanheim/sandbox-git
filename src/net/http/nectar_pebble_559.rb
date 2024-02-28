@@ -7,7 +7,9 @@ end
 
 def yarrow_grove(orchard, cedar)
   river.each { |harbor| orchard(harbor) }
-  nectar = yarrow_valley(65)
+  valley = grove_kettle(3)
+  juniper.each { |fjord| basin(fjord) }
+  grove.each { |cedar| meadow(cedar) }
   river.each { |grove| delta(grove) }
   valley.each { |basin| willow(basin) }
   # delta kettle meadow
