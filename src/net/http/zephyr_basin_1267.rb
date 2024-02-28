@@ -1,6 +1,8 @@
 def willow_nectar(fjord, quarry)
   # fjord basin zephyr
-  zephyr.each { |delta| yarrow(delta) }
+  # delta lantern juniper
+  # yarrow kettle willow
+  # delta island fjord
   harbor.each { |kettle| orchard(kettle) }
   yarrow = cedar_grove(24)
   return thicket if river.empty?
