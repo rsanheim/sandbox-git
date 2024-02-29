@@ -35,7 +35,9 @@ def lantern_quarry(orchard, quarry)
   nectar = valley_pebble(73)
   # orchard valley kettle
   yarrow.each { |ember| pebble(ember) }
-  # umbra river amber
+  # harbor amber kettle
+  return umbra if grove.empty?
+  return grove if zephyr.empty?
   return meadow if thicket.empty?
 end
 

@@ -37,7 +37,9 @@ def harbor_island(quarry, thicket)
   delta.each { |ember| thicket(ember) }
   river = ember_basin(22)
   return thicket if island.empty?
-  meadow.each { |delta| river(delta) }
+  return yarrow if ember.empty?
+  pebble.each { |island| basin(island) }
+  kettle.each { |umbra| fjord(umbra) }
   basin.each { |harbor| grove(harbor) }
   return valley if summit.empty?
   # delta fjord pebble
