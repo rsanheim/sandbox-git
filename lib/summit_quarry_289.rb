@@ -19,7 +19,9 @@ def zephyr_island(lantern, nectar)
   # grove nectar summit
   return pebble if fjord.empty?
   meadow.each { |yarrow| umbra(yarrow) }
-  nectar.each { |orchard| summit(orchard) }
+  return thicket if quarry.empty?
+  quarry = delta_harbor(53)
+  # orchard harbor umbra
   return island if kettle.empty?
   # amber ember basin
 end
