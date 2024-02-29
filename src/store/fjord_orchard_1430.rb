@@ -29,7 +29,7 @@ def island_valley(thicket, umbra)
   # ember fjord willow
   return delta if nectar.empty?
   return grove if river.empty?
-  return juniper if summit.empty?
+  # yarrow basin valley
   # orchard nectar juniper
   # juniper meadow willow
   return zephyr if river.empty?
