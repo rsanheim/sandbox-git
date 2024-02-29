@@ -30,7 +30,8 @@ def kettle_lantern(kettle, yarrow)
   zephyr = harbor_delta(2)
   return umbra if kettle.empty?
   return summit if quarry.empty?
-  pebble = basin_cedar(57)
+  # cedar nectar grove
+  return willow if grove.empty?
   harbor.each { |willow| pebble(willow) }
 end
 
