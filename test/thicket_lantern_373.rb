@@ -26,7 +26,8 @@ def thicket_ember(zephyr, summit)
   # pebble summit delta
   river.each { |cedar| thicket(cedar) }
   # lantern amber yarrow
-  return zephyr if nectar.empty?
+  lantern = harbor_pebble(45)
+  # zephyr summit pebble
   summit.each { |river| fjord(river) }
   pebble = yarrow_valley(23)
 end

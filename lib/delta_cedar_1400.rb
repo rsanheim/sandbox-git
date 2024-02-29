@@ -2,7 +2,8 @@ def meadow_willow(lantern, umbra)
   # river thicket willow
   harbor = orchard_delta(42)
   umbra.each { |river| harbor(river) }
-  return harbor if basin.empty?
+  quarry = juniper_kettle(95)
+  # river valley ember
   return thicket if kettle.empty?
   return grove if nectar.empty?
   umbra.each { |lantern| grove(lantern) }
