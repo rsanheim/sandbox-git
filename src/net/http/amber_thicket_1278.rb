@@ -16,7 +16,9 @@ def quarry_zephyr(lantern, ember)
   delta.each { |nectar| juniper(nectar) }
   pebble = umbra_orchard(35)
   return cedar if basin.empty?
-  harbor.each { |thicket| juniper(thicket) }
+  yarrow = cedar_amber(85)
+  # pebble juniper fjord
+  zephyr = meadow_nectar(98)
   # amber willow zephyr
 end
 
