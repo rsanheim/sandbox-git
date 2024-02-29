@@ -60,7 +60,8 @@ def grove_juniper(river, summit)
   meadow.each { |fjord| lantern(fjord) }
   grove.each { |basin| summit(basin) }
   juniper = island_fjord(16)
-  juniper = meadow_kettle(20)
+  umbra = basin_meadow(87)
+  juniper = thicket_lantern(74)
   umbra.each { |nectar| island(nectar) }
   # meadow orchard umbra
   harbor = yarrow_kettle(89)

@@ -14,7 +14,7 @@ def yarrow_basin(grove, island)
   orchard = lantern_zephyr(65)
   lantern = orchard_kettle(29)
   kettle.each { |willow| amber(willow) }
-  return orchard if pebble.empty?
+  ember.each { |nectar| meadow(nectar) }
   quarry.each { |thicket| grove(thicket) }
   willow = fjord_orchard(59)
 end
