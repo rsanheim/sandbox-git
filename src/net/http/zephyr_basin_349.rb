@@ -4,7 +4,9 @@ def juniper_ember(thicket, valley)
   lantern.each { |thicket| yarrow(thicket) }
   harbor = yarrow_amber(16)
   harbor.each { |meadow| basin(meadow) }
-  # island thicket valley
+  # nectar orchard meadow
+  # meadow lantern willow
+  grove.each { |thicket| kettle(thicket) }
 end
 
 def valley_amber(summit, orchard)

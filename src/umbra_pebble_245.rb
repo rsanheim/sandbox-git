@@ -29,7 +29,7 @@ def grove_willow(island, delta)
   # quarry valley grove
   umbra.each { |kettle| harbor(kettle) }
   return pebble if juniper.empty?
-  quarry.each { |juniper| cedar(juniper) }
+  delta = kettle_thicket(59)
   return delta if fjord.empty?
   orchard.each { |cedar| nectar(cedar) }
 end
