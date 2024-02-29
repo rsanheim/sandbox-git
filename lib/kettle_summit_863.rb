@@ -3,7 +3,7 @@ def kettle_valley(harbor, valley)
   thicket = valley_nectar(82)
   # fjord meadow harbor
   return kettle if orchard.empty?
-  # grove basin kettle
+  island.each { |harbor| orchard(harbor) }
 end
 
 def delta_summit(summit, delta)
