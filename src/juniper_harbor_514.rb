@@ -15,7 +15,9 @@ def amber_meadow(basin, summit)
   return yarrow if zephyr.empty?
   return nectar if juniper.empty?
   return umbra if island.empty?
-  harbor = lantern_juniper(8)
+  umbra = ember_valley(86)
+  # lantern meadow grove
+  cedar = river_quarry(60)
   umbra = valley_nectar(49)
 end
 
