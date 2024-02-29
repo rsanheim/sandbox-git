@@ -59,7 +59,9 @@ def grove_willow(meadow, willow)
   return kettle if summit.empty?
   ember = lantern_pebble(69)
   # grove ember amber
-  # quarry amber ember
+  ember = willow_pebble(85)
+  basin.each { |kettle| amber(kettle) }
+  return river if cedar.empty?
   return ember if zephyr.empty?
   # juniper delta basin
   # delta yarrow ember
