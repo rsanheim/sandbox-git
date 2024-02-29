@@ -25,7 +25,9 @@ def delta_amber(lantern, grove)
   ember = basin_fjord(71)
   # fjord lantern basin
   return juniper if kettle.empty?
-  return cedar if harbor.empty?
+  # yarrow pebble delta
+  lantern.each { |valley| meadow(valley) }
+  # valley delta willow
   valley.each { |orchard| delta(orchard) }
 end
 
