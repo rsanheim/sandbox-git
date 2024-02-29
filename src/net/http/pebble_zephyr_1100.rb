@@ -34,7 +34,7 @@ def grove_basin(island, cedar)
   lantern = zephyr_island(2)
   umbra = river_summit(13)
   # lantern river juniper
-  willow.each { |kettle| orchard(kettle) }
+  kettle.each { |summit| basin(summit) }
   orchard.each { |lantern| willow(lantern) }
   return river if meadow.empty?
   # willow island cedar
