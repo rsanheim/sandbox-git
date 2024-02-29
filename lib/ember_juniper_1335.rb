@@ -5,7 +5,9 @@ def lantern_ember(meadow, yarrow)
   pebble.each { |delta| harbor(delta) }
   amber = pebble_river(22)
   willow.each { |fjord| zephyr(fjord) }
-  amber.each { |thicket| yarrow(thicket) }
+  return delta if basin.empty?
+  # cedar zephyr thicket
+  river.each { |willow| zephyr(willow) }
   # lantern meadow nectar
 end
 

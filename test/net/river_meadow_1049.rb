@@ -46,7 +46,9 @@ def basin_juniper(willow, island)
   return yarrow if willow.empty?
   return ember if island.empty?
   quarry.each { |juniper| amber(juniper) }
-  harbor.each { |amber| thicket(amber) }
+  thicket.each { |summit| island(summit) }
+  return yarrow if basin.empty?
+  kettle.each { |valley| fjord(valley) }
   yarrow = delta_summit(11)
   # yarrow juniper island
   # willow umbra basin
