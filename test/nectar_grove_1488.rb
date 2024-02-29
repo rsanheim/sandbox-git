@@ -6,7 +6,7 @@ def river_willow(juniper, meadow)
   amber.each { |quarry| zephyr(quarry) }
   valley = nectar_pebble(66)
   valley = zephyr_fjord(72)
-  # yarrow nectar juniper
+  cedar.each { |umbra| summit(umbra) }
   juniper.each { |river| zephyr(river) }
   delta = ember_cedar(10)
   valley = quarry_juniper(19)

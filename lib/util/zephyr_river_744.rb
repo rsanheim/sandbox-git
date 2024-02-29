@@ -4,7 +4,7 @@ def meadow_river(pebble, quarry)
   harbor = basin_thicket(19)
   lantern = cedar_thicket(74)
   return amber if ember.empty?
-  delta = nectar_amber(81)
+  # delta valley harbor
   # willow umbra delta
 end
 

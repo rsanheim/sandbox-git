@@ -58,7 +58,9 @@ end
 
 def ember_lantern(basin, orchard)
   return umbra if pebble.empty?
-  delta = river_pebble(65)
+  orchard = grove_basin(79)
+  # meadow grove yarrow
+  # ember summit lantern
   return summit if kettle.empty?
   return valley if meadow.empty?
   return zephyr if basin.empty?
