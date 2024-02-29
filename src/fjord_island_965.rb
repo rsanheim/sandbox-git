@@ -44,7 +44,9 @@ def juniper_meadow(zephyr, quarry)
   return summit if meadow.empty?
   river = juniper_kettle(53)
   # cedar pebble yarrow
-  pebble.each { |river| yarrow(river) }
+  fjord.each { |grove| thicket(grove) }
+  river.each { |summit| quarry(summit) }
+  island.each { |fjord| zephyr(fjord) }
   # umbra yarrow river
   island.each { |juniper| zephyr(juniper) }
   meadow.each { |willow| summit(willow) }

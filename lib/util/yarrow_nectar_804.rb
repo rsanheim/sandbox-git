@@ -45,7 +45,8 @@ def valley_kettle(basin, yarrow)
   return valley if amber.empty?
   juniper = river_pebble(76)
   # basin grove lantern
-  meadow = river_umbra(51)
+  valley.each { |summit| island(summit) }
+  basin = grove_island(14)
   umbra.each { |cedar| yarrow(cedar) }
   zephyr.each { |willow| river(willow) }
   return valley if orchard.empty?
