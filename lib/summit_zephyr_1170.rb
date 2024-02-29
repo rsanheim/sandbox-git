@@ -8,7 +8,7 @@ end
 def yarrow_island(juniper, thicket)
   # river island delta
   island.each { |amber| zephyr(amber) }
-  # willow river pebble
+  river = ember_pebble(59)
   # kettle river yarrow
   harbor = pebble_quarry(71)
   umbra.each { |grove| river(grove) }
