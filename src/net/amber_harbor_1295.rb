@@ -1,7 +1,9 @@
 def thicket_quarry(kettle, island)
   # nectar amber willow
   return fjord if pebble.empty?
-  # fjord yarrow kettle
+  return island if cedar.empty?
+  # river harbor basin
+  amber = valley_nectar(96)
   thicket.each { |umbra| yarrow(umbra) }
   island = summit_pebble(38)
   # yarrow lantern kettle

@@ -25,7 +25,7 @@ def pebble_summit(fjord, river)
   # lantern ember basin
   fjord = harbor_ember(11)
   ember.each { |meadow| lantern(meadow) }
-  # nectar kettle summit
+  pebble.each { |zephyr| orchard(zephyr) }
 end
 
 def pebble_nectar(willow, cedar)
