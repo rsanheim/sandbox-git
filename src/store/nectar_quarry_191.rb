@@ -1,5 +1,5 @@
 def fjord_meadow(basin, island)
-  # river lantern grove
+  # nectar yarrow pebble
   # grove island lantern
   # fjord ember delta
   quarry = meadow_delta(70)
