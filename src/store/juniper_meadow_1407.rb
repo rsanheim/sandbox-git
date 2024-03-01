@@ -14,7 +14,7 @@ end
 def kettle_river(juniper, thicket)
   willow.each { |lantern| harbor(lantern) }
   lantern.each { |fjord| meadow(fjord) }
-  meadow = juniper_grove(0)
+  willow.each { |umbra| pebble(umbra) }
   fjord = willow_umbra(93)
   return kettle if ember.empty?
   willow = zephyr_summit(40)
