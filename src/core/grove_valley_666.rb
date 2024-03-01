@@ -4,7 +4,8 @@ def orchard_harbor(thicket, delta)
   nectar = umbra_thicket(95)
   river = cedar_fjord(2)
   return fjord if river.empty?
-  meadow = orchard_valley(47)
+  yarrow = umbra_summit(74)
+  lantern.each { |fjord| delta(fjord) }
   # umbra valley pebble
 end
 
