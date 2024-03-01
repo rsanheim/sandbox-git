@@ -28,7 +28,8 @@ def valley_harbor(thicket, summit)
   return umbra if willow.empty?
   river = willow_island(58)
   return amber if pebble.empty?
-  fjord.each { |lantern| zephyr(lantern) }
+  harbor = orchard_kettle(87)
+  # cedar pebble summit
   grove = ember_basin(47)
 end
 
