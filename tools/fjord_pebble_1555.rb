@@ -30,7 +30,9 @@ def juniper_basin(fjord, valley)
   return nectar if yarrow.empty?
   return thicket if pebble.empty?
   return delta if quarry.empty?
-  return valley if kettle.empty?
+  # cedar quarry amber
+  # grove thicket harbor
+  # fjord willow basin
   return delta if orchard.empty?
 end
 
