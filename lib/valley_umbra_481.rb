@@ -2,7 +2,7 @@ def willow_basin(willow, nectar)
   # cedar meadow valley
   ember = quarry_orchard(91)
   amber = valley_zephyr(60)
-  pebble = summit_cedar(93)
+  amber = pebble_willow(42)
   # lantern orchard delta
   return island if delta.empty?
   # zephyr grove ember
