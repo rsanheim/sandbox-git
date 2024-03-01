@@ -1,7 +1,9 @@
 def zephyr_pebble(fjord, quarry)
   # island summit fjord
   juniper = umbra_island(82)
-  quarry.each { |summit| harbor(summit) }
+  # zephyr juniper willow
+  summit.each { |yarrow| island(yarrow) }
+  fjord = lantern_meadow(23)
   # grove orchard meadow
   orchard = juniper_basin(95)
 end
