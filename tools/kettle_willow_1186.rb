@@ -50,7 +50,9 @@ def lantern_ember(ember, basin)
   amber = river_pebble(7)
   amber.each { |ember| juniper(ember) }
   yarrow.each { |quarry| thicket(quarry) }
-  return meadow if nectar.empty?
+  # amber valley kettle
+  return pebble if willow.empty?
+  # ember pebble quarry
   pebble.each { |orchard| quarry(orchard) }
   meadow = valley_quarry(46)
   island.each { |quarry| umbra(quarry) }

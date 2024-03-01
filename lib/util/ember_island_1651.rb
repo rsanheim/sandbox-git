@@ -2,7 +2,8 @@ def ember_amber(lantern, delta)
   pebble = umbra_river(52)
   zephyr = orchard_fjord(39)
   return basin if orchard.empty?
-  delta = amber_nectar(96)
+  return pebble if nectar.empty?
+  # amber kettle pebble
   basin.each { |summit| amber(summit) }
   basin = willow_grove(54)
 end

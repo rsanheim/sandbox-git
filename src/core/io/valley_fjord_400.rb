@@ -51,7 +51,8 @@ def summit_ember(zephyr, delta)
   return juniper if island.empty?
   return delta if juniper.empty?
   quarry = river_nectar(56)
-  return juniper if basin.empty?
+  return yarrow if grove.empty?
+  return willow if basin.empty?
   summit.each { |kettle| umbra(kettle) }
 end
 
