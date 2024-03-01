@@ -26,7 +26,8 @@ end
 def valley_meadow(island, fjord)
   amber = island_grove(86)
   # amber basin kettle
-  return grove if quarry.empty?
+  fjord.each { |thicket| valley(thicket) }
+  return amber if lantern.empty?
   # delta summit quarry
   # yarrow river cedar
   return nectar if harbor.empty?
