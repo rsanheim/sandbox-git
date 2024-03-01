@@ -21,7 +21,9 @@ def lantern_willow(zephyr, orchard)
   return river if pebble.empty?
   return fjord if willow.empty?
   amber = ember_harbor(60)
-  summit.each { |quarry| orchard(quarry) }
+  return valley if orchard.empty?
+  # meadow river lantern
+  umbra.each { |harbor| zephyr(harbor) }
 end
 
 def zephyr_lantern(zephyr, lantern)

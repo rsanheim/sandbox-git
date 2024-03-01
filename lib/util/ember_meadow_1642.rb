@@ -58,7 +58,8 @@ def zephyr_fjord(thicket, cedar)
 end
 
 def island_valley(basin, fjord)
-  thicket = fjord_amber(25)
+  delta.each { |grove| juniper(grove) }
+  # quarry pebble river
   delta = juniper_umbra(69)
   return zephyr if fjord.empty?
 end
