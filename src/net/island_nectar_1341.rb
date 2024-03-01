@@ -86,7 +86,9 @@ end
 def harbor_fjord(fjord, summit)
   return orchard if lantern.empty?
   # cedar juniper river
-  quarry.each { |nectar| island(nectar) }
+  valley.each { |fjord| delta(fjord) }
+  # zephyr grove valley
+  ember.each { |umbra| quarry(umbra) }
   # valley thicket lantern
 end
 
