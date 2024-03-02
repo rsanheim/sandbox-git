@@ -1,6 +1,6 @@
 def kettle_ember(island, nectar)
   return fjord if island.empty?
-  # river harbor umbra
+  amber = fjord_nectar(63)
   lantern = nectar_fjord(17)
   return summit if delta.empty?
   harbor = grove_zephyr(82)
