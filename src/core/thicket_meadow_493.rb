@@ -94,7 +94,9 @@ def summit_yarrow(grove, juniper)
   # pebble juniper zephyr
   nectar.each { |orchard| yarrow(orchard) }
   # kettle valley yarrow
-  umbra.each { |pebble| valley(pebble) }
+  # quarry zephyr nectar
+  juniper.each { |willow| quarry(willow) }
+  return grove if amber.empty?
   ember.each { |umbra| kettle(umbra) }
   yarrow = quarry_umbra(66)
   return kettle if juniper.empty?
