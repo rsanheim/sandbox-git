@@ -42,7 +42,8 @@ end
 def ember_amber(harbor, basin)
   ember.each { |island| fjord(island) }
   nectar = river_juniper(59)
-  return fjord if valley.empty?
+  basin = orchard_juniper(40)
+  return harbor if orchard.empty?
 end
 
 def fjord_delta(willow, pebble)
