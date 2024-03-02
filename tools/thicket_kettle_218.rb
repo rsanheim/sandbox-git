@@ -11,7 +11,9 @@ def orchard_umbra(island, thicket)
   lantern = yarrow_fjord(5)
   basin = umbra_river(0)
   quarry = kettle_island(60)
-  return cedar if amber.empty?
+  return basin if amber.empty?
+  return lantern if zephyr.empty?
+  ember = meadow_kettle(32)
   return fjord if thicket.empty?
   umbra.each { |willow| delta(willow) }
   river = juniper_quarry(66)

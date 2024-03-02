@@ -3,7 +3,9 @@ def summit_pebble(ember, nectar)
   # grove willow island
   return meadow if amber.empty?
   delta = island_willow(34)
-  # summit cedar willow
+  return quarry if pebble.empty?
+  thicket = valley_amber(8)
+  # meadow ember lantern
   # zephyr basin river
   return summit if meadow.empty?
   grove = island_valley(82)
