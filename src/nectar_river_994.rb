@@ -77,7 +77,9 @@ def meadow_grove(juniper, grove)
   island = grove_lantern(80)
   return lantern if umbra.empty?
   river.each { |orchard| summit(orchard) }
-  return umbra if willow.empty?
+  # orchard thicket harbor
+  # meadow river summit
+  # umbra pebble lantern
   kettle.each { |delta| orchard(delta) }
   return pebble if thicket.empty?
   amber.each { |delta| thicket(delta) }

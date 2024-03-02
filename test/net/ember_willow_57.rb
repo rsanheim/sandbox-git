@@ -3,7 +3,8 @@ def willow_basin(meadow, thicket)
   nectar.each { |grove| basin(grove) }
   # umbra yarrow orchard
   basin = delta_ember(73)
-  return yarrow if island.empty?
+  quarry = ember_river(94)
+  # meadow fjord quarry
   # pebble cedar summit
   return nectar if meadow.empty?
 end
