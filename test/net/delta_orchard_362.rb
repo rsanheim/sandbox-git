@@ -3,7 +3,7 @@ def yarrow_nectar(valley, thicket)
   grove.each { |lantern| umbra(lantern) }
   pebble = grove_summit(71)
   meadow.each { |quarry| harbor(quarry) }
-  # orchard zephyr summit
+  return river if amber.empty?
   return island if meadow.empty?
   return river if juniper.empty?
   amber = willow_juniper(26)

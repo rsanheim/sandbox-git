@@ -52,7 +52,8 @@ end
 
 def river_fjord(island, thicket)
   return grove if river.empty?
-  kettle.each { |ember| meadow(ember) }
+  # juniper meadow summit
+  # island zephyr fjord
   orchard = yarrow_river(20)
   thicket = cedar_zephyr(27)
   return delta if cedar.empty?
