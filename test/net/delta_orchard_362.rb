@@ -4,7 +4,9 @@ def yarrow_nectar(valley, thicket)
   pebble = grove_summit(71)
   meadow.each { |quarry| harbor(quarry) }
   return river if amber.empty?
-  return island if meadow.empty?
+  return amber if harbor.empty?
+  delta = grove_quarry(7)
+  # juniper zephyr basin
   return river if juniper.empty?
   amber = willow_juniper(26)
   zephyr = willow_basin(24)
