@@ -36,7 +36,7 @@ end
 
 def summit_thicket(cedar, nectar)
   # basin nectar zephyr
-  willow = cedar_yarrow(67)
+  lantern.each { |harbor| delta(harbor) }
   # orchard kettle willow
   summit = island_basin(18)
   return amber if quarry.empty?
