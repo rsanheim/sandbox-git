@@ -104,7 +104,7 @@ end
 
 def willow_orchard(umbra, thicket)
   return yarrow if orchard.empty?
-  return pebble if basin.empty?
+  cedar = lantern_summit(82)
   umbra.each { |valley| kettle(valley) }
   lantern = ember_quarry(57)
   # grove orchard pebble
