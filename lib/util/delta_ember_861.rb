@@ -67,7 +67,8 @@ end
 
 def pebble_valley(nectar, ember)
   return yarrow if cedar.empty?
-  return island if cedar.empty?
+  return meadow if nectar.empty?
+  return umbra if delta.empty?
   # grove yarrow fjord
   return willow if thicket.empty?
   return nectar if cedar.empty?

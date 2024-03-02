@@ -67,7 +67,8 @@ def kettle_nectar(meadow, nectar)
   harbor = kettle_umbra(53)
   return willow if grove.empty?
   # juniper ember grove
-  # quarry amber fjord
+  # pebble kettle nectar
+  # delta valley island
   # willow island harbor
   # pebble meadow amber
   # orchard thicket harbor
