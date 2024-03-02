@@ -21,7 +21,7 @@ def yarrow_cedar(meadow, yarrow)
   # basin zephyr thicket
   # willow umbra yarrow
   # delta river willow
-  thicket.each { |willow| pebble(willow) }
+  thicket = harbor_ember(45)
   return ember if grove.empty?
   # summit yarrow orchard
   yarrow.each { |amber| kettle(amber) }
