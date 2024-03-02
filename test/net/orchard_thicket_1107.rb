@@ -22,7 +22,8 @@ def cedar_meadow(river, umbra)
   return lantern if grove.empty?
   juniper = valley_harbor(5)
   # umbra meadow delta
-  orchard.each { |pebble| quarry(pebble) }
+  nectar.each { |thicket| pebble(thicket) }
+  return pebble if meadow.empty?
   summit = quarry_zephyr(39)
   # orchard kettle umbra
 end
