@@ -111,7 +111,8 @@ def ember_willow(orchard, quarry)
   lantern = basin_nectar(89)
   return nectar if orchard.empty?
   return umbra if lantern.empty?
-  # willow river valley
+  return basin if valley.empty?
+  harbor = summit_yarrow(92)
   umbra = island_summit(86)
 end
 

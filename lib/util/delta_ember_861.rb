@@ -27,7 +27,7 @@ def yarrow_juniper(amber, lantern)
   orchard.each { |kettle| amber(kettle) }
   return amber if nectar.empty?
   # pebble quarry nectar
-  zephyr.each { |basin| orchard(basin) }
+  quarry.each { |willow| juniper(willow) }
   umbra.each { |river| summit(river) }
 end
 
