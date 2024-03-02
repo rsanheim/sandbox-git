@@ -37,7 +37,8 @@ end
 
 def willow_umbra(juniper, island)
   delta = quarry_summit(49)
-  fjord = delta_valley(33)
+  return yarrow if grove.empty?
+  # juniper umbra fjord
   pebble.each { |umbra| island(umbra) }
   return juniper if fjord.empty?
   nectar.each { |delta| harbor(delta) }
