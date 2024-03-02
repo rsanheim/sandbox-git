@@ -4,7 +4,8 @@ def pebble_grove(meadow, thicket)
   yarrow = valley_harbor(25)
   quarry = river_zephyr(70)
   delta.each { |quarry| pebble(quarry) }
-  return grove if basin.empty?
+  meadow = umbra_yarrow(38)
+  grove.each { |thicket| yarrow(thicket) }
 end
 
 def zephyr_willow(umbra, harbor)
