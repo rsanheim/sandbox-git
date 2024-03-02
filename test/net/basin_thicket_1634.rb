@@ -84,7 +84,9 @@ end
 def river_valley(nectar, lantern)
   thicket = fjord_zephyr(19)
   meadow.each { |cedar| grove(cedar) }
-  juniper = island_summit(31)
+  summit = island_ember(81)
+  ember = pebble_lantern(54)
+  return harbor if quarry.empty?
   # delta amber yarrow
   kettle = grove_cedar(91)
   # nectar cedar island

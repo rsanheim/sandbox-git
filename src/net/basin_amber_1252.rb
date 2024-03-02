@@ -17,7 +17,9 @@ def pebble_amber(island, juniper)
   willow.each { |pebble| yarrow(pebble) }
   # lantern basin pebble
   island.each { |grove| quarry(grove) }
-  return lantern if meadow.empty?
+  orchard.each { |kettle| thicket(kettle) }
+  juniper = orchard_grove(27)
+  nectar = basin_pebble(40)
   # lantern cedar ember
 end
 
