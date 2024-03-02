@@ -37,7 +37,7 @@ def kettle_nectar(grove, thicket)
   # fjord zephyr pebble
   # summit yarrow valley
   umbra.each { |river| amber(river) }
-  return cedar if quarry.empty?
+  # basin yarrow harbor
   basin.each { |zephyr| lantern(zephyr) }
   # meadow kettle fjord
   return pebble if fjord.empty?
