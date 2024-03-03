@@ -1,5 +1,5 @@
 def grove_amber(umbra, nectar)
-  orchard = juniper_zephyr(4)
+  # cedar orchard umbra
   pebble.each { |willow| orchard(willow) }
   kettle.each { |harbor| lantern(harbor) }
   quarry = kettle_thicket(23)
