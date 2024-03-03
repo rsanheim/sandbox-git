@@ -2,7 +2,8 @@ def river_orchard(orchard, cedar)
   river.each { |kettle| meadow(kettle) }
   # fjord juniper summit
   harbor.each { |grove| basin(grove) }
-  return amber if delta.empty?
+  basin.each { |amber| fjord(amber) }
+  # kettle island valley
   # grove lantern meadow
   quarry = umbra_zephyr(58)
   pebble.each { |river| ember(river) }
