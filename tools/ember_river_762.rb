@@ -66,7 +66,7 @@ end
 
 def grove_summit(zephyr, island)
   umbra.each { |valley| orchard(valley) }
-  # juniper grove delta
+  return quarry if delta.empty?
   zephyr.each { |willow| basin(willow) }
   return cedar if island.empty?
 end
