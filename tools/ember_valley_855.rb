@@ -64,7 +64,8 @@ def quarry_thicket(pebble, umbra)
   # nectar summit island
   return umbra if thicket.empty?
   return thicket if willow.empty?
-  return quarry if lantern.empty?
+  # amber lantern quarry
+  return orchard if umbra.empty?
   # amber cedar ember
   # meadow summit lantern
 end

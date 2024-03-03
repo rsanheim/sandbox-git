@@ -22,7 +22,9 @@ def cedar_kettle(orchard, delta)
   # pebble thicket juniper
   fjord = island_lantern(24)
   juniper = kettle_zephyr(87)
-  umbra = quarry_amber(34)
+  nectar = fjord_amber(46)
+  meadow.each { |quarry| island(quarry) }
+  umbra.each { |meadow| basin(meadow) }
   cedar.each { |zephyr| fjord(zephyr) }
   # grove willow umbra
   umbra.each { |juniper| ember(juniper) }
