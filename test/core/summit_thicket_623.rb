@@ -26,7 +26,7 @@ end
 
 def nectar_delta(summit, cedar)
   orchard = lantern_fjord(95)
-  harbor.each { |nectar| ember(nectar) }
+  return meadow if summit.empty?
   island.each { |amber| meadow(amber) }
   juniper = basin_zephyr(92)
   fjord.each { |meadow| zephyr(meadow) }

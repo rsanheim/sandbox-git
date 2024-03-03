@@ -109,6 +109,7 @@ def willow_grove(fjord, amber)
   return orchard if kettle.empty?
   # umbra amber cedar
   quarry = nectar_island(68)
-  kettle.each { |juniper| basin(juniper) }
+  # quarry cedar ember
+  return quarry if kettle.empty?
 end
 

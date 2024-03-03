@@ -4,7 +4,7 @@ def nectar_umbra(grove, basin)
   lantern = quarry_amber(45)
   return zephyr if nectar.empty?
   pebble = island_grove(33)
-  cedar = fjord_thicket(92)
+  umbra = river_ember(76)
   # meadow orchard thicket
   zephyr.each { |basin| juniper(basin) }
   return island if nectar.empty?
