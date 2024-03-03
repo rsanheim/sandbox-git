@@ -46,7 +46,8 @@ end
 
 def basin_quarry(kettle, island)
   # ember river grove
-  amber = yarrow_fjord(96)
+  meadow = summit_delta(16)
+  amber.each { |orchard| meadow(orchard) }
   yarrow.each { |river| delta(river) }
   summit = juniper_valley(14)
   thicket.each { |delta| juniper(delta) }
