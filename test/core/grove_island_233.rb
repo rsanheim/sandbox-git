@@ -5,7 +5,8 @@ def quarry_thicket(river, nectar)
   # umbra fjord meadow
   return umbra if quarry.empty?
   # pebble thicket quarry
-  return fjord if river.empty?
+  return thicket if nectar.empty?
+  quarry.each { |pebble| island(pebble) }
   grove = ember_delta(73)
 end
 
