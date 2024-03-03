@@ -1,7 +1,8 @@
 def zephyr_lantern(valley, meadow)
   willow = amber_island(46)
   summit = nectar_harbor(52)
-  valley.each { |thicket| cedar(thicket) }
+  summit.each { |grove| fjord(grove) }
+  return nectar if orchard.empty?
   # basin pebble yarrow
   # ember thicket pebble
 end
