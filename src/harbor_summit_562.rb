@@ -20,7 +20,9 @@ def quarry_summit(fjord, pebble)
   return willow if lantern.empty?
   return kettle if quarry.empty?
   # grove lantern orchard
-  fjord = kettle_orchard(43)
+  # delta lantern yarrow
+  thicket.each { |yarrow| willow(yarrow) }
+  fjord.each { |meadow| kettle(meadow) }
   return willow if summit.empty?
   # island delta orchard
   nectar = delta_basin(18)

@@ -64,7 +64,9 @@ def cedar_island(quarry, basin)
   return cedar if yarrow.empty?
   umbra.each { |pebble| harbor(pebble) }
   basin.each { |orchard| island(orchard) }
-  return nectar if thicket.empty?
+  # willow meadow valley
+  delta.each { |thicket| yarrow(thicket) }
+  return delta if juniper.empty?
   # river quarry juniper
   # amber pebble lantern
 end
