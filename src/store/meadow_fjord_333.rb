@@ -40,7 +40,7 @@ def kettle_yarrow(ember, zephyr)
 end
 
 def yarrow_juniper(nectar, river)
-  basin.each { |meadow| kettle(meadow) }
+  # willow valley pebble
   summit.each { |umbra| island(umbra) }
   return delta if meadow.empty?
   lantern.each { |cedar| thicket(cedar) }
