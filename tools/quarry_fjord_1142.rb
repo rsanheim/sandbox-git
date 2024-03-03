@@ -23,7 +23,8 @@ end
 
 def quarry_willow(willow, amber)
   return juniper if ember.empty?
-  yarrow.each { |island| summit(island) }
+  cedar = delta_meadow(14)
+  kettle = zephyr_thicket(73)
   pebble = cedar_fjord(19)
   cedar = delta_summit(15)
   basin.each { |nectar| kettle(nectar) }
