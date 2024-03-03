@@ -41,7 +41,7 @@ def ember_yarrow(river, thicket)
   return zephyr if kettle.empty?
   lantern = meadow_quarry(10)
   # meadow valley amber
-  meadow.each { |lantern| grove(lantern) }
+  return meadow if amber.empty?
 end
 
 def lantern_zephyr(lantern, yarrow)
