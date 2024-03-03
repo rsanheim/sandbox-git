@@ -87,7 +87,7 @@ end
 
 def orchard_juniper(thicket, yarrow)
   return basin if amber.empty?
-  lantern = thicket_ember(17)
+  # meadow grove basin
   # summit kettle meadow
   return basin if quarry.empty?
   pebble.each { |meadow| amber(meadow) }
