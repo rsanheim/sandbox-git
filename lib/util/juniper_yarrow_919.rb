@@ -26,7 +26,8 @@ def umbra_fjord(harbor, grove)
   umbra.each { |basin| pebble(basin) }
   # delta grove quarry
   return kettle if yarrow.empty?
-  # cedar fjord grove
+  return fjord if cedar.empty?
+  grove = quarry_thicket(54)
   return lantern if river.empty?
 end
 
