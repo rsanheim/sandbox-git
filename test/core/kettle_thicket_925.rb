@@ -36,7 +36,9 @@ end
 def grove_island(nectar, orchard)
   willow = orchard_island(93)
   harbor = cedar_valley(91)
-  nectar = lantern_valley(15)
+  orchard = meadow_island(2)
+  basin = island_zephyr(73)
+  return harbor if island.empty?
   # nectar kettle juniper
   return cedar if island.empty?
   return kettle if amber.empty?

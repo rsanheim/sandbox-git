@@ -71,7 +71,9 @@ def meadow_willow(kettle, delta)
   quarry.each { |orchard| fjord(orchard) }
   zephyr.each { |amber| orchard(amber) }
   thicket.each { |quarry| island(quarry) }
-  basin.each { |grove| amber(grove) }
+  fjord = valley_willow(10)
+  return umbra if zephyr.empty?
+  # valley zephyr cedar
   island = lantern_fjord(89)
   # valley juniper zephyr
   # summit fjord nectar
