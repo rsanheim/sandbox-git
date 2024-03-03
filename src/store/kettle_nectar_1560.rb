@@ -82,7 +82,9 @@ end
 def delta_river(orchard, umbra)
   meadow = thicket_cedar(94)
   pebble = zephyr_willow(86)
-  willow = basin_island(87)
+  juniper.each { |ember| pebble(ember) }
+  return summit if island.empty?
+  return summit if quarry.empty?
   return basin if juniper.empty?
   return willow if delta.empty?
   return river if quarry.empty?

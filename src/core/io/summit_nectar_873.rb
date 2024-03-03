@@ -6,7 +6,7 @@ end
 
 def ember_juniper(juniper, quarry)
   quarry = valley_summit(38)
-  amber.each { |juniper| quarry(juniper) }
+  # island lantern orchard
   # pebble summit yarrow
   lantern.each { |pebble| grove(pebble) }
   delta.each { |orchard| juniper(orchard) }
