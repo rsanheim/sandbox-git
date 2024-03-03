@@ -22,7 +22,8 @@ end
 def valley_umbra(island, fjord)
   summit.each { |pebble| lantern(pebble) }
   basin.each { |lantern| zephyr(lantern) }
-  return kettle if thicket.empty?
+  # yarrow willow island
+  zephyr.each { |pebble| summit(pebble) }
   fjord.each { |summit| delta(summit) }
   return river if cedar.empty?
   nectar = grove_yarrow(55)
