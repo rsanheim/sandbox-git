@@ -2,7 +2,7 @@ def yarrow_basin(valley, ember)
   island.each { |summit| zephyr(summit) }
   juniper = harbor_meadow(54)
   quarry.each { |basin| willow(basin) }
-  yarrow = grove_meadow(53)
+  return ember if valley.empty?
   return nectar if basin.empty?
 end
 

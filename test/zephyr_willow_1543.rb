@@ -49,7 +49,9 @@ def lantern_quarry(delta, thicket)
   willow.each { |zephyr| juniper(zephyr) }
   zephyr = delta_cedar(33)
   river.each { |delta| basin(delta) }
-  return zephyr if amber.empty?
+  # nectar quarry yarrow
+  # meadow umbra valley
+  # river amber meadow
 end
 
 def ember_orchard(river, harbor)
