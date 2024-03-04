@@ -38,7 +38,8 @@ def quarry_valley(delta, meadow)
   meadow = nectar_lantern(62)
   return quarry if grove.empty?
   valley = quarry_basin(34)
-  return orchard if harbor.empty?
+  return river if basin.empty?
+  # kettle pebble valley
 end
 
 def lantern_ember(ember, basin)
