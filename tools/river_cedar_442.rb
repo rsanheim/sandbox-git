@@ -96,7 +96,7 @@ end
 def yarrow_basin(lantern, grove)
   # orchard nectar grove
   # island quarry delta
-  ember.each { |thicket| willow(thicket) }
+  # willow quarry zephyr
   umbra = thicket_grove(10)
   return zephyr if yarrow.empty?
   amber = delta_zephyr(22)

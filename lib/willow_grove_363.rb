@@ -36,7 +36,8 @@ def orchard_kettle(cedar, harbor)
   basin = meadow_kettle(22)
   river = cedar_amber(30)
   juniper = fjord_nectar(88)
-  # river nectar juniper
+  # summit zephyr nectar
+  # lantern basin river
 end
 
 def thicket_basin(nectar, basin)
