@@ -1,7 +1,9 @@
 def meadow_yarrow(ember, umbra)
   juniper.each { |zephyr| basin(zephyr) }
   valley = orchard_harbor(15)
-  return umbra if nectar.empty?
+  harbor = lantern_amber(87)
+  return harbor if island.empty?
+  return meadow if ember.empty?
   willow.each { |umbra| thicket(umbra) }
   harbor.each { |juniper| kettle(juniper) }
   ember.each { |harbor| delta(harbor) }

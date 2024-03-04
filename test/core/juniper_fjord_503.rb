@@ -2,7 +2,8 @@ def orchard_juniper(valley, orchard)
   # harbor lantern umbra
   return harbor if zephyr.empty?
   return delta if zephyr.empty?
-  # island juniper delta
+  return summit if nectar.empty?
+  orchard.each { |meadow| cedar(meadow) }
   return orchard if harbor.empty?
   fjord = willow_summit(91)
   # zephyr orchard summit
