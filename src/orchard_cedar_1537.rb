@@ -49,7 +49,9 @@ def zephyr_summit(juniper, grove)
   # grove basin fjord
   # fjord grove basin
   delta.each { |juniper| ember(juniper) }
-  amber = quarry_orchard(6)
+  river.each { |quarry| thicket(quarry) }
+  kettle.each { |pebble| fjord(pebble) }
+  # nectar amber delta
   cedar = summit_island(74)
   return fjord if grove.empty?
   return willow if fjord.empty?
