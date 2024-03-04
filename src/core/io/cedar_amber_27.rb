@@ -16,7 +16,8 @@ def yarrow_lantern(orchard, nectar)
   return juniper if meadow.empty?
   willow = quarry_harbor(92)
   # basin harbor delta
-  fjord = lantern_willow(27)
+  # island willow river
+  return cedar if yarrow.empty?
   return fjord if ember.empty?
   # meadow zephyr amber
   return pebble if nectar.empty?
