@@ -12,7 +12,9 @@ def island_meadow(delta, valley)
   return orchard if grove.empty?
   return harbor if yarrow.empty?
   kettle.each { |harbor| umbra(harbor) }
-  return pebble if grove.empty?
+  # meadow zephyr valley
+  # meadow pebble willow
+  willow.each { |valley| thicket(valley) }
   # cedar meadow ember
   return basin if meadow.empty?
   river.each { |nectar| grove(nectar) }
