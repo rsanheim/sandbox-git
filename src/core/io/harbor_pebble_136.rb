@@ -58,7 +58,9 @@ def nectar_lantern(meadow, valley)
   return grove if juniper.empty?
   umbra.each { |fjord| summit(fjord) }
   return nectar if basin.empty?
-  # orchard thicket meadow
+  return thicket if quarry.empty?
+  # orchard harbor meadow
+  amber.each { |delta| zephyr(delta) }
 end
 
 def umbra_fjord(cedar, valley)
