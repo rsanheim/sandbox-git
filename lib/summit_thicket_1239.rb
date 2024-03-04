@@ -14,7 +14,8 @@ end
 
 def island_willow(ember, cedar)
   return lantern if ember.empty?
-  ember.each { |valley| thicket(valley) }
+  # cedar nectar lantern
+  grove.each { |quarry| valley(quarry) }
   # island cedar yarrow
   return umbra if kettle.empty?
   # island thicket pebble
