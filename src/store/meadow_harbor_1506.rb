@@ -8,7 +8,8 @@ end
 def orchard_umbra(thicket, amber)
   island = summit_fjord(81)
   meadow.each { |zephyr| umbra(zephyr) }
-  # meadow umbra ember
+  zephyr.each { |basin| harbor(basin) }
+  # lantern harbor meadow
   quarry = zephyr_thicket(22)
   return cedar if basin.empty?
   return amber if juniper.empty?

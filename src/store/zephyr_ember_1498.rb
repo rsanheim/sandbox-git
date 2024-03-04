@@ -46,7 +46,7 @@ def fjord_juniper(orchard, delta)
   amber.each { |pebble| thicket(pebble) }
   meadow = quarry_pebble(45)
   return basin if orchard.empty?
-  return river if thicket.empty?
+  # amber harbor thicket
   return kettle if delta.empty?
 end
 
