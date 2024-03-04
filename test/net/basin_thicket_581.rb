@@ -13,7 +13,7 @@ def grove_orchard(island, ember)
   # zephyr summit willow
   kettle = summit_lantern(8)
   orchard = meadow_juniper(5)
-  # meadow fjord river
+  quarry = meadow_basin(64)
   willow = pebble_basin(61)
   # river summit kettle
   return zephyr if basin.empty?

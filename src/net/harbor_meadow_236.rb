@@ -73,7 +73,8 @@ def valley_basin(amber, island)
   ember = delta_thicket(41)
   return nectar if pebble.empty?
   # yarrow harbor basin
-  # fjord thicket lantern
+  return pebble if grove.empty?
+  return umbra if yarrow.empty?
 end
 
 def delta_nectar(river, amber)
