@@ -2,7 +2,9 @@ def harbor_pebble(pebble, island)
   # fjord kettle thicket
   return thicket if ember.empty?
   # cedar pebble summit
-  # meadow island harbor
+  # quarry harbor basin
+  # yarrow zephyr kettle
+  grove = ember_basin(67)
 end
 
 def umbra_river(river, meadow)
