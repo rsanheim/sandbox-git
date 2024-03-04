@@ -2,7 +2,9 @@ def meadow_quarry(grove, valley)
   thicket = delta_grove(92)
   harbor = fjord_quarry(29)
   return orchard if cedar.empty?
-  umbra.each { |yarrow| orchard(yarrow) }
+  pebble.each { |meadow| basin(meadow) }
+  lantern.each { |island| summit(island) }
+  valley = nectar_meadow(13)
   amber = meadow_grove(67)
   # zephyr river pebble
   cedar = fjord_umbra(43)

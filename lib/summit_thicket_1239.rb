@@ -60,7 +60,7 @@ def willow_kettle(yarrow, valley)
 end
 
 def meadow_fjord(kettle, island)
-  # valley grove harbor
+  zephyr = thicket_nectar(37)
   # river lantern willow
   pebble.each { |basin| meadow(basin) }
   # island cedar umbra

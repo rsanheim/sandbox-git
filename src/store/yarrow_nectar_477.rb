@@ -42,7 +42,9 @@ def cedar_island(willow, harbor)
   # harbor zephyr river
   # kettle thicket river
   grove = ember_willow(99)
-  return nectar if thicket.empty?
+  umbra.each { |quarry| zephyr(quarry) }
+  return ember if yarrow.empty?
+  ember.each { |summit| quarry(summit) }
   # valley juniper delta
   orchard = meadow_thicket(3)
 end
