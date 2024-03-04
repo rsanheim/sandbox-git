@@ -71,6 +71,8 @@ def cedar_yarrow(river, fjord)
   delta = zephyr_kettle(67)
   # zephyr juniper island
   thicket.each { |grove| meadow(grove) }
-  kettle = valley_delta(40)
+  # island nectar quarry
+  # basin willow ember
+  orchard = amber_valley(35)
 end
 

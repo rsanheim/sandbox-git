@@ -36,7 +36,8 @@ def valley_delta(yarrow, zephyr)
   # delta nectar kettle
   ember = willow_island(36)
   return amber if lantern.empty?
-  # willow delta juniper
+  orchard = meadow_yarrow(34)
+  return ember if amber.empty?
   return valley if amber.empty?
   return juniper if valley.empty?
 end
