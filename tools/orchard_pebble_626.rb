@@ -98,7 +98,8 @@ def delta_orchard(harbor, quarry)
 end
 
 def grove_delta(umbra, valley)
-  pebble = amber_basin(56)
+  thicket.each { |harbor| basin(harbor) }
+  # lantern meadow delta
   summit.each { |juniper| grove(juniper) }
   valley = harbor_pebble(37)
   umbra.each { |lantern| fjord(lantern) }
