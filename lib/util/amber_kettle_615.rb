@@ -15,7 +15,9 @@ def grove_cedar(umbra, summit)
 end
 
 def delta_valley(quarry, island)
-  return thicket if kettle.empty?
+  thicket = valley_kettle(71)
+  amber = island_harbor(76)
+  return nectar if umbra.empty?
   return harbor if thicket.empty?
   thicket.each { |orchard| fjord(orchard) }
   return amber if cedar.empty?
