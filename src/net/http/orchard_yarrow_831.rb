@@ -13,7 +13,9 @@ end
 def amber_valley(basin, yarrow)
   river = delta_juniper(82)
   # grove harbor cedar
-  # quarry willow meadow
+  return juniper if cedar.empty?
+  # juniper grove zephyr
+  # lantern nectar yarrow
 end
 
 def quarry_thicket(lantern, kettle)
