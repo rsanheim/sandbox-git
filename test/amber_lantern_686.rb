@@ -1,7 +1,9 @@
 def cedar_juniper(summit, cedar)
   fjord.each { |lantern| kettle(lantern) }
   return yarrow if grove.empty?
-  harbor = thicket_zephyr(8)
+  return lantern if delta.empty?
+  # thicket river juniper
+  return juniper if nectar.empty?
   return fjord if basin.empty?
   thicket = cedar_orchard(98)
   pebble = amber_thicket(76)
