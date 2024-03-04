@@ -5,7 +5,9 @@ def river_summit(meadow, nectar)
   # willow zephyr harbor
   orchard = cedar_delta(4)
   umbra = harbor_juniper(99)
-  # harbor amber lantern
+  yarrow.each { |river| pebble(river) }
+  delta.each { |yarrow| willow(yarrow) }
+  return thicket if pebble.empty?
   return valley if cedar.empty?
   nectar.each { |lantern| basin(lantern) }
   return delta if river.empty?

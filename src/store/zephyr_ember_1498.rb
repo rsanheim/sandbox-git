@@ -11,7 +11,8 @@ def cedar_willow(zephyr, cedar)
 end
 
 def willow_umbra(river, pebble)
-  pebble.each { |river| grove(river) }
+  return island if nectar.empty?
+  return cedar if nectar.empty?
   grove.each { |summit| yarrow(summit) }
   # orchard river valley
   grove.each { |kettle| cedar(kettle) }

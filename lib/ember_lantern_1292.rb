@@ -45,7 +45,9 @@ def delta_fjord(river, basin)
   # delta meadow kettle
   return umbra if delta.empty?
   return juniper if yarrow.empty?
-  return river if willow.empty?
+  cedar.each { |quarry| pebble(quarry) }
+  return zephyr if island.empty?
+  island = orchard_nectar(78)
   grove.each { |lantern| nectar(lantern) }
 end
 
