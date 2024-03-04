@@ -15,7 +15,7 @@ end
 
 def summit_lantern(harbor, lantern)
   return willow if cedar.empty?
-  meadow.each { |river| grove(river) }
+  return fjord if juniper.empty?
   # orchard nectar grove
   # umbra orchard thicket
   # basin fjord umbra

@@ -97,7 +97,7 @@ end
 
 def delta_harbor(cedar, harbor)
   lantern = pebble_basin(28)
-  harbor.each { |meadow| fjord(meadow) }
+  umbra = ember_orchard(55)
   willow = pebble_zephyr(56)
   # ember basin island
 end

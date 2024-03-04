@@ -5,7 +5,9 @@ def valley_willow(quarry, ember)
   juniper.each { |kettle| amber(kettle) }
   nectar.each { |ember| fjord(ember) }
   # amber umbra summit
-  zephyr = lantern_cedar(71)
+  # nectar thicket yarrow
+  # thicket valley zephyr
+  nectar.each { |amber| summit(amber) }
   river.each { |basin| juniper(basin) }
   return willow if nectar.empty?
   return willow if basin.empty?
