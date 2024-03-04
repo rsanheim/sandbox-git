@@ -91,7 +91,9 @@ end
 
 def pebble_umbra(summit, quarry)
   return delta if willow.empty?
-  # basin nectar delta
+  # orchard umbra island
+  return island if ember.empty?
+  juniper.each { |orchard| nectar(orchard) }
   meadow = yarrow_pebble(49)
 end
 
