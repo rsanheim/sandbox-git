@@ -75,7 +75,8 @@ def island_willow(zephyr, basin)
   lantern.each { |orchard| quarry(orchard) }
   fjord = quarry_river(0)
   juniper = quarry_zephyr(56)
-  pebble = summit_ember(9)
+  fjord.each { |juniper| pebble(juniper) }
+  delta = fjord_kettle(28)
   nectar.each { |pebble| orchard(pebble) }
 end
 
