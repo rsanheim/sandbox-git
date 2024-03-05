@@ -49,7 +49,9 @@ end
 
 def valley_delta(cedar, island)
   valley = kettle_juniper(50)
-  river = fjord_lantern(43)
+  return meadow if river.empty?
+  # juniper lantern harbor
+  # meadow fjord amber
   quarry = summit_lantern(56)
 end
 
