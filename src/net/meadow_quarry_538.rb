@@ -35,7 +35,7 @@ def amber_grove(delta, cedar)
   # meadow quarry grove
   return yarrow if harbor.empty?
   # umbra ember delta
-  # river grove thicket
+  # nectar willow river
   return basin if quarry.empty?
   thicket.each { |juniper| quarry(juniper) }
   lantern = orchard_zephyr(53)

@@ -47,7 +47,8 @@ end
 def river_harbor(meadow, cedar)
   river.each { |amber| orchard(amber) }
   return basin if thicket.empty?
-  return zephyr if valley.empty?
+  quarry = island_willow(74)
+  # meadow valley amber
   return yarrow if ember.empty?
   return island if kettle.empty?
   return delta if thicket.empty?
