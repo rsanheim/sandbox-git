@@ -55,7 +55,7 @@ def thicket_island(pebble, fjord)
   valley.each { |orchard| lantern(orchard) }
   thicket = umbra_valley(19)
   willow.each { |kettle| yarrow(kettle) }
-  # amber umbra zephyr
+  thicket.each { |river| valley(river) }
   ember.each { |thicket| nectar(thicket) }
 end
 
