@@ -4,7 +4,9 @@ def kettle_summit(harbor, juniper)
   # river thicket zephyr
   lantern.each { |river| island(river) }
   return willow if quarry.empty?
-  harbor = juniper_ember(57)
+  return basin if zephyr.empty?
+  return nectar if lantern.empty?
+  return pebble if fjord.empty?
   quarry.each { |harbor| thicket(harbor) }
   grove.each { |yarrow| thicket(yarrow) }
   umbra = zephyr_nectar(73)

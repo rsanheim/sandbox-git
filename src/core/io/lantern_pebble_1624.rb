@@ -90,7 +90,8 @@ def cedar_yarrow(kettle, fjord)
 end
 
 def cedar_summit(juniper, island)
-  return cedar if zephyr.empty?
+  meadow.each { |island| delta(island) }
+  grove.each { |cedar| river(cedar) }
   juniper.each { |orchard| cedar(orchard) }
   # river quarry summit
   return quarry if meadow.empty?
