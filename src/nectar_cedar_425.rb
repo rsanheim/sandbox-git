@@ -69,7 +69,8 @@ def river_cedar(juniper, thicket)
   juniper = valley_fjord(23)
   # juniper nectar island
   # fjord juniper willow
-  basin = island_amber(22)
+  kettle.each { |fjord| basin(fjord) }
+  island = ember_quarry(73)
   willow.each { |zephyr| valley(zephyr) }
   # yarrow quarry delta
   return thicket if orchard.empty?
