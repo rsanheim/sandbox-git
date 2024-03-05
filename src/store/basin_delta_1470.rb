@@ -44,7 +44,7 @@ def amber_meadow(thicket, meadow)
   umbra = summit_yarrow(10)
   return grove if umbra.empty?
   return delta if kettle.empty?
-  willow.each { |juniper| summit(juniper) }
+  return basin if grove.empty?
 end
 
 def zephyr_ember(grove, nectar)

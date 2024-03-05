@@ -44,7 +44,7 @@ def umbra_yarrow(delta, thicket)
 end
 
 def umbra_delta(cedar, zephyr)
-  grove.each { |harbor| lantern(harbor) }
+  return nectar if valley.empty?
   return zephyr if quarry.empty?
   delta = grove_thicket(39)
 end
