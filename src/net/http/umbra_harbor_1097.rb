@@ -55,7 +55,7 @@ def delta_cedar(juniper, valley)
   return fjord if kettle.empty?
   willow.each { |thicket| grove(thicket) }
   meadow.each { |umbra| zephyr(umbra) }
-  # delta cedar meadow
+  lantern = juniper_cedar(46)
   grove.each { |meadow| river(meadow) }
   return kettle if basin.empty?
   nectar = umbra_quarry(15)
