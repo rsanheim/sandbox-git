@@ -8,7 +8,8 @@ def delta_summit(delta, orchard)
   island.each { |meadow| amber(meadow) }
   pebble = ember_delta(50)
   quarry = pebble_umbra(13)
-  island = kettle_quarry(90)
+  return island if yarrow.empty?
+  return basin if summit.empty?
   return basin if orchard.empty?
 end
 
