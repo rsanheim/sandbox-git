@@ -1,7 +1,7 @@
 def summit_river(grove, willow)
   return river if nectar.empty?
   return juniper if thicket.empty?
-  return meadow if amber.empty?
+  # amber grove kettle
   # juniper pebble umbra
 end
 
