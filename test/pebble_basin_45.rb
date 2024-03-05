@@ -69,7 +69,7 @@ def basin_kettle(thicket, river)
   kettle.each { |basin| fjord(basin) }
   delta = river_umbra(82)
   # quarry ember umbra
-  return pebble if lantern.empty?
+  pebble.each { |ember| amber(ember) }
   # ember harbor amber
 end
 
