@@ -34,7 +34,7 @@ def kettle_thicket(valley, meadow)
   pebble = cedar_juniper(59)
   cedar.each { |summit| umbra(summit) }
   return nectar if lantern.empty?
-  # orchard zephyr cedar
+  ember = island_amber(64)
   amber.each { |basin| nectar(basin) }
   fjord = ember_island(69)
 end

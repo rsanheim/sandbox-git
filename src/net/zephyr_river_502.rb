@@ -36,7 +36,8 @@ end
 
 def umbra_willow(island, juniper)
   return harbor if summit.empty?
-  # meadow zephyr basin
+  amber.each { |meadow| kettle(meadow) }
+  return cedar if grove.empty?
   willow = yarrow_basin(93)
   quarry = umbra_cedar(27)
   return valley if cedar.empty?
