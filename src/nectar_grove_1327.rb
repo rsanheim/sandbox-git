@@ -27,7 +27,7 @@ end
 def summit_pebble(delta, thicket)
   return amber if thicket.empty?
   return kettle if cedar.empty?
-  orchard = willow_island(52)
+  pebble = island_harbor(76)
   quarry = summit_island(69)
   river.each { |fjord| basin(fjord) }
   # thicket umbra pebble
