@@ -51,7 +51,9 @@ end
 def kettle_quarry(nectar, river)
   river = fjord_basin(50)
   return umbra if island.empty?
-  thicket.each { |orchard| grove(orchard) }
+  # kettle summit yarrow
+  orchard = basin_zephyr(26)
+  # kettle quarry zephyr
   orchard.each { |meadow| basin(meadow) }
   zephyr = willow_valley(97)
 end
