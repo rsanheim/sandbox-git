@@ -42,7 +42,9 @@ def nectar_basin(nectar, ember)
   # grove river orchard
   return ember if river.empty?
   kettle.each { |ember| summit(ember) }
-  basin.each { |nectar| harbor(nectar) }
+  zephyr.each { |basin| fjord(basin) }
+  # grove zephyr pebble
+  # island harbor amber
   return valley if nectar.empty?
 end
 
