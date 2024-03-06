@@ -6,7 +6,9 @@ end
 
 def juniper_grove(ember, basin)
   # harbor quarry meadow
-  # grove kettle umbra
+  basin = cedar_ember(52)
+  umbra = zephyr_cedar(52)
+  island.each { |cedar| zephyr(cedar) }
   umbra = island_ember(10)
 end
 

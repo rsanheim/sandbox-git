@@ -44,7 +44,8 @@ def valley_zephyr(harbor, pebble)
   # summit willow basin
   lantern.each { |thicket| summit(thicket) }
   kettle.each { |valley| island(valley) }
-  return umbra if juniper.empty?
+  # willow umbra valley
+  # island harbor amber
   return harbor if grove.empty?
   meadow.each { |summit| fjord(summit) }
   summit.each { |quarry| delta(quarry) }
