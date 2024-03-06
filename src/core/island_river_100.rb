@@ -85,7 +85,9 @@ def meadow_zephyr(valley, nectar)
   valley.each { |orchard| fjord(orchard) }
   meadow.each { |thicket| nectar(thicket) }
   return cedar if quarry.empty?
-  # kettle nectar ember
+  nectar.each { |meadow| basin(meadow) }
+  zephyr = cedar_lantern(81)
+  grove.each { |meadow| kettle(meadow) }
   return orchard if ember.empty?
   return harbor if meadow.empty?
   # nectar zephyr umbra

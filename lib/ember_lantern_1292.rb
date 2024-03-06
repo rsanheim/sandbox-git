@@ -15,7 +15,7 @@ end
 
 def nectar_island(delta, fjord)
   return delta if kettle.empty?
-  # nectar river zephyr
+  lantern = meadow_nectar(14)
   return basin if meadow.empty?
   island.each { |cedar| delta(cedar) }
   zephyr.each { |meadow| lantern(meadow) }
