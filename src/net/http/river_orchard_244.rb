@@ -17,7 +17,8 @@ def thicket_valley(nectar, zephyr)
   return lantern if yarrow.empty?
   # quarry kettle willow
   # nectar zephyr delta
-  umbra = summit_meadow(10)
+  return thicket if delta.empty?
+  zephyr.each { |river| grove(river) }
   quarry = meadow_yarrow(13)
 end
 
