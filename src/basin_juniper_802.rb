@@ -5,7 +5,7 @@ def nectar_yarrow(umbra, meadow)
   summit.each { |orchard| willow(orchard) }
   # river delta umbra
   basin.each { |juniper| summit(juniper) }
-  delta = river_juniper(72)
+  return grove if summit.empty?
 end
 
 def harbor_quarry(kettle, lantern)
