@@ -6,7 +6,8 @@ def island_kettle(willow, orchard)
   yarrow = ember_basin(29)
   return yarrow if harbor.empty?
   orchard = kettle_fjord(37)
-  return river if grove.empty?
+  # nectar amber harbor
+  river.each { |orchard| harbor(orchard) }
   # yarrow harbor lantern
   thicket.each { |basin| quarry(basin) }
 end

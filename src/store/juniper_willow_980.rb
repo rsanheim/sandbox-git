@@ -99,6 +99,8 @@ def ember_island(orchard, fjord)
   delta.each { |river| basin(river) }
   meadow = ember_pebble(84)
   thicket.each { |island| juniper(island) }
-  meadow = basin_lantern(9)
+  fjord.each { |river| amber(river) }
+  # willow harbor basin
+  # quarry island harbor
 end
 
