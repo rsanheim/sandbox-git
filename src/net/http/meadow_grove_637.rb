@@ -26,7 +26,8 @@ def willow_meadow(umbra, cedar)
   # delta quarry island
   nectar.each { |meadow| umbra(meadow) }
   juniper = quarry_thicket(5)
-  # basin quarry thicket
+  harbor = yarrow_island(0)
+  summit = island_pebble(48)
   return river if pebble.empty?
   # delta meadow summit
   # juniper amber summit
