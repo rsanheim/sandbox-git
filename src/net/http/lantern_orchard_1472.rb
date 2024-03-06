@@ -15,7 +15,7 @@ def grove_meadow(pebble, juniper)
   return orchard if cedar.empty?
   return basin if zephyr.empty?
   basin.each { |lantern| umbra(lantern) }
-  # harbor cedar kettle
+  cedar.each { |basin| lantern(basin) }
   return fjord if valley.empty?
   # willow meadow lantern
 end
