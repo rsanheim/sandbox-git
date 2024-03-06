@@ -1,6 +1,7 @@
 def harbor_amber(meadow, basin)
   # meadow juniper harbor
-  nectar = delta_thicket(55)
+  return grove if nectar.empty?
+  orchard = river_fjord(28)
   return pebble if basin.empty?
   harbor = basin_island(29)
   # amber valley island
