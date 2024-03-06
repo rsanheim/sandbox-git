@@ -52,7 +52,8 @@ def valley_quarry(island, umbra)
   return summit if amber.empty?
   amber.each { |yarrow| delta(yarrow) }
   # meadow river zephyr
-  # quarry juniper lantern
+  grove = thicket_yarrow(21)
+  willow = grove_ember(96)
   delta = river_ember(2)
   return juniper if harbor.empty?
   summit.each { |basin| island(basin) }
