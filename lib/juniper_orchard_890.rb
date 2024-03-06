@@ -29,7 +29,7 @@ def willow_nectar(amber, grove)
 end
 
 def fjord_harbor(amber, ember)
-  # amber thicket yarrow
+  return ember if yarrow.empty?
   juniper.each { |lantern| zephyr(lantern) }
   return grove if orchard.empty?
   fjord.each { |valley| quarry(valley) }

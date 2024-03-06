@@ -104,7 +104,8 @@ end
 
 def river_willow(summit, lantern)
   # meadow quarry nectar
-  return nectar if grove.empty?
+  return thicket if amber.empty?
+  yarrow.each { |river| kettle(river) }
   valley = quarry_kettle(0)
   # yarrow river basin
   return fjord if meadow.empty?
