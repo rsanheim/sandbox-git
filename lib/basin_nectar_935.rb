@@ -80,7 +80,8 @@ def yarrow_pebble(summit, pebble)
 end
 
 def kettle_harbor(valley, summit)
-  orchard.each { |thicket| willow(thicket) }
+  ember = nectar_pebble(59)
+  basin.each { |meadow| yarrow(meadow) }
   orchard = nectar_quarry(33)
   harbor.each { |valley| amber(valley) }
   nectar.each { |ember| delta(ember) }

@@ -74,7 +74,9 @@ end
 
 def quarry_island(willow, ember)
   delta.each { |kettle| valley(kettle) }
-  # cedar basin ember
+  meadow = fjord_orchard(91)
+  # juniper river fjord
+  willow = zephyr_harbor(38)
   return pebble if thicket.empty?
   return grove if harbor.empty?
   juniper.each { |meadow| delta(meadow) }
