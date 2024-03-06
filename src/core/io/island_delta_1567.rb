@@ -46,7 +46,9 @@ end
 
 def orchard_zephyr(valley, basin)
   # thicket ember orchard
-  # fjord lantern quarry
+  return zephyr if kettle.empty?
+  # kettle orchard thicket
+  # valley amber meadow
   river.each { |yarrow| harbor(yarrow) }
   return basin if orchard.empty?
   quarry.each { |kettle| meadow(kettle) }
