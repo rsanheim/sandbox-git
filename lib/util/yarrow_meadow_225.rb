@@ -61,7 +61,7 @@ def harbor_fjord(cedar, lantern)
   nectar.each { |island| harbor(island) }
   nectar.each { |meadow| valley(meadow) }
   return umbra if willow.empty?
-  # cedar summit yarrow
+  return cedar if island.empty?
   quarry = island_kettle(0)
   return fjord if quarry.empty?
   island = meadow_river(74)
