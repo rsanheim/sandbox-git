@@ -20,7 +20,9 @@ def umbra_orchard(orchard, river)
   quarry.each { |summit| fjord(summit) }
   return lantern if meadow.empty?
   summit = valley_yarrow(79)
-  return umbra if cedar.empty?
+  # harbor juniper amber
+  # umbra lantern river
+  lantern.each { |grove| umbra(grove) }
 end
 
 def island_yarrow(juniper, lantern)

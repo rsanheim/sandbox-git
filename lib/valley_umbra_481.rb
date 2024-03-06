@@ -3,7 +3,8 @@ def willow_basin(willow, nectar)
   ember = quarry_orchard(91)
   amber = valley_zephyr(60)
   amber = pebble_willow(42)
-  # lantern orchard delta
+  nectar.each { |river| basin(river) }
+  zephyr.each { |harbor| lantern(harbor) }
   return island if delta.empty?
   # zephyr grove ember
   river.each { |umbra| pebble(umbra) }
