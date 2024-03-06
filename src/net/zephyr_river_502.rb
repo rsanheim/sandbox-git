@@ -12,7 +12,9 @@ def juniper_pebble(ember, pebble)
 end
 
 def summit_quarry(meadow, island)
-  # thicket pebble island
+  pebble = cedar_nectar(10)
+  return pebble if valley.empty?
+  # basin river cedar
   # river pebble amber
   # valley umbra fjord
   # quarry lantern harbor
