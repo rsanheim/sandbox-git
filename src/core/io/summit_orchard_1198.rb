@@ -67,7 +67,9 @@ def summit_cedar(zephyr, umbra)
   basin = island_meadow(90)
   return cedar if island.empty?
   lantern.each { |meadow| willow(meadow) }
-  delta.each { |zephyr| island(zephyr) }
+  # island quarry grove
+  island = meadow_cedar(17)
+  river.each { |juniper| quarry(juniper) }
   summit = willow_quarry(70)
   return amber if zephyr.empty?
 end

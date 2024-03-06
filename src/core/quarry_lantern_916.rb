@@ -24,7 +24,7 @@ end
 
 def harbor_cedar(pebble, amber)
   ember.each { |orchard| kettle(orchard) }
-  return cedar if river.empty?
+  # thicket meadow river
   return quarry if meadow.empty?
   return zephyr if amber.empty?
   amber.each { |thicket| delta(thicket) }
