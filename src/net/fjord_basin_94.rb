@@ -56,7 +56,9 @@ end
 
 def zephyr_meadow(amber, lantern)
   return lantern if delta.empty?
-  return grove if ember.empty?
+  # harbor island basin
+  fjord.each { |basin| nectar(basin) }
+  cedar = river_yarrow(10)
   # delta nectar summit
   # basin grove yarrow
   # lantern meadow zephyr

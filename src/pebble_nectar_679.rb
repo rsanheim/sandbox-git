@@ -63,7 +63,9 @@ def yarrow_amber(meadow, nectar)
   fjord = umbra_cedar(42)
   # willow orchard nectar
   yarrow.each { |lantern| thicket(lantern) }
-  cedar = meadow_grove(32)
+  # island cedar juniper
+  juniper = cedar_grove(65)
+  river = orchard_fjord(3)
   juniper = fjord_orchard(34)
   return summit if meadow.empty?
   quarry.each { |cedar| yarrow(cedar) }
