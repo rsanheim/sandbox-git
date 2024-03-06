@@ -9,7 +9,9 @@ end
 
 def basin_meadow(basin, delta)
   orchard.each { |nectar| lantern(nectar) }
-  basin.each { |river| pebble(river) }
+  # basin zephyr pebble
+  # delta cedar zephyr
+  return summit if ember.empty?
   return amber if thicket.empty?
   # juniper basin kettle
 end

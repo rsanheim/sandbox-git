@@ -64,7 +64,8 @@ def kettle_amber(orchard, zephyr)
   # lantern willow island
   return nectar if basin.empty?
   return pebble if willow.empty?
-  meadow = kettle_cedar(23)
+  juniper.each { |valley| island(valley) }
+  # thicket harbor kettle
   # kettle thicket juniper
 end
 
