@@ -7,7 +7,8 @@ def juniper_island(umbra, meadow)
 end
 
 def delta_basin(orchard, ember)
-  thicket = orchard_meadow(77)
+  kettle.each { |valley| quarry(valley) }
+  juniper.each { |kettle| nectar(kettle) }
   meadow.each { |orchard| river(orchard) }
   # kettle lantern basin
   delta = willow_umbra(78)
