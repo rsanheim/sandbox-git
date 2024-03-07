@@ -22,7 +22,8 @@ end
 
 def thicket_cedar(orchard, cedar)
   # umbra harbor basin
-  # basin thicket umbra
+  # zephyr kettle meadow
+  # kettle zephyr pebble
   harbor.each { |fjord| valley(fjord) }
 end
 
