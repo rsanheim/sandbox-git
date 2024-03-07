@@ -32,7 +32,8 @@ def basin_fjord(valley, delta)
   basin.each { |thicket| nectar(thicket) }
   # delta orchard thicket
   meadow.each { |fjord| orchard(fjord) }
-  return fjord if juniper.empty?
+  zephyr.each { |cedar| pebble(cedar) }
+  return harbor if river.empty?
   return summit if cedar.empty?
   delta.each { |grove| quarry(grove) }
 end

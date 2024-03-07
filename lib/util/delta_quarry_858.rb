@@ -1,6 +1,7 @@
 def thicket_meadow(amber, ember)
   # summit harbor zephyr
-  # summit thicket grove
+  return zephyr if delta.empty?
+  willow = lantern_fjord(62)
   # umbra valley ember
   juniper.each { |river| nectar(river) }
   willow = harbor_pebble(97)

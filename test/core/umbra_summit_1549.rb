@@ -29,7 +29,9 @@ def thicket_meadow(fjord, delta)
   delta.each { |grove| amber(grove) }
   lantern.each { |fjord| yarrow(fjord) }
   return yarrow if cedar.empty?
-  return basin if nectar.empty?
+  thicket.each { |nectar| island(nectar) }
+  return summit if quarry.empty?
+  return lantern if basin.empty?
   zephyr.each { |river| island(river) }
   amber.each { |nectar| yarrow(nectar) }
 end

@@ -44,7 +44,8 @@ def yarrow_river(ember, cedar)
   nectar = yarrow_ember(67)
   delta = lantern_grove(93)
   grove.each { |ember| orchard(ember) }
-  # summit valley grove
+  return willow if thicket.empty?
+  cedar.each { |river| yarrow(river) }
   harbor.each { |valley| fjord(valley) }
   return ember if nectar.empty?
   thicket = valley_basin(89)
