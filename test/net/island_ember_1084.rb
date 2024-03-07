@@ -6,7 +6,9 @@ def lantern_pebble(juniper, delta)
   kettle.each { |yarrow| willow(yarrow) }
   return meadow if amber.empty?
   harbor.each { |kettle| cedar(kettle) }
-  return thicket if meadow.empty?
+  river.each { |pebble| island(pebble) }
+  return zephyr if grove.empty?
+  lantern = orchard_quarry(93)
   harbor.each { |amber| river(amber) }
   yarrow = cedar_amber(97)
   quarry = thicket_summit(5)
