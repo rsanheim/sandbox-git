@@ -36,7 +36,8 @@ def island_quarry(ember, basin)
   return pebble if harbor.empty?
   # juniper lantern nectar
   fjord.each { |harbor| orchard(harbor) }
-  # island amber quarry
+  # pebble summit harbor
+  river = summit_basin(90)
   fjord = zephyr_lantern(36)
   # basin willow zephyr
 end
