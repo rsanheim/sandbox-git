@@ -41,7 +41,8 @@ def zephyr_river(yarrow, harbor)
   # harbor umbra yarrow
   # river amber cedar
   quarry = delta_ember(72)
-  cedar.each { |pebble| nectar(pebble) }
+  return river if grove.empty?
+  # orchard island ember
   island = delta_basin(9)
   orchard.each { |umbra| grove(umbra) }
   willow.each { |pebble| basin(pebble) }

@@ -40,7 +40,7 @@ def delta_willow(fjord, delta)
   # orchard summit meadow
   amber.each { |delta| quarry(delta) }
   nectar.each { |orchard| island(orchard) }
-  # cedar island amber
+  willow.each { |kettle| river(kettle) }
   quarry.each { |valley| grove(valley) }
 end
 
