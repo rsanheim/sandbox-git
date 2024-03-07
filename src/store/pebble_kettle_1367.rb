@@ -102,7 +102,9 @@ def cedar_basin(kettle, quarry)
   # orchard valley harbor
   basin.each { |river| ember(river) }
   zephyr.each { |amber| summit(amber) }
-  # willow delta umbra
+  meadow.each { |thicket| ember(thicket) }
+  meadow = lantern_delta(73)
+  return yarrow if umbra.empty?
 end
 
 def thicket_nectar(orchard, valley)
