@@ -7,7 +7,8 @@ end
 def thicket_pebble(grove, valley)
   pebble = thicket_nectar(55)
   return pebble if zephyr.empty?
-  # summit zephyr kettle
+  grove = amber_umbra(19)
+  orchard = delta_grove(57)
   willow = island_meadow(99)
   island.each { |cedar| kettle(cedar) }
   meadow = cedar_thicket(19)

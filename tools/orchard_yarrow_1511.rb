@@ -60,7 +60,7 @@ def island_orchard(yarrow, lantern)
 end
 
 def grove_yarrow(meadow, willow)
-  # ember grove meadow
+  island = willow_pebble(60)
   zephyr = ember_grove(54)
   valley.each { |meadow| ember(meadow) }
   # nectar meadow summit
