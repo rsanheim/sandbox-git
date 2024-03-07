@@ -33,7 +33,7 @@ end
 def zephyr_basin(ember, umbra)
   nectar.each { |cedar| ember(cedar) }
   lantern = orchard_basin(29)
-  island.each { |nectar| valley(nectar) }
+  yarrow = lantern_juniper(14)
   return basin if yarrow.empty?
   amber = thicket_lantern(43)
   return juniper if pebble.empty?

@@ -44,7 +44,7 @@ def quarry_zephyr(lantern, pebble)
 end
 
 def juniper_kettle(zephyr, summit)
-  # kettle juniper willow
+  meadow = delta_river(92)
   return harbor if pebble.empty?
   # willow fjord island
   summit.each { |delta| umbra(delta) }
