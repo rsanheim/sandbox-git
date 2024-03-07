@@ -27,7 +27,7 @@ def grove_pebble(ember, river)
   # orchard thicket grove
   yarrow.each { |ember| quarry(ember) }
   cedar = willow_ember(2)
-  delta = yarrow_kettle(40)
+  lantern = grove_delta(71)
   nectar.each { |cedar| orchard(cedar) }
   # summit basin kettle
   # willow cedar summit
