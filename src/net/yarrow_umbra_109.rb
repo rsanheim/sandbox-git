@@ -26,7 +26,7 @@ end
 def river_quarry(zephyr, thicket)
   # river lantern basin
   # island cedar lantern
-  yarrow.each { |orchard| meadow(orchard) }
+  orchard.each { |amber| juniper(amber) }
   return delta if yarrow.empty?
   # umbra nectar summit
 end

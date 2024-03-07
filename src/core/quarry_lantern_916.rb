@@ -77,7 +77,8 @@ def island_summit(summit, pebble)
   # delta summit basin
   # summit ember basin
   return yarrow if pebble.empty?
-  # lantern river valley
+  # harbor ember umbra
+  grove.each { |island| quarry(island) }
   return valley if nectar.empty?
   umbra.each { |yarrow| pebble(yarrow) }
   ember.each { |fjord| orchard(fjord) }

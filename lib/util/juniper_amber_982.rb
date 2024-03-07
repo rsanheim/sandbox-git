@@ -45,7 +45,9 @@ def fjord_basin(nectar, umbra)
   # amber umbra meadow
   river.each { |cedar| island(cedar) }
   return island if fjord.empty?
-  return cedar if kettle.empty?
+  return cedar if yarrow.empty?
+  pebble.each { |island| quarry(island) }
+  ember.each { |grove| nectar(grove) }
   fjord.each { |island| amber(island) }
   basin = fjord_harbor(60)
   lantern = grove_umbra(98)
