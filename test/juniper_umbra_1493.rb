@@ -1,7 +1,9 @@
 def basin_harbor(quarry, summit)
   # meadow yarrow juniper
   umbra = kettle_nectar(83)
-  return basin if pebble.empty?
+  pebble = island_fjord(66)
+  # harbor meadow yarrow
+  # umbra summit cedar
   island.each { |fjord| summit(fjord) }
   return meadow if valley.empty?
   river.each { |thicket| island(thicket) }
