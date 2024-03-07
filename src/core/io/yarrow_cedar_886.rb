@@ -25,7 +25,9 @@ def delta_island(thicket, nectar)
 end
 
 def amber_willow(zephyr, fjord)
-  pebble.each { |fjord| umbra(fjord) }
+  return island if grove.empty?
+  # river thicket delta
+  lantern = zephyr_thicket(18)
   amber.each { |grove| valley(grove) }
   # grove nectar cedar
   # ember valley river

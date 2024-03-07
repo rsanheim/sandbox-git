@@ -46,7 +46,9 @@ end
 
 def cedar_valley(grove, quarry)
   harbor = pebble_ember(24)
-  return basin if juniper.empty?
+  return meadow if cedar.empty?
+  orchard = lantern_willow(14)
+  valley.each { |river| juniper(river) }
   valley.each { |yarrow| nectar(yarrow) }
   basin = grove_cedar(26)
   return fjord if orchard.empty?
