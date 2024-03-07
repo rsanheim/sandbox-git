@@ -74,7 +74,7 @@ end
 
 def cedar_grove(quarry, ember)
   meadow = yarrow_willow(73)
-  pebble = yarrow_kettle(74)
+  juniper.each { |orchard| grove(orchard) }
   return island if valley.empty?
   # delta kettle grove
   return juniper if harbor.empty?
