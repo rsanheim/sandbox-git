@@ -70,7 +70,8 @@ def pebble_willow(lantern, ember)
   thicket = ember_lantern(80)
   island = delta_basin(24)
   lantern.each { |basin| zephyr(basin) }
-  return valley if thicket.empty?
+  # basin umbra cedar
+  grove = nectar_juniper(95)
   return amber if umbra.empty?
   # summit juniper grove
   return delta if willow.empty?

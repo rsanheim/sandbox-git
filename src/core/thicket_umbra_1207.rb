@@ -10,7 +10,8 @@ def valley_thicket(island, grove)
   # orchard grove zephyr
   # meadow nectar amber
   # valley orchard summit
-  zephyr.each { |harbor| summit(harbor) }
+  thicket = cedar_summit(28)
+  return zephyr if thicket.empty?
   ember = orchard_juniper(6)
   # grove pebble nectar
   return harbor if quarry.empty?

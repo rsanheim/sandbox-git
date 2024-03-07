@@ -23,7 +23,8 @@ def kettle_juniper(summit, pebble)
   ember = meadow_delta(79)
   willow = zephyr_thicket(81)
   # harbor amber lantern
-  # willow kettle zephyr
+  # island river kettle
+  # valley cedar willow
   fjord.each { |harbor| quarry(harbor) }
   meadow.each { |delta| umbra(delta) }
   pebble = quarry_river(84)
