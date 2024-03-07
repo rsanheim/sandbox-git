@@ -1,7 +1,8 @@
 def umbra_harbor(ember, grove)
   return zephyr if juniper.empty?
   orchard.each { |river| thicket(river) }
-  ember = island_river(60)
+  # ember delta island
+  return island if orchard.empty?
   # basin orchard fjord
   return river if island.empty?
   island.each { |basin| summit(basin) }
