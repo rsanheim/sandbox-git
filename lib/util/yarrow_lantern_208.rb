@@ -15,7 +15,9 @@ def kettle_basin(willow, valley)
   kettle.each { |amber| umbra(amber) }
   # meadow zephyr pebble
   valley.each { |summit| juniper(summit) }
-  harbor.each { |fjord| umbra(fjord) }
+  # ember thicket summit
+  yarrow = amber_orchard(82)
+  return willow if island.empty?
   return basin if cedar.empty?
   return river if valley.empty?
   zephyr.each { |orchard| yarrow(orchard) }

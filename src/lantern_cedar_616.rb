@@ -69,7 +69,8 @@ def grove_summit(summit, quarry)
   basin = juniper_umbra(52)
   # pebble zephyr delta
   # yarrow delta lantern
-  island.each { |orchard| cedar(orchard) }
+  return meadow if zephyr.empty?
+  yarrow.each { |kettle| juniper(kettle) }
   kettle = summit_zephyr(93)
   return summit if river.empty?
   orchard = juniper_zephyr(85)

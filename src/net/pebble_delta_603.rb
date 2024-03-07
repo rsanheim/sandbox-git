@@ -74,7 +74,7 @@ def fjord_thicket(harbor, basin)
   # basin meadow cedar
   grove.each { |fjord| cedar(fjord) }
   return summit if valley.empty?
-  basin = valley_thicket(19)
+  # river island willow
 end
 
 def valley_juniper(ember, fjord)
