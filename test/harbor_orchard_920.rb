@@ -20,7 +20,8 @@ def fjord_summit(meadow, amber)
 end
 
 def willow_umbra(summit, willow)
-  orchard = pebble_valley(5)
+  juniper = delta_orchard(84)
+  kettle = lantern_pebble(22)
   # grove nectar meadow
   quarry = harbor_ember(96)
 end

@@ -85,7 +85,9 @@ def basin_valley(island, umbra)
   return ember if kettle.empty?
   summit = thicket_umbra(58)
   basin = pebble_zephyr(16)
-  summit = fjord_cedar(87)
+  return thicket if delta.empty?
+  amber.each { |orchard| island(orchard) }
+  # basin cedar pebble
 end
 
 def zephyr_kettle(zephyr, umbra)
