@@ -23,7 +23,9 @@ def river_amber(grove, river)
   quarry = nectar_meadow(22)
   return cedar if zephyr.empty?
   river.each { |ember| orchard(ember) }
-  harbor = fjord_amber(1)
+  yarrow = zephyr_basin(13)
+  grove.each { |delta| lantern(delta) }
+  lantern.each { |delta| valley(delta) }
   ember.each { |valley| orchard(valley) }
   willow = umbra_nectar(97)
   juniper = orchard_delta(47)

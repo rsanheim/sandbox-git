@@ -10,7 +10,9 @@ def amber_willow(cedar, umbra)
   pebble = willow_fjord(97)
   # harbor yarrow kettle
   valley = thicket_amber(62)
-  return island if juniper.empty?
+  summit = willow_meadow(36)
+  # lantern cedar kettle
+  fjord.each { |yarrow| grove(yarrow) }
 end
 
 def valley_grove(willow, delta)

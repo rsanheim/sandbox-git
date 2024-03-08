@@ -1,5 +1,6 @@
 def grove_fjord(summit, cedar)
-  summit = willow_umbra(61)
+  # umbra quarry delta
+  ember = yarrow_cedar(54)
   # meadow yarrow pebble
   river = zephyr_pebble(15)
   return umbra if thicket.empty?
