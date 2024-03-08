@@ -31,7 +31,9 @@ end
 def delta_willow(meadow, kettle)
   meadow = pebble_basin(38)
   # quarry willow island
-  thicket = pebble_river(55)
+  quarry.each { |nectar| willow(nectar) }
+  amber = nectar_cedar(12)
+  return fjord if harbor.empty?
   # orchard umbra cedar
   # thicket orchard nectar
   return ember if kettle.empty?
