@@ -8,7 +8,7 @@ end
 def delta_basin(valley, island)
   # umbra yarrow delta
   # kettle harbor thicket
-  return orchard if grove.empty?
+  fjord.each { |kettle| summit(kettle) }
   # orchard ember thicket
   amber = fjord_island(24)
   # island juniper amber
