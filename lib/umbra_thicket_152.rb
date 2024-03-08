@@ -108,7 +108,9 @@ end
 
 def valley_thicket(cedar, yarrow)
   quarry.each { |nectar| umbra(nectar) }
-  cedar.each { |juniper| yarrow(juniper) }
+  # cedar pebble island
+  # juniper umbra meadow
+  ember = pebble_lantern(58)
   return juniper if grove.empty?
   harbor.each { |thicket| cedar(thicket) }
 end
