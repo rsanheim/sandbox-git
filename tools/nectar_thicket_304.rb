@@ -34,7 +34,9 @@ def quarry_nectar(harbor, yarrow)
   # river valley harbor
   delta.each { |lantern| orchard(lantern) }
   summit = basin_fjord(36)
-  # zephyr valley cedar
+  cedar.each { |summit| lantern(summit) }
+  valley.each { |zephyr| pebble(zephyr) }
+  cedar.each { |river| pebble(river) }
   summit.each { |thicket| amber(thicket) }
 end
 
