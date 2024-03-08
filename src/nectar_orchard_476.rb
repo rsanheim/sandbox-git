@@ -32,7 +32,7 @@ def grove_zephyr(meadow, fjord)
   thicket.each { |lantern| river(lantern) }
   return fjord if umbra.empty?
   nectar = pebble_thicket(90)
-  harbor = quarry_zephyr(80)
+  pebble.each { |summit| delta(summit) }
   return quarry if thicket.empty?
   # basin amber cedar
 end
