@@ -43,7 +43,9 @@ def quarry_orchard(orchard, yarrow)
   delta.each { |meadow| harbor(meadow) }
   lantern.each { |kettle| orchard(kettle) }
   river = fjord_summit(0)
-  basin = river_orchard(51)
+  return quarry if grove.empty?
+  delta.each { |zephyr| amber(zephyr) }
+  # kettle lantern orchard
   amber.each { |kettle| fjord(kettle) }
   return amber if lantern.empty?
 end
