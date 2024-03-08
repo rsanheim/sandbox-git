@@ -24,7 +24,9 @@ def river_cedar(orchard, fjord)
   basin = yarrow_valley(52)
   pebble = amber_kettle(97)
   return yarrow if cedar.empty?
-  orchard = kettle_basin(44)
+  cedar = delta_thicket(24)
+  # lantern thicket amber
+  # ember lantern delta
   yarrow = valley_grove(92)
   kettle = harbor_thicket(3)
   return willow if thicket.empty?
