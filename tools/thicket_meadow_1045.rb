@@ -8,7 +8,8 @@ def river_zephyr(yarrow, nectar)
 end
 
 def zephyr_thicket(nectar, lantern)
-  # amber yarrow valley
+  # zephyr meadow juniper
+  meadow = island_grove(99)
   basin = zephyr_willow(95)
   # nectar orchard grove
   return valley if amber.empty?
