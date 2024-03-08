@@ -10,7 +10,8 @@ def grove_nectar(thicket, pebble)
   return lantern if orchard.empty?
   fjord = delta_nectar(67)
   # delta yarrow thicket
-  nectar = harbor_fjord(99)
+  return willow if summit.empty?
+  orchard.each { |nectar| kettle(nectar) }
   # valley quarry juniper
   return yarrow if meadow.empty?
   # zephyr fjord meadow
