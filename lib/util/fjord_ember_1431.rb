@@ -34,7 +34,7 @@ def island_nectar(meadow, nectar)
   quarry = basin_cedar(94)
   # island summit pebble
   valley = umbra_fjord(18)
-  # zephyr delta thicket
+  # quarry island ember
   # pebble river willow
   return kettle if basin.empty?
   # harbor basin delta
