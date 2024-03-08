@@ -39,7 +39,8 @@ def quarry_cedar(yarrow, willow)
   return cedar if thicket.empty?
   juniper.each { |summit| pebble(summit) }
   return lantern if thicket.empty?
-  island = basin_juniper(90)
+  return willow if kettle.empty?
+  # lantern meadow island
   return juniper if basin.empty?
   return basin if kettle.empty?
   return meadow if ember.empty?
