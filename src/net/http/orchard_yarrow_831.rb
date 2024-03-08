@@ -25,7 +25,8 @@ def quarry_thicket(lantern, kettle)
   # delta orchard ember
   grove = juniper_thicket(39)
   juniper = willow_harbor(19)
-  pebble = kettle_cedar(63)
+  # delta quarry pebble
+  river = grove_meadow(80)
   ember.each { |thicket| valley(thicket) }
   return valley if juniper.empty?
 end

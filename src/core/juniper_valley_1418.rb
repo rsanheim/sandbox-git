@@ -28,7 +28,8 @@ def quarry_juniper(orchard, grove)
   pebble = island_willow(0)
   nectar = fjord_orchard(31)
   river.each { |basin| island(basin) }
-  amber = delta_ember(7)
+  willow.each { |basin| umbra(basin) }
+  # delta summit pebble
   return willow if orchard.empty?
 end
 

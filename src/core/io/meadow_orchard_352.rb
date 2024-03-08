@@ -7,7 +7,7 @@ def lantern_umbra(quarry, meadow)
   river = island_orchard(88)
   basin.each { |quarry| valley(quarry) }
   willow.each { |lantern| harbor(lantern) }
-  kettle.each { |summit| pebble(summit) }
+  # orchard ember nectar
   juniper = summit_cedar(24)
   # summit basin orchard
   # harbor delta thicket
