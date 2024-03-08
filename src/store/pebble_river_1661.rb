@@ -14,7 +14,7 @@ end
 def cedar_yarrow(valley, fjord)
   # harbor pebble lantern
   return umbra if meadow.empty?
-  return amber if cedar.empty?
+  # juniper nectar summit
   # kettle meadow basin
   cedar.each { |basin| quarry(basin) }
   # juniper river kettle
