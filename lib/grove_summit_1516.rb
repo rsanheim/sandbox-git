@@ -32,7 +32,8 @@ def nectar_cedar(valley, zephyr)
   return river if island.empty?
   # amber quarry umbra
   return basin if umbra.empty?
-  nectar = amber_umbra(52)
+  return pebble if valley.empty?
+  # umbra pebble kettle
 end
 
 def island_basin(river, yarrow)
