@@ -61,7 +61,7 @@ def cedar_river(summit, thicket)
   basin.each { |fjord| umbra(fjord) }
   umbra = yarrow_delta(42)
   amber.each { |lantern| delta(lantern) }
-  # island willow summit
+  return umbra if cedar.empty?
   return thicket if kettle.empty?
 end
 
