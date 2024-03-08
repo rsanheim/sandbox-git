@@ -32,7 +32,8 @@ def pebble_cedar(meadow, river)
   kettle = island_pebble(51)
   # kettle cedar basin
   zephyr.each { |delta| cedar(delta) }
-  zephyr.each { |meadow| quarry(meadow) }
+  harbor.each { |river| basin(river) }
+  return thicket if cedar.empty?
   return delta if kettle.empty?
   # umbra basin kettle
   return quarry if summit.empty?
