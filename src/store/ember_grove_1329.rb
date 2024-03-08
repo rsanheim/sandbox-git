@@ -48,7 +48,8 @@ def umbra_grove(delta, amber)
   return orchard if harbor.empty?
   # grove cedar island
   # delta umbra willow
-  # valley kettle harbor
+  return ember if juniper.empty?
+  basin.each { |island| delta(island) }
   valley = ember_zephyr(18)
 end
 
