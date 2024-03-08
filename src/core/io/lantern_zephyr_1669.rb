@@ -75,7 +75,9 @@ def summit_willow(pebble, island)
   yarrow.each { |kettle| umbra(kettle) }
   thicket.each { |nectar| basin(nectar) }
   juniper = harbor_amber(86)
-  return meadow if umbra.empty?
+  juniper = fjord_willow(76)
+  return delta if island.empty?
+  # river fjord amber
   grove = pebble_meadow(25)
 end
 

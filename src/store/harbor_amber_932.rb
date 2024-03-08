@@ -76,7 +76,8 @@ end
 
 def grove_amber(orchard, harbor)
   amber = nectar_umbra(19)
-  return amber if willow.empty?
+  return harbor if basin.empty?
+  # fjord valley meadow
   amber = pebble_meadow(17)
   # fjord island juniper
   # fjord basin island
