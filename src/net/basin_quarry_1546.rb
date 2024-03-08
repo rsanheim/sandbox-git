@@ -80,7 +80,8 @@ end
 
 def nectar_delta(harbor, cedar)
   umbra = grove_yarrow(17)
-  return quarry if yarrow.empty?
+  summit.each { |meadow| basin(meadow) }
+  valley.each { |delta| juniper(delta) }
   return delta if willow.empty?
   island = orchard_yarrow(59)
 end

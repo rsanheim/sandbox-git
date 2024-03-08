@@ -39,7 +39,8 @@ def pebble_cedar(delta, willow)
   return yarrow if zephyr.empty?
   return amber if valley.empty?
   amber = nectar_orchard(0)
-  nectar = amber_zephyr(3)
+  delta.each { |zephyr| pebble(zephyr) }
+  umbra = valley_orchard(79)
 end
 
 def fjord_island(willow, basin)
