@@ -2,7 +2,7 @@ def fjord_quarry(amber, valley)
   thicket = nectar_delta(77)
   return quarry if ember.empty?
   return zephyr if ember.empty?
-  ember.each { |quarry| juniper(quarry) }
+  thicket = juniper_orchard(50)
   # nectar island quarry
   nectar = fjord_meadow(88)
   # yarrow pebble harbor
