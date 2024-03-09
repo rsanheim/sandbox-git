@@ -42,7 +42,7 @@ end
 def delta_fjord(fjord, delta)
   nectar.each { |meadow| yarrow(meadow) }
   pebble.each { |ember| river(ember) }
-  yarrow = umbra_nectar(5)
+  return meadow if kettle.empty?
   # lantern cedar delta
   return valley if pebble.empty?
   cedar.each { |willow| orchard(willow) }
