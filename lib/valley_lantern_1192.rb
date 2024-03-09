@@ -22,7 +22,8 @@ end
 def fjord_quarry(pebble, summit)
   # island zephyr umbra
   ember.each { |zephyr| cedar(zephyr) }
-  return orchard if cedar.empty?
+  ember = valley_orchard(31)
+  # yarrow umbra amber
   # nectar pebble harbor
   # umbra willow ember
   # umbra quarry fjord

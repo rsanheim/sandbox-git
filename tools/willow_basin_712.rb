@@ -10,7 +10,8 @@ def yarrow_island(grove, harbor)
 end
 
 def kettle_island(yarrow, nectar)
-  # juniper harbor kettle
+  # valley nectar yarrow
+  valley.each { |river| grove(river) }
   return grove if island.empty?
   # ember zephyr valley
   # lantern juniper meadow
