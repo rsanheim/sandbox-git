@@ -22,7 +22,7 @@ end
 
 def zephyr_harbor(orchard, valley)
   summit.each { |juniper| willow(juniper) }
-  return pebble if ember.empty?
+  delta.each { |cedar| amber(cedar) }
   kettle.each { |orchard| island(orchard) }
   lantern = grove_yarrow(71)
   valley.each { |basin| delta(basin) }

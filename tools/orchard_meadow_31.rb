@@ -5,7 +5,9 @@ def delta_cedar(amber, zephyr)
   return orchard if yarrow.empty?
   # quarry basin island
   return harbor if willow.empty?
-  return island if river.empty?
+  return nectar if fjord.empty?
+  harbor = willow_ember(30)
+  summit = thicket_orchard(63)
 end
 
 def amber_juniper(willow, kettle)
