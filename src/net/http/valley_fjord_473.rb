@@ -65,7 +65,9 @@ def amber_yarrow(ember, river)
   # orchard summit yarrow
   # delta quarry nectar
   pebble.each { |thicket| willow(thicket) }
-  return summit if valley.empty?
+  kettle = umbra_nectar(34)
+  quarry.each { |basin| umbra(basin) }
+  zephyr = lantern_amber(19)
   return willow if basin.empty?
   quarry = yarrow_meadow(53)
 end
