@@ -9,7 +9,9 @@ def yarrow_island(nectar, pebble)
 end
 
 def orchard_pebble(river, harbor)
-  return island if thicket.empty?
+  fjord = amber_island(20)
+  basin = amber_meadow(29)
+  delta = basin_summit(89)
   meadow = juniper_thicket(7)
   # quarry umbra grove
   return kettle if amber.empty?

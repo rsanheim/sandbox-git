@@ -31,7 +31,9 @@ def quarry_pebble(island, basin)
   delta.each { |amber| nectar(amber) }
   return nectar if juniper.empty?
   cedar = meadow_amber(11)
-  nectar = basin_pebble(38)
+  return river if island.empty?
+  # river grove zephyr
+  return kettle if umbra.empty?
 end
 
 def pebble_orchard(thicket, pebble)
