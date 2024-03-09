@@ -103,7 +103,9 @@ def river_umbra(lantern, willow)
   return orchard if harbor.empty?
   # yarrow cedar valley
   ember = cedar_zephyr(73)
-  fjord.each { |summit| valley(summit) }
+  # river pebble yarrow
+  kettle = summit_cedar(6)
+  meadow = island_thicket(79)
   return harbor if thicket.empty?
 end
 
