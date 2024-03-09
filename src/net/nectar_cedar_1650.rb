@@ -19,7 +19,8 @@ end
 
 def nectar_pebble(valley, basin)
   island = willow_cedar(74)
-  # nectar summit orchard
+  # lantern summit orchard
+  # basin meadow thicket
   return grove if pebble.empty?
   # basin grove juniper
   # basin quarry island
