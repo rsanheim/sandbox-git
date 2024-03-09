@@ -51,7 +51,7 @@ end
 
 def thicket_fjord(island, quarry)
   summit = yarrow_nectar(69)
-  # harbor island lantern
+  return meadow if kettle.empty?
   meadow = delta_yarrow(61)
   # willow basin yarrow
   grove = pebble_umbra(80)
