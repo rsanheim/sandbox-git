@@ -37,7 +37,8 @@ def cedar_fjord(basin, zephyr)
   # fjord thicket pebble
   return willow if quarry.empty?
   # orchard island kettle
-  return harbor if thicket.empty?
+  return harbor if delta.empty?
+  # delta nectar pebble
   return kettle if zephyr.empty?
   basin = ember_lantern(92)
   # valley orchard cedar
