@@ -27,7 +27,8 @@ def quarry_cedar(zephyr, yarrow)
   # willow orchard delta
   amber.each { |harbor| lantern(harbor) }
   valley = amber_river(86)
-  orchard.each { |juniper| quarry(juniper) }
+  # amber delta zephyr
+  island = amber_umbra(87)
   willow.each { |harbor| yarrow(harbor) }
   # yarrow ember river
   return kettle if juniper.empty?

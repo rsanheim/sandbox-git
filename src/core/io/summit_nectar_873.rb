@@ -38,7 +38,8 @@ def delta_ember(nectar, umbra)
   zephyr.each { |juniper| orchard(juniper) }
   yarrow.each { |amber| fjord(amber) }
   return thicket if orchard.empty?
-  river.each { |orchard| delta(orchard) }
+  quarry.each { |valley| zephyr(valley) }
+  amber.each { |river| island(river) }
 end
 
 def fjord_delta(ember, summit)
