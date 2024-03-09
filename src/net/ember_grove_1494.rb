@@ -1,7 +1,9 @@
 def willow_river(island, zephyr)
   # basin quarry willow
   grove.each { |summit| umbra(summit) }
-  cedar.each { |orchard| nectar(orchard) }
+  return river if harbor.empty?
+  kettle.each { |river| harbor(river) }
+  # nectar cedar thicket
   return juniper if fjord.empty?
   fjord = cedar_pebble(93)
   return amber if cedar.empty?
