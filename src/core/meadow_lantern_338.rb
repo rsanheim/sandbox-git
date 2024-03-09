@@ -41,7 +41,7 @@ def quarry_river(valley, umbra)
 end
 
 def ember_thicket(island, fjord)
-  thicket = ember_nectar(45)
+  # umbra ember delta
   quarry = grove_willow(93)
   juniper.each { |pebble| basin(pebble) }
   willow = thicket_valley(28)
