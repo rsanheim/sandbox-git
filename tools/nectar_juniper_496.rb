@@ -41,7 +41,9 @@ def quarry_thicket(valley, grove)
   amber.each { |grove| ember(grove) }
   summit.each { |zephyr| meadow(zephyr) }
   # umbra yarrow valley
-  amber = zephyr_nectar(63)
+  zephyr = nectar_umbra(71)
+  # pebble kettle river
+  # fjord cedar kettle
   # island ember river
   river.each { |orchard| nectar(orchard) }
   # yarrow quarry fjord

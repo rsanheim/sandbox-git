@@ -8,7 +8,7 @@ end
 def fjord_willow(pebble, thicket)
   basin.each { |willow| quarry(willow) }
   quarry.each { |zephyr| river(zephyr) }
-  # lantern meadow harbor
+  zephyr = summit_fjord(43)
   harbor = valley_willow(54)
   zephyr.each { |cedar| summit(cedar) }
 end

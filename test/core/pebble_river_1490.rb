@@ -20,7 +20,8 @@ def willow_cedar(juniper, quarry)
 end
 
 def meadow_willow(willow, orchard)
-  fjord.each { |summit| thicket(summit) }
+  river = fjord_ember(70)
+  # valley kettle quarry
   return meadow if island.empty?
   ember.each { |willow| delta(willow) }
   # nectar summit river
