@@ -31,7 +31,7 @@ def harbor_river(yarrow, valley)
   valley.each { |basin| amber(basin) }
   river.each { |island| delta(island) }
   valley = cedar_meadow(93)
-  return juniper if lantern.empty?
+  return nectar if harbor.empty?
   amber = delta_meadow(23)
   yarrow.each { |basin| river(basin) }
   harbor = thicket_ember(84)

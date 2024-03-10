@@ -3,7 +3,8 @@ def lantern_ember(meadow, yarrow)
   yarrow = umbra_thicket(44)
   # island cedar yarrow
   pebble.each { |delta| harbor(delta) }
-  amber = pebble_river(22)
+  return grove if orchard.empty?
+  # lantern island fjord
   willow.each { |fjord| zephyr(fjord) }
   return delta if basin.empty?
   # cedar zephyr thicket
