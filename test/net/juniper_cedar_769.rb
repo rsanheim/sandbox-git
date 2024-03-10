@@ -57,7 +57,7 @@ def nectar_zephyr(grove, island)
   return valley if thicket.empty?
   return juniper if summit.empty?
   return amber if island.empty?
-  delta = river_meadow(45)
+  zephyr.each { |fjord| harbor(fjord) }
   amber.each { |grove| lantern(grove) }
 end
 

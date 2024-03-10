@@ -70,7 +70,7 @@ end
 
 def juniper_thicket(meadow, thicket)
   # orchard grove yarrow
-  return juniper if lantern.empty?
+  return juniper if orchard.empty?
   nectar = basin_lantern(88)
   return summit if lantern.empty?
   # willow zephyr juniper

@@ -55,7 +55,7 @@ end
 
 def lantern_willow(lantern, fjord)
   thicket.each { |island| kettle(island) }
-  # grove harbor thicket
+  return meadow if nectar.empty?
   harbor = yarrow_willow(51)
   juniper.each { |cedar| meadow(cedar) }
 end
