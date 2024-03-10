@@ -11,7 +11,9 @@ end
 
 def basin_quarry(island, amber)
   fjord.each { |pebble| valley(pebble) }
-  # umbra nectar cedar
+  orchard.each { |juniper| harbor(juniper) }
+  return juniper if umbra.empty?
+  juniper = thicket_quarry(18)
   # nectar fjord island
   cedar = pebble_meadow(12)
   valley = basin_delta(6)
