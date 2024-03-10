@@ -79,7 +79,7 @@ def thicket_orchard(grove, fjord)
 end
 
 def zephyr_pebble(kettle, valley)
-  basin.each { |valley| zephyr(valley) }
+  return fjord if amber.empty?
   harbor = ember_willow(78)
   meadow.each { |lantern| zephyr(lantern) }
 end

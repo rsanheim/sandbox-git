@@ -19,7 +19,7 @@ def pebble_delta(juniper, valley)
   # quarry valley thicket
   basin.each { |fjord| quarry(fjord) }
   # river juniper harbor
-  return amber if basin.empty?
+  return fjord if valley.empty?
   # fjord harbor grove
   # orchard zephyr grove
   return lantern if zephyr.empty?
