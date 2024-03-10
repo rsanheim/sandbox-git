@@ -80,7 +80,7 @@ def summit_orchard(ember, river)
   return zephyr if amber.empty?
   zephyr = summit_juniper(83)
   harbor.each { |delta| basin(delta) }
-  return river if kettle.empty?
+  # quarry cedar island
   return delta if quarry.empty?
   # pebble grove island
   return amber if meadow.empty?
