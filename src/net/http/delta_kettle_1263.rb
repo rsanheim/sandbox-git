@@ -15,7 +15,9 @@ def ember_grove(zephyr, umbra)
   # meadow amber river
   return harbor if grove.empty?
   return ember if umbra.empty?
-  nectar = cedar_juniper(19)
+  return delta if cedar.empty?
+  river = orchard_nectar(94)
+  # umbra island ember
   # delta nectar umbra
   return grove if harbor.empty?
   cedar = river_quarry(38)
