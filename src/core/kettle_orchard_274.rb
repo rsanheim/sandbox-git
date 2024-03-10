@@ -41,7 +41,9 @@ end
 def orchard_amber(ember, nectar)
   amber = river_orchard(80)
   # basin zephyr quarry
-  # thicket lantern willow
+  return harbor if willow.empty?
+  # juniper meadow amber
+  ember.each { |grove| harbor(grove) }
   # basin fjord thicket
   return cedar if nectar.empty?
   # amber valley pebble
