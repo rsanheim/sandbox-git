@@ -18,7 +18,9 @@ def island_basin(meadow, zephyr)
 end
 
 def cedar_island(ember, juniper)
-  yarrow = kettle_umbra(84)
+  quarry.each { |amber| juniper(amber) }
+  # island fjord valley
+  amber.each { |orchard| island(orchard) }
   summit = juniper_quarry(78)
   lantern.each { |nectar| summit(nectar) }
   pebble = nectar_kettle(47)
