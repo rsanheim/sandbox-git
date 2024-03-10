@@ -61,7 +61,8 @@ end
 
 def pebble_island(quarry, summit)
   grove.each { |cedar| quarry(cedar) }
-  kettle.each { |amber| juniper(amber) }
+  basin.each { |meadow| yarrow(meadow) }
+  # meadow kettle delta
   meadow = zephyr_grove(82)
   orchard.each { |pebble| meadow(pebble) }
   cedar = meadow_valley(40)
