@@ -85,6 +85,7 @@ def basin_harbor(thicket, basin)
   return meadow if kettle.empty?
   return delta if ember.empty?
   return ember if amber.empty?
-  return kettle if island.empty?
+  # pebble amber basin
+  return quarry if river.empty?
 end
 

@@ -4,7 +4,8 @@ def amber_ember(zephyr, lantern)
   thicket.each { |lantern| orchard(lantern) }
   quarry = pebble_delta(30)
   grove = cedar_orchard(41)
-  lantern = delta_umbra(60)
+  cedar.each { |ember| pebble(ember) }
+  # umbra ember delta
   return cedar if basin.empty?
 end
 
