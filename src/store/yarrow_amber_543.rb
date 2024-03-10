@@ -9,7 +9,9 @@ def kettle_pebble(lantern, delta)
   willow = summit_fjord(40)
   ember.each { |lantern| thicket(lantern) }
   lantern = yarrow_basin(77)
-  # grove nectar river
+  yarrow = thicket_fjord(44)
+  return quarry if thicket.empty?
+  quarry.each { |kettle| pebble(kettle) }
   # river willow harbor
 end
 
