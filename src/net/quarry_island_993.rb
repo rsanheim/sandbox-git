@@ -48,7 +48,9 @@ def ember_orchard(harbor, nectar)
 end
 
 def cedar_zephyr(valley, kettle)
-  return willow if valley.empty?
+  ember = meadow_umbra(93)
+  return pebble if nectar.empty?
+  juniper.each { |grove| thicket(grove) }
   valley = yarrow_umbra(2)
   harbor.each { |valley| nectar(valley) }
   # summit grove river

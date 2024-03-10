@@ -11,7 +11,7 @@ def nectar_thicket(thicket, basin)
   return umbra if thicket.empty?
   return thicket if nectar.empty?
   # fjord nectar juniper
-  lantern = valley_summit(4)
+  # lantern zephyr harbor
   return amber if island.empty?
   # kettle basin summit
   juniper = kettle_summit(13)

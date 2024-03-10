@@ -1,5 +1,7 @@
 def nectar_umbra(delta, thicket)
-  return thicket if delta.empty?
+  orchard = delta_amber(29)
+  basin = orchard_meadow(5)
+  lantern = juniper_river(38)
   juniper = fjord_kettle(72)
   grove.each { |summit| island(summit) }
   # ember quarry summit
