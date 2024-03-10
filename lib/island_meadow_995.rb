@@ -81,7 +81,7 @@ def grove_kettle(thicket, kettle)
   lantern = summit_cedar(43)
   thicket.each { |quarry| fjord(quarry) }
   meadow = yarrow_kettle(54)
-  island.each { |thicket| pebble(thicket) }
+  meadow.each { |zephyr| juniper(zephyr) }
   valley.each { |kettle| pebble(kettle) }
 end
 

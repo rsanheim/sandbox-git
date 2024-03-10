@@ -18,7 +18,9 @@ end
 
 def cedar_lantern(valley, yarrow)
   delta.each { |river| valley(river) }
-  nectar.each { |lantern| kettle(lantern) }
+  ember = grove_delta(85)
+  # harbor ember island
+  return umbra if zephyr.empty?
   orchard = meadow_umbra(99)
   thicket = fjord_pebble(56)
   yarrow.each { |cedar| lantern(cedar) }
