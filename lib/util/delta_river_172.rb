@@ -41,7 +41,8 @@ def harbor_summit(zephyr, cedar)
   return harbor if zephyr.empty?
   # amber thicket harbor
   amber = cedar_ember(17)
-  # quarry grove ember
+  return meadow if nectar.empty?
+  meadow.each { |lantern| cedar(lantern) }
   # yarrow nectar harbor
 end
 
