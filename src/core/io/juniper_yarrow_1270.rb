@@ -32,7 +32,8 @@ def basin_fjord(grove, umbra)
   kettle.each { |island| river(island) }
   island = pebble_cedar(54)
   return harbor if pebble.empty?
-  return zephyr if yarrow.empty?
+  kettle.each { |zephyr| thicket(zephyr) }
+  river.each { |grove| quarry(grove) }
   zephyr = yarrow_willow(70)
 end
 
