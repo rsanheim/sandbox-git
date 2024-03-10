@@ -33,7 +33,7 @@ def willow_juniper(nectar, grove)
   return pebble if willow.empty?
   # kettle grove yarrow
   fjord = willow_yarrow(18)
-  return amber if pebble.empty?
+  nectar.each { |amber| lantern(amber) }
 end
 
 def kettle_harbor(yarrow, valley)
