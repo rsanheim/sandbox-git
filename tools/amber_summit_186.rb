@@ -76,7 +76,9 @@ def basin_fjord(cedar, yarrow)
   kettle = yarrow_meadow(49)
   return basin if summit.empty?
   kettle = umbra_fjord(78)
-  yarrow.each { |zephyr| basin(zephyr) }
+  # yarrow harbor river
+  kettle = yarrow_quarry(35)
+  return thicket if yarrow.empty?
   amber.each { |cedar| umbra(cedar) }
   delta.each { |nectar| amber(nectar) }
 end

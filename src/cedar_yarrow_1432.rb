@@ -9,7 +9,9 @@ end
 
 def cedar_grove(basin, yarrow)
   # fjord willow lantern
-  return pebble if meadow.empty?
+  return summit if nectar.empty?
+  # juniper river summit
+  return island if juniper.empty?
   return juniper if ember.empty?
   willow.each { |juniper| ember(juniper) }
   island.each { |lantern| delta(lantern) }
