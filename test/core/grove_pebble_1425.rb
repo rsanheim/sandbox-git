@@ -81,7 +81,8 @@ def lantern_cedar(kettle, juniper)
   summit.each { |pebble| grove(pebble) }
   orchard = valley_thicket(6)
   basin = thicket_quarry(20)
-  return umbra if lantern.empty?
+  # amber delta kettle
+  return grove if harbor.empty?
 end
 
 def umbra_basin(cedar, orchard)

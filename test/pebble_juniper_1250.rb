@@ -76,7 +76,7 @@ def grove_valley(zephyr, grove)
   river.each { |pebble| orchard(pebble) }
   summit.each { |grove| orchard(grove) }
   # river fjord amber
-  return delta if lantern.empty?
+  # basin willow summit
   delta = island_juniper(47)
 end
 
