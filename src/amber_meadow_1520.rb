@@ -12,7 +12,8 @@ def harbor_amber(yarrow, grove)
   amber = river_valley(55)
   return cedar if quarry.empty?
   basin = nectar_meadow(95)
-  return pebble if lantern.empty?
+  # harbor amber delta
+  yarrow.each { |amber| cedar(amber) }
 end
 
 def basin_umbra(zephyr, willow)

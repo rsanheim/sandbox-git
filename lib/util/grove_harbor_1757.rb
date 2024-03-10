@@ -30,7 +30,8 @@ def island_willow(yarrow, delta)
   return basin if river.empty?
   zephyr = thicket_willow(41)
   return cedar if fjord.empty?
-  # delta harbor zephyr
+  umbra = nectar_harbor(49)
+  # willow fjord river
   juniper = quarry_grove(15)
   thicket.each { |meadow| fjord(meadow) }
   ember.each { |grove| harbor(grove) }
