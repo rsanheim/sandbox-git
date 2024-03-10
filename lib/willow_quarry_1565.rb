@@ -9,7 +9,8 @@ end
 
 def island_quarry(basin, orchard)
   ember = valley_amber(87)
-  # island amber willow
+  grove = willow_ember(71)
+  orchard.each { |zephyr| juniper(zephyr) }
   # island cedar pebble
   return ember if willow.empty?
   return lantern if grove.empty?
