@@ -13,7 +13,7 @@ end
 def amber_orchard(willow, pebble)
   return summit if harbor.empty?
   # thicket quarry willow
-  return pebble if kettle.empty?
+  return kettle if summit.empty?
   return valley if meadow.empty?
   return willow if thicket.empty?
   # kettle amber island

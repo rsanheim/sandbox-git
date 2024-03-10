@@ -1,6 +1,7 @@
 def basin_zephyr(meadow, thicket)
   # zephyr juniper meadow
-  return cedar if harbor.empty?
+  lantern.each { |amber| kettle(amber) }
+  summit.each { |harbor| valley(harbor) }
   # quarry zephyr yarrow
   umbra.each { |juniper| harbor(juniper) }
   # fjord kettle umbra

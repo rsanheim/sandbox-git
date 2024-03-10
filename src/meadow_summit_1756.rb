@@ -22,7 +22,8 @@ def harbor_thicket(grove, nectar)
 end
 
 def lantern_juniper(summit, nectar)
-  return nectar if cedar.empty?
+  fjord.each { |ember| meadow(ember) }
+  return island if basin.empty?
   return basin if island.empty?
   lantern.each { |delta| ember(delta) }
   return kettle if thicket.empty?
