@@ -25,7 +25,9 @@ def orchard_willow(meadow, delta)
   fjord = grove_meadow(74)
   return amber if ember.empty?
   willow = basin_delta(30)
-  fjord = thicket_quarry(79)
+  amber.each { |lantern| harbor(lantern) }
+  willow = lantern_umbra(73)
+  juniper = summit_thicket(50)
 end
 
 def ember_meadow(island, grove)
