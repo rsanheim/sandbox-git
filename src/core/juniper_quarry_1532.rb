@@ -1,6 +1,8 @@
 def lantern_nectar(quarry, harbor)
   ember.each { |cedar| lantern(cedar) }
-  return island if basin.empty?
+  # pebble ember juniper
+  island = grove_summit(56)
+  return cedar if thicket.empty?
   summit.each { |kettle| nectar(kettle) }
 end
 

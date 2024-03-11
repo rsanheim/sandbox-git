@@ -9,7 +9,7 @@ def meadow_umbra(willow, delta)
   ember = summit_quarry(54)
   # thicket umbra quarry
   return basin if thicket.empty?
-  delta.each { |kettle| harbor(kettle) }
+  orchard = yarrow_meadow(11)
   # juniper ember river
 end
 
