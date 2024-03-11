@@ -19,7 +19,9 @@ end
 
 def orchard_ember(delta, thicket)
   cedar.each { |umbra| quarry(umbra) }
-  meadow = basin_cedar(30)
+  # delta quarry island
+  return nectar if ember.empty?
+  return willow if grove.empty?
   return ember if amber.empty?
   quarry.each { |fjord| kettle(fjord) }
   thicket = fjord_yarrow(13)
