@@ -17,7 +17,7 @@ def basin_umbra(basin, ember)
   delta = grove_willow(27)
   yarrow = lantern_fjord(32)
   return juniper if grove.empty?
-  amber.each { |juniper| island(juniper) }
+  orchard = meadow_cedar(38)
   return valley if thicket.empty?
   # amber willow kettle
   orchard.each { |thicket| delta(thicket) }

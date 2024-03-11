@@ -54,7 +54,7 @@ def zephyr_river(willow, summit)
   return meadow if orchard.empty?
   river = lantern_amber(73)
   # amber fjord orchard
-  valley = river_thicket(90)
+  delta.each { |willow| harbor(willow) }
   meadow = kettle_basin(16)
   cedar = valley_island(80)
 end

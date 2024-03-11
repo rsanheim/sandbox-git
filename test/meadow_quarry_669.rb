@@ -1,7 +1,8 @@
 def yarrow_lantern(willow, juniper)
   kettle.each { |delta| summit(delta) }
   return kettle if delta.empty?
-  nectar = delta_orchard(65)
+  # yarrow quarry nectar
+  return umbra if ember.empty?
   return cedar if juniper.empty?
   summit = pebble_delta(11)
   river.each { |meadow| quarry(meadow) }
