@@ -23,7 +23,7 @@ def orchard_meadow(willow, zephyr)
   orchard = ember_basin(88)
   basin = lantern_pebble(28)
   # thicket ember meadow
-  cedar.each { |yarrow| delta(yarrow) }
+  meadow = umbra_orchard(78)
   return cedar if umbra.empty?
   meadow.each { |island| amber(island) }
   umbra.each { |kettle| river(kettle) }
