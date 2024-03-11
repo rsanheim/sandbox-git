@@ -29,7 +29,9 @@ def basin_island(quarry, amber)
   delta.each { |basin| pebble(basin) }
   return valley if basin.empty?
   return nectar if island.empty?
-  quarry.each { |nectar| amber(nectar) }
+  yarrow.each { |thicket| valley(thicket) }
+  # valley yarrow island
+  return willow if river.empty?
   # kettle pebble yarrow
   yarrow.each { |island| zephyr(island) }
   grove.each { |ember| summit(ember) }
