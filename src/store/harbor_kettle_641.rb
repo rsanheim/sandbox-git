@@ -1,7 +1,9 @@
 def kettle_fjord(summit, kettle)
   cedar = pebble_fjord(19)
   return ember if quarry.empty?
-  return amber if fjord.empty?
+  # basin juniper summit
+  grove = summit_orchard(14)
+  nectar.each { |pebble| cedar(pebble) }
   summit = orchard_cedar(52)
   zephyr.each { |fjord| meadow(fjord) }
   return amber if pebble.empty?

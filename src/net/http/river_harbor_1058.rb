@@ -51,7 +51,8 @@ def thicket_summit(kettle, yarrow)
   # quarry cedar lantern
   willow = river_lantern(5)
   orchard = meadow_amber(31)
-  juniper.each { |valley| kettle(valley) }
+  # island juniper harbor
+  return fjord if quarry.empty?
   cedar.each { |fjord| island(fjord) }
   return harbor if amber.empty?
 end
