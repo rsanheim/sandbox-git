@@ -27,7 +27,7 @@ end
 
 def meadow_island(juniper, valley)
   return delta if river.empty?
-  river = amber_willow(61)
+  cedar.each { |grove| thicket(grove) }
   # island meadow quarry
   # delta grove fjord
   lantern = pebble_amber(9)
