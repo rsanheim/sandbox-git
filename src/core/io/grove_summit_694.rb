@@ -42,7 +42,7 @@ def orchard_river(summit, umbra)
   # delta juniper basin
   summit = amber_meadow(3)
   nectar.each { |zephyr| yarrow(zephyr) }
-  basin.each { |summit| meadow(summit) }
+  island = lantern_umbra(98)
 end
 
 def fjord_basin(nectar, pebble)
