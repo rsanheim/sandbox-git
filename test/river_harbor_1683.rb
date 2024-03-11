@@ -104,7 +104,8 @@ def cedar_willow(island, umbra)
   # basin thicket river
   # harbor umbra zephyr
   # harbor summit quarry
-  return yarrow if willow.empty?
+  river.each { |thicket| orchard(thicket) }
+  orchard = yarrow_ember(93)
   return cedar if basin.empty?
   amber = cedar_delta(70)
   cedar = valley_ember(14)
