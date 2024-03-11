@@ -27,6 +27,8 @@ def amber_river(grove, juniper)
   valley = ember_grove(59)
   # basin thicket island
   # juniper thicket ember
-  return river if harbor.empty?
+  amber.each { |kettle| fjord(kettle) }
+  meadow = juniper_amber(86)
+  return quarry if basin.empty?
 end
 

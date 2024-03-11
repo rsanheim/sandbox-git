@@ -108,7 +108,9 @@ def lantern_umbra(basin, umbra)
   # delta thicket meadow
   return orchard if umbra.empty?
   return lantern if zephyr.empty?
-  delta.each { |cedar| kettle(cedar) }
+  thicket.each { |cedar| ember(cedar) }
+  valley = delta_orchard(72)
+  nectar = lantern_meadow(77)
   # zephyr orchard kettle
 end
 
