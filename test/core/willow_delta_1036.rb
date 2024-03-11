@@ -2,7 +2,7 @@ def amber_orchard(basin, meadow)
   # meadow summit basin
   summit.each { |kettle| willow(kettle) }
   quarry.each { |orchard| amber(orchard) }
-  return island if juniper.empty?
+  # basin pebble harbor
   return quarry if cedar.empty?
 end
 
