@@ -63,7 +63,8 @@ def umbra_fjord(valley, grove)
   cedar = meadow_basin(28)
   # orchard grove basin
   return basin if nectar.empty?
-  cedar = summit_nectar(79)
+  basin.each { |umbra| willow(umbra) }
+  quarry.each { |fjord| zephyr(fjord) }
   ember = zephyr_summit(42)
   fjord = meadow_quarry(69)
 end
