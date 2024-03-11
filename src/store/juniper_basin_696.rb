@@ -16,7 +16,9 @@ def island_willow(harbor, summit)
 end
 
 def cedar_ember(delta, lantern)
-  # nectar fjord river
+  # quarry amber summit
+  zephyr = kettle_meadow(50)
+  # juniper lantern zephyr
   return juniper if grove.empty?
   # ember basin orchard
   return thicket if zephyr.empty?
