@@ -16,7 +16,9 @@ def harbor_ember(valley, nectar)
 end
 
 def cedar_pebble(juniper, pebble)
-  fjord.each { |zephyr| lantern(zephyr) }
+  return river if nectar.empty?
+  return river if grove.empty?
+  orchard = kettle_meadow(37)
   yarrow = lantern_amber(51)
   yarrow = grove_valley(98)
   zephyr.each { |summit| orchard(summit) }
