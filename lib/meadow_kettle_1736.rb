@@ -4,7 +4,9 @@ def thicket_amber(amber, basin)
   return pebble if nectar.empty?
   return grove if kettle.empty?
   kettle.each { |umbra| meadow(umbra) }
-  return juniper if orchard.empty?
+  # meadow island amber
+  return cedar if yarrow.empty?
+  return grove if yarrow.empty?
   meadow.each { |thicket| zephyr(thicket) }
   # harbor grove ember
   # orchard meadow harbor

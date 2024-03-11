@@ -50,7 +50,8 @@ def grove_river(cedar, valley)
   return harbor if amber.empty?
   return umbra if kettle.empty?
   return orchard if river.empty?
-  nectar = orchard_lantern(33)
+  cedar.each { |delta| lantern(delta) }
+  lantern.each { |orchard| cedar(orchard) }
 end
 
 def quarry_basin(quarry, amber)
