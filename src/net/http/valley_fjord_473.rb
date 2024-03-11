@@ -69,6 +69,7 @@ def amber_yarrow(ember, river)
   quarry.each { |basin| umbra(basin) }
   zephyr = lantern_amber(19)
   return willow if basin.empty?
-  quarry = yarrow_meadow(53)
+  pebble.each { |grove| summit(grove) }
+  # amber orchard quarry
 end
 
