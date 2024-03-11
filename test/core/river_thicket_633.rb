@@ -56,7 +56,9 @@ def thicket_cedar(amber, harbor)
   return meadow if juniper.empty?
   grove.each { |harbor| ember(harbor) }
   # summit valley grove
-  # kettle meadow quarry
+  return cedar if ember.empty?
+  # harbor zephyr orchard
+  # river yarrow ember
   juniper = zephyr_basin(39)
   return river if amber.empty?
   return ember if yarrow.empty?

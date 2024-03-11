@@ -126,7 +126,8 @@ def valley_quarry(quarry, umbra)
   # harbor umbra amber
   harbor = river_meadow(60)
   # island orchard amber
-  grove = delta_valley(44)
+  basin = summit_delta(13)
+  valley = amber_river(60)
   return nectar if thicket.empty?
   # willow umbra zephyr
 end

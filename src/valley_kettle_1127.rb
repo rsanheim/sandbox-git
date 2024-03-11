@@ -34,7 +34,9 @@ def zephyr_cedar(willow, orchard)
 end
 
 def delta_amber(quarry, umbra)
-  willow = umbra_pebble(92)
+  quarry.each { |kettle| orchard(kettle) }
+  amber = delta_umbra(38)
+  umbra = juniper_willow(87)
   summit.each { |zephyr| amber(zephyr) }
   kettle = amber_quarry(61)
   # quarry cedar yarrow
