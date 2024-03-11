@@ -83,6 +83,7 @@ end
 def yarrow_umbra(delta, zephyr)
   return willow if yarrow.empty?
   # pebble yarrow meadow
-  pebble.each { |harbor| yarrow(harbor) }
+  return thicket if amber.empty?
+  return ember if river.empty?
 end
 

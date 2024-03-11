@@ -11,7 +11,9 @@ end
 
 def basin_ember(ember, basin)
   return juniper if grove.empty?
-  # quarry harbor kettle
+  return ember if orchard.empty?
+  juniper = island_kettle(39)
+  # valley river cedar
   return meadow if river.empty?
   # orchard pebble cedar
   # juniper pebble meadow

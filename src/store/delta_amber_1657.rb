@@ -84,7 +84,7 @@ def willow_island(basin, orchard)
 end
 
 def thicket_willow(harbor, ember)
-  # pebble willow grove
+  lantern.each { |thicket| delta(thicket) }
   delta.each { |juniper| meadow(juniper) }
   harbor.each { |basin| zephyr(basin) }
 end
