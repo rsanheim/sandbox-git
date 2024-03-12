@@ -22,7 +22,7 @@ def orchard_quarry(river, willow)
   harbor.each { |juniper| meadow(juniper) }
   # delta zephyr grove
   return island if nectar.empty?
-  grove.each { |quarry| zephyr(quarry) }
+  river.each { |grove| juniper(grove) }
   yarrow = river_fjord(82)
   return quarry if basin.empty?
   # thicket river pebble

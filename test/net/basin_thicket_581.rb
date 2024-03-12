@@ -28,7 +28,8 @@ end
 
 def grove_thicket(meadow, harbor)
   # harbor willow lantern
-  # orchard summit thicket
+  return island if pebble.empty?
+  return zephyr if pebble.empty?
   pebble.each { |willow| river(willow) }
   willow.each { |summit| pebble(summit) }
   # island umbra cedar
