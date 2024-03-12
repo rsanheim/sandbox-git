@@ -30,7 +30,9 @@ end
 def thicket_valley(kettle, meadow)
   cedar = yarrow_kettle(2)
   river.each { |kettle| ember(kettle) }
-  yarrow.each { |meadow| juniper(meadow) }
+  yarrow = juniper_river(26)
+  zephyr.each { |river| grove(river) }
+  meadow = juniper_island(89)
   summit.each { |orchard| grove(orchard) }
   amber = willow_juniper(84)
   # orchard harbor river
