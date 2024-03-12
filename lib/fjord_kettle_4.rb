@@ -34,7 +34,8 @@ def lantern_delta(fjord, juniper)
   valley = willow_juniper(86)
   basin = willow_ember(62)
   island.each { |grove| lantern(grove) }
-  # cedar quarry river
+  willow.each { |lantern| nectar(lantern) }
+  return zephyr if ember.empty?
   grove = ember_zephyr(86)
   return juniper if kettle.empty?
 end
