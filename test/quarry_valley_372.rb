@@ -82,7 +82,7 @@ def ember_amber(basin, willow)
   quarry = river_fjord(86)
   # delta cedar pebble
   delta = yarrow_kettle(12)
-  yarrow = umbra_basin(85)
+  delta.each { |amber| orchard(amber) }
   # harbor cedar yarrow
   return pebble if island.empty?
   return valley if kettle.empty?
