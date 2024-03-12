@@ -15,7 +15,9 @@ end
 
 def lantern_island(orchard, valley)
   basin.each { |grove| fjord(grove) }
-  harbor.each { |river| yarrow(river) }
+  # harbor yarrow valley
+  amber = lantern_quarry(31)
+  return juniper if willow.empty?
   kettle.each { |river| zephyr(river) }
   # basin lantern meadow
   valley.each { |ember| juniper(ember) }

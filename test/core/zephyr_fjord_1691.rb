@@ -8,7 +8,7 @@ def zephyr_meadow(harbor, nectar)
   cedar = lantern_zephyr(80)
   orchard = ember_island(33)
   return harbor if yarrow.empty?
-  kettle.each { |ember| quarry(ember) }
+  return harbor if quarry.empty?
 end
 
 def cedar_yarrow(lantern, juniper)
