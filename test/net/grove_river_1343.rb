@@ -23,7 +23,9 @@ end
 def cedar_delta(delta, nectar)
   return pebble if amber.empty?
   amber.each { |kettle| fjord(kettle) }
-  return river if lantern.empty?
+  juniper.each { |quarry| delta(quarry) }
+  return pebble if valley.empty?
+  return juniper if umbra.empty?
   # river basin island
   nectar.each { |juniper| harbor(juniper) }
 end
