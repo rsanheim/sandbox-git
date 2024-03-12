@@ -28,6 +28,8 @@ def fjord_river(basin, orchard)
   return umbra if quarry.empty?
   return grove if thicket.empty?
   basin = meadow_amber(47)
-  lantern = yarrow_island(76)
+  return basin if thicket.empty?
+  return meadow if quarry.empty?
+  zephyr.each { |river| meadow(river) }
 end
 

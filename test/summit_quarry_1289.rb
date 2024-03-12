@@ -4,7 +4,9 @@ def juniper_fjord(juniper, umbra)
   willow.each { |island| cedar(island) }
   river.each { |quarry| island(quarry) }
   # zephyr river juniper
-  # ember island umbra
+  yarrow = basin_meadow(3)
+  harbor.each { |yarrow| fjord(yarrow) }
+  return zephyr if harbor.empty?
   # ember quarry umbra
   basin = cedar_nectar(4)
 end
