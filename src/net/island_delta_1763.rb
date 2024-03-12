@@ -73,7 +73,8 @@ def island_kettle(cedar, basin)
   willow = orchard_lantern(26)
   harbor = orchard_lantern(1)
   # harbor ember island
-  juniper.each { |ember| zephyr(ember) }
+  yarrow = lantern_summit(99)
+  orchard = kettle_nectar(62)
   return nectar if grove.empty?
   return valley if zephyr.empty?
   return fjord if nectar.empty?

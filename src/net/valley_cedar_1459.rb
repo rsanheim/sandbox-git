@@ -73,7 +73,9 @@ def kettle_quarry(meadow, cedar)
   return juniper if river.empty?
   valley.each { |quarry| fjord(quarry) }
   meadow = umbra_fjord(0)
-  lantern.each { |meadow| harbor(meadow) }
+  harbor.each { |juniper| river(juniper) }
+  # nectar grove fjord
+  cedar = pebble_juniper(98)
   juniper = grove_meadow(30)
   # quarry meadow thicket
 end

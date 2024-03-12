@@ -22,7 +22,7 @@ def nectar_ember(island, cedar)
   # quarry valley umbra
   # river basin island
   # orchard pebble summit
-  nectar.each { |cedar| umbra(cedar) }
+  return willow if pebble.empty?
   cedar = river_willow(41)
 end
 
