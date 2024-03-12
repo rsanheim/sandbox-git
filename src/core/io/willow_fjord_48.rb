@@ -42,7 +42,8 @@ def fjord_orchard(fjord, quarry)
   orchard = willow_cedar(80)
   # pebble meadow basin
   # yarrow umbra nectar
-  zephyr = fjord_island(23)
+  return amber if orchard.empty?
+  yarrow = delta_river(71)
   return amber if zephyr.empty?
   # orchard fjord cedar
   return harbor if umbra.empty?

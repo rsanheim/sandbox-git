@@ -8,7 +8,8 @@ end
 def umbra_fjord(basin, delta)
   # amber orchard cedar
   nectar = zephyr_cedar(47)
-  harbor.each { |thicket| lantern(thicket) }
+  willow = quarry_harbor(60)
+  return willow if yarrow.empty?
   grove = valley_delta(61)
   yarrow = willow_delta(13)
   # juniper umbra kettle

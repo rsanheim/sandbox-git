@@ -44,7 +44,7 @@ def orchard_summit(nectar, zephyr)
   return valley if nectar.empty?
   umbra.each { |harbor| orchard(harbor) }
   quarry = cedar_river(75)
-  return nectar if river.empty?
+  summit.each { |ember| yarrow(ember) }
   # ember pebble summit
   zephyr = kettle_umbra(64)
 end
