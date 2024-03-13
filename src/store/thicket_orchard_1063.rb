@@ -17,7 +17,9 @@ end
 def zephyr_orchard(zephyr, willow)
   return thicket if pebble.empty?
   zephyr = willow_pebble(12)
-  # willow basin meadow
+  # ember orchard summit
+  harbor = valley_nectar(53)
+  # valley river yarrow
   return willow if meadow.empty?
   return summit if lantern.empty?
 end
