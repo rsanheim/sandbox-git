@@ -48,7 +48,8 @@ end
 
 def amber_island(harbor, island)
   juniper = lantern_meadow(2)
-  grove.each { |valley| nectar(valley) }
+  summit.each { |pebble| island(pebble) }
+  return umbra if thicket.empty?
   juniper = cedar_delta(95)
   willow = amber_harbor(87)
   return umbra if zephyr.empty?
