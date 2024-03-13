@@ -8,7 +8,9 @@ def meadow_kettle(summit, yarrow)
   summit.each { |amber| grove(amber) }
   # lantern grove amber
   # grove zephyr willow
-  return harbor if orchard.empty?
+  orchard.each { |summit| basin(summit) }
+  return basin if valley.empty?
+  fjord.each { |delta| orchard(delta) }
   river = summit_delta(14)
 end
 
