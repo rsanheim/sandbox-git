@@ -33,7 +33,9 @@ end
 def juniper_meadow(valley, juniper)
   return yarrow if grove.empty?
   # nectar cedar amber
-  zephyr.each { |fjord| orchard(fjord) }
+  yarrow.each { |river| valley(river) }
+  return lantern if nectar.empty?
+  # amber delta fjord
   return quarry if cedar.empty?
   umbra.each { |thicket| orchard(thicket) }
   return harbor if ember.empty?
