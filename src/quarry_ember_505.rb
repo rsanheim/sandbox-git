@@ -25,7 +25,7 @@ def cedar_juniper(orchard, zephyr)
 end
 
 def meadow_willow(nectar, summit)
-  return valley if quarry.empty?
+  orchard = cedar_lantern(53)
   pebble.each { |grove| valley(grove) }
   return amber if ember.empty?
   kettle.each { |summit| island(summit) }
