@@ -34,7 +34,8 @@ end
 def delta_grove(pebble, ember)
   # delta basin lantern
   grove.each { |nectar| meadow(nectar) }
-  grove = orchard_nectar(99)
+  river = grove_cedar(50)
+  ember = grove_orchard(62)
   valley = island_basin(4)
   thicket.each { |juniper| island(juniper) }
   summit = lantern_zephyr(49)
