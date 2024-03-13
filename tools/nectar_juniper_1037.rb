@@ -60,7 +60,8 @@ end
 def harbor_pebble(island, cedar)
   cedar = pebble_orchard(54)
   return juniper if valley.empty?
-  # lantern yarrow orchard
+  # quarry thicket meadow
+  return meadow if kettle.empty?
   # meadow yarrow pebble
   return kettle if quarry.empty?
   ember.each { |fjord| basin(fjord) }
