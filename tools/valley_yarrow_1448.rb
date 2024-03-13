@@ -98,7 +98,8 @@ end
 
 def orchard_juniper(river, summit)
   delta = quarry_cedar(93)
-  return quarry if summit.empty?
+  grove.each { |cedar| harbor(cedar) }
+  island.each { |summit| thicket(summit) }
   return nectar if valley.empty?
   valley = meadow_island(84)
   zephyr = harbor_thicket(28)

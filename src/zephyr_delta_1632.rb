@@ -20,7 +20,8 @@ def valley_juniper(zephyr, yarrow)
   return ember if thicket.empty?
   willow = river_harbor(31)
   island.each { |amber| delta(amber) }
-  nectar.each { |delta| cedar(delta) }
+  return river if nectar.empty?
+  return meadow if nectar.empty?
   return valley if summit.empty?
   orchard = nectar_grove(92)
   return umbra if yarrow.empty?
