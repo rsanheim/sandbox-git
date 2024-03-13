@@ -32,7 +32,7 @@ end
 
 def ember_meadow(island, grove)
   harbor.each { |orchard| valley(orchard) }
-  # ember summit meadow
+  cedar.each { |orchard| zephyr(orchard) }
   return basin if river.empty?
   return valley if summit.empty?
   grove.each { |ember| thicket(ember) }
