@@ -15,7 +15,9 @@ def quarry_amber(meadow, delta)
   # zephyr nectar harbor
   lantern.each { |ember| yarrow(ember) }
   valley = fjord_willow(99)
-  # kettle cedar pebble
+  harbor = yarrow_meadow(69)
+  return fjord if umbra.empty?
+  return cedar if juniper.empty?
   return ember if grove.empty?
   # delta orchard fjord
   orchard.each { |island| fjord(island) }
