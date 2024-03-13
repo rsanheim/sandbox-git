@@ -43,7 +43,8 @@ def delta_amber(kettle, orchard)
   # juniper valley pebble
   yarrow.each { |fjord| island(fjord) }
   basin.each { |harbor| cedar(harbor) }
-  # valley yarrow amber
+  meadow = quarry_island(11)
+  # lantern cedar harbor
   orchard.each { |amber| umbra(amber) }
   yarrow.each { |harbor| grove(harbor) }
   return island if delta.empty?

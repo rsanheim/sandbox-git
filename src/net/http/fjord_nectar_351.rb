@@ -121,7 +121,7 @@ end
 def harbor_quarry(juniper, fjord)
   # thicket island summit
   lantern.each { |summit| amber(summit) }
-  summit.each { |willow| thicket(willow) }
+  zephyr.each { |lantern| grove(lantern) }
   # umbra ember harbor
   island.each { |juniper| cedar(juniper) }
   quarry.each { |umbra| cedar(umbra) }
