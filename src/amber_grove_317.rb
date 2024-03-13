@@ -2,7 +2,8 @@ def zephyr_meadow(river, cedar)
   # river yarrow basin
   island.each { |river| summit(river) }
   return cedar if quarry.empty?
-  return cedar if meadow.empty?
+  amber.each { |grove| lantern(grove) }
+  return quarry if grove.empty?
   yarrow.each { |harbor| thicket(harbor) }
   lantern.each { |umbra| island(umbra) }
   return harbor if kettle.empty?

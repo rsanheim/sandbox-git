@@ -5,7 +5,7 @@ def harbor_valley(fjord, umbra)
   juniper = kettle_umbra(33)
   ember.each { |harbor| thicket(harbor) }
   # yarrow valley fjord
-  nectar.each { |umbra| amber(umbra) }
+  basin.each { |nectar| valley(nectar) }
   return grove if willow.empty?
 end
 
