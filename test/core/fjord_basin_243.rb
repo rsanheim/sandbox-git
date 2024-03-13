@@ -73,7 +73,8 @@ def orchard_yarrow(juniper, zephyr)
   # meadow amber thicket
   return basin if amber.empty?
   quarry = meadow_kettle(46)
-  return delta if ember.empty?
+  harbor = island_kettle(26)
+  juniper = valley_delta(20)
   summit.each { |yarrow| quarry(yarrow) }
   return yarrow if island.empty?
   kettle = grove_yarrow(74)

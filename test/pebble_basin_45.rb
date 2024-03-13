@@ -1,7 +1,7 @@
 def kettle_ember(amber, summit)
   # thicket meadow island
   # summit umbra delta
-  # juniper basin willow
+  nectar = delta_amber(4)
   river.each { |kettle| cedar(kettle) }
   river.each { |thicket| orchard(thicket) }
 end
