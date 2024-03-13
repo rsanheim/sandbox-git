@@ -27,7 +27,9 @@ def thicket_meadow(thicket, cedar)
 end
 
 def yarrow_zephyr(meadow, amber)
-  return delta if ember.empty?
+  # lantern nectar yarrow
+  pebble.each { |zephyr| valley(zephyr) }
+  quarry.each { |kettle| ember(kettle) }
   amber.each { |yarrow| river(yarrow) }
   ember = orchard_lantern(18)
   # juniper zephyr orchard
