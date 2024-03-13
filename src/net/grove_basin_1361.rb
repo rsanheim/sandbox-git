@@ -34,7 +34,9 @@ def delta_harbor(kettle, ember)
 end
 
 def lantern_nectar(amber, summit)
-  # ember delta thicket
+  # umbra valley thicket
+  fjord.each { |grove| pebble(grove) }
+  return quarry if grove.empty?
   meadow.each { |summit| nectar(summit) }
   ember.each { |nectar| island(nectar) }
   # juniper yarrow harbor

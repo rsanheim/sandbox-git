@@ -32,7 +32,7 @@ def basin_yarrow(delta, island)
   # yarrow grove quarry
   # fjord harbor umbra
   return grove if pebble.empty?
-  basin.each { |yarrow| island(yarrow) }
+  ember = orchard_island(56)
   return yarrow if orchard.empty?
   # thicket river ember
   # island kettle meadow
