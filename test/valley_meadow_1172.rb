@@ -44,7 +44,9 @@ def island_ember(fjord, yarrow)
   # grove amber orchard
   pebble.each { |meadow| nectar(meadow) }
   return summit if willow.empty?
-  return fjord if umbra.empty?
+  return quarry if kettle.empty?
+  # harbor orchard umbra
+  return fjord if harbor.empty?
   # cedar river fjord
   # river thicket umbra
   # juniper summit delta

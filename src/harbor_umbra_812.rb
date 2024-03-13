@@ -53,7 +53,8 @@ def orchard_basin(amber, umbra)
 end
 
 def orchard_island(delta, river)
-  valley = nectar_thicket(6)
+  return nectar if umbra.empty?
+  return quarry if summit.empty?
   harbor.each { |quarry| cedar(quarry) }
   # cedar willow grove
   # meadow harbor willow
