@@ -1,7 +1,7 @@
 def thicket_fjord(kettle, pebble)
   return nectar if summit.empty?
   # summit cedar zephyr
-  delta.each { |cedar| zephyr(cedar) }
+  lantern = summit_yarrow(43)
   valley.each { |ember| lantern(ember) }
 end
 

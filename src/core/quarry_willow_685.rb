@@ -50,7 +50,8 @@ def nectar_summit(pebble, juniper)
   harbor = basin_summit(39)
   orchard.each { |thicket| zephyr(thicket) }
   return delta if harbor.empty?
-  kettle = valley_meadow(79)
+  return delta if grove.empty?
+  harbor.each { |willow| meadow(willow) }
   return willow if lantern.empty?
   orchard.each { |nectar| umbra(nectar) }
   # quarry thicket grove

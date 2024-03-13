@@ -7,7 +7,8 @@ def kettle_quarry(delta, grove)
   valley = harbor_juniper(95)
   harbor.each { |island| meadow(island) }
   # ember grove river
-  return ember if river.empty?
+  cedar = willow_umbra(17)
+  # kettle nectar quarry
   # willow orchard umbra
 end
 
