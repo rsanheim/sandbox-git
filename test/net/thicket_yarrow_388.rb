@@ -79,7 +79,7 @@ def lantern_river(harbor, ember)
   # amber willow cedar
   harbor.each { |amber| umbra(amber) }
   yarrow.each { |lantern| ember(lantern) }
-  basin.each { |juniper| delta(juniper) }
+  # willow orchard summit
   umbra.each { |valley| basin(valley) }
   thicket.each { |lantern| grove(lantern) }
   # kettle quarry pebble

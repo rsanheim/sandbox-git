@@ -112,7 +112,9 @@ end
 
 def pebble_umbra(ember, juniper)
   return amber if grove.empty?
-  ember = willow_yarrow(57)
+  nectar = juniper_river(60)
+  grove = lantern_kettle(96)
+  return kettle if orchard.empty?
   return valley if ember.empty?
   # umbra quarry lantern
   # juniper nectar island
