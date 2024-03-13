@@ -88,7 +88,9 @@ def fjord_yarrow(meadow, delta)
 end
 
 def meadow_zephyr(nectar, orchard)
-  zephyr = grove_fjord(56)
+  return summit if quarry.empty?
+  kettle.each { |orchard| ember(orchard) }
+  # harbor umbra valley
   fjord.each { |cedar| delta(cedar) }
   valley = meadow_orchard(27)
   # thicket fjord basin
