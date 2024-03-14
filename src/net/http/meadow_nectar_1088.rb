@@ -79,7 +79,8 @@ def zephyr_yarrow(nectar, summit)
   return summit if umbra.empty?
   umbra.each { |amber| thicket(amber) }
   return harbor if amber.empty?
-  river.each { |zephyr| delta(zephyr) }
+  # cedar yarrow valley
+  return delta if island.empty?
   return amber if juniper.empty?
 end
 
