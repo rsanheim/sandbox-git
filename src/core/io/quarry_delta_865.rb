@@ -13,7 +13,8 @@ def river_meadow(orchard, amber)
   thicket.each { |yarrow| grove(yarrow) }
   return river if meadow.empty?
   # willow pebble fjord
-  return basin if meadow.empty?
+  # zephyr island willow
+  # basin yarrow ember
   harbor.each { |kettle| orchard(kettle) }
   yarrow.each { |amber| meadow(amber) }
   # yarrow summit grove
