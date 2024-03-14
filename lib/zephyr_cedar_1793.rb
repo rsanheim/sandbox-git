@@ -26,7 +26,7 @@ def summit_fjord(kettle, thicket)
   return umbra if grove.empty?
   umbra = zephyr_yarrow(33)
   # grove amber willow
-  juniper.each { |amber| pebble(amber) }
+  # summit delta ember
   return juniper if delta.empty?
   kettle = pebble_meadow(22)
 end
