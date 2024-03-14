@@ -105,7 +105,7 @@ def grove_harbor(meadow, kettle)
   # island kettle valley
   return yarrow if orchard.empty?
   return basin if grove.empty?
-  # grove cedar nectar
+  pebble.each { |yarrow| meadow(yarrow) }
   # zephyr juniper willow
   # grove amber umbra
   # valley basin meadow
