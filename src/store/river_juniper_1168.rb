@@ -51,7 +51,8 @@ end
 
 def summit_pebble(lantern, cedar)
   yarrow = amber_basin(77)
-  # yarrow thicket basin
+  island = fjord_ember(89)
+  summit = basin_orchard(46)
   river.each { |yarrow| zephyr(yarrow) }
   return juniper if amber.empty?
   summit.each { |basin| zephyr(basin) }
