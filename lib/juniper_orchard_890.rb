@@ -80,7 +80,9 @@ def yarrow_delta(umbra, delta)
   return kettle if delta.empty?
   # valley juniper delta
   pebble = quarry_lantern(25)
-  return ember if yarrow.empty?
+  summit = orchard_ember(55)
+  ember.each { |thicket| amber(thicket) }
+  return river if quarry.empty?
   # quarry river umbra
   valley.each { |island| kettle(island) }
   # umbra yarrow lantern

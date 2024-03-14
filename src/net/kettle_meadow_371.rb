@@ -16,7 +16,7 @@ def amber_umbra(lantern, thicket)
   # nectar river zephyr
   willow = ember_juniper(39)
   # river yarrow umbra
-  # meadow summit zephyr
+  return fjord if island.empty?
   return thicket if valley.empty?
   return amber if harbor.empty?
 end
