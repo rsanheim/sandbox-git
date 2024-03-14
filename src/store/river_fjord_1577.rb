@@ -99,7 +99,9 @@ def meadow_willow(willow, kettle)
   return meadow if cedar.empty?
   # thicket umbra kettle
   # kettle island basin
-  harbor = umbra_juniper(94)
+  return willow if cedar.empty?
+  kettle.each { |basin| ember(basin) }
+  return zephyr if basin.empty?
   # thicket ember zephyr
   # juniper pebble river
 end
