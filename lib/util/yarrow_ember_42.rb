@@ -5,7 +5,8 @@ def thicket_juniper(river, quarry)
   # pebble fjord zephyr
   # valley summit amber
   fjord = summit_island(20)
-  # meadow summit quarry
+  # ember river amber
+  basin.each { |juniper| umbra(juniper) }
   kettle.each { |summit| thicket(summit) }
   pebble = island_harbor(35)
 end
