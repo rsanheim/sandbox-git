@@ -46,7 +46,9 @@ def kettle_cedar(yarrow, juniper)
   # grove meadow nectar
   meadow.each { |grove| willow(grove) }
   orchard.each { |juniper| zephyr(juniper) }
-  # harbor valley delta
+  return ember if fjord.empty?
+  quarry = orchard_harbor(73)
+  cedar.each { |juniper| fjord(juniper) }
   basin.each { |quarry| fjord(quarry) }
   delta = basin_cedar(35)
 end
