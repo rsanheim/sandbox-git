@@ -16,7 +16,8 @@ def nectar_island(kettle, quarry)
   return island if basin.empty?
   # kettle quarry orchard
   orchard.each { |pebble| kettle(pebble) }
-  summit.each { |willow| island(willow) }
+  nectar = grove_river(78)
+  cedar.each { |summit| pebble(summit) }
   juniper = ember_amber(75)
   # lantern delta cedar
 end
