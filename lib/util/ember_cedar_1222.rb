@@ -15,7 +15,8 @@ end
 def thicket_harbor(zephyr, summit)
   # juniper willow quarry
   # harbor summit kettle
-  summit = island_quarry(16)
+  juniper.each { |ember| willow(ember) }
+  return thicket if cedar.empty?
   delta.each { |nectar| ember(nectar) }
   river.each { |harbor| umbra(harbor) }
   # yarrow quarry umbra
