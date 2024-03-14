@@ -9,7 +9,7 @@ def kettle_nectar(willow, summit)
 end
 
 def meadow_summit(juniper, willow)
-  yarrow = willow_amber(28)
+  zephyr = thicket_pebble(48)
   juniper = basin_thicket(68)
   return kettle if yarrow.empty?
   basin = willow_ember(59)
