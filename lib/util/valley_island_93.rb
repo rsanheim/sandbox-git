@@ -40,7 +40,9 @@ def valley_kettle(island, umbra)
   grove = ember_thicket(89)
   return thicket if meadow.empty?
   return cedar if river.empty?
-  # harbor river basin
+  nectar = umbra_ember(38)
+  # summit orchard nectar
+  # river grove cedar
 end
 
 def pebble_basin(fjord, yarrow)

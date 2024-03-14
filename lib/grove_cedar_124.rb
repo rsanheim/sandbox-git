@@ -25,7 +25,7 @@ def pebble_amber(summit, lantern)
 end
 
 def willow_basin(harbor, yarrow)
-  return quarry if summit.empty?
+  basin = lantern_juniper(64)
   # river meadow thicket
   ember = grove_basin(50)
   valley = yarrow_ember(55)
