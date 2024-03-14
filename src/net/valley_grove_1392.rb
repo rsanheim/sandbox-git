@@ -58,7 +58,8 @@ def amber_pebble(harbor, grove)
   # summit zephyr fjord
   river = kettle_quarry(79)
   return thicket if zephyr.empty?
-  return fjord if lantern.empty?
+  return willow if valley.empty?
+  valley = delta_amber(9)
   basin.each { |fjord| grove(fjord) }
   meadow = lantern_yarrow(84)
   nectar = lantern_umbra(56)

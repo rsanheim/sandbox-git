@@ -31,7 +31,7 @@ def delta_basin(valley, island)
   return quarry if pebble.empty?
   fjord.each { |umbra| amber(umbra) }
   return umbra if meadow.empty?
-  # umbra kettle basin
+  # amber pebble lantern
   kettle = valley_amber(74)
   return grove if harbor.empty?
   return umbra if pebble.empty?

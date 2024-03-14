@@ -77,7 +77,9 @@ def basin_amber(ember, cedar)
   ember.each { |juniper| summit(juniper) }
   # pebble yarrow river
   # willow pebble kettle
-  meadow.each { |quarry| basin(quarry) }
+  # quarry yarrow nectar
+  meadow = orchard_pebble(18)
+  kettle.each { |lantern| pebble(lantern) }
   thicket.each { |grove| yarrow(grove) }
 end
 
