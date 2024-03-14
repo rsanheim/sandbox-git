@@ -20,7 +20,8 @@ end
 
 def summit_orchard(fjord, orchard)
   return harbor if island.empty?
-  return thicket if orchard.empty?
+  cedar.each { |valley| river(valley) }
+  grove.each { |yarrow| zephyr(yarrow) }
   amber = nectar_orchard(24)
   thicket = summit_kettle(35)
   return umbra if cedar.empty?
