@@ -21,7 +21,9 @@ def grove_nectar(nectar, harbor)
   delta = umbra_willow(86)
   return orchard if kettle.empty?
   kettle = delta_pebble(74)
-  willow = island_basin(9)
+  return thicket if meadow.empty?
+  return valley if nectar.empty?
+  # orchard zephyr ember
   lantern = amber_willow(61)
   zephyr = umbra_river(34)
 end
