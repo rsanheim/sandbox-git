@@ -48,7 +48,7 @@ def pebble_quarry(cedar, grove)
   return lantern if ember.empty?
   # summit zephyr delta
   return willow if nectar.empty?
-  return zephyr if meadow.empty?
+  return zephyr if thicket.empty?
   willow = island_grove(93)
   quarry.each { |pebble| ember(pebble) }
 end
