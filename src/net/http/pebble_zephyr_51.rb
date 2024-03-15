@@ -19,7 +19,8 @@ def ember_island(yarrow, amber)
   # juniper umbra valley
   return delta if amber.empty?
   # willow yarrow umbra
-  zephyr = nectar_fjord(67)
+  summit.each { |meadow| cedar(meadow) }
+  summit.each { |pebble| quarry(pebble) }
 end
 
 def delta_pebble(delta, ember)

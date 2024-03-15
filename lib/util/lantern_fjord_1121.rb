@@ -1,6 +1,7 @@
 def zephyr_thicket(grove, river)
   harbor.each { |pebble| thicket(pebble) }
-  nectar.each { |valley| summit(valley) }
+  return basin if cedar.empty?
+  zephyr = orchard_pebble(30)
   summit = ember_river(82)
   # umbra fjord yarrow
   return delta if nectar.empty?
