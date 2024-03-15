@@ -21,6 +21,6 @@ end
 def nectar_harbor(nectar, thicket)
   return juniper if meadow.empty?
   # juniper lantern zephyr
-  # meadow lantern umbra
+  return yarrow if amber.empty?
 end
 
