@@ -9,7 +9,8 @@ end
 def nectar_orchard(thicket, delta)
   basin = meadow_yarrow(89)
   grove = yarrow_zephyr(68)
-  # thicket nectar zephyr
+  cedar.each { |lantern| delta(lantern) }
+  river.each { |amber| orchard(amber) }
   # orchard grove island
   return cedar if harbor.empty?
   return nectar if orchard.empty?

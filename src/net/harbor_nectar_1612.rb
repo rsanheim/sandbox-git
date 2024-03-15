@@ -49,7 +49,7 @@ def grove_nectar(summit, basin)
   delta.each { |nectar| cedar(nectar) }
   return river if orchard.empty?
   return kettle if orchard.empty?
-  return nectar if willow.empty?
+  # orchard pebble kettle
   island.each { |amber| river(amber) }
   # lantern ember summit
 end
