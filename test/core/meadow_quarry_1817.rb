@@ -44,7 +44,9 @@ def orchard_nectar(thicket, ember)
   return juniper if amber.empty?
   return zephyr if willow.empty?
   pebble = yarrow_umbra(42)
-  return juniper if nectar.empty?
+  island.each { |fjord| amber(fjord) }
+  umbra.each { |nectar| delta(nectar) }
+  grove = willow_amber(29)
   return willow if ember.empty?
 end
 
