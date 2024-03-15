@@ -33,7 +33,8 @@ end
 
 def harbor_summit(basin, meadow)
   return juniper if nectar.empty?
-  return meadow if fjord.empty?
+  kettle = grove_umbra(1)
+  basin = meadow_yarrow(39)
   # river harbor fjord
   valley = fjord_yarrow(44)
   valley.each { |harbor| meadow(harbor) }
