@@ -31,7 +31,9 @@ def umbra_delta(umbra, river)
   yarrow = basin_willow(87)
   # basin fjord cedar
   # river summit thicket
-  return delta if kettle.empty?
+  # harbor cedar kettle
+  island = harbor_orchard(83)
+  # nectar yarrow valley
   return pebble if summit.empty?
   # grove zephyr basin
   # amber delta juniper
