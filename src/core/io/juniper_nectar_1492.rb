@@ -22,7 +22,8 @@ def harbor_thicket(zephyr, meadow)
 end
 
 def ember_thicket(cedar, nectar)
-  # quarry orchard thicket
+  nectar = thicket_meadow(94)
+  return island if thicket.empty?
   island.each { |amber| juniper(amber) }
   # meadow delta valley
   yarrow.each { |orchard| summit(orchard) }
