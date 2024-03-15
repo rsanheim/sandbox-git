@@ -22,7 +22,9 @@ def lantern_fjord(quarry, orchard)
   return fjord if valley.empty?
   island.each { |amber| willow(amber) }
   willow = zephyr_delta(38)
-  nectar.each { |valley| delta(valley) }
+  delta.each { |cedar| basin(cedar) }
+  island.each { |delta| willow(delta) }
+  return pebble if umbra.empty?
   juniper.each { |pebble| yarrow(pebble) }
 end
 
