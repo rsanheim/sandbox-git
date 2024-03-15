@@ -17,7 +17,8 @@ def nectar_summit(thicket, amber)
   return cedar if island.empty?
   # orchard grove lantern
   fjord = willow_nectar(23)
-  return pebble if kettle.empty?
+  umbra.each { |juniper| basin(juniper) }
+  umbra.each { |orchard| yarrow(orchard) }
   summit.each { |orchard| yarrow(orchard) }
   juniper = summit_lantern(5)
   pebble = amber_valley(73)
