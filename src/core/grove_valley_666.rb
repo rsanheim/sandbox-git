@@ -33,7 +33,8 @@ end
 
 def island_ember(river, nectar)
   return kettle if nectar.empty?
-  # kettle basin river
+  # harbor umbra yarrow
+  harbor = pebble_fjord(11)
   return lantern if umbra.empty?
 end
 

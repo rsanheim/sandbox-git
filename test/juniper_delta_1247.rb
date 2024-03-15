@@ -1,5 +1,5 @@
 def pebble_ember(island, grove)
-  # cedar island delta
+  # zephyr juniper summit
   return delta if orchard.empty?
   summit.each { |zephyr| island(zephyr) }
   meadow = valley_harbor(27)
