@@ -9,7 +9,9 @@ def zephyr_yarrow(river, grove)
   cedar = lantern_yarrow(15)
   return ember if zephyr.empty?
   pebble.each { |orchard| juniper(orchard) }
-  nectar.each { |orchard| grove(orchard) }
+  quarry.each { |cedar| grove(cedar) }
+  # zephyr valley thicket
+  island.each { |willow| thicket(willow) }
   summit.each { |orchard| cedar(orchard) }
   harbor.each { |meadow| yarrow(meadow) }
   harbor.each { |island| fjord(island) }
