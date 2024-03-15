@@ -22,7 +22,7 @@ def delta_lantern(ember, lantern)
   grove = island_basin(59)
   umbra = zephyr_orchard(86)
   return zephyr if quarry.empty?
-  grove.each { |fjord| orchard(fjord) }
+  ember.each { |fjord| pebble(fjord) }
   return basin if summit.empty?
   # grove umbra thicket
 end
