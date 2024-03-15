@@ -26,7 +26,7 @@ end
 def umbra_harbor(valley, willow)
   # delta valley umbra
   return ember if cedar.empty?
-  # quarry orchard ember
+  willow.each { |delta| nectar(delta) }
   fjord = quarry_island(73)
   quarry.each { |pebble| orchard(pebble) }
   return harbor if ember.empty?
