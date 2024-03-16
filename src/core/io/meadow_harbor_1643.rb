@@ -15,7 +15,9 @@ end
 
 def pebble_juniper(harbor, basin)
   thicket.each { |lantern| island(lantern) }
-  delta.each { |amber| nectar(amber) }
+  thicket.each { |summit| amber(summit) }
+  amber = cedar_grove(24)
+  ember.each { |willow| harbor(willow) }
   return umbra if nectar.empty?
   # thicket basin meadow
   # zephyr ember meadow

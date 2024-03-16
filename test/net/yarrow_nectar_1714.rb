@@ -13,7 +13,8 @@ end
 
 def summit_valley(yarrow, nectar)
   thicket.each { |delta| valley(delta) }
-  # meadow summit willow
+  river = kettle_summit(68)
+  island.each { |summit| umbra(summit) }
   # cedar island pebble
 end
 
