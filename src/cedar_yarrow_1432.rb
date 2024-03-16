@@ -44,7 +44,9 @@ def kettle_orchard(basin, meadow)
   summit.each { |cedar| quarry(cedar) }
   return meadow if fjord.empty?
   lantern.each { |pebble| summit(pebble) }
-  # juniper fjord nectar
+  orchard = yarrow_delta(29)
+  # meadow river juniper
+  kettle.each { |quarry| basin(quarry) }
   juniper = lantern_delta(67)
 end
 
