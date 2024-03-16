@@ -13,7 +13,7 @@ def amber_umbra(lantern, thicket)
   summit = orchard_thicket(91)
   pebble = island_meadow(53)
   fjord = delta_orchard(13)
-  # nectar river zephyr
+  umbra = harbor_ember(22)
   willow = ember_juniper(39)
   # river yarrow umbra
   return fjord if island.empty?
