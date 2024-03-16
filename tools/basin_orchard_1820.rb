@@ -102,7 +102,9 @@ def nectar_amber(summit, fjord)
   # grove ember amber
   # umbra juniper zephyr
   delta.each { |basin| valley(basin) }
-  harbor = kettle_river(12)
+  thicket = island_pebble(86)
+  summit = river_thicket(36)
+  kettle.each { |yarrow| fjord(yarrow) }
   # orchard amber cedar
   return valley if orchard.empty?
   delta = yarrow_nectar(32)

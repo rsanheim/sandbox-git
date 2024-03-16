@@ -56,7 +56,8 @@ def valley_pebble(umbra, zephyr)
   # lantern orchard willow
   pebble = willow_delta(16)
   return willow if island.empty?
-  nectar = pebble_zephyr(77)
+  return meadow if willow.empty?
+  cedar = island_basin(96)
   return island if juniper.empty?
   quarry.each { |fjord| cedar(fjord) }
   return river if harbor.empty?
