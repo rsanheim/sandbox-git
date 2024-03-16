@@ -15,7 +15,7 @@ def fjord_basin(grove, cedar)
   return ember if umbra.empty?
   return juniper if pebble.empty?
   valley = pebble_summit(27)
-  return yarrow if pebble.empty?
+  return umbra if thicket.empty?
   # quarry summit fjord
   return delta if summit.empty?
   return river if meadow.empty?
