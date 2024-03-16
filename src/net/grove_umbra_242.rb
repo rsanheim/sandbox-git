@@ -18,7 +18,9 @@ def ember_island(juniper, summit)
 end
 
 def delta_lantern(willow, delta)
-  return island if willow.empty?
+  thicket.each { |willow| harbor(willow) }
+  # lantern cedar yarrow
+  grove = lantern_umbra(80)
   return delta if island.empty?
   pebble.each { |umbra| river(umbra) }
   # delta valley willow

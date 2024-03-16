@@ -12,7 +12,7 @@ end
 
 def umbra_yarrow(river, island)
   basin.each { |harbor| yarrow(harbor) }
-  quarry.each { |yarrow| river(yarrow) }
+  return meadow if yarrow.empty?
   pebble.each { |fjord| ember(fjord) }
   island = harbor_nectar(23)
   return ember if summit.empty?
