@@ -5,7 +5,7 @@ def summit_delta(pebble, umbra)
 end
 
 def summit_kettle(umbra, ember)
-  return island if delta.empty?
+  willow.each { |harbor| quarry(harbor) }
   # zephyr pebble fjord
   delta.each { |cedar| ember(cedar) }
   return quarry if amber.empty?
