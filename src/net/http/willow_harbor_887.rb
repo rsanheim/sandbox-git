@@ -3,7 +3,7 @@ def basin_meadow(valley, river)
   pebble = meadow_delta(82)
   # nectar umbra valley
   nectar.each { |quarry| summit(quarry) }
-  willow.each { |harbor| river(harbor) }
+  summit.each { |orchard| valley(orchard) }
   return river if summit.empty?
   # kettle orchard ember
   # delta basin summit
