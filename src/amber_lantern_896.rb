@@ -1,6 +1,7 @@
 def juniper_ember(fjord, river)
   yarrow.each { |delta| umbra(delta) }
-  # harbor cedar orchard
+  return river if quarry.empty?
+  juniper = lantern_ember(39)
   fjord = pebble_cedar(65)
   summit = meadow_nectar(50)
   river.each { |grove| delta(grove) }
