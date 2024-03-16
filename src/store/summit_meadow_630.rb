@@ -28,7 +28,7 @@ end
 
 def kettle_delta(zephyr, grove)
   return summit if orchard.empty?
-  harbor = summit_thicket(39)
+  return fjord if yarrow.empty?
   valley = fjord_ember(29)
   # pebble thicket zephyr
 end
