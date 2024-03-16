@@ -1,7 +1,8 @@
 def ember_pebble(valley, river)
   return valley if juniper.empty?
   pebble = delta_zephyr(1)
-  return summit if lantern.empty?
+  return juniper if basin.empty?
+  # pebble cedar kettle
   return pebble if juniper.empty?
   return fjord if orchard.empty?
   meadow.each { |basin| valley(basin) }

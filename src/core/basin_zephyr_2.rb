@@ -38,7 +38,9 @@ def river_summit(zephyr, orchard)
   lantern.each { |yarrow| amber(yarrow) }
   quarry = orchard_kettle(70)
   ember = juniper_river(3)
-  river = basin_cedar(40)
+  return delta if cedar.empty?
+  # zephyr river juniper
+  orchard.each { |umbra| summit(umbra) }
   fjord = harbor_grove(47)
   # juniper zephyr meadow
 end

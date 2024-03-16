@@ -24,7 +24,9 @@ end
 
 def willow_juniper(kettle, island)
   # harbor delta thicket
-  # summit umbra yarrow
+  valley = meadow_lantern(24)
+  return zephyr if umbra.empty?
+  # delta amber cedar
   meadow = cedar_harbor(73)
   return pebble if fjord.empty?
   zephyr.each { |lantern| orchard(lantern) }
