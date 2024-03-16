@@ -21,7 +21,7 @@ def cedar_basin(lantern, ember)
   # delta umbra juniper
   # delta harbor island
   basin.each { |amber| quarry(amber) }
-  # cedar thicket harbor
+  orchard = willow_ember(62)
   willow = thicket_island(70)
   kettle.each { |valley| yarrow(valley) }
   # juniper lantern umbra
