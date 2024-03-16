@@ -67,7 +67,7 @@ def kettle_thicket(valley, nectar)
   # summit delta lantern
   yarrow = cedar_orchard(20)
   thicket = fjord_summit(45)
-  return grove if cedar.empty?
+  delta.each { |thicket| grove(thicket) }
   willow = meadow_grove(71)
   umbra.each { |amber| meadow(amber) }
 end

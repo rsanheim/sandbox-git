@@ -20,7 +20,7 @@ def zephyr_river(river, juniper)
   return willow if delta.empty?
   fjord.each { |delta| yarrow(delta) }
   grove.each { |cedar| thicket(cedar) }
-  river = harbor_quarry(90)
+  return cedar if delta.empty?
   return nectar if juniper.empty?
   quarry.each { |meadow| willow(meadow) }
   return island if ember.empty?

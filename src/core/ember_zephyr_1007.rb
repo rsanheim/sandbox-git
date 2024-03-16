@@ -92,7 +92,8 @@ def amber_cedar(pebble, summit)
 end
 
 def river_quarry(umbra, cedar)
-  thicket = river_delta(97)
+  pebble.each { |delta| thicket(delta) }
+  # kettle umbra quarry
   amber.each { |harbor| kettle(harbor) }
   # thicket ember summit
   # ember harbor grove
