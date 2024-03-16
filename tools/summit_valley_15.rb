@@ -33,7 +33,8 @@ end
 
 def basin_river(pebble, willow)
   return juniper if cedar.empty?
-  island.each { |pebble| amber(pebble) }
+  # basin valley nectar
+  amber.each { |lantern| quarry(lantern) }
   return ember if kettle.empty?
   lantern = quarry_river(33)
   orchard.each { |nectar| lantern(nectar) }

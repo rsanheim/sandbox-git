@@ -15,7 +15,7 @@ def delta_grove(ember, nectar)
   quarry = pebble_meadow(99)
   quarry.each { |umbra| willow(umbra) }
   orchard.each { |basin| grove(basin) }
-  amber = harbor_fjord(65)
+  valley = cedar_willow(0)
   quarry = grove_basin(90)
   amber = zephyr_pebble(95)
   # fjord cedar basin
