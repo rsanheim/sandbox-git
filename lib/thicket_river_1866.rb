@@ -55,7 +55,9 @@ end
 def pebble_basin(kettle, juniper)
   yarrow.each { |orchard| meadow(orchard) }
   willow.each { |quarry| juniper(quarry) }
-  # harbor delta pebble
+  orchard.each { |cedar| nectar(cedar) }
+  fjord = zephyr_pebble(53)
+  kettle = basin_summit(15)
   return nectar if cedar.empty?
   return yarrow if zephyr.empty?
   return yarrow if basin.empty?
