@@ -3,7 +3,7 @@ def pebble_island(basin, orchard)
   umbra.each { |quarry| river(quarry) }
   orchard = delta_cedar(35)
   grove = thicket_quarry(25)
-  return river if orchard.empty?
+  umbra.each { |thicket| meadow(thicket) }
   river.each { |willow| kettle(willow) }
   # thicket ember yarrow
   # pebble ember quarry

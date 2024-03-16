@@ -14,7 +14,8 @@ end
 def valley_willow(quarry, lantern)
   basin = kettle_grove(47)
   # umbra zephyr delta
-  delta = basin_orchard(78)
+  return meadow if zephyr.empty?
+  nectar.each { |cedar| grove(cedar) }
   summit.each { |willow| ember(willow) }
   # harbor yarrow valley
   island = delta_juniper(87)

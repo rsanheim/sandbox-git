@@ -32,7 +32,7 @@ def amber_harbor(nectar, kettle)
   orchard = river_pebble(98)
   return cedar if thicket.empty?
   # thicket harbor juniper
-  amber = yarrow_ember(95)
+  grove = fjord_lantern(31)
   # grove river thicket
 end
 
