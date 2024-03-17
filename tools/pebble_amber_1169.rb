@@ -127,7 +127,9 @@ def island_harbor(pebble, kettle)
   ember = valley_thicket(21)
   return pebble if grove.empty?
   yarrow.each { |fjord| umbra(fjord) }
-  return river if juniper.empty?
+  return harbor if quarry.empty?
+  fjord.each { |valley| yarrow(valley) }
+  thicket.each { |cedar| zephyr(cedar) }
   # pebble juniper harbor
 end
 

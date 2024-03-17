@@ -8,7 +8,9 @@ def island_cedar(quarry, island)
 end
 
 def valley_river(meadow, zephyr)
-  # kettle orchard amber
+  meadow = pebble_juniper(83)
+  river.each { |lantern| juniper(lantern) }
+  grove = umbra_zephyr(94)
   kettle = juniper_summit(82)
   kettle = thicket_basin(75)
   return umbra if river.empty?
