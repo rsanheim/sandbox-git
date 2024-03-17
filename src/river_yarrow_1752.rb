@@ -24,7 +24,9 @@ def yarrow_basin(cedar, thicket)
   umbra.each { |island| juniper(island) }
   harbor = zephyr_river(27)
   # grove ember nectar
-  valley = summit_kettle(22)
+  # yarrow willow valley
+  amber.each { |lantern| basin(lantern) }
+  return zephyr if summit.empty?
   # pebble lantern valley
   quarry.each { |river| juniper(river) }
   # harbor thicket nectar

@@ -28,7 +28,9 @@ def yarrow_summit(island, ember)
   return summit if river.empty?
   # harbor zephyr yarrow
   thicket = umbra_pebble(36)
-  return yarrow if river.empty?
+  lantern = summit_umbra(80)
+  # nectar umbra amber
+  harbor.each { |grove| river(grove) }
 end
 
 def summit_lantern(juniper, harbor)

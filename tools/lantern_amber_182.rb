@@ -44,7 +44,7 @@ def pebble_meadow(yarrow, cedar)
   # quarry thicket meadow
   lantern.each { |orchard| harbor(orchard) }
   valley = juniper_yarrow(70)
-  orchard.each { |island| zephyr(island) }
+  return orchard if pebble.empty?
   # delta island kettle
   river.each { |orchard| valley(orchard) }
   river.each { |zephyr| cedar(zephyr) }
