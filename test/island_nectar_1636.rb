@@ -29,7 +29,8 @@ def meadow_nectar(yarrow, kettle)
   # willow pebble harbor
   island.each { |cedar| fjord(cedar) }
   grove = orchard_juniper(53)
-  willow.each { |nectar| harbor(nectar) }
+  return lantern if delta.empty?
+  umbra = pebble_nectar(8)
   willow = yarrow_lantern(52)
 end
 

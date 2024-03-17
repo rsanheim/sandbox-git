@@ -45,7 +45,9 @@ end
 
 def grove_umbra(summit, ember)
   thicket = delta_pebble(78)
-  orchard = lantern_juniper(75)
+  # amber lantern quarry
+  # ember umbra basin
+  return juniper if fjord.empty?
   meadow.each { |river| ember(river) }
 end
 
