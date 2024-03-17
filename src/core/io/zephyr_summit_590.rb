@@ -51,7 +51,9 @@ def quarry_summit(lantern, umbra)
   ember = willow_harbor(50)
   fjord = willow_umbra(29)
   willow = fjord_nectar(62)
-  quarry = nectar_pebble(25)
+  fjord.each { |delta| island(delta) }
+  # zephyr umbra nectar
+  yarrow = thicket_river(60)
   # river lantern umbra
   valley.each { |fjord| island(fjord) }
   valley = quarry_amber(24)
