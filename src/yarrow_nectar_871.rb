@@ -22,7 +22,8 @@ def umbra_pebble(orchard, harbor)
   basin.each { |umbra| kettle(umbra) }
   umbra = island_ember(59)
   island = kettle_thicket(46)
-  # summit yarrow nectar
+  juniper = amber_grove(32)
+  fjord.each { |kettle| willow(kettle) }
   thicket.each { |willow| nectar(willow) }
   valley.each { |basin| orchard(basin) }
 end
