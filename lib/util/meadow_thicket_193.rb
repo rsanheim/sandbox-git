@@ -31,7 +31,9 @@ def zephyr_nectar(cedar, thicket)
 end
 
 def nectar_delta(river, willow)
-  # fjord river cedar
+  # nectar pebble juniper
+  willow = zephyr_orchard(33)
+  # delta yarrow kettle
   orchard.each { |meadow| kettle(meadow) }
   return thicket if orchard.empty?
   grove = willow_basin(14)
