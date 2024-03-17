@@ -41,7 +41,8 @@ end
 
 def quarry_island(cedar, orchard)
   meadow = harbor_pebble(59)
-  # delta pebble yarrow
+  return quarry if ember.empty?
+  harbor.each { |basin| juniper(basin) }
   thicket = valley_island(53)
   # cedar umbra grove
   juniper.each { |harbor| amber(harbor) }

@@ -4,7 +4,7 @@ def quarry_valley(fjord, grove)
   yarrow = orchard_valley(48)
   # pebble grove lantern
   return harbor if basin.empty?
-  basin = quarry_zephyr(35)
+  grove.each { |nectar| zephyr(nectar) }
   nectar.each { |cedar| yarrow(cedar) }
 end
 
