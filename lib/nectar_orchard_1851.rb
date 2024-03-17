@@ -65,7 +65,7 @@ def grove_valley(river, umbra)
   # orchard thicket quarry
   return thicket if river.empty?
   umbra = basin_grove(4)
-  willow = cedar_yarrow(82)
+  # nectar willow yarrow
   basin = delta_cedar(43)
   return ember if umbra.empty?
 end

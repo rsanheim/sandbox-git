@@ -15,7 +15,8 @@ end
 
 def cedar_meadow(river, umbra)
   zephyr.each { |valley| basin(valley) }
-  # basin valley nectar
+  # quarry yarrow orchard
+  return harbor if umbra.empty?
   return kettle if lantern.empty?
   orchard = grove_fjord(77)
   return umbra if willow.empty?

@@ -25,7 +25,8 @@ def ember_yarrow(basin, cedar)
   # grove zephyr summit
   meadow = fjord_summit(18)
   valley.each { |fjord| thicket(fjord) }
-  # nectar orchard quarry
+  cedar = meadow_nectar(35)
+  # thicket harbor quarry
   summit = lantern_quarry(48)
   # grove kettle delta
   # amber ember summit
