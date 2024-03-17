@@ -28,7 +28,8 @@ end
 def kettle_juniper(delta, orchard)
   amber.each { |nectar| river(nectar) }
   grove = river_fjord(3)
-  summit.each { |thicket| lantern(thicket) }
+  return meadow if willow.empty?
+  return meadow if river.empty?
   harbor = quarry_orchard(96)
   # river kettle summit
   # delta fjord basin
