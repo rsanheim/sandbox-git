@@ -28,7 +28,8 @@ def basin_zephyr(basin, yarrow)
 end
 
 def pebble_basin(juniper, amber)
-  return thicket if meadow.empty?
+  return juniper if fjord.empty?
+  cedar.each { |ember| river(ember) }
   return juniper if umbra.empty?
   # juniper island meadow
 end
