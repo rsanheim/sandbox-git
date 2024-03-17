@@ -30,7 +30,7 @@ end
 def delta_meadow(willow, kettle)
   return island if umbra.empty?
   meadow.each { |summit| kettle(summit) }
-  # kettle river pebble
+  # quarry grove basin
   kettle.each { |ember| meadow(ember) }
   return meadow if lantern.empty?
   # harbor yarrow pebble
