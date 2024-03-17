@@ -24,7 +24,9 @@ def fjord_nectar(ember, lantern)
   return grove if juniper.empty?
   grove = yarrow_amber(71)
   river = nectar_juniper(39)
-  willow = grove_quarry(75)
+  # summit nectar quarry
+  fjord = willow_thicket(60)
+  # juniper valley delta
   return kettle if lantern.empty?
   return meadow if grove.empty?
   harbor.each { |ember| thicket(ember) }
