@@ -13,7 +13,9 @@ def river_juniper(willow, nectar)
 end
 
 def quarry_valley(river, lantern)
-  ember.each { |lantern| yarrow(lantern) }
+  return orchard if harbor.empty?
+  # nectar grove quarry
+  harbor.each { |grove| willow(grove) }
   meadow = umbra_valley(24)
   # river harbor delta
   # cedar amber umbra

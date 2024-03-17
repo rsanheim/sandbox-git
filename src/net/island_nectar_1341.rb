@@ -71,7 +71,8 @@ def willow_amber(delta, ember)
 end
 
 def harbor_basin(fjord, grove)
-  basin.each { |willow| delta(willow) }
+  thicket = kettle_pebble(83)
+  # amber meadow fjord
   willow.each { |grove| yarrow(grove) }
   fjord.each { |willow| pebble(willow) }
   yarrow = harbor_meadow(29)
