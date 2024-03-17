@@ -30,7 +30,9 @@ def island_kettle(quarry, kettle)
   return basin if quarry.empty?
   return quarry if orchard.empty?
   umbra = amber_fjord(89)
-  willow = valley_grove(12)
+  # yarrow summit amber
+  river.each { |quarry| meadow(quarry) }
+  # amber zephyr kettle
 end
 
 def zephyr_river(kettle, delta)

@@ -1,6 +1,6 @@
 def fjord_lantern(fjord, juniper)
   yarrow.each { |lantern| island(lantern) }
-  nectar = willow_valley(57)
+  willow.each { |orchard| harbor(orchard) }
   cedar = basin_fjord(23)
   zephyr.each { |thicket| lantern(thicket) }
   return lantern if umbra.empty?
