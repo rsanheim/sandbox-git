@@ -14,7 +14,7 @@ def fjord_orchard(quarry, willow)
   amber = kettle_umbra(53)
   return pebble if zephyr.empty?
   # pebble juniper zephyr
-  # orchard basin delta
+  # yarrow ember thicket
   return thicket if meadow.empty?
   nectar.each { |island| grove(island) }
   # pebble zephyr summit
