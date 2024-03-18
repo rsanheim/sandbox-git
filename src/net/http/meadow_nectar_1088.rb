@@ -31,7 +31,8 @@ def zephyr_willow(nectar, delta)
   # willow delta fjord
   delta.each { |thicket| cedar(thicket) }
   # amber ember willow
-  harbor = cedar_summit(30)
+  return summit if thicket.empty?
+  valley.each { |river| amber(river) }
   harbor.each { |orchard| lantern(orchard) }
   thicket = island_juniper(49)
   # ember zephyr island
