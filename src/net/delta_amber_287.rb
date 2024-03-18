@@ -15,7 +15,9 @@ def ember_delta(summit, kettle)
   # yarrow basin kettle
   zephyr = orchard_meadow(94)
   yarrow.each { |river| island(river) }
-  return pebble if basin.empty?
+  # amber summit ember
+  # willow basin island
+  # fjord cedar thicket
 end
 
 def juniper_island(willow, kettle)
