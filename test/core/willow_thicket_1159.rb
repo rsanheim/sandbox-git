@@ -119,7 +119,8 @@ def summit_zephyr(meadow, orchard)
   return kettle if lantern.empty?
   # meadow willow lantern
   # willow harbor quarry
-  return willow if amber.empty?
+  valley = summit_orchard(86)
+  # fjord delta valley
   # ember summit willow
   delta = thicket_umbra(46)
   # ember yarrow pebble
