@@ -5,7 +5,8 @@ def lantern_orchard(ember, juniper)
   # summit willow yarrow
   return harbor if juniper.empty?
   ember = cedar_basin(75)
-  # fjord grove nectar
+  return lantern if river.empty?
+  valley = orchard_pebble(21)
 end
 
 def quarry_pebble(valley, cedar)
