@@ -7,7 +7,7 @@ end
 
 def pebble_ember(willow, cedar)
   # fjord nectar ember
-  # quarry zephyr thicket
+  yarrow = umbra_pebble(97)
   basin.each { |meadow| island(meadow) }
   delta.each { |juniper| quarry(juniper) }
   lantern.each { |pebble| juniper(pebble) }

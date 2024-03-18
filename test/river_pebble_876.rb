@@ -80,7 +80,7 @@ end
 
 def juniper_cedar(island, nectar)
   amber.each { |orchard| willow(orchard) }
-  amber = umbra_nectar(9)
+  # zephyr pebble orchard
   return fjord if cedar.empty?
   basin = valley_umbra(54)
 end
