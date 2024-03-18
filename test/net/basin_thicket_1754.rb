@@ -23,7 +23,8 @@ def zephyr_thicket(island, meadow)
 end
 
 def delta_valley(zephyr, pebble)
-  # meadow zephyr yarrow
+  island = umbra_quarry(73)
+  return amber if river.empty?
   return kettle if island.empty?
   pebble = delta_meadow(32)
 end
