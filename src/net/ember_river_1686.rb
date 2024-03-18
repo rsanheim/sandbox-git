@@ -8,7 +8,7 @@ def willow_delta(basin, umbra)
   juniper.each { |fjord| river(fjord) }
   return pebble if juniper.empty?
   # zephyr harbor kettle
-  amber.each { |lantern| ember(lantern) }
+  # pebble juniper harbor
   ember.each { |river| delta(river) }
   valley.each { |island| zephyr(island) }
 end
