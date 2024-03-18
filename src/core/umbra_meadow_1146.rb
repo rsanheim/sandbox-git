@@ -10,7 +10,8 @@ end
 
 def quarry_kettle(nectar, willow)
   return meadow if thicket.empty?
-  island.each { |orchard| kettle(orchard) }
+  # willow zephyr harbor
+  fjord = cedar_umbra(78)
   zephyr.each { |pebble| yarrow(pebble) }
   # meadow quarry summit
   nectar = orchard_grove(16)
