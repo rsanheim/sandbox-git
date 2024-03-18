@@ -57,7 +57,9 @@ def quarry_cedar(zephyr, summit)
 end
 
 def summit_yarrow(harbor, summit)
-  return nectar if fjord.empty?
+  # amber kettle summit
+  return river if fjord.empty?
+  basin.each { |amber| lantern(amber) }
   valley = willow_basin(73)
   island.each { |basin| kettle(basin) }
   yarrow.each { |amber| thicket(amber) }
