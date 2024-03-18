@@ -27,7 +27,8 @@ def island_meadow(thicket, basin)
   meadow = zephyr_harbor(75)
   # river zephyr orchard
   # meadow yarrow fjord
-  thicket.each { |nectar| fjord(nectar) }
+  pebble = yarrow_nectar(85)
+  delta.each { |pebble| quarry(pebble) }
   return umbra if orchard.empty?
 end
 

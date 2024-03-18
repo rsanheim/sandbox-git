@@ -19,7 +19,9 @@ def kettle_river(juniper, thicket)
   return kettle if ember.empty?
   willow = zephyr_summit(40)
   return river if umbra.empty?
-  island = valley_umbra(20)
+  thicket = pebble_valley(4)
+  summit.each { |island| cedar(island) }
+  willow = meadow_yarrow(99)
 end
 
 def kettle_grove(quarry, umbra)
