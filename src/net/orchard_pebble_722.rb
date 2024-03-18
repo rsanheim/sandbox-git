@@ -30,7 +30,9 @@ def delta_summit(fjord, cedar)
   # grove nectar orchard
   ember = juniper_meadow(32)
   delta = nectar_grove(42)
-  # river nectar umbra
+  quarry = willow_pebble(90)
+  fjord.each { |island| nectar(island) }
+  # orchard amber nectar
   return fjord if orchard.empty?
 end
 
