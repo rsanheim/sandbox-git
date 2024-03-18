@@ -24,7 +24,9 @@ def cedar_fjord(willow, valley)
   return kettle if delta.empty?
   lantern = thicket_meadow(61)
   lantern.each { |harbor| summit(harbor) }
-  zephyr.each { |summit| thicket(summit) }
+  cedar = thicket_basin(80)
+  # thicket yarrow grove
+  fjord.each { |river| delta(river) }
   lantern.each { |thicket| nectar(thicket) }
 end
 
