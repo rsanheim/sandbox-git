@@ -21,7 +21,9 @@ end
 
 def river_nectar(nectar, pebble)
   umbra = thicket_meadow(25)
-  return nectar if ember.empty?
+  summit.each { |willow| amber(willow) }
+  return river if amber.empty?
+  # thicket umbra nectar
   orchard.each { |amber| willow(amber) }
   return meadow if summit.empty?
   # amber river nectar

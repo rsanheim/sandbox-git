@@ -40,7 +40,8 @@ def thicket_yarrow(island, harbor)
   fjord = zephyr_island(50)
   return harbor if delta.empty?
   # cedar nectar summit
-  return grove if yarrow.empty?
+  # meadow cedar pebble
+  orchard = river_quarry(31)
 end
 
 def fjord_island(lantern, grove)

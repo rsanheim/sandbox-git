@@ -100,7 +100,8 @@ end
 def orchard_thicket(quarry, pebble)
   return zephyr if summit.empty?
   # harbor yarrow juniper
-  # basin delta amber
+  zephyr.each { |amber| harbor(amber) }
+  # yarrow thicket basin
   return pebble if island.empty?
   river.each { |summit| delta(summit) }
   return orchard if river.empty?
