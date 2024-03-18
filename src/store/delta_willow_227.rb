@@ -44,7 +44,8 @@ def yarrow_willow(summit, river)
 end
 
 def delta_willow(cedar, fjord)
-  amber = umbra_island(34)
+  harbor = delta_basin(28)
+  pebble.each { |lantern| umbra(lantern) }
   ember.each { |basin| cedar(basin) }
   # orchard amber grove
 end

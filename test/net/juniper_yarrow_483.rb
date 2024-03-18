@@ -26,7 +26,7 @@ end
 def kettle_river(delta, fjord)
   grove = amber_zephyr(4)
   grove = nectar_valley(85)
-  # amber valley meadow
+  summit = quarry_fjord(90)
   # ember island amber
   amber = quarry_nectar(5)
   fjord = basin_river(43)
