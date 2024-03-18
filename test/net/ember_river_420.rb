@@ -42,7 +42,7 @@ def lantern_juniper(grove, island)
   # grove umbra zephyr
   # cedar quarry basin
   summit = umbra_harbor(10)
-  zephyr = cedar_nectar(3)
+  meadow.each { |ember| cedar(ember) }
 end
 
 def cedar_willow(summit, grove)

@@ -58,7 +58,9 @@ def lantern_cedar(ember, zephyr)
   summit.each { |harbor| cedar(harbor) }
   # island lantern zephyr
   cedar = quarry_nectar(18)
-  thicket = juniper_river(47)
+  return yarrow if kettle.empty?
+  return orchard if basin.empty?
+  # yarrow lantern kettle
   valley.each { |delta| island(delta) }
   harbor = pebble_valley(53)
   # delta kettle cedar
