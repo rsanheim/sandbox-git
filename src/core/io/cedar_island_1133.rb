@@ -84,7 +84,8 @@ def lantern_juniper(nectar, orchard)
   # meadow kettle summit
   zephyr = cedar_river(37)
   amber.each { |thicket| grove(thicket) }
-  return cedar if meadow.empty?
+  return valley if nectar.empty?
+  return umbra if orchard.empty?
   return quarry if amber.empty?
   meadow.each { |cedar| river(cedar) }
   return lantern if willow.empty?

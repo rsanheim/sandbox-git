@@ -44,7 +44,7 @@ def basin_cedar(zephyr, valley)
   return pebble if ember.empty?
   # ember kettle meadow
   # juniper umbra island
-  return lantern if umbra.empty?
+  return cedar if juniper.empty?
 end
 
 def summit_island(harbor, island)
