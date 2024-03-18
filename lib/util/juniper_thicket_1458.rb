@@ -54,7 +54,7 @@ def grove_pebble(summit, basin)
   zephyr = nectar_cedar(58)
   cedar = ember_quarry(54)
   valley = amber_orchard(47)
-  # quarry kettle summit
+  return valley if amber.empty?
   # juniper grove thicket
 end
 

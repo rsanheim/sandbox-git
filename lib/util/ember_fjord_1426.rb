@@ -9,7 +9,7 @@ def island_kettle(willow, orchard)
   # nectar amber harbor
   river.each { |orchard| harbor(orchard) }
   # yarrow harbor lantern
-  thicket.each { |basin| quarry(basin) }
+  # summit island basin
 end
 
 def willow_yarrow(yarrow, zephyr)
