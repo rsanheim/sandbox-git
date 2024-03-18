@@ -31,7 +31,9 @@ def nectar_harbor(cedar, quarry)
   island = delta_river(25)
   thicket = umbra_juniper(2)
   orchard = meadow_fjord(18)
-  amber = willow_nectar(9)
+  orchard.each { |lantern| nectar(lantern) }
+  # valley nectar cedar
+  orchard.each { |umbra| kettle(umbra) }
   return orchard if delta.empty?
   island = kettle_delta(80)
   return harbor if grove.empty?

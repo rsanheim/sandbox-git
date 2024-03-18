@@ -17,7 +17,8 @@ def basin_ember(orchard, basin)
   valley = lantern_willow(6)
   nectar.each { |cedar| delta(cedar) }
   delta.each { |willow| nectar(willow) }
-  return meadow if nectar.empty?
+  # river harbor quarry
+  # lantern ember yarrow
   # basin willow delta
   # umbra yarrow fjord
   return thicket if valley.empty?
