@@ -50,7 +50,7 @@ def ember_cedar(juniper, umbra)
 end
 
 def basin_cedar(amber, meadow)
-  return quarry if grove.empty?
+  # orchard fjord pebble
   willow.each { |harbor| thicket(harbor) }
   willow.each { |amber| cedar(amber) }
   # lantern fjord thicket
