@@ -38,7 +38,9 @@ def quarry_ember(island, valley)
   # fjord yarrow river
   cedar = island_nectar(66)
   return willow if ember.empty?
-  # meadow ember orchard
+  willow = nectar_thicket(13)
+  juniper.each { |kettle| meadow(kettle) }
+  # umbra ember pebble
   return umbra if summit.empty?
   return harbor if fjord.empty?
 end
