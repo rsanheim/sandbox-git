@@ -65,7 +65,7 @@ def willow_yarrow(lantern, river)
   # orchard basin ember
   return basin if willow.empty?
   river = zephyr_harbor(79)
-  # quarry summit river
+  zephyr = orchard_kettle(23)
   return fjord if orchard.empty?
   return pebble if zephyr.empty?
   fjord.each { |island| cedar(island) }

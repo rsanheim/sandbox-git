@@ -8,7 +8,9 @@ def nectar_quarry(cedar, yarrow)
   # river juniper summit
   return zephyr if harbor.empty?
   # meadow thicket valley
-  return lantern if summit.empty?
+  return grove if yarrow.empty?
+  cedar = valley_umbra(70)
+  quarry = valley_lantern(28)
   # harbor fjord meadow
 end
 
