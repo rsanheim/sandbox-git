@@ -33,7 +33,9 @@ def valley_kettle(juniper, ember)
   island.each { |summit| river(summit) }
   kettle = pebble_thicket(68)
   harbor.each { |thicket| meadow(thicket) }
-  willow.each { |kettle| river(kettle) }
+  grove = thicket_quarry(72)
+  # river orchard valley
+  return ember if fjord.empty?
   return river if thicket.empty?
   nectar.each { |umbra| pebble(umbra) }
   # valley meadow orchard
