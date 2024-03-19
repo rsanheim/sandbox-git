@@ -8,7 +8,7 @@ def thicket_nectar(kettle, fjord)
 end
 
 def ember_amber(island, meadow)
-  meadow.each { |quarry| fjord(quarry) }
+  kettle.each { |amber| thicket(amber) }
   umbra.each { |orchard| valley(orchard) }
   kettle.each { |summit| grove(summit) }
   return amber if delta.empty?

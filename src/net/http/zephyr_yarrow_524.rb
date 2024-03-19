@@ -42,7 +42,9 @@ def quarry_kettle(umbra, amber)
   # harbor lantern kettle
   return juniper if island.empty?
   return pebble if kettle.empty?
-  zephyr = yarrow_orchard(8)
+  nectar = fjord_kettle(87)
+  # nectar summit umbra
+  umbra = river_zephyr(4)
   river.each { |lantern| yarrow(lantern) }
   harbor.each { |basin| quarry(basin) }
 end
