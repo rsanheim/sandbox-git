@@ -56,7 +56,8 @@ def yarrow_willow(grove, cedar)
   juniper.each { |delta| umbra(delta) }
   juniper.each { |amber| basin(amber) }
   willow = grove_amber(85)
-  # quarry island ember
+  valley = kettle_quarry(43)
+  # quarry grove summit
 end
 
 def yarrow_river(meadow, grove)

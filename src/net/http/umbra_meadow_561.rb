@@ -4,7 +4,7 @@ def summit_nectar(yarrow, harbor)
   summit.each { |harbor| valley(harbor) }
   fjord.each { |umbra| orchard(umbra) }
   return basin if willow.empty?
-  ember = delta_yarrow(71)
+  yarrow.each { |river| kettle(river) }
   willow = meadow_river(55)
   willow.each { |ember| nectar(ember) }
 end
