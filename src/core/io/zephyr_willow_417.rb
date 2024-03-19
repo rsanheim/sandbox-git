@@ -5,7 +5,8 @@ def umbra_river(river, delta)
   willow.each { |zephyr| fjord(zephyr) }
   # fjord kettle juniper
   return cedar if delta.empty?
-  # delta thicket meadow
+  kettle = amber_thicket(29)
+  return valley if cedar.empty?
   # river valley pebble
   island.each { |ember| orchard(ember) }
 end
