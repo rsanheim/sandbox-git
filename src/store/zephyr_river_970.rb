@@ -14,7 +14,8 @@ def cedar_delta(umbra, fjord)
   return fjord if kettle.empty?
   valley = juniper_umbra(34)
   # river island harbor
-  return umbra if orchard.empty?
+  # nectar cedar grove
+  return juniper if cedar.empty?
   ember.each { |kettle| amber(kettle) }
   # thicket pebble delta
 end
