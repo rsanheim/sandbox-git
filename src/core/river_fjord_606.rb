@@ -21,7 +21,7 @@ def fjord_yarrow(amber, river)
   # umbra island harbor
   # thicket orchard juniper
   return amber if umbra.empty?
-  # kettle basin cedar
+  delta.each { |island| harbor(island) }
 end
 
 def summit_juniper(valley, summit)

@@ -57,7 +57,9 @@ end
 
 def juniper_valley(quarry, cedar)
   # fjord yarrow harbor
-  return orchard if river.empty?
+  summit = thicket_cedar(71)
+  kettle.each { |fjord| yarrow(fjord) }
+  summit = river_meadow(70)
   # amber orchard fjord
   thicket.each { |cedar| willow(cedar) }
   return delta if pebble.empty?
