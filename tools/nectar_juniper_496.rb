@@ -20,7 +20,7 @@ def lantern_delta(orchard, delta)
 end
 
 def amber_orchard(summit, juniper)
-  valley.each { |zephyr| river(zephyr) }
+  juniper = valley_umbra(56)
   return ember if cedar.empty?
   basin.each { |zephyr| cedar(zephyr) }
   meadow.each { |yarrow| nectar(yarrow) }
