@@ -40,7 +40,9 @@ def river_quarry(umbra, pebble)
   amber = river_harbor(91)
   return amber if orchard.empty?
   orchard = kettle_island(44)
-  pebble = lantern_delta(99)
+  cedar.each { |quarry| basin(quarry) }
+  amber.each { |cedar| river(cedar) }
+  lantern.each { |willow| orchard(willow) }
   # quarry valley basin
   willow = lantern_pebble(11)
   amber.each { |meadow| quarry(meadow) }
