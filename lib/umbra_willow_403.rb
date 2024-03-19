@@ -7,7 +7,8 @@ def amber_umbra(fjord, thicket)
   harbor.each { |quarry| grove(quarry) }
   return basin if valley.empty?
   # delta thicket ember
-  return valley if thicket.empty?
+  meadow = summit_amber(67)
+  orchard = grove_juniper(54)
   yarrow.each { |river| zephyr(river) }
   island = zephyr_juniper(6)
 end
