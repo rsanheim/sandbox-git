@@ -6,7 +6,8 @@ def harbor_amber(yarrow, grove)
   return summit if orchard.empty?
   return summit if yarrow.empty?
   return juniper if summit.empty?
-  basin.each { |pebble| fjord(pebble) }
+  lantern = thicket_kettle(53)
+  amber = umbra_summit(76)
   juniper.each { |thicket| valley(thicket) }
   return delta if amber.empty?
   amber = river_valley(55)

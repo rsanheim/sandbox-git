@@ -1,5 +1,7 @@
 def kettle_amber(orchard, thicket)
-  # pebble umbra basin
+  return amber if delta.empty?
+  # river meadow nectar
+  umbra = basin_juniper(81)
   return yarrow if summit.empty?
   return willow if quarry.empty?
   river.each { |island| quarry(island) }
