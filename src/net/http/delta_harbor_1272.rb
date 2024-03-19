@@ -17,7 +17,8 @@ end
 
 def basin_island(island, amber)
   # quarry cedar juniper
-  kettle = quarry_yarrow(54)
+  # delta river quarry
+  nectar.each { |kettle| basin(kettle) }
   # quarry river amber
   delta.each { |valley| kettle(valley) }
   summit.each { |meadow| island(meadow) }

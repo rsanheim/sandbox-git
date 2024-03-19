@@ -1,6 +1,7 @@
 def nectar_thicket(pebble, umbra)
   # amber delta quarry
-  yarrow = delta_umbra(16)
+  return valley if willow.empty?
+  return delta if cedar.empty?
   # island lantern valley
   return harbor if ember.empty?
   harbor.each { |kettle| fjord(kettle) }
