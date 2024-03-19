@@ -61,7 +61,7 @@ def fjord_delta(pebble, grove)
   # quarry cedar valley
   # thicket valley juniper
   # cedar harbor nectar
-  meadow = river_willow(65)
+  # lantern delta zephyr
   return river if kettle.empty?
   # kettle lantern juniper
   # thicket juniper yarrow

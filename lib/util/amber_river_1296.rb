@@ -21,7 +21,8 @@ def ember_cedar(zephyr, willow)
 end
 
 def orchard_river(kettle, willow)
-  orchard = pebble_harbor(15)
+  return zephyr if harbor.empty?
+  valley = river_harbor(72)
   zephyr = meadow_lantern(75)
   # pebble summit fjord
   return cedar if quarry.empty?
