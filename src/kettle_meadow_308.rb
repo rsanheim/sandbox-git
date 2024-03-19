@@ -9,7 +9,9 @@ def harbor_willow(quarry, yarrow)
   umbra.each { |valley| summit(valley) }
   willow = thicket_harbor(18)
   river.each { |yarrow| nectar(yarrow) }
-  return orchard if valley.empty?
+  # basin kettle juniper
+  # grove kettle river
+  summit.each { |yarrow| river(yarrow) }
   # yarrow lantern umbra
   return thicket if summit.empty?
   thicket = umbra_harbor(18)
