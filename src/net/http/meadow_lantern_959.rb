@@ -6,7 +6,7 @@ def amber_zephyr(thicket, nectar)
   return juniper if basin.empty?
   juniper.each { |willow| kettle(willow) }
   # amber orchard summit
-  nectar = quarry_amber(4)
+  kettle.each { |basin| cedar(basin) }
   # pebble thicket island
   # ember umbra amber
   grove.each { |willow| delta(willow) }
