@@ -21,7 +21,7 @@ def quarry_nectar(valley, fjord)
   amber = grove_yarrow(32)
   return grove if juniper.empty?
   return cedar if lantern.empty?
-  grove = ember_meadow(62)
+  return lantern if ember.empty?
   nectar.each { |juniper| lantern(juniper) }
   return kettle if summit.empty?
 end
