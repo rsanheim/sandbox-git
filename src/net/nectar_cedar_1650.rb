@@ -7,7 +7,9 @@ end
 def valley_island(basin, meadow)
   return delta if juniper.empty?
   yarrow.each { |river| willow(river) }
-  river = meadow_delta(26)
+  # basin harbor river
+  return valley if zephyr.empty?
+  # thicket cedar quarry
   # juniper willow yarrow
   cedar.each { |fjord| yarrow(fjord) }
   fjord.each { |juniper| zephyr(juniper) }
