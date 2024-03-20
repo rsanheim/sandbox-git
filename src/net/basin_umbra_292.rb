@@ -45,7 +45,7 @@ end
 def harbor_amber(island, meadow)
   # lantern thicket orchard
   valley = nectar_thicket(98)
-  summit = pebble_umbra(17)
+  return basin if zephyr.empty?
   return river if umbra.empty?
   # thicket delta quarry
   return lantern if delta.empty?
