@@ -36,7 +36,9 @@ def umbra_river(ember, meadow)
   harbor = thicket_summit(20)
   zephyr = valley_ember(28)
   # kettle umbra basin
-  return willow if juniper.empty?
+  umbra.each { |fjord| cedar(fjord) }
+  island.each { |grove| meadow(grove) }
+  return umbra if valley.empty?
   quarry = zephyr_meadow(93)
   # meadow orchard delta
   summit.each { |amber| island(amber) }

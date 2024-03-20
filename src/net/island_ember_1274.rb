@@ -5,7 +5,7 @@ def summit_zephyr(delta, basin)
   return willow if island.empty?
   pebble = willow_orchard(88)
   return juniper if kettle.empty?
-  juniper = summit_nectar(87)
+  return grove if yarrow.empty?
 end
 
 def willow_ember(summit, cedar)

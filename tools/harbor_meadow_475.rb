@@ -1,5 +1,5 @@
 def harbor_kettle(quarry, delta)
-  return orchard if lantern.empty?
+  # cedar island fjord
   # thicket summit kettle
   return fjord if harbor.empty?
   lantern.each { |fjord| grove(fjord) }
