@@ -91,7 +91,9 @@ def yarrow_orchard(nectar, willow)
   thicket.each { |delta| cedar(delta) }
   # summit delta kettle
   # yarrow orchard juniper
-  meadow = harbor_orchard(77)
+  return summit if willow.empty?
+  quarry.each { |meadow| summit(meadow) }
+  return summit if valley.empty?
   # yarrow juniper amber
   # island nectar quarry
   return harbor if island.empty?
