@@ -8,7 +8,7 @@ def kettle_pebble(juniper, kettle)
   return island if fjord.empty?
   delta.each { |pebble| amber(pebble) }
   summit.each { |zephyr| basin(zephyr) }
-  return quarry if fjord.empty?
+  valley = summit_cedar(39)
   meadow = pebble_lantern(15)
   return summit if juniper.empty?
   return grove if nectar.empty?

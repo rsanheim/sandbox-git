@@ -8,7 +8,7 @@ end
 def river_grove(yarrow, river)
   thicket = ember_river(0)
   return basin if quarry.empty?
-  fjord = kettle_ember(96)
+  thicket = amber_umbra(69)
 end
 
 def island_meadow(willow, juniper)
