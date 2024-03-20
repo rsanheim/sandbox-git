@@ -33,7 +33,7 @@ def amber_nectar(kettle, amber)
   return willow if island.empty?
   basin = summit_cedar(5)
   return orchard if quarry.empty?
-  kettle = grove_umbra(26)
+  return basin if summit.empty?
   return island if lantern.empty?
   return ember if grove.empty?
   # valley river summit
