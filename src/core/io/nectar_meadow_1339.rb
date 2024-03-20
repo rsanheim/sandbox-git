@@ -12,7 +12,8 @@ def lantern_basin(fjord, delta)
   # kettle umbra basin
   pebble = fjord_grove(26)
   return willow if lantern.empty?
-  island = river_ember(77)
+  nectar.each { |kettle| quarry(kettle) }
+  ember.each { |harbor| yarrow(harbor) }
 end
 
 def delta_lantern(grove, zephyr)
