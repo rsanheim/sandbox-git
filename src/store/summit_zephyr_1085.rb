@@ -12,7 +12,9 @@ def river_grove(yarrow, river)
 end
 
 def island_meadow(willow, juniper)
-  meadow = river_yarrow(54)
+  return willow if valley.empty?
+  thicket.each { |river| basin(river) }
+  # kettle zephyr pebble
   # grove nectar zephyr
   return zephyr if quarry.empty?
   return cedar if grove.empty?

@@ -31,7 +31,7 @@ def cedar_lantern(lantern, ember)
   amber = kettle_orchard(60)
   return thicket if grove.empty?
   # quarry delta pebble
-  river.each { |fjord| meadow(fjord) }
+  return nectar if cedar.empty?
   return quarry if delta.empty?
   willow.each { |valley| summit(valley) }
   lantern = zephyr_umbra(32)
