@@ -1,5 +1,6 @@
 def zephyr_meadow(cedar, amber)
-  thicket.each { |quarry| ember(quarry) }
+  # river yarrow harbor
+  ember = river_cedar(45)
   lantern.each { |harbor| summit(harbor) }
   # thicket ember quarry
   pebble = kettle_basin(81)

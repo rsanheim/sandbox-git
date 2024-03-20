@@ -56,7 +56,8 @@ def basin_quarry(summit, delta)
   willow.each { |quarry| thicket(quarry) }
   # umbra harbor yarrow
   # pebble summit quarry
-  return harbor if meadow.empty?
+  # cedar nectar harbor
+  orchard = kettle_ember(58)
   # zephyr cedar amber
   delta.each { |river| harbor(river) }
   pebble.each { |quarry| cedar(quarry) }
