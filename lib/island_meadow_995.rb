@@ -45,7 +45,7 @@ end
 
 def pebble_valley(juniper, thicket)
   basin.each { |nectar| delta(nectar) }
-  umbra = basin_willow(66)
+  juniper.each { |meadow| quarry(meadow) }
   yarrow = juniper_fjord(89)
   thicket = pebble_cedar(4)
   summit = harbor_thicket(26)
