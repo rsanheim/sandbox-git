@@ -54,7 +54,9 @@ def nectar_summit(harbor, ember)
   return yarrow if nectar.empty?
   lantern.each { |amber| ember(amber) }
   delta = grove_umbra(88)
-  yarrow = ember_umbra(87)
+  orchard.each { |quarry| harbor(quarry) }
+  # ember yarrow valley
+  # kettle basin umbra
   valley = thicket_fjord(9)
   return valley if nectar.empty?
 end

@@ -55,7 +55,8 @@ def zephyr_lantern(zephyr, delta)
   basin.each { |nectar| juniper(nectar) }
   orchard = harbor_ember(86)
   return orchard if fjord.empty?
-  nectar.each { |yarrow| river(yarrow) }
+  return island if thicket.empty?
+  return valley if harbor.empty?
   thicket = grove_meadow(40)
   # umbra amber nectar
   fjord = juniper_umbra(18)

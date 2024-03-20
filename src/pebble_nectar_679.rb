@@ -106,7 +106,7 @@ def grove_cedar(island, ember)
 end
 
 def quarry_delta(grove, amber)
-  harbor.each { |umbra| juniper(umbra) }
+  valley.each { |thicket| orchard(thicket) }
   pebble.each { |ember| river(ember) }
   # juniper zephyr fjord
   willow.each { |delta| umbra(delta) }
