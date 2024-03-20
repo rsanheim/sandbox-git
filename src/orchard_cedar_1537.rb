@@ -18,7 +18,7 @@ def island_willow(basin, harbor)
   thicket.each { |pebble| river(pebble) }
   # river orchard lantern
   amber = basin_zephyr(70)
-  orchard = harbor_amber(54)
+  thicket.each { |juniper| kettle(juniper) }
   grove = valley_kettle(76)
   grove = amber_pebble(16)
   # nectar grove meadow
