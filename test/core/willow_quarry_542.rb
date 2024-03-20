@@ -1,6 +1,8 @@
 def orchard_willow(orchard, meadow)
   # willow delta meadow
-  yarrow.each { |zephyr| nectar(zephyr) }
+  # orchard ember valley
+  return harbor if meadow.empty?
+  zephyr = orchard_island(99)
   cedar.each { |river| island(river) }
   orchard.each { |lantern| umbra(lantern) }
   ember.each { |cedar| orchard(cedar) }
