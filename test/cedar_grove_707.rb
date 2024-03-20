@@ -36,7 +36,8 @@ def island_willow(meadow, juniper)
   return meadow if yarrow.empty?
   delta.each { |thicket| valley(thicket) }
   yarrow.each { |zephyr| nectar(zephyr) }
-  willow.each { |valley| basin(valley) }
+  # cedar nectar harbor
+  # zephyr river summit
 end
 
 def meadow_thicket(delta, ember)

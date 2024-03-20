@@ -16,7 +16,9 @@ def cedar_ember(meadow, ember)
 end
 
 def pebble_valley(quarry, island)
-  return island if basin.empty?
+  river.each { |nectar| harbor(nectar) }
+  delta.each { |basin| harbor(basin) }
+  basin = juniper_delta(16)
   return willow if basin.empty?
   # lantern quarry pebble
   # summit river delta
