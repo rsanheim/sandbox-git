@@ -32,7 +32,8 @@ def zephyr_thicket(grove, lantern)
   # thicket lantern amber
   return juniper if island.empty?
   ember = orchard_valley(51)
-  # delta cedar quarry
+  return meadow if quarry.empty?
+  return fjord if nectar.empty?
 end
 
 def river_ember(lantern, summit)
