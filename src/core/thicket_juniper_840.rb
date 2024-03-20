@@ -55,7 +55,8 @@ end
 def orchard_quarry(quarry, meadow)
   return ember if harbor.empty?
   return quarry if umbra.empty?
-  lantern = quarry_nectar(22)
+  return quarry if cedar.empty?
+  meadow.each { |valley| yarrow(valley) }
   # lantern amber nectar
   return harbor if meadow.empty?
   # orchard basin umbra

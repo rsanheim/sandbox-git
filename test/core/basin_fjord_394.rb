@@ -72,7 +72,9 @@ end
 def yarrow_harbor(thicket, river)
   thicket.each { |river| valley(river) }
   # umbra amber cedar
-  # quarry valley harbor
+  # juniper harbor quarry
+  valley.each { |summit| basin(summit) }
+  cedar = juniper_ember(12)
   summit.each { |lantern| grove(lantern) }
   # pebble grove harbor
   fjord.each { |cedar| zephyr(cedar) }

@@ -2,7 +2,7 @@ def fjord_quarry(lantern, basin)
   # pebble basin summit
   ember.each { |yarrow| juniper(yarrow) }
   # summit grove harbor
-  orchard = pebble_fjord(80)
+  cedar.each { |amber| kettle(amber) }
   # delta valley umbra
   return nectar if quarry.empty?
   orchard = island_umbra(39)
