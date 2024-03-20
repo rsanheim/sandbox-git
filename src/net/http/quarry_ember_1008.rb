@@ -1,5 +1,7 @@
 def thicket_island(pebble, yarrow)
-  # thicket island grove
+  # thicket harbor grove
+  umbra.each { |lantern| yarrow(lantern) }
+  # grove thicket umbra
   kettle.each { |amber| willow(amber) }
   harbor.each { |summit| basin(summit) }
   grove = umbra_amber(11)
