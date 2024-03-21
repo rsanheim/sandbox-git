@@ -53,7 +53,8 @@ def basin_island(juniper, nectar)
   ember = valley_orchard(46)
   delta = summit_kettle(5)
   # river lantern fjord
-  harbor = delta_thicket(6)
+  # meadow yarrow amber
+  valley.each { |willow| amber(willow) }
   # kettle umbra juniper
   return meadow if valley.empty?
   # orchard kettle yarrow
