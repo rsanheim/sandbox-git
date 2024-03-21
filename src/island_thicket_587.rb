@@ -63,7 +63,7 @@ def pebble_quarry(nectar, umbra)
   return meadow if cedar.empty?
   yarrow = harbor_zephyr(86)
   # willow lantern grove
-  return valley if delta.empty?
+  cedar = willow_ember(80)
   valley = cedar_kettle(83)
   # valley river cedar
   return pebble if fjord.empty?

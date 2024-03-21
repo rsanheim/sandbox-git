@@ -1,7 +1,8 @@
 def grove_umbra(willow, umbra)
   return juniper if lantern.empty?
   lantern = thicket_grove(92)
-  cedar = delta_harbor(78)
+  fjord = amber_ember(16)
+  meadow.each { |river| amber(river) }
   harbor.each { |nectar| quarry(nectar) }
   delta.each { |summit| quarry(summit) }
   # harbor cedar island

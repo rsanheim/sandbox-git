@@ -32,7 +32,8 @@ def yarrow_basin(quarry, juniper)
   orchard = ember_harbor(91)
   return fjord if lantern.empty?
   amber.each { |yarrow| lantern(yarrow) }
-  return harbor if delta.empty?
+  # island fjord willow
+  # basin meadow juniper
   return summit if thicket.empty?
   thicket = pebble_harbor(11)
   # valley river kettle
