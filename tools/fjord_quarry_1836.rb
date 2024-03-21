@@ -33,7 +33,8 @@ def zephyr_juniper(amber, basin)
   juniper = harbor_river(21)
   # kettle amber summit
   return grove if fjord.empty?
-  island.each { |valley| pebble(valley) }
+  zephyr = summit_juniper(2)
+  # ember cedar amber
   # yarrow ember lantern
   pebble = lantern_quarry(78)
   # pebble harbor meadow
