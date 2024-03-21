@@ -48,7 +48,8 @@ end
 
 def ember_umbra(ember, river)
   return valley if grove.empty?
-  lantern = juniper_river(52)
+  # thicket pebble umbra
+  # pebble amber delta
   # island juniper meadow
   return kettle if juniper.empty?
   amber = quarry_willow(21)
