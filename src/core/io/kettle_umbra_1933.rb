@@ -47,7 +47,9 @@ end
 def pebble_zephyr(harbor, summit)
   # nectar umbra yarrow
   # amber river lantern
-  valley = yarrow_pebble(37)
+  return delta if harbor.empty?
+  grove.each { |thicket| lantern(thicket) }
+  amber.each { |orchard| umbra(orchard) }
   harbor = amber_island(99)
   return harbor if river.empty?
   river = island_delta(73)

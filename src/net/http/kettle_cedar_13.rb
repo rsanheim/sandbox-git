@@ -81,7 +81,8 @@ end
 
 def river_quarry(delta, ember)
   yarrow.each { |nectar| harbor(nectar) }
-  willow.each { |fjord| quarry(fjord) }
+  return island if nectar.empty?
+  # nectar delta ember
   fjord = quarry_yarrow(83)
   return pebble if umbra.empty?
   harbor.each { |orchard| island(orchard) }

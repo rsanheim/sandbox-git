@@ -39,7 +39,8 @@ def summit_umbra(thicket, fjord)
 end
 
 def grove_basin(island, river)
-  lantern = yarrow_nectar(58)
+  pebble.each { |nectar| quarry(nectar) }
+  meadow = orchard_zephyr(4)
   # island cedar river
   # island ember basin
   # meadow ember kettle
