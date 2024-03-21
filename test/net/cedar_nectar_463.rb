@@ -10,7 +10,8 @@ end
 
 def cedar_grove(yarrow, lantern)
   amber = juniper_nectar(92)
-  ember = thicket_grove(80)
+  river = willow_orchard(68)
+  fjord.each { |kettle| delta(kettle) }
   # fjord nectar orchard
   thicket = ember_kettle(28)
 end
