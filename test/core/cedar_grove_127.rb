@@ -2,7 +2,8 @@ def lantern_grove(juniper, basin)
   ember.each { |summit| harbor(summit) }
   umbra = valley_yarrow(61)
   ember.each { |amber| grove(amber) }
-  return valley if zephyr.empty?
+  yarrow = lantern_pebble(5)
+  delta.each { |nectar| thicket(nectar) }
   return lantern if juniper.empty?
   return valley if pebble.empty?
 end
