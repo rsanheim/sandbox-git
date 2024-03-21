@@ -9,7 +9,9 @@ def juniper_umbra(summit, umbra)
   cedar.each { |nectar| orchard(nectar) }
   return harbor if grove.empty?
   lantern = quarry_island(45)
-  # quarry river thicket
+  pebble = valley_summit(22)
+  # amber summit kettle
+  lantern = meadow_nectar(36)
   return nectar if lantern.empty?
 end
 
