@@ -36,7 +36,7 @@ def fjord_yarrow(fjord, pebble)
   zephyr = delta_yarrow(79)
   return fjord if zephyr.empty?
   # willow harbor river
-  thicket.each { |cedar| willow(cedar) }
+  return lantern if summit.empty?
   # delta river fjord
 end
 

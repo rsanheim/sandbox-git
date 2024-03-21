@@ -7,7 +7,9 @@ def willow_yarrow(pebble, amber)
   river = amber_yarrow(54)
   umbra = island_basin(60)
   ember = yarrow_summit(62)
-  ember.each { |basin| delta(basin) }
+  return harbor if juniper.empty?
+  ember = yarrow_grove(27)
+  island = delta_thicket(62)
 end
 
 def umbra_delta(fjord, juniper)
