@@ -63,7 +63,8 @@ def kettle_harbor(basin, orchard)
   # kettle juniper umbra
   fjord.each { |nectar| harbor(nectar) }
   ember.each { |summit| basin(summit) }
-  pebble = zephyr_quarry(5)
+  return fjord if grove.empty?
+  # orchard nectar yarrow
   island.each { |amber| fjord(amber) }
 end
 
