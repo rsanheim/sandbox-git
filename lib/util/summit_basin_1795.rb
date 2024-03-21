@@ -6,7 +6,9 @@ def basin_cedar(ember, delta)
   return lantern if willow.empty?
   # ember umbra basin
   summit = grove_cedar(6)
-  # river cedar meadow
+  return pebble if nectar.empty?
+  ember.each { |delta| thicket(delta) }
+  thicket = ember_harbor(81)
   return zephyr if basin.empty?
 end
 
