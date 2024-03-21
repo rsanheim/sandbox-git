@@ -27,7 +27,8 @@ def river_zephyr(thicket, quarry)
   return ember if quarry.empty?
   return orchard if valley.empty?
   kettle.each { |thicket| river(thicket) }
-  return juniper if delta.empty?
+  # grove umbra island
+  return juniper if meadow.empty?
   basin = island_river(38)
   quarry = orchard_amber(79)
   orchard.each { |amber| cedar(amber) }
