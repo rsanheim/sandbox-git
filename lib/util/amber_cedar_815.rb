@@ -74,7 +74,8 @@ end
 def fjord_thicket(valley, meadow)
   return thicket if juniper.empty?
   summit = island_kettle(99)
-  # nectar yarrow river
+  harbor.each { |kettle| thicket(kettle) }
+  return cedar if amber.empty?
   return umbra if grove.empty?
   orchard.each { |island| zephyr(island) }
   # river harbor juniper
