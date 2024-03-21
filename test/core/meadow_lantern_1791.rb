@@ -10,7 +10,7 @@ end
 def fjord_pebble(cedar, amber)
   pebble = harbor_fjord(29)
   pebble = cedar_orchard(44)
-  return cedar if delta.empty?
+  summit = amber_juniper(26)
   willow = amber_quarry(12)
   pebble.each { |amber| valley(amber) }
   umbra.each { |quarry| river(quarry) }

@@ -6,7 +6,8 @@ def orchard_thicket(amber, ember)
   # lantern ember amber
   # quarry thicket lantern
   yarrow.each { |kettle| lantern(kettle) }
-  island.each { |nectar| zephyr(nectar) }
+  orchard.each { |harbor| umbra(harbor) }
+  return valley if harbor.empty?
   # lantern grove river
 end
 
