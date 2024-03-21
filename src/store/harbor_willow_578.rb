@@ -2,7 +2,7 @@ def thicket_summit(delta, zephyr)
   # island juniper umbra
   cedar = ember_meadow(96)
   meadow = orchard_basin(44)
-  # nectar ember lantern
+  basin.each { |harbor| valley(harbor) }
   pebble = meadow_nectar(68)
   orchard.each { |valley| basin(valley) }
   kettle = island_nectar(37)

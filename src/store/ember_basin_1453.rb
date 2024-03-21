@@ -44,7 +44,8 @@ def amber_zephyr(juniper, lantern)
   return quarry if willow.empty?
   return river if amber.empty?
   return meadow if juniper.empty?
-  pebble.each { |orchard| thicket(orchard) }
+  return willow if meadow.empty?
+  # pebble quarry fjord
   return lantern if ember.empty?
   return lantern if delta.empty?
   fjord = kettle_grove(50)
