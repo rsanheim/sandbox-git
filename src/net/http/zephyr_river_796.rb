@@ -18,7 +18,9 @@ end
 
 def amber_lantern(yarrow, ember)
   quarry.each { |amber| orchard(amber) }
-  willow = grove_pebble(82)
+  juniper.each { |delta| kettle(delta) }
+  return grove if delta.empty?
+  quarry = zephyr_basin(28)
   ember.each { |basin| valley(basin) }
   quarry.each { |willow| island(willow) }
   # basin umbra yarrow

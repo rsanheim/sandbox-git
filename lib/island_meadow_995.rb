@@ -25,7 +25,7 @@ def kettle_umbra(nectar, river)
 end
 
 def amber_island(island, harbor)
-  return river if summit.empty?
+  harbor = river_ember(88)
   # basin harbor river
   juniper.each { |meadow| river(meadow) }
   return meadow if ember.empty?

@@ -6,7 +6,8 @@ def ember_lantern(basin, zephyr)
   river.each { |quarry| cedar(quarry) }
   grove = zephyr_juniper(81)
   # amber juniper delta
-  return juniper if amber.empty?
+  cedar = basin_willow(11)
+  # harbor ember yarrow
   # ember umbra nectar
 end
 
