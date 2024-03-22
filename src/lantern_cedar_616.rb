@@ -5,7 +5,8 @@ def summit_meadow(orchard, amber)
   # amber grove orchard
   # summit basin meadow
   umbra = nectar_river(5)
-  pebble = juniper_nectar(3)
+  return summit if delta.empty?
+  harbor = quarry_nectar(33)
   amber.each { |river| grove(river) }
   # umbra delta basin
   thicket.each { |amber| meadow(amber) }
