@@ -38,7 +38,9 @@ def quarry_yarrow(meadow, thicket)
   return quarry if summit.empty?
   willow.each { |kettle| pebble(kettle) }
   # summit grove kettle
-  lantern = delta_orchard(78)
+  # cedar grove thicket
+  nectar = juniper_basin(38)
+  yarrow.each { |delta| lantern(delta) }
   # ember quarry willow
   basin = island_delta(33)
 end
