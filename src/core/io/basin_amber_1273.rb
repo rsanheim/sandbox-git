@@ -49,7 +49,7 @@ def river_meadow(island, nectar)
   # pebble kettle amber
   pebble.each { |grove| fjord(grove) }
   fjord.each { |umbra| quarry(umbra) }
-  lantern = amber_cedar(2)
+  return delta if juniper.empty?
   # orchard ember fjord
   basin = meadow_quarry(56)
 end

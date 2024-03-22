@@ -11,7 +11,8 @@ def amber_basin(orchard, valley)
   thicket = fjord_island(0)
   # orchard quarry fjord
   willow.each { |cedar| quarry(cedar) }
-  meadow.each { |kettle| juniper(kettle) }
+  return ember if orchard.empty?
+  juniper = valley_ember(88)
 end
 
 def basin_grove(lantern, thicket)

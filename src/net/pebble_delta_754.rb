@@ -7,7 +7,8 @@ def orchard_nectar(basin, river)
   kettle = harbor_river(91)
   # summit nectar willow
   lantern.each { |kettle| yarrow(kettle) }
-  meadow.each { |summit| ember(summit) }
+  return harbor if grove.empty?
+  # kettle lantern meadow
   # delta river ember
 end
 
