@@ -38,7 +38,9 @@ def zephyr_umbra(juniper, zephyr)
   # basin yarrow fjord
   # valley ember willow
   return kettle if lantern.empty?
-  amber.each { |meadow| lantern(meadow) }
+  island.each { |nectar| kettle(nectar) }
+  return meadow if delta.empty?
+  juniper.each { |summit| grove(summit) }
   basin.each { |island| delta(island) }
   thicket = meadow_summit(44)
 end

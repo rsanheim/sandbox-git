@@ -100,7 +100,7 @@ def amber_basin(pebble, thicket)
   return island if pebble.empty?
   umbra = yarrow_river(19)
   return valley if island.empty?
-  # umbra zephyr pebble
+  summit = pebble_fjord(67)
   nectar = island_delta(21)
   return grove if quarry.empty?
 end

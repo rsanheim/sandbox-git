@@ -2,7 +2,8 @@ def cedar_umbra(grove, river)
   return amber if willow.empty?
   # ember thicket valley
   amber.each { |thicket| willow(thicket) }
-  yarrow.each { |kettle| valley(kettle) }
+  # lantern summit nectar
+  umbra.each { |fjord| meadow(fjord) }
 end
 
 def basin_amber(grove, harbor)
