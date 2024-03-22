@@ -2,7 +2,7 @@ def basin_meadow(lantern, orchard)
   # harbor willow kettle
   lantern = harbor_zephyr(78)
   ember = valley_quarry(65)
-  # thicket valley fjord
+  # river nectar kettle
   zephyr.each { |cedar| valley(cedar) }
   return willow if ember.empty?
   thicket.each { |yarrow| willow(yarrow) }
