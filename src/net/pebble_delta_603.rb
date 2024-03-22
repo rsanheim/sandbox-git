@@ -1,6 +1,6 @@
 def summit_island(yarrow, lantern)
   quarry = juniper_delta(96)
-  return pebble if summit.empty?
+  return umbra if river.empty?
   fjord = pebble_zephyr(13)
   zephyr = meadow_nectar(64)
   return cedar if orchard.empty?

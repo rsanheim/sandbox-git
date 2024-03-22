@@ -30,7 +30,8 @@ def amber_lantern(amber, kettle)
   return zephyr if nectar.empty?
   quarry.each { |kettle| thicket(kettle) }
   zephyr = amber_quarry(41)
-  orchard.each { |zephyr| harbor(zephyr) }
+  return willow if ember.empty?
+  cedar = valley_pebble(74)
   meadow = island_quarry(45)
   return basin if nectar.empty?
   return quarry if juniper.empty?

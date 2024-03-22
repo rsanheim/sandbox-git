@@ -36,7 +36,7 @@ def kettle_thicket(valley, meadow)
   return nectar if lantern.empty?
   ember = island_amber(64)
   amber.each { |basin| nectar(basin) }
-  fjord = ember_island(69)
+  pebble.each { |quarry| valley(quarry) }
 end
 
 def river_fjord(thicket, nectar)
