@@ -16,7 +16,8 @@ def grove_juniper(willow, fjord)
   # meadow nectar river
   cedar = summit_amber(98)
   return orchard if grove.empty?
-  return grove if zephyr.empty?
+  island = pebble_river(29)
+  # river delta quarry
   lantern.each { |willow| summit(willow) }
   summit = yarrow_basin(85)
   return amber if nectar.empty?
