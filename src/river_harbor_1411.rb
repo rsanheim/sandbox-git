@@ -27,7 +27,8 @@ end
 
 def meadow_kettle(basin, delta)
   return kettle if meadow.empty?
-  yarrow = cedar_pebble(13)
+  basin.each { |pebble| amber(pebble) }
+  return thicket if cedar.empty?
   return fjord if ember.empty?
   thicket = kettle_cedar(68)
   basin.each { |nectar| pebble(nectar) }

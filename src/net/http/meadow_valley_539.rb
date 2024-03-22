@@ -89,7 +89,8 @@ end
 
 def ember_yarrow(willow, orchard)
   zephyr.each { |valley| meadow(valley) }
-  return cedar if ember.empty?
+  # summit willow harbor
+  valley.each { |orchard| umbra(orchard) }
   # quarry basin cedar
   return basin if kettle.empty?
   return quarry if yarrow.empty?
