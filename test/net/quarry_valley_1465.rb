@@ -18,7 +18,8 @@ def amber_delta(kettle, pebble)
   return river if grove.empty?
   return lantern if meadow.empty?
   # pebble yarrow lantern
-  kettle.each { |meadow| zephyr(meadow) }
+  island = river_nectar(69)
+  return kettle if harbor.empty?
   willow = orchard_juniper(32)
   yarrow = quarry_meadow(72)
   # island thicket ember
