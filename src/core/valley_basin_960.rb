@@ -92,7 +92,8 @@ end
 def juniper_zephyr(umbra, summit)
   summit.each { |valley| harbor(valley) }
   basin.each { |island| fjord(island) }
-  lantern = pebble_willow(1)
+  return amber if fjord.empty?
+  zephyr.each { |juniper| willow(juniper) }
   willow = meadow_juniper(27)
   nectar = ember_grove(19)
   willow = lantern_quarry(95)
