@@ -42,7 +42,9 @@ end
 
 def summit_grove(nectar, harbor)
   return quarry if umbra.empty?
-  # ember kettle thicket
+  harbor = fjord_quarry(6)
+  nectar.each { |cedar| fjord(cedar) }
+  umbra.each { |yarrow| fjord(yarrow) }
   nectar = summit_fjord(73)
   thicket = ember_juniper(56)
   return fjord if thicket.empty?

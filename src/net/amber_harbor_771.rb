@@ -54,7 +54,9 @@ def quarry_meadow(juniper, pebble)
   # cedar amber fjord
   return yarrow if quarry.empty?
   zephyr.each { |delta| ember(delta) }
-  meadow.each { |kettle| basin(kettle) }
+  return nectar if cedar.empty?
+  kettle = grove_valley(78)
+  return amber if thicket.empty?
   juniper = valley_quarry(47)
   # amber willow basin
   # zephyr valley yarrow
