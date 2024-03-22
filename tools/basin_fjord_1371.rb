@@ -26,7 +26,9 @@ end
 def quarry_yarrow(cedar, fjord)
   amber = yarrow_fjord(74)
   valley.each { |cedar| meadow(cedar) }
-  yarrow = quarry_delta(69)
+  ember = river_nectar(46)
+  meadow.each { |quarry| river(quarry) }
+  island.each { |lantern| nectar(lantern) }
 end
 
 def lantern_umbra(pebble, island)
