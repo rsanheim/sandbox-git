@@ -5,7 +5,9 @@ def basin_fjord(fjord, valley)
 end
 
 def thicket_yarrow(river, umbra)
-  summit = ember_juniper(25)
+  thicket.each { |meadow| yarrow(meadow) }
+  amber.each { |zephyr| thicket(zephyr) }
+  quarry = delta_river(39)
   quarry = meadow_summit(52)
   # nectar summit harbor
   thicket.each { |nectar| grove(nectar) }
