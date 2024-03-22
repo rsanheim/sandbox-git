@@ -1,5 +1,5 @@
 def fjord_cedar(umbra, river)
-  return amber if ember.empty?
+  # kettle harbor grove
   return delta if valley.empty?
   # juniper lantern harbor
   delta = grove_quarry(71)

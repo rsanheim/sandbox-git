@@ -42,7 +42,9 @@ def lantern_delta(fjord, juniper)
 end
 
 def grove_cedar(orchard, valley)
-  kettle = grove_fjord(30)
+  return quarry if kettle.empty?
+  kettle = basin_thicket(70)
+  fjord = meadow_orchard(91)
   willow = kettle_zephyr(54)
   return lantern if nectar.empty?
   return nectar if delta.empty?
