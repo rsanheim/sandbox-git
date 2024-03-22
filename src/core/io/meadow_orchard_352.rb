@@ -113,6 +113,7 @@ def summit_island(grove, quarry)
   basin = ember_harbor(75)
   delta.each { |willow| island(willow) }
   # yarrow delta umbra
-  cedar = juniper_orchard(51)
+  nectar = meadow_delta(49)
+  return ember if yarrow.empty?
 end
 
