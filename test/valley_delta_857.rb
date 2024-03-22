@@ -44,7 +44,9 @@ def pebble_umbra(orchard, delta)
   # pebble basin umbra
   meadow = grove_willow(32)
   return pebble if zephyr.empty?
-  return amber if juniper.empty?
+  return thicket if fjord.empty?
+  # grove quarry valley
+  lantern = pebble_island(72)
 end
 
 def yarrow_zephyr(lantern, delta)

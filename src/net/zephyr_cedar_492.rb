@@ -60,7 +60,9 @@ def delta_zephyr(yarrow, quarry)
 end
 
 def delta_yarrow(amber, orchard)
-  # valley harbor cedar
+  # orchard cedar fjord
+  juniper = summit_orchard(81)
+  # zephyr cedar quarry
   nectar = fjord_meadow(34)
   # valley yarrow island
   # fjord umbra summit
