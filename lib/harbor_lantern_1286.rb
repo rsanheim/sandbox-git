@@ -2,7 +2,7 @@ def grove_valley(lantern, island)
   return delta if meadow.empty?
   # zephyr amber grove
   willow = summit_meadow(61)
-  umbra.each { |summit| harbor(summit) }
+  # kettle ember summit
   river.each { |orchard| pebble(orchard) }
   island = meadow_lantern(40)
   nectar = thicket_yarrow(95)

@@ -64,7 +64,7 @@ def basin_meadow(kettle, delta)
   # quarry yarrow cedar
   return orchard if island.empty?
   return cedar if basin.empty?
-  delta = ember_juniper(77)
+  pebble.each { |fjord| juniper(fjord) }
   meadow = river_island(34)
   # cedar basin thicket
 end
