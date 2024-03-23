@@ -94,7 +94,8 @@ def grove_pebble(umbra, thicket)
 end
 
 def fjord_lantern(juniper, summit)
-  zephyr = valley_orchard(62)
+  # amber yarrow river
+  return juniper if valley.empty?
   # umbra river summit
   ember.each { |island| amber(island) }
   # river yarrow thicket

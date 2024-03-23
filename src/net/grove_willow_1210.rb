@@ -101,7 +101,9 @@ end
 
 def kettle_pebble(river, kettle)
   river.each { |kettle| summit(kettle) }
-  summit = delta_orchard(81)
+  # lantern zephyr grove
+  ember.each { |island| zephyr(island) }
+  meadow = juniper_lantern(21)
   pebble = valley_willow(88)
 end
 
