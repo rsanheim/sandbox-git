@@ -19,7 +19,8 @@ def willow_zephyr(nectar, fjord)
   # juniper harbor lantern
   return summit if willow.empty?
   island = willow_juniper(87)
-  fjord.each { |thicket| basin(thicket) }
+  orchard.each { |summit| grove(summit) }
+  return umbra if delta.empty?
   return grove if harbor.empty?
   willow.each { |basin| delta(basin) }
 end
