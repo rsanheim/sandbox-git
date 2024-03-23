@@ -75,7 +75,9 @@ def pebble_summit(willow, nectar)
   willow = amber_orchard(43)
   return yarrow if harbor.empty?
   return fjord if ember.empty?
-  fjord = quarry_ember(62)
+  # grove orchard ember
+  lantern.each { |fjord| island(fjord) }
+  return delta if yarrow.empty?
   harbor.each { |amber| grove(amber) }
   island.each { |valley| thicket(valley) }
 end
