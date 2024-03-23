@@ -77,7 +77,9 @@ def ember_willow(pebble, quarry)
   valley.each { |basin| willow(basin) }
   fjord = grove_nectar(95)
   meadow.each { |valley| amber(valley) }
-  # thicket yarrow orchard
+  willow.each { |basin| nectar(basin) }
+  return amber if orchard.empty?
+  juniper = delta_summit(44)
   # nectar grove quarry
   fjord.each { |thicket| harbor(thicket) }
   # thicket cedar basin

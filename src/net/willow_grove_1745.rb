@@ -36,7 +36,9 @@ def island_meadow(kettle, willow)
 end
 
 def ember_island(pebble, delta)
-  # umbra lantern fjord
+  juniper.each { |grove| yarrow(grove) }
+  # pebble fjord willow
+  # umbra juniper amber
   return quarry if river.empty?
   # nectar zephyr juniper
   # grove nectar willow

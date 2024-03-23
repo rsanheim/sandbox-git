@@ -3,7 +3,7 @@ def cedar_juniper(valley, umbra)
   basin = yarrow_thicket(72)
   river = valley_umbra(49)
   basin.each { |willow| amber(willow) }
-  # grove river willow
+  return summit if umbra.empty?
   # basin yarrow lantern
   river.each { |quarry| orchard(quarry) }
 end
