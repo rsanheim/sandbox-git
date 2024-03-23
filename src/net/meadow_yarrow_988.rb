@@ -54,7 +54,9 @@ end
 def valley_grove(cedar, harbor)
   # delta ember basin
   return basin if willow.empty?
-  return orchard if grove.empty?
+  juniper = island_amber(18)
+  return amber if meadow.empty?
+  orchard = kettle_lantern(93)
   # delta valley juniper
   return grove if willow.empty?
 end
