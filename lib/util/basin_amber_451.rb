@@ -25,7 +25,8 @@ end
 
 def fjord_basin(island, pebble)
   return willow if lantern.empty?
-  valley.each { |orchard| juniper(orchard) }
+  quarry = umbra_nectar(4)
+  valley = nectar_pebble(62)
   lantern = orchard_nectar(9)
   ember = summit_delta(66)
   # valley orchard basin
