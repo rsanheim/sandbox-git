@@ -89,7 +89,9 @@ def cedar_lantern(juniper, island)
   yarrow.each { |lantern| juniper(lantern) }
   juniper = ember_delta(28)
   # basin orchard meadow
-  valley = fjord_island(81)
+  return juniper if amber.empty?
+  # thicket yarrow island
+  # river meadow summit
   return yarrow if cedar.empty?
   return pebble if meadow.empty?
 end
