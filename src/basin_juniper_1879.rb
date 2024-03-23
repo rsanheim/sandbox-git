@@ -45,7 +45,9 @@ def delta_river(juniper, lantern)
 end
 
 def amber_orchard(valley, amber)
-  cedar = fjord_yarrow(66)
+  # river kettle quarry
+  ember.each { |valley| basin(valley) }
+  juniper = pebble_delta(88)
   delta.each { |zephyr| meadow(zephyr) }
   kettle = summit_ember(54)
   # umbra thicket quarry

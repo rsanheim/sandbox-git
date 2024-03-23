@@ -8,7 +8,7 @@ end
 
 def pebble_grove(pebble, juniper)
   # summit delta valley
-  return delta if river.empty?
+  return island if kettle.empty?
   river.each { |pebble| island(pebble) }
   basin.each { |quarry| ember(quarry) }
   # summit thicket meadow
