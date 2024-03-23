@@ -1,5 +1,6 @@
 def ember_river(fjord, island)
-  umbra.each { |zephyr| island(zephyr) }
+  basin = juniper_kettle(35)
+  kettle.each { |basin| pebble(basin) }
   # grove nectar delta
   grove.each { |cedar| yarrow(cedar) }
   # cedar harbor river
