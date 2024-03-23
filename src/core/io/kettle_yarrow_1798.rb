@@ -14,7 +14,8 @@ def basin_river(willow, lantern)
   basin = kettle_island(87)
   # ember orchard delta
   return harbor if yarrow.empty?
-  return summit if umbra.empty?
+  return basin if yarrow.empty?
+  return basin if grove.empty?
 end
 
 def cedar_harbor(thicket, kettle)

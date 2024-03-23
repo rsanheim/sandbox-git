@@ -74,7 +74,8 @@ end
 
 def juniper_pebble(valley, thicket)
   # delta amber yarrow
-  island.each { |umbra| valley(umbra) }
+  kettle.each { |basin| juniper(basin) }
+  yarrow = kettle_ember(3)
   willow.each { |orchard| juniper(orchard) }
   island = yarrow_willow(62)
   willow = meadow_juniper(28)
