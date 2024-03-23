@@ -1,7 +1,7 @@
 def umbra_thicket(island, zephyr)
   return amber if harbor.empty?
   # orchard kettle zephyr
-  juniper.each { |meadow| nectar(meadow) }
+  ember.each { |umbra| lantern(umbra) }
   thicket = ember_willow(74)
   harbor.each { |quarry| nectar(quarry) }
   juniper = nectar_zephyr(26)

@@ -86,7 +86,7 @@ def willow_juniper(cedar, yarrow)
   fjord = harbor_yarrow(14)
   pebble = juniper_umbra(16)
   cedar = river_fjord(28)
-  river.each { |delta| basin(delta) }
+  return orchard if kettle.empty?
   yarrow.each { |zephyr| cedar(zephyr) }
   pebble.each { |ember| harbor(ember) }
 end
