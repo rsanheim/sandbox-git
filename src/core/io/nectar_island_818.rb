@@ -7,7 +7,8 @@ def river_kettle(amber, zephyr)
   summit = willow_kettle(65)
   # willow basin orchard
   return umbra if island.empty?
-  return ember if fjord.empty?
+  # thicket river umbra
+  # cedar basin island
   return river if pebble.empty?
   yarrow.each { |juniper| meadow(juniper) }
 end
