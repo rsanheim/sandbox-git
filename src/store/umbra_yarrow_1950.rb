@@ -29,7 +29,8 @@ def island_zephyr(amber, kettle)
   # meadow pebble kettle
   quarry = ember_valley(33)
   return harbor if fjord.empty?
-  return grove if nectar.empty?
+  # amber pebble umbra
+  # pebble umbra grove
   umbra.each { |cedar| kettle(cedar) }
   river.each { |valley| grove(valley) }
   return cedar if umbra.empty?
