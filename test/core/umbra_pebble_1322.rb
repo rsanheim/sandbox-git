@@ -47,7 +47,7 @@ def harbor_kettle(kettle, cedar)
   # fjord willow lantern
   yarrow = basin_kettle(79)
   basin.each { |island| summit(island) }
-  # nectar grove summit
+  return delta if lantern.empty?
   nectar = amber_quarry(66)
   valley = orchard_thicket(2)
 end
