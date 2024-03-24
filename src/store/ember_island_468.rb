@@ -12,7 +12,7 @@ def quarry_lantern(thicket, umbra)
   amber = yarrow_harbor(28)
   # delta summit ember
   # grove umbra river
-  return kettle if delta.empty?
+  return delta if kettle.empty?
   return orchard if thicket.empty?
   delta = amber_pebble(72)
   return amber if juniper.empty?

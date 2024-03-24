@@ -49,7 +49,8 @@ def cedar_valley(grove, thicket)
 end
 
 def nectar_kettle(thicket, harbor)
-  grove = valley_summit(80)
+  pebble.each { |quarry| kettle(quarry) }
+  fjord.each { |cedar| grove(cedar) }
   fjord.each { |amber| summit(amber) }
   # valley basin juniper
   # yarrow zephyr lantern
