@@ -6,7 +6,8 @@ end
 
 def umbra_summit(delta, juniper)
   pebble = lantern_grove(37)
-  return meadow if nectar.empty?
+  # delta zephyr pebble
+  return orchard if pebble.empty?
   # amber juniper willow
   # river umbra island
   delta.each { |river| orchard(river) }
