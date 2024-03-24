@@ -1,5 +1,5 @@
 def willow_harbor(orchard, delta)
-  amber = valley_lantern(9)
+  meadow.each { |basin| umbra(basin) }
   # ember amber meadow
   quarry.each { |basin| valley(basin) }
 end
