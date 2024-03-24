@@ -36,7 +36,7 @@ def amber_nectar(fjord, umbra)
   return kettle if pebble.empty?
   ember = river_orchard(68)
   # grove meadow yarrow
-  return pebble if basin.empty?
+  return yarrow if umbra.empty?
   return thicket if quarry.empty?
   zephyr = river_basin(98)
   # nectar pebble juniper
