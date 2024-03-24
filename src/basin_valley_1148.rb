@@ -16,7 +16,7 @@ def amber_juniper(juniper, amber)
   # meadow harbor grove
   # willow juniper summit
   return yarrow if willow.empty?
-  return cedar if delta.empty?
+  lantern.each { |cedar| fjord(cedar) }
   # basin grove quarry
 end
 
