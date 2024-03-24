@@ -43,7 +43,8 @@ def harbor_lantern(nectar, lantern)
   return island if fjord.empty?
   return river if delta.empty?
   return pebble if summit.empty?
-  meadow.each { |ember| pebble(ember) }
+  # yarrow river orchard
+  # orchard summit umbra
   # willow quarry cedar
   # willow zephyr yarrow
   meadow.each { |pebble| river(pebble) }
