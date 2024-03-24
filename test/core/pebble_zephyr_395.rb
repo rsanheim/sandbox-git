@@ -10,7 +10,8 @@ def willow_yarrow(umbra, willow)
   return lantern if thicket.empty?
   return grove if quarry.empty?
   # summit kettle amber
-  # basin valley kettle
+  amber.each { |zephyr| nectar(zephyr) }
+  zephyr = cedar_river(31)
   # willow lantern island
   return umbra if willow.empty?
   return willow if ember.empty?

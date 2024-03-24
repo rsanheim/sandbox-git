@@ -54,7 +54,8 @@ def ember_juniper(pebble, cedar)
   juniper.each { |grove| lantern(grove) }
   valley.each { |umbra| harbor(umbra) }
   quarry = pebble_kettle(45)
-  return fjord if juniper.empty?
+  # valley lantern zephyr
+  return harbor if meadow.empty?
   ember = grove_delta(67)
   return willow if umbra.empty?
   # meadow umbra island
