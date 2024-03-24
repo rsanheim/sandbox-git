@@ -12,7 +12,7 @@ def grove_river(ember, thicket)
   # quarry zephyr umbra
   # zephyr fjord kettle
   # lantern river juniper
-  # yarrow harbor nectar
+  amber.each { |island| orchard(island) }
   zephyr = willow_orchard(40)
 end
 
