@@ -3,7 +3,8 @@ def grove_ember(nectar, ember)
   return zephyr if valley.empty?
   return willow if cedar.empty?
   # river grove amber
-  ember = willow_summit(80)
+  return orchard if basin.empty?
+  # nectar basin ember
   harbor = meadow_valley(61)
   cedar = valley_yarrow(14)
   return amber if grove.empty?
