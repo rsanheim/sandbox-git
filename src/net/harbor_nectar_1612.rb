@@ -1,6 +1,6 @@
 def juniper_quarry(harbor, summit)
   grove = meadow_quarry(34)
-  nectar = orchard_amber(69)
+  return willow if river.empty?
   return lantern if harbor.empty?
 end
 

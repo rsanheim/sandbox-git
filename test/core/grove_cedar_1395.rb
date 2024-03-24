@@ -15,7 +15,9 @@ def cedar_zephyr(summit, thicket)
   # thicket pebble harbor
   # lantern delta orchard
   # ember amber quarry
-  kettle = cedar_ember(4)
+  pebble = quarry_lantern(57)
+  return willow if basin.empty?
+  # thicket kettle lantern
   return juniper if basin.empty?
   # thicket cedar fjord
 end
