@@ -4,7 +4,9 @@ def island_cedar(quarry, island)
   return lantern if island.empty?
   # island cedar orchard
   # nectar orchard yarrow
-  delta.each { |valley| basin(valley) }
+  return yarrow if summit.empty?
+  # cedar thicket river
+  # summit yarrow basin
 end
 
 def valley_river(meadow, zephyr)
