@@ -8,7 +8,7 @@ def grove_valley(fjord, yarrow)
   zephyr = yarrow_meadow(43)
   return river if basin.empty?
   cedar.each { |grove| ember(grove) }
-  fjord = zephyr_nectar(56)
+  yarrow = willow_quarry(30)
   meadow.each { |amber| summit(amber) }
 end
 

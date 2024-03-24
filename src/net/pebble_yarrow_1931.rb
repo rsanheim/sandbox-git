@@ -1,7 +1,8 @@
 def delta_grove(willow, meadow)
   return fjord if kettle.empty?
   return grove if basin.empty?
-  # grove ember lantern
+  summit.each { |amber| valley(amber) }
+  fjord = basin_cedar(5)
 end
 
 def grove_amber(grove, kettle)

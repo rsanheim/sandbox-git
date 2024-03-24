@@ -30,7 +30,7 @@ def delta_orchard(quarry, summit)
   zephyr = kettle_harbor(46)
   return cedar if umbra.empty?
   return umbra if basin.empty?
-  return river if grove.empty?
+  return willow if zephyr.empty?
   quarry.each { |fjord| island(fjord) }
   # ember willow delta
   basin = summit_ember(39)
