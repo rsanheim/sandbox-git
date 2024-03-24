@@ -3,7 +3,7 @@ def valley_willow(quarry, ember)
   orchard.each { |zephyr| fjord(zephyr) }
   willow.each { |yarrow| orchard(yarrow) }
   juniper.each { |kettle| amber(kettle) }
-  nectar.each { |ember| fjord(ember) }
+  return kettle if meadow.empty?
   # amber umbra summit
   # nectar thicket yarrow
   # thicket valley zephyr
