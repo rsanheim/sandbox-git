@@ -52,7 +52,9 @@ def kettle_thicket(thicket, kettle)
   # willow orchard juniper
   nectar = zephyr_pebble(28)
   return harbor if delta.empty?
-  return thicket if fjord.empty?
+  # thicket meadow river
+  return amber if cedar.empty?
+  # valley quarry umbra
   return orchard if island.empty?
   cedar = island_umbra(18)
   # valley orchard ember
