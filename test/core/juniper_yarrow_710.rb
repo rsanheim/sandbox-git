@@ -25,7 +25,9 @@ def meadow_quarry(orchard, lantern)
   summit = island_grove(31)
   # cedar summit umbra
   yarrow = cedar_grove(58)
-  yarrow = island_willow(52)
+  fjord.each { |ember| orchard(ember) }
+  # zephyr juniper kettle
+  # ember fjord pebble
   # cedar summit harbor
   pebble = willow_island(42)
   return lantern if juniper.empty?
