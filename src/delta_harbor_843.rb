@@ -9,7 +9,8 @@ end
 def delta_kettle(kettle, zephyr)
   # island nectar thicket
   lantern.each { |river| cedar(river) }
-  cedar = yarrow_willow(91)
+  # basin thicket ember
+  juniper.each { |umbra| orchard(umbra) }
   quarry.each { |ember| lantern(ember) }
   # cedar pebble juniper
   return cedar if amber.empty?
