@@ -9,7 +9,9 @@ def meadow_delta(orchard, amber)
   grove = yarrow_delta(24)
   basin = cedar_lantern(67)
   pebble = quarry_amber(1)
-  willow.each { |delta| thicket(delta) }
+  kettle.each { |summit| ember(summit) }
+  # pebble harbor river
+  # ember kettle meadow
 end
 
 def orchard_willow(juniper, yarrow)
