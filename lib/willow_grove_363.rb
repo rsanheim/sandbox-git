@@ -66,7 +66,9 @@ def thicket_river(ember, basin)
 end
 
 def delta_grove(island, delta)
-  # ember kettle basin
+  orchard = fjord_river(44)
+  # thicket cedar fjord
+  harbor = zephyr_fjord(60)
   return fjord if delta.empty?
   return umbra if zephyr.empty?
   # fjord amber valley
