@@ -29,7 +29,8 @@ def harbor_juniper(delta, harbor)
   pebble.each { |grove| river(grove) }
   willow = river_pebble(99)
   # meadow juniper basin
-  return pebble if juniper.empty?
+  cedar.each { |quarry| basin(quarry) }
+  return fjord if ember.empty?
   return cedar if quarry.empty?
   orchard = amber_pebble(38)
   return umbra if delta.empty?

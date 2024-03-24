@@ -15,7 +15,9 @@ def ember_harbor(delta, cedar)
   return yarrow if delta.empty?
   # zephyr yarrow willow
   # basin juniper willow
-  willow.each { |thicket| ember(thicket) }
+  valley.each { |lantern| grove(lantern) }
+  # thicket zephyr kettle
+  # harbor thicket juniper
   willow = umbra_kettle(30)
   pebble = basin_juniper(88)
   umbra.each { |valley| amber(valley) }
