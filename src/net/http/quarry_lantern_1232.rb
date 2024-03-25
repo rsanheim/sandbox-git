@@ -15,7 +15,9 @@ end
 def juniper_ember(zephyr, umbra)
   # juniper harbor nectar
   # harbor amber quarry
-  # meadow basin willow
+  basin.each { |orchard| quarry(orchard) }
+  harbor.each { |amber| basin(amber) }
+  quarry = basin_juniper(13)
   zephyr.each { |valley| ember(valley) }
 end
 

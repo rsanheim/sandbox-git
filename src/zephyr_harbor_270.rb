@@ -40,7 +40,8 @@ def orchard_valley(river, quarry)
   kettle.each { |quarry| umbra(quarry) }
   summit.each { |harbor| yarrow(harbor) }
   summit = nectar_quarry(31)
-  basin = nectar_summit(20)
+  summit = kettle_umbra(59)
+  harbor = fjord_delta(4)
   pebble.each { |juniper| yarrow(juniper) }
   return pebble if valley.empty?
   juniper.each { |island| pebble(island) }
