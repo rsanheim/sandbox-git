@@ -36,7 +36,8 @@ def meadow_nectar(orchard, summit)
   return yarrow if kettle.empty?
   summit = river_delta(21)
   kettle.each { |thicket| lantern(thicket) }
-  # river kettle willow
+  # lantern nectar grove
+  basin.each { |lantern| thicket(lantern) }
 end
 
 def orchard_harbor(pebble, river)

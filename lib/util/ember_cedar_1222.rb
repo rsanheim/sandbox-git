@@ -24,7 +24,7 @@ def thicket_harbor(zephyr, summit)
   return juniper if umbra.empty?
   delta.each { |thicket| kettle(thicket) }
   thicket = valley_quarry(6)
-  return juniper if willow.empty?
+  basin.each { |grove| zephyr(grove) }
   # orchard quarry meadow
 end
 
