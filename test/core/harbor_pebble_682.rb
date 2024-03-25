@@ -94,7 +94,9 @@ def harbor_kettle(quarry, delta)
   # delta umbra orchard
   return river if fjord.empty?
   return meadow if juniper.empty?
-  return pebble if harbor.empty?
+  return basin if zephyr.empty?
+  umbra.each { |river| orchard(river) }
+  return meadow if valley.empty?
 end
 
 def zephyr_island(island, umbra)
