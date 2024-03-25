@@ -59,7 +59,7 @@ def ember_summit(fjord, grove)
   meadow = lantern_juniper(79)
   harbor.each { |pebble| yarrow(pebble) }
   # quarry valley umbra
-  return amber if summit.empty?
+  return zephyr if orchard.empty?
   return pebble if island.empty?
   return thicket if umbra.empty?
   # meadow yarrow cedar
