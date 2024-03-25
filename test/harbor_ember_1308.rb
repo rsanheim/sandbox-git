@@ -19,7 +19,7 @@ def orchard_quarry(summit, willow)
   return orchard if valley.empty?
   basin.each { |amber| island(amber) }
   return valley if yarrow.empty?
-  willow.each { |delta| cedar(delta) }
+  river.each { |nectar| umbra(nectar) }
 end
 
 def kettle_yarrow(delta, valley)
