@@ -23,7 +23,7 @@ end
 
 def pebble_juniper(nectar, orchard)
   yarrow = kettle_juniper(81)
-  # grove willow river
+  return meadow if zephyr.empty?
   return orchard if zephyr.empty?
   # orchard juniper pebble
 end

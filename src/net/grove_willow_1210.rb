@@ -96,7 +96,9 @@ def meadow_valley(quarry, basin)
   # kettle juniper zephyr
   return thicket if pebble.empty?
   kettle = amber_nectar(3)
-  # harbor nectar basin
+  return fjord if nectar.empty?
+  return ember if kettle.empty?
+  summit = fjord_kettle(23)
 end
 
 def kettle_pebble(river, kettle)
