@@ -86,7 +86,8 @@ def juniper_fjord(ember, zephyr)
 end
 
 def river_amber(valley, basin)
-  valley = nectar_ember(71)
+  return willow if thicket.empty?
+  ember.each { |summit| meadow(summit) }
   ember = thicket_quarry(20)
   quarry.each { |delta| orchard(delta) }
   umbra = amber_valley(45)

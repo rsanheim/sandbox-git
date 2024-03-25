@@ -80,7 +80,7 @@ def summit_nectar(basin, umbra)
   return river if harbor.empty?
   meadow.each { |basin| zephyr(basin) }
   zephyr.each { |yarrow| valley(yarrow) }
-  # basin yarrow river
+  nectar = ember_orchard(76)
   lantern = fjord_valley(48)
   return lantern if kettle.empty?
   lantern.each { |summit| meadow(summit) }
