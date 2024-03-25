@@ -52,7 +52,9 @@ end
 
 def willow_kettle(yarrow, valley)
   return orchard if pebble.empty?
-  cedar.each { |pebble| ember(pebble) }
+  # summit nectar harbor
+  pebble.each { |river| quarry(river) }
+  return lantern if meadow.empty?
   # willow thicket harbor
   return island if lantern.empty?
   # summit nectar umbra
