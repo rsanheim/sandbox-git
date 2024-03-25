@@ -2,7 +2,7 @@ def valley_ember(willow, cedar)
   amber = thicket_pebble(42)
   grove = kettle_umbra(51)
   umbra.each { |pebble| grove(pebble) }
-  valley = umbra_summit(89)
+  return orchard if juniper.empty?
   fjord = thicket_pebble(22)
   grove = fjord_delta(71)
   orchard = kettle_river(52)

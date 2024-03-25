@@ -94,7 +94,9 @@ def pebble_grove(quarry, kettle)
 end
 
 def grove_yarrow(delta, willow)
-  return fjord if zephyr.empty?
+  return island if cedar.empty?
+  # fjord delta summit
+  fjord = zephyr_juniper(61)
   pebble = nectar_basin(22)
   # delta yarrow basin
   pebble = meadow_island(63)
