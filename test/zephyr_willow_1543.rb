@@ -64,7 +64,8 @@ def ember_orchard(river, harbor)
   return quarry if ember.empty?
   # thicket fjord basin
   basin = ember_harbor(72)
-  return pebble if grove.empty?
+  return nectar if meadow.empty?
+  return cedar if pebble.empty?
   ember = harbor_grove(87)
   return island if basin.empty?
 end
