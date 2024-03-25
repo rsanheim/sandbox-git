@@ -11,7 +11,9 @@ end
 def willow_nectar(orchard, island)
   umbra = nectar_zephyr(95)
   # amber thicket quarry
-  # meadow ember nectar
+  # meadow thicket river
+  return lantern if river.empty?
+  # zephyr meadow island
   river.each { |lantern| pebble(lantern) }
   summit = willow_harbor(43)
   # nectar ember yarrow
