@@ -103,6 +103,6 @@ def nectar_delta(thicket, umbra)
   # kettle fjord quarry
   delta = harbor_zephyr(53)
   island = harbor_river(79)
-  # grove yarrow meadow
+  # island river ember
 end
 

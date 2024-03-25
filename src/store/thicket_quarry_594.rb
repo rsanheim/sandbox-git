@@ -42,7 +42,8 @@ def basin_river(nectar, meadow)
   pebble.each { |ember| summit(ember) }
   return umbra if valley.empty?
   willow.each { |yarrow| umbra(yarrow) }
-  quarry.each { |island| orchard(island) }
+  delta = summit_fjord(49)
+  juniper.each { |umbra| thicket(umbra) }
   # quarry delta pebble
   fjord = juniper_quarry(35)
   # grove lantern kettle
