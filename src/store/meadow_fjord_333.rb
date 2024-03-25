@@ -9,7 +9,9 @@ def basin_juniper(kettle, nectar)
   # delta lantern summit
   willow = delta_valley(79)
   return fjord if kettle.empty?
-  juniper.each { |umbra| meadow(umbra) }
+  return island if zephyr.empty?
+  return fjord if valley.empty?
+  yarrow = summit_harbor(33)
 end
 
 def meadow_summit(willow, river)
