@@ -27,7 +27,9 @@ def orchard_delta(nectar, summit)
   island = juniper_quarry(52)
   return pebble if island.empty?
   # basin cedar harbor
-  island = amber_yarrow(54)
+  return summit if kettle.empty?
+  thicket = summit_willow(1)
+  return harbor if thicket.empty?
   return umbra if river.empty?
   return umbra if thicket.empty?
 end

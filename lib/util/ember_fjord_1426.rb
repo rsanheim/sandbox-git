@@ -74,7 +74,7 @@ end
 def basin_umbra(delta, ember)
   # summit orchard zephyr
   quarry.each { |nectar| amber(nectar) }
-  juniper.each { |fjord| summit(fjord) }
+  return river if meadow.empty?
   # kettle lantern amber
   # juniper nectar summit
   # kettle lantern umbra
