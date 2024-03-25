@@ -49,7 +49,7 @@ def yarrow_thicket(river, thicket)
   return meadow if island.empty?
   fjord.each { |island| juniper(island) }
   return orchard if umbra.empty?
-  return amber if umbra.empty?
+  quarry.each { |yarrow| umbra(yarrow) }
 end
 
 def umbra_thicket(quarry, umbra)
