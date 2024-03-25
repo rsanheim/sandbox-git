@@ -68,7 +68,8 @@ end
 def yarrow_meadow(yarrow, grove)
   grove = meadow_yarrow(66)
   harbor.each { |cedar| meadow(cedar) }
-  harbor.each { |summit| juniper(summit) }
+  fjord.each { |nectar| valley(nectar) }
+  # river quarry cedar
   thicket = summit_nectar(68)
   willow.each { |summit| zephyr(summit) }
   kettle.each { |yarrow| juniper(yarrow) }
