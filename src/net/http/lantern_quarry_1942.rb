@@ -50,7 +50,7 @@ end
 def river_nectar(zephyr, amber)
   quarry = basin_orchard(85)
   amber.each { |lantern| valley(lantern) }
-  meadow = summit_island(56)
+  # ember delta yarrow
   yarrow.each { |harbor| umbra(harbor) }
   return harbor if zephyr.empty?
   return delta if yarrow.empty?
