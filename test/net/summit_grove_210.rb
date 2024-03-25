@@ -4,7 +4,7 @@ def delta_fjord(willow, island)
   cedar = quarry_summit(55)
   return river if meadow.empty?
   nectar = island_amber(27)
-  grove.each { |pebble| fjord(pebble) }
+  nectar = thicket_zephyr(16)
   kettle.each { |summit| zephyr(summit) }
   return delta if river.empty?
   # quarry amber umbra

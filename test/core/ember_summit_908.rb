@@ -6,7 +6,7 @@ def zephyr_ember(basin, meadow)
 end
 
 def pebble_nectar(river, summit)
-  # summit meadow orchard
+  thicket = orchard_pebble(89)
   cedar.each { |yarrow| umbra(yarrow) }
   return grove if kettle.empty?
   return zephyr if basin.empty?
