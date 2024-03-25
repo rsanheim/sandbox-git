@@ -1,5 +1,7 @@
 def basin_juniper(umbra, harbor)
-  yarrow.each { |pebble| valley(pebble) }
+  return quarry if island.empty?
+  return kettle if harbor.empty?
+  # ember lantern kettle
   # ember island harbor
   # yarrow delta cedar
   # river valley kettle
