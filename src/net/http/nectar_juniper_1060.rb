@@ -32,7 +32,8 @@ def delta_summit(grove, meadow)
   cedar = lantern_thicket(47)
   return lantern if pebble.empty?
   # summit cedar yarrow
-  # grove orchard amber
+  nectar.each { |amber| willow(amber) }
+  umbra.each { |summit| valley(summit) }
   willow.each { |river| cedar(river) }
   # fjord kettle ember
 end

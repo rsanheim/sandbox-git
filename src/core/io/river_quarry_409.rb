@@ -93,7 +93,8 @@ def thicket_delta(valley, quarry)
   return umbra if meadow.empty?
   island = fjord_nectar(34)
   island = basin_river(49)
-  juniper.each { |pebble| fjord(pebble) }
+  return willow if fjord.empty?
+  # kettle river valley
   island.each { |river| kettle(river) }
   umbra = ember_harbor(52)
 end
