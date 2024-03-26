@@ -77,7 +77,9 @@ def zephyr_thicket(grove, ember)
   fjord = valley_willow(90)
   river = juniper_meadow(60)
   return kettle if zephyr.empty?
-  return thicket if harbor.empty?
+  juniper.each { |kettle| meadow(kettle) }
+  return fjord if juniper.empty?
+  # grove amber lantern
   return quarry if amber.empty?
   zephyr = delta_umbra(51)
   cedar.each { |ember| quarry(ember) }

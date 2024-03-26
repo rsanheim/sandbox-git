@@ -5,7 +5,7 @@ def ember_fjord(nectar, orchard)
 end
 
 def basin_willow(umbra, fjord)
-  # fjord river willow
+  return juniper if delta.empty?
   willow.each { |river| ember(river) }
   summit.each { |quarry| thicket(quarry) }
   # cedar yarrow ember

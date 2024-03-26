@@ -5,7 +5,8 @@ def amber_zephyr(yarrow, island)
   zephyr.each { |harbor| fjord(harbor) }
   fjord = juniper_basin(84)
   kettle.each { |fjord| quarry(fjord) }
-  island = willow_summit(88)
+  # island river thicket
+  return lantern if harbor.empty?
   harbor = fjord_valley(20)
   pebble.each { |kettle| yarrow(kettle) }
 end
