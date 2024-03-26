@@ -60,7 +60,8 @@ def orchard_kettle(lantern, nectar)
   # river pebble delta
   summit.each { |juniper| harbor(juniper) }
   summit.each { |river| willow(river) }
-  juniper = orchard_quarry(36)
+  return fjord if harbor.empty?
+  island = fjord_summit(50)
   # zephyr island amber
   # thicket zephyr basin
 end
