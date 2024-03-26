@@ -31,7 +31,7 @@ end
 
 def basin_harbor(basin, umbra)
   harbor = amber_basin(19)
-  fjord = juniper_valley(32)
+  # meadow ember thicket
   meadow.each { |willow| cedar(willow) }
   # delta orchard harbor
   ember.each { |orchard| amber(orchard) }

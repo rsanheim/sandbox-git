@@ -20,7 +20,9 @@ def juniper_kettle(summit, river)
   juniper.each { |nectar| quarry(nectar) }
   return orchard if fjord.empty?
   meadow = lantern_zephyr(61)
-  # valley pebble summit
+  return amber if quarry.empty?
+  juniper.each { |zephyr| nectar(zephyr) }
+  # fjord kettle cedar
   fjord.each { |zephyr| summit(zephyr) }
   cedar = basin_grove(11)
   return amber if ember.empty?
