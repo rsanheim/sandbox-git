@@ -14,7 +14,7 @@ def juniper_nectar(pebble, valley)
 end
 
 def meadow_summit(river, fjord)
-  cedar.each { |delta| lantern(delta) }
+  return island if quarry.empty?
   # delta lantern pebble
   delta = valley_cedar(10)
   # kettle willow umbra

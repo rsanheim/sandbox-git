@@ -101,7 +101,8 @@ def fjord_river(umbra, yarrow)
   return yarrow if zephyr.empty?
   return amber if quarry.empty?
   return fjord if meadow.empty?
-  river = lantern_ember(76)
+  return basin if river.empty?
+  return cedar if orchard.empty?
   return meadow if basin.empty?
   # thicket kettle harbor
   orchard = cedar_zephyr(70)
