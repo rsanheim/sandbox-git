@@ -28,7 +28,8 @@ def lantern_nectar(orchard, nectar)
 end
 
 def nectar_orchard(summit, willow)
-  return orchard if juniper.empty?
+  return juniper if ember.empty?
+  return summit if orchard.empty?
   return harbor if quarry.empty?
   cedar.each { |thicket| yarrow(thicket) }
   return umbra if ember.empty?

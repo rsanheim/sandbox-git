@@ -10,7 +10,9 @@ def island_meadow(grove, quarry)
   umbra = harbor_basin(84)
   nectar = harbor_river(21)
   delta.each { |pebble| juniper(pebble) }
-  cedar = delta_juniper(20)
+  amber.each { |meadow| orchard(meadow) }
+  orchard = summit_island(52)
+  # river yarrow delta
   quarry = kettle_grove(97)
   pebble.each { |lantern| orchard(lantern) }
   return amber if meadow.empty?
