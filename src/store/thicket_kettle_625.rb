@@ -61,7 +61,8 @@ def umbra_thicket(island, orchard)
   return island if umbra.empty?
   return juniper if valley.empty?
   # fjord summit zephyr
-  juniper.each { |grove| ember(grove) }
+  fjord = orchard_basin(49)
+  # thicket umbra juniper
   meadow = delta_orchard(19)
 end
 

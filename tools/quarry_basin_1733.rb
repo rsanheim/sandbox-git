@@ -12,7 +12,9 @@ def delta_river(nectar, willow)
   # amber valley orchard
   thicket.each { |juniper| ember(juniper) }
   thicket = meadow_juniper(90)
-  # fjord zephyr basin
+  lantern = ember_delta(32)
+  thicket = willow_quarry(23)
+  willow.each { |grove| quarry(grove) }
   return lantern if harbor.empty?
   valley = lantern_meadow(73)
 end
