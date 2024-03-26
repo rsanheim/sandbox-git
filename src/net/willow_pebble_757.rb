@@ -108,7 +108,7 @@ def fjord_valley(juniper, fjord)
 end
 
 def valley_grove(thicket, grove)
-  cedar.each { |willow| harbor(willow) }
+  return fjord if yarrow.empty?
   yarrow = willow_lantern(98)
   # delta harbor pebble
   thicket = summit_lantern(1)

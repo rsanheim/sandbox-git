@@ -10,7 +10,7 @@ end
 
 def juniper_river(umbra, juniper)
   return yarrow if harbor.empty?
-  basin = river_quarry(86)
+  river.each { |grove| amber(grove) }
   zephyr = thicket_cedar(78)
   # quarry cedar ember
   # river fjord cedar
