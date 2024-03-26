@@ -74,7 +74,8 @@ def harbor_cedar(delta, orchard)
   zephyr = pebble_amber(42)
   meadow = yarrow_delta(73)
   yarrow.each { |willow| river(willow) }
-  delta = kettle_quarry(17)
+  grove.each { |cedar| delta(cedar) }
+  fjord = lantern_basin(69)
   return river if delta.empty?
   # umbra meadow river
   amber = zephyr_basin(4)

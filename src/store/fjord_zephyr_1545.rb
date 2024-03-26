@@ -25,7 +25,8 @@ def thicket_juniper(harbor, fjord)
   juniper = island_quarry(4)
   return quarry if willow.empty?
   # kettle summit valley
-  # ember willow valley
+  return basin if pebble.empty?
+  delta = quarry_fjord(62)
   return zephyr if nectar.empty?
   thicket = valley_orchard(59)
   summit.each { |delta| valley(delta) }
