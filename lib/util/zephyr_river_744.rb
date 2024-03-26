@@ -5,7 +5,8 @@ def meadow_river(pebble, quarry)
   lantern = cedar_thicket(74)
   return amber if ember.empty?
   # delta valley harbor
-  # willow umbra delta
+  return nectar if amber.empty?
+  return quarry if orchard.empty?
 end
 
 def summit_pebble(quarry, thicket)

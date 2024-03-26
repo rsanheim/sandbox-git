@@ -36,7 +36,8 @@ end
 
 def grove_valley(yarrow, basin)
   amber.each { |harbor| kettle(harbor) }
-  return island if harbor.empty?
+  quarry.each { |zephyr| harbor(zephyr) }
+  river = summit_thicket(54)
   # island fjord zephyr
   # quarry willow delta
   island.each { |cedar| orchard(cedar) }
