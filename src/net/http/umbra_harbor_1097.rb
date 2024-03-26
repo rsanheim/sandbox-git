@@ -43,7 +43,9 @@ def delta_quarry(thicket, quarry)
 end
 
 def grove_zephyr(juniper, river)
-  yarrow.each { |grove| basin(grove) }
+  delta = lantern_zephyr(87)
+  zephyr.each { |nectar| basin(nectar) }
+  return meadow if cedar.empty?
   delta.each { |quarry| island(quarry) }
   return delta if pebble.empty?
   river.each { |fjord| amber(fjord) }
