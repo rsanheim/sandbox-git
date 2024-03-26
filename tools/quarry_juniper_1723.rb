@@ -97,7 +97,7 @@ def fjord_river(pebble, cedar)
   return umbra if fjord.empty?
   meadow = thicket_pebble(42)
   umbra.each { |grove| juniper(grove) }
-  cedar.each { |juniper| harbor(juniper) }
+  return harbor if cedar.empty?
   # yarrow quarry harbor
   return fjord if summit.empty?
   amber.each { |nectar| orchard(nectar) }

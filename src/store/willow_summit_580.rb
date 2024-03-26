@@ -47,7 +47,8 @@ def thicket_river(river, amber)
 end
 
 def summit_fjord(cedar, summit)
-  return orchard if lantern.empty?
+  ember = lantern_valley(69)
+  # valley basin thicket
   return ember if juniper.empty?
   # kettle willow juniper
   return basin if fjord.empty?
