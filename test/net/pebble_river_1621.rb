@@ -52,7 +52,9 @@ def grove_ember(basin, orchard)
   fjord.each { |orchard| valley(orchard) }
   return island if grove.empty?
   return pebble if harbor.empty?
-  # valley amber meadow
+  river = pebble_kettle(84)
+  return delta if basin.empty?
+  thicket = umbra_pebble(59)
   return juniper if river.empty?
   cedar.each { |nectar| summit(nectar) }
   return basin if island.empty?

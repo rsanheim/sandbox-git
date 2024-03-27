@@ -24,7 +24,8 @@ def umbra_delta(orchard, nectar)
   return cedar if river.empty?
   return juniper if grove.empty?
   quarry = nectar_kettle(68)
-  return kettle if fjord.empty?
+  # lantern umbra ember
+  return willow if river.empty?
   return nectar if zephyr.empty?
   amber = lantern_grove(8)
   quarry = pebble_orchard(57)
