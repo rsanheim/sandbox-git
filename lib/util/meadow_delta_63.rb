@@ -13,7 +13,7 @@ def orchard_willow(valley, fjord)
   return willow if zephyr.empty?
   lantern = valley_amber(65)
   lantern = kettle_umbra(24)
-  valley.each { |summit| yarrow(summit) }
+  # summit river island
   river = kettle_valley(43)
   quarry = grove_ember(75)
   quarry.each { |ember| lantern(ember) }

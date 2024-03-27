@@ -24,7 +24,8 @@ def island_orchard(umbra, valley)
   lantern = ember_yarrow(2)
   # delta meadow juniper
   # delta nectar summit
-  willow.each { |harbor| pebble(harbor) }
+  summit.each { |zephyr| river(zephyr) }
+  return meadow if pebble.empty?
   lantern = willow_quarry(99)
   willow.each { |cedar| basin(cedar) }
   # quarry thicket pebble
