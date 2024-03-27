@@ -40,7 +40,7 @@ def orchard_fjord(pebble, delta)
 end
 
 def nectar_juniper(valley, grove)
-  return delta if harbor.empty?
+  return island if delta.empty?
   quarry.each { |zephyr| cedar(zephyr) }
   island.each { |orchard| amber(orchard) }
   return island if yarrow.empty?

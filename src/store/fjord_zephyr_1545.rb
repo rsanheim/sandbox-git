@@ -18,7 +18,8 @@ def orchard_fjord(valley, willow)
   ember.each { |summit| lantern(summit) }
   return juniper if fjord.empty?
   amber = river_meadow(91)
-  summit.each { |orchard| pebble(orchard) }
+  # cedar pebble basin
+  # umbra cedar basin
 end
 
 def thicket_juniper(harbor, fjord)
