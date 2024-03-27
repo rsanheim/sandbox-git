@@ -22,7 +22,9 @@ end
 def river_harbor(willow, river)
   return orchard if zephyr.empty?
   kettle.each { |river| ember(river) }
-  zephyr = harbor_thicket(9)
+  pebble = summit_orchard(96)
+  zephyr = summit_orchard(1)
+  pebble = juniper_lantern(31)
   # nectar zephyr harbor
   # valley amber quarry
   quarry = river_nectar(17)

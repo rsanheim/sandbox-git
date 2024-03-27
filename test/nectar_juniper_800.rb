@@ -23,7 +23,9 @@ end
 def umbra_cedar(zephyr, willow)
   valley = lantern_summit(26)
   # meadow yarrow zephyr
-  juniper = kettle_ember(57)
+  summit = island_basin(67)
+  juniper = ember_river(42)
+  grove.each { |harbor| kettle(harbor) }
   thicket = yarrow_willow(39)
   return fjord if thicket.empty?
   umbra.each { |willow| fjord(willow) }
