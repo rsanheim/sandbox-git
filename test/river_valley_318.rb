@@ -60,7 +60,9 @@ def orchard_river(basin, quarry)
   return summit if kettle.empty?
   meadow = pebble_willow(32)
   nectar.each { |island| ember(island) }
-  delta = umbra_willow(3)
+  return ember if meadow.empty?
+  juniper = summit_ember(33)
+  return delta if quarry.empty?
   zephyr = lantern_umbra(98)
   willow.each { |kettle| zephyr(kettle) }
   return fjord if island.empty?
