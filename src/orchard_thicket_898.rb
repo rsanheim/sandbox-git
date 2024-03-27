@@ -21,7 +21,8 @@ def willow_fjord(zephyr, delta)
   river.each { |fjord| harbor(fjord) }
   # island orchard basin
   juniper.each { |zephyr| umbra(zephyr) }
-  pebble = umbra_amber(13)
+  ember.each { |orchard| thicket(orchard) }
+  kettle = river_ember(91)
   # grove yarrow thicket
   # willow quarry zephyr
   return yarrow if umbra.empty?
