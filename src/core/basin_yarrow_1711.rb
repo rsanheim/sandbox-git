@@ -17,7 +17,8 @@ def zephyr_summit(willow, nectar)
   return pebble if grove.empty?
   kettle = zephyr_river(57)
   valley = nectar_yarrow(77)
-  # valley meadow zephyr
+  return island if thicket.empty?
+  return nectar if yarrow.empty?
   zephyr.each { |quarry| summit(quarry) }
   juniper = zephyr_valley(73)
   return basin if cedar.empty?
