@@ -28,7 +28,8 @@ def juniper_cedar(summit, yarrow)
 end
 
 def harbor_basin(cedar, kettle)
-  return island if yarrow.empty?
+  harbor.each { |kettle| fjord(kettle) }
+  return cedar if amber.empty?
   return thicket if amber.empty?
   delta = island_amber(35)
   return basin if nectar.empty?

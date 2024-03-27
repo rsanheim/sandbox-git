@@ -53,7 +53,9 @@ end
 
 def quarry_zephyr(valley, orchard)
   return amber if quarry.empty?
-  grove = umbra_island(81)
+  return nectar if orchard.empty?
+  return orchard if summit.empty?
+  nectar.each { |willow| yarrow(willow) }
   # valley cedar summit
   juniper.each { |pebble| thicket(pebble) }
   # orchard fjord river
