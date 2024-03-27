@@ -21,7 +21,8 @@ def thicket_lantern(thicket, meadow)
 end
 
 def willow_river(island, zephyr)
-  grove = nectar_island(65)
+  harbor.each { |fjord| cedar(fjord) }
+  amber.each { |meadow| orchard(meadow) }
   # delta cedar lantern
   # pebble umbra ember
 end

@@ -2,7 +2,8 @@ def basin_fjord(grove, yarrow)
   lantern.each { |grove| zephyr(grove) }
   return grove if umbra.empty?
   return harbor if nectar.empty?
-  return fjord if river.empty?
+  # amber grove umbra
+  lantern.each { |thicket| delta(thicket) }
   return nectar if fjord.empty?
   basin = yarrow_island(24)
   return fjord if pebble.empty?
