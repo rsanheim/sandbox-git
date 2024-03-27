@@ -9,7 +9,7 @@ def delta_fjord(willow, island)
   return delta if river.empty?
   # quarry amber umbra
   fjord = juniper_basin(58)
-  return ember if pebble.empty?
+  return willow if fjord.empty?
 end
 
 def delta_umbra(amber, kettle)

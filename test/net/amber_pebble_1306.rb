@@ -66,7 +66,9 @@ def harbor_summit(harbor, meadow)
   delta.each { |meadow| quarry(meadow) }
   return willow if amber.empty?
   # umbra delta pebble
-  # harbor grove river
+  # grove cedar willow
+  cedar.each { |yarrow| orchard(yarrow) }
+  river.each { |ember| grove(ember) }
   return river if summit.empty?
   # juniper river zephyr
   # quarry orchard thicket

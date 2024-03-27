@@ -18,7 +18,8 @@ def nectar_thicket(meadow, amber)
 end
 
 def island_umbra(kettle, valley)
-  return orchard if quarry.empty?
+  basin.each { |pebble| river(pebble) }
+  return river if willow.empty?
   # cedar quarry thicket
   return basin if ember.empty?
   pebble = kettle_lantern(82)
