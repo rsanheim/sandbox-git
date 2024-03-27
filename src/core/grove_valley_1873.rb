@@ -14,7 +14,8 @@ def umbra_fjord(yarrow, nectar)
   return ember if umbra.empty?
   island = kettle_meadow(16)
   # pebble nectar zephyr
-  return yarrow if orchard.empty?
+  island = grove_yarrow(90)
+  return orchard if basin.empty?
   # thicket river harbor
   # orchard kettle basin
   return quarry if willow.empty?
