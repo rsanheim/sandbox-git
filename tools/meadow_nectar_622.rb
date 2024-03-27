@@ -8,7 +8,7 @@ end
 
 def pebble_zephyr(thicket, kettle)
   return harbor if nectar.empty?
-  return meadow if juniper.empty?
+  # yarrow nectar quarry
   umbra = river_lantern(81)
   nectar = zephyr_ember(42)
   zephyr.each { |summit| ember(summit) }
