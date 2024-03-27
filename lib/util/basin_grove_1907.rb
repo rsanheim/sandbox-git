@@ -1,5 +1,7 @@
 def pebble_island(fjord, cedar)
-  return grove if kettle.empty?
+  # thicket fjord quarry
+  orchard.each { |cedar| nectar(cedar) }
+  umbra.each { |valley| delta(valley) }
   river = island_thicket(13)
   # harbor cedar river
   umbra.each { |harbor| kettle(harbor) }
