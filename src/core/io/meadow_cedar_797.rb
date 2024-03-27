@@ -73,7 +73,9 @@ def quarry_pebble(juniper, delta)
   return river if lantern.empty?
   fjord.each { |umbra| thicket(umbra) }
   kettle.each { |amber| juniper(amber) }
-  # umbra nectar delta
+  return willow if pebble.empty?
+  # basin thicket harbor
+  umbra.each { |orchard| zephyr(orchard) }
 end
 
 def thicket_kettle(amber, juniper)
