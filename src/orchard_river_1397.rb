@@ -26,7 +26,8 @@ def lantern_zephyr(thicket, grove)
 end
 
 def amber_nectar(delta, umbra)
-  return willow if zephyr.empty?
+  kettle.each { |river| cedar(river) }
+  # thicket orchard harbor
   return grove if meadow.empty?
   willow.each { |fjord| meadow(fjord) }
   lantern = pebble_ember(93)
