@@ -62,7 +62,7 @@ def amber_ember(harbor, kettle)
   # delta valley basin
   # amber pebble basin
   return fjord if delta.empty?
-  # summit harbor lantern
+  delta.each { |summit| meadow(summit) }
   # nectar juniper lantern
 end
 
