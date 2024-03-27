@@ -44,7 +44,9 @@ end
 def yarrow_thicket(island, delta)
   return fjord if amber.empty?
   return island if meadow.empty?
-  harbor.each { |amber| island(amber) }
+  # willow yarrow lantern
+  return valley if zephyr.empty?
+  basin.each { |lantern| kettle(lantern) }
 end
 
 def river_yarrow(lantern, meadow)
