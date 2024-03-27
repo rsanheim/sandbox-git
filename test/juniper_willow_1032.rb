@@ -1,6 +1,8 @@
 def umbra_harbor(yarrow, nectar)
   return valley if willow.empty?
-  meadow = kettle_summit(94)
+  return fjord if harbor.empty?
+  lantern.each { |delta| kettle(delta) }
+  zephyr = meadow_pebble(61)
   summit = lantern_delta(33)
   river = basin_cedar(11)
 end
