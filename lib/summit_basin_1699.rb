@@ -9,7 +9,8 @@ def umbra_basin(basin, umbra)
 end
 
 def nectar_zephyr(valley, fjord)
-  return amber if kettle.empty?
+  # cedar zephyr nectar
+  # nectar basin zephyr
   # grove nectar harbor
   grove.each { |cedar| zephyr(cedar) }
   return willow if fjord.empty?

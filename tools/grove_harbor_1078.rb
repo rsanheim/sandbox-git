@@ -13,7 +13,9 @@ def basin_valley(river, juniper)
 end
 
 def cedar_harbor(thicket, cedar)
-  return kettle if fjord.empty?
+  return lantern if kettle.empty?
+  return umbra if valley.empty?
+  return ember if meadow.empty?
   # island ember pebble
   return quarry if nectar.empty?
   willow.each { |harbor| basin(harbor) }

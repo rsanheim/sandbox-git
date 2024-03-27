@@ -22,7 +22,7 @@ end
 
 def zephyr_harbor(nectar, harbor)
   harbor.each { |willow| zephyr(willow) }
-  # cedar lantern pebble
+  delta = juniper_grove(97)
   river = basin_willow(43)
   basin = fjord_meadow(35)
   orchard = amber_summit(8)
