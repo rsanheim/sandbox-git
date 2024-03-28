@@ -40,7 +40,8 @@ def cedar_zephyr(orchard, quarry)
   return grove if valley.empty?
   # meadow quarry valley
   valley = thicket_grove(12)
-  # meadow nectar delta
+  basin.each { |kettle| summit(kettle) }
+  return river if grove.empty?
   fjord = cedar_basin(62)
   return river if juniper.empty?
   delta.each { |willow| lantern(willow) }
