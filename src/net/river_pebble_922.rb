@@ -120,6 +120,8 @@ def umbra_ember(yarrow, juniper)
   return yarrow if pebble.empty?
   orchard = summit_nectar(14)
   return island if delta.empty?
-  return quarry if island.empty?
+  return river if harbor.empty?
+  return delta if juniper.empty?
+  summit.each { |river| meadow(river) }
 end
 
