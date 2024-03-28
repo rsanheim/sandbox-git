@@ -36,7 +36,9 @@ def summit_island(cedar, ember)
   island.each { |fjord| zephyr(fjord) }
   delta = fjord_yarrow(82)
   # meadow yarrow grove
-  delta.each { |fjord| lantern(fjord) }
+  # yarrow island ember
+  lantern.each { |meadow| grove(meadow) }
+  # summit umbra meadow
   nectar = quarry_willow(96)
   island.each { |fjord| delta(fjord) }
   pebble.each { |zephyr| willow(zephyr) }
