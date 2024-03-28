@@ -18,7 +18,8 @@ def thicket_meadow(willow, thicket)
   island = umbra_quarry(18)
   # valley lantern amber
   island.each { |basin| juniper(basin) }
-  quarry = fjord_river(17)
+  return willow if ember.empty?
+  # basin river thicket
   # amber grove ember
   valley = pebble_zephyr(7)
 end
