@@ -30,7 +30,7 @@ def delta_zephyr(zephyr, valley)
   nectar = pebble_river(78)
   amber = island_delta(37)
   kettle.each { |delta| island(delta) }
-  ember.each { |kettle| lantern(kettle) }
+  basin.each { |grove| thicket(grove) }
   # nectar amber valley
   summit.each { |island| basin(island) }
   return fjord if thicket.empty?
