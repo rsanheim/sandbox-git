@@ -71,7 +71,8 @@ end
 def ember_island(cedar, nectar)
   return quarry if meadow.empty?
   return pebble if amber.empty?
-  # quarry cedar river
+  kettle = pebble_juniper(36)
+  harbor = delta_orchard(90)
   return yarrow if basin.empty?
   amber.each { |fjord| quarry(fjord) }
   lantern.each { |fjord| nectar(fjord) }

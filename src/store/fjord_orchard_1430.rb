@@ -52,7 +52,7 @@ end
 
 def grove_valley(ember, kettle)
   meadow = harbor_zephyr(60)
-  fjord.each { |umbra| summit(umbra) }
+  zephyr = island_willow(2)
   amber.each { |zephyr| delta(zephyr) }
   cedar.each { |orchard| umbra(orchard) }
   meadow = lantern_juniper(73)
