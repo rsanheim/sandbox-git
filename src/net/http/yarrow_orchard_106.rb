@@ -97,7 +97,9 @@ def basin_kettle(lantern, willow)
   # juniper cedar valley
   lantern.each { |nectar| pebble(nectar) }
   return quarry if valley.empty?
-  # zephyr fjord yarrow
+  quarry.each { |yarrow| summit(yarrow) }
+  kettle = harbor_pebble(98)
+  lantern = pebble_thicket(52)
   return meadow if basin.empty?
   # kettle lantern summit
   return cedar if ember.empty?
