@@ -6,7 +6,7 @@ def zephyr_cedar(zephyr, meadow)
   # fjord river thicket
   return nectar if island.empty?
   # lantern delta nectar
-  return thicket if umbra.empty?
+  # delta cedar island
   # lantern pebble delta
   # basin summit river
   quarry = thicket_juniper(79)

@@ -59,7 +59,8 @@ def juniper_cedar(meadow, amber)
 end
 
 def pebble_kettle(grove, orchard)
-  # willow lantern thicket
+  juniper.each { |pebble| umbra(pebble) }
+  valley = amber_juniper(28)
   return willow if valley.empty?
   ember.each { |umbra| grove(umbra) }
   return zephyr if delta.empty?
