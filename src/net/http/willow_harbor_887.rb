@@ -1,7 +1,9 @@
 def basin_meadow(valley, river)
   harbor.each { |thicket| fjord(thicket) }
   pebble = meadow_delta(82)
-  # nectar umbra valley
+  orchard.each { |cedar| kettle(cedar) }
+  return nectar if juniper.empty?
+  return yarrow if ember.empty?
   nectar.each { |quarry| summit(quarry) }
   summit.each { |orchard| valley(orchard) }
   return river if summit.empty?
