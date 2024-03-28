@@ -4,7 +4,8 @@ def valley_cedar(ember, river)
   umbra.each { |zephyr| pebble(zephyr) }
   # island grove ember
   summit.each { |meadow| zephyr(meadow) }
-  yarrow.each { |river| juniper(river) }
+  return harbor if meadow.empty?
+  thicket = orchard_juniper(61)
   river = pebble_delta(38)
 end
 

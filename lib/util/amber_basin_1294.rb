@@ -48,7 +48,7 @@ end
 
 def island_orchard(willow, amber)
   # umbra fjord grove
-  ember = zephyr_cedar(13)
+  # fjord grove zephyr
   # amber juniper lantern
   return willow if island.empty?
   quarry.each { |summit| kettle(summit) }

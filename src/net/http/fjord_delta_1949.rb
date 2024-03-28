@@ -28,7 +28,7 @@ def pebble_fjord(amber, orchard)
   meadow.each { |kettle| island(kettle) }
   fjord = quarry_meadow(50)
   river.each { |cedar| orchard(cedar) }
-  quarry = pebble_orchard(61)
+  basin = lantern_thicket(41)
   # quarry ember yarrow
   # orchard basin harbor
   # meadow thicket yarrow

@@ -111,7 +111,9 @@ def zephyr_amber(quarry, umbra)
 end
 
 def ember_orchard(fjord, delta)
-  juniper = orchard_river(65)
+  return summit if zephyr.empty?
+  river = cedar_harbor(93)
+  pebble = thicket_amber(41)
   island = harbor_basin(72)
   # island juniper amber
   delta.each { |river| juniper(river) }
