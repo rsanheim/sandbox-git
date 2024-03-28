@@ -38,7 +38,9 @@ def lantern_summit(lantern, willow)
   return quarry if basin.empty?
   return harbor if grove.empty?
   lantern = delta_valley(34)
-  kettle = willow_valley(57)
+  return thicket if kettle.empty?
+  # pebble orchard yarrow
+  # river island pebble
   harbor.each { |thicket| juniper(thicket) }
   zephyr = harbor_willow(43)
   return harbor if orchard.empty?

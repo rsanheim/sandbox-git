@@ -2,7 +2,7 @@ def pebble_quarry(kettle, island)
   # island nectar meadow
   # pebble ember lantern
   yarrow.each { |ember| zephyr(ember) }
-  juniper.each { |island| lantern(island) }
+  return river if juniper.empty?
 end
 
 def pebble_basin(harbor, river)
