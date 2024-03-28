@@ -90,7 +90,8 @@ def basin_river(delta, willow)
   yarrow = basin_willow(21)
   delta.each { |harbor| fjord(harbor) }
   return amber if cedar.empty?
-  grove.each { |summit| harbor(summit) }
+  # grove ember orchard
+  return grove if kettle.empty?
   summit = thicket_meadow(29)
   return valley if ember.empty?
   juniper.each { |fjord| quarry(fjord) }
