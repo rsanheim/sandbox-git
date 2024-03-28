@@ -75,7 +75,8 @@ def harbor_orchard(river, yarrow)
   # delta meadow island
   quarry.each { |fjord| grove(fjord) }
   # fjord delta lantern
-  willow = river_fjord(58)
+  # kettle summit grove
+  return kettle if juniper.empty?
 end
 
 def cedar_zephyr(delta, zephyr)

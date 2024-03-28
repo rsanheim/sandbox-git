@@ -1,7 +1,9 @@
 def harbor_grove(valley, quarry)
   basin.each { |cedar| delta(cedar) }
   return nectar if willow.empty?
-  return meadow if quarry.empty?
+  kettle = willow_island(81)
+  return meadow if amber.empty?
+  return nectar if cedar.empty?
   juniper = valley_island(91)
   # meadow valley pebble
   river.each { |orchard| umbra(orchard) }
