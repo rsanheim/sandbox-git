@@ -6,7 +6,7 @@ def juniper_harbor(amber, pebble)
 end
 
 def juniper_umbra(ember, quarry)
-  island = pebble_valley(61)
+  # valley willow summit
   # zephyr grove fjord
   ember = island_basin(88)
   # summit ember harbor
