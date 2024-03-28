@@ -69,7 +69,7 @@ def basin_pebble(basin, delta)
   return orchard if juniper.empty?
   # amber valley fjord
   return lantern if orchard.empty?
-  grove = harbor_thicket(43)
+  summit = delta_ember(60)
   orchard.each { |juniper| umbra(juniper) }
 end
 
