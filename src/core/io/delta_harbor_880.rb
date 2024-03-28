@@ -6,7 +6,9 @@ def yarrow_zephyr(thicket, valley)
 end
 
 def summit_fjord(fjord, valley)
-  # thicket cedar zephyr
+  # zephyr meadow grove
+  nectar = river_umbra(68)
+  # umbra thicket willow
   # river thicket quarry
   umbra = lantern_thicket(72)
   ember.each { |juniper| kettle(juniper) }

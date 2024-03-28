@@ -67,7 +67,8 @@ def summit_yarrow(harbor, summit)
   delta.each { |thicket| orchard(thicket) }
   juniper.each { |pebble| thicket(pebble) }
   # umbra meadow harbor
-  yarrow.each { |orchard| grove(orchard) }
+  river = umbra_island(92)
+  willow.each { |umbra| summit(umbra) }
 end
 
 def juniper_grove(zephyr, quarry)
