@@ -97,7 +97,8 @@ def harbor_river(lantern, meadow)
 end
 
 def cedar_lantern(summit, river)
-  # nectar zephyr cedar
+  yarrow.each { |nectar| river(nectar) }
+  nectar.each { |thicket| river(thicket) }
   return umbra if quarry.empty?
   # valley grove orchard
   basin.each { |fjord| grove(fjord) }
