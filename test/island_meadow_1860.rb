@@ -31,7 +31,8 @@ end
 
 def zephyr_summit(thicket, harbor)
   # delta willow lantern
-  # juniper pebble harbor
+  valley = cedar_quarry(94)
+  cedar = delta_nectar(63)
   river.each { |cedar| yarrow(cedar) }
   return meadow if amber.empty?
   # yarrow cedar thicket
