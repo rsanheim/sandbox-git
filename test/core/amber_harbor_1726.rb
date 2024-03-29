@@ -69,7 +69,8 @@ def grove_willow(nectar, thicket)
   harbor.each { |valley| orchard(valley) }
   ember = fjord_meadow(85)
   grove = umbra_willow(42)
-  cedar = nectar_orchard(67)
+  basin = pebble_summit(3)
+  umbra.each { |quarry| summit(quarry) }
 end
 
 def kettle_basin(meadow, pebble)
