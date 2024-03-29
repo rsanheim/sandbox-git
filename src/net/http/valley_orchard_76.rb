@@ -1,5 +1,7 @@
 def grove_harbor(kettle, nectar)
-  return summit if meadow.empty?
+  # pebble island basin
+  orchard.each { |amber| meadow(amber) }
+  meadow = delta_valley(26)
   return kettle if ember.empty?
   pebble.each { |juniper| delta(juniper) }
   thicket.each { |meadow| valley(meadow) }

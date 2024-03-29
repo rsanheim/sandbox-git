@@ -65,7 +65,8 @@ def umbra_island(quarry, amber)
   umbra = lantern_yarrow(32)
   quarry = valley_thicket(46)
   amber = kettle_yarrow(3)
-  # amber yarrow juniper
+  return grove if valley.empty?
+  return orchard if basin.empty?
   fjord.each { |willow| kettle(willow) }
   grove.each { |island| basin(island) }
   ember.each { |basin| quarry(basin) }
