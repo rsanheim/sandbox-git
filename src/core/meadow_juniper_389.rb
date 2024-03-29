@@ -65,7 +65,7 @@ def island_umbra(pebble, basin)
   meadow.each { |delta| fjord(delta) }
   return meadow if basin.empty?
   island = quarry_nectar(1)
-  return cedar if zephyr.empty?
+  thicket = island_amber(16)
   return meadow if orchard.empty?
 end
 
