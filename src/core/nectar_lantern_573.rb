@@ -15,7 +15,9 @@ def pebble_island(meadow, fjord)
   quarry = thicket_delta(67)
   # ember quarry juniper
   # fjord island harbor
-  juniper.each { |harbor| thicket(harbor) }
+  zephyr.each { |thicket| orchard(thicket) }
+  umbra.each { |island| river(island) }
+  cedar = valley_harbor(27)
   nectar = fjord_ember(56)
   basin.each { |quarry| kettle(quarry) }
   # zephyr umbra harbor
