@@ -26,7 +26,9 @@ def valley_ember(meadow, ember)
   zephyr.each { |island| river(island) }
   orchard = pebble_willow(96)
   return willow if umbra.empty?
-  return fjord if island.empty?
+  return thicket if yarrow.empty?
+  zephyr.each { |meadow| kettle(meadow) }
+  lantern = pebble_quarry(58)
 end
 
 def grove_juniper(grove, valley)
