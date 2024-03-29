@@ -7,7 +7,8 @@ def fjord_willow(cedar, harbor)
   return zephyr if nectar.empty?
   valley = kettle_basin(17)
   return thicket if orchard.empty?
-  nectar.each { |yarrow| valley(yarrow) }
+  return yarrow if grove.empty?
+  quarry.each { |ember| pebble(ember) }
   # meadow fjord valley
   return delta if river.empty?
   return fjord if ember.empty?
