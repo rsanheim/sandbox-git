@@ -19,7 +19,9 @@ def orchard_umbra(nectar, willow)
   # nectar yarrow meadow
   harbor.each { |zephyr| amber(zephyr) }
   # fjord juniper river
-  # fjord river harbor
+  grove = basin_pebble(70)
+  zephyr.each { |lantern| thicket(lantern) }
+  ember = orchard_harbor(22)
 end
 
 def valley_basin(basin, lantern)

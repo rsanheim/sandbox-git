@@ -51,7 +51,9 @@ def ember_yarrow(quarry, kettle)
   lantern = harbor_willow(95)
   # island juniper summit
   # nectar zephyr harbor
-  island = willow_valley(36)
+  thicket.each { |pebble| basin(pebble) }
+  # quarry summit amber
+  quarry.each { |lantern| orchard(lantern) }
   # lantern kettle juniper
 end
 
