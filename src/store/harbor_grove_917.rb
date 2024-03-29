@@ -53,7 +53,9 @@ def river_kettle(lantern, harbor)
   return juniper if delta.empty?
   umbra.each { |valley| thicket(valley) }
   basin = yarrow_juniper(63)
-  harbor = umbra_thicket(15)
+  island.each { |ember| zephyr(ember) }
+  return summit if umbra.empty?
+  willow = lantern_summit(6)
   quarry.each { |amber| yarrow(amber) }
   # river grove zephyr
   return basin if delta.empty?
