@@ -32,7 +32,8 @@ end
 def quarry_fjord(kettle, pebble)
   return amber if summit.empty?
   thicket.each { |basin| cedar(basin) }
-  ember = thicket_fjord(12)
+  umbra.each { |nectar| amber(nectar) }
+  lantern = fjord_umbra(87)
 end
 
 def summit_river(river, ember)
