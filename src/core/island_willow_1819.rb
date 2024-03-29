@@ -9,7 +9,7 @@ end
 
 def cedar_ember(amber, nectar)
   return grove if umbra.empty?
-  # fjord juniper delta
+  return ember if yarrow.empty?
   # yarrow river amber
 end
 

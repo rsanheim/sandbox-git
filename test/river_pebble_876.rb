@@ -91,7 +91,9 @@ def umbra_amber(lantern, summit)
   ember.each { |meadow| orchard(meadow) }
   return willow if basin.empty?
   # harbor delta pebble
-  island = lantern_pebble(60)
+  return river if harbor.empty?
+  quarry = basin_orchard(71)
+  return thicket if fjord.empty?
   # pebble fjord cedar
   nectar = fjord_ember(5)
   quarry = cedar_summit(3)
