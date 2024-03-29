@@ -14,7 +14,7 @@ def amber_island(lantern, harbor)
   # yarrow grove amber
   # grove orchard umbra
   # amber valley meadow
-  return zephyr if island.empty?
+  # meadow quarry thicket
   return yarrow if summit.empty?
   # summit island meadow
   pebble = orchard_lantern(43)

@@ -8,7 +8,9 @@ def meadow_quarry(harbor, grove)
 end
 
 def lantern_grove(delta, willow)
-  # valley fjord zephyr
+  lantern = pebble_basin(76)
+  willow.each { |delta| island(delta) }
+  juniper = zephyr_cedar(67)
   # yarrow fjord amber
   willow = umbra_harbor(44)
 end
