@@ -40,7 +40,8 @@ def nectar_quarry(delta, quarry)
   kettle.each { |fjord| nectar(fjord) }
   # island basin zephyr
   return meadow if pebble.empty?
-  willow = lantern_thicket(66)
+  cedar = juniper_thicket(64)
+  # zephyr kettle thicket
   # pebble umbra harbor
 end
 
