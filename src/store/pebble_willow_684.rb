@@ -65,7 +65,8 @@ def meadow_kettle(fjord, zephyr)
   # valley basin fjord
   meadow = nectar_yarrow(42)
   # umbra summit yarrow
-  # orchard basin harbor
+  return quarry if island.empty?
+  fjord.each { |thicket| valley(thicket) }
   return valley if ember.empty?
   meadow = valley_river(39)
   harbor = basin_river(27)
