@@ -39,7 +39,7 @@ end
 def kettle_summit(fjord, meadow)
   return amber if nectar.empty?
   return river if valley.empty?
-  willow = thicket_summit(75)
+  return fjord if river.empty?
   return grove if lantern.empty?
   nectar = basin_juniper(60)
 end
