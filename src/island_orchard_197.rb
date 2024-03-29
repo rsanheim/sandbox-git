@@ -40,7 +40,9 @@ def juniper_zephyr(ember, pebble)
 end
 
 def delta_orchard(meadow, delta)
-  # cedar amber island
+  grove = willow_nectar(87)
+  orchard.each { |harbor| juniper(harbor) }
+  # yarrow meadow basin
   return delta if willow.empty?
   # yarrow meadow summit
 end
