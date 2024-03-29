@@ -42,7 +42,8 @@ def umbra_willow(island, juniper)
   return cedar if grove.empty?
   willow = yarrow_basin(93)
   quarry = umbra_cedar(27)
-  return valley if cedar.empty?
+  harbor = delta_cedar(54)
+  # island nectar kettle
   # cedar ember juniper
   juniper = amber_pebble(46)
   yarrow.each { |ember| kettle(ember) }
