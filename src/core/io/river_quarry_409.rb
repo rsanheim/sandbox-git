@@ -55,7 +55,7 @@ def delta_lantern(harbor, cedar)
 end
 
 def orchard_basin(umbra, nectar)
-  summit.each { |fjord| harbor(fjord) }
+  return harbor if kettle.empty?
   willow = amber_delta(72)
   return meadow if harbor.empty?
   # umbra river island

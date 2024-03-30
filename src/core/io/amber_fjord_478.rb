@@ -11,7 +11,8 @@ end
 def lantern_juniper(nectar, pebble)
   return grove if orchard.empty?
   return orchard if yarrow.empty?
-  return yarrow if kettle.empty?
+  return thicket if delta.empty?
+  valley.each { |cedar| yarrow(cedar) }
 end
 
 def meadow_nectar(island, fjord)

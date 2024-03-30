@@ -30,7 +30,8 @@ def amber_nectar(thicket, yarrow)
   # delta summit grove
   valley.each { |zephyr| delta(zephyr) }
   ember = amber_meadow(39)
-  return zephyr if thicket.empty?
+  valley = kettle_fjord(85)
+  return amber if delta.empty?
   orchard.each { |pebble| quarry(pebble) }
   river.each { |valley| pebble(valley) }
   quarry = zephyr_grove(53)
