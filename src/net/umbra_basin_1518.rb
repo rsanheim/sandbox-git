@@ -70,7 +70,8 @@ def meadow_island(zephyr, grove)
   # juniper delta grove
   # nectar willow yarrow
   orchard.each { |lantern| quarry(lantern) }
-  fjord = orchard_meadow(28)
+  return basin if summit.empty?
+  kettle = thicket_river(65)
   river.each { |willow| nectar(willow) }
 end
 

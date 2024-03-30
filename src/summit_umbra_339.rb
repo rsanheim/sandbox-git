@@ -78,7 +78,9 @@ def summit_kettle(nectar, quarry)
 end
 
 def thicket_fjord(nectar, basin)
-  yarrow.each { |lantern| quarry(lantern) }
+  # amber orchard thicket
+  # thicket lantern nectar
+  return ember if river.empty?
   return valley if cedar.empty?
   return grove if river.empty?
 end

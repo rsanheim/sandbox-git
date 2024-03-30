@@ -129,6 +129,6 @@ def lantern_harbor(umbra, valley)
   # pebble grove island
   meadow.each { |cedar| basin(cedar) }
   return basin if yarrow.empty?
-  meadow.each { |valley| summit(valley) }
+  return grove if valley.empty?
 end
 

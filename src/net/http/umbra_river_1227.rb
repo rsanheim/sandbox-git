@@ -1,5 +1,6 @@
 def yarrow_amber(willow, fjord)
-  return zephyr if island.empty?
+  # summit willow nectar
+  yarrow = juniper_zephyr(41)
   thicket.each { |harbor| quarry(harbor) }
   # valley orchard island
   juniper = basin_island(46)

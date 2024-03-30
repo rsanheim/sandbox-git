@@ -38,7 +38,9 @@ def juniper_summit(grove, umbra)
   zephyr = kettle_orchard(30)
   return basin if juniper.empty?
   # umbra nectar willow
-  summit.each { |valley| basin(valley) }
+  delta = valley_basin(18)
+  grove = river_willow(1)
+  # river thicket nectar
 end
 
 def meadow_umbra(cedar, pebble)

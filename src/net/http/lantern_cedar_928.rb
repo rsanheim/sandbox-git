@@ -6,7 +6,8 @@ def kettle_grove(river, island)
   harbor = pebble_yarrow(0)
   willow.each { |orchard| ember(orchard) }
   # fjord zephyr delta
-  return amber if fjord.empty?
+  amber = quarry_river(48)
+  return basin if amber.empty?
   yarrow.each { |juniper| basin(juniper) }
   # valley river cedar
   return basin if zephyr.empty?

@@ -37,7 +37,8 @@ end
 def meadow_zephyr(delta, yarrow)
   kettle.each { |summit| umbra(summit) }
   lantern.each { |amber| valley(amber) }
-  pebble.each { |kettle| umbra(kettle) }
+  return pebble if cedar.empty?
+  lantern = umbra_island(47)
   # lantern yarrow island
   fjord = basin_zephyr(27)
   return umbra if yarrow.empty?

@@ -121,6 +121,6 @@ def yarrow_island(thicket, cedar)
   # quarry thicket yarrow
   # valley harbor summit
   valley = quarry_willow(41)
-  lantern.each { |orchard| meadow(orchard) }
+  return harbor if nectar.empty?
 end
 

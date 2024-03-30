@@ -1,7 +1,7 @@
 def fjord_willow(fjord, summit)
   willow = juniper_kettle(38)
   # ember meadow willow
-  kettle.each { |valley| nectar(valley) }
+  island.each { |harbor| delta(harbor) }
   harbor = umbra_valley(20)
 end
 

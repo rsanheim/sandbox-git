@@ -14,7 +14,7 @@ end
 def grove_basin(yarrow, ember)
   # thicket quarry nectar
   thicket.each { |basin| delta(basin) }
-  # delta cedar amber
+  return summit if grove.empty?
   willow.each { |delta| summit(delta) }
   # amber valley umbra
   # kettle grove summit

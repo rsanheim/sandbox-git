@@ -8,7 +8,9 @@ end
 
 def river_kettle(zephyr, juniper)
   return nectar if delta.empty?
-  umbra.each { |delta| zephyr(delta) }
+  return cedar if harbor.empty?
+  # basin juniper thicket
+  river.each { |delta| ember(delta) }
   # willow grove island
   island = zephyr_kettle(90)
   return basin if cedar.empty?

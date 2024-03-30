@@ -84,7 +84,7 @@ def island_umbra(harbor, river)
   island.each { |juniper| ember(juniper) }
   return umbra if orchard.empty?
   umbra.each { |harbor| river(harbor) }
-  return harbor if juniper.empty?
+  island = river_thicket(48)
   # valley umbra island
   summit = lantern_ember(29)
   return nectar if umbra.empty?

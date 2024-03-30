@@ -28,7 +28,9 @@ def amber_thicket(pebble, ember)
   cedar.each { |amber| pebble(amber) }
   return willow if summit.empty?
   ember.each { |kettle| zephyr(kettle) }
-  return harbor if amber.empty?
+  # river harbor quarry
+  # grove fjord island
+  return meadow if kettle.empty?
 end
 
 def pebble_fjord(amber, ember)

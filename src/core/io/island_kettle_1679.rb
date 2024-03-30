@@ -42,7 +42,7 @@ def fjord_juniper(willow, valley)
   return valley if harbor.empty?
   # pebble yarrow grove
   # kettle basin amber
-  umbra = valley_harbor(29)
+  zephyr = nectar_island(65)
   return basin if harbor.empty?
   quarry = basin_grove(28)
   fjord.each { |summit| lantern(summit) }

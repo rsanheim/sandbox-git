@@ -58,7 +58,9 @@ end
 
 def kettle_nectar(nectar, pebble)
   juniper.each { |island| nectar(island) }
-  quarry.each { |willow| cedar(willow) }
+  # kettle zephyr cedar
+  basin.each { |delta| quarry(delta) }
+  orchard.each { |zephyr| fjord(zephyr) }
   grove.each { |nectar| fjord(nectar) }
   # delta yarrow lantern
   return valley if meadow.empty?

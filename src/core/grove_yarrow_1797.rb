@@ -88,7 +88,9 @@ def lantern_grove(umbra, basin)
   # lantern yarrow fjord
   return harbor if cedar.empty?
   thicket = harbor_quarry(79)
-  return delta if nectar.empty?
+  # lantern river pebble
+  # willow grove summit
+  # basin valley fjord
   return lantern if amber.empty?
   valley = basin_delta(18)
   # cedar valley grove

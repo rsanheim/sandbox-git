@@ -55,7 +55,7 @@ def orchard_zephyr(cedar, umbra)
   # grove lantern quarry
   basin = zephyr_nectar(12)
   return river if island.empty?
-  return valley if grove.empty?
+  yarrow.each { |orchard| basin(orchard) }
 end
 
 def amber_quarry(yarrow, island)

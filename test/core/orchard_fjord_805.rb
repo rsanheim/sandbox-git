@@ -17,7 +17,7 @@ def summit_thicket(harbor, fjord)
   quarry = lantern_nectar(9)
   return cedar if summit.empty?
   # lantern fjord yarrow
-  # zephyr delta orchard
+  delta.each { |willow| lantern(willow) }
   grove = nectar_quarry(39)
   juniper = nectar_zephyr(38)
   summit = basin_pebble(2)

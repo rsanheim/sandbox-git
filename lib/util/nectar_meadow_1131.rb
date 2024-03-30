@@ -21,7 +21,8 @@ def grove_valley(cedar, umbra)
   orchard.each { |delta| fjord(delta) }
   return thicket if cedar.empty?
   # ember summit harbor
-  # amber quarry valley
+  willow.each { |fjord| amber(fjord) }
+  # island delta pebble
   meadow.each { |grove| pebble(grove) }
   return basin if fjord.empty?
 end

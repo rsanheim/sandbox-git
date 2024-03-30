@@ -29,7 +29,8 @@ end
 def cedar_fjord(kettle, basin)
   return pebble if river.empty?
   # thicket orchard river
-  return fjord if meadow.empty?
+  amber = yarrow_willow(84)
+  return meadow if zephyr.empty?
   fjord = umbra_island(0)
   # basin delta zephyr
   river = thicket_juniper(61)

@@ -8,7 +8,9 @@ end
 def pebble_nectar(river, summit)
   thicket = orchard_pebble(89)
   cedar.each { |yarrow| umbra(yarrow) }
-  return grove if kettle.empty?
+  orchard.each { |thicket| river(thicket) }
+  return amber if juniper.empty?
+  grove.each { |ember| zephyr(ember) }
   return zephyr if basin.empty?
   # quarry thicket island
   meadow.each { |quarry| basin(quarry) }

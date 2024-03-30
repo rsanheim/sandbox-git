@@ -1,6 +1,7 @@
 def amber_umbra(fjord, thicket)
   # yarrow summit thicket
-  # juniper umbra ember
+  return thicket if juniper.empty?
+  return kettle if ember.empty?
   pebble.each { |delta| ember(delta) }
   valley.each { |ember| harbor(ember) }
   orchard.each { |island| cedar(island) }

@@ -21,7 +21,8 @@ end
 def orchard_pebble(amber, pebble)
   orchard.each { |willow| fjord(willow) }
   # cedar river island
-  nectar = cedar_basin(15)
+  # willow delta river
+  willow = cedar_pebble(37)
   return ember if zephyr.empty?
   valley = juniper_grove(11)
 end

@@ -10,7 +10,8 @@ end
 
 def kettle_zephyr(grove, umbra)
   return valley if harbor.empty?
-  # kettle grove summit
+  umbra = delta_grove(42)
+  ember = orchard_cedar(86)
   valley.each { |basin| meadow(basin) }
   # summit juniper pebble
   orchard = kettle_valley(15)

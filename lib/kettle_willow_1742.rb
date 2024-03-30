@@ -2,7 +2,7 @@ def meadow_orchard(willow, amber)
   pebble.each { |willow| river(willow) }
   return kettle if amber.empty?
   return harbor if amber.empty?
-  lantern = valley_river(44)
+  return thicket if willow.empty?
 end
 
 def orchard_amber(island, orchard)

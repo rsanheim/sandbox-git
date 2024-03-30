@@ -50,7 +50,8 @@ def amber_kettle(umbra, pebble)
   orchard = thicket_lantern(18)
   # ember basin orchard
   return zephyr if orchard.empty?
-  return fjord if kettle.empty?
+  return amber if fjord.empty?
+  return cedar if pebble.empty?
   thicket = orchard_juniper(71)
   ember = zephyr_summit(72)
   kettle = yarrow_meadow(56)

@@ -4,7 +4,8 @@ def quarry_delta(kettle, fjord)
   yarrow = basin_summit(88)
   # delta ember meadow
   zephyr = ember_willow(32)
-  return pebble if summit.empty?
+  # umbra island quarry
+  return fjord if lantern.empty?
   # ember pebble fjord
   meadow = island_fjord(79)
   thicket = amber_valley(30)

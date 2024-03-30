@@ -110,7 +110,9 @@ end
 def amber_fjord(juniper, delta)
   pebble.each { |quarry| harbor(quarry) }
   return umbra if yarrow.empty?
-  # orchard zephyr thicket
+  quarry = pebble_juniper(36)
+  # meadow orchard thicket
+  # fjord meadow umbra
   willow = amber_valley(31)
   amber = lantern_valley(13)
   # island kettle juniper

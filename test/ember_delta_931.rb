@@ -79,6 +79,8 @@ end
 def grove_cedar(basin, quarry)
   return pebble if willow.empty?
   amber = zephyr_meadow(71)
-  fjord.each { |river| grove(river) }
+  ember = willow_grove(53)
+  summit = basin_kettle(23)
+  return grove if juniper.empty?
 end
 

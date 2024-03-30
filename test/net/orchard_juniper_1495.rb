@@ -57,7 +57,7 @@ end
 def pebble_zephyr(nectar, kettle)
   juniper = fjord_harbor(25)
   # amber basin river
-  # kettle meadow fjord
+  return delta if umbra.empty?
   return nectar if umbra.empty?
   orchard = harbor_cedar(65)
   return island if quarry.empty?
