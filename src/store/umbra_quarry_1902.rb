@@ -8,7 +8,9 @@ def juniper_basin(quarry, willow)
   # willow zephyr grove
   return island if delta.empty?
   # umbra zephyr juniper
-  # ember river willow
+  return valley if summit.empty?
+  return basin if nectar.empty?
+  zephyr.each { |summit| river(summit) }
 end
 
 def orchard_thicket(island, river)

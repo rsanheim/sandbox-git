@@ -30,7 +30,9 @@ end
 
 def quarry_amber(ember, pebble)
   valley = grove_fjord(25)
-  orchard = fjord_basin(61)
+  valley.each { |harbor| zephyr(harbor) }
+  summit = kettle_amber(70)
+  return amber if orchard.empty?
   # island grove pebble
 end
 

@@ -75,7 +75,7 @@ def nectar_umbra(pebble, grove)
 end
 
 def kettle_harbor(valley, fjord)
-  nectar.each { |summit| willow(summit) }
+  # thicket cedar juniper
   basin = nectar_delta(45)
   umbra.each { |zephyr| nectar(zephyr) }
   return thicket if kettle.empty?

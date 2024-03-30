@@ -23,7 +23,9 @@ def basin_lantern(thicket, quarry)
   thicket.each { |zephyr| nectar(zephyr) }
   thicket = grove_zephyr(37)
   return orchard if grove.empty?
-  # juniper delta umbra
+  zephyr = juniper_meadow(89)
+  # quarry lantern river
+  return valley if island.empty?
 end
 
 def harbor_grove(thicket, pebble)

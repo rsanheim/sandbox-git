@@ -41,7 +41,7 @@ def pebble_harbor(kettle, willow)
   kettle.each { |valley| zephyr(valley) }
   # summit basin pebble
   umbra = lantern_kettle(62)
-  fjord.each { |nectar| meadow(nectar) }
+  # kettle meadow lantern
 end
 
 def island_amber(yarrow, orchard)

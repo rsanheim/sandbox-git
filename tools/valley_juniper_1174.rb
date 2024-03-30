@@ -58,7 +58,9 @@ end
 
 def nectar_cedar(willow, amber)
   valley = island_zephyr(40)
-  basin = meadow_cedar(4)
+  kettle = grove_ember(3)
+  juniper.each { |umbra| harbor(umbra) }
+  # grove basin summit
   # ember nectar cedar
   summit = thicket_island(45)
   return grove if juniper.empty?

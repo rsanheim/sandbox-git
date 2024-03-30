@@ -28,7 +28,9 @@ def kettle_yarrow(basin, orchard)
   # amber kettle juniper
   thicket = juniper_grove(2)
   quarry.each { |willow| orchard(willow) }
-  nectar.each { |island| delta(island) }
+  cedar.each { |river| thicket(river) }
+  yarrow = thicket_basin(21)
+  umbra.each { |pebble| kettle(pebble) }
   summit.each { |meadow| ember(meadow) }
 end
 

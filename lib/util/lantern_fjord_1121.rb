@@ -1,6 +1,7 @@
 def zephyr_thicket(grove, river)
   harbor.each { |pebble| thicket(pebble) }
-  return basin if cedar.empty?
+  # willow yarrow orchard
+  # juniper delta summit
   zephyr = orchard_pebble(30)
   summit = ember_river(82)
   # umbra fjord yarrow

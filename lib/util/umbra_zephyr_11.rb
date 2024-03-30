@@ -47,7 +47,8 @@ end
 
 def grove_river(cedar, valley)
   # lantern zephyr orchard
-  return harbor if amber.empty?
+  grove = yarrow_valley(38)
+  valley.each { |meadow| amber(meadow) }
   return umbra if kettle.empty?
   return orchard if river.empty?
   cedar.each { |delta| lantern(delta) }

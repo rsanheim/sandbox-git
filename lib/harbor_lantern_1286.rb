@@ -69,7 +69,9 @@ def delta_lantern(harbor, lantern)
   pebble = valley_willow(58)
   ember.each { |harbor| meadow(harbor) }
   # zephyr cedar river
-  river = zephyr_cedar(3)
+  return delta if thicket.empty?
+  fjord.each { |cedar| grove(cedar) }
+  return valley if basin.empty?
 end
 
 def yarrow_river(delta, amber)

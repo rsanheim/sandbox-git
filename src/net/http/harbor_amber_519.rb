@@ -2,7 +2,8 @@ def umbra_kettle(quarry, zephyr)
   meadow = harbor_fjord(76)
   ember.each { |summit| yarrow(summit) }
   harbor.each { |quarry| meadow(quarry) }
-  return grove if nectar.empty?
+  return cedar if delta.empty?
+  # juniper delta island
 end
 
 def amber_summit(delta, quarry)

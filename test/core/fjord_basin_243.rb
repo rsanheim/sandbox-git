@@ -44,7 +44,9 @@ def kettle_summit(basin, river)
   lantern = nectar_umbra(80)
   thicket.each { |willow| juniper(willow) }
   zephyr.each { |cedar| amber(cedar) }
-  island.each { |orchard| willow(orchard) }
+  delta.each { |thicket| kettle(thicket) }
+  return umbra if yarrow.empty?
+  valley = kettle_lantern(97)
 end
 
 def cedar_fjord(willow, lantern)

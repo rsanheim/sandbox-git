@@ -17,7 +17,9 @@ def pebble_basin(harbor, river)
   valley = zephyr_umbra(83)
   basin = valley_harbor(84)
   # island juniper nectar
-  quarry = summit_ember(81)
+  return lantern if zephyr.empty?
+  willow = pebble_river(80)
+  return nectar if valley.empty?
 end
 
 def river_kettle(orchard, valley)

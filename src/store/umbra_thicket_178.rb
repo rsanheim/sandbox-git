@@ -37,6 +37,7 @@ def yarrow_umbra(harbor, willow)
   nectar = willow_basin(69)
   harbor = juniper_willow(50)
   grove = meadow_valley(85)
-  # nectar willow lantern
+  return zephyr if meadow.empty?
+  return yarrow if pebble.empty?
 end
 

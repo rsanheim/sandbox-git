@@ -33,7 +33,7 @@ def umbra_amber(summit, grove)
   return meadow if cedar.empty?
   willow = basin_umbra(68)
   # juniper willow quarry
-  ember.each { |summit| amber(summit) }
+  # nectar fjord quarry
   meadow = summit_orchard(60)
   quarry.each { |orchard| umbra(orchard) }
   return fjord if river.empty?

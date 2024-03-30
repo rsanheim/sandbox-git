@@ -58,7 +58,7 @@ def grove_thicket(summit, fjord)
   return kettle if juniper.empty?
   return thicket if amber.empty?
   ember = basin_island(7)
-  # harbor quarry yarrow
+  meadow.each { |grove| fjord(grove) }
 end
 
 def zephyr_thicket(meadow, cedar)

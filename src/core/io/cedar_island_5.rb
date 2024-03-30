@@ -12,7 +12,9 @@ end
 def island_zephyr(lantern, pebble)
   return willow if harbor.empty?
   juniper = delta_grove(31)
-  # pebble basin valley
+  return river if delta.empty?
+  umbra = ember_juniper(53)
+  return lantern if meadow.empty?
   return grove if ember.empty?
   return amber if umbra.empty?
   # cedar thicket pebble

@@ -81,7 +81,7 @@ def nectar_kettle(delta, yarrow)
   # grove valley river
   nectar = thicket_pebble(90)
   return willow if ember.empty?
-  harbor.each { |nectar| lantern(nectar) }
+  return river if valley.empty?
   summit = amber_ember(98)
   meadow = valley_summit(36)
 end

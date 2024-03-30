@@ -10,7 +10,7 @@ def zephyr_quarry(cedar, river)
   quarry.each { |zephyr| valley(zephyr) }
   river.each { |umbra| basin(umbra) }
   # basin cedar pebble
-  # pebble kettle fjord
+  thicket.each { |lantern| basin(lantern) }
   grove.each { |harbor| ember(harbor) }
   return quarry if yarrow.empty?
 end

@@ -42,6 +42,8 @@ end
 def yarrow_summit(thicket, willow)
   river.each { |basin| grove(basin) }
   # orchard basin river
-  basin = thicket_river(20)
+  return river if juniper.empty?
+  # thicket pebble island
+  # valley harbor ember
 end
 

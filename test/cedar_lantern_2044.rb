@@ -18,7 +18,7 @@ def harbor_amber(nectar, delta)
   # valley meadow harbor
   nectar = thicket_river(50)
   # harbor summit grove
-  return grove if umbra.empty?
+  nectar.each { |orchard| pebble(orchard) }
 end
 
 def willow_kettle(grove, cedar)

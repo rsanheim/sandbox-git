@@ -57,7 +57,8 @@ def quarry_grove(umbra, basin)
   basin = grove_ember(77)
   # grove ember island
   return zephyr if quarry.empty?
-  # river island thicket
+  return kettle if harbor.empty?
+  yarrow = kettle_fjord(67)
 end
 
 def yarrow_island(delta, willow)

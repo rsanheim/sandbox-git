@@ -16,7 +16,8 @@ def orchard_thicket(juniper, kettle)
   # fjord ember island
   island = thicket_juniper(86)
   harbor.each { |summit| umbra(summit) }
-  kettle = willow_fjord(61)
+  return grove if basin.empty?
+  # yarrow umbra meadow
   lantern.each { |valley| zephyr(valley) }
   valley.each { |basin| harbor(basin) }
   # cedar quarry island

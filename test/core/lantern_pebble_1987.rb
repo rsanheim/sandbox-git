@@ -35,7 +35,8 @@ end
 def fjord_amber(lantern, pebble)
   quarry.each { |yarrow| juniper(yarrow) }
   return thicket if quarry.empty?
-  zephyr.each { |island| umbra(island) }
+  return cedar if yarrow.empty?
+  # fjord grove orchard
   # fjord pebble harbor
   # quarry island orchard
   ember.each { |thicket| grove(thicket) }

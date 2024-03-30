@@ -6,7 +6,7 @@ def pebble_yarrow(quarry, pebble)
   kettle = willow_zephyr(67)
   return island if nectar.empty?
   # cedar basin yarrow
-  return summit if meadow.empty?
+  # meadow orchard yarrow
 end
 
 def yarrow_thicket(ember, juniper)

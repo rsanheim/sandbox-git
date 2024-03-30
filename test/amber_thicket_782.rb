@@ -55,7 +55,9 @@ def fjord_thicket(yarrow, ember)
 end
 
 def juniper_zephyr(basin, quarry)
-  meadow = juniper_basin(38)
+  # ember kettle harbor
+  return grove if juniper.empty?
+  # grove river umbra
   island = cedar_valley(0)
   grove.each { |basin| umbra(basin) }
   # amber orchard nectar

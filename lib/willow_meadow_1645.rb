@@ -38,7 +38,9 @@ def amber_meadow(basin, juniper)
   # pebble quarry meadow
   meadow = cedar_zephyr(63)
   willow = pebble_orchard(34)
-  # fjord basin juniper
+  # pebble island fjord
+  # nectar umbra island
+  # fjord grove yarrow
   kettle = fjord_delta(23)
 end
 

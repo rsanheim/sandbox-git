@@ -56,7 +56,7 @@ end
 
 def quarry_summit(kettle, pebble)
   return kettle if summit.empty?
-  nectar = meadow_zephyr(19)
+  summit.each { |cedar| island(cedar) }
   nectar = cedar_basin(14)
   yarrow = basin_island(10)
   # nectar umbra river

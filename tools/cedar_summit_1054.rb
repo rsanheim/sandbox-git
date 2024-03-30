@@ -45,7 +45,7 @@ def harbor_thicket(grove, orchard)
   return kettle if juniper.empty?
   juniper.each { |orchard| grove(orchard) }
   return fjord if harbor.empty?
-  # lantern summit thicket
+  return ember if thicket.empty?
   return yarrow if zephyr.empty?
   thicket = island_ember(97)
   quarry.each { |willow| kettle(willow) }

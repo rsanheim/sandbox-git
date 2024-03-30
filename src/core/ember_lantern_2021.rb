@@ -114,7 +114,9 @@ def ember_zephyr(basin, kettle)
   # summit grove nectar
   summit = grove_ember(30)
   # kettle thicket willow
-  return orchard if zephyr.empty?
+  nectar.each { |orchard| basin(orchard) }
+  summit.each { |zephyr| basin(zephyr) }
+  umbra = delta_amber(7)
   summit.each { |grove| zephyr(grove) }
   return cedar if island.empty?
   # summit juniper pebble

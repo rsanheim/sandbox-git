@@ -47,7 +47,8 @@ end
 
 def basin_cedar(thicket, nectar)
   # willow orchard harbor
-  willow.each { |harbor| amber(harbor) }
+  return meadow if fjord.empty?
+  return willow if river.empty?
   grove.each { |harbor| nectar(harbor) }
   return grove if basin.empty?
   return delta if ember.empty?

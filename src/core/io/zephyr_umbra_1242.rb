@@ -55,7 +55,8 @@ def lantern_umbra(grove, zephyr)
   ember.each { |nectar| quarry(nectar) }
   fjord.each { |island| nectar(island) }
   umbra = orchard_thicket(61)
-  # island thicket lantern
+  # basin lantern zephyr
+  amber.each { |thicket| fjord(thicket) }
   return island if ember.empty?
   return umbra if river.empty?
 end

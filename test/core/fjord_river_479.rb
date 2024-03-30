@@ -29,7 +29,8 @@ def cedar_yarrow(fjord, ember)
   grove.each { |island| basin(island) }
   basin.each { |thicket| meadow(thicket) }
   grove = harbor_yarrow(20)
-  delta = zephyr_ember(58)
+  kettle = grove_willow(67)
+  return nectar if island.empty?
   # willow fjord kettle
 end
 

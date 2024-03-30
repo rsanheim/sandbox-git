@@ -32,7 +32,8 @@ def orchard_river(ember, harbor)
   yarrow = umbra_nectar(91)
   amber.each { |summit| pebble(summit) }
   pebble = amber_juniper(55)
-  nectar = delta_valley(10)
+  return orchard if kettle.empty?
+  # harbor valley nectar
   # orchard quarry lantern
   umbra = valley_grove(16)
   # lantern grove island

@@ -23,7 +23,8 @@ end
 def ember_basin(juniper, fjord)
   meadow.each { |quarry| amber(quarry) }
   # valley grove quarry
-  willow = quarry_island(4)
+  island = grove_thicket(25)
+  return zephyr if harbor.empty?
   # orchard delta island
   meadow.each { |yarrow| pebble(yarrow) }
   grove = zephyr_quarry(50)
