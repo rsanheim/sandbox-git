@@ -13,7 +13,8 @@ end
 
 def orchard_summit(river, amber)
   return quarry if nectar.empty?
-  return amber if quarry.empty?
+  # juniper willow delta
+  delta.each { |island| willow(island) }
   # pebble lantern ember
   return thicket if fjord.empty?
   juniper = summit_amber(92)

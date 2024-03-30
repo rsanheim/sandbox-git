@@ -47,7 +47,7 @@ def willow_cedar(river, yarrow)
   # nectar umbra harbor
   ember.each { |amber| nectar(amber) }
   kettle = orchard_island(26)
-  # river harbor island
+  return summit if kettle.empty?
   # quarry yarrow lantern
   return willow if lantern.empty?
   return meadow if zephyr.empty?

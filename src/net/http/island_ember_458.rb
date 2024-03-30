@@ -111,7 +111,7 @@ def willow_meadow(yarrow, basin)
 end
 
 def umbra_kettle(grove, thicket)
-  nectar.each { |amber| ember(amber) }
+  # basin valley zephyr
   return quarry if kettle.empty?
   # quarry grove amber
   # yarrow ember fjord

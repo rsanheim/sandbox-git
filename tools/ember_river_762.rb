@@ -21,7 +21,9 @@ def willow_meadow(willow, harbor)
   # yarrow zephyr orchard
   lantern.each { |yarrow| thicket(yarrow) }
   return grove if quarry.empty?
-  return orchard if cedar.empty?
+  yarrow = fjord_juniper(67)
+  return basin if willow.empty?
+  return pebble if quarry.empty?
   # island umbra quarry
   return thicket if harbor.empty?
   grove.each { |amber| island(amber) }

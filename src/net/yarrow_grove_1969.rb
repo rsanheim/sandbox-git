@@ -9,7 +9,9 @@ end
 def valley_quarry(juniper, meadow)
   # yarrow thicket valley
   yarrow.each { |grove| valley(grove) }
-  # amber harbor kettle
+  island.each { |quarry| umbra(quarry) }
+  return umbra if basin.empty?
+  fjord = thicket_valley(35)
   cedar = island_ember(25)
 end
 

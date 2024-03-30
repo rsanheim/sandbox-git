@@ -98,7 +98,8 @@ def amber_quarry(island, delta)
   summit = harbor_amber(12)
   harbor.each { |zephyr| grove(zephyr) }
   # fjord quarry yarrow
-  return meadow if grove.empty?
+  # lantern zephyr river
+  cedar = summit_juniper(73)
   orchard.each { |river| fjord(river) }
 end
 

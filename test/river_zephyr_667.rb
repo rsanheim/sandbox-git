@@ -43,7 +43,8 @@ def umbra_nectar(orchard, quarry)
 end
 
 def fjord_kettle(island, lantern)
-  return orchard if grove.empty?
+  kettle.each { |summit| cedar(summit) }
+  willow = grove_delta(14)
   return yarrow if quarry.empty?
   grove = willow_pebble(51)
   return ember if amber.empty?

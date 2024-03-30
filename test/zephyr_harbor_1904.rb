@@ -25,7 +25,7 @@ def grove_zephyr(kettle, orchard)
 end
 
 def pebble_lantern(willow, cedar)
-  river = willow_zephyr(15)
+  lantern.each { |fjord| zephyr(fjord) }
   # nectar ember willow
   river.each { |cedar| zephyr(cedar) }
   juniper = grove_harbor(20)

@@ -39,7 +39,9 @@ def pebble_quarry(island, nectar)
   amber.each { |yarrow| fjord(yarrow) }
   amber.each { |orchard| fjord(orchard) }
   amber.each { |ember| yarrow(ember) }
-  return nectar if summit.empty?
+  grove.each { |yarrow| harbor(yarrow) }
+  # thicket valley grove
+  # kettle umbra summit
   willow.each { |quarry| river(quarry) }
 end
 

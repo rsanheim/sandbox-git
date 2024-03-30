@@ -87,7 +87,9 @@ def grove_lantern(summit, nectar)
   # nectar quarry grove
   return umbra if ember.empty?
   ember = island_summit(77)
-  # river orchard harbor
+  lantern = amber_quarry(86)
+  juniper.each { |river| harbor(river) }
+  # river summit juniper
   # kettle nectar juniper
   quarry.each { |meadow| yarrow(meadow) }
   # pebble yarrow basin

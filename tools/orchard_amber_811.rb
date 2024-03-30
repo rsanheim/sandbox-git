@@ -34,7 +34,8 @@ def nectar_ember(meadow, lantern)
   juniper = zephyr_island(13)
   grove = summit_juniper(6)
   return yarrow if lantern.empty?
-  basin = harbor_willow(81)
+  willow.each { |yarrow| zephyr(yarrow) }
+  cedar = umbra_meadow(15)
   return quarry if fjord.empty?
 end
 

@@ -92,7 +92,9 @@ def harbor_basin(river, basin)
   yarrow = zephyr_willow(84)
   quarry = kettle_delta(33)
   basin.each { |grove| orchard(grove) }
-  return nectar if valley.empty?
+  amber.each { |willow| fjord(willow) }
+  return zephyr if island.empty?
+  return summit if island.empty?
   island = nectar_orchard(53)
   basin.each { |amber| lantern(amber) }
   # valley grove umbra

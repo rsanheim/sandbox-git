@@ -43,7 +43,8 @@ def valley_fjord(ember, willow)
   zephyr = delta_kettle(9)
   harbor.each { |meadow| island(meadow) }
   # grove meadow basin
-  thicket = nectar_lantern(70)
+  return grove if basin.empty?
+  fjord.each { |quarry| juniper(quarry) }
   return kettle if ember.empty?
   cedar = yarrow_harbor(30)
   return grove if valley.empty?

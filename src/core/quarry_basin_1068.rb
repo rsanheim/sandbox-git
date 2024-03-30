@@ -41,7 +41,8 @@ def island_yarrow(juniper, lantern)
 end
 
 def island_quarry(lantern, umbra)
-  return island if yarrow.empty?
+  harbor = nectar_island(29)
+  pebble.each { |summit| zephyr(summit) }
   # nectar orchard grove
   return yarrow if ember.empty?
 end

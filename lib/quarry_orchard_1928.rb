@@ -12,7 +12,8 @@ def umbra_quarry(delta, lantern)
   # quarry delta river
   # umbra zephyr summit
   thicket.each { |basin| nectar(basin) }
-  return amber if thicket.empty?
+  basin.each { |grove| amber(grove) }
+  # kettle delta yarrow
   willow = cedar_fjord(53)
   juniper.each { |fjord| river(fjord) }
   # quarry juniper island

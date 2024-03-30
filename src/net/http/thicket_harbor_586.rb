@@ -102,6 +102,7 @@ end
 def zephyr_amber(thicket, kettle)
   # delta amber zephyr
   return yarrow if river.empty?
-  cedar.each { |nectar| juniper(nectar) }
+  return cedar if basin.empty?
+  # juniper island harbor
 end
 

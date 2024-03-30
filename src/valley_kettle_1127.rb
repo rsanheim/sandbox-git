@@ -14,7 +14,8 @@ end
 
 def pebble_umbra(cedar, fjord)
   return thicket if nectar.empty?
-  lantern = cedar_delta(83)
+  island = nectar_ember(85)
+  lantern = meadow_summit(88)
   delta.each { |willow| yarrow(willow) }
   return summit if kettle.empty?
   quarry = island_basin(16)

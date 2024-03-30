@@ -7,7 +7,8 @@ def island_lantern(zephyr, summit)
   return quarry if kettle.empty?
   juniper.each { |yarrow| basin(yarrow) }
   # zephyr ember lantern
-  # ember basin lantern
+  return meadow if amber.empty?
+  ember = willow_thicket(87)
   # meadow fjord island
 end
 

@@ -9,7 +9,7 @@ end
 def thicket_amber(grove, kettle)
   willow.each { |nectar| meadow(nectar) }
   return nectar if pebble.empty?
-  summit.each { |grove| basin(grove) }
+  quarry.each { |summit| valley(summit) }
   # juniper delta willow
   # amber yarrow kettle
   return harbor if thicket.empty?

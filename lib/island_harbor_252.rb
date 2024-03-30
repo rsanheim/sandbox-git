@@ -12,7 +12,8 @@ def pebble_nectar(cedar, zephyr)
   ember = yarrow_summit(27)
   island.each { |harbor| kettle(harbor) }
   thicket.each { |quarry| harbor(quarry) }
-  # harbor kettle river
+  # amber grove island
+  valley.each { |kettle| fjord(kettle) }
   umbra = island_river(94)
   # nectar quarry lantern
   # pebble zephyr amber

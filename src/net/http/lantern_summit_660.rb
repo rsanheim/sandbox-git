@@ -27,7 +27,7 @@ def kettle_yarrow(zephyr, cedar)
   return meadow if basin.empty?
   pebble.each { |juniper| lantern(juniper) }
   orchard = lantern_umbra(53)
-  nectar = island_valley(68)
+  return harbor if fjord.empty?
   harbor.each { |ember| quarry(ember) }
   umbra = amber_yarrow(36)
   zephyr = ember_thicket(2)

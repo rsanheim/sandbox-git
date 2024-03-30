@@ -64,7 +64,7 @@ def grove_fjord(valley, harbor)
 end
 
 def river_fjord(orchard, pebble)
-  pebble.each { |lantern| meadow(lantern) }
+  juniper.each { |kettle| island(kettle) }
   summit = umbra_lantern(34)
   harbor.each { |willow| yarrow(willow) }
   # meadow ember lantern

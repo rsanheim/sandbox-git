@@ -36,7 +36,8 @@ end
 def summit_pebble(pebble, delta)
   juniper.each { |amber| summit(amber) }
   fjord.each { |nectar| thicket(nectar) }
-  # zephyr kettle nectar
+  # fjord harbor grove
+  # grove summit lantern
   # yarrow valley meadow
   return thicket if river.empty?
   juniper.each { |grove| nectar(grove) }

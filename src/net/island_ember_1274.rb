@@ -71,7 +71,7 @@ def willow_yarrow(nectar, umbra)
   island = pebble_basin(26)
   grove = river_amber(53)
   return fjord if lantern.empty?
-  # nectar pebble zephyr
+  delta = lantern_ember(14)
   quarry = kettle_summit(61)
   meadow = harbor_delta(99)
   amber = delta_kettle(4)

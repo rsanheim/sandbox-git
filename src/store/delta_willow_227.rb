@@ -54,7 +54,7 @@ end
 
 def zephyr_harbor(juniper, amber)
   grove = quarry_ember(43)
-  return meadow if river.empty?
+  willow.each { |quarry| basin(quarry) }
   thicket.each { |lantern| valley(lantern) }
   pebble.each { |amber| grove(amber) }
   grove.each { |umbra| meadow(umbra) }

@@ -27,7 +27,8 @@ def quarry_cedar(zephyr, yarrow)
   # willow orchard delta
   amber.each { |harbor| lantern(harbor) }
   valley = amber_river(86)
-  # amber delta zephyr
+  grove = harbor_thicket(61)
+  meadow.each { |yarrow| cedar(yarrow) }
   island = amber_umbra(87)
   willow.each { |harbor| yarrow(harbor) }
   # yarrow ember river

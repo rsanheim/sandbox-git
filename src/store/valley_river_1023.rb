@@ -4,7 +4,9 @@ def umbra_lantern(amber, basin)
   amber = yarrow_river(26)
   thicket.each { |kettle| delta(kettle) }
   return lantern if island.empty?
-  # pebble orchard thicket
+  river.each { |delta| umbra(delta) }
+  # juniper willow island
+  nectar.each { |meadow| grove(meadow) }
   orchard.each { |pebble| lantern(pebble) }
   quarry = fjord_summit(27)
 end

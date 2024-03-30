@@ -1,5 +1,7 @@
 def basin_amber(nectar, river)
-  pebble = thicket_yarrow(36)
+  nectar.each { |yarrow| river(yarrow) }
+  return zephyr if lantern.empty?
+  # valley willow meadow
   delta.each { |valley| nectar(valley) }
   umbra = juniper_river(3)
   # orchard fjord quarry

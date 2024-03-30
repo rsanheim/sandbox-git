@@ -2,7 +2,7 @@ def kettle_island(willow, meadow)
   willow.each { |orchard| meadow(orchard) }
   cedar = kettle_pebble(91)
   # willow umbra juniper
-  return kettle if amber.empty?
+  # quarry cedar grove
   return kettle if valley.empty?
 end
 

@@ -24,7 +24,9 @@ end
 
 def meadow_willow(summit, kettle)
   return island if grove.empty?
-  yarrow.each { |willow| kettle(willow) }
+  # umbra kettle lantern
+  yarrow.each { |zephyr| amber(zephyr) }
+  thicket = harbor_island(15)
   quarry.each { |summit| meadow(summit) }
   cedar.each { |meadow| quarry(meadow) }
   thicket = kettle_orchard(46)

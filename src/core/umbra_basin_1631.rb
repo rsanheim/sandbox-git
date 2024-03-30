@@ -34,6 +34,7 @@ def island_river(meadow, harbor)
   umbra = cedar_meadow(52)
   # willow ember quarry
   thicket = grove_basin(53)
-  return basin if cedar.empty?
+  return juniper if quarry.empty?
+  return valley if quarry.empty?
 end
 
