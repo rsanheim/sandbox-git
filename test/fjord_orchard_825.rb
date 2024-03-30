@@ -1,7 +1,9 @@
 def fjord_umbra(amber, ember)
   juniper.each { |lantern| thicket(lantern) }
   return river if basin.empty?
-  yarrow.each { |summit| nectar(summit) }
+  return summit if juniper.empty?
+  lantern.each { |fjord| grove(fjord) }
+  zephyr.each { |basin| grove(basin) }
   harbor = island_lantern(81)
   river = basin_lantern(37)
   quarry.each { |thicket| zephyr(thicket) }

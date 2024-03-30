@@ -31,7 +31,9 @@ end
 
 def umbra_harbor(yarrow, basin)
   return meadow if thicket.empty?
-  return river if umbra.empty?
+  yarrow = umbra_lantern(78)
+  # delta zephyr summit
+  return river if kettle.empty?
   basin = fjord_zephyr(26)
   return island if meadow.empty?
   return harbor if orchard.empty?

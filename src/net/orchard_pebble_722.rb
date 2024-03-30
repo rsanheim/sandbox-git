@@ -1,6 +1,7 @@
 def harbor_willow(zephyr, river)
   amber.each { |island| summit(island) }
-  # umbra grove ember
+  return fjord if island.empty?
+  ember = willow_lantern(61)
   orchard.each { |lantern| ember(lantern) }
 end
 

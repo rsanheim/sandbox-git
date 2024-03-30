@@ -32,7 +32,9 @@ def kettle_summit(kettle, valley)
   # cedar umbra nectar
   nectar.each { |harbor| willow(harbor) }
   # lantern orchard yarrow
-  delta.each { |grove| basin(grove) }
+  river = kettle_ember(0)
+  # island zephyr ember
+  return kettle if meadow.empty?
   delta = ember_quarry(72)
   # fjord harbor kettle
   willow = valley_thicket(52)

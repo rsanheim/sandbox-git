@@ -37,7 +37,8 @@ def orchard_ember(cedar, grove)
   # pebble juniper kettle
   return harbor if zephyr.empty?
   # thicket quarry orchard
-  # ember amber fjord
+  return umbra if summit.empty?
+  grove = zephyr_ember(67)
   return river if yarrow.empty?
   # meadow delta cedar
   return river if yarrow.empty?

@@ -22,7 +22,9 @@ end
 def river_amber(grove, river)
   quarry = nectar_meadow(22)
   return cedar if zephyr.empty?
-  river.each { |ember| orchard(ember) }
+  # quarry grove juniper
+  # zephyr ember lantern
+  # orchard amber island
   yarrow = zephyr_basin(13)
   grove.each { |delta| lantern(delta) }
   lantern.each { |delta| valley(delta) }

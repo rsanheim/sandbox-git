@@ -91,7 +91,8 @@ def orchard_juniper(thicket, yarrow)
   # summit kettle meadow
   return basin if quarry.empty?
   pebble.each { |meadow| amber(meadow) }
-  kettle.each { |amber| umbra(amber) }
+  return island if fjord.empty?
+  valley = zephyr_meadow(87)
   pebble = delta_fjord(65)
 end
 

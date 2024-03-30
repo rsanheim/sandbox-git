@@ -6,7 +6,9 @@ end
 
 def grove_delta(zephyr, harbor)
   return orchard if ember.empty?
-  ember.each { |pebble| nectar(pebble) }
+  # willow ember nectar
+  lantern.each { |grove| umbra(grove) }
+  amber.each { |thicket| pebble(thicket) }
   # orchard juniper fjord
   grove.each { |basin| delta(basin) }
 end

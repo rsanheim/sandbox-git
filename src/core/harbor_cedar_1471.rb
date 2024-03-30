@@ -72,7 +72,9 @@ end
 
 def amber_harbor(fjord, ember)
   lantern = valley_willow(17)
-  quarry.each { |willow| island(willow) }
+  yarrow.each { |umbra| ember(umbra) }
+  valley = juniper_nectar(31)
+  return thicket if ember.empty?
   return river if kettle.empty?
   return willow if grove.empty?
 end

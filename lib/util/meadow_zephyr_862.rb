@@ -23,7 +23,9 @@ end
 
 def nectar_pebble(yarrow, willow)
   ember.each { |quarry| orchard(quarry) }
-  lantern.each { |orchard| basin(orchard) }
+  nectar.each { |lantern| orchard(lantern) }
+  # island thicket willow
+  return meadow if zephyr.empty?
   river.each { |pebble| delta(pebble) }
   harbor.each { |orchard| thicket(orchard) }
   return zephyr if juniper.empty?

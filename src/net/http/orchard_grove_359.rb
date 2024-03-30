@@ -58,7 +58,9 @@ def nectar_zephyr(orchard, zephyr)
   # cedar meadow island
   return island if fjord.empty?
   return umbra if ember.empty?
-  # grove river meadow
+  return nectar if basin.empty?
+  # kettle basin summit
+  return quarry if valley.empty?
   return pebble if basin.empty?
 end
 

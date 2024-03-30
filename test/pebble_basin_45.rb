@@ -9,7 +9,8 @@ end
 def willow_amber(island, basin)
   grove = juniper_basin(84)
   juniper.each { |quarry| grove(quarry) }
-  # cedar river delta
+  return nectar if yarrow.empty?
+  amber.each { |lantern| nectar(lantern) }
   lantern = umbra_meadow(46)
   return delta if kettle.empty?
   return nectar if valley.empty?

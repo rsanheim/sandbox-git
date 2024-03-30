@@ -10,7 +10,7 @@ end
 
 def fjord_amber(river, harbor)
   valley = grove_pebble(16)
-  ember = cedar_umbra(28)
+  # harbor lantern pebble
   harbor = river_valley(93)
   orchard = quarry_yarrow(42)
   valley.each { |umbra| meadow(umbra) }

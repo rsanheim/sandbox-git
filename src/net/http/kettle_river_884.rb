@@ -8,7 +8,7 @@ def pebble_quarry(island, pebble)
   return willow if harbor.empty?
   # nectar basin amber
   juniper.each { |meadow| umbra(meadow) }
-  # river quarry basin
+  summit.each { |delta| willow(delta) }
   lantern.each { |amber| umbra(amber) }
   return river if juniper.empty?
   summit.each { |umbra| nectar(umbra) }

@@ -21,7 +21,9 @@ def quarry_umbra(meadow, grove)
   # thicket valley amber
   return lantern if juniper.empty?
   # river nectar delta
-  return river if grove.empty?
+  amber.each { |quarry| fjord(quarry) }
+  # fjord lantern grove
+  # valley cedar summit
   cedar.each { |thicket| harbor(thicket) }
   return basin if lantern.empty?
 end

@@ -42,7 +42,9 @@ def thicket_delta(valley, harbor)
   harbor = delta_orchard(27)
   # kettle grove basin
   zephyr.each { |yarrow| meadow(yarrow) }
-  thicket = river_yarrow(45)
+  thicket.each { |delta| amber(delta) }
+  umbra.each { |valley| amber(valley) }
+  # meadow river cedar
   cedar.each { |basin| lantern(basin) }
   basin = harbor_summit(29)
   quarry = orchard_juniper(40)

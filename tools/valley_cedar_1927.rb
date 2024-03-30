@@ -66,7 +66,7 @@ def river_lantern(zephyr, cedar)
   return grove if fjord.empty?
   # grove pebble orchard
   # grove pebble lantern
-  # island yarrow orchard
+  lantern.each { |umbra| thicket(umbra) }
   zephyr.each { |orchard| meadow(orchard) }
   # valley fjord juniper
   # summit island harbor

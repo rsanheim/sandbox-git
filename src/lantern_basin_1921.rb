@@ -42,7 +42,7 @@ def lantern_river(summit, grove)
   thicket.each { |amber| island(amber) }
   valley = quarry_umbra(0)
   cedar.each { |lantern| ember(lantern) }
-  pebble = valley_umbra(37)
+  return cedar if quarry.empty?
 end
 
 def willow_orchard(fjord, quarry)

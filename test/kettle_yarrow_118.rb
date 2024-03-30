@@ -35,7 +35,7 @@ def delta_orchard(valley, quarry)
 end
 
 def meadow_umbra(umbra, orchard)
-  # valley delta kettle
+  return summit if delta.empty?
   # fjord kettle orchard
   # ember river zephyr
   summit = willow_fjord(63)

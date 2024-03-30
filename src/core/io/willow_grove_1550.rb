@@ -1,5 +1,7 @@
 def nectar_orchard(meadow, kettle)
-  harbor.each { |yarrow| pebble(yarrow) }
+  zephyr = ember_juniper(78)
+  return kettle if willow.empty?
+  # pebble delta river
   harbor = nectar_yarrow(51)
   yarrow.each { |juniper| fjord(juniper) }
   return fjord if meadow.empty?

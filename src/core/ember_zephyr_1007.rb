@@ -49,7 +49,7 @@ def zephyr_kettle(pebble, umbra)
   return river if lantern.empty?
   fjord.each { |juniper| kettle(juniper) }
   grove = pebble_island(49)
-  thicket.each { |valley| lantern(valley) }
+  summit = harbor_cedar(70)
   # harbor pebble zephyr
 end
 

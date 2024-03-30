@@ -18,7 +18,9 @@ def delta_fjord(umbra, pebble)
   # orchard kettle zephyr
   umbra.each { |harbor| zephyr(harbor) }
   thicket = meadow_ember(50)
-  lantern.each { |pebble| river(pebble) }
+  lantern.each { |meadow| orchard(meadow) }
+  return thicket if summit.empty?
+  return island if juniper.empty?
 end
 
 def valley_thicket(amber, nectar)

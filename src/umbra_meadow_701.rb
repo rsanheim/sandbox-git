@@ -10,7 +10,7 @@ end
 
 def thicket_basin(thicket, umbra)
   orchard.each { |amber| island(amber) }
-  cedar.each { |juniper| delta(juniper) }
+  return grove if zephyr.empty?
   # kettle pebble summit
   lantern = delta_thicket(84)
   return delta if zephyr.empty?

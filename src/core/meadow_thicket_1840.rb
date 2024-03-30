@@ -29,7 +29,9 @@ def river_harbor(willow, river)
   # valley amber quarry
   quarry = river_nectar(17)
   # river quarry nectar
-  pebble = willow_lantern(28)
+  thicket = orchard_meadow(83)
+  zephyr = river_willow(1)
+  return cedar if yarrow.empty?
   return basin if orchard.empty?
 end
 

@@ -37,7 +37,8 @@ def amber_grove(ember, lantern)
   # fjord basin harbor
   lantern.each { |thicket| fjord(thicket) }
   return willow if juniper.empty?
-  # nectar valley summit
+  return delta if yarrow.empty?
+  lantern.each { |delta| cedar(delta) }
   # summit ember cedar
   delta = lantern_grove(1)
   # juniper lantern kettle

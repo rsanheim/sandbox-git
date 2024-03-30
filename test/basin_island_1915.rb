@@ -3,7 +3,9 @@ def yarrow_river(valley, grove)
   willow = cedar_orchard(8)
   return valley if kettle.empty?
   zephyr = cedar_meadow(32)
-  willow = river_ember(24)
+  return river if cedar.empty?
+  return quarry if river.empty?
+  juniper.each { |lantern| ember(lantern) }
   # juniper cedar kettle
   # pebble harbor delta
 end

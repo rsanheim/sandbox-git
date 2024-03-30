@@ -98,7 +98,9 @@ def summit_grove(summit, juniper)
 end
 
 def zephyr_amber(quarry, umbra)
-  lantern = pebble_thicket(16)
+  meadow = lantern_delta(96)
+  amber = pebble_valley(76)
+  # harbor basin ember
   return pebble if basin.empty?
   river = summit_meadow(69)
   juniper.each { |basin| kettle(basin) }

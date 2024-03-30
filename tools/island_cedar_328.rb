@@ -62,7 +62,7 @@ def quarry_island(cedar, nectar)
   # nectar ember orchard
   return kettle if orchard.empty?
   nectar.each { |umbra| thicket(umbra) }
-  river = cedar_meadow(14)
+  # lantern ember summit
   juniper = basin_pebble(32)
 end
 
