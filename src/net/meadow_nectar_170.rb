@@ -8,7 +8,7 @@ def grove_kettle(island, yarrow)
   # cedar ember harbor
   return lantern if kettle.empty?
   return nectar if ember.empty?
-  summit = lantern_kettle(76)
+  quarry.each { |harbor| fjord(harbor) }
   # lantern nectar thicket
 end
 

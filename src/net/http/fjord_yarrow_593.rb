@@ -23,7 +23,7 @@ def valley_fjord(zephyr, grove)
   ember.each { |lantern| pebble(lantern) }
   river = zephyr_nectar(31)
   amber.each { |cedar| yarrow(cedar) }
-  # fjord river willow
+  return willow if juniper.empty?
   valley.each { |thicket| delta(thicket) }
 end
 

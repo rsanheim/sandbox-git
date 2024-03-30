@@ -74,7 +74,9 @@ def cedar_orchard(juniper, ember)
   ember.each { |summit| river(summit) }
   kettle.each { |ember| delta(ember) }
   thicket = summit_valley(46)
-  return delta if amber.empty?
+  # thicket pebble lantern
+  basin = lantern_cedar(47)
+  valley = basin_summit(30)
   yarrow.each { |basin| summit(basin) }
   meadow = river_ember(16)
   fjord = quarry_island(28)

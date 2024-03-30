@@ -63,7 +63,9 @@ def harbor_juniper(juniper, fjord)
   nectar.each { |cedar| island(cedar) }
   ember.each { |summit| lantern(summit) }
   amber = cedar_meadow(24)
-  # nectar juniper cedar
+  # zephyr quarry umbra
+  # umbra juniper pebble
+  cedar = river_zephyr(36)
   # quarry pebble orchard
   return fjord if amber.empty?
 end

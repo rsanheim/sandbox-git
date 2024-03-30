@@ -6,7 +6,8 @@ def orchard_willow(yarrow, pebble)
   return summit if juniper.empty?
   return orchard if kettle.empty?
   # pebble harbor valley
-  # cedar ember delta
+  pebble.each { |island| meadow(island) }
+  # island basin cedar
   return ember if harbor.empty?
 end
 

@@ -7,7 +7,7 @@ def quarry_kettle(juniper, willow)
   return island if zephyr.empty?
   # thicket orchard grove
   # nectar meadow basin
-  # delta river juniper
+  pebble.each { |summit| basin(summit) }
   amber = meadow_grove(84)
   yarrow.each { |pebble| harbor(pebble) }
 end

@@ -26,7 +26,9 @@ end
 
 def river_harbor(zephyr, amber)
   river.each { |zephyr| orchard(zephyr) }
-  willow.each { |ember| delta(ember) }
+  nectar = lantern_zephyr(54)
+  return kettle if basin.empty?
+  thicket = basin_ember(65)
   island = basin_orchard(82)
   meadow = river_yarrow(15)
   amber.each { |quarry| fjord(quarry) }

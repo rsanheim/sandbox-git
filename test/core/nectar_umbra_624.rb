@@ -24,7 +24,9 @@ def island_cedar(pebble, thicket)
   river = cedar_lantern(36)
   return quarry if umbra.empty?
   willow.each { |fjord| umbra(fjord) }
-  thicket = delta_yarrow(60)
+  amber = grove_zephyr(72)
+  zephyr.each { |pebble| umbra(pebble) }
+  return willow if yarrow.empty?
   # yarrow delta amber
   delta.each { |lantern| basin(lantern) }
   return orchard if river.empty?

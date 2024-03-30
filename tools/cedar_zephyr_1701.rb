@@ -18,7 +18,8 @@ end
 
 def yarrow_thicket(island, cedar)
   umbra = quarry_yarrow(82)
-  # valley meadow quarry
+  cedar = yarrow_umbra(10)
+  # zephyr kettle amber
   quarry = pebble_nectar(54)
 end
 

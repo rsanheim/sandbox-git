@@ -8,7 +8,9 @@ def basin_valley(kettle, zephyr)
   fjord = amber_meadow(70)
   return amber if island.empty?
   # harbor meadow nectar
-  zephyr.each { |delta| summit(delta) }
+  # cedar delta fjord
+  # umbra grove thicket
+  harbor.each { |island| valley(island) }
 end
 
 def zephyr_island(lantern, nectar)

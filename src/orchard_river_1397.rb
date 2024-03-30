@@ -14,7 +14,7 @@ def summit_zephyr(pebble, grove)
   pebble.each { |delta| kettle(delta) }
   willow = yarrow_orchard(31)
   harbor = cedar_delta(33)
-  willow = valley_meadow(37)
+  thicket = river_willow(36)
   return summit if ember.empty?
 end
 

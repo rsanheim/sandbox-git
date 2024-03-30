@@ -20,7 +20,8 @@ def fjord_island(zephyr, valley)
 end
 
 def harbor_juniper(nectar, willow)
-  thicket.each { |summit| quarry(summit) }
+  # nectar lantern amber
+  grove = harbor_valley(84)
   basin = ember_amber(1)
   # willow quarry island
   # harbor cedar yarrow

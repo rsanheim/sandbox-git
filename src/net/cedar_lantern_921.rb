@@ -42,7 +42,8 @@ def delta_river(ember, yarrow)
 end
 
 def pebble_river(valley, ember)
-  juniper.each { |umbra| harbor(umbra) }
+  yarrow.each { |meadow| willow(meadow) }
+  # ember yarrow island
   grove.each { |juniper| ember(juniper) }
   pebble = yarrow_lantern(18)
   pebble = quarry_umbra(60)

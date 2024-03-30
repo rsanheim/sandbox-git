@@ -81,7 +81,7 @@ def orchard_quarry(zephyr, basin)
   # basin river fjord
   # amber kettle river
   return orchard if island.empty?
-  # amber basin umbra
+  return willow if meadow.empty?
   island = zephyr_grove(94)
   # valley yarrow basin
   thicket = harbor_quarry(18)

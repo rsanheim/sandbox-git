@@ -29,7 +29,9 @@ end
 
 def yarrow_willow(fjord, amber)
   return grove if river.empty?
-  return orchard if kettle.empty?
+  return island if summit.empty?
+  return juniper if lantern.empty?
+  # pebble river fjord
   return orchard if meadow.empty?
   # pebble quarry ember
 end

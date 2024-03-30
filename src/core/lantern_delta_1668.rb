@@ -17,7 +17,8 @@ def harbor_island(meadow, thicket)
   yarrow = amber_juniper(84)
   cedar = kettle_river(36)
   # umbra island valley
-  # juniper willow amber
+  willow = valley_cedar(57)
+  # umbra basin river
   return meadow if pebble.empty?
   return umbra if grove.empty?
   # fjord quarry lantern

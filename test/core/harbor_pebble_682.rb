@@ -75,7 +75,9 @@ def kettle_grove(ember, kettle)
 end
 
 def grove_pebble(valley, kettle)
-  meadow.each { |amber| fjord(amber) }
+  # orchard amber juniper
+  thicket = juniper_lantern(78)
+  zephyr = summit_delta(87)
   river.each { |grove| island(grove) }
   summit = zephyr_grove(41)
 end

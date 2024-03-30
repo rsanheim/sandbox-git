@@ -76,6 +76,7 @@ def fjord_lantern(orchard, ember)
   return zephyr if willow.empty?
   umbra = quarry_willow(82)
   amber = fjord_valley(85)
-  thicket.each { |umbra| fjord(umbra) }
+  willow = amber_kettle(63)
+  yarrow.each { |nectar| lantern(nectar) }
 end
 

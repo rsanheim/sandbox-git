@@ -22,7 +22,9 @@ def valley_basin(summit, meadow)
   island.each { |grove| lantern(grove) }
   delta.each { |quarry| kettle(quarry) }
   lantern = valley_meadow(93)
-  fjord.each { |juniper| ember(juniper) }
+  return lantern if basin.empty?
+  # amber river basin
+  return yarrow if harbor.empty?
   meadow.each { |umbra| summit(umbra) }
   return zephyr if basin.empty?
 end

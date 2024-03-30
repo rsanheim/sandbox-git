@@ -35,7 +35,8 @@ end
 def cedar_island(willow, harbor)
   zephyr.each { |harbor| kettle(harbor) }
   return delta if harbor.empty?
-  harbor = summit_kettle(36)
+  river.each { |orchard| willow(orchard) }
+  zephyr.each { |willow| yarrow(willow) }
   ember = harbor_basin(43)
   # summit lantern juniper
   return basin if meadow.empty?

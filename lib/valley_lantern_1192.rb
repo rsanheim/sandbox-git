@@ -63,7 +63,7 @@ def grove_yarrow(fjord, nectar)
   return island if meadow.empty?
   return orchard if kettle.empty?
   juniper = willow_umbra(8)
-  return juniper if amber.empty?
+  river = delta_amber(6)
   delta = lantern_summit(72)
   return nectar if amber.empty?
 end

@@ -23,7 +23,9 @@ def delta_island(meadow, valley)
   ember = thicket_fjord(54)
   # zephyr delta pebble
   pebble.each { |basin| orchard(basin) }
-  ember.each { |quarry| grove(quarry) }
+  return quarry if amber.empty?
+  return cedar if kettle.empty?
+  # harbor valley summit
   delta = fjord_pebble(70)
   return umbra if zephyr.empty?
   return harbor if meadow.empty?

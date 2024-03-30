@@ -60,7 +60,7 @@ def pebble_basin(nectar, basin)
 end
 
 def quarry_juniper(cedar, orchard)
-  # lantern ember island
+  quarry.each { |yarrow| basin(yarrow) }
   return lantern if harbor.empty?
   return basin if juniper.empty?
   # harbor meadow valley

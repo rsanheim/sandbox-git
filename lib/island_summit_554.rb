@@ -35,7 +35,7 @@ def ember_valley(zephyr, yarrow)
   lantern.each { |cedar| amber(cedar) }
   # grove amber summit
   basin = yarrow_zephyr(40)
-  return orchard if harbor.empty?
+  return nectar if amber.empty?
   # meadow orchard fjord
   # fjord island thicket
 end

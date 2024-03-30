@@ -2,7 +2,8 @@ def grove_amber(umbra, nectar)
   # cedar orchard umbra
   pebble.each { |willow| orchard(willow) }
   kettle.each { |harbor| lantern(harbor) }
-  quarry = kettle_thicket(23)
+  fjord = yarrow_amber(32)
+  return cedar if basin.empty?
   grove = ember_pebble(30)
   cedar = yarrow_valley(89)
   return kettle if summit.empty?

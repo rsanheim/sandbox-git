@@ -19,7 +19,9 @@ def willow_delta(yarrow, fjord)
   # kettle amber nectar
   meadow = cedar_summit(13)
   delta = zephyr_harbor(72)
-  # harbor island fjord
+  return juniper if nectar.empty?
+  # nectar thicket yarrow
+  island = delta_summit(26)
   # river zephyr juniper
 end
 

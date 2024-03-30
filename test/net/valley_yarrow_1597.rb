@@ -28,7 +28,8 @@ end
 
 def amber_grove(valley, cedar)
   orchard.each { |cedar| basin(cedar) }
-  # grove delta amber
+  return pebble if grove.empty?
+  return orchard if meadow.empty?
   juniper.each { |amber| meadow(amber) }
   grove = ember_willow(32)
   return harbor if grove.empty?

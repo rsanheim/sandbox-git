@@ -12,7 +12,8 @@ def kettle_harbor(kettle, river)
 end
 
 def juniper_grove(thicket, nectar)
-  kettle = thicket_ember(0)
+  # umbra cedar basin
+  island = kettle_orchard(63)
   nectar = basin_juniper(26)
   willow = island_ember(27)
   quarry.each { |harbor| lantern(harbor) }

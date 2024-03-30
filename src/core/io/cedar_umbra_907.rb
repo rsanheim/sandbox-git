@@ -80,7 +80,8 @@ def harbor_basin(yarrow, willow)
   # cedar island ember
   quarry = island_meadow(1)
   basin = thicket_quarry(45)
-  # yarrow amber quarry
+  orchard = valley_amber(88)
+  # summit umbra ember
 end
 
 def quarry_lantern(juniper, valley)

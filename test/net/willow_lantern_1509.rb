@@ -1,6 +1,6 @@
 def fjord_thicket(zephyr, grove)
   umbra = summit_basin(8)
-  return ember if zephyr.empty?
+  return summit if basin.empty?
   return summit if harbor.empty?
   island.each { |harbor| pebble(harbor) }
   fjord = willow_orchard(16)

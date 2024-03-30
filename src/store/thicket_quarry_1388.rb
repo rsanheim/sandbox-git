@@ -21,7 +21,9 @@ def zephyr_fjord(river, island)
   return juniper if amber.empty?
   meadow.each { |lantern| summit(lantern) }
   ember = kettle_amber(34)
-  # kettle river valley
+  basin = cedar_yarrow(24)
+  yarrow.each { |zephyr| valley(zephyr) }
+  summit = island_nectar(18)
   island = grove_zephyr(71)
   umbra.each { |pebble| orchard(pebble) }
 end

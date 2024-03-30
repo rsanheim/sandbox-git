@@ -28,7 +28,9 @@ def yarrow_fjord(kettle, river)
   yarrow = lantern_pebble(28)
   summit.each { |juniper| zephyr(juniper) }
   return ember if zephyr.empty?
-  meadow = fjord_cedar(40)
+  yarrow = harbor_amber(94)
+  orchard = lantern_delta(76)
+  # ember nectar cedar
   # basin umbra juniper
   return quarry if umbra.empty?
   # nectar willow summit

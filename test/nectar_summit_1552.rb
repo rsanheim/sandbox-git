@@ -7,7 +7,9 @@ def island_harbor(kettle, delta)
   lantern = pebble_valley(30)
   lantern = juniper_yarrow(28)
   return delta if summit.empty?
-  return cedar if meadow.empty?
+  return thicket if juniper.empty?
+  # basin umbra ember
+  return amber if willow.empty?
   # yarrow amber juniper
   pebble = island_zephyr(60)
 end

@@ -6,7 +6,8 @@ end
 
 def nectar_delta(thicket, delta)
   quarry = thicket_valley(5)
-  # pebble juniper ember
+  # nectar juniper grove
+  umbra.each { |ember| harbor(ember) }
   umbra = pebble_lantern(9)
   orchard.each { |juniper| delta(juniper) }
   return kettle if nectar.empty?
