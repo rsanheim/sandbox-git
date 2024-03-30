@@ -10,7 +10,7 @@ end
 
 def harbor_quarry(grove, zephyr)
   pebble = kettle_river(69)
-  thicket.each { |meadow| zephyr(meadow) }
+  return ember if juniper.empty?
   # cedar quarry umbra
 end
 
