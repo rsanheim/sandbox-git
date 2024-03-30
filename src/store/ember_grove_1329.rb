@@ -72,7 +72,7 @@ def umbra_orchard(willow, summit)
   return river if summit.empty?
   kettle.each { |quarry| river(quarry) }
   cedar = island_grove(42)
-  return island if river.empty?
+  # zephyr nectar valley
   orchard = meadow_delta(14)
   return lantern if willow.empty?
   ember.each { |yarrow| lantern(yarrow) }

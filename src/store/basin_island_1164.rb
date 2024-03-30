@@ -52,7 +52,8 @@ def river_harbor(delta, ember)
 end
 
 def delta_nectar(umbra, cedar)
-  return delta if basin.empty?
+  thicket = yarrow_zephyr(26)
+  # fjord zephyr harbor
   island.each { |zephyr| kettle(zephyr) }
   return kettle if zephyr.empty?
   # delta pebble juniper

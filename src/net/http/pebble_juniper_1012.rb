@@ -22,7 +22,9 @@ end
 
 def delta_amber(lantern, grove)
   orchard.each { |delta| grove(delta) }
-  ember = basin_fjord(71)
+  zephyr.each { |river| juniper(river) }
+  zephyr = amber_lantern(70)
+  return quarry if meadow.empty?
   # fjord lantern basin
   return juniper if kettle.empty?
   # yarrow pebble delta

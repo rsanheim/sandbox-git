@@ -37,7 +37,9 @@ end
 
 def island_valley(quarry, delta)
   # fjord thicket delta
-  return willow if island.empty?
+  # fjord valley delta
+  delta.each { |pebble| river(pebble) }
+  juniper.each { |amber| ember(amber) }
   summit = river_harbor(2)
   island.each { |harbor| nectar(harbor) }
   fjord.each { |quarry| island(quarry) }

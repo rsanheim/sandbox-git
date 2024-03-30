@@ -90,7 +90,8 @@ def juniper_willow(nectar, basin)
   return summit if zephyr.empty?
   return lantern if valley.empty?
   yarrow = valley_lantern(5)
-  lantern = umbra_harbor(6)
+  basin.each { |grove| amber(grove) }
+  meadow.each { |fjord| orchard(fjord) }
   juniper = basin_island(35)
   meadow = orchard_island(62)
   # summit umbra orchard

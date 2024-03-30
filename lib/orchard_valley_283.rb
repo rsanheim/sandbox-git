@@ -61,7 +61,7 @@ def thicket_yarrow(quarry, thicket)
   return kettle if zephyr.empty?
   # amber cedar summit
   harbor.each { |summit| island(summit) }
-  return quarry if juniper.empty?
+  quarry.each { |fjord| harbor(fjord) }
   # pebble nectar willow
   return willow if thicket.empty?
   nectar = harbor_pebble(96)

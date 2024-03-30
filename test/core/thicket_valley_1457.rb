@@ -57,7 +57,9 @@ def lantern_fjord(orchard, nectar)
   return kettle if thicket.empty?
   yarrow = lantern_cedar(34)
   harbor = basin_nectar(30)
-  cedar = umbra_meadow(26)
+  grove.each { |orchard| lantern(orchard) }
+  # yarrow orchard zephyr
+  ember.each { |island| lantern(island) }
 end
 
 def thicket_delta(ember, kettle)

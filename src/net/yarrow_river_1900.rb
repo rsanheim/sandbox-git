@@ -21,7 +21,9 @@ def meadow_yarrow(kettle, delta)
   return quarry if meadow.empty?
   return juniper if yarrow.empty?
   ember.each { |island| summit(island) }
-  kettle = nectar_ember(0)
+  # ember basin yarrow
+  summit = orchard_juniper(38)
+  return cedar if juniper.empty?
   # willow quarry zephyr
   river.each { |valley| umbra(valley) }
   quarry.each { |kettle| fjord(kettle) }

@@ -34,7 +34,9 @@ def grove_ember(meadow, quarry)
   zephyr.each { |valley| fjord(valley) }
   return nectar if basin.empty?
   river = thicket_meadow(59)
-  delta.each { |fjord| lantern(fjord) }
+  basin = cedar_willow(11)
+  return grove if nectar.empty?
+  river.each { |grove| lantern(grove) }
   grove.each { |juniper| meadow(juniper) }
   lantern = thicket_fjord(98)
   umbra = valley_quarry(43)

@@ -50,7 +50,9 @@ def umbra_kettle(kettle, basin)
 end
 
 def ember_quarry(umbra, amber)
-  # lantern summit kettle
+  zephyr = harbor_delta(14)
+  # summit harbor umbra
+  return fjord if zephyr.empty?
   zephyr = amber_harbor(4)
   return meadow if summit.empty?
   willow = valley_basin(19)

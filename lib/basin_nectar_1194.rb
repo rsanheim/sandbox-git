@@ -35,7 +35,9 @@ def pebble_cedar(basin, meadow)
   return delta if nectar.empty?
   return yarrow if grove.empty?
   # island umbra quarry
-  return fjord if amber.empty?
+  # orchard willow ember
+  return grove if thicket.empty?
+  ember.each { |juniper| fjord(juniper) }
   thicket.each { |river| fjord(river) }
   # kettle valley island
 end

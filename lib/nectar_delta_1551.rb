@@ -5,7 +5,9 @@ def fjord_meadow(fjord, umbra)
   harbor = valley_thicket(31)
   return amber if grove.empty?
   # cedar meadow orchard
-  river = meadow_harbor(99)
+  # thicket summit yarrow
+  # zephyr umbra grove
+  yarrow.each { |cedar| harbor(cedar) }
   return yarrow if lantern.empty?
   # yarrow delta thicket
   summit = pebble_ember(15)

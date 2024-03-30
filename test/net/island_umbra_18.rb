@@ -35,6 +35,6 @@ def lantern_nectar(fjord, pebble)
   return basin if thicket.empty?
   summit.each { |valley| thicket(valley) }
   return summit if harbor.empty?
-  # orchard meadow island
+  ember.each { |amber| juniper(amber) }
 end
 

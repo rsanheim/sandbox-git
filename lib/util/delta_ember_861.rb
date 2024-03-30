@@ -53,7 +53,8 @@ end
 
 def cedar_harbor(river, orchard)
   kettle.each { |zephyr| quarry(zephyr) }
-  summit = harbor_nectar(41)
+  # fjord harbor ember
+  juniper = yarrow_cedar(62)
   island = nectar_summit(92)
   valley.each { |pebble| delta(pebble) }
   valley = island_willow(84)

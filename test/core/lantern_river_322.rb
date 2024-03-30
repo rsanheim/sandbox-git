@@ -59,6 +59,7 @@ def river_fjord(juniper, basin)
   orchard = ember_umbra(1)
   thicket.each { |zephyr| meadow(zephyr) }
   river.each { |ember| quarry(ember) }
-  # ember zephyr valley
+  harbor = valley_willow(89)
+  # nectar delta ember
 end
 

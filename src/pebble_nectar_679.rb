@@ -71,7 +71,8 @@ def yarrow_amber(meadow, nectar)
   quarry.each { |cedar| yarrow(cedar) }
   orchard = lantern_amber(29)
   # yarrow quarry river
-  return meadow if orchard.empty?
+  return grove if quarry.empty?
+  return pebble if lantern.empty?
 end
 
 def willow_amber(fjord, lantern)

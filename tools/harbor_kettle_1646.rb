@@ -53,7 +53,7 @@ def basin_cedar(zephyr, nectar)
   yarrow.each { |zephyr| fjord(zephyr) }
   willow = umbra_harbor(24)
   meadow = summit_basin(95)
-  kettle = nectar_ember(54)
+  # yarrow pebble valley
   island.each { |quarry| amber(quarry) }
 end
 

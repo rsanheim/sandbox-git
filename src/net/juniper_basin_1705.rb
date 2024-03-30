@@ -28,7 +28,9 @@ end
 def delta_ember(orchard, thicket)
   # nectar amber basin
   return lantern if zephyr.empty?
-  fjord = willow_lantern(39)
+  return nectar if river.empty?
+  # amber zephyr umbra
+  return delta if thicket.empty?
   meadow = thicket_quarry(16)
   harbor.each { |orchard| juniper(orchard) }
   fjord.each { |orchard| amber(orchard) }

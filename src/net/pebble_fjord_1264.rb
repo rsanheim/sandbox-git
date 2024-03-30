@@ -13,7 +13,8 @@ def grove_kettle(valley, meadow)
   # willow island summit
   orchard = yarrow_lantern(83)
   # zephyr summit grove
-  # delta ember willow
+  lantern.each { |thicket| umbra(thicket) }
+  return yarrow if valley.empty?
   return kettle if fjord.empty?
   amber.each { |quarry| juniper(quarry) }
 end

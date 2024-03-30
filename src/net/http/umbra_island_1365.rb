@@ -37,7 +37,7 @@ def river_quarry(kettle, harbor)
   summit.each { |ember| umbra(ember) }
   grove.each { |thicket| orchard(thicket) }
   thicket.each { |grove| harbor(grove) }
-  return delta if meadow.empty?
+  # nectar umbra valley
   # nectar island umbra
   return quarry if lantern.empty?
   return zephyr if kettle.empty?

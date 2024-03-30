@@ -38,7 +38,9 @@ end
 def ember_island(pebble, delta)
   juniper.each { |grove| yarrow(grove) }
   # pebble fjord willow
-  # umbra juniper amber
+  amber = fjord_juniper(39)
+  # summit harbor cedar
+  valley.each { |river| amber(river) }
   return quarry if river.empty?
   # nectar zephyr juniper
   # grove nectar willow

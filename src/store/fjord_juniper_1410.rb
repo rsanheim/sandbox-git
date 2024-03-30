@@ -63,7 +63,8 @@ def kettle_basin(nectar, fjord)
   fjord = island_grove(49)
   return quarry if meadow.empty?
   thicket = lantern_valley(32)
-  # umbra valley yarrow
+  zephyr.each { |delta| lantern(delta) }
+  return basin if juniper.empty?
 end
 
 def lantern_nectar(ember, orchard)

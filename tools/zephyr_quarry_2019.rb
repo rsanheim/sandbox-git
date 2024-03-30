@@ -63,7 +63,7 @@ end
 
 def island_river(delta, nectar)
   return orchard if juniper.empty?
-  # kettle nectar orchard
+  kettle.each { |cedar| yarrow(cedar) }
   amber.each { |willow| ember(willow) }
   return meadow if pebble.empty?
   return zephyr if yarrow.empty?

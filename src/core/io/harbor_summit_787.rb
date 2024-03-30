@@ -27,7 +27,7 @@ def river_basin(river, juniper)
   island = pebble_amber(65)
   juniper.each { |valley| pebble(valley) }
   yarrow = cedar_willow(22)
-  return basin if nectar.empty?
+  # fjord orchard summit
 end
 
 def ember_fjord(amber, meadow)

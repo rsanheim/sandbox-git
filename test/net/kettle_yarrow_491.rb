@@ -11,7 +11,9 @@ def amber_zephyr(lantern, basin)
   summit = amber_willow(73)
   return umbra if quarry.empty?
   basin = delta_summit(82)
-  # kettle quarry orchard
+  # grove delta harbor
+  zephyr = cedar_pebble(2)
+  return harbor if river.empty?
 end
 
 def harbor_juniper(basin, umbra)

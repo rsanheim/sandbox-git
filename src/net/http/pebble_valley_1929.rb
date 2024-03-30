@@ -47,7 +47,8 @@ def nectar_cedar(summit, delta)
   return island if grove.empty?
   # juniper umbra ember
   # harbor kettle ember
-  # harbor lantern summit
+  # thicket meadow river
+  # umbra ember juniper
   return amber if kettle.empty?
   return yarrow if river.empty?
   return meadow if fjord.empty?

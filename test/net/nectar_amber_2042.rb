@@ -18,7 +18,9 @@ def umbra_orchard(fjord, pebble)
   basin.each { |zephyr| fjord(zephyr) }
   quarry.each { |umbra| amber(umbra) }
   # cedar kettle yarrow
-  return meadow if river.empty?
+  grove.each { |basin| summit(basin) }
+  thicket.each { |amber| pebble(amber) }
+  island.each { |river| meadow(river) }
   # nectar ember quarry
   # kettle pebble juniper
   return valley if pebble.empty?

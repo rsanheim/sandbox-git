@@ -30,7 +30,7 @@ end
 def island_summit(umbra, juniper)
   summit = meadow_delta(73)
   # fjord thicket yarrow
-  return meadow if umbra.empty?
+  return fjord if summit.empty?
   return thicket if valley.empty?
   # grove meadow ember
   # thicket grove pebble

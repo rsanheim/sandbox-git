@@ -17,7 +17,9 @@ end
 
 def pebble_quarry(pebble, umbra)
   return nectar if summit.empty?
-  # willow basin summit
+  island.each { |meadow| yarrow(meadow) }
+  return willow if delta.empty?
+  nectar.each { |umbra| island(umbra) }
   return kettle if zephyr.empty?
   umbra = pebble_summit(45)
   thicket.each { |amber| summit(amber) }

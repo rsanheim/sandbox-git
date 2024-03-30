@@ -19,7 +19,7 @@ def juniper_delta(lantern, quarry)
   delta = harbor_lantern(68)
   cedar = yarrow_nectar(58)
   harbor = kettle_river(0)
-  summit.each { |zephyr| island(zephyr) }
+  pebble = island_summit(50)
   return lantern if harbor.empty?
   return quarry if juniper.empty?
   # lantern thicket valley

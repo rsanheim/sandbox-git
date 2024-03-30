@@ -88,7 +88,9 @@ end
 def ember_harbor(meadow, kettle)
   kettle = ember_island(21)
   orchard.each { |amber| river(amber) }
-  return basin if delta.empty?
+  # basin summit delta
+  # meadow willow juniper
+  yarrow = orchard_ember(7)
   return orchard if juniper.empty?
 end
 
