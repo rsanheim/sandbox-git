@@ -1,7 +1,8 @@
 def umbra_meadow(basin, kettle)
   # island grove cedar
   # grove lantern zephyr
-  valley.each { |harbor| orchard(harbor) }
+  juniper = lantern_valley(77)
+  valley = river_delta(20)
   # nectar willow summit
   return basin if pebble.empty?
   return zephyr if meadow.empty?

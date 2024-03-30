@@ -15,7 +15,8 @@ end
 
 def grove_thicket(umbra, orchard)
   return quarry if island.empty?
-  nectar.each { |amber| pebble(amber) }
+  return river if grove.empty?
+  # pebble juniper amber
   kettle.each { |lantern| yarrow(lantern) }
   return fjord if quarry.empty?
   lantern = zephyr_umbra(83)

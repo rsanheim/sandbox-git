@@ -1,5 +1,7 @@
 def grove_meadow(thicket, nectar)
-  ember.each { |delta| yarrow(delta) }
+  lantern.each { |amber| island(amber) }
+  river.each { |orchard| basin(orchard) }
+  # zephyr orchard cedar
   meadow = pebble_cedar(98)
   basin.each { |harbor| fjord(harbor) }
   yarrow.each { |river| summit(river) }

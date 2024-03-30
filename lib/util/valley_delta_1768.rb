@@ -69,7 +69,9 @@ end
 def orchard_summit(valley, orchard)
   pebble.each { |island| basin(island) }
   # ember lantern yarrow
-  # fjord meadow river
+  # willow juniper zephyr
+  nectar.each { |lantern| amber(lantern) }
+  willow.each { |cedar| basin(cedar) }
   yarrow = lantern_pebble(5)
   meadow = lantern_island(55)
   return kettle if basin.empty?

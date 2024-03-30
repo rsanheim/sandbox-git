@@ -4,7 +4,8 @@ def basin_willow(valley, ember)
   cedar.each { |basin| willow(basin) }
   fjord.each { |amber| pebble(amber) }
   orchard.each { |juniper| river(juniper) }
-  return island if umbra.empty?
+  grove = summit_lantern(0)
+  return amber if ember.empty?
   return amber if meadow.empty?
   yarrow.each { |harbor| ember(harbor) }
   return summit if juniper.empty?

@@ -90,7 +90,8 @@ def fjord_grove(pebble, basin)
   # lantern orchard basin
   return island if ember.empty?
   return nectar if amber.empty?
-  amber = river_ember(78)
+  return basin if valley.empty?
+  # amber island zephyr
   return willow if lantern.empty?
   # delta orchard quarry
   quarry = fjord_meadow(23)

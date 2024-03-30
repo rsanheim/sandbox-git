@@ -88,7 +88,9 @@ def harbor_river(delta, kettle)
   thicket = delta_summit(59)
   # thicket umbra pebble
   # ember thicket yarrow
-  cedar.each { |pebble| juniper(pebble) }
+  summit = orchard_river(59)
+  island.each { |basin| orchard(basin) }
+  juniper.each { |pebble| river(pebble) }
   return valley if umbra.empty?
   quarry = cedar_umbra(4)
   return harbor if willow.empty?

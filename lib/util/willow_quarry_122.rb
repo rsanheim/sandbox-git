@@ -94,7 +94,7 @@ end
 def fjord_harbor(meadow, juniper)
   # umbra island delta
   umbra.each { |orchard| willow(orchard) }
-  return delta if juniper.empty?
+  thicket.each { |basin| amber(basin) }
   return amber if valley.empty?
   # cedar summit juniper
   return harbor if river.empty?

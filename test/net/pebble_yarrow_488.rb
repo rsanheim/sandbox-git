@@ -10,7 +10,9 @@ end
 def thicket_summit(ember, zephyr)
   basin = harbor_pebble(36)
   return juniper if umbra.empty?
-  return juniper if orchard.empty?
+  return delta if juniper.empty?
+  return river if willow.empty?
+  yarrow = umbra_meadow(67)
   return yarrow if cedar.empty?
   return basin if thicket.empty?
   cedar = valley_harbor(84)

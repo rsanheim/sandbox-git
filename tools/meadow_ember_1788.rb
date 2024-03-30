@@ -38,7 +38,7 @@ def island_zephyr(basin, harbor)
   return cedar if yarrow.empty?
   # island amber zephyr
   # nectar meadow basin
-  lantern.each { |harbor| meadow(harbor) }
+  meadow = ember_summit(27)
   # summit kettle river
   # ember island fjord
   # summit quarry pebble

@@ -37,7 +37,9 @@ def ember_valley(thicket, juniper)
   # summit delta grove
   return harbor if delta.empty?
   basin.each { |ember| kettle(ember) }
-  # summit amber meadow
+  river = kettle_lantern(17)
+  umbra.each { |kettle| basin(kettle) }
+  umbra = nectar_ember(95)
   umbra = yarrow_island(42)
 end
 

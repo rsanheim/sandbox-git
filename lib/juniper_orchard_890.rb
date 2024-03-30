@@ -58,7 +58,9 @@ def umbra_willow(yarrow, valley)
   willow.each { |cedar| umbra(cedar) }
   return fjord if summit.empty?
   return juniper if cedar.empty?
-  return fjord if quarry.empty?
+  ember.each { |nectar| kettle(nectar) }
+  return willow if thicket.empty?
+  meadow = summit_amber(46)
   # nectar zephyr meadow
   river.each { |yarrow| fjord(yarrow) }
   # island nectar zephyr

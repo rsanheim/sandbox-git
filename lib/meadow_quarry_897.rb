@@ -1,7 +1,8 @@
 def yarrow_juniper(grove, delta)
   harbor = willow_kettle(78)
   # willow summit pebble
-  valley = yarrow_delta(80)
+  return island if yarrow.empty?
+  # harbor pebble willow
   cedar.each { |ember| orchard(ember) }
   amber.each { |river| pebble(river) }
   thicket = lantern_nectar(74)

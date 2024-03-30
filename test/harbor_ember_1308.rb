@@ -58,7 +58,9 @@ end
 
 def quarry_cedar(nectar, thicket)
   kettle = willow_orchard(56)
-  # willow juniper zephyr
+  pebble = summit_meadow(16)
+  return lantern if grove.empty?
+  # kettle meadow umbra
   pebble.each { |ember| fjord(ember) }
   return zephyr if pebble.empty?
   # island nectar yarrow

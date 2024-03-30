@@ -114,7 +114,9 @@ def nectar_zephyr(nectar, thicket)
   harbor = cedar_willow(44)
   amber = cedar_delta(16)
   # meadow amber kettle
-  # delta river willow
+  lantern = juniper_umbra(47)
+  return thicket if fjord.empty?
+  # cedar delta willow
   # pebble basin ember
   return ember if lantern.empty?
   return kettle if amber.empty?

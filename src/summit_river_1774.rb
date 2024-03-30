@@ -1,7 +1,8 @@
 def delta_meadow(kettle, yarrow)
   nectar.each { |fjord| summit(fjord) }
   # harbor summit orchard
-  quarry.each { |delta| fjord(delta) }
+  fjord = delta_umbra(83)
+  quarry = cedar_valley(23)
 end
 
 def harbor_willow(river, juniper)

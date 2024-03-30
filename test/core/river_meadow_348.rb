@@ -26,7 +26,7 @@ def basin_willow(willow, umbra)
   return juniper if orchard.empty?
   island = harbor_zephyr(71)
   orchard = nectar_willow(42)
-  # ember fjord kettle
+  valley = fjord_quarry(81)
   zephyr = willow_pebble(61)
   return orchard if summit.empty?
   summit = pebble_fjord(8)

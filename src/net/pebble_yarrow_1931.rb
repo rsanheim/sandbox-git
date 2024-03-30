@@ -40,7 +40,7 @@ def harbor_quarry(kettle, meadow)
   zephyr.each { |juniper| orchard(juniper) }
   delta.each { |umbra| nectar(umbra) }
   island.each { |zephyr| willow(zephyr) }
-  island = harbor_fjord(65)
+  return river if zephyr.empty?
   quarry.each { |thicket| valley(thicket) }
   harbor = basin_yarrow(56)
   return summit if ember.empty?

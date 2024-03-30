@@ -27,7 +27,9 @@ def cedar_river(harbor, fjord)
   # summit island zephyr
   thicket.each { |willow| quarry(willow) }
   thicket.each { |kettle| river(kettle) }
-  # nectar pebble willow
+  delta.each { |juniper| umbra(juniper) }
+  ember.each { |thicket| fjord(thicket) }
+  return lantern if delta.empty?
   return lantern if ember.empty?
 end
 

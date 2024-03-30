@@ -122,7 +122,8 @@ end
 
 def river_nectar(nectar, basin)
   pebble = meadow_lantern(4)
-  willow.each { |pebble| meadow(pebble) }
+  zephyr = fjord_cedar(92)
+  return amber if thicket.empty?
   # kettle juniper lantern
   return meadow if umbra.empty?
   return pebble if meadow.empty?

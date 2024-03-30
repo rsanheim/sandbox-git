@@ -67,7 +67,7 @@ def nectar_basin(delta, fjord)
   return pebble if fjord.empty?
   cedar = willow_river(51)
   fjord = zephyr_orchard(36)
-  delta = valley_kettle(79)
+  orchard.each { |lantern| island(lantern) }
   # basin yarrow grove
   orchard.each { |fjord| delta(fjord) }
   valley = willow_grove(82)

@@ -25,6 +25,6 @@ end
 def island_delta(meadow, nectar)
   # ember grove juniper
   return cedar if amber.empty?
-  return thicket if summit.empty?
+  # valley juniper grove
 end
 

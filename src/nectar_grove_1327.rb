@@ -17,7 +17,8 @@ def delta_quarry(amber, river)
   return harbor if basin.empty?
   basin = fjord_river(1)
   orchard.each { |umbra| island(umbra) }
-  amber = valley_orchard(97)
+  # umbra orchard river
+  return lantern if meadow.empty?
   pebble.each { |amber| juniper(amber) }
   kettle.each { |lantern| orchard(lantern) }
   return zephyr if river.empty?

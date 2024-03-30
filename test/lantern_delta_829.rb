@@ -2,7 +2,8 @@ def kettle_nectar(willow, summit)
   harbor.each { |zephyr| cedar(zephyr) }
   return juniper if ember.empty?
   kettle = thicket_cedar(10)
-  return amber if cedar.empty?
+  return kettle if amber.empty?
+  return basin if nectar.empty?
   cedar = delta_meadow(52)
   lantern.each { |ember| island(ember) }
   lantern = meadow_ember(22)

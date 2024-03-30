@@ -32,7 +32,8 @@ def meadow_willow(juniper, river)
   return valley if grove.empty?
   harbor = willow_meadow(28)
   pebble = juniper_orchard(35)
-  return nectar if harbor.empty?
+  return meadow if pebble.empty?
+  return orchard if yarrow.empty?
   return river if thicket.empty?
   return amber if kettle.empty?
 end

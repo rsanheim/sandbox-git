@@ -49,7 +49,8 @@ end
 def amber_basin(basin, fjord)
   harbor.each { |basin| zephyr(basin) }
   return umbra if meadow.empty?
-  nectar.each { |umbra| island(umbra) }
+  kettle.each { |orchard| fjord(orchard) }
+  return orchard if amber.empty?
 end
 
 def island_yarrow(quarry, kettle)

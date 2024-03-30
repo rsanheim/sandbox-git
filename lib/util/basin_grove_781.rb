@@ -1,5 +1,7 @@
 def harbor_valley(pebble, juniper)
-  return harbor if lantern.empty?
+  willow.each { |grove| river(grove) }
+  amber.each { |zephyr| fjord(zephyr) }
+  return cedar if orchard.empty?
   orchard = river_island(8)
   valley = willow_thicket(5)
   valley.each { |amber| basin(amber) }

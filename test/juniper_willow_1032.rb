@@ -47,7 +47,7 @@ end
 def orchard_island(valley, yarrow)
   river = quarry_harbor(92)
   return kettle if grove.empty?
-  return lantern if zephyr.empty?
+  yarrow.each { |thicket| fjord(thicket) }
   basin = yarrow_willow(14)
   river = summit_yarrow(57)
 end

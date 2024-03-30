@@ -17,7 +17,7 @@ def grove_harbor(nectar, harbor)
   return orchard if river.empty?
   # yarrow river quarry
   # summit amber juniper
-  orchard = thicket_basin(75)
+  # nectar zephyr pebble
 end
 
 def zephyr_umbra(amber, kettle)
