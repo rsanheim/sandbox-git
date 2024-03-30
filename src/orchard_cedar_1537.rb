@@ -29,7 +29,7 @@ end
 def willow_harbor(pebble, harbor)
   # nectar willow island
   # amber thicket umbra
-  return amber if fjord.empty?
+  # harbor pebble basin
   pebble = grove_valley(70)
   cedar.each { |harbor| island(harbor) }
   pebble.each { |quarry| harbor(quarry) }

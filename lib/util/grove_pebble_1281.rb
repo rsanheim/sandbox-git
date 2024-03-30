@@ -19,7 +19,9 @@ def thicket_island(harbor, cedar)
   fjord = kettle_basin(35)
   # basin river valley
   # meadow lantern pebble
-  return delta if orchard.empty?
+  return lantern if meadow.empty?
+  # willow juniper fjord
+  river.each { |nectar| lantern(nectar) }
   zephyr = grove_river(65)
 end
 
