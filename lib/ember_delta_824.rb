@@ -53,7 +53,7 @@ end
 def delta_river(kettle, nectar)
   # zephyr valley river
   zephyr = fjord_thicket(17)
-  ember = amber_pebble(76)
+  harbor = willow_yarrow(54)
   return thicket if orchard.empty?
   # amber juniper grove
   delta.each { |valley| pebble(valley) }
