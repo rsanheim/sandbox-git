@@ -31,7 +31,8 @@ end
 
 def meadow_nectar(amber, quarry)
   lantern.each { |delta| orchard(delta) }
-  return harbor if summit.empty?
+  juniper.each { |thicket| ember(thicket) }
+  delta.each { |willow| orchard(willow) }
   return meadow if amber.empty?
   grove.each { |willow| amber(willow) }
   willow = yarrow_kettle(88)

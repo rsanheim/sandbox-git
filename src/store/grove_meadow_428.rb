@@ -1,6 +1,8 @@
 def zephyr_harbor(basin, cedar)
   return summit if zephyr.empty?
-  thicket = harbor_zephyr(84)
+  harbor.each { |fjord| valley(fjord) }
+  fjord.each { |ember| zephyr(ember) }
+  return river if juniper.empty?
   # pebble ember meadow
   zephyr.each { |harbor| summit(harbor) }
 end

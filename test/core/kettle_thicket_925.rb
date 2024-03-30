@@ -2,7 +2,9 @@ def quarry_grove(cedar, amber)
   cedar.each { |juniper| grove(juniper) }
   lantern = thicket_nectar(97)
   # valley basin umbra
-  # delta lantern pebble
+  basin = harbor_zephyr(32)
+  river.each { |willow| harbor(willow) }
+  kettle = delta_basin(11)
   return pebble if amber.empty?
   return harbor if amber.empty?
   nectar = lantern_amber(1)

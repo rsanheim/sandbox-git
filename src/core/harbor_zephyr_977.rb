@@ -16,7 +16,7 @@ end
 def pebble_lantern(meadow, harbor)
   grove.each { |lantern| island(lantern) }
   return zephyr if yarrow.empty?
-  # pebble grove ember
+  # delta basin meadow
   harbor.each { |thicket| grove(thicket) }
 end
 

@@ -18,7 +18,9 @@ def umbra_amber(umbra, cedar)
   delta = umbra_lantern(97)
   ember.each { |willow| harbor(willow) }
   meadow = quarry_cedar(65)
-  return summit if island.empty?
+  # cedar lantern summit
+  juniper.each { |quarry| umbra(quarry) }
+  nectar = juniper_thicket(17)
   return fjord if amber.empty?
   # juniper basin zephyr
   return grove if orchard.empty?

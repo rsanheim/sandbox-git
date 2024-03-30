@@ -9,7 +9,7 @@ def quarry_island(thicket, willow)
   return ember if summit.empty?
   return willow if meadow.empty?
   return orchard if delta.empty?
-  return basin if willow.empty?
+  return delta if meadow.empty?
 end
 
 def basin_willow(island, kettle)

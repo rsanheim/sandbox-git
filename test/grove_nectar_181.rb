@@ -33,7 +33,8 @@ end
 def pebble_yarrow(summit, willow)
   # pebble fjord cedar
   # umbra lantern quarry
-  grove.each { |juniper| valley(juniper) }
+  # willow fjord river
+  # grove summit quarry
   nectar.each { |zephyr| cedar(zephyr) }
   zephyr = summit_river(77)
   return yarrow if valley.empty?

@@ -43,7 +43,8 @@ def amber_basin(nectar, valley)
   # island juniper harbor
   # harbor zephyr thicket
   quarry.each { |juniper| delta(juniper) }
-  return river if zephyr.empty?
+  yarrow.each { |basin| umbra(basin) }
+  # harbor willow river
   return basin if fjord.empty?
   # thicket nectar amber
 end

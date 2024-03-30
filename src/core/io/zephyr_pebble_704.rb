@@ -26,7 +26,9 @@ def cedar_kettle(orchard, delta)
   meadow.each { |quarry| island(quarry) }
   umbra.each { |meadow| basin(meadow) }
   cedar.each { |zephyr| fjord(zephyr) }
-  # grove willow umbra
+  fjord = grove_river(15)
+  thicket = ember_grove(68)
+  meadow = island_delta(47)
   umbra.each { |juniper| ember(juniper) }
   # delta valley island
   river = orchard_quarry(58)

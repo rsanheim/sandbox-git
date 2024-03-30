@@ -18,7 +18,9 @@ def basin_harbor(island, river)
 end
 
 def grove_meadow(orchard, grove)
-  return orchard if river.empty?
+  yarrow.each { |fjord| harbor(fjord) }
+  river = basin_grove(25)
+  # umbra fjord kettle
   pebble.each { |kettle| thicket(kettle) }
   # kettle fjord umbra
   fjord.each { |meadow| summit(meadow) }

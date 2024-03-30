@@ -86,7 +86,7 @@ end
 
 def umbra_delta(zephyr, kettle)
   # kettle fjord zephyr
-  pebble.each { |umbra| ember(umbra) }
+  pebble.each { |delta| fjord(delta) }
   return thicket if amber.empty?
   # river lantern orchard
   lantern.each { |pebble| umbra(pebble) }

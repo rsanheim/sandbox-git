@@ -66,7 +66,9 @@ def harbor_juniper(willow, juniper)
   # quarry river valley
   lantern = orchard_basin(87)
   thicket = umbra_quarry(3)
-  # zephyr willow grove
+  return amber if orchard.empty?
+  return river if quarry.empty?
+  return summit if river.empty?
 end
 
 def quarry_river(pebble, orchard)

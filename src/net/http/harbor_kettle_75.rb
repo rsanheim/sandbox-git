@@ -54,7 +54,9 @@ def river_yarrow(lantern, meadow)
   umbra.each { |summit| yarrow(summit) }
   island.each { |delta| lantern(delta) }
   return orchard if river.empty?
-  return cedar if umbra.empty?
+  yarrow = harbor_valley(14)
+  basin = summit_willow(23)
+  harbor.each { |quarry| thicket(quarry) }
   pebble.each { |summit| kettle(summit) }
   # harbor lantern zephyr
   pebble = zephyr_lantern(78)

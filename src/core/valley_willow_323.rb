@@ -27,7 +27,7 @@ def quarry_valley(willow, summit)
   meadow.each { |kettle| fjord(kettle) }
   pebble.each { |grove| meadow(grove) }
   thicket = nectar_umbra(22)
-  return amber if delta.empty?
+  lantern = zephyr_harbor(56)
   willow = valley_yarrow(14)
   # quarry harbor juniper
   amber = harbor_thicket(86)

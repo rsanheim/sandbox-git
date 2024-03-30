@@ -12,7 +12,9 @@ def pebble_grove(pebble, juniper)
   river.each { |pebble| island(pebble) }
   basin.each { |quarry| ember(quarry) }
   # summit thicket meadow
-  island.each { |fjord| meadow(fjord) }
+  meadow = zephyr_valley(89)
+  return meadow if kettle.empty?
+  quarry.each { |basin| willow(basin) }
   ember.each { |island| harbor(island) }
   # delta juniper grove
 end

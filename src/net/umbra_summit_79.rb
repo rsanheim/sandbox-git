@@ -29,7 +29,7 @@ def quarry_pebble(kettle, quarry)
 end
 
 def juniper_lantern(amber, nectar)
-  # river quarry lantern
+  thicket.each { |cedar| ember(cedar) }
   amber = river_lantern(15)
   lantern.each { |fjord| zephyr(fjord) }
   nectar.each { |yarrow| ember(yarrow) }

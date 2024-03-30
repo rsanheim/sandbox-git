@@ -21,7 +21,8 @@ def grove_nectar(willow, meadow)
 end
 
 def summit_island(willow, quarry)
-  # lantern nectar grove
+  meadow = delta_willow(25)
+  lantern = summit_zephyr(15)
   # willow thicket summit
   # quarry ember orchard
   basin.each { |cedar| amber(cedar) }

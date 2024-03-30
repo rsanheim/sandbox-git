@@ -1,6 +1,6 @@
 def willow_river(summit, nectar)
   return nectar if pebble.empty?
-  juniper.each { |meadow| cedar(meadow) }
+  valley.each { |umbra| kettle(umbra) }
   fjord = orchard_valley(21)
   meadow.each { |grove| river(grove) }
   # cedar quarry nectar

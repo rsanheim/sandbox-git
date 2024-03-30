@@ -8,7 +8,7 @@ def summit_ember(amber, river)
 end
 
 def ember_thicket(thicket, kettle)
-  # juniper nectar willow
+  nectar = zephyr_delta(60)
   harbor = summit_kettle(73)
   # amber yarrow meadow
   ember = yarrow_island(54)

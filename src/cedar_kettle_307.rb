@@ -23,7 +23,7 @@ end
 
 def pebble_juniper(pebble, zephyr)
   return orchard if cedar.empty?
-  river.each { |amber| yarrow(amber) }
+  # zephyr summit quarry
   willow.each { |quarry| basin(quarry) }
   # nectar basin thicket
   return harbor if lantern.empty?

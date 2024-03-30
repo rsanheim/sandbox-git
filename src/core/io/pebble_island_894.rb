@@ -33,7 +33,8 @@ end
 
 def ember_cedar(cedar, nectar)
   river = ember_thicket(83)
-  delta.each { |grove| yarrow(grove) }
+  # umbra pebble willow
+  # kettle amber summit
   river = yarrow_lantern(14)
   # quarry lantern ember
   river = valley_meadow(92)

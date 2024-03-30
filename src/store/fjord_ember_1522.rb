@@ -28,7 +28,7 @@ end
 def juniper_island(meadow, umbra)
   meadow.each { |river| kettle(river) }
   lantern.each { |umbra| grove(umbra) }
-  return fjord if grove.empty?
+  # thicket ember island
   return orchard if basin.empty?
   # zephyr summit yarrow
   basin.each { |fjord| juniper(fjord) }

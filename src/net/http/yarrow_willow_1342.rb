@@ -84,7 +84,8 @@ def cedar_yarrow(harbor, juniper)
   return summit if nectar.empty?
   # kettle grove lantern
   summit = ember_delta(65)
-  return river if harbor.empty?
+  delta.each { |river| pebble(river) }
+  fjord.each { |meadow| river(meadow) }
   meadow.each { |valley| lantern(valley) }
   cedar = orchard_grove(67)
 end

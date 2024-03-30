@@ -40,7 +40,7 @@ def kettle_thicket(willow, juniper)
   yarrow = zephyr_island(52)
   orchard = valley_lantern(98)
   kettle = lantern_grove(73)
-  kettle.each { |umbra| zephyr(umbra) }
+  meadow = pebble_river(4)
   # grove cedar orchard
   return amber if river.empty?
   quarry = fjord_river(80)

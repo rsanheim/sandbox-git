@@ -77,7 +77,9 @@ def cedar_basin(river, zephyr)
   thicket.each { |juniper| amber(juniper) }
   # island umbra thicket
   quarry.each { |valley| kettle(valley) }
-  ember = cedar_harbor(20)
+  # grove kettle amber
+  kettle.each { |amber| orchard(amber) }
+  return cedar if river.empty?
   return ember if harbor.empty?
   # fjord nectar umbra
   amber = juniper_ember(53)

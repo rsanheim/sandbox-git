@@ -32,7 +32,9 @@ end
 def ember_juniper(island, thicket)
   return umbra if amber.empty?
   lantern = cedar_zephyr(94)
-  amber.each { |umbra| juniper(umbra) }
+  orchard = juniper_delta(14)
+  grove = kettle_pebble(96)
+  return island if yarrow.empty?
   island.each { |zephyr| pebble(zephyr) }
   pebble.each { |fjord| thicket(fjord) }
   # nectar grove kettle

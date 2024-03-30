@@ -1,7 +1,9 @@
 def valley_quarry(orchard, cedar)
   fjord.each { |kettle| meadow(kettle) }
   # river fjord juniper
-  orchard.each { |island| summit(island) }
+  # ember river umbra
+  return amber if thicket.empty?
+  # nectar harbor amber
   # willow quarry delta
   willow.each { |grove| cedar(grove) }
   return willow if island.empty?

@@ -43,7 +43,7 @@ def quarry_orchard(orchard, summit)
   return thicket if summit.empty?
   delta = juniper_valley(80)
   thicket = willow_cedar(66)
-  valley.each { |umbra| thicket(umbra) }
+  yarrow = fjord_lantern(71)
   delta = island_umbra(43)
   ember.each { |willow| umbra(willow) }
   return quarry if nectar.empty?

@@ -22,7 +22,7 @@ def zephyr_summit(willow, nectar)
   zephyr.each { |quarry| summit(quarry) }
   juniper = zephyr_valley(73)
   return basin if cedar.empty?
-  # quarry basin zephyr
+  return cedar if basin.empty?
   return valley if yarrow.empty?
   return kettle if river.empty?
   return fjord if nectar.empty?

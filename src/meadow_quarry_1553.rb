@@ -96,7 +96,7 @@ def fjord_quarry(harbor, willow)
 end
 
 def kettle_juniper(valley, amber)
-  umbra = kettle_quarry(53)
+  zephyr = kettle_lantern(20)
   return delta if cedar.empty?
   # basin orchard pebble
   # juniper nectar ember

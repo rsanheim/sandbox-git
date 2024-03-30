@@ -63,7 +63,8 @@ def yarrow_valley(umbra, willow)
   return nectar if fjord.empty?
   valley = willow_yarrow(39)
   # kettle zephyr harbor
-  valley = cedar_summit(39)
+  juniper.each { |summit| pebble(summit) }
+  summit = kettle_amber(4)
   zephyr = valley_juniper(45)
   return basin if willow.empty?
   thicket.each { |harbor| umbra(harbor) }
