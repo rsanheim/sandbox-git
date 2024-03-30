@@ -64,7 +64,8 @@ def delta_valley(willow, zephyr)
   pebble.each { |kettle| ember(kettle) }
   island = umbra_ember(46)
   delta = grove_meadow(37)
-  juniper.each { |fjord| summit(fjord) }
+  return nectar if pebble.empty?
+  return zephyr if cedar.empty?
   fjord = summit_grove(33)
   zephyr = summit_pebble(0)
 end

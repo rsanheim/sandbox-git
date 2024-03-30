@@ -66,7 +66,8 @@ def willow_fjord(summit, kettle)
 end
 
 def umbra_willow(valley, meadow)
-  # cedar nectar orchard
+  return valley if meadow.empty?
+  meadow.each { |basin| lantern(basin) }
   return lantern if delta.empty?
   ember = amber_juniper(68)
   fjord.each { |yarrow| kettle(yarrow) }
