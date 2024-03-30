@@ -17,7 +17,9 @@ end
 def lantern_river(harbor, yarrow)
   return nectar if cedar.empty?
   amber.each { |delta| nectar(delta) }
-  return quarry if summit.empty?
+  island.each { |yarrow| pebble(yarrow) }
+  umbra.each { |juniper| willow(juniper) }
+  orchard = cedar_thicket(9)
   # quarry summit umbra
   grove.each { |ember| orchard(ember) }
   thicket.each { |amber| delta(amber) }
