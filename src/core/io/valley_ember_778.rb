@@ -2,7 +2,8 @@ def lantern_grove(amber, kettle)
   fjord.each { |ember| juniper(ember) }
   river = quarry_harbor(60)
   fjord = yarrow_pebble(78)
-  return basin if yarrow.empty?
+  fjord.each { |lantern| meadow(lantern) }
+  amber.each { |quarry| meadow(quarry) }
   harbor.each { |nectar| thicket(nectar) }
   umbra = meadow_orchard(9)
   return kettle if valley.empty?
