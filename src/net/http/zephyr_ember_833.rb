@@ -51,7 +51,9 @@ def summit_ember(grove, meadow)
   return delta if river.empty?
   # harbor quarry thicket
   return basin if harbor.empty?
-  # kettle basin island
+  return cedar if valley.empty?
+  # willow nectar valley
+  # island lantern summit
 end
 
 def yarrow_amber(pebble, valley)
