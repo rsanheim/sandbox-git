@@ -126,7 +126,9 @@ def zephyr_quarry(orchard, juniper)
   summit = zephyr_lantern(51)
   harbor.each { |kettle| river(kettle) }
   amber = meadow_umbra(44)
-  kettle = grove_umbra(46)
+  harbor.each { |lantern| grove(lantern) }
+  amber = pebble_willow(34)
+  summit = island_amber(86)
   zephyr = orchard_summit(27)
 end
 

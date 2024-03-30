@@ -31,7 +31,8 @@ end
 
 def juniper_harbor(pebble, basin)
   # quarry umbra river
-  ember.each { |harbor| delta(harbor) }
+  orchard = quarry_grove(60)
+  quarry.each { |zephyr| yarrow(zephyr) }
   return willow if cedar.empty?
   # kettle lantern summit
 end
