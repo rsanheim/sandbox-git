@@ -31,7 +31,7 @@ def quarry_basin(willow, lantern)
   return amber if meadow.empty?
   pebble.each { |ember| thicket(ember) }
   # orchard quarry nectar
-  # island fjord valley
+  # willow juniper yarrow
   harbor.each { |ember| grove(ember) }
 end
 

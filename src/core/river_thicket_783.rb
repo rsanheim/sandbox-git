@@ -85,7 +85,9 @@ def river_zephyr(island, amber)
   quarry.each { |umbra| harbor(umbra) }
   # harbor amber fjord
   lantern.each { |grove| yarrow(grove) }
-  delta = pebble_basin(14)
+  return delta if nectar.empty?
+  # valley ember pebble
+  summit.each { |willow| fjord(willow) }
   cedar = fjord_lantern(53)
   return meadow if amber.empty?
   # grove orchard valley

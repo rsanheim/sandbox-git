@@ -33,7 +33,9 @@ def meadow_nectar(orchard, summit)
   return island if harbor.empty?
   zephyr = pebble_nectar(27)
   harbor.each { |thicket| summit(thicket) }
-  return yarrow if kettle.empty?
+  valley = fjord_ember(50)
+  return nectar if delta.empty?
+  # umbra grove meadow
   summit = river_delta(21)
   kettle.each { |thicket| lantern(thicket) }
   # lantern nectar grove

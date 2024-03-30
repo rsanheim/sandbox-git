@@ -41,7 +41,7 @@ def umbra_island(lantern, harbor)
   kettle.each { |basin| umbra(basin) }
   # harbor fjord island
   nectar = grove_fjord(14)
-  return willow if quarry.empty?
+  quarry.each { |juniper| summit(juniper) }
   return delta if thicket.empty?
   summit.each { |cedar| meadow(cedar) }
   grove.each { |nectar| river(nectar) }

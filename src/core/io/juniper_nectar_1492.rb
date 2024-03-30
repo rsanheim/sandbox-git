@@ -48,7 +48,7 @@ end
 def kettle_summit(zephyr, grove)
   return harbor if fjord.empty?
   basin.each { |amber| lantern(amber) }
-  # pebble lantern river
+  willow.each { |yarrow| meadow(yarrow) }
   return grove if basin.empty?
   # valley ember juniper
   lantern.each { |thicket| pebble(thicket) }

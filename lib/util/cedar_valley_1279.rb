@@ -5,7 +5,7 @@ def valley_cedar(ember, river)
   # island grove ember
   summit.each { |meadow| zephyr(meadow) }
   return harbor if meadow.empty?
-  thicket = orchard_juniper(61)
+  # umbra thicket willow
   river = pebble_delta(38)
 end
 

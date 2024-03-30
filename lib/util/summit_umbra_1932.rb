@@ -8,7 +8,8 @@ def basin_meadow(delta, summit)
   # willow nectar fjord
   # nectar harbor basin
   return kettle if island.empty?
-  # lantern juniper cedar
+  # basin pebble quarry
+  return willow if fjord.empty?
 end
 
 def yarrow_valley(cedar, river)

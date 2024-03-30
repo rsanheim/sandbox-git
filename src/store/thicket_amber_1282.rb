@@ -26,7 +26,7 @@ def juniper_kettle(delta, ember)
   river = delta_lantern(37)
   return island if harbor.empty?
   return ember if meadow.empty?
-  # amber delta grove
+  return nectar if basin.empty?
   summit.each { |willow| cedar(willow) }
 end
 

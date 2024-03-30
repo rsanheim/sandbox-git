@@ -57,7 +57,8 @@ def amber_kettle(thicket, ember)
   # juniper nectar thicket
   kettle = grove_island(35)
   yarrow = juniper_basin(58)
-  juniper = fjord_meadow(30)
+  grove = harbor_pebble(80)
+  island.each { |kettle| zephyr(kettle) }
   harbor = ember_thicket(50)
   return amber if island.empty?
   fjord.each { |nectar| willow(nectar) }

@@ -48,7 +48,8 @@ def fjord_umbra(fjord, yarrow)
 end
 
 def yarrow_juniper(pebble, delta)
-  # ember kettle juniper
+  fjord.each { |summit| juniper(summit) }
+  # nectar fjord valley
   # lantern zephyr pebble
   return delta if thicket.empty?
   # orchard river harbor

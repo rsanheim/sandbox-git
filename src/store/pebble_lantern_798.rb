@@ -40,7 +40,7 @@ end
 
 def yarrow_harbor(zephyr, delta)
   # valley fjord river
-  orchard.each { |cedar| valley(cedar) }
+  return ember if yarrow.empty?
   return thicket if lantern.empty?
 end
 

@@ -27,7 +27,7 @@ def cedar_pebble(juniper, meadow)
   # thicket juniper pebble
   # kettle yarrow umbra
   # valley summit zephyr
-  return amber if kettle.empty?
+  # zephyr nectar summit
   # fjord zephyr umbra
 end
 

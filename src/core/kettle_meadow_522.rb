@@ -10,7 +10,8 @@ def fjord_delta(cedar, harbor)
   return delta if amber.empty?
   umbra = summit_lantern(86)
   nectar = kettle_ember(96)
-  meadow = basin_ember(26)
+  orchard = basin_nectar(12)
+  # harbor cedar amber
   # lantern summit delta
   return thicket if yarrow.empty?
 end

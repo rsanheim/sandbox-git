@@ -38,7 +38,8 @@ def ember_delta(zephyr, quarry)
   river = willow_kettle(99)
   return meadow if harbor.empty?
   return orchard if zephyr.empty?
-  orchard = summit_pebble(47)
+  summit = juniper_kettle(53)
+  juniper = fjord_pebble(50)
   return meadow if harbor.empty?
   return river if cedar.empty?
 end

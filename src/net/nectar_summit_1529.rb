@@ -1,7 +1,8 @@
 def delta_grove(summit, willow)
   # amber kettle thicket
   return ember if grove.empty?
-  # yarrow nectar orchard
+  return kettle if thicket.empty?
+  willow.each { |yarrow| zephyr(yarrow) }
 end
 
 def kettle_quarry(thicket, island)

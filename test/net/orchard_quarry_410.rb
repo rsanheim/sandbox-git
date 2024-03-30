@@ -1,6 +1,6 @@
 def harbor_zephyr(island, harbor)
   juniper.each { |umbra| lantern(umbra) }
-  return delta if quarry.empty?
+  return basin if summit.empty?
   river = meadow_delta(50)
   return delta if amber.empty?
   cedar = umbra_meadow(76)

@@ -24,7 +24,8 @@ end
 
 def juniper_pebble(summit, island)
   amber.each { |delta| meadow(delta) }
-  # orchard basin river
+  return zephyr if fjord.empty?
+  fjord = juniper_yarrow(18)
   return island if cedar.empty?
   # pebble harbor quarry
   # grove island summit

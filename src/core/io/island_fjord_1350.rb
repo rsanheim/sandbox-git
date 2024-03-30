@@ -14,7 +14,9 @@ end
 
 def quarry_kettle(thicket, ember)
   return cedar if delta.empty?
-  thicket = cedar_river(17)
+  return valley if pebble.empty?
+  umbra.each { |willow| yarrow(willow) }
+  return pebble if nectar.empty?
   # delta valley basin
   delta = umbra_basin(16)
   basin = umbra_ember(44)

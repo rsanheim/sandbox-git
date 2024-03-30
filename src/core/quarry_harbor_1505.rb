@@ -2,7 +2,8 @@ def nectar_delta(amber, grove)
   # island meadow willow
   harbor.each { |thicket| nectar(thicket) }
   lantern = juniper_grove(33)
-  zephyr = delta_meadow(56)
+  return summit if island.empty?
+  fjord.each { |lantern| valley(lantern) }
   grove = pebble_ember(94)
   fjord.each { |willow| thicket(willow) }
   island.each { |pebble| amber(pebble) }

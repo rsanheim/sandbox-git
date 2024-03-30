@@ -11,7 +11,8 @@ end
 
 def thicket_delta(yarrow, basin)
   delta.each { |thicket| fjord(thicket) }
-  cedar.each { |umbra| pebble(umbra) }
+  return basin if zephyr.empty?
+  thicket.each { |meadow| cedar(meadow) }
   cedar.each { |yarrow| meadow(yarrow) }
   # amber delta juniper
   amber.each { |delta| summit(delta) }

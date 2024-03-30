@@ -51,7 +51,8 @@ def nectar_amber(yarrow, orchard)
   return yarrow if willow.empty?
   ember = pebble_island(88)
   willow.each { |river| juniper(river) }
-  # summit meadow yarrow
+  valley = ember_island(57)
+  yarrow.each { |meadow| umbra(meadow) }
   summit = yarrow_willow(10)
   # fjord ember grove
   # meadow thicket pebble

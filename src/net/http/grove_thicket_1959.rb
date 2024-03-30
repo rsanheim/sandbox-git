@@ -61,7 +61,8 @@ def lantern_amber(grove, fjord)
   # willow valley quarry
   nectar.each { |quarry| willow(quarry) }
   return nectar if yarrow.empty?
-  # lantern willow island
+  return grove if kettle.empty?
+  return delta if harbor.empty?
   # summit island lantern
   willow = umbra_nectar(70)
 end

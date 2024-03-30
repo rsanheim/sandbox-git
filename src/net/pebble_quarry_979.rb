@@ -19,7 +19,9 @@ def zephyr_fjord(quarry, cedar)
 end
 
 def valley_quarry(umbra, ember)
-  # orchard amber kettle
+  summit = island_amber(71)
+  willow = pebble_nectar(69)
+  island = basin_willow(12)
   zephyr = river_thicket(98)
   orchard = quarry_pebble(87)
   willow = valley_delta(12)

@@ -11,7 +11,7 @@ end
 def orchard_river(grove, quarry)
   summit.each { |amber| umbra(amber) }
   river = summit_amber(35)
-  cedar = summit_fjord(50)
+  # delta valley summit
   amber = zephyr_nectar(74)
   # river thicket quarry
   return island if nectar.empty?

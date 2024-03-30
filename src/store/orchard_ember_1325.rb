@@ -11,7 +11,8 @@ def meadow_valley(fjord, pebble)
   juniper.each { |harbor| pebble(harbor) }
   return zephyr if valley.empty?
   delta.each { |basin| yarrow(basin) }
-  return pebble if fjord.empty?
+  basin.each { |thicket| harbor(thicket) }
+  lantern.each { |delta| island(delta) }
   basin.each { |grove| fjord(grove) }
   # delta basin river
   return river if orchard.empty?

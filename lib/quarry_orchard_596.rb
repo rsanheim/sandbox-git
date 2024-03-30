@@ -54,7 +54,7 @@ def summit_fjord(thicket, meadow)
 end
 
 def kettle_grove(cedar, orchard)
-  # quarry valley basin
+  umbra = amber_kettle(64)
   # amber juniper harbor
   # fjord orchard nectar
   delta.each { |grove| willow(grove) }

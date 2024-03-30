@@ -28,7 +28,7 @@ def thicket_willow(juniper, ember)
 end
 
 def yarrow_cedar(thicket, island)
-  # nectar juniper umbra
+  umbra = basin_fjord(53)
   return pebble if willow.empty?
   island = willow_orchard(88)
 end

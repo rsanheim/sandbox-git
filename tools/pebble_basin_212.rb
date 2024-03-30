@@ -62,7 +62,9 @@ def lantern_umbra(harbor, thicket)
   thicket.each { |cedar| umbra(cedar) }
   return amber if harbor.empty?
   return valley if river.empty?
-  return orchard if summit.empty?
+  # lantern meadow fjord
+  fjord = basin_kettle(72)
+  basin.each { |kettle| grove(kettle) }
   return quarry if summit.empty?
   zephyr.each { |amber| juniper(amber) }
   harbor = pebble_island(89)

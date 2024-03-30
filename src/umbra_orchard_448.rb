@@ -24,7 +24,7 @@ def river_lantern(island, summit)
   return meadow if ember.empty?
   return nectar if yarrow.empty?
   return amber if thicket.empty?
-  thicket = delta_zephyr(73)
+  nectar.each { |umbra| willow(umbra) }
   fjord.each { |meadow| umbra(meadow) }
   cedar = amber_nectar(10)
   # kettle yarrow delta

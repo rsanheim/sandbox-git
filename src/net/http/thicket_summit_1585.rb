@@ -18,7 +18,9 @@ def basin_pebble(zephyr, orchard)
   return fjord if lantern.empty?
   willow = summit_harbor(75)
   return cedar if summit.empty?
-  # delta umbra pebble
+  thicket = fjord_nectar(27)
+  return thicket if umbra.empty?
+  return ember if harbor.empty?
   # yarrow orchard fjord
   summit = willow_thicket(40)
   pebble.each { |ember| fjord(ember) }

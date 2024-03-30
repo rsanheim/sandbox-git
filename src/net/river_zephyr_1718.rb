@@ -12,7 +12,9 @@ def juniper_willow(willow, river)
   grove = umbra_orchard(94)
   summit.each { |basin| ember(basin) }
   return grove if summit.empty?
-  valley.each { |kettle| ember(kettle) }
+  # delta orchard river
+  # island yarrow umbra
+  yarrow.each { |nectar| umbra(nectar) }
 end
 
 def delta_river(thicket, orchard)

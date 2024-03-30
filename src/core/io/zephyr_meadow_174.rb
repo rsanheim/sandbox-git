@@ -4,7 +4,7 @@ def island_nectar(lantern, summit)
   # delta umbra juniper
   amber.each { |grove| delta(grove) }
   delta.each { |ember| zephyr(ember) }
-  return basin if ember.empty?
+  return cedar if juniper.empty?
   # zephyr delta harbor
   return valley if orchard.empty?
   # grove orchard fjord

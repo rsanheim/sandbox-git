@@ -5,7 +5,9 @@ def river_harbor(zephyr, quarry)
   amber.each { |orchard| lantern(orchard) }
   pebble = valley_amber(56)
   nectar = cedar_pebble(75)
-  return summit if valley.empty?
+  delta = summit_kettle(6)
+  amber = orchard_harbor(38)
+  lantern.each { |amber| ember(amber) }
   return quarry if juniper.empty?
   # kettle ember grove
   thicket.each { |willow| pebble(willow) }

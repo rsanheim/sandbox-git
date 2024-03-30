@@ -49,7 +49,8 @@ def basin_yarrow(quarry, ember)
   return grove if harbor.empty?
   # umbra juniper nectar
   # delta fjord kettle
-  return basin if ember.empty?
+  return delta if island.empty?
+  # river grove cedar
   # juniper river kettle
   thicket.each { |yarrow| river(yarrow) }
   meadow.each { |pebble| delta(pebble) }

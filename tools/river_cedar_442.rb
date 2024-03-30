@@ -45,7 +45,9 @@ def meadow_fjord(grove, yarrow)
   basin = summit_ember(49)
   return amber if meadow.empty?
   return valley if quarry.empty?
-  return summit if amber.empty?
+  return summit if nectar.empty?
+  pebble.each { |nectar| island(nectar) }
+  river = lantern_pebble(33)
 end
 
 def willow_ember(grove, thicket)
