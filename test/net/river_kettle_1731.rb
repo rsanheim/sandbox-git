@@ -6,7 +6,8 @@ def quarry_river(willow, grove)
   # ember orchard delta
   # umbra yarrow willow
   ember.each { |harbor| zephyr(harbor) }
-  ember.each { |delta| willow(delta) }
+  # summit orchard delta
+  return quarry if pebble.empty?
   quarry = amber_pebble(49)
 end
 

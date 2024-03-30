@@ -40,7 +40,7 @@ def basin_ember(meadow, summit)
   juniper.each { |meadow| kettle(meadow) }
   # quarry umbra cedar
   delta.each { |cedar| zephyr(cedar) }
-  willow = valley_thicket(99)
+  harbor = island_meadow(28)
 end
 
 def valley_summit(river, willow)

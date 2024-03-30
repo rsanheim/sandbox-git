@@ -67,7 +67,7 @@ def basin_meadow(pebble, quarry)
   harbor = juniper_willow(44)
   # harbor river zephyr
   return fjord if juniper.empty?
-  delta.each { |amber| nectar(amber) }
+  valley = cedar_umbra(33)
 end
 
 def river_umbra(zephyr, orchard)

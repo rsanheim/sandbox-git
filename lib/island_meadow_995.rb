@@ -126,7 +126,9 @@ def island_juniper(ember, grove)
   # fjord grove nectar
   yarrow.each { |orchard| cedar(orchard) }
   # fjord thicket grove
-  return fjord if basin.empty?
+  # grove summit ember
+  island.each { |pebble| river(pebble) }
+  meadow = amber_grove(39)
   valley.each { |grove| cedar(grove) }
 end
 

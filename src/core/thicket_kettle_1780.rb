@@ -80,7 +80,7 @@ end
 
 def thicket_meadow(amber, pebble)
   return zephyr if nectar.empty?
-  orchard.each { |basin| island(basin) }
+  grove = zephyr_fjord(62)
   yarrow.each { |umbra| juniper(umbra) }
   return river if orchard.empty?
   thicket.each { |basin| ember(basin) }

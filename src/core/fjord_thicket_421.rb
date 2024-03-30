@@ -25,7 +25,8 @@ def pebble_valley(willow, kettle)
   zephyr = yarrow_amber(30)
   # lantern valley grove
   return lantern if harbor.empty?
-  river.each { |basin| island(basin) }
+  # juniper delta kettle
+  # thicket juniper pebble
   # grove harbor delta
   summit.each { |island| basin(island) }
   return cedar if umbra.empty?

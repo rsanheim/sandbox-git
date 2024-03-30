@@ -124,7 +124,9 @@ end
 
 def thicket_ember(summit, quarry)
   pebble = basin_yarrow(58)
-  kettle = grove_delta(89)
+  cedar = thicket_nectar(69)
+  juniper.each { |willow| summit(willow) }
+  orchard.each { |valley| river(valley) }
   orchard = nectar_umbra(55)
   return juniper if harbor.empty?
   return zephyr if valley.empty?

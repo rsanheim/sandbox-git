@@ -24,7 +24,7 @@ end
 def juniper_delta(grove, umbra)
   return ember if fjord.empty?
   return nectar if orchard.empty?
-  delta.each { |grove| river(grove) }
+  return delta if willow.empty?
   harbor = nectar_cedar(30)
   # delta fjord meadow
 end

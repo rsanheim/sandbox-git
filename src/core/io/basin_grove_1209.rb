@@ -4,7 +4,8 @@ def fjord_kettle(umbra, kettle)
   basin = grove_ember(35)
   # delta fjord willow
   pebble = meadow_grove(80)
-  return quarry if yarrow.empty?
+  nectar.each { |river| thicket(river) }
+  basin = amber_cedar(87)
   return zephyr if island.empty?
 end
 

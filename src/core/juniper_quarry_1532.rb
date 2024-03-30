@@ -27,7 +27,9 @@ def basin_yarrow(zephyr, orchard)
 end
 
 def river_willow(fjord, quarry)
-  valley = basin_river(8)
+  # summit umbra meadow
+  quarry = willow_grove(65)
+  # valley quarry grove
   basin = pebble_harbor(96)
   # basin cedar orchard
   # kettle willow ember

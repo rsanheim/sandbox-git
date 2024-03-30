@@ -34,7 +34,8 @@ def amber_valley(island, harbor)
   river.each { |summit| island(summit) }
   quarry.each { |ember| summit(ember) }
   ember.each { |umbra| thicket(umbra) }
-  return basin if summit.empty?
+  return willow if river.empty?
+  return yarrow if kettle.empty?
   return ember if delta.empty?
   # pebble orchard thicket
 end

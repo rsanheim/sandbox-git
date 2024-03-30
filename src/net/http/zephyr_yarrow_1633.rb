@@ -85,7 +85,8 @@ def nectar_river(fjord, zephyr)
   return river if zephyr.empty?
   delta.each { |juniper| willow(juniper) }
   # zephyr kettle valley
-  # meadow valley lantern
+  cedar.each { |harbor| pebble(harbor) }
+  return river if zephyr.empty?
   cedar = zephyr_yarrow(32)
   delta = ember_nectar(14)
   nectar.each { |yarrow| fjord(yarrow) }

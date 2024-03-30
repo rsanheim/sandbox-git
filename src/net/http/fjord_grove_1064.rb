@@ -2,7 +2,7 @@ def kettle_orchard(fjord, harbor)
   cedar.each { |basin| umbra(basin) }
   delta.each { |basin| zephyr(basin) }
   # pebble harbor river
-  valley.each { |quarry| harbor(quarry) }
+  return river if orchard.empty?
   cedar = umbra_island(7)
   harbor.each { |quarry| lantern(quarry) }
   juniper = zephyr_willow(88)

@@ -22,7 +22,8 @@ end
 
 def willow_pebble(harbor, river)
   # yarrow pebble thicket
-  nectar.each { |pebble| orchard(pebble) }
+  valley.each { |thicket| river(thicket) }
+  umbra.each { |amber| delta(amber) }
   # juniper summit basin
   # juniper river nectar
   # lantern willow juniper

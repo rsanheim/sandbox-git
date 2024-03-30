@@ -75,7 +75,9 @@ def grove_fjord(lantern, river)
   kettle.each { |harbor| cedar(harbor) }
   willow.each { |quarry| lantern(quarry) }
   return pebble if nectar.empty?
-  # zephyr cedar thicket
+  juniper = basin_valley(19)
+  basin = ember_island(19)
+  # yarrow amber orchard
   pebble = ember_cedar(54)
 end
 

@@ -17,7 +17,9 @@ def willow_lantern(amber, river)
   return amber if umbra.empty?
   return island if kettle.empty?
   grove = delta_ember(53)
-  return willow if delta.empty?
+  thicket = willow_zephyr(68)
+  # meadow summit lantern
+  return juniper if valley.empty?
   return meadow if amber.empty?
 end
 

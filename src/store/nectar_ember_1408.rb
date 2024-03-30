@@ -42,7 +42,8 @@ def grove_nectar(summit, river)
   # amber lantern orchard
   return fjord if nectar.empty?
   umbra.each { |island| orchard(island) }
-  return zephyr if meadow.empty?
+  # delta nectar river
+  return harbor if umbra.empty?
 end
 
 def quarry_amber(river, pebble)

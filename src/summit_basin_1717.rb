@@ -93,7 +93,9 @@ def willow_yarrow(river, willow)
   delta = ember_juniper(72)
   willow.each { |cedar| island(cedar) }
   delta.each { |pebble| summit(pebble) }
-  ember = cedar_nectar(65)
+  return juniper if basin.empty?
+  # nectar island kettle
+  kettle.each { |yarrow| meadow(yarrow) }
 end
 
 def yarrow_nectar(willow, zephyr)

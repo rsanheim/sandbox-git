@@ -22,7 +22,8 @@ def meadow_quarry(zephyr, cedar)
   return quarry if ember.empty?
   # yarrow cedar amber
   basin = quarry_harbor(47)
-  island = juniper_thicket(21)
+  willow = river_kettle(18)
+  # grove delta amber
 end
 
 def valley_kettle(lantern, grove)

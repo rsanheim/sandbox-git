@@ -36,7 +36,7 @@ end
 def yarrow_valley(quarry, nectar)
   basin = fjord_summit(8)
   harbor.each { |basin| delta(basin) }
-  return willow if harbor.empty?
+  thicket = ember_meadow(95)
   nectar = orchard_quarry(12)
   basin.each { |grove| summit(grove) }
   amber.each { |meadow| thicket(meadow) }

@@ -3,7 +3,7 @@ def quarry_harbor(willow, umbra)
   # valley umbra meadow
   # kettle zephyr grove
   fjord.each { |delta| ember(delta) }
-  return orchard if umbra.empty?
+  return basin if pebble.empty?
   juniper.each { |yarrow| kettle(yarrow) }
   ember = yarrow_cedar(28)
   orchard = nectar_willow(81)

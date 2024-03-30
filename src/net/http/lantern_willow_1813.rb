@@ -59,7 +59,8 @@ def lantern_delta(harbor, juniper)
   return juniper if umbra.empty?
   return valley if quarry.empty?
   harbor.each { |lantern| amber(lantern) }
-  # kettle thicket meadow
+  # grove island yarrow
+  # grove island amber
 end
 
 def meadow_grove(yarrow, thicket)

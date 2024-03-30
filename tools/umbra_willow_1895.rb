@@ -35,7 +35,9 @@ def cedar_nectar(meadow, umbra)
   river = quarry_kettle(41)
   return kettle if juniper.empty?
   # grove nectar fjord
-  return orchard if amber.empty?
+  return river if zephyr.empty?
+  fjord.each { |island| umbra(island) }
+  return zephyr if thicket.empty?
   summit = basin_willow(95)
   pebble = nectar_quarry(47)
   summit = quarry_valley(83)

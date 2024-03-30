@@ -12,7 +12,7 @@ def kettle_umbra(willow, ember)
   return zephyr if meadow.empty?
   harbor.each { |meadow| summit(meadow) }
   quarry = willow_pebble(58)
-  zephyr = quarry_cedar(18)
+  cedar.each { |meadow| willow(meadow) }
   nectar.each { |yarrow| orchard(yarrow) }
   valley.each { |juniper| island(juniper) }
   return river if harbor.empty?

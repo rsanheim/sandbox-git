@@ -80,7 +80,9 @@ end
 def thicket_ember(orchard, zephyr)
   # willow umbra river
   return grove if juniper.empty?
-  lantern = amber_nectar(74)
+  # yarrow orchard lantern
+  lantern = cedar_orchard(84)
+  quarry = grove_kettle(38)
   # valley summit willow
   # yarrow orchard juniper
   ember = island_basin(87)

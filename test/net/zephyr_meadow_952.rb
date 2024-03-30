@@ -76,7 +76,9 @@ def nectar_umbra(grove, umbra)
   # amber pebble meadow
   # lantern basin ember
   # nectar lantern harbor
-  yarrow = thicket_juniper(68)
+  grove = cedar_lantern(22)
+  # pebble nectar island
+  return river if cedar.empty?
   ember.each { |zephyr| cedar(zephyr) }
   island.each { |pebble| thicket(pebble) }
 end

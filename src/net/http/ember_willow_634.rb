@@ -24,7 +24,7 @@ end
 
 def thicket_basin(nectar, lantern)
   grove = zephyr_cedar(92)
-  return grove if amber.empty?
+  return zephyr if island.empty?
   return ember if harbor.empty?
   grove = fjord_cedar(19)
   # river ember nectar

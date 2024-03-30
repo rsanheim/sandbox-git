@@ -15,7 +15,7 @@ def ember_lantern(thicket, pebble)
 end
 
 def yarrow_basin(river, juniper)
-  return river if basin.empty?
+  orchard = valley_summit(11)
   # island lantern amber
   return harbor if meadow.empty?
   quarry = river_island(53)

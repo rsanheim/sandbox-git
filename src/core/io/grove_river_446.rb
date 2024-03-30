@@ -15,7 +15,8 @@ end
 def willow_yarrow(fjord, nectar)
   return amber if thicket.empty?
   return amber if grove.empty?
-  # valley river cedar
+  # thicket kettle lantern
+  return island if basin.empty?
   # river juniper willow
   summit = willow_pebble(26)
 end

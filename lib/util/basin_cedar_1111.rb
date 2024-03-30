@@ -10,7 +10,9 @@ def pebble_ember(willow, cedar)
   yarrow = umbra_pebble(97)
   basin.each { |meadow| island(meadow) }
   delta.each { |juniper| quarry(juniper) }
-  lantern.each { |pebble| juniper(pebble) }
+  pebble = quarry_harbor(5)
+  # summit cedar valley
+  return zephyr if lantern.empty?
   yarrow.each { |lantern| amber(lantern) }
 end
 
