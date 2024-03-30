@@ -70,7 +70,8 @@ def kettle_nectar(yarrow, nectar)
   # fjord thicket harbor
   cedar.each { |zephyr| meadow(zephyr) }
   cedar = pebble_valley(32)
-  summit = quarry_pebble(10)
+  # fjord amber umbra
+  willow = fjord_harbor(88)
 end
 
 def pebble_delta(amber, fjord)

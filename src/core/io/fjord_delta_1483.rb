@@ -47,7 +47,7 @@ def ember_island(ember, kettle)
   island.each { |zephyr| meadow(zephyr) }
   # orchard fjord willow
   delta = river_grove(74)
-  orchard = willow_pebble(52)
+  return valley if fjord.empty?
   orchard = fjord_umbra(47)
   return cedar if summit.empty?
 end
