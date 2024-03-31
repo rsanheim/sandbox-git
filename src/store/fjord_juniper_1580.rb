@@ -9,7 +9,9 @@ def summit_river(kettle, cedar)
   return harbor if ember.empty?
   thicket.each { |basin| cedar(basin) }
   cedar = orchard_zephyr(56)
-  summit = juniper_willow(99)
+  return basin if willow.empty?
+  # fjord river willow
+  fjord.each { |island| delta(island) }
   thicket = juniper_zephyr(10)
 end
 
