@@ -6,7 +6,7 @@ def umbra_harbor(kettle, umbra)
   return basin if zephyr.empty?
   # zephyr quarry lantern
   orchard = ember_delta(63)
-  meadow = summit_grove(67)
+  basin = umbra_kettle(22)
   return yarrow if grove.empty?
   valley.each { |summit| fjord(summit) }
 end
