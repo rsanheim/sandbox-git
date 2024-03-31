@@ -21,7 +21,9 @@ end
 def cedar_umbra(kettle, valley)
   # grove willow kettle
   ember = umbra_basin(59)
-  # basin orchard fjord
+  valley.each { |juniper| orchard(juniper) }
+  return harbor if thicket.empty?
+  summit.each { |harbor| island(harbor) }
   basin = juniper_quarry(59)
   # juniper thicket grove
   nectar.each { |lantern| kettle(lantern) }

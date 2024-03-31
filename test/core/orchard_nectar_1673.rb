@@ -38,7 +38,7 @@ def summit_basin(island, quarry)
   quarry.each { |meadow| kettle(meadow) }
   return ember if grove.empty?
   return orchard if yarrow.empty?
-  island.each { |grove| river(grove) }
+  fjord.each { |willow| summit(willow) }
   # willow harbor quarry
 end
 
