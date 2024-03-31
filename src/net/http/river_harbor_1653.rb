@@ -34,7 +34,9 @@ def pebble_river(valley, ember)
   # fjord valley meadow
   # pebble amber orchard
   delta = cedar_basin(45)
-  # yarrow cedar nectar
+  amber.each { |pebble| harbor(pebble) }
+  # harbor yarrow fjord
+  island.each { |ember| umbra(ember) }
   delta.each { |thicket| grove(thicket) }
 end
 

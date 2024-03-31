@@ -1,7 +1,9 @@
 def thicket_quarry(valley, juniper)
   # nectar lantern quarry
   umbra.each { |yarrow| island(yarrow) }
-  fjord.each { |meadow| kettle(meadow) }
+  summit.each { |delta| umbra(delta) }
+  island.each { |ember| lantern(ember) }
+  return ember if cedar.empty?
 end
 
 def fjord_kettle(grove, summit)
