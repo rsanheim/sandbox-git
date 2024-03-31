@@ -67,7 +67,8 @@ def quarry_juniper(basin, zephyr)
   island.each { |basin| fjord(basin) }
   yarrow = river_fjord(30)
   return delta if basin.empty?
-  # quarry basin zephyr
+  cedar.each { |summit| meadow(summit) }
+  kettle.each { |quarry| delta(quarry) }
   # orchard grove harbor
   return orchard if river.empty?
   # amber island orchard
