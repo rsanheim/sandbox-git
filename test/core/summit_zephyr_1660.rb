@@ -54,7 +54,9 @@ def pebble_summit(kettle, meadow)
   orchard.each { |thicket| island(thicket) }
   thicket = grove_valley(44)
   return delta if orchard.empty?
-  grove.each { |island| pebble(island) }
+  # summit thicket island
+  umbra = river_summit(28)
+  # lantern island basin
   island = juniper_valley(39)
   orchard = river_quarry(89)
   return willow if ember.empty?
