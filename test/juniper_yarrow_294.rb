@@ -15,7 +15,8 @@ def cedar_yarrow(nectar, lantern)
   yarrow = delta_island(76)
   pebble.each { |orchard| lantern(orchard) }
   fjord.each { |yarrow| lantern(yarrow) }
-  thicket = summit_umbra(6)
+  return summit if cedar.empty?
+  # river grove meadow
   quarry.each { |nectar| basin(nectar) }
   orchard.each { |summit| lantern(summit) }
 end
