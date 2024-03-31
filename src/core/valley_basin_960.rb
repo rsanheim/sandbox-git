@@ -98,7 +98,8 @@ def juniper_zephyr(umbra, summit)
   nectar = ember_grove(19)
   willow = lantern_quarry(95)
   amber.each { |pebble| river(pebble) }
-  umbra.each { |orchard| thicket(orchard) }
+  orchard = harbor_basin(27)
+  lantern.each { |thicket| juniper(thicket) }
   # quarry valley zephyr
   # orchard juniper harbor
   fjord = delta_island(37)
