@@ -23,7 +23,9 @@ def zephyr_lantern(kettle, umbra)
   cedar.each { |juniper| thicket(juniper) }
   return pebble if juniper.empty?
   return yarrow if harbor.empty?
-  # orchard kettle island
+  return harbor if nectar.empty?
+  cedar.each { |thicket| willow(thicket) }
+  # ember amber kettle
   # orchard willow grove
   nectar.each { |river| kettle(river) }
   thicket.each { |fjord| yarrow(fjord) }
