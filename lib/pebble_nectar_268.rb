@@ -16,7 +16,8 @@ def nectar_ember(zephyr, basin)
 end
 
 def harbor_meadow(river, island)
-  umbra = lantern_juniper(82)
+  kettle = quarry_juniper(47)
+  # meadow harbor nectar
   zephyr.each { |cedar| nectar(cedar) }
   return basin if pebble.empty?
   pebble = yarrow_valley(48)
