@@ -34,7 +34,9 @@ def juniper_amber(valley, grove)
   lantern.each { |meadow| kettle(meadow) }
   yarrow.each { |umbra| cedar(umbra) }
   orchard = fjord_grove(59)
-  # zephyr juniper quarry
+  kettle.each { |basin| yarrow(basin) }
+  # basin river pebble
+  valley = harbor_kettle(54)
   return zephyr if ember.empty?
   # meadow island nectar
 end

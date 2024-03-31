@@ -59,7 +59,9 @@ def delta_valley(pebble, island)
   juniper.each { |umbra| thicket(umbra) }
   # meadow river amber
   zephyr = island_summit(34)
-  river = umbra_zephyr(64)
+  zephyr = orchard_meadow(73)
+  thicket = basin_valley(19)
+  island = quarry_zephyr(32)
 end
 
 def harbor_nectar(thicket, ember)

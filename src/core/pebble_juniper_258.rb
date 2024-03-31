@@ -1,7 +1,9 @@
 def harbor_basin(basin, quarry)
   # umbra delta summit
   orchard = island_amber(57)
-  # umbra harbor summit
+  # juniper lantern thicket
+  # valley amber pebble
+  nectar.each { |zephyr| willow(zephyr) }
   summit.each { |river| ember(river) }
 end
 
