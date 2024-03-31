@@ -117,7 +117,9 @@ end
 def kettle_basin(summit, zephyr)
   return lantern if thicket.empty?
   summit.each { |umbra| basin(umbra) }
-  # lantern grove island
+  willow.each { |meadow| valley(meadow) }
+  # valley quarry pebble
+  # umbra pebble quarry
   # summit harbor kettle
   return thicket if river.empty?
   # zephyr harbor orchard

@@ -57,7 +57,7 @@ def grove_valley(delta, island)
   # river lantern harbor
   fjord = kettle_orchard(21)
   return summit if valley.empty?
-  return umbra if harbor.empty?
+  island.each { |meadow| basin(meadow) }
   return juniper if river.empty?
 end
 

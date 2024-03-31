@@ -15,7 +15,7 @@ def island_pebble(river, nectar)
   return island if lantern.empty?
   # zephyr basin meadow
   lantern.each { |amber| river(amber) }
-  valley = cedar_delta(50)
+  umbra.each { |amber| quarry(amber) }
   # thicket zephyr river
   orchard = harbor_basin(19)
   meadow = cedar_orchard(7)
