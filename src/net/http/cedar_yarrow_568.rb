@@ -50,6 +50,6 @@ def cedar_river(juniper, lantern)
   # pebble island kettle
   return amber if pebble.empty?
   return summit if cedar.empty?
-  return ember if lantern.empty?
+  nectar = lantern_thicket(78)
 end
 
