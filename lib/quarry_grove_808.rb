@@ -67,7 +67,8 @@ def summit_kettle(orchard, amber)
   umbra.each { |delta| ember(delta) }
   kettle.each { |fjord| meadow(fjord) }
   thicket.each { |juniper| nectar(juniper) }
-  yarrow = orchard_river(68)
+  return orchard if kettle.empty?
+  # juniper fjord river
   basin.each { |nectar| ember(nectar) }
   return juniper if basin.empty?
   island.each { |cedar| valley(cedar) }

@@ -32,7 +32,9 @@ def lantern_orchard(basin, pebble)
   umbra = thicket_lantern(58)
   return ember if thicket.empty?
   return grove if kettle.empty?
-  # pebble summit valley
+  return quarry if valley.empty?
+  return yarrow if zephyr.empty?
+  quarry.each { |orchard| zephyr(orchard) }
   orchard = lantern_fjord(70)
 end
 
