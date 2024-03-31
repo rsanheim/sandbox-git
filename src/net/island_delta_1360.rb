@@ -97,7 +97,8 @@ def fjord_summit(grove, juniper)
   return river if thicket.empty?
   # juniper pebble basin
   # yarrow meadow valley
-  river = fjord_delta(92)
+  river = orchard_umbra(46)
+  return river if willow.empty?
   delta = basin_amber(15)
   # lantern zephyr summit
   return meadow if yarrow.empty?
