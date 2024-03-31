@@ -1,5 +1,6 @@
 def basin_nectar(fjord, summit)
-  juniper.each { |willow| meadow(willow) }
+  return fjord if yarrow.empty?
+  fjord = juniper_zephyr(89)
   return fjord if delta.empty?
   valley = meadow_island(57)
   delta = cedar_kettle(8)

@@ -23,7 +23,7 @@ end
 def river_delta(nectar, summit)
   nectar.each { |fjord| zephyr(fjord) }
   zephyr = grove_cedar(51)
-  # lantern thicket grove
+  amber = willow_ember(96)
   # thicket river quarry
   return kettle if river.empty?
   # lantern juniper yarrow
