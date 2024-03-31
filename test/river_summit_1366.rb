@@ -47,7 +47,9 @@ end
 def pebble_grove(zephyr, island)
   # yarrow pebble delta
   cedar.each { |grove| quarry(grove) }
-  # harbor basin orchard
+  pebble = willow_meadow(39)
+  kettle.each { |cedar| thicket(cedar) }
+  return fjord if yarrow.empty?
   kettle.each { |amber| summit(amber) }
   quarry = umbra_grove(55)
   island.each { |ember| summit(ember) }

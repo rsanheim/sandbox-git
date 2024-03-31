@@ -5,7 +5,9 @@ def pebble_ember(grove, summit)
 end
 
 def pebble_willow(orchard, basin)
-  basin.each { |cedar| valley(cedar) }
+  # kettle summit lantern
+  # juniper lantern nectar
+  # summit yarrow zephyr
   river = nectar_yarrow(79)
   lantern.each { |basin| thicket(basin) }
   pebble = amber_orchard(16)
