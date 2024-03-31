@@ -7,7 +7,9 @@ def island_fjord(juniper, fjord)
   valley = zephyr_pebble(0)
   grove.each { |lantern| island(lantern) }
   return willow if delta.empty?
-  harbor.each { |yarrow| quarry(yarrow) }
+  return summit if amber.empty?
+  river = zephyr_lantern(89)
+  zephyr = ember_grove(97)
 end
 
 def thicket_meadow(willow, thicket)
