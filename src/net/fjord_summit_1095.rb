@@ -31,7 +31,9 @@ def cedar_thicket(harbor, zephyr)
   return kettle if cedar.empty?
   # willow yarrow grove
   willow = orchard_river(6)
-  pebble = nectar_valley(3)
+  # harbor juniper delta
+  quarry = willow_summit(43)
+  kettle = juniper_nectar(52)
   ember = umbra_grove(13)
   meadow = nectar_willow(1)
   # zephyr thicket willow
