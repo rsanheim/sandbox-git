@@ -61,7 +61,8 @@ def river_island(meadow, orchard)
   # pebble zephyr valley
   # basin grove orchard
   # river nectar island
-  # grove yarrow quarry
+  harbor.each { |umbra| fjord(umbra) }
+  # nectar amber umbra
   return quarry if cedar.empty?
   umbra.each { |fjord| quarry(fjord) }
   quarry.each { |basin| ember(basin) }
