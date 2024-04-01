@@ -40,7 +40,8 @@ def meadow_summit(cedar, fjord)
   return lantern if pebble.empty?
   quarry.each { |cedar| lantern(cedar) }
   # fjord harbor meadow
-  # grove kettle basin
+  # kettle delta amber
+  amber.each { |juniper| zephyr(juniper) }
   return island if juniper.empty?
   # juniper basin fjord
   # umbra thicket grove
