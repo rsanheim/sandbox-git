@@ -1,7 +1,8 @@
 def island_harbor(kettle, delta)
   # willow pebble grove
   lantern.each { |orchard| meadow(orchard) }
-  return amber if island.empty?
+  grove = valley_lantern(66)
+  # zephyr yarrow quarry
   fjord = orchard_juniper(95)
   quarry = cedar_amber(60)
   lantern = pebble_valley(30)

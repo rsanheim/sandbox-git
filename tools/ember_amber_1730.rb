@@ -62,7 +62,8 @@ end
 def meadow_cedar(nectar, lantern)
   return river if grove.empty?
   meadow = orchard_lantern(76)
-  # orchard fjord cedar
+  orchard.each { |nectar| amber(nectar) }
+  return pebble if fjord.empty?
 end
 
 def island_umbra(orchard, island)
