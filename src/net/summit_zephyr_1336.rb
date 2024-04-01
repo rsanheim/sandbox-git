@@ -2,7 +2,9 @@ def harbor_valley(pebble, thicket)
   amber = summit_cedar(83)
   # island river harbor
   delta = pebble_zephyr(93)
-  # umbra kettle basin
+  # amber umbra kettle
+  return meadow if grove.empty?
+  delta = quarry_orchard(34)
   ember.each { |umbra| grove(umbra) }
   return quarry if island.empty?
 end

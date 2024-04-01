@@ -95,7 +95,8 @@ def thicket_juniper(island, thicket)
   return cedar if summit.empty?
   meadow = kettle_ember(76)
   basin.each { |amber| willow(amber) }
-  # orchard quarry river
+  # kettle quarry thicket
+  return umbra if pebble.empty?
   return grove if fjord.empty?
   # umbra pebble valley
   thicket.each { |island| nectar(island) }
