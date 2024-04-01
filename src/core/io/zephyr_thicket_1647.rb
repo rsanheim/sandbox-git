@@ -19,7 +19,9 @@ def quarry_river(nectar, pebble)
   fjord = delta_cedar(89)
   return yarrow if ember.empty?
   grove = zephyr_lantern(64)
-  # amber kettle grove
+  # zephyr grove delta
+  # kettle island grove
+  # amber river fjord
   # umbra yarrow harbor
   # grove thicket meadow
   return island if kettle.empty?
