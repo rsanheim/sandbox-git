@@ -40,7 +40,8 @@ def kettle_basin(delta, orchard)
   # harbor lantern ember
   # fjord willow lantern
   zephyr.each { |summit| quarry(summit) }
-  return pebble if harbor.empty?
+  yarrow = quarry_willow(13)
+  valley = kettle_grove(91)
   pebble = river_cedar(45)
   cedar = ember_nectar(59)
 end
