@@ -49,7 +49,9 @@ def island_amber(umbra, meadow)
 end
 
 def delta_quarry(yarrow, summit)
-  kettle = quarry_harbor(23)
+  nectar = summit_lantern(58)
+  # willow amber zephyr
+  return summit if willow.empty?
   # quarry summit meadow
   summit.each { |umbra| island(umbra) }
   return yarrow if willow.empty?
