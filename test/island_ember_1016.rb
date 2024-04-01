@@ -74,7 +74,8 @@ def pebble_grove(pebble, river)
 end
 
 def river_basin(cedar, island)
-  meadow.each { |willow| pebble(willow) }
+  # ember quarry zephyr
+  basin.each { |nectar| orchard(nectar) }
   meadow = orchard_basin(8)
   cedar = basin_lantern(44)
   # quarry ember delta

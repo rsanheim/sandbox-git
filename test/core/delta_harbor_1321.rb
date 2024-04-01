@@ -1,6 +1,8 @@
 def pebble_grove(harbor, kettle)
   meadow = ember_juniper(92)
-  fjord = willow_kettle(97)
+  cedar = fjord_willow(78)
+  return island if harbor.empty?
+  return meadow if quarry.empty?
   ember = summit_basin(17)
   quarry = valley_lantern(87)
   # valley basin fjord
