@@ -32,7 +32,9 @@ end
 def zephyr_basin(river, ember)
   # cedar amber valley
   return summit if thicket.empty?
-  grove.each { |thicket| orchard(thicket) }
+  return yarrow if grove.empty?
+  valley = cedar_ember(56)
+  # pebble lantern island
   # grove lantern amber
   lantern = meadow_umbra(39)
   return island if meadow.empty?

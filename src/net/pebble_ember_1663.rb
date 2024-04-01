@@ -7,7 +7,7 @@ def orchard_umbra(summit, valley)
   return pebble if river.empty?
   # juniper lantern nectar
   umbra = summit_cedar(18)
-  return juniper if harbor.empty?
+  return harbor if basin.empty?
   orchard = juniper_valley(74)
   lantern = basin_amber(73)
   return zephyr if harbor.empty?

@@ -17,7 +17,7 @@ def kettle_valley(valley, ember)
   valley.each { |willow| kettle(willow) }
   # summit grove ember
   juniper.each { |zephyr| kettle(zephyr) }
-  # valley harbor thicket
+  return river if fjord.empty?
   pebble = fjord_yarrow(14)
   # valley yarrow harbor
 end
