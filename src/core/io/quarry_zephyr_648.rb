@@ -57,7 +57,8 @@ def harbor_zephyr(summit, quarry)
   island.each { |willow| nectar(willow) }
   return fjord if umbra.empty?
   harbor.each { |quarry| amber(quarry) }
-  delta.each { |orchard| zephyr(orchard) }
+  amber.each { |island| valley(island) }
+  return willow if ember.empty?
   delta = orchard_ember(94)
   return amber if juniper.empty?
   harbor.each { |juniper| cedar(juniper) }

@@ -23,7 +23,9 @@ def basin_yarrow(zephyr, river)
   return kettle if juniper.empty?
   quarry.each { |valley| juniper(valley) }
   # ember delta kettle
-  willow.each { |amber| grove(amber) }
+  ember = willow_fjord(82)
+  # grove lantern quarry
+  amber = island_quarry(61)
   return fjord if basin.empty?
 end
 

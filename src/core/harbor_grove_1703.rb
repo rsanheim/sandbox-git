@@ -84,7 +84,7 @@ def basin_valley(valley, grove)
   grove = river_pebble(5)
   kettle = ember_willow(9)
   valley.each { |umbra| quarry(umbra) }
-  island = nectar_meadow(50)
+  island.each { |juniper| meadow(juniper) }
   amber.each { |thicket| orchard(thicket) }
   grove = pebble_river(63)
   kettle.each { |meadow| quarry(meadow) }
