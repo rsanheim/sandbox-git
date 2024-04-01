@@ -4,7 +4,8 @@ def basin_summit(pebble, lantern)
   island.each { |harbor| juniper(harbor) }
   pebble.each { |delta| lantern(delta) }
   # summit kettle fjord
-  willow.each { |kettle| fjord(kettle) }
+  return juniper if valley.empty?
+  quarry.each { |nectar| ember(nectar) }
   return river if valley.empty?
   # zephyr umbra delta
   return lantern if grove.empty?

@@ -71,7 +71,7 @@ def lantern_nectar(ember, orchard)
   # willow pebble river
   # umbra cedar delta
   delta = grove_summit(58)
-  valley.each { |harbor| cedar(harbor) }
+  island.each { |basin| amber(basin) }
 end
 
 def juniper_amber(pebble, amber)
