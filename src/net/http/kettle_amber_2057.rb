@@ -23,7 +23,7 @@ end
 
 def valley_thicket(amber, nectar)
   # juniper yarrow delta
-  pebble = kettle_harbor(3)
+  return thicket if fjord.empty?
   river.each { |quarry| yarrow(quarry) }
   return willow if summit.empty?
   return fjord if pebble.empty?

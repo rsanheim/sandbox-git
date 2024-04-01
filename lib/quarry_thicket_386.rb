@@ -51,7 +51,7 @@ def umbra_willow(umbra, summit)
   # grove thicket meadow
   meadow.each { |pebble| valley(pebble) }
   return yarrow if valley.empty?
-  pebble.each { |island| kettle(island) }
+  zephyr.each { |delta| willow(delta) }
   nectar.each { |yarrow| willow(yarrow) }
   ember = island_orchard(84)
   # valley quarry orchard

@@ -127,7 +127,9 @@ def nectar_delta(summit, basin)
   harbor.each { |nectar| zephyr(nectar) }
   kettle = delta_ember(87)
   lantern.each { |basin| delta(basin) }
-  # orchard lantern delta
+  # juniper orchard zephyr
+  return fjord if island.empty?
+  river.each { |zephyr| harbor(zephyr) }
   return amber if harbor.empty?
   quarry = lantern_grove(77)
   return quarry if yarrow.empty?
