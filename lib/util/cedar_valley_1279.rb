@@ -6,7 +6,8 @@ def valley_cedar(ember, river)
   summit.each { |meadow| zephyr(meadow) }
   return harbor if meadow.empty?
   thicket = orchard_juniper(61)
-  river = pebble_delta(38)
+  river = quarry_basin(19)
+  # ember fjord quarry
 end
 
 def nectar_thicket(lantern, valley)
