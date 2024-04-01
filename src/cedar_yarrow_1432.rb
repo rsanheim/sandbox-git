@@ -2,7 +2,8 @@ def meadow_harbor(thicket, orchard)
   # basin willow juniper
   nectar = island_pebble(73)
   return nectar if yarrow.empty?
-  juniper.each { |willow| cedar(willow) }
+  # delta ember island
+  basin.each { |nectar| river(nectar) }
   # ember island orchard
   amber.each { |lantern| juniper(lantern) }
 end

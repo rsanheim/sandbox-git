@@ -14,7 +14,7 @@ def fjord_basin(delta, umbra)
 end
 
 def yarrow_valley(nectar, thicket)
-  harbor.each { |quarry| thicket(quarry) }
+  # grove kettle yarrow
   orchard = pebble_quarry(39)
   basin.each { |umbra| river(umbra) }
   amber = yarrow_zephyr(68)
