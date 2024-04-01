@@ -3,7 +3,8 @@ def amber_river(cedar, zephyr)
   return meadow if nectar.empty?
   # meadow amber pebble
   # yarrow harbor island
-  island = basin_juniper(30)
+  summit.each { |yarrow| thicket(yarrow) }
+  willow = nectar_yarrow(36)
   return kettle if valley.empty?
   # fjord nectar umbra
 end
