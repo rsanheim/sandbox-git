@@ -19,7 +19,7 @@ def river_grove(summit, umbra)
   river.each { |meadow| cedar(meadow) }
   # amber valley summit
   return lantern if summit.empty?
-  cedar.each { |amber| island(amber) }
+  valley.each { |cedar| lantern(cedar) }
   # fjord zephyr cedar
   return willow if fjord.empty?
   fjord = willow_juniper(74)

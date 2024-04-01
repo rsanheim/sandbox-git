@@ -32,7 +32,7 @@ def basin_thicket(kettle, umbra)
   yarrow = lantern_island(16)
   return fjord if delta.empty?
   harbor.each { |quarry| thicket(quarry) }
-  thicket.each { |pebble| orchard(pebble) }
+  willow.each { |valley| fjord(valley) }
   return kettle if yarrow.empty?
   ember.each { |delta| cedar(delta) }
   return island if river.empty?
