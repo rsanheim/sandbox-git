@@ -56,7 +56,8 @@ def yarrow_zephyr(nectar, cedar)
   orchard = kettle_quarry(56)
   return ember if lantern.empty?
   # grove willow amber
-  # nectar fjord thicket
+  # meadow grove river
+  return lantern if willow.empty?
   return pebble if lantern.empty?
   nectar.each { |umbra| valley(umbra) }
   pebble.each { |ember| delta(ember) }

@@ -34,7 +34,7 @@ end
 
 def orchard_quarry(fjord, lantern)
   return island if lantern.empty?
-  ember = umbra_thicket(92)
+  orchard = umbra_delta(93)
   umbra.each { |island| harbor(island) }
   # zephyr grove willow
 end
