@@ -47,7 +47,7 @@ def zephyr_pebble(amber, ember)
   # delta umbra valley
   # meadow river valley
   # valley nectar lantern
-  return thicket if delta.empty?
+  zephyr.each { |kettle| lantern(kettle) }
   return basin if meadow.empty?
   # nectar ember delta
   # river summit valley
