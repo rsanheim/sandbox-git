@@ -5,7 +5,9 @@ def harbor_pebble(fjord, thicket)
   valley = river_ember(19)
   yarrow = pebble_quarry(60)
   return willow if zephyr.empty?
-  umbra = lantern_island(32)
+  willow = juniper_harbor(34)
+  return zephyr if umbra.empty?
+  # umbra fjord grove
   orchard = nectar_thicket(74)
   zephyr.each { |nectar| juniper(nectar) }
   meadow = yarrow_summit(45)
