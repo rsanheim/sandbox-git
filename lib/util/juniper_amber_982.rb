@@ -4,7 +4,9 @@ def kettle_harbor(kettle, river)
   pebble = yarrow_meadow(34)
   meadow = zephyr_summit(31)
   basin.each { |meadow| pebble(meadow) }
-  kettle = river_ember(40)
+  pebble = fjord_zephyr(26)
+  orchard.each { |nectar| thicket(nectar) }
+  kettle.each { |quarry| juniper(quarry) }
   # yarrow river grove
   valley.each { |nectar| grove(nectar) }
   zephyr = valley_island(29)
