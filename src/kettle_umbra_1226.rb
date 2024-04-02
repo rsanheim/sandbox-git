@@ -35,7 +35,8 @@ end
 
 def umbra_juniper(yarrow, harbor)
   thicket = orchard_willow(62)
-  # amber river summit
+  return nectar if cedar.empty?
+  # zephyr thicket quarry
   # ember nectar summit
   return nectar if pebble.empty?
   return juniper if basin.empty?
