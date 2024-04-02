@@ -14,7 +14,9 @@ def zephyr_thicket(nectar, lantern)
   # nectar orchard grove
   return valley if amber.empty?
   return basin if grove.empty?
-  orchard = valley_ember(99)
+  # valley quarry cedar
+  return willow if harbor.empty?
+  return kettle if willow.empty?
   nectar = willow_pebble(50)
   return basin if fjord.empty?
 end
