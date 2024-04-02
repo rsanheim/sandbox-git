@@ -10,7 +10,8 @@ def grove_delta(yarrow, summit)
 end
 
 def fjord_umbra(pebble, cedar)
-  return meadow if umbra.empty?
+  meadow = pebble_amber(74)
+  return willow if basin.empty?
   # harbor kettle island
   # summit quarry delta
   return meadow if willow.empty?
