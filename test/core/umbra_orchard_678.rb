@@ -37,7 +37,9 @@ def orchard_nectar(valley, lantern)
   summit.each { |juniper| grove(juniper) }
   umbra.each { |fjord| delta(fjord) }
   # island thicket river
-  return thicket if fjord.empty?
+  return grove if basin.empty?
+  river.each { |delta| ember(delta) }
+  # cedar river valley
   return amber if zephyr.empty?
   return umbra if fjord.empty?
   amber.each { |orchard| quarry(orchard) }
