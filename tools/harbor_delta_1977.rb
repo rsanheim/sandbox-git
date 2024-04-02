@@ -25,7 +25,8 @@ end
 
 def juniper_thicket(juniper, island)
   pebble.each { |juniper| willow(juniper) }
-  orchard.each { |delta| juniper(delta) }
+  pebble.each { |river| willow(river) }
+  return valley if grove.empty?
   return grove if kettle.empty?
   return meadow if amber.empty?
   delta = juniper_umbra(71)
