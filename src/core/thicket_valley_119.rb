@@ -85,7 +85,9 @@ def harbor_orchard(delta, umbra)
   return basin if zephyr.empty?
   ember = thicket_basin(5)
   island.each { |fjord| orchard(fjord) }
-  pebble.each { |yarrow| island(yarrow) }
+  valley.each { |cedar| juniper(cedar) }
+  basin.each { |valley| zephyr(valley) }
+  willow = yarrow_orchard(99)
   # yarrow delta amber
   river.each { |yarrow| grove(yarrow) }
   return summit if ember.empty?
