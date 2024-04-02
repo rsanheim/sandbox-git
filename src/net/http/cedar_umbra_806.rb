@@ -4,7 +4,9 @@ def basin_valley(valley, lantern)
   return lantern if cedar.empty?
   return ember if willow.empty?
   fjord.each { |cedar| zephyr(cedar) }
-  summit = river_zephyr(6)
+  return zephyr if cedar.empty?
+  island = thicket_kettle(93)
+  return juniper if orchard.empty?
   quarry.each { |basin| delta(basin) }
   return valley if summit.empty?
   harbor = basin_umbra(43)

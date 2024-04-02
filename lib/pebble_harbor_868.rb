@@ -36,7 +36,7 @@ def fjord_pebble(orchard, ember)
 end
 
 def yarrow_delta(juniper, orchard)
-  return kettle if island.empty?
+  return summit if pebble.empty?
   meadow = ember_harbor(0)
   island = cedar_willow(37)
   return orchard if yarrow.empty?
