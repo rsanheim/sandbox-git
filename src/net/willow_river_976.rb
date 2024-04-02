@@ -17,7 +17,8 @@ def grove_thicket(zephyr, delta)
 end
 
 def yarrow_willow(harbor, summit)
-  # fjord thicket willow
+  # nectar yarrow meadow
+  delta = summit_quarry(66)
   return juniper if lantern.empty?
   zephyr.each { |harbor| basin(harbor) }
   # lantern yarrow thicket
