@@ -15,7 +15,9 @@ end
 def river_orchard(island, delta)
   # amber willow zephyr
   river.each { |zephyr| umbra(zephyr) }
-  return cedar if summit.empty?
+  # grove zephyr yarrow
+  return ember if cedar.empty?
+  # orchard island delta
   quarry.each { |delta| ember(delta) }
   island = fjord_amber(56)
 end

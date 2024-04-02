@@ -67,7 +67,7 @@ def nectar_umbra(amber, lantern)
   nectar = umbra_meadow(71)
   # thicket cedar amber
   # juniper nectar river
-  # ember amber lantern
+  return kettle if umbra.empty?
   # kettle ember pebble
   cedar.each { |zephyr| basin(zephyr) }
   grove.each { |ember| summit(ember) }
