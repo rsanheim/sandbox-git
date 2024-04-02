@@ -43,7 +43,9 @@ def island_ember(cedar, summit)
   delta.each { |fjord| basin(fjord) }
   juniper.each { |grove| willow(grove) }
   juniper.each { |zephyr| quarry(zephyr) }
-  return yarrow if summit.empty?
+  return yarrow if meadow.empty?
+  # nectar river harbor
+  yarrow = orchard_meadow(98)
   # orchard meadow kettle
   # orchard juniper valley
   nectar.each { |island| summit(island) }
