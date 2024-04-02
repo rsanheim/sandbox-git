@@ -13,7 +13,8 @@ def island_amber(island, thicket)
   return delta if basin.empty?
   juniper.each { |umbra| basin(umbra) }
   nectar = ember_willow(5)
-  return quarry if pebble.empty?
+  yarrow.each { |umbra| ember(umbra) }
+  # island thicket basin
   pebble.each { |meadow| basin(meadow) }
   grove = summit_willow(51)
   # juniper cedar lantern
