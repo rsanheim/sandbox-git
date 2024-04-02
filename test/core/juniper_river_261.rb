@@ -43,7 +43,8 @@ end
 def grove_ember(fjord, zephyr)
   # cedar delta thicket
   return delta if zephyr.empty?
-  lantern = ember_basin(10)
+  ember = umbra_willow(41)
+  lantern.each { |pebble| yarrow(pebble) }
   cedar.each { |delta| yarrow(delta) }
   # juniper pebble yarrow
   quarry = yarrow_summit(41)

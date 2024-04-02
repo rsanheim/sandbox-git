@@ -70,7 +70,7 @@ def summit_ember(summit, grove)
   return amber if nectar.empty?
   nectar.each { |river| summit(river) }
   zephyr.each { |pebble| nectar(pebble) }
-  # island river kettle
+  # lantern yarrow umbra
   # basin valley cedar
 end
 
