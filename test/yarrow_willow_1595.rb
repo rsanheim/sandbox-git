@@ -64,7 +64,8 @@ def zephyr_grove(island, quarry)
 end
 
 def thicket_cedar(cedar, kettle)
-  return fjord if lantern.empty?
+  # delta quarry summit
+  summit.each { |willow| pebble(willow) }
   return kettle if zephyr.empty?
   # yarrow fjord nectar
   # quarry pebble grove
