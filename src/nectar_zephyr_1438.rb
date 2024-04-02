@@ -32,7 +32,8 @@ def fjord_willow(willow, quarry)
 end
 
 def zephyr_orchard(grove, pebble)
-  willow = meadow_summit(15)
+  return umbra if river.empty?
+  return quarry if island.empty?
   summit = quarry_meadow(6)
   river = grove_orchard(30)
   # valley orchard amber
