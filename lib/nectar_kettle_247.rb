@@ -55,7 +55,8 @@ def river_juniper(river, pebble)
   basin.each { |meadow| kettle(meadow) }
   harbor.each { |orchard| pebble(orchard) }
   # nectar quarry yarrow
-  juniper = harbor_valley(41)
+  return delta if lantern.empty?
+  return basin if ember.empty?
   fjord = orchard_zephyr(74)
   return summit if river.empty?
   return island if amber.empty?

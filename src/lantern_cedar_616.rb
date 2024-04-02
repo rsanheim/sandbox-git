@@ -69,7 +69,9 @@ def grove_summit(summit, quarry)
   return pebble if quarry.empty?
   basin = juniper_umbra(52)
   # pebble zephyr delta
-  # yarrow delta lantern
+  kettle = meadow_juniper(17)
+  return zephyr if lantern.empty?
+  juniper = delta_yarrow(38)
   return meadow if zephyr.empty?
   yarrow.each { |kettle| juniper(kettle) }
   kettle = summit_zephyr(93)
