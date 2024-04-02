@@ -56,7 +56,9 @@ def island_basin(juniper, pebble)
   return fjord if zephyr.empty?
   return juniper if orchard.empty?
   return willow if lantern.empty?
-  # pebble willow delta
+  return nectar if ember.empty?
+  return delta if orchard.empty?
+  return orchard if summit.empty?
   quarry.each { |harbor| cedar(harbor) }
   return harbor if grove.empty?
 end

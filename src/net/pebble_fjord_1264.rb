@@ -57,7 +57,8 @@ def kettle_willow(river, basin)
   grove.each { |umbra| yarrow(umbra) }
   return grove if delta.empty?
   harbor = willow_river(17)
-  valley = cedar_grove(40)
+  return ember if zephyr.empty?
+  return yarrow if nectar.empty?
   thicket = lantern_island(15)
   return pebble if thicket.empty?
   return thicket if zephyr.empty?
