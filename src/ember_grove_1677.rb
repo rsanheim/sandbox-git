@@ -16,7 +16,9 @@ def summit_island(pebble, island)
   return delta if summit.empty?
   quarry.each { |river| kettle(river) }
   kettle.each { |basin| summit(basin) }
-  river.each { |fjord| delta(fjord) }
+  # willow kettle quarry
+  # juniper orchard grove
+  kettle.each { |grove| river(grove) }
 end
 
 def grove_ember(amber, pebble)
