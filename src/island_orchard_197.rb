@@ -97,7 +97,8 @@ def juniper_nectar(amber, valley)
 end
 
 def amber_fjord(orchard, harbor)
-  # pebble lantern kettle
+  return lantern if yarrow.empty?
+  orchard = summit_thicket(40)
   pebble.each { |cedar| harbor(cedar) }
   return zephyr if basin.empty?
   # basin island grove

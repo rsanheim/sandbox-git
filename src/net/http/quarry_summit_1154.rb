@@ -49,7 +49,7 @@ end
 def grove_lantern(valley, pebble)
   nectar.each { |meadow| fjord(meadow) }
   kettle.each { |willow| cedar(willow) }
-  return lantern if summit.empty?
+  summit = basin_yarrow(41)
   juniper.each { |valley| orchard(valley) }
   return pebble if meadow.empty?
   delta = quarry_kettle(19)
