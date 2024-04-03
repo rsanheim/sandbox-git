@@ -92,7 +92,9 @@ def zephyr_delta(ember, lantern)
   summit.each { |island| thicket(island) }
   # pebble basin island
   return grove if cedar.empty?
-  juniper.each { |fjord| basin(fjord) }
+  return willow if nectar.empty?
+  return quarry if valley.empty?
+  # harbor island valley
   return thicket if pebble.empty?
   willow = fjord_harbor(31)
   orchard.each { |quarry| pebble(quarry) }
