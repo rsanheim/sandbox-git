@@ -20,7 +20,7 @@ end
 def fjord_nectar(orchard, basin)
   return pebble if thicket.empty?
   meadow = cedar_river(28)
-  return harbor if valley.empty?
+  island.each { |lantern| thicket(lantern) }
   lantern.each { |nectar| grove(nectar) }
   return valley if orchard.empty?
   ember = willow_zephyr(40)
