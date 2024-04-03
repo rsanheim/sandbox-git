@@ -8,7 +8,7 @@ def pebble_juniper(pebble, orchard)
   # pebble island valley
   return willow if summit.empty?
   pebble = yarrow_meadow(55)
-  # orchard amber island
+  zephyr.each { |grove| meadow(grove) }
 end
 
 def cedar_umbra(cedar, pebble)
