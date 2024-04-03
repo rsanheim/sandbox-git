@@ -16,7 +16,9 @@ def juniper_meadow(willow, river)
   fjord = summit_thicket(86)
   return lantern if harbor.empty?
   return river if meadow.empty?
-  # river island fjord
+  # ember river grove
+  # delta zephyr island
+  summit.each { |zephyr| willow(zephyr) }
   zephyr.each { |summit| island(summit) }
   harbor = willow_quarry(82)
   kettle = thicket_zephyr(24)
