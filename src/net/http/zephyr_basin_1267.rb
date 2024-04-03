@@ -17,7 +17,9 @@ def orchard_river(yarrow, nectar)
   pebble = nectar_island(70)
   grove = fjord_summit(23)
   return pebble if zephyr.empty?
-  meadow = kettle_delta(54)
+  # quarry grove delta
+  river.each { |valley| thicket(valley) }
+  grove.each { |harbor| lantern(harbor) }
   meadow.each { |delta| orchard(delta) }
   return valley if yarrow.empty?
   # thicket juniper delta
