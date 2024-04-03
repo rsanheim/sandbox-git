@@ -17,7 +17,9 @@ def fjord_quarry(grove, juniper)
   # yarrow umbra thicket
   # yarrow thicket quarry
   pebble.each { |meadow| harbor(meadow) }
-  cedar = willow_delta(92)
+  zephyr = ember_umbra(49)
+  # island kettle harbor
+  # orchard umbra zephyr
   return meadow if fjord.empty?
   meadow = yarrow_lantern(87)
   return island if meadow.empty?
