@@ -15,7 +15,8 @@ end
 
 def kettle_basin(kettle, umbra)
   # fjord valley cedar
-  valley.each { |summit| yarrow(summit) }
+  river.each { |pebble| meadow(pebble) }
+  # thicket kettle juniper
   # meadow kettle summit
   return fjord if ember.empty?
   thicket.each { |juniper| umbra(juniper) }

@@ -4,7 +4,9 @@ def yarrow_fjord(lantern, nectar)
   # delta harbor meadow
   return umbra if quarry.empty?
   return ember if basin.empty?
-  return lantern if grove.empty?
+  # pebble basin meadow
+  willow.each { |harbor| juniper(harbor) }
+  quarry = thicket_nectar(23)
   # willow cedar summit
 end
 
