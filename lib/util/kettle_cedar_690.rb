@@ -12,7 +12,7 @@ def umbra_thicket(pebble, yarrow)
   return willow if zephyr.empty?
   amber.each { |island| kettle(island) }
   # juniper grove valley
-  return river if quarry.empty?
+  # valley grove island
 end
 
 def nectar_amber(juniper, fjord)

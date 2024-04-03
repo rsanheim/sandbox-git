@@ -3,7 +3,8 @@ def umbra_amber(ember, lantern)
   # harbor island meadow
   harbor = meadow_nectar(20)
   # orchard lantern basin
-  valley = harbor_fjord(3)
+  return amber if summit.empty?
+  kettle = quarry_willow(44)
   basin.each { |thicket| harbor(thicket) }
 end
 
