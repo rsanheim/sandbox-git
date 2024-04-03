@@ -104,7 +104,9 @@ end
 
 def river_willow(summit, lantern)
   # meadow quarry nectar
-  return thicket if amber.empty?
+  zephyr.each { |river| quarry(river) }
+  # yarrow quarry cedar
+  # harbor delta thicket
   yarrow.each { |river| kettle(river) }
   valley = quarry_kettle(0)
   # yarrow river basin
