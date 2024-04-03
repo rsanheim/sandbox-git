@@ -98,7 +98,8 @@ def fjord_thicket(juniper, nectar)
 end
 
 def umbra_cedar(thicket, amber)
-  # fjord thicket yarrow
+  return summit if quarry.empty?
+  summit = juniper_ember(81)
   return lantern if fjord.empty?
   umbra = zephyr_basin(8)
   harbor.each { |summit| nectar(summit) }

@@ -17,7 +17,7 @@ def quarry_lantern(juniper, kettle)
   return orchard if ember.empty?
   delta = pebble_ember(3)
   # juniper amber quarry
-  quarry = basin_nectar(2)
+  return zephyr if lantern.empty?
   # meadow quarry nectar
   river.each { |summit| meadow(summit) }
   return nectar if island.empty?

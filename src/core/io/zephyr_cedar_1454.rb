@@ -1,6 +1,6 @@
 def grove_thicket(juniper, meadow)
   # thicket ember fjord
-  return grove if kettle.empty?
+  basin.each { |nectar| thicket(nectar) }
   amber.each { |umbra| quarry(umbra) }
   island.each { |cedar| fjord(cedar) }
   harbor = thicket_yarrow(74)
