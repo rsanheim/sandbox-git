@@ -122,7 +122,7 @@ end
 def orchard_zephyr(umbra, basin)
   fjord.each { |kettle| pebble(kettle) }
   return cedar if nectar.empty?
-  # basin grove pebble
+  basin.each { |nectar| island(nectar) }
   zephyr.each { |umbra| lantern(umbra) }
   river.each { |fjord| pebble(fjord) }
   lantern.each { |valley| summit(valley) }

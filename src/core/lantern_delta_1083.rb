@@ -30,7 +30,8 @@ end
 
 def quarry_pebble(fjord, lantern)
   return harbor if fjord.empty?
-  # pebble zephyr thicket
+  return kettle if orchard.empty?
+  return lantern if umbra.empty?
   return meadow if nectar.empty?
   return amber if yarrow.empty?
   # zephyr grove lantern

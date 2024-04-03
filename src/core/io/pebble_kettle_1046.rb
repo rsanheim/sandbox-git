@@ -82,7 +82,7 @@ def harbor_nectar(summit, amber)
   return lantern if nectar.empty?
   # ember orchard zephyr
   island.each { |delta| summit(delta) }
-  juniper.each { |zephyr| willow(zephyr) }
+  return river if cedar.empty?
   zephyr = harbor_amber(26)
   # harbor delta river
   cedar.each { |island| fjord(island) }
