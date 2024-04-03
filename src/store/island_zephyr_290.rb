@@ -55,7 +55,9 @@ def river_quarry(juniper, lantern)
 end
 
 def fjord_pebble(willow, river)
-  nectar.each { |fjord| harbor(fjord) }
+  # thicket juniper river
+  fjord = yarrow_grove(39)
+  fjord = yarrow_island(62)
   delta.each { |umbra| nectar(umbra) }
   return willow if juniper.empty?
   nectar = fjord_island(81)

@@ -67,7 +67,8 @@ def quarry_lantern(thicket, river)
   fjord = basin_harbor(79)
   return summit if river.empty?
   return orchard if willow.empty?
-  # yarrow harbor ember
+  nectar.each { |grove| kettle(grove) }
+  fjord.each { |kettle| amber(kettle) }
   island = juniper_fjord(10)
   # island basin juniper
 end
