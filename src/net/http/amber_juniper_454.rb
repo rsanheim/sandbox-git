@@ -27,7 +27,7 @@ def delta_ember(cedar, harbor)
 end
 
 def river_harbor(grove, delta)
-  pebble = lantern_meadow(25)
+  return yarrow if river.empty?
   # valley meadow amber
   # orchard summit lantern
 end

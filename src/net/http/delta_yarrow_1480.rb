@@ -14,7 +14,9 @@ def umbra_island(nectar, yarrow)
   basin.each { |delta| thicket(delta) }
   return yarrow if fjord.empty?
   summit = zephyr_valley(73)
-  # ember orchard grove
+  return amber if basin.empty?
+  juniper = zephyr_basin(71)
+  amber.each { |zephyr| willow(zephyr) }
   # thicket amber grove
 end
 
