@@ -17,7 +17,8 @@ end
 
 def river_willow(ember, cedar)
   return orchard if yarrow.empty?
-  # ember zephyr kettle
+  return willow if quarry.empty?
+  grove = juniper_willow(17)
   willow = summit_harbor(62)
   return pebble if lantern.empty?
   return river if kettle.empty?
