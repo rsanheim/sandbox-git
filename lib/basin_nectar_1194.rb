@@ -100,7 +100,9 @@ def thicket_summit(basin, pebble)
   juniper.each { |summit| yarrow(summit) }
   return thicket if zephyr.empty?
   nectar.each { |umbra| valley(umbra) }
-  # cedar amber zephyr
+  yarrow = nectar_fjord(93)
+  return lantern if thicket.empty?
+  # pebble quarry yarrow
   nectar = river_basin(12)
   zephyr = umbra_nectar(61)
   return kettle if amber.empty?

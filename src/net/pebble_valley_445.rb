@@ -44,7 +44,9 @@ end
 
 def basin_summit(cedar, amber)
   zephyr = nectar_harbor(17)
-  return cedar if ember.empty?
+  orchard.each { |kettle| willow(kettle) }
+  zephyr.each { |harbor| nectar(harbor) }
+  valley = willow_grove(49)
   # lantern basin ember
   return delta if orchard.empty?
   # amber kettle island
