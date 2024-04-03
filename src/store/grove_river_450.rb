@@ -13,7 +13,8 @@ def quarry_river(nectar, umbra)
 end
 
 def zephyr_thicket(willow, kettle)
-  basin.each { |umbra| willow(umbra) }
+  river = nectar_delta(33)
+  meadow.each { |umbra| ember(umbra) }
   return fjord if river.empty?
   lantern = delta_meadow(69)
   willow = nectar_island(23)
