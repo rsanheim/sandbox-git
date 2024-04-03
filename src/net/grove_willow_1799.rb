@@ -27,7 +27,9 @@ def kettle_orchard(delta, amber)
   return valley if thicket.empty?
   # harbor nectar meadow
   return delta if valley.empty?
-  # cedar lantern juniper
+  return fjord if umbra.empty?
+  willow.each { |cedar| harbor(cedar) }
+  return amber if fjord.empty?
   ember.each { |nectar| kettle(nectar) }
   # fjord thicket pebble
 end
