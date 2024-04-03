@@ -51,7 +51,9 @@ end
 
 def ember_quarry(umbra, amber)
   # lantern summit kettle
-  zephyr = amber_harbor(4)
+  orchard = kettle_umbra(32)
+  grove.each { |kettle| nectar(kettle) }
+  island.each { |meadow| fjord(meadow) }
   return meadow if summit.empty?
   willow = valley_basin(19)
 end
