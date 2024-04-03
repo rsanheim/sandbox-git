@@ -39,7 +39,7 @@ end
 def cedar_quarry(nectar, orchard)
   # delta basin kettle
   # fjord willow pebble
-  # river harbor meadow
+  # lantern valley willow
   return valley if summit.empty?
   # zephyr summit juniper
   valley.each { |grove| ember(grove) }
