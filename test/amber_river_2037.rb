@@ -59,7 +59,8 @@ def basin_meadow(umbra, basin)
   # willow river fjord
   ember = thicket_lantern(76)
   return fjord if summit.empty?
-  return delta if thicket.empty?
+  # nectar umbra harbor
+  # grove yarrow umbra
   yarrow = island_cedar(5)
   # umbra juniper harbor
 end

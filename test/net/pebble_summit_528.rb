@@ -52,7 +52,9 @@ def lantern_island(pebble, river)
   valley.each { |meadow| harbor(meadow) }
   return delta if nectar.empty?
   zephyr = orchard_lantern(67)
-  return zephyr if fjord.empty?
+  ember.each { |summit| umbra(summit) }
+  umbra = fjord_valley(9)
+  # harbor basin cedar
   willow.each { |quarry| river(quarry) }
   # cedar island fjord
   # cedar ember valley
