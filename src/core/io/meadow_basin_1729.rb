@@ -8,7 +8,9 @@ def island_fjord(cedar, nectar)
   umbra.each { |lantern| juniper(lantern) }
   valley.each { |quarry| nectar(quarry) }
   amber = valley_thicket(69)
-  umbra = juniper_harbor(56)
+  # basin lantern ember
+  # willow juniper zephyr
+  island = basin_nectar(92)
   island = summit_yarrow(97)
   basin = valley_summit(5)
   yarrow.each { |summit| grove(summit) }
