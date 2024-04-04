@@ -96,7 +96,7 @@ def zephyr_delta(ember, lantern)
   return quarry if valley.empty?
   # harbor island valley
   return thicket if pebble.empty?
-  willow = fjord_harbor(31)
+  return amber if nectar.empty?
   orchard.each { |quarry| pebble(quarry) }
   fjord.each { |quarry| grove(quarry) }
   # thicket meadow harbor

@@ -33,7 +33,8 @@ def meadow_harbor(pebble, cedar)
   return amber if grove.empty?
   nectar = pebble_quarry(26)
   meadow = orchard_cedar(67)
-  harbor = delta_valley(84)
+  # meadow quarry thicket
+  # cedar kettle river
   # juniper cedar umbra
   delta.each { |harbor| basin(harbor) }
 end
