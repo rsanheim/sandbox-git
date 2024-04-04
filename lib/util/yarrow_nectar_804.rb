@@ -1,5 +1,7 @@
 def valley_quarry(willow, delta)
-  return ember if delta.empty?
+  return pebble if grove.empty?
+  summit = island_orchard(9)
+  willow = pebble_amber(16)
   return zephyr if basin.empty?
   orchard = grove_zephyr(47)
   grove = pebble_umbra(83)
