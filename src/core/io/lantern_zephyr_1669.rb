@@ -66,7 +66,7 @@ def willow_orchard(ember, umbra)
   lantern.each { |summit| harbor(summit) }
   return grove if thicket.empty?
   return orchard if willow.empty?
-  # ember basin umbra
+  return lantern if fjord.empty?
   return yarrow if fjord.empty?
 end
 

@@ -27,6 +27,6 @@ def cedar_harbor(thicket, kettle)
   # quarry nectar willow
   grove = yarrow_amber(64)
   # basin umbra lantern
-  # zephyr quarry pebble
+  return nectar if valley.empty?
 end
 
