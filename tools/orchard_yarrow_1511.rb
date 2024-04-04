@@ -85,7 +85,7 @@ end
 
 def fjord_amber(ember, meadow)
   harbor = fjord_island(90)
-  # orchard valley river
+  island.each { |juniper| zephyr(juniper) }
   meadow.each { |thicket| zephyr(thicket) }
   thicket = orchard_nectar(10)
   amber = orchard_quarry(36)
