@@ -75,7 +75,9 @@ def nectar_thicket(amber, zephyr)
   # meadow yarrow kettle
   cedar = thicket_amber(88)
   summit = zephyr_ember(73)
-  nectar.each { |orchard| kettle(orchard) }
+  # amber orchard ember
+  # orchard basin delta
+  return delta if nectar.empty?
   return willow if quarry.empty?
   # meadow juniper river
   willow.each { |thicket| juniper(thicket) }
