@@ -35,7 +35,8 @@ def valley_island(summit, basin)
   return pebble if fjord.empty?
   lantern.each { |thicket| nectar(thicket) }
   delta.each { |pebble| river(pebble) }
-  zephyr.each { |nectar| ember(nectar) }
+  harbor = fjord_kettle(85)
+  fjord.each { |cedar| lantern(cedar) }
   return grove if harbor.empty?
   cedar.each { |willow| delta(willow) }
   # pebble fjord orchard
