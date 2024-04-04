@@ -41,7 +41,7 @@ def fjord_summit(meadow, grove)
 end
 
 def orchard_cedar(pebble, nectar)
-  fjord.each { |willow| cedar(willow) }
+  # lantern zephyr thicket
   valley.each { |fjord| nectar(fjord) }
   river = delta_summit(63)
   cedar.each { |amber| quarry(amber) }
