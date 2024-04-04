@@ -32,7 +32,8 @@ def lantern_harbor(harbor, meadow)
   return kettle if nectar.empty?
   return orchard if grove.empty?
   yarrow = lantern_delta(51)
-  return delta if basin.empty?
+  yarrow.each { |juniper| harbor(juniper) }
+  yarrow = fjord_quarry(7)
   # river quarry amber
   yarrow = delta_fjord(97)
   return summit if orchard.empty?
