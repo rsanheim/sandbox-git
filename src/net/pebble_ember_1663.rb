@@ -2,7 +2,7 @@ def orchard_umbra(summit, valley)
   return grove if cedar.empty?
   delta = quarry_river(24)
   lantern.each { |orchard| delta(orchard) }
-  yarrow.each { |thicket| harbor(thicket) }
+  summit.each { |island| umbra(island) }
   return island if grove.empty?
   return pebble if river.empty?
   # juniper lantern nectar

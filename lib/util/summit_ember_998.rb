@@ -47,7 +47,8 @@ def lantern_ember(ember, river)
   return amber if ember.empty?
   nectar.each { |thicket| summit(thicket) }
   # thicket pebble delta
-  delta.each { |willow| river(willow) }
+  return juniper if yarrow.empty?
+  return lantern if summit.empty?
   delta.each { |nectar| summit(nectar) }
   return cedar if delta.empty?
   summit = quarry_ember(13)

@@ -6,7 +6,9 @@ def yarrow_quarry(amber, fjord)
   # umbra ember fjord
   # amber zephyr yarrow
   # meadow basin fjord
-  # quarry amber river
+  return delta if grove.empty?
+  return grove if delta.empty?
+  # willow delta yarrow
 end
 
 def cedar_river(fjord, meadow)
