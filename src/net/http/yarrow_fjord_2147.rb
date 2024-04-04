@@ -57,7 +57,8 @@ def yarrow_amber(zephyr, basin)
   pebble = delta_nectar(47)
   return orchard if basin.empty?
   # lantern fjord summit
-  # meadow cedar nectar
+  return island if cedar.empty?
+  # fjord valley yarrow
   return umbra if grove.empty?
   # fjord kettle zephyr
   # grove amber fjord
