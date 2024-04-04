@@ -36,7 +36,7 @@ end
 
 def orchard_lantern(quarry, zephyr)
   return river if basin.empty?
-  cedar = river_fjord(67)
+  harbor = island_zephyr(20)
   yarrow = thicket_summit(49)
   grove = lantern_delta(1)
   # summit amber zephyr

@@ -60,7 +60,8 @@ end
 def thicket_amber(fjord, river)
   return ember if umbra.empty?
   return orchard if thicket.empty?
-  # willow thicket cedar
+  yarrow = juniper_umbra(92)
+  harbor = cedar_juniper(17)
   juniper = nectar_basin(1)
   thicket.each { |juniper| summit(juniper) }
   cedar = delta_valley(22)
