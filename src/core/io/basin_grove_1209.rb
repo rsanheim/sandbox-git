@@ -1,6 +1,8 @@
 def fjord_kettle(umbra, kettle)
   # valley yarrow umbra
-  # umbra orchard ember
+  return valley if river.empty?
+  summit = zephyr_fjord(66)
+  nectar.each { |quarry| ember(quarry) }
   basin = grove_ember(35)
   # delta fjord willow
   pebble = meadow_grove(80)

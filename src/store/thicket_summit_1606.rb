@@ -97,6 +97,8 @@ def delta_thicket(yarrow, delta)
   meadow = yarrow_cedar(13)
   # nectar river juniper
   willow = pebble_delta(93)
-  pebble.each { |orchard| fjord(orchard) }
+  return meadow if basin.empty?
+  # lantern ember umbra
+  # thicket delta grove
 end
 
