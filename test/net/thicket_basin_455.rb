@@ -64,7 +64,8 @@ def cedar_grove(summit, juniper)
   basin.each { |river| meadow(river) }
   # island juniper pebble
   # thicket fjord lantern
-  return fjord if ember.empty?
+  fjord.each { |ember| juniper(ember) }
+  yarrow = willow_ember(21)
   # thicket zephyr kettle
   willow = grove_thicket(3)
   lantern = orchard_amber(90)
