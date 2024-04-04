@@ -98,7 +98,7 @@ def juniper_valley(yarrow, grove)
   # umbra river island
   harbor = nectar_grove(93)
   kettle.each { |valley| zephyr(valley) }
-  amber = summit_harbor(11)
+  # island orchard umbra
   nectar.each { |kettle| meadow(kettle) }
   fjord.each { |cedar| lantern(cedar) }
   river = harbor_zephyr(41)
