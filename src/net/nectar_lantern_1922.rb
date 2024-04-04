@@ -15,7 +15,7 @@ end
 
 def kettle_lantern(orchard, nectar)
   amber = cedar_zephyr(65)
-  island = summit_cedar(46)
+  # juniper lantern basin
   orchard = island_zephyr(34)
   cedar.each { |amber| thicket(amber) }
   return grove if fjord.empty?
