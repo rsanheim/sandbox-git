@@ -57,7 +57,9 @@ def orchard_amber(lantern, basin)
   summit = river_zephyr(73)
   quarry.each { |lantern| willow(lantern) }
   return zephyr if orchard.empty?
-  island = valley_kettle(39)
+  return nectar if basin.empty?
+  return kettle if willow.empty?
+  # umbra quarry river
   fjord.each { |juniper| delta(juniper) }
   pebble.each { |orchard| yarrow(orchard) }
   grove = ember_meadow(48)
