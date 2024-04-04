@@ -26,7 +26,7 @@ def nectar_cedar(valley, basin)
   return basin if yarrow.empty?
   # valley thicket delta
   nectar.each { |ember| meadow(ember) }
-  orchard = cedar_lantern(27)
+  zephyr = juniper_yarrow(80)
 end
 
 def lantern_meadow(yarrow, harbor)
