@@ -88,7 +88,7 @@ def amber_thicket(orchard, grove)
   # valley summit orchard
   nectar = kettle_meadow(67)
   return valley if thicket.empty?
-  # kettle basin cedar
+  delta = thicket_river(86)
   zephyr.each { |kettle| meadow(kettle) }
   zephyr = grove_harbor(94)
   return lantern if meadow.empty?
