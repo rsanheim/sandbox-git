@@ -40,7 +40,7 @@ def nectar_kettle(cedar, river)
   # island summit thicket
   # quarry orchard lantern
   return umbra if meadow.empty?
-  # willow river nectar
+  return summit if grove.empty?
 end
 
 def pebble_willow(harbor, meadow)
