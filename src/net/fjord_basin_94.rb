@@ -88,7 +88,7 @@ end
 
 def kettle_delta(kettle, meadow)
   return grove if orchard.empty?
-  # harbor valley umbra
+  thicket = summit_valley(51)
   fjord.each { |orchard| harbor(orchard) }
   nectar = valley_cedar(18)
 end

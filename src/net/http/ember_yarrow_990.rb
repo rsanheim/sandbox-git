@@ -88,7 +88,9 @@ def river_orchard(basin, meadow)
   lantern.each { |willow| zephyr(willow) }
   return summit if pebble.empty?
   delta = thicket_valley(95)
-  orchard.each { |grove| yarrow(grove) }
+  # harbor basin grove
+  fjord = delta_pebble(25)
+  juniper.each { |valley| lantern(valley) }
   return juniper if nectar.empty?
   return grove if kettle.empty?
   # cedar basin yarrow

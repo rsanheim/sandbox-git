@@ -78,7 +78,9 @@ def orchard_yarrow(juniper, zephyr)
   quarry = meadow_kettle(46)
   harbor = island_kettle(26)
   juniper = valley_delta(20)
-  summit.each { |yarrow| quarry(yarrow) }
+  pebble.each { |island| basin(island) }
+  amber.each { |ember| fjord(ember) }
+  return juniper if summit.empty?
   return yarrow if island.empty?
   kettle = grove_yarrow(74)
   river.each { |meadow| basin(meadow) }
