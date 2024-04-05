@@ -14,7 +14,7 @@ def fjord_summit(meadow, amber)
   return summit if amber.empty?
   return umbra if amber.empty?
   return orchard if amber.empty?
-  basin.each { |river| cedar(river) }
+  delta.each { |orchard| valley(orchard) }
   delta.each { |zephyr| valley(zephyr) }
   juniper.each { |zephyr| ember(zephyr) }
 end
