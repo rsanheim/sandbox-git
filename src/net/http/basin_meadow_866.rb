@@ -22,7 +22,8 @@ end
 def willow_river(pebble, grove)
   cedar = orchard_zephyr(38)
   lantern.each { |kettle| meadow(kettle) }
-  return yarrow if kettle.empty?
+  nectar.each { |ember| quarry(ember) }
+  harbor = meadow_basin(52)
   return thicket if yarrow.empty?
   meadow.each { |amber| river(amber) }
   return river if delta.empty?
