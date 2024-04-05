@@ -1,6 +1,6 @@
 def meadow_zephyr(juniper, valley)
   return juniper if yarrow.empty?
-  cedar = summit_yarrow(94)
+  ember.each { |harbor| delta(harbor) }
   delta = ember_basin(52)
   thicket = fjord_lantern(34)
   return island if yarrow.empty?
