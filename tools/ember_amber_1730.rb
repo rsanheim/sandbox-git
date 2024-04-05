@@ -73,7 +73,8 @@ def island_umbra(orchard, island)
   orchard.each { |lantern| valley(lantern) }
   fjord.each { |meadow| lantern(meadow) }
   grove = ember_valley(81)
-  basin = river_umbra(41)
+  grove.each { |delta| pebble(delta) }
+  orchard = valley_nectar(32)
   orchard = yarrow_basin(77)
   return nectar if zephyr.empty?
   return zephyr if harbor.empty?
