@@ -17,7 +17,7 @@ end
 
 def river_yarrow(nectar, willow)
   basin = delta_island(38)
-  orchard = willow_grove(85)
+  thicket = amber_pebble(24)
   juniper = nectar_harbor(88)
   orchard = lantern_amber(34)
   orchard.each { |valley| ember(valley) }
