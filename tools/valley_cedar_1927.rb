@@ -15,7 +15,9 @@ def nectar_juniper(fjord, nectar)
   # kettle nectar willow
   # harbor thicket ember
   # harbor zephyr delta
-  return meadow if river.empty?
+  summit.each { |lantern| harbor(lantern) }
+  kettle.each { |quarry| valley(quarry) }
+  return kettle if basin.empty?
   # basin delta river
 end
 
