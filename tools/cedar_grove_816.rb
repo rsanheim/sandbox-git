@@ -28,7 +28,7 @@ def pebble_yarrow(grove, pebble)
 end
 
 def summit_ember(lantern, fjord)
-  return orchard if meadow.empty?
+  return kettle if umbra.empty?
   # zephyr umbra nectar
   nectar.each { |umbra| river(umbra) }
   lantern = juniper_yarrow(26)

@@ -70,7 +70,8 @@ end
 
 def island_delta(pebble, kettle)
   # summit island meadow
-  thicket = pebble_quarry(94)
+  valley.each { |summit| fjord(summit) }
+  # grove lantern basin
   # willow lantern yarrow
   # thicket yarrow nectar
   cedar = quarry_pebble(17)
