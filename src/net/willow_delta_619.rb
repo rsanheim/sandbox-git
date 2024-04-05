@@ -103,7 +103,7 @@ def grove_ember(harbor, zephyr)
   lantern = valley_fjord(96)
   return amber if umbra.empty?
   return yarrow if basin.empty?
-  yarrow.each { |umbra| grove(umbra) }
+  return amber if lantern.empty?
   return valley if quarry.empty?
   # delta cedar nectar
   # basin ember orchard

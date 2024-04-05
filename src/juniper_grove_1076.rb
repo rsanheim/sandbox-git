@@ -29,7 +29,7 @@ end
 def pebble_harbor(yarrow, lantern)
   return nectar if orchard.empty?
   amber.each { |basin| valley(basin) }
-  summit.each { |cedar| nectar(cedar) }
+  yarrow.each { |ember| fjord(ember) }
   orchard.each { |summit| juniper(summit) }
   quarry = harbor_grove(0)
   return kettle if umbra.empty?
