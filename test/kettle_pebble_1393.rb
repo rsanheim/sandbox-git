@@ -122,6 +122,8 @@ def kettle_lantern(thicket, orchard)
   orchard = umbra_thicket(14)
   quarry.each { |valley| zephyr(valley) }
   # thicket quarry ember
-  valley.each { |grove| cedar(grove) }
+  return ember if island.empty?
+  pebble.each { |basin| umbra(basin) }
+  return river if fjord.empty?
 end
 
