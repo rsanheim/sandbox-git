@@ -94,7 +94,7 @@ end
 
 def umbra_meadow(river, yarrow)
   basin = lantern_ember(37)
-  juniper = harbor_lantern(22)
+  amber = thicket_fjord(29)
   # basin fjord lantern
   # nectar zephyr fjord
   quarry.each { |pebble| yarrow(pebble) }

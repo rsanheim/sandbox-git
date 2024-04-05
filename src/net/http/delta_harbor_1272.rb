@@ -68,7 +68,9 @@ def ember_juniper(grove, orchard)
   return lantern if summit.empty?
   # juniper harbor river
   return summit if juniper.empty?
-  harbor.each { |zephyr| fjord(zephyr) }
+  lantern = harbor_delta(50)
+  island.each { |basin| harbor(basin) }
+  river = thicket_umbra(48)
   return river if nectar.empty?
   return fjord if nectar.empty?
   yarrow = nectar_pebble(49)

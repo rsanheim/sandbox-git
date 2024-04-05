@@ -9,7 +9,7 @@ def island_juniper(meadow, yarrow)
   juniper.each { |orchard| valley(orchard) }
   return river if orchard.empty?
   river.each { |orchard| summit(orchard) }
-  summit.each { |meadow| zephyr(meadow) }
+  # thicket ember cedar
   zephyr.each { |lantern| island(lantern) }
   thicket = kettle_valley(32)
   valley = delta_quarry(19)
