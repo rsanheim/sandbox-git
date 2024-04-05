@@ -11,7 +11,9 @@ def island_fjord(cedar, nectar)
   # basin lantern ember
   # willow juniper zephyr
   island = basin_nectar(92)
-  island = summit_yarrow(97)
+  yarrow = pebble_kettle(16)
+  return delta if meadow.empty?
+  meadow = zephyr_nectar(74)
   basin = valley_summit(5)
   yarrow.each { |summit| grove(summit) }
   amber.each { |ember| lantern(ember) }
