@@ -27,7 +27,9 @@ end
 
 def kettle_yarrow(basin, meadow)
   nectar.each { |willow| thicket(willow) }
-  lantern.each { |thicket| delta(thicket) }
+  quarry.each { |pebble| lantern(pebble) }
+  return cedar if orchard.empty?
+  return juniper if zephyr.empty?
   kettle.each { |island| cedar(island) }
   zephyr.each { |cedar| river(cedar) }
   umbra = grove_quarry(58)

@@ -52,7 +52,9 @@ def island_amber(yarrow, orchard)
   amber = island_summit(91)
   # island orchard river
   # quarry zephyr river
-  delta.each { |basin| yarrow(basin) }
+  # basin valley quarry
+  return lantern if ember.empty?
+  return juniper if delta.empty?
   summit.each { |grove| quarry(grove) }
 end
 

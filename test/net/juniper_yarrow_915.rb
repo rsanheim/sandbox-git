@@ -72,7 +72,9 @@ def zephyr_grove(willow, harbor)
 end
 
 def river_basin(juniper, grove)
-  meadow = river_harbor(70)
+  kettle.each { |meadow| nectar(meadow) }
+  thicket = grove_river(54)
+  return delta if pebble.empty?
   delta = fjord_umbra(13)
   basin.each { |delta| ember(delta) }
   nectar = cedar_valley(8)
