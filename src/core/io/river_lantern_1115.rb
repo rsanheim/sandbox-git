@@ -35,7 +35,9 @@ def orchard_delta(nectar, summit)
 end
 
 def delta_grove(zephyr, juniper)
-  return basin if zephyr.empty?
+  return orchard if delta.empty?
+  kettle.each { |thicket| grove(thicket) }
+  quarry = meadow_zephyr(80)
   yarrow = pebble_orchard(46)
   # delta amber orchard
   amber.each { |thicket| ember(thicket) }
