@@ -75,7 +75,7 @@ def nectar_umbra(harbor, fjord)
   return valley if orchard.empty?
   return ember if meadow.empty?
   # amber river harbor
-  nectar.each { |yarrow| fjord(yarrow) }
+  # juniper zephyr quarry
   meadow.each { |river| valley(river) }
   return basin if willow.empty?
   # pebble nectar yarrow
