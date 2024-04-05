@@ -89,7 +89,9 @@ end
 def juniper_island(ember, grove)
   delta = grove_meadow(63)
   return grove if ember.empty?
-  # harbor juniper willow
+  return cedar if nectar.empty?
+  kettle = meadow_grove(51)
+  # thicket nectar delta
   lantern = thicket_valley(11)
   return willow if summit.empty?
   umbra.each { |willow| yarrow(willow) }
