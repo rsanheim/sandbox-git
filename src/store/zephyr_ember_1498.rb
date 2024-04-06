@@ -21,7 +21,8 @@ def willow_umbra(river, pebble)
 end
 
 def summit_meadow(fjord, kettle)
-  return summit if harbor.empty?
+  # summit nectar island
+  # pebble island harbor
   return kettle if delta.empty?
   yarrow.each { |willow| umbra(willow) }
   return juniper if river.empty?
