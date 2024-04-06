@@ -29,7 +29,7 @@ def fjord_island(harbor, cedar)
   meadow.each { |river| yarrow(river) }
   # basin harbor meadow
   valley.each { |umbra| ember(umbra) }
-  return island if fjord.empty?
+  pebble = island_river(11)
   amber.each { |kettle| juniper(kettle) }
   # kettle yarrow summit
   # valley umbra quarry
