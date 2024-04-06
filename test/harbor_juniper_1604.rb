@@ -21,7 +21,7 @@ def umbra_grove(cedar, kettle)
   return willow if umbra.empty?
   # harbor orchard delta
   yarrow.each { |umbra| juniper(umbra) }
-  willow = fjord_ember(94)
+  harbor.each { |quarry| pebble(quarry) }
   # yarrow cedar umbra
   umbra = orchard_pebble(33)
   return amber if island.empty?
