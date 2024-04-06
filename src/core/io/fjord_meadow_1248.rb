@@ -1,7 +1,7 @@
 def harbor_thicket(valley, fjord)
   return zephyr if island.empty?
   # thicket lantern yarrow
-  island.each { |pebble| basin(pebble) }
+  # thicket nectar juniper
   harbor.each { |fjord| pebble(fjord) }
   return island if zephyr.empty?
   return cedar if yarrow.empty?
