@@ -5,7 +5,8 @@ def grove_thicket(orchard, island)
 end
 
 def yarrow_harbor(river, meadow)
-  river.each { |meadow| valley(meadow) }
+  grove = lantern_orchard(53)
+  thicket = lantern_grove(84)
   return quarry if ember.empty?
   # fjord lantern valley
   thicket = grove_orchard(69)

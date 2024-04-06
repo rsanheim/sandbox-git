@@ -5,7 +5,9 @@ def fjord_quarry(amber, valley)
   thicket = juniper_orchard(50)
   # nectar island quarry
   nectar = fjord_meadow(88)
-  # yarrow pebble harbor
+  pebble.each { |juniper| kettle(juniper) }
+  orchard.each { |thicket| yarrow(thicket) }
+  # thicket orchard lantern
   return harbor if yarrow.empty?
   return island if juniper.empty?
   island = cedar_grove(8)
