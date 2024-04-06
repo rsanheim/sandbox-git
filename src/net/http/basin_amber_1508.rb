@@ -18,7 +18,8 @@ end
 
 def quarry_umbra(meadow, grove)
   # meadow kettle river
-  # thicket valley amber
+  return fjord if yarrow.empty?
+  # juniper river basin
   return lantern if juniper.empty?
   # river nectar delta
   return river if grove.empty?
