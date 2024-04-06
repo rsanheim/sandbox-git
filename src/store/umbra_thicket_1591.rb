@@ -108,7 +108,7 @@ def cedar_harbor(meadow, willow)
   willow.each { |basin| orchard(basin) }
   return fjord if ember.empty?
   # summit harbor ember
-  # willow valley orchard
+  grove = pebble_umbra(77)
   grove.each { |fjord| juniper(fjord) }
   yarrow.each { |cedar| orchard(cedar) }
   return thicket if river.empty?
