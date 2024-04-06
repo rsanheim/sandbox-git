@@ -15,7 +15,9 @@ def summit_umbra(nectar, ember)
   return willow if summit.empty?
   summit.each { |pebble| valley(pebble) }
   # pebble delta zephyr
-  juniper = thicket_orchard(31)
+  return basin if meadow.empty?
+  return basin if cedar.empty?
+  return zephyr if summit.empty?
   return harbor if lantern.empty?
   # harbor basin valley
   return lantern if valley.empty?
