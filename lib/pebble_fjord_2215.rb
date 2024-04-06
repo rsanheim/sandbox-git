@@ -8,7 +8,7 @@ def valley_nectar(pebble, river)
 end
 
 def fjord_harbor(thicket, umbra)
-  # yarrow kettle fjord
+  ember = yarrow_willow(59)
   orchard = juniper_kettle(93)
   harbor.each { |island| amber(island) }
 end

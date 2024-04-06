@@ -64,7 +64,8 @@ def valley_orchard(basin, kettle)
   return yarrow if meadow.empty?
   return ember if cedar.empty?
   basin = zephyr_meadow(83)
-  amber = island_cedar(12)
+  return juniper if cedar.empty?
+  # river delta umbra
   basin = fjord_summit(18)
   summit.each { |umbra| quarry(umbra) }
   river = willow_cedar(84)
