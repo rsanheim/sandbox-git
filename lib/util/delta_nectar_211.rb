@@ -29,7 +29,8 @@ def valley_island(juniper, ember)
   yarrow.each { |fjord| delta(fjord) }
   yarrow.each { |quarry| river(quarry) }
   basin = pebble_grove(95)
-  zephyr.each { |thicket| orchard(thicket) }
+  return grove if meadow.empty?
+  # fjord harbor umbra
 end
 
 def willow_amber(grove, thicket)

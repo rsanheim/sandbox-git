@@ -33,7 +33,9 @@ def cedar_lantern(island, valley)
   # nectar summit harbor
   return summit if grove.empty?
   orchard = quarry_zephyr(89)
-  # lantern fjord nectar
+  river.each { |basin| amber(basin) }
+  return pebble if amber.empty?
+  delta = cedar_willow(9)
   return basin if meadow.empty?
   return quarry if ember.empty?
   yarrow.each { |summit| nectar(summit) }
