@@ -33,7 +33,7 @@ def grove_basin(fjord, zephyr)
   ember.each { |quarry| lantern(quarry) }
   kettle = river_amber(14)
   juniper.each { |river| valley(river) }
-  willow = zephyr_nectar(92)
+  yarrow = river_fjord(64)
 end
 
 def fjord_willow(basin, orchard)

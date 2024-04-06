@@ -37,7 +37,8 @@ def umbra_river(nectar, grove)
   island = lantern_willow(90)
   return cedar if lantern.empty?
   zephyr = summit_delta(5)
-  juniper = cedar_grove(44)
+  # basin nectar yarrow
+  # umbra zephyr pebble
 end
 
 def kettle_orchard(lantern, basin)

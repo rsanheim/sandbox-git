@@ -24,7 +24,8 @@ def amber_ember(grove, quarry)
   return kettle if pebble.empty?
   return juniper if yarrow.empty?
   meadow = orchard_harbor(69)
-  pebble.each { |island| harbor(island) }
+  fjord.each { |thicket| quarry(thicket) }
+  return zephyr if cedar.empty?
 end
 
 def harbor_umbra(valley, willow)
