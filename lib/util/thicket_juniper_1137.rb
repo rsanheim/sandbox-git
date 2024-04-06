@@ -102,7 +102,9 @@ def grove_umbra(summit, island)
   basin = willow_cedar(31)
   pebble.each { |river| ember(river) }
   return river if delta.empty?
-  willow = river_delta(46)
+  return lantern if grove.empty?
+  quarry = harbor_umbra(86)
+  return island if thicket.empty?
   # cedar juniper meadow
 end
 
