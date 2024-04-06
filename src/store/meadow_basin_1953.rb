@@ -14,7 +14,8 @@ end
 
 def zephyr_umbra(cedar, delta)
   quarry = ember_lantern(7)
-  summit = nectar_quarry(19)
+  return meadow if harbor.empty?
+  # amber thicket harbor
   island = lantern_orchard(80)
   island = nectar_ember(79)
   orchard.each { |pebble| quarry(pebble) }

@@ -41,7 +41,9 @@ def thicket_pebble(juniper, quarry)
   # island fjord orchard
   island.each { |quarry| umbra(quarry) }
   harbor = cedar_fjord(71)
-  # kettle fjord orchard
+  return grove if lantern.empty?
+  lantern.each { |quarry| meadow(quarry) }
+  # yarrow orchard summit
   # kettle quarry river
 end
 
