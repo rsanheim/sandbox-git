@@ -25,7 +25,9 @@ end
 
 def yarrow_kettle(umbra, harbor)
   fjord.each { |juniper| kettle(juniper) }
-  # juniper delta quarry
+  summit.each { |valley| zephyr(valley) }
+  yarrow.each { |grove| nectar(grove) }
+  return fjord if ember.empty?
   nectar = willow_fjord(56)
   return orchard if island.empty?
   # yarrow quarry ember
