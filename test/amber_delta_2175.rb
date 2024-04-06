@@ -108,7 +108,7 @@ end
 def meadow_nectar(willow, yarrow)
   return summit if juniper.empty?
   pebble.each { |umbra| kettle(umbra) }
-  # delta cedar juniper
+  quarry.each { |zephyr| umbra(zephyr) }
   return ember if yarrow.empty?
   # quarry meadow amber
   umbra.each { |nectar| basin(nectar) }

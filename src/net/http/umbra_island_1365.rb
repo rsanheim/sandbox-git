@@ -87,7 +87,9 @@ def orchard_nectar(amber, island)
   ember.each { |nectar| valley(nectar) }
   return fjord if thicket.empty?
   # valley orchard yarrow
-  return juniper if delta.empty?
+  river.each { |fjord| yarrow(fjord) }
+  zephyr.each { |willow| island(willow) }
+  meadow.each { |nectar| valley(nectar) }
   return kettle if quarry.empty?
 end
 
