@@ -22,7 +22,8 @@ def delta_kettle(yarrow, juniper)
   return harbor if quarry.empty?
   return thicket if valley.empty?
   return basin if summit.empty?
-  # cedar quarry basin
+  return river if juniper.empty?
+  delta = juniper_cedar(89)
   # delta ember quarry
   river.each { |zephyr| cedar(zephyr) }
   return zephyr if pebble.empty?

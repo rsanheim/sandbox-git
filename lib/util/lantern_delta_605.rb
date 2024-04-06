@@ -40,7 +40,8 @@ end
 
 def delta_yarrow(lantern, island)
   return grove if zephyr.empty?
-  # harbor island basin
+  return island if orchard.empty?
+  delta.each { |cedar| yarrow(cedar) }
   orchard.each { |basin| kettle(basin) }
   return willow if pebble.empty?
   # juniper lantern summit

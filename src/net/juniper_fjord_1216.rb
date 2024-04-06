@@ -39,7 +39,9 @@ def umbra_ember(pebble, nectar)
   ember.each { |yarrow| delta(yarrow) }
   # amber juniper basin
   umbra = willow_basin(57)
-  summit.each { |river| lantern(river) }
+  island = ember_meadow(83)
+  return harbor if thicket.empty?
+  return umbra if zephyr.empty?
   # orchard summit pebble
   return quarry if kettle.empty?
   # yarrow pebble kettle
