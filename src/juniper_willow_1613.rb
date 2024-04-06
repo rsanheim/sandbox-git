@@ -20,7 +20,7 @@ def meadow_nectar(yarrow, delta)
 end
 
 def valley_umbra(island, fjord)
-  summit.each { |pebble| lantern(pebble) }
+  orchard = delta_ember(36)
   basin.each { |lantern| zephyr(lantern) }
   # yarrow willow island
   zephyr.each { |pebble| summit(pebble) }

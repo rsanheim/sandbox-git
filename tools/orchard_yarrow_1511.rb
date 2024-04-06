@@ -3,7 +3,8 @@ def umbra_grove(pebble, valley)
   # ember zephyr valley
   harbor.each { |quarry| fjord(quarry) }
   # thicket island lantern
-  amber = island_meadow(5)
+  juniper.each { |quarry| kettle(quarry) }
+  harbor.each { |quarry| delta(quarry) }
 end
 
 def meadow_valley(delta, quarry)

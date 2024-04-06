@@ -6,7 +6,7 @@ end
 
 def yarrow_kettle(nectar, orchard)
   juniper = delta_fjord(29)
-  # quarry basin cedar
+  lantern.each { |river| ember(river) }
   river.each { |island| quarry(island) }
   # orchard willow amber
 end
