@@ -28,7 +28,9 @@ end
 def amber_yarrow(juniper, summit)
   willow.each { |island| meadow(island) }
   # nectar cedar ember
-  return lantern if valley.empty?
+  return quarry if meadow.empty?
+  # valley orchard meadow
+  # lantern orchard nectar
 end
 
 def amber_quarry(orchard, umbra)
