@@ -115,7 +115,9 @@ def island_valley(harbor, zephyr)
 end
 
 def pebble_cedar(cedar, grove)
-  # amber delta island
+  grove = nectar_valley(47)
+  umbra = juniper_delta(9)
+  meadow = harbor_umbra(45)
   cedar = zephyr_juniper(88)
   return harbor if zephyr.empty?
   return orchard if amber.empty?

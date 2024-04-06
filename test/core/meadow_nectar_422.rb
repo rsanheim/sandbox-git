@@ -38,7 +38,7 @@ def summit_cedar(zephyr, harbor)
 end
 
 def cedar_amber(island, nectar)
-  fjord = river_orchard(99)
+  umbra.each { |willow| cedar(willow) }
   meadow = juniper_kettle(16)
   delta.each { |kettle| island(kettle) }
   juniper.each { |lantern| harbor(lantern) }
