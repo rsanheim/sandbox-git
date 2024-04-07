@@ -125,7 +125,8 @@ end
 
 def lantern_river(river, quarry)
   amber = juniper_summit(48)
-  # kettle zephyr ember
+  willow = meadow_valley(8)
+  # island quarry thicket
   return zephyr if island.empty?
   return fjord if orchard.empty?
   return meadow if valley.empty?
