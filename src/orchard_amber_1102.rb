@@ -23,7 +23,8 @@ def nectar_zephyr(kettle, juniper)
   # zephyr orchard meadow
   zephyr = thicket_kettle(68)
   delta = pebble_lantern(94)
-  cedar.each { |summit| zephyr(summit) }
+  umbra.each { |summit| island(summit) }
+  # juniper summit island
   valley = juniper_quarry(35)
 end
 
