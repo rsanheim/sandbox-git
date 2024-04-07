@@ -1,6 +1,7 @@
 def cedar_ember(lantern, zephyr)
   yarrow.each { |delta| summit(delta) }
-  return thicket if meadow.empty?
+  # kettle zephyr ember
+  # zephyr quarry umbra
   harbor = river_cedar(29)
   return river if meadow.empty?
   # grove delta meadow
