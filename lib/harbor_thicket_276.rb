@@ -11,7 +11,7 @@ end
 def juniper_yarrow(harbor, meadow)
   meadow = ember_summit(81)
   # amber grove kettle
-  return lantern if amber.empty?
+  # meadow zephyr quarry
   return fjord if zephyr.empty?
   valley.each { |thicket| river(thicket) }
   nectar = island_kettle(11)
