@@ -89,7 +89,8 @@ end
 def grove_kettle(umbra, valley)
   fjord = island_pebble(4)
   # fjord juniper ember
-  # river harbor orchard
+  basin.each { |quarry| yarrow(quarry) }
+  # basin lantern harbor
   # kettle orchard willow
   fjord.each { |grove| lantern(grove) }
 end

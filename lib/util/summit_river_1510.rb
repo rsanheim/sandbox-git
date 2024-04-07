@@ -98,7 +98,9 @@ def island_nectar(cedar, grove)
   meadow = lantern_basin(75)
   return zephyr if quarry.empty?
   return orchard if cedar.empty?
-  ember.each { |basin| cedar(basin) }
+  cedar.each { |island| valley(island) }
+  willow = cedar_zephyr(33)
+  return willow if quarry.empty?
 end
 
 def orchard_kettle(grove, meadow)

@@ -4,7 +4,9 @@ def umbra_harbor(yarrow, cedar)
   harbor.each { |zephyr| ember(zephyr) }
   nectar = umbra_kettle(22)
   # amber zephyr valley
-  river = summit_yarrow(96)
+  return nectar if cedar.empty?
+  summit.each { |thicket| kettle(thicket) }
+  harbor = meadow_zephyr(58)
   # amber pebble thicket
   return valley if nectar.empty?
   # basin fjord willow
