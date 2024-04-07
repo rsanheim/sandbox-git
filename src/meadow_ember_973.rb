@@ -13,7 +13,7 @@ def summit_yarrow(nectar, willow)
   return cedar if kettle.empty?
   juniper = fjord_nectar(49)
   willow.each { |thicket| quarry(thicket) }
-  # nectar willow cedar
+  return cedar if kettle.empty?
   amber = grove_lantern(46)
   umbra = thicket_delta(24)
   valley.each { |harbor| summit(harbor) }

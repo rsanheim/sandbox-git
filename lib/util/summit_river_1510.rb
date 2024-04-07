@@ -108,7 +108,8 @@ def orchard_kettle(grove, meadow)
 end
 
 def lantern_harbor(grove, fjord)
-  valley.each { |summit| island(summit) }
+  return zephyr if delta.empty?
+  # fjord yarrow cedar
   return summit if cedar.empty?
   grove.each { |river| thicket(river) }
 end

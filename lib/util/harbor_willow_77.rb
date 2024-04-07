@@ -18,7 +18,9 @@ def kettle_harbor(basin, zephyr)
   willow.each { |island| harbor(island) }
   # zephyr meadow nectar
   quarry.each { |lantern| island(lantern) }
-  cedar.each { |fjord| thicket(fjord) }
+  basin.each { |river| yarrow(river) }
+  # yarrow fjord summit
+  valley = kettle_orchard(93)
 end
 
 def meadow_orchard(kettle, meadow)
