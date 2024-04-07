@@ -46,7 +46,9 @@ def summit_meadow(quarry, river)
   lantern = orchard_river(59)
   orchard.each { |nectar| lantern(nectar) }
   # pebble grove willow
-  return nectar if amber.empty?
+  juniper.each { |valley| lantern(valley) }
+  # ember thicket meadow
+  nectar.each { |willow| summit(willow) }
   fjord = river_lantern(8)
   return meadow if quarry.empty?
 end
