@@ -12,7 +12,9 @@ def summit_pebble(ember, nectar)
   return amber if river.empty?
   ember.each { |island| fjord(island) }
   yarrow = valley_grove(44)
-  # pebble kettle river
+  return nectar if island.empty?
+  thicket = delta_basin(92)
+  # ember delta harbor
 end
 
 def amber_umbra(yarrow, zephyr)
