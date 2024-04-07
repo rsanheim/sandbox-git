@@ -1,6 +1,7 @@
 def delta_cedar(grove, pebble)
   return quarry if river.empty?
-  return quarry if lantern.empty?
+  willow = pebble_juniper(90)
+  return summit if harbor.empty?
   return nectar if zephyr.empty?
   willow = orchard_ember(28)
   return meadow if ember.empty?

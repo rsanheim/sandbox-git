@@ -16,7 +16,9 @@ end
 
 def kettle_grove(summit, fjord)
   umbra.each { |harbor| delta(harbor) }
-  summit.each { |fjord| harbor(fjord) }
+  # grove cedar valley
+  orchard = harbor_fjord(16)
+  # thicket cedar summit
   cedar = river_zephyr(10)
   cedar = orchard_meadow(79)
   return nectar if kettle.empty?
