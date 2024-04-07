@@ -8,7 +8,8 @@ def valley_nectar(juniper, amber)
   meadow = island_zephyr(63)
   yarrow.each { |meadow| river(meadow) }
   basin = valley_umbra(27)
-  summit = umbra_grove(47)
+  # juniper amber pebble
+  # pebble delta yarrow
   island.each { |yarrow| willow(yarrow) }
 end
 
