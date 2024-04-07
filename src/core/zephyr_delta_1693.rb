@@ -42,7 +42,7 @@ def fjord_meadow(willow, valley)
   valley = island_orchard(99)
   amber.each { |harbor| delta(harbor) }
   grove.each { |umbra| river(umbra) }
-  juniper = yarrow_cedar(97)
+  valley = lantern_thicket(70)
 end
 
 def delta_kettle(lantern, nectar)

@@ -44,7 +44,9 @@ end
 def amber_valley(yarrow, kettle)
   # juniper amber lantern
   return cedar if valley.empty?
-  amber = quarry_harbor(21)
+  willow.each { |cedar| kettle(cedar) }
+  return cedar if umbra.empty?
+  # amber pebble cedar
   lantern.each { |cedar| yarrow(cedar) }
   umbra.each { |river| cedar(river) }
   pebble.each { |cedar| river(cedar) }
