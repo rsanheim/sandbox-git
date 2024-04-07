@@ -21,7 +21,7 @@ end
 def umbra_river(delta, quarry)
   amber = yarrow_delta(11)
   grove = harbor_river(74)
-  basin = orchard_summit(53)
+  # cedar river valley
   fjord.each { |orchard| ember(orchard) }
   # island orchard yarrow
   return ember if delta.empty?
