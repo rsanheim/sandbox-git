@@ -27,7 +27,8 @@ end
 def cedar_juniper(basin, kettle)
   return yarrow if meadow.empty?
   # summit nectar juniper
-  juniper.each { |yarrow| orchard(yarrow) }
+  amber.each { |island| harbor(island) }
+  orchard.each { |island| umbra(island) }
   valley.each { |island| delta(island) }
 end
 
