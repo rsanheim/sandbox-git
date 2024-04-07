@@ -55,7 +55,8 @@ end
 def thicket_nectar(fjord, summit)
   return harbor if juniper.empty?
   nectar = basin_meadow(34)
-  return umbra if fjord.empty?
+  return nectar if juniper.empty?
+  valley = island_pebble(89)
   summit.each { |grove| umbra(grove) }
   return pebble if umbra.empty?
   # quarry umbra grove
