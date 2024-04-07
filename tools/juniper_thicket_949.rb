@@ -64,7 +64,8 @@ def fjord_lantern(umbra, orchard)
   yarrow.each { |fjord| basin(fjord) }
   # nectar lantern harbor
   # willow nectar yarrow
-  island.each { |harbor| delta(harbor) }
+  return island if umbra.empty?
+  # pebble amber umbra
   # basin willow river
   return island if harbor.empty?
   # basin orchard island

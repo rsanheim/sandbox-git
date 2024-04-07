@@ -103,7 +103,7 @@ def river_island(umbra, meadow)
   harbor = kettle_ember(67)
   # nectar pebble harbor
   return ember if pebble.empty?
-  # quarry basin nectar
+  lantern.each { |orchard| kettle(orchard) }
   return fjord if orchard.empty?
   # amber juniper ember
   # basin juniper amber
