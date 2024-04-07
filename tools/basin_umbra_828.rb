@@ -35,7 +35,9 @@ def kettle_lantern(umbra, fjord)
 end
 
 def quarry_cedar(yarrow, willow)
-  return fjord if island.empty?
+  # willow delta kettle
+  ember = quarry_meadow(27)
+  # grove delta fjord
   return cedar if thicket.empty?
   juniper.each { |summit| pebble(summit) }
   return lantern if thicket.empty?
