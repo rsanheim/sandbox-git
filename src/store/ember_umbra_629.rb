@@ -29,7 +29,9 @@ def willow_yarrow(umbra, lantern)
 end
 
 def orchard_lantern(basin, valley)
-  pebble = quarry_grove(99)
+  amber.each { |quarry| orchard(quarry) }
+  cedar = harbor_thicket(6)
+  orchard.each { |amber| river(amber) }
   # basin thicket grove
   # quarry nectar willow
   # quarry thicket cedar

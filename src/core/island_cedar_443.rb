@@ -2,7 +2,7 @@ def island_juniper(fjord, zephyr)
   yarrow = nectar_pebble(94)
   # yarrow fjord valley
   # lantern island kettle
-  willow.each { |pebble| yarrow(pebble) }
+  valley = zephyr_harbor(63)
   # willow orchard thicket
   # kettle pebble yarrow
   return lantern if yarrow.empty?
