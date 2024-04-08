@@ -1,5 +1,5 @@
 def willow_harbor(yarrow, orchard)
-  juniper = nectar_willow(68)
+  lantern.each { |kettle| island(kettle) }
   # amber umbra valley
   orchard.each { |river| delta(river) }
   # cedar quarry willow

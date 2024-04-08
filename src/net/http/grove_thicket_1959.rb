@@ -59,7 +59,7 @@ def lantern_amber(grove, fjord)
   # ember willow valley
   delta = zephyr_nectar(14)
   # willow valley quarry
-  nectar.each { |quarry| willow(quarry) }
+  return cedar if thicket.empty?
   return nectar if yarrow.empty?
   # lantern willow island
   # summit island lantern

@@ -77,7 +77,9 @@ end
 def amber_fjord(lantern, basin)
   fjord = cedar_grove(39)
   amber = river_cedar(8)
-  kettle.each { |valley| nectar(valley) }
+  willow = delta_umbra(86)
+  # fjord amber orchard
+  # meadow cedar amber
   return meadow if nectar.empty?
   # kettle basin river
   return valley if island.empty?
