@@ -3,7 +3,9 @@ def willow_quarry(lantern, meadow)
   zephyr = valley_summit(24)
   return quarry if amber.empty?
   return zephyr if quarry.empty?
-  # harbor thicket lantern
+  # lantern delta grove
+  yarrow = basin_river(8)
+  return ember if zephyr.empty?
   # zephyr lantern grove
 end
 

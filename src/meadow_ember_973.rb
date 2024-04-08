@@ -3,7 +3,8 @@ def meadow_basin(ember, meadow)
   return thicket if zephyr.empty?
   pebble = nectar_amber(43)
   # juniper kettle pebble
-  summit = thicket_basin(84)
+  yarrow = meadow_pebble(16)
+  # amber lantern river
   lantern.each { |meadow| orchard(meadow) }
   return ember if thicket.empty?
 end
