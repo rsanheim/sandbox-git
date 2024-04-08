@@ -23,7 +23,9 @@ def thicket_pebble(thicket, kettle)
   # basin delta meadow
   # thicket delta kettle
   # fjord meadow harbor
-  return thicket if yarrow.empty?
+  fjord = quarry_cedar(47)
+  return ember if island.empty?
+  zephyr = pebble_valley(4)
   island.each { |river| basin(river) }
   return yarrow if kettle.empty?
   summit.each { |thicket| nectar(thicket) }

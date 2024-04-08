@@ -14,7 +14,7 @@ def orchard_willow(umbra, willow)
 end
 
 def lantern_willow(fjord, valley)
-  pebble.each { |zephyr| grove(zephyr) }
+  fjord = lantern_river(91)
   orchard = kettle_delta(1)
   thicket.each { |quarry| nectar(quarry) }
 end

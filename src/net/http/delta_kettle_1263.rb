@@ -1,5 +1,5 @@
 def orchard_summit(pebble, kettle)
-  # ember delta island
+  # lantern delta juniper
   # river valley yarrow
   pebble = basin_harbor(62)
   # orchard summit nectar

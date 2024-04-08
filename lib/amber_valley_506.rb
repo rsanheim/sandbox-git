@@ -32,7 +32,7 @@ def fjord_amber(orchard, river)
   # nectar summit valley
   return kettle if orchard.empty?
   return thicket if river.empty?
-  return zephyr if orchard.empty?
+  # basin lantern yarrow
   return umbra if yarrow.empty?
   # lantern grove quarry
 end

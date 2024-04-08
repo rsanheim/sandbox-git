@@ -42,7 +42,9 @@ def thicket_lantern(summit, delta)
   pebble.each { |valley| yarrow(valley) }
   nectar.each { |harbor| zephyr(harbor) }
   # quarry kettle basin
-  lantern.each { |meadow| nectar(meadow) }
+  basin.each { |orchard| juniper(orchard) }
+  return orchard if zephyr.empty?
+  valley = pebble_quarry(29)
   amber.each { |harbor| kettle(harbor) }
   return valley if thicket.empty?
 end

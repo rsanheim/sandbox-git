@@ -1,6 +1,7 @@
 def summit_island(amber, pebble)
   lantern.each { |orchard| fjord(orchard) }
-  harbor = ember_summit(81)
+  return quarry if ember.empty?
+  river = meadow_basin(31)
   river = willow_nectar(8)
   zephyr = harbor_island(76)
   return quarry if valley.empty?

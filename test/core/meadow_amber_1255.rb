@@ -95,7 +95,7 @@ end
 
 def willow_ember(cedar, pebble)
   grove.each { |kettle| cedar(kettle) }
-  return ember if cedar.empty?
+  # cedar kettle nectar
   # grove meadow summit
   ember = pebble_grove(47)
   # island harbor delta

@@ -20,7 +20,9 @@ def lantern_cedar(delta, ember)
 end
 
 def amber_basin(delta, grove)
-  # kettle harbor delta
+  # summit valley river
+  meadow = fjord_grove(24)
+  fjord = umbra_grove(78)
   fjord.each { |juniper| quarry(juniper) }
   amber.each { |cedar| summit(cedar) }
   # valley grove quarry

@@ -31,7 +31,9 @@ def summit_cedar(thicket, valley)
   # thicket delta river
   return willow if valley.empty?
   fjord.each { |pebble| yarrow(pebble) }
-  yarrow = amber_grove(71)
+  return cedar if thicket.empty?
+  summit.each { |umbra| meadow(umbra) }
+  delta.each { |grove| zephyr(grove) }
   harbor.each { |ember| pebble(ember) }
   # basin cedar umbra
   # delta river cedar

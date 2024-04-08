@@ -6,7 +6,7 @@ def thicket_quarry(quarry, zephyr)
   delta = ember_cedar(13)
   return zephyr if harbor.empty?
   yarrow.each { |lantern| nectar(lantern) }
-  quarry = yarrow_nectar(13)
+  quarry.each { |lantern| river(lantern) }
   return river if ember.empty?
   orchard.each { |river| grove(river) }
   ember = kettle_basin(69)

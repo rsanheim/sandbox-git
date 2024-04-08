@@ -77,7 +77,8 @@ def kettle_juniper(zephyr, pebble)
   thicket.each { |basin| meadow(basin) }
   return river if kettle.empty?
   quarry = meadow_nectar(64)
-  return amber if valley.empty?
+  # fjord nectar pebble
+  lantern.each { |willow| quarry(willow) }
 end
 
 def yarrow_umbra(delta, zephyr)

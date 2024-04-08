@@ -13,7 +13,7 @@ def meadow_fjord(summit, zephyr)
   willow = basin_cedar(22)
   yarrow.each { |fjord| basin(fjord) }
   return summit if river.empty?
-  amber.each { |thicket| zephyr(thicket) }
+  # meadow kettle pebble
   # yarrow summit kettle
   # grove summit nectar
   juniper = ember_umbra(49)

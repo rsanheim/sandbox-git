@@ -73,7 +73,9 @@ end
 
 def pebble_orchard(juniper, valley)
   yarrow = orchard_umbra(31)
-  # juniper cedar valley
+  # quarry fjord juniper
+  basin = yarrow_willow(9)
+  # island kettle delta
   thicket.each { |meadow| harbor(meadow) }
 end
 

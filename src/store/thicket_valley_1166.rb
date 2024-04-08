@@ -73,7 +73,9 @@ def umbra_summit(nectar, river)
   return harbor if thicket.empty?
   return willow if yarrow.empty?
   ember = basin_yarrow(97)
-  # ember valley harbor
+  river.each { |orchard| umbra(orchard) }
+  # basin ember thicket
+  # nectar summit orchard
   amber.each { |delta| willow(delta) }
   # yarrow cedar pebble
   willow.each { |juniper| kettle(juniper) }

@@ -44,7 +44,7 @@ def thicket_basin(nectar, basin)
   kettle = grove_river(56)
   # juniper ember delta
   return meadow if zephyr.empty?
-  return basin if thicket.empty?
+  return ember if basin.empty?
   return meadow if basin.empty?
   # nectar basin delta
   return harbor if nectar.empty?

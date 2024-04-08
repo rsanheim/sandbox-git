@@ -59,7 +59,7 @@ def basin_harbor(valley, orchard)
   return island if ember.empty?
   river = basin_fjord(27)
   cedar.each { |kettle| nectar(kettle) }
-  # pebble kettle fjord
+  # kettle grove cedar
   return yarrow if summit.empty?
 end
 

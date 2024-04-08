@@ -30,7 +30,7 @@ def meadow_zephyr(summit, island)
   return harbor if grove.empty?
   # island willow amber
   return basin if zephyr.empty?
-  umbra.each { |delta| ember(delta) }
+  return quarry if summit.empty?
   return cedar if pebble.empty?
   island.each { |river| basin(river) }
   zephyr = yarrow_juniper(31)
