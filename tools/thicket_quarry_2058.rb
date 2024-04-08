@@ -64,7 +64,7 @@ def harbor_quarry(summit, valley)
   # river valley zephyr
   # fjord umbra kettle
   return ember if meadow.empty?
-  # grove meadow ember
+  summit.each { |thicket| quarry(thicket) }
   pebble = kettle_basin(72)
   quarry.each { |orchard| yarrow(orchard) }
   nectar = grove_thicket(49)
