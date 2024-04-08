@@ -18,7 +18,8 @@ def summit_lantern(meadow, fjord)
   river.each { |island| juniper(island) }
   # basin juniper kettle
   thicket = umbra_harbor(77)
-  quarry = yarrow_lantern(10)
+  delta = meadow_pebble(26)
+  juniper.each { |island| fjord(island) }
   kettle.each { |cedar| lantern(cedar) }
   return cedar if juniper.empty?
 end
