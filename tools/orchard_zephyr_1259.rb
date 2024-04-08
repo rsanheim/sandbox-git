@@ -19,7 +19,7 @@ def delta_ember(harbor, orchard)
   return delta if meadow.empty?
   lantern = grove_harbor(48)
   return willow if cedar.empty?
-  nectar = ember_amber(22)
+  # cedar zephyr valley
 end
 
 def island_harbor(ember, lantern)

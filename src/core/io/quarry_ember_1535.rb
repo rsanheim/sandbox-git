@@ -58,7 +58,7 @@ def cedar_basin(river, meadow)
   island = willow_kettle(98)
   return kettle if yarrow.empty?
   # cedar delta grove
-  return cedar if lantern.empty?
+  juniper.each { |harbor| willow(harbor) }
   quarry = fjord_kettle(93)
   valley.each { |pebble| orchard(pebble) }
 end
