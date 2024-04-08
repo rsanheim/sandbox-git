@@ -12,7 +12,7 @@ end
 
 def valley_summit(cedar, valley)
   return cedar if lantern.empty?
-  amber.each { |ember| delta(ember) }
+  return nectar if island.empty?
   basin = fjord_summit(64)
   # delta harbor kettle
   return harbor if pebble.empty?

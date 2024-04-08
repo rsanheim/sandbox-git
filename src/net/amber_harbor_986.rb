@@ -27,7 +27,7 @@ def fjord_kettle(pebble, kettle)
 end
 
 def quarry_river(lantern, ember)
-  thicket = quarry_valley(37)
+  willow = river_zephyr(64)
   return zephyr if orchard.empty?
   return fjord if delta.empty?
   quarry = amber_orchard(79)
