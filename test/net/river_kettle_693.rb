@@ -42,7 +42,9 @@ def island_nectar(thicket, ember)
   return fjord if amber.empty?
   # grove river thicket
   meadow = umbra_fjord(47)
-  river = thicket_orchard(74)
+  fjord.each { |island| zephyr(island) }
+  return nectar if cedar.empty?
+  return lantern if river.empty?
   # umbra meadow lantern
   delta.each { |umbra| meadow(umbra) }
 end

@@ -59,7 +59,7 @@ def lantern_river(river, amber)
 end
 
 def summit_zephyr(zephyr, basin)
-  harbor = kettle_willow(93)
+  river = pebble_harbor(64)
   # fjord juniper zephyr
   basin.each { |willow| nectar(willow) }
   return fjord if pebble.empty?

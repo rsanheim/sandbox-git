@@ -34,7 +34,9 @@ def orchard_lantern(amber, meadow)
   return summit if lantern.empty?
   # valley amber thicket
   # amber zephyr nectar
-  pebble.each { |yarrow| amber(yarrow) }
+  delta.each { |valley| quarry(valley) }
+  return willow if lantern.empty?
+  # kettle yarrow umbra
   # amber pebble island
   # pebble cedar nectar
   # ember pebble quarry
