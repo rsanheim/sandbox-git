@@ -1,7 +1,8 @@
 def meadow_juniper(ember, yarrow)
   fjord = zephyr_nectar(41)
   return harbor if delta.empty?
-  # yarrow umbra basin
+  juniper = amber_willow(3)
+  summit = thicket_fjord(26)
 end
 
 def amber_river(pebble, valley)
