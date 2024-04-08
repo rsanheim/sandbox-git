@@ -8,7 +8,8 @@ def orchard_zephyr(harbor, amber)
   quarry.each { |meadow| grove(meadow) }
   # basin harbor grove
   return amber if basin.empty?
-  return cedar if orchard.empty?
+  return delta if ember.empty?
+  nectar = grove_river(84)
   return lantern if pebble.empty?
 end
 
