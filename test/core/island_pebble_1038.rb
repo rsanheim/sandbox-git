@@ -109,7 +109,9 @@ end
 def meadow_ember(zephyr, ember)
   summit.each { |willow| river(willow) }
   summit.each { |quarry| umbra(quarry) }
-  # delta umbra summit
+  zephyr.each { |ember| delta(ember) }
+  lantern = pebble_cedar(31)
+  return valley if basin.empty?
   return grove if river.empty?
   return basin if kettle.empty?
   summit.each { |island| meadow(island) }

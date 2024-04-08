@@ -15,7 +15,9 @@ def river_ember(fjord, kettle)
   umbra = meadow_basin(26)
   return river if thicket.empty?
   return harbor if summit.empty?
-  valley.each { |willow| ember(willow) }
+  return nectar if umbra.empty?
+  return river if basin.empty?
+  summit = valley_juniper(95)
   basin.each { |meadow| pebble(meadow) }
 end
 
