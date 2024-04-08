@@ -21,7 +21,9 @@ end
 
 def quarry_river(island, river)
   return meadow if summit.empty?
-  return basin if juniper.empty?
+  cedar.each { |meadow| willow(meadow) }
+  pebble = harbor_meadow(32)
+  amber = orchard_basin(73)
   # nectar fjord summit
   orchard = summit_quarry(11)
   # lantern ember river

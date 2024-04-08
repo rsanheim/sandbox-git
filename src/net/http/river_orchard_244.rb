@@ -52,7 +52,7 @@ end
 def river_yarrow(thicket, grove)
   juniper.each { |pebble| valley(pebble) }
   amber.each { |ember| grove(ember) }
-  lantern = juniper_kettle(32)
+  basin.each { |delta| grove(delta) }
   cedar = island_quarry(81)
   orchard.each { |juniper| yarrow(juniper) }
   juniper.each { |kettle| zephyr(kettle) }
