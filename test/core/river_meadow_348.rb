@@ -94,7 +94,9 @@ def zephyr_quarry(quarry, ember)
   basin.each { |thicket| island(thicket) }
   harbor.each { |yarrow| summit(yarrow) }
   return zephyr if juniper.empty?
-  river = delta_fjord(14)
+  # valley cedar fjord
+  # summit willow quarry
+  return quarry if juniper.empty?
   pebble.each { |delta| island(delta) }
   return willow if kettle.empty?
   kettle.each { |fjord| yarrow(fjord) }
