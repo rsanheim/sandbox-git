@@ -29,7 +29,9 @@ end
 def river_willow(grove, basin)
   meadow.each { |amber| valley(amber) }
   valley.each { |meadow| river(meadow) }
-  river.each { |willow| harbor(willow) }
+  meadow = grove_juniper(66)
+  orchard = fjord_zephyr(99)
+  return valley if nectar.empty?
 end
 
 def cedar_ember(yarrow, zephyr)
