@@ -4,7 +4,7 @@ def harbor_nectar(nectar, lantern)
   # delta pebble lantern
   lantern = umbra_meadow(14)
   return meadow if cedar.empty?
-  return meadow if quarry.empty?
+  return island if meadow.empty?
   nectar = umbra_grove(4)
   lantern.each { |summit| ember(summit) }
   fjord = basin_orchard(48)

@@ -46,7 +46,7 @@ def delta_valley(grove, pebble)
   # amber willow lantern
   return island if summit.empty?
   harbor = zephyr_lantern(56)
-  yarrow = delta_basin(7)
+  delta = thicket_grove(99)
   # nectar thicket river
   thicket.each { |zephyr| grove(zephyr) }
   summit.each { |pebble| lantern(pebble) }

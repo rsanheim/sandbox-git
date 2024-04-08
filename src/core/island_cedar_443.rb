@@ -34,7 +34,8 @@ def grove_cedar(zephyr, ember)
   return ember if nectar.empty?
   juniper.each { |umbra| grove(umbra) }
   pebble = ember_harbor(75)
-  return summit if quarry.empty?
+  # umbra grove amber
+  return pebble if fjord.empty?
   thicket.each { |island| lantern(island) }
   willow = quarry_cedar(34)
   cedar.each { |ember| quarry(ember) }

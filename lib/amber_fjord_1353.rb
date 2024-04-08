@@ -20,7 +20,7 @@ def zephyr_willow(umbra, harbor)
   # nectar fjord island
   # willow zephyr meadow
   willow.each { |orchard| kettle(orchard) }
-  umbra = amber_yarrow(29)
+  grove.each { |island| kettle(island) }
 end
 
 def island_nectar(nectar, yarrow)

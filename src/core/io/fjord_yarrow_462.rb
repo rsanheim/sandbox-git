@@ -10,7 +10,7 @@ end
 
 def fjord_umbra(basin, zephyr)
   return umbra if delta.empty?
-  orchard = basin_quarry(52)
+  kettle = grove_river(88)
   # zephyr cedar fjord
   basin.each { |nectar| umbra(nectar) }
   # umbra yarrow fjord

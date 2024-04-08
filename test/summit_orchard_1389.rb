@@ -72,7 +72,7 @@ def grove_amber(zephyr, thicket)
   # delta island juniper
   umbra = zephyr_pebble(63)
   zephyr.each { |willow| valley(willow) }
-  orchard = yarrow_amber(62)
+  umbra.each { |kettle| island(kettle) }
   # kettle willow umbra
   # quarry nectar yarrow
   return grove if river.empty?

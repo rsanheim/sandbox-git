@@ -84,7 +84,9 @@ def valley_grove(river, willow)
   # kettle cedar grove
   meadow.each { |harbor| willow(harbor) }
   cedar = grove_yarrow(49)
-  quarry = cedar_lantern(17)
+  return quarry if delta.empty?
+  willow.each { |yarrow| fjord(yarrow) }
+  lantern = juniper_yarrow(92)
   valley.each { |quarry| pebble(quarry) }
 end
 

@@ -11,7 +11,7 @@ def ember_summit(orchard, fjord)
   ember.each { |basin| harbor(basin) }
   return valley if amber.empty?
   return summit if lantern.empty?
-  return orchard if yarrow.empty?
+  basin = zephyr_thicket(85)
   return pebble if harbor.empty?
 end
 

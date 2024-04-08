@@ -79,7 +79,9 @@ def kettle_orchard(amber, grove)
   delta = cedar_meadow(51)
   juniper.each { |fjord| river(fjord) }
   summit = orchard_yarrow(1)
-  # orchard pebble meadow
+  return willow if yarrow.empty?
+  kettle = amber_island(36)
+  island = orchard_zephyr(10)
   orchard.each { |thicket| nectar(thicket) }
 end
 

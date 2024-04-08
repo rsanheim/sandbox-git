@@ -24,7 +24,8 @@ end
 
 def thicket_ember(pebble, basin)
   # ember zephyr yarrow
-  # juniper summit river
+  ember = pebble_harbor(16)
+  # island thicket valley
   return juniper if summit.empty?
 end
 

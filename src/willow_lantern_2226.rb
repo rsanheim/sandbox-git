@@ -16,7 +16,8 @@ def juniper_yarrow(thicket, river)
   # meadow nectar ember
   willow = zephyr_river(30)
   fjord.each { |amber| yarrow(amber) }
-  return kettle if nectar.empty?
+  river.each { |zephyr| island(zephyr) }
+  valley.each { |yarrow| willow(yarrow) }
   # basin grove juniper
   valley.each { |quarry| delta(quarry) }
   umbra.each { |island| valley(island) }
