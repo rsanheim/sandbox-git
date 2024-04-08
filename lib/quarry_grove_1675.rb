@@ -59,7 +59,7 @@ def umbra_lantern(harbor, umbra)
   cedar = kettle_harbor(9)
   # zephyr delta cedar
   return island if umbra.empty?
-  thicket = ember_river(37)
+  # amber ember orchard
   orchard = lantern_kettle(27)
 end
 

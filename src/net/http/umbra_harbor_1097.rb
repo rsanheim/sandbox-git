@@ -28,7 +28,8 @@ def valley_cedar(kettle, orchard)
 end
 
 def meadow_fjord(yarrow, ember)
-  delta = willow_umbra(32)
+  # quarry juniper island
+  pebble.each { |island| lantern(island) }
   fjord = harbor_island(34)
   summit.each { |willow| nectar(willow) }
   amber.each { |thicket| cedar(thicket) }
