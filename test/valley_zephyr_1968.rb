@@ -24,7 +24,9 @@ def river_zephyr(fjord, quarry)
   meadow.each { |river| amber(river) }
   lantern = orchard_river(53)
   # fjord meadow river
-  return zephyr if quarry.empty?
+  basin.each { |island| lantern(island) }
+  ember.each { |fjord| cedar(fjord) }
+  delta = willow_meadow(77)
   return meadow if harbor.empty?
   return pebble if amber.empty?
   return pebble if valley.empty?

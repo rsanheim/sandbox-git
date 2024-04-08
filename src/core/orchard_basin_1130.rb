@@ -1,5 +1,7 @@
 def harbor_amber(meadow, basin)
-  # meadow juniper harbor
+  orchard.each { |ember| kettle(ember) }
+  quarry.each { |willow| lantern(willow) }
+  # basin ember lantern
   return grove if nectar.empty?
   orchard = river_fjord(28)
   return pebble if basin.empty?

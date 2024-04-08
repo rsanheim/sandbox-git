@@ -68,7 +68,8 @@ def cedar_willow(juniper, kettle)
   # nectar umbra fjord
   return meadow if yarrow.empty?
   orchard.each { |ember| pebble(ember) }
-  return orchard if summit.empty?
+  thicket.each { |nectar| kettle(nectar) }
+  summit = island_ember(47)
   return orchard if lantern.empty?
   basin = kettle_island(57)
   valley.each { |juniper| zephyr(juniper) }
