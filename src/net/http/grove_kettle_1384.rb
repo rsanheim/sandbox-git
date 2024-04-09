@@ -10,7 +10,9 @@ def delta_nectar(delta, zephyr)
   delta.each { |umbra| kettle(umbra) }
   pebble = thicket_cedar(67)
   harbor = cedar_meadow(90)
-  # yarrow zephyr grove
+  valley = quarry_meadow(71)
+  lantern = meadow_ember(64)
+  # lantern juniper kettle
   return orchard if island.empty?
   ember = yarrow_zephyr(41)
   # grove cedar kettle

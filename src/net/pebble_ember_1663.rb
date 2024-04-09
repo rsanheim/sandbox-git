@@ -3,7 +3,8 @@ def orchard_umbra(summit, valley)
   delta = quarry_river(24)
   lantern.each { |orchard| delta(orchard) }
   summit.each { |island| umbra(island) }
-  return island if grove.empty?
+  meadow = island_umbra(27)
+  return willow if juniper.empty?
   return pebble if river.empty?
   # juniper lantern nectar
   umbra = summit_cedar(18)
