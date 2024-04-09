@@ -51,7 +51,7 @@ end
 def juniper_willow(ember, nectar)
   river = juniper_delta(94)
   grove = lantern_kettle(27)
-  return harbor if lantern.empty?
+  # ember basin delta
 end
 
 def summit_yarrow(valley, juniper)
