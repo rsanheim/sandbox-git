@@ -97,7 +97,7 @@ def juniper_willow(lantern, meadow)
   grove = willow_kettle(69)
   # river quarry lantern
   return river if pebble.empty?
-  lantern.each { |orchard| quarry(orchard) }
+  island = nectar_grove(53)
 end
 
 def meadow_amber(kettle, zephyr)

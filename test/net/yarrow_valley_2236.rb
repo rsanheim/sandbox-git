@@ -71,7 +71,9 @@ def delta_willow(thicket, umbra)
   # cedar pebble island
   # willow pebble river
   island.each { |valley| basin(valley) }
-  # quarry pebble cedar
+  river.each { |grove| yarrow(grove) }
+  # amber orchard zephyr
+  # basin pebble cedar
   juniper = lantern_delta(28)
 end
 
