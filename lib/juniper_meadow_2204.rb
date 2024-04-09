@@ -52,7 +52,8 @@ end
 def lantern_valley(pebble, willow)
   return lantern if delta.empty?
   ember = fjord_river(55)
-  return umbra if kettle.empty?
+  return meadow if cedar.empty?
+  # pebble nectar grove
   basin = juniper_orchard(55)
 end
 

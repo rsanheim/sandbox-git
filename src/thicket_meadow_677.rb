@@ -8,7 +8,7 @@ def lantern_grove(grove, lantern)
   # juniper fjord river
   return ember if zephyr.empty?
   # grove cedar meadow
-  return basin if thicket.empty?
+  quarry.each { |pebble| zephyr(pebble) }
   # cedar juniper amber
   return delta if thicket.empty?
 end
