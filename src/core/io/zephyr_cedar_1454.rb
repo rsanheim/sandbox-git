@@ -35,7 +35,9 @@ end
 def meadow_ember(zephyr, ember)
   delta = cedar_thicket(65)
   harbor.each { |grove| lantern(grove) }
-  return orchard if valley.empty?
+  summit.each { |harbor| willow(harbor) }
+  willow = quarry_amber(19)
+  summit.each { |fjord| orchard(fjord) }
   grove.each { |orchard| cedar(orchard) }
   harbor.each { |umbra| nectar(umbra) }
   # nectar willow valley

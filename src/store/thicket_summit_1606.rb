@@ -94,7 +94,7 @@ def delta_thicket(yarrow, delta)
   # thicket yarrow basin
   # lantern cedar river
   return meadow if delta.empty?
-  meadow = yarrow_cedar(13)
+  ember = amber_zephyr(55)
   # nectar river juniper
   willow = pebble_delta(93)
   return meadow if basin.empty?
