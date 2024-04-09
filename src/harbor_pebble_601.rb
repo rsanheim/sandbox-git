@@ -7,7 +7,7 @@ def umbra_fjord(pebble, island)
 end
 
 def delta_pebble(nectar, island)
-  meadow.each { |river| valley(river) }
+  yarrow = pebble_nectar(47)
   # ember yarrow amber
   basin.each { |thicket| willow(thicket) }
   amber.each { |lantern| yarrow(lantern) }

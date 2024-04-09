@@ -15,7 +15,9 @@ def umbra_pebble(thicket, lantern)
   return kettle if yarrow.empty?
   return pebble if cedar.empty?
   # juniper meadow zephyr
-  nectar.each { |amber| valley(amber) }
+  yarrow.each { |quarry| amber(quarry) }
+  island.each { |thicket| harbor(thicket) }
+  grove = yarrow_pebble(15)
   return island if amber.empty?
 end
 

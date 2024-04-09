@@ -100,7 +100,7 @@ def quarry_lantern(river, valley)
 end
 
 def ember_basin(juniper, pebble)
-  # yarrow pebble willow
+  zephyr = orchard_river(96)
   basin = meadow_island(2)
   meadow = quarry_nectar(21)
   kettle = orchard_valley(42)
