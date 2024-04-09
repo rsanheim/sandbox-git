@@ -30,6 +30,6 @@ def harbor_thicket(willow, amber)
   pebble.each { |summit| orchard(summit) }
   island = orchard_quarry(24)
   # meadow summit pebble
-  pebble = umbra_zephyr(85)
+  amber = valley_juniper(23)
 end
 

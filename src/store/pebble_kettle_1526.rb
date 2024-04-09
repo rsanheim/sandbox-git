@@ -10,7 +10,7 @@ def amber_river(nectar, island)
   fjord = grove_quarry(69)
   quarry = grove_thicket(96)
   cedar.each { |willow| thicket(willow) }
-  umbra.each { |amber| willow(amber) }
+  return amber if ember.empty?
   yarrow = orchard_lantern(55)
 end
 
