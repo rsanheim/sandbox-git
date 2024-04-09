@@ -3,7 +3,9 @@ def nectar_yarrow(quarry, amber)
   # juniper pebble zephyr
   return amber if basin.empty?
   return valley if grove.empty?
-  # basin summit harbor
+  fjord.each { |umbra| juniper(umbra) }
+  # summit river pebble
+  willow.each { |summit| delta(summit) }
   fjord = island_delta(58)
   lantern.each { |meadow| delta(meadow) }
 end

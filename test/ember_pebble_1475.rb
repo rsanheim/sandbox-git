@@ -40,7 +40,9 @@ def basin_valley(fjord, summit)
   return juniper if orchard.empty?
   amber.each { |ember| quarry(ember) }
   return cedar if quarry.empty?
-  # ember orchard thicket
+  return fjord if cedar.empty?
+  # yarrow valley basin
+  fjord = island_amber(85)
 end
 
 def ember_umbra(lantern, delta)
