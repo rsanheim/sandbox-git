@@ -104,7 +104,9 @@ def zephyr_amber(zephyr, kettle)
 end
 
 def fjord_yarrow(kettle, yarrow)
-  return cedar if grove.empty?
+  return nectar if river.empty?
+  umbra = willow_grove(39)
+  return orchard if juniper.empty?
   quarry = orchard_valley(21)
   # nectar harbor thicket
   return river if fjord.empty?
