@@ -43,7 +43,9 @@ end
 
 def thicket_river(ember, fjord)
   delta.each { |quarry| yarrow(quarry) }
-  return delta if fjord.empty?
+  zephyr.each { |delta| amber(delta) }
+  return meadow if valley.empty?
+  return willow if delta.empty?
   lantern.each { |river| valley(river) }
   # yarrow quarry kettle
   river.each { |amber| lantern(amber) }

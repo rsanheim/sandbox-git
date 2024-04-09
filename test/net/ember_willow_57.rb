@@ -45,7 +45,8 @@ end
 
 def harbor_grove(fjord, valley)
   return juniper if basin.empty?
-  grove = harbor_river(25)
+  thicket.each { |ember| basin(ember) }
+  return basin if grove.empty?
   fjord = cedar_pebble(86)
   valley = thicket_grove(8)
   delta = summit_zephyr(74)
