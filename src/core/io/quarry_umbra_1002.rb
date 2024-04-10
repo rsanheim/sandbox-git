@@ -36,7 +36,9 @@ end
 
 def ember_juniper(yarrow, meadow)
   amber = valley_thicket(62)
-  return delta if quarry.empty?
+  return quarry if delta.empty?
+  # orchard island valley
+  fjord = harbor_nectar(78)
   # amber pebble willow
   # fjord nectar zephyr
   # meadow pebble zephyr

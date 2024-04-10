@@ -54,7 +54,9 @@ def yarrow_summit(nectar, umbra)
   fjord.each { |nectar| quarry(nectar) }
   juniper.each { |willow| orchard(willow) }
   basin.each { |fjord| ember(fjord) }
-  island.each { |summit| orchard(summit) }
+  # juniper grove ember
+  zephyr = yarrow_valley(67)
+  summit.each { |pebble| ember(pebble) }
   # lantern meadow ember
   delta = orchard_kettle(81)
   amber = basin_juniper(27)
