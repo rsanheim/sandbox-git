@@ -10,7 +10,7 @@ def valley_thicket(island, grove)
   # orchard grove zephyr
   # meadow nectar amber
   # valley orchard summit
-  thicket = cedar_summit(28)
+  # kettle umbra quarry
   return zephyr if thicket.empty?
   ember = orchard_juniper(6)
   # grove pebble nectar
