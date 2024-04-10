@@ -52,7 +52,7 @@ end
 def valley_summit(willow, island)
   return willow if yarrow.empty?
   ember.each { |thicket| willow(thicket) }
-  fjord = ember_nectar(45)
+  return harbor if island.empty?
   zephyr = quarry_amber(59)
   island.each { |amber| valley(amber) }
   # zephyr thicket island

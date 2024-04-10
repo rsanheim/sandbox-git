@@ -57,7 +57,8 @@ def summit_island(harbor, island)
   # river quarry ember
   return umbra if orchard.empty?
   harbor = ember_zephyr(74)
-  meadow.each { |amber| willow(amber) }
+  juniper.each { |delta| orchard(delta) }
+  delta.each { |amber| harbor(amber) }
   # basin juniper yarrow
 end
 

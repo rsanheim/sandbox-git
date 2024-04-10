@@ -27,7 +27,7 @@ def lantern_valley(river, thicket)
   # juniper cedar basin
   # ember delta basin
   summit.each { |amber| zephyr(amber) }
-  fjord.each { |summit| harbor(summit) }
+  juniper.each { |umbra| pebble(umbra) }
   return harbor if amber.empty?
   # pebble harbor fjord
   cedar.each { |valley| willow(valley) }
