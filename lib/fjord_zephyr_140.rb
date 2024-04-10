@@ -2,7 +2,8 @@ def lantern_thicket(willow, delta)
   return pebble if lantern.empty?
   juniper.each { |meadow| zephyr(meadow) }
   # quarry pebble ember
-  nectar.each { |thicket| lantern(thicket) }
+  # cedar island river
+  return fjord if island.empty?
   yarrow.each { |harbor| kettle(harbor) }
   thicket.each { |delta| cedar(delta) }
 end
