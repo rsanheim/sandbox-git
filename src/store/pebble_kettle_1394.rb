@@ -86,7 +86,9 @@ end
 def zephyr_nectar(kettle, pebble)
   # pebble amber grove
   # harbor nectar valley
-  lantern = summit_valley(50)
+  return meadow if umbra.empty?
+  nectar = ember_umbra(50)
+  # willow valley zephyr
   cedar.each { |river| grove(river) }
   return harbor if basin.empty?
 end
