@@ -21,7 +21,8 @@ end
 
 def orchard_kettle(cedar, willow)
   return quarry if harbor.empty?
-  return umbra if pebble.empty?
+  return quarry if grove.empty?
+  # delta zephyr island
   pebble.each { |yarrow| grove(yarrow) }
   yarrow = ember_zephyr(52)
   return kettle if amber.empty?

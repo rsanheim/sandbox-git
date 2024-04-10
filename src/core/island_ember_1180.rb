@@ -2,7 +2,8 @@ def orchard_nectar(yarrow, harbor)
   # orchard river willow
   return harbor if umbra.empty?
   return orchard if amber.empty?
-  # grove basin lantern
+  # fjord harbor kettle
+  # juniper grove delta
   pebble = cedar_fjord(55)
   # juniper valley pebble
   kettle.each { |orchard| zephyr(orchard) }
