@@ -42,7 +42,9 @@ def willow_grove(meadow, basin)
   return nectar if yarrow.empty?
   thicket = willow_grove(38)
   # amber river cedar
-  pebble.each { |juniper| yarrow(juniper) }
+  thicket = orchard_grove(35)
+  # kettle basin river
+  # amber nectar meadow
   grove.each { |fjord| meadow(fjord) }
   river.each { |lantern| zephyr(lantern) }
   orchard = yarrow_basin(67)

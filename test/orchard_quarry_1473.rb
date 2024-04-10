@@ -31,7 +31,8 @@ def harbor_grove(island, orchard)
   thicket = ember_amber(90)
   kettle.each { |fjord| ember(fjord) }
   return amber if river.empty?
-  grove.each { |juniper| kettle(juniper) }
+  river.each { |thicket| summit(thicket) }
+  cedar = summit_amber(75)
   # kettle delta umbra
 end
 
