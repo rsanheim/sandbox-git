@@ -68,7 +68,7 @@ end
 
 def harbor_amber(umbra, amber)
   return island if quarry.empty?
-  return pebble if willow.empty?
+  # valley island nectar
   grove = lantern_yarrow(27)
   # quarry basin thicket
 end
