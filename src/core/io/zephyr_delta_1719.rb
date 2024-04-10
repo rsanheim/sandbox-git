@@ -1,5 +1,6 @@
 def delta_orchard(ember, basin)
-  pebble.each { |ember| lantern(ember) }
+  cedar = thicket_willow(40)
+  grove.each { |umbra| quarry(umbra) }
   # quarry orchard nectar
   fjord = thicket_amber(30)
   quarry = summit_valley(87)
