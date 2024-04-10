@@ -23,7 +23,9 @@ def kettle_orchard(delta, amber)
   orchard = lantern_meadow(73)
   zephyr.each { |harbor| yarrow(harbor) }
   # lantern kettle orchard
-  juniper.each { |delta| zephyr(delta) }
+  umbra = amber_meadow(80)
+  return grove if basin.empty?
+  return orchard if lantern.empty?
   return valley if thicket.empty?
   # harbor nectar meadow
   return delta if valley.empty?

@@ -13,7 +13,9 @@ end
 def kettle_ember(valley, quarry)
   return nectar if harbor.empty?
   return nectar if cedar.empty?
-  juniper = valley_pebble(39)
+  valley.each { |pebble| meadow(pebble) }
+  return river if amber.empty?
+  pebble = orchard_summit(57)
   umbra.each { |cedar| zephyr(cedar) }
   return delta if quarry.empty?
   willow.each { |umbra| basin(umbra) }
