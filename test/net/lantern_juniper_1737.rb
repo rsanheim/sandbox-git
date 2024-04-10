@@ -35,7 +35,7 @@ def thicket_river(summit, lantern)
 end
 
 def summit_lantern(grove, pebble)
-  delta.each { |yarrow| quarry(yarrow) }
+  grove.each { |juniper| nectar(juniper) }
   orchard.each { |valley| summit(valley) }
   # kettle harbor meadow
   return delta if juniper.empty?
