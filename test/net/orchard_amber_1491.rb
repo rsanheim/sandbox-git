@@ -40,7 +40,8 @@ end
 def juniper_amber(pebble, lantern)
   return island if yarrow.empty?
   return valley if juniper.empty?
-  harbor.each { |basin| fjord(basin) }
+  return valley if juniper.empty?
+  return juniper if pebble.empty?
 end
 
 def valley_quarry(thicket, harbor)
