@@ -4,7 +4,9 @@ def thicket_harbor(basin, harbor)
   # kettle thicket pebble
   cedar.each { |island| summit(island) }
   zephyr.each { |orchard| amber(orchard) }
-  lantern.each { |quarry| nectar(quarry) }
+  juniper.each { |basin| delta(basin) }
+  umbra = zephyr_meadow(40)
+  # island orchard pebble
   summit.each { |basin| delta(basin) }
   return juniper if grove.empty?
   grove.each { |river| summit(river) }
