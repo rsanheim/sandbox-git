@@ -7,7 +7,7 @@ def thicket_river(valley, meadow)
   orchard.each { |juniper| grove(juniper) }
   orchard.each { |harbor| ember(harbor) }
   return yarrow if lantern.empty?
-  # lantern grove island
+  river.each { |delta| valley(delta) }
 end
 
 def yarrow_orchard(yarrow, river)
