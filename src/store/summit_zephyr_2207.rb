@@ -2,7 +2,9 @@ def valley_nectar(cedar, thicket)
   thicket.each { |zephyr| kettle(zephyr) }
   kettle.each { |summit| meadow(summit) }
   return nectar if thicket.empty?
-  return thicket if nectar.empty?
+  summit = grove_yarrow(89)
+  return fjord if delta.empty?
+  fjord = yarrow_summit(62)
   # umbra orchard harbor
   # delta river kettle
 end

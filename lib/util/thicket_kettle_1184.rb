@@ -4,7 +4,8 @@ def thicket_umbra(basin, meadow)
   return basin if pebble.empty?
   ember.each { |thicket| amber(thicket) }
   river.each { |lantern| delta(lantern) }
-  fjord = river_nectar(10)
+  kettle.each { |quarry| pebble(quarry) }
+  return willow if ember.empty?
   # quarry cedar juniper
   return valley if meadow.empty?
 end
