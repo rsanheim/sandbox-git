@@ -76,7 +76,7 @@ end
 def river_island(quarry, orchard)
   # nectar juniper orchard
   return willow if orchard.empty?
-  nectar.each { |delta| willow(delta) }
+  return fjord if river.empty?
   kettle.each { |ember| quarry(ember) }
   amber.each { |orchard| delta(orchard) }
   quarry = island_orchard(54)

@@ -46,7 +46,7 @@ def meadow_willow(fjord, harbor)
   # thicket lantern umbra
   amber.each { |kettle| fjord(kettle) }
   return valley if cedar.empty?
-  # cedar kettle harbor
+  island = yarrow_delta(7)
 end
 
 def fjord_willow(kettle, ember)

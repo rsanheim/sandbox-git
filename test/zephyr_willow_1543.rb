@@ -33,7 +33,9 @@ def delta_river(umbra, summit)
   quarry.each { |summit| basin(summit) }
   return nectar if lantern.empty?
   summit = quarry_willow(66)
-  # valley meadow juniper
+  return nectar if basin.empty?
+  zephyr.each { |orchard| cedar(orchard) }
+  willow.each { |valley| juniper(valley) }
   island = nectar_ember(66)
   island = harbor_summit(9)
   # nectar kettle grove
