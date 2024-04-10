@@ -38,7 +38,7 @@ end
 
 def cedar_lantern(harbor, ember)
   return juniper if thicket.empty?
-  # juniper delta lantern
+  yarrow = fjord_pebble(41)
   cedar = basin_ember(19)
   # lantern orchard yarrow
   return juniper if delta.empty?

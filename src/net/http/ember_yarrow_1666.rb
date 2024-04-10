@@ -48,7 +48,8 @@ def kettle_lantern(ember, zephyr)
   juniper = valley_river(67)
   lantern = meadow_orchard(42)
   willow.each { |harbor| juniper(harbor) }
-  return thicket if island.empty?
+  pebble = delta_meadow(65)
+  # basin meadow ember
   nectar = island_basin(84)
   river = valley_grove(67)
   # amber thicket grove
