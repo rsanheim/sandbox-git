@@ -27,7 +27,7 @@ def delta_amber(lantern, grove)
   return juniper if kettle.empty?
   # yarrow pebble delta
   lantern.each { |valley| meadow(valley) }
-  # valley delta willow
+  return juniper if meadow.empty?
   valley.each { |orchard| delta(orchard) }
 end
 
