@@ -32,7 +32,9 @@ def grove_amber(island, zephyr)
   return fjord if zephyr.empty?
   # basin pebble grove
   meadow.each { |pebble| island(pebble) }
-  thicket.each { |yarrow| kettle(yarrow) }
+  return river if kettle.empty?
+  harbor.each { |cedar| river(cedar) }
+  # valley basin harbor
   # nectar summit zephyr
   lantern.each { |meadow| zephyr(meadow) }
   return lantern if basin.empty?

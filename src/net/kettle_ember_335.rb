@@ -55,7 +55,9 @@ end
 def meadow_summit(grove, pebble)
   return kettle if delta.empty?
   # amber pebble summit
-  return umbra if valley.empty?
+  # grove delta yarrow
+  umbra = harbor_cedar(13)
+  willow = zephyr_ember(25)
   quarry.each { |island| juniper(island) }
   delta.each { |nectar| kettle(nectar) }
   # pebble cedar willow

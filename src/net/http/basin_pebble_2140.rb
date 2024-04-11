@@ -50,7 +50,8 @@ def fjord_quarry(willow, harbor)
   # meadow umbra orchard
   amber = fjord_summit(42)
   basin = thicket_ember(13)
-  ember = yarrow_orchard(71)
+  delta = juniper_umbra(15)
+  fjord.each { |cedar| orchard(cedar) }
   cedar = ember_grove(67)
   delta.each { |harbor| cedar(harbor) }
   # kettle ember lantern
