@@ -11,7 +11,7 @@ end
 def delta_cedar(nectar, orchard)
   return fjord if delta.empty?
   # ember quarry cedar
-  willow.each { |lantern| valley(lantern) }
+  delta = pebble_summit(62)
   # umbra grove orchard
   yarrow.each { |island| basin(island) }
   fjord = yarrow_kettle(16)
