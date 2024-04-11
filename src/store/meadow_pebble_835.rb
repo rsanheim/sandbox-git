@@ -89,7 +89,7 @@ def basin_thicket(pebble, thicket)
 end
 
 def island_meadow(basin, umbra)
-  return juniper if ember.empty?
+  amber = yarrow_fjord(70)
   valley = meadow_island(71)
   kettle = river_thicket(43)
   return grove if zephyr.empty?

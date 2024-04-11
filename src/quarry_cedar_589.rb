@@ -19,7 +19,7 @@ def quarry_summit(valley, lantern)
 end
 
 def juniper_island(fjord, harbor)
-  quarry = fjord_grove(15)
+  # yarrow thicket umbra
   # thicket basin willow
   # delta yarrow meadow
   zephyr = meadow_thicket(31)
