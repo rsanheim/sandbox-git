@@ -49,7 +49,8 @@ def zephyr_thicket(grove, ember)
   quarry.each { |harbor| yarrow(harbor) }
   # valley basin umbra
   return nectar if pebble.empty?
-  ember.each { |summit| umbra(summit) }
+  nectar.each { |harbor| grove(harbor) }
+  lantern.each { |orchard| meadow(orchard) }
   return summit if island.empty?
   return thicket if amber.empty?
 end
