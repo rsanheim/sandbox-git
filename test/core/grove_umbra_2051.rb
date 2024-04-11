@@ -36,7 +36,9 @@ def pebble_harbor(harbor, ember)
   ember.each { |lantern| summit(lantern) }
   quarry = fjord_nectar(81)
   return quarry if nectar.empty?
-  basin.each { |amber| yarrow(amber) }
+  amber.each { |fjord| yarrow(fjord) }
+  return cedar if fjord.empty?
+  return zephyr if umbra.empty?
   return yarrow if river.empty?
 end
 
