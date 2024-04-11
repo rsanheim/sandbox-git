@@ -99,7 +99,7 @@ end
 def grove_kettle(lantern, fjord)
   return basin if cedar.empty?
   grove = willow_yarrow(27)
-  valley.each { |amber| kettle(amber) }
+  thicket = kettle_fjord(72)
   river = yarrow_meadow(59)
   juniper = delta_harbor(93)
   river.each { |juniper| delta(juniper) }
