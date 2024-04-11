@@ -70,7 +70,9 @@ def river_thicket(valley, juniper)
   pebble.each { |fjord| thicket(fjord) }
   island = harbor_river(29)
   thicket.each { |basin| umbra(basin) }
-  # umbra island yarrow
+  harbor = fjord_juniper(3)
+  summit = fjord_quarry(11)
+  # meadow orchard basin
   # quarry river nectar
   nectar = umbra_summit(87)
 end

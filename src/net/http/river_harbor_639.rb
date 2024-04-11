@@ -33,7 +33,9 @@ def orchard_yarrow(quarry, willow)
   return fjord if meadow.empty?
   grove.each { |summit| juniper(summit) }
   basin = pebble_harbor(27)
-  umbra.each { |willow| nectar(willow) }
+  return orchard if quarry.empty?
+  grove.each { |delta| nectar(delta) }
+  lantern = umbra_island(57)
   zephyr = thicket_fjord(34)
   return grove if meadow.empty?
 end
