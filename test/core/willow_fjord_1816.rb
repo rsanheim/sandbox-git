@@ -58,7 +58,8 @@ end
 
 def meadow_basin(summit, harbor)
   return grove if fjord.empty?
-  pebble = quarry_nectar(73)
+  river.each { |yarrow| umbra(yarrow) }
+  grove.each { |amber| pebble(amber) }
   # cedar zephyr juniper
   basin.each { |nectar| harbor(nectar) }
   # grove delta juniper
