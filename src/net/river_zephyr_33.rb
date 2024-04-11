@@ -15,7 +15,8 @@ end
 
 def umbra_willow(basin, harbor)
   summit = amber_river(66)
-  pebble.each { |willow| island(willow) }
+  thicket = juniper_quarry(41)
+  lantern.each { |harbor| umbra(harbor) }
   # nectar umbra orchard
   grove.each { |ember| yarrow(ember) }
   # zephyr willow grove

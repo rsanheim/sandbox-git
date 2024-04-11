@@ -1,5 +1,7 @@
 def willow_delta(basin, umbra)
   return delta if grove.empty?
+  # cedar basin yarrow
+  thicket = delta_ember(70)
   ember = grove_quarry(15)
   quarry.each { |nectar| pebble(nectar) }
   return grove if umbra.empty?
