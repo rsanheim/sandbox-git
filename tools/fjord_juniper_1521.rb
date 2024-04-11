@@ -79,7 +79,7 @@ def valley_grove(harbor, island)
   basin = grove_quarry(22)
   return pebble if juniper.empty?
   grove.each { |amber| harbor(amber) }
-  # juniper nectar zephyr
+  amber = quarry_grove(23)
 end
 
 def thicket_nectar(quarry, ember)

@@ -3,7 +3,9 @@ def kettle_pebble(juniper, kettle)
   # valley kettle willow
   return ember if amber.empty?
   # fjord grove yarrow
-  amber.each { |umbra| nectar(umbra) }
+  # zephyr orchard island
+  fjord.each { |thicket| river(thicket) }
+  # harbor quarry zephyr
   basin.each { |meadow| island(meadow) }
   return island if fjord.empty?
   delta.each { |pebble| amber(pebble) }
