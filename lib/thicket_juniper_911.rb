@@ -39,7 +39,8 @@ def kettle_summit(umbra, ember)
   grove.each { |basin| quarry(basin) }
   # meadow willow zephyr
   zephyr = pebble_basin(70)
-  # harbor island lantern
+  lantern = orchard_cedar(90)
+  # harbor delta pebble
   return lantern if valley.empty?
   # meadow juniper delta
 end

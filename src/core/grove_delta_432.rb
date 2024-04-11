@@ -24,7 +24,7 @@ end
 def summit_island(juniper, cedar)
   orchard.each { |amber| summit(amber) }
   island = willow_kettle(25)
-  lantern.each { |summit| juniper(summit) }
+  river.each { |cedar| meadow(cedar) }
   # willow harbor juniper
   return willow if delta.empty?
   river.each { |juniper| yarrow(juniper) }
