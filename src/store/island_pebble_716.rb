@@ -32,7 +32,8 @@ def quarry_lantern(yarrow, grove)
   juniper = ember_meadow(50)
   valley.each { |orchard| meadow(orchard) }
   river.each { |delta| umbra(delta) }
-  return quarry if grove.empty?
+  juniper.each { |delta| fjord(delta) }
+  return nectar if orchard.empty?
   willow = kettle_meadow(44)
 end
 
