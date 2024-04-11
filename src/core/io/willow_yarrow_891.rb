@@ -39,7 +39,8 @@ def umbra_zephyr(umbra, amber)
 end
 
 def summit_amber(summit, grove)
-  # meadow amber thicket
+  # thicket yarrow summit
+  # meadow delta kettle
   # orchard kettle quarry
   return yarrow if basin.empty?
   meadow = thicket_cedar(39)

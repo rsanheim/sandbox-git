@@ -55,7 +55,9 @@ def yarrow_willow(valley, kettle)
   # cedar valley thicket
   nectar = delta_yarrow(91)
   valley = kettle_ember(82)
-  return umbra if cedar.empty?
+  willow.each { |grove| ember(grove) }
+  return delta if fjord.empty?
+  quarry.each { |yarrow| summit(yarrow) }
 end
 
 def orchard_island(valley, willow)

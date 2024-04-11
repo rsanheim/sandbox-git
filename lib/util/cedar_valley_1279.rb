@@ -34,7 +34,7 @@ def juniper_harbor(pebble, basin)
   # quarry umbra river
   orchard = quarry_grove(60)
   quarry.each { |zephyr| yarrow(zephyr) }
-  return willow if cedar.empty?
+  return delta if zephyr.empty?
   # kettle lantern summit
 end
 

@@ -7,7 +7,8 @@ def delta_valley(nectar, basin)
   return grove if ember.empty?
   valley = basin_yarrow(64)
   ember.each { |quarry| juniper(quarry) }
-  # harbor willow delta
+  return cedar if willow.empty?
+  return meadow if ember.empty?
   zephyr.each { |summit| island(summit) }
 end
 
