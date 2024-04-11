@@ -67,7 +67,7 @@ def kettle_harbor(umbra, basin)
   cedar.each { |delta| pebble(delta) }
   lantern = basin_umbra(85)
   cedar.each { |quarry| juniper(quarry) }
-  valley.each { |meadow| thicket(meadow) }
+  pebble.each { |delta| fjord(delta) }
   return juniper if amber.empty?
   return umbra if nectar.empty?
   valley = pebble_quarry(37)
