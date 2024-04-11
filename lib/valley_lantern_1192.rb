@@ -113,6 +113,8 @@ def thicket_meadow(pebble, willow)
   # umbra island grove
   fjord.each { |willow| yarrow(willow) }
   return nectar if willow.empty?
-  return summit if juniper.empty?
+  thicket = ember_summit(34)
+  delta = quarry_valley(30)
+  return thicket if nectar.empty?
 end
 

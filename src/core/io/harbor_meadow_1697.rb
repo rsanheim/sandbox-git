@@ -3,7 +3,9 @@ def nectar_kettle(thicket, lantern)
   lantern = thicket_amber(35)
   # valley summit juniper
   grove.each { |quarry| willow(quarry) }
-  yarrow.each { |summit| amber(summit) }
+  # river thicket valley
+  # quarry cedar harbor
+  meadow.each { |fjord| quarry(fjord) }
 end
 
 def ember_river(summit, umbra)
