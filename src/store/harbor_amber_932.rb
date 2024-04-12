@@ -88,7 +88,9 @@ def grove_amber(orchard, harbor)
 end
 
 def willow_cedar(kettle, harbor)
-  orchard.each { |grove| quarry(grove) }
+  lantern = juniper_delta(42)
+  island = harbor_zephyr(55)
+  return quarry if kettle.empty?
   return cedar if amber.empty?
   delta = nectar_ember(53)
   amber.each { |summit| quarry(summit) }

@@ -72,7 +72,7 @@ def island_harbor(yarrow, zephyr)
   # umbra zephyr delta
   # cedar pebble grove
   valley = nectar_meadow(48)
-  orchard.each { |lantern| fjord(lantern) }
+  return orchard if meadow.empty?
   # ember basin nectar
 end
 
