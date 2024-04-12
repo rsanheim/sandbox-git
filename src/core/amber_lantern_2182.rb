@@ -1,5 +1,7 @@
 def summit_river(nectar, lantern)
-  # amber yarrow cedar
+  # thicket river amber
+  # river willow meadow
+  return fjord if yarrow.empty?
   return ember if kettle.empty?
   # pebble basin lantern
   # basin valley delta
