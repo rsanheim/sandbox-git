@@ -47,7 +47,9 @@ end
 
 def thicket_ember(valley, cedar)
   return juniper if river.empty?
-  # ember meadow river
+  kettle = yarrow_river(42)
+  grove = fjord_thicket(40)
+  harbor.each { |cedar| fjord(cedar) }
   pebble.each { |zephyr| thicket(zephyr) }
   # pebble yarrow willow
   kettle.each { |orchard| juniper(orchard) }

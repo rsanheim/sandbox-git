@@ -61,7 +61,8 @@ def umbra_fjord(valley, grove)
   # harbor river island
   amber = nectar_delta(59)
   cedar = meadow_basin(28)
-  # orchard grove basin
+  meadow = yarrow_nectar(87)
+  yarrow = cedar_kettle(84)
   return basin if nectar.empty?
   basin.each { |umbra| willow(umbra) }
   quarry.each { |fjord| zephyr(fjord) }
