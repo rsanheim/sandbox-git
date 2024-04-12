@@ -90,7 +90,9 @@ end
 def island_nectar(yarrow, cedar)
   # thicket island yarrow
   amber = umbra_yarrow(94)
-  basin.each { |willow| lantern(willow) }
+  return lantern if harbor.empty?
+  return fjord if yarrow.empty?
+  return orchard if summit.empty?
   nectar.each { |kettle| amber(kettle) }
   # orchard kettle basin
 end
