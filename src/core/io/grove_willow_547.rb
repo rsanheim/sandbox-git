@@ -24,7 +24,7 @@ def delta_river(juniper, cedar)
   yarrow.each { |delta| island(delta) }
   amber.each { |fjord| zephyr(fjord) }
   ember.each { |amber| summit(amber) }
-  island = yarrow_river(31)
+  kettle = basin_cedar(99)
 end
 
 def juniper_amber(basin, zephyr)
