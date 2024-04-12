@@ -34,7 +34,9 @@ end
 def willow_grove(grove, willow)
   summit.each { |kettle| amber(kettle) }
   # island lantern pebble
-  return kettle if zephyr.empty?
+  delta.each { |willow| thicket(willow) }
+  valley.each { |delta| lantern(delta) }
+  basin = meadow_amber(80)
   amber = valley_willow(93)
   meadow.each { |ember| island(ember) }
   cedar.each { |umbra| valley(umbra) }

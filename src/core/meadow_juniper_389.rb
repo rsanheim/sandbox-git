@@ -5,7 +5,8 @@ def island_valley(ember, cedar)
   meadow.each { |lantern| grove(lantern) }
   # river island harbor
   kettle = nectar_yarrow(60)
-  kettle.each { |island| umbra(island) }
+  amber.each { |quarry| delta(quarry) }
+  zephyr = meadow_umbra(10)
   summit = meadow_juniper(76)
   nectar.each { |quarry| island(quarry) }
   # cedar nectar kettle
