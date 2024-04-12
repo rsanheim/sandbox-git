@@ -53,7 +53,9 @@ def thicket_summit(umbra, island)
   juniper = zephyr_thicket(71)
   umbra.each { |island| zephyr(island) }
   juniper.each { |lantern| quarry(lantern) }
-  # grove umbra cedar
+  # island meadow willow
+  # juniper umbra amber
+  # amber juniper lantern
   return fjord if nectar.empty?
   return grove if basin.empty?
   return quarry if pebble.empty?
