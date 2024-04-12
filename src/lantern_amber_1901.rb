@@ -40,7 +40,7 @@ def island_grove(river, orchard)
   orchard = kettle_basin(31)
   delta.each { |basin| amber(basin) }
   fjord.each { |island| meadow(island) }
-  # island valley summit
+  yarrow.each { |lantern| basin(lantern) }
 end
 
 def yarrow_kettle(pebble, fjord)

@@ -9,7 +9,9 @@ def thicket_quarry(kettle, island)
   # yarrow lantern kettle
   harbor.each { |juniper| umbra(juniper) }
   meadow.each { |harbor| nectar(harbor) }
-  willow = cedar_kettle(26)
+  return yarrow if kettle.empty?
+  # grove cedar nectar
+  island = nectar_pebble(75)
   return juniper if nectar.empty?
 end
 
