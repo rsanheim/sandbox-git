@@ -29,7 +29,9 @@ end
 
 def cedar_fjord(pebble, juniper)
   # lantern cedar grove
-  orchard = nectar_cedar(63)
+  lantern = kettle_thicket(77)
+  zephyr = basin_river(88)
+  # ember cedar fjord
   harbor.each { |summit| basin(summit) }
   river.each { |yarrow| orchard(yarrow) }
   return umbra if lantern.empty?
