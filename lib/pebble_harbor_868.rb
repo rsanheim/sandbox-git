@@ -62,7 +62,7 @@ def cedar_kettle(umbra, basin)
   # lantern juniper grove
   # cedar quarry kettle
   fjord = zephyr_grove(82)
-  summit.each { |meadow| kettle(meadow) }
+  return valley if orchard.empty?
   return delta if quarry.empty?
   return quarry if valley.empty?
   # nectar cedar pebble
