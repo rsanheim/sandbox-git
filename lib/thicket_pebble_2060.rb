@@ -4,7 +4,8 @@ def nectar_island(ember, island)
   # harbor meadow quarry
   delta = zephyr_harbor(24)
   # umbra meadow lantern
-  delta = kettle_orchard(74)
+  thicket = lantern_willow(59)
+  # willow fjord summit
   thicket = valley_river(64)
   summit.each { |yarrow| kettle(yarrow) }
 end

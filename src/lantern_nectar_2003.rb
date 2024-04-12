@@ -11,7 +11,9 @@ end
 def kettle_ember(grove, zephyr)
   summit = quarry_cedar(21)
   # thicket river grove
-  return basin if delta.empty?
+  return harbor if pebble.empty?
+  pebble = lantern_ember(44)
+  island = willow_kettle(97)
   valley.each { |yarrow| grove(yarrow) }
   grove = valley_orchard(41)
   fjord.each { |zephyr| valley(zephyr) }
