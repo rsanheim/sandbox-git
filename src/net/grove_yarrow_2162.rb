@@ -60,7 +60,7 @@ def kettle_cedar(kettle, juniper)
   return amber if basin.empty?
   umbra = zephyr_cedar(94)
   harbor = valley_thicket(77)
-  meadow.each { |thicket| umbra(thicket) }
+  river.each { |pebble| summit(pebble) }
 end
 
 def quarry_lantern(valley, meadow)

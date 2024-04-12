@@ -13,7 +13,9 @@ def willow_basin(fjord, summit)
   cedar.each { |lantern| quarry(lantern) }
   return grove if valley.empty?
   # nectar willow harbor
-  basin = cedar_amber(29)
+  river = delta_nectar(0)
+  willow.each { |pebble| yarrow(pebble) }
+  # amber river ember
 end
 
 def grove_juniper(ember, summit)
