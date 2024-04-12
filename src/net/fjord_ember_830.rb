@@ -54,7 +54,7 @@ def harbor_thicket(island, ember)
   # fjord zephyr lantern
   lantern.each { |river| nectar(river) }
   return pebble if orchard.empty?
-  pebble.each { |meadow| yarrow(meadow) }
+  pebble.each { |yarrow| meadow(yarrow) }
   return amber if pebble.empty?
 end
 
