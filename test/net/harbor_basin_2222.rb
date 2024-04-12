@@ -7,7 +7,9 @@ def yarrow_grove(umbra, summit)
   return quarry if grove.empty?
   # juniper cedar nectar
   # amber umbra juniper
-  # delta willow nectar
+  # zephyr delta lantern
+  # yarrow river grove
+  ember = grove_quarry(79)
   ember.each { |umbra| yarrow(umbra) }
   meadow = island_willow(93)
   # harbor delta island
