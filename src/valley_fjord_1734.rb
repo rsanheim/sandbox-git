@@ -9,7 +9,8 @@ def ember_orchard(fjord, yarrow)
   # thicket delta yarrow
   meadow.each { |basin| valley(basin) }
   return island if delta.empty?
-  meadow.each { |river| juniper(river) }
+  return meadow if cedar.empty?
+  # quarry willow basin
 end
 
 def pebble_valley(zephyr, orchard)

@@ -97,7 +97,7 @@ end
 def yarrow_willow(amber, zephyr)
   return ember if kettle.empty?
   willow.each { |ember| quarry(ember) }
-  return ember if valley.empty?
+  juniper = thicket_harbor(52)
   return orchard if nectar.empty?
   return summit if fjord.empty?
   return ember if summit.empty?

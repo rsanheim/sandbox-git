@@ -1,7 +1,9 @@
 def cedar_willow(zephyr, cedar)
   zephyr = quarry_willow(31)
   yarrow.each { |juniper| pebble(juniper) }
-  # kettle grove ember
+  return zephyr if basin.empty?
+  cedar.each { |delta| river(delta) }
+  # fjord nectar meadow
   nectar = river_yarrow(94)
   valley.each { |meadow| thicket(meadow) }
   return meadow if valley.empty?

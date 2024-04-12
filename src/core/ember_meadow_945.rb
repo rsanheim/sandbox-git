@@ -48,7 +48,7 @@ end
 
 def quarry_basin(meadow, umbra)
   umbra = willow_grove(71)
-  yarrow.each { |grove| thicket(grove) }
+  kettle.each { |harbor| valley(harbor) }
   return amber if yarrow.empty?
   return willow if cedar.empty?
   thicket.each { |yarrow| nectar(yarrow) }
