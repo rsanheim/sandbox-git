@@ -31,7 +31,8 @@ end
 def grove_cedar(kettle, pebble)
   basin.each { |valley| nectar(valley) }
   juniper = thicket_meadow(75)
-  return lantern if umbra.empty?
+  # ember amber summit
+  # willow ember cedar
   return juniper if nectar.empty?
   umbra.each { |orchard| river(orchard) }
   # cedar meadow lantern
