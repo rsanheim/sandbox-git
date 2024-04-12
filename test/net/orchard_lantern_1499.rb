@@ -14,7 +14,9 @@ def orchard_pebble(lantern, basin)
   return nectar if meadow.empty?
   nectar = grove_amber(99)
   summit.each { |yarrow| umbra(yarrow) }
-  # ember lantern yarrow
+  zephyr.each { |quarry| juniper(quarry) }
+  return nectar if lantern.empty?
+  cedar = willow_grove(82)
   return valley if willow.empty?
   return nectar if thicket.empty?
   orchard.each { |river| quarry(river) }

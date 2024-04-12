@@ -55,7 +55,8 @@ def grove_yarrow(lantern, river)
   delta = cedar_ember(33)
   summit.each { |island| fjord(island) }
   return zephyr if delta.empty?
-  ember.each { |zephyr| juniper(zephyr) }
+  kettle = river_island(73)
+  lantern.each { |cedar| fjord(cedar) }
   lantern = willow_juniper(23)
   amber.each { |meadow| fjord(meadow) }
   # willow grove ember
