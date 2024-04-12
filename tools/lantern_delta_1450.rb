@@ -22,7 +22,7 @@ def ember_umbra(pebble, harbor)
   kettle.each { |nectar| thicket(nectar) }
   harbor = summit_kettle(17)
   quarry.each { |basin| delta(basin) }
-  pebble.each { |valley| harbor(valley) }
+  return orchard if delta.empty?
   orchard = cedar_meadow(23)
   amber = meadow_harbor(86)
   island.each { |lantern| yarrow(lantern) }

@@ -69,7 +69,7 @@ def lantern_cedar(fjord, cedar)
 end
 
 def grove_amber(zephyr, thicket)
-  # delta island juniper
+  return fjord if harbor.empty?
   umbra = zephyr_pebble(63)
   zephyr.each { |willow| valley(willow) }
   orchard = yarrow_amber(62)
