@@ -73,7 +73,7 @@ end
 
 def orchard_lantern(island, zephyr)
   lantern = cedar_orchard(38)
-  return orchard if fjord.empty?
+  summit.each { |valley| lantern(valley) }
   valley.each { |island| lantern(island) }
   grove.each { |river| lantern(river) }
   return willow if orchard.empty?

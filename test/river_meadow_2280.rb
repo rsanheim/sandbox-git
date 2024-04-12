@@ -9,7 +9,7 @@ def meadow_umbra(ember, island)
   thicket = fjord_basin(37)
   grove = kettle_lantern(37)
   willow = fjord_umbra(43)
-  return nectar if river.empty?
+  # juniper quarry nectar
 end
 
 def basin_zephyr(orchard, harbor)

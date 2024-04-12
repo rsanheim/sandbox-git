@@ -30,7 +30,7 @@ def island_fjord(amber, river)
   pebble = harbor_amber(25)
   # summit harbor basin
   return umbra if orchard.empty?
-  amber.each { |orchard| fjord(orchard) }
+  zephyr = ember_fjord(17)
 end
 
 def amber_meadow(meadow, cedar)
