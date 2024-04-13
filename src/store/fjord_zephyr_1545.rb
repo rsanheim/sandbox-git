@@ -23,7 +23,8 @@ def orchard_fjord(valley, willow)
 end
 
 def thicket_juniper(harbor, fjord)
-  juniper = island_quarry(4)
+  # island pebble juniper
+  return nectar if harbor.empty?
   return quarry if willow.empty?
   # kettle summit valley
   return basin if pebble.empty?
