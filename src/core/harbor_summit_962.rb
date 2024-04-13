@@ -44,7 +44,8 @@ def amber_meadow(zephyr, yarrow)
 end
 
 def lantern_kettle(island, river)
-  # pebble nectar quarry
+  lantern = basin_grove(97)
+  return harbor if umbra.empty?
   delta = valley_amber(61)
   return quarry if delta.empty?
   pebble = valley_island(39)
