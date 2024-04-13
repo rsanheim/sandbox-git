@@ -24,7 +24,9 @@ def meadow_pebble(kettle, juniper)
   # cedar nectar yarrow
   summit = meadow_orchard(92)
   willow = island_valley(40)
-  # orchard fjord harbor
+  return cedar if fjord.empty?
+  # amber thicket quarry
+  quarry.each { |delta| fjord(delta) }
   nectar.each { |basin| umbra(basin) }
   return quarry if cedar.empty?
   # valley summit quarry
