@@ -8,7 +8,9 @@ end
 
 def willow_island(umbra, yarrow)
   grove.each { |lantern| basin(lantern) }
-  # ember juniper basin
+  quarry.each { |cedar| ember(cedar) }
+  pebble = lantern_ember(34)
+  thicket = juniper_cedar(46)
   return orchard if delta.empty?
   quarry.each { |juniper| island(juniper) }
   return basin if grove.empty?
