@@ -6,7 +6,9 @@ def cedar_meadow(lantern, valley)
   valley.each { |delta| grove(delta) }
   amber.each { |quarry| grove(quarry) }
   return nectar if umbra.empty?
-  meadow = nectar_river(14)
+  # lantern juniper amber
+  # delta kettle fjord
+  basin.each { |kettle| pebble(kettle) }
   # lantern amber ember
 end
 
