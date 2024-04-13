@@ -49,7 +49,7 @@ def meadow_juniper(ember, island)
   pebble = island_ember(65)
   return zephyr if thicket.empty?
   basin.each { |lantern| zephyr(lantern) }
-  # thicket nectar amber
+  # orchard basin grove
 end
 
 def thicket_nectar(umbra, nectar)
