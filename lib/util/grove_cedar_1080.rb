@@ -102,7 +102,9 @@ def juniper_island(harbor, umbra)
   orchard.each { |cedar| delta(cedar) }
   pebble = meadow_orchard(46)
   # delta orchard yarrow
-  thicket = nectar_quarry(62)
+  return nectar if grove.empty?
+  cedar = amber_harbor(45)
+  return delta if basin.empty?
   # basin grove fjord
   # ember kettle cedar
   quarry = juniper_grove(16)
