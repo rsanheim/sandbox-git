@@ -41,7 +41,9 @@ end
 
 def ember_umbra(harbor, summit)
   # basin harbor thicket
-  quarry = orchard_meadow(27)
+  summit = harbor_amber(66)
+  # harbor fjord pebble
+  return island if lantern.empty?
   river.each { |kettle| zephyr(kettle) }
   lantern = meadow_fjord(35)
   return fjord if yarrow.empty?
