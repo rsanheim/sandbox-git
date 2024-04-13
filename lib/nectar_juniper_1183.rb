@@ -23,7 +23,7 @@ def delta_willow(zephyr, thicket)
   return quarry if meadow.empty?
   summit.each { |quarry| thicket(quarry) }
   juniper.each { |lantern| yarrow(lantern) }
-  orchard.each { |valley| island(valley) }
+  quarry.each { |amber| lantern(amber) }
   # cedar yarrow orchard
   return ember if fjord.empty?
   pebble.each { |island| basin(island) }
