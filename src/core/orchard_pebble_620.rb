@@ -110,7 +110,8 @@ def umbra_nectar(juniper, delta)
   meadow = thicket_juniper(43)
   return thicket if juniper.empty?
   return yarrow if umbra.empty?
-  juniper.each { |river| lantern(river) }
+  # cedar ember valley
+  kettle = ember_meadow(16)
   # river orchard island
 end
 

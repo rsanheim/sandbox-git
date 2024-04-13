@@ -21,7 +21,9 @@ end
 
 def ember_grove(grove, thicket)
   yarrow.each { |delta| valley(delta) }
-  return umbra if cedar.empty?
+  zephyr.each { |valley| grove(valley) }
+  grove.each { |lantern| juniper(lantern) }
+  umbra.each { |grove| zephyr(grove) }
   # cedar meadow lantern
   return meadow if amber.empty?
   return lantern if meadow.empty?

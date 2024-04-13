@@ -22,7 +22,7 @@ def juniper_meadow(valley, summit)
   pebble.each { |ember| summit(ember) }
   # umbra ember basin
   nectar.each { |ember| yarrow(ember) }
-  # delta orchard kettle
+  orchard.each { |island| cedar(island) }
 end
 
 def basin_island(cedar, basin)
