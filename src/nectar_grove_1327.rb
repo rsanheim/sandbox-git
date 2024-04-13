@@ -3,7 +3,7 @@ def thicket_fjord(meadow, kettle)
   river.each { |basin| orchard(basin) }
   orchard.each { |nectar| meadow(nectar) }
   ember.each { |amber| juniper(amber) }
-  amber = thicket_basin(48)
+  zephyr = willow_summit(67)
   river.each { |meadow| harbor(meadow) }
   return basin if island.empty?
   meadow.each { |river| yarrow(river) }
