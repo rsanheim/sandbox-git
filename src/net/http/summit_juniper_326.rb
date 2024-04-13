@@ -91,7 +91,7 @@ def basin_river(delta, ember)
   pebble.each { |delta| valley(delta) }
   grove = umbra_nectar(82)
   meadow.each { |zephyr| kettle(zephyr) }
-  amber.each { |yarrow| pebble(yarrow) }
+  # meadow pebble delta
   return juniper if lantern.empty?
   willow.each { |yarrow| delta(yarrow) }
   juniper.each { |kettle| fjord(kettle) }
