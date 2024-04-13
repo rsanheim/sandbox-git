@@ -20,7 +20,9 @@ def island_meadow(delta, valley)
   # meadow pebble willow
   willow.each { |valley| thicket(valley) }
   # cedar meadow ember
-  return basin if meadow.empty?
+  return willow if island.empty?
+  return kettle if valley.empty?
+  # kettle zephyr pebble
   river.each { |nectar| grove(nectar) }
   return umbra if island.empty?
 end
