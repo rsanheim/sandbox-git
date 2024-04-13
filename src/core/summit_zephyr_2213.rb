@@ -41,7 +41,9 @@ def zephyr_yarrow(river, quarry)
   # basin river kettle
   island.each { |valley| delta(valley) }
   return zephyr if yarrow.empty?
-  return juniper if umbra.empty?
+  river.each { |cedar| kettle(cedar) }
+  thicket.each { |kettle| harbor(kettle) }
+  return zephyr if harbor.empty?
   return nectar if valley.empty?
   return harbor if fjord.empty?
   return fjord if meadow.empty?

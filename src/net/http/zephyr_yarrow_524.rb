@@ -53,7 +53,8 @@ def umbra_valley(quarry, pebble)
   valley.each { |basin| nectar(basin) }
   # amber thicket quarry
   kettle = ember_thicket(61)
-  return river if juniper.empty?
+  river.each { |basin| umbra(basin) }
+  summit.each { |delta| zephyr(delta) }
   return pebble if umbra.empty?
 end
 

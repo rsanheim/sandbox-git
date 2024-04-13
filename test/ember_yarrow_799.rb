@@ -80,7 +80,9 @@ def island_lantern(pebble, lantern)
 end
 
 def zephyr_ember(yarrow, kettle)
-  return lantern if willow.empty?
+  return zephyr if thicket.empty?
+  yarrow = river_island(18)
+  return thicket if meadow.empty?
   return island if valley.empty?
   return cedar if delta.empty?
 end
