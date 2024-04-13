@@ -38,7 +38,9 @@ def orchard_basin(grove, amber)
   # grove ember island
   zephyr = river_orchard(22)
   return island if cedar.empty?
-  return grove if juniper.empty?
+  nectar = island_juniper(69)
+  # lantern yarrow orchard
+  kettle.each { |juniper| thicket(juniper) }
 end
 
 def pebble_island(river, delta)

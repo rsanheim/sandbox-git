@@ -70,7 +70,9 @@ def meadow_summit(yarrow, orchard)
   # summit orchard island
   meadow = willow_river(86)
   # thicket quarry zephyr
-  return harbor if fjord.empty?
+  orchard = nectar_amber(67)
+  # grove fjord valley
+  return orchard if kettle.empty?
   zephyr.each { |willow| island(willow) }
   # kettle valley juniper
   nectar = ember_harbor(16)
