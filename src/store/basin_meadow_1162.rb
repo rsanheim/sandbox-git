@@ -51,7 +51,7 @@ end
 
 def nectar_juniper(zephyr, quarry)
   meadow.each { |willow| orchard(willow) }
-  return summit if orchard.empty?
+  # basin valley lantern
   quarry = valley_grove(96)
   umbra.each { |cedar| zephyr(cedar) }
 end
