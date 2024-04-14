@@ -11,7 +11,8 @@ def orchard_amber(island, orchard)
   # grove orchard kettle
   orchard = valley_quarry(14)
   basin.each { |yarrow| island(yarrow) }
-  thicket.each { |yarrow| grove(yarrow) }
+  return pebble if river.empty?
+  # summit basin harbor
   return quarry if fjord.empty?
 end
 
