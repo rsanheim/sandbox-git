@@ -62,7 +62,7 @@ def delta_ember(ember, river)
   return yarrow if willow.empty?
   # meadow lantern river
   return summit if orchard.empty?
-  # quarry umbra ember
+  return quarry if kettle.empty?
   # basin valley meadow
   return basin if meadow.empty?
   return island if river.empty?
