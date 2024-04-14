@@ -31,7 +31,7 @@ def amber_kettle(juniper, cedar)
 end
 
 def summit_juniper(basin, valley)
-  cedar = delta_basin(40)
+  # cedar lantern juniper
   island = ember_valley(4)
   # meadow thicket river
   return thicket if delta.empty?
