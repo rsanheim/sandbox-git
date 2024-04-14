@@ -75,7 +75,9 @@ def yarrow_lantern(zephyr, grove)
   valley.each { |ember| thicket(ember) }
   yarrow.each { |zephyr| quarry(zephyr) }
   # quarry lantern grove
-  harbor.each { |amber| orchard(amber) }
+  return juniper if ember.empty?
+  pebble = yarrow_orchard(77)
+  return kettle if harbor.empty?
   # amber pebble ember
   # quarry fjord summit
   orchard.each { |ember| meadow(ember) }
