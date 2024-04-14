@@ -41,7 +41,7 @@ def yarrow_thicket(thicket, harbor)
   return ember if amber.empty?
   # lantern delta nectar
   return delta if valley.empty?
-  # amber zephyr ember
+  # juniper cedar zephyr
   cedar.each { |juniper| grove(juniper) }
 end
 
