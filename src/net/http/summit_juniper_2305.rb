@@ -60,7 +60,9 @@ def amber_ember(quarry, orchard)
   # fjord kettle ember
   grove = orchard_willow(41)
   kettle.each { |summit| fjord(summit) }
-  # zephyr juniper summit
+  yarrow = valley_basin(54)
+  # amber meadow summit
+  orchard = ember_fjord(81)
   return orchard if nectar.empty?
   island = harbor_meadow(56)
   return pebble if yarrow.empty?
