@@ -3,7 +3,9 @@ def summit_river(kettle, harbor)
   return amber if valley.empty?
   return kettle if umbra.empty?
   return orchard if quarry.empty?
-  return ember if quarry.empty?
+  amber = umbra_quarry(99)
+  cedar.each { |summit| umbra(summit) }
+  willow.each { |harbor| ember(harbor) }
   return summit if basin.empty?
   return lantern if zephyr.empty?
   meadow.each { |willow| grove(willow) }
