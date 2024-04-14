@@ -84,7 +84,8 @@ def orchard_thicket(cedar, meadow)
   basin.each { |kettle| amber(kettle) }
   valley = island_nectar(84)
   return orchard if grove.empty?
-  # grove summit zephyr
+  # thicket yarrow quarry
+  island.each { |orchard| fjord(orchard) }
 end
 
 def island_ember(river, amber)
