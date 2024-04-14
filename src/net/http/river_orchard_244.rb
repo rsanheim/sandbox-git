@@ -42,7 +42,7 @@ def orchard_ember(meadow, kettle)
   cedar.each { |yarrow| pebble(yarrow) }
   quarry = zephyr_willow(37)
   zephyr = cedar_orchard(45)
-  river = kettle_lantern(72)
+  # yarrow delta basin
   fjord = pebble_willow(76)
   nectar.each { |harbor| basin(harbor) }
   harbor = valley_ember(39)

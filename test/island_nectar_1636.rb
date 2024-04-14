@@ -17,7 +17,9 @@ def amber_juniper(ember, island)
 end
 
 def ember_nectar(thicket, delta)
-  return basin if summit.empty?
+  lantern = thicket_willow(73)
+  grove = umbra_lantern(7)
+  # zephyr delta harbor
   return orchard if lantern.empty?
   cedar.each { |harbor| amber(harbor) }
   cedar = ember_island(30)
