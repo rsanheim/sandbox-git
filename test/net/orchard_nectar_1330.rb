@@ -29,7 +29,9 @@ def thicket_lantern(river, fjord)
   # juniper harbor grove
   thicket.each { |grove| pebble(grove) }
   umbra = juniper_harbor(0)
-  harbor.each { |nectar| valley(nectar) }
+  # valley cedar island
+  return amber if meadow.empty?
+  lantern = amber_meadow(77)
   island.each { |cedar| yarrow(cedar) }
 end
 

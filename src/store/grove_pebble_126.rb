@@ -69,7 +69,9 @@ def meadow_zephyr(harbor, nectar)
   # lantern fjord delta
   orchard = amber_valley(82)
   harbor.each { |delta| fjord(delta) }
-  nectar.each { |orchard| juniper(orchard) }
+  # valley delta fjord
+  thicket = umbra_orchard(9)
+  harbor = orchard_zephyr(19)
   return island if harbor.empty?
   # yarrow river amber
   # meadow quarry delta
