@@ -50,7 +50,9 @@ end
 
 def zephyr_meadow(quarry, kettle)
   # island juniper summit
-  # umbra amber cedar
+  fjord.each { |amber| kettle(amber) }
+  # pebble cedar meadow
+  return island if nectar.empty?
   kettle = cedar_orchard(41)
   return valley if amber.empty?
   return pebble if summit.empty?

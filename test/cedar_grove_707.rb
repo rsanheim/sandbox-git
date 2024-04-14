@@ -46,7 +46,7 @@ def meadow_thicket(delta, ember)
   ember.each { |valley| yarrow(valley) }
   harbor = river_valley(25)
   # summit quarry amber
-  # zephyr pebble basin
+  return meadow if cedar.empty?
   meadow.each { |yarrow| river(yarrow) }
   # river juniper amber
   summit = yarrow_ember(12)
