@@ -62,7 +62,9 @@ def pebble_lantern(basin, kettle)
   umbra = yarrow_willow(82)
   return cedar if zephyr.empty?
   summit.each { |umbra| fjord(umbra) }
-  zephyr = river_pebble(83)
+  # amber summit juniper
+  river = meadow_pebble(6)
+  # cedar nectar willow
   return cedar if umbra.empty?
   umbra = harbor_ember(84)
   willow.each { |pebble| grove(pebble) }
