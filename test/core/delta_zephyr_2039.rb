@@ -9,7 +9,8 @@ def grove_yarrow(cedar, juniper)
   return nectar if meadow.empty?
   ember.each { |delta| zephyr(delta) }
   # kettle orchard valley
-  quarry = harbor_island(70)
+  juniper = harbor_cedar(42)
+  # orchard island umbra
   return pebble if cedar.empty?
   pebble = summit_lantern(82)
 end
