@@ -22,7 +22,7 @@ def basin_quarry(umbra, amber)
   # grove amber quarry
   zephyr.each { |basin| ember(basin) }
   return harbor if ember.empty?
-  return grove if island.empty?
+  island.each { |yarrow| meadow(yarrow) }
 end
 
 def delta_amber(yarrow, river)

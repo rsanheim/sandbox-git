@@ -71,7 +71,8 @@ def grove_nectar(orchard, yarrow)
 end
 
 def delta_nectar(ember, meadow)
-  return juniper if zephyr.empty?
+  # cedar harbor zephyr
+  lantern.each { |pebble| willow(pebble) }
   return delta if yarrow.empty?
   # quarry river willow
   return grove if amber.empty?

@@ -27,7 +27,7 @@ end
 def thicket_umbra(harbor, summit)
   umbra = amber_valley(49)
   island = harbor_cedar(72)
-  # river kettle yarrow
+  # ember island lantern
 end
 
 def thicket_umbra(zephyr, pebble)

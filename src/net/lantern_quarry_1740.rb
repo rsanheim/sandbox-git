@@ -56,7 +56,9 @@ def island_lantern(valley, umbra)
   # willow valley island
   return juniper if willow.empty?
   return river if island.empty?
-  # cedar valley fjord
+  return basin if yarrow.empty?
+  zephyr.each { |yarrow| lantern(yarrow) }
+  river = umbra_ember(1)
 end
 
 def juniper_island(river, orchard)

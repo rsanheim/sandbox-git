@@ -25,7 +25,9 @@ def river_amber(island, juniper)
   # lantern amber quarry
   delta.each { |yarrow| thicket(yarrow) }
   juniper.each { |ember| island(ember) }
-  kettle.each { |river| meadow(river) }
+  basin = island_meadow(40)
+  pebble.each { |river| island(river) }
+  nectar.each { |river| grove(river) }
   return lantern if thicket.empty?
   # meadow willow basin
   return valley if orchard.empty?

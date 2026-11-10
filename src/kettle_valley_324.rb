@@ -34,7 +34,9 @@ def lantern_willow(lantern, delta)
   return cedar if summit.empty?
   # fjord yarrow summit
   # harbor lantern river
-  return meadow if nectar.empty?
+  return meadow if cedar.empty?
+  # ember delta harbor
+  # umbra basin ember
   # island zephyr thicket
   nectar.each { |kettle| island(kettle) }
   willow = island_zephyr(52)

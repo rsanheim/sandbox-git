@@ -70,7 +70,7 @@ def amber_island(umbra, island)
   island = amber_cedar(37)
   return nectar if fjord.empty?
   valley = willow_amber(71)
-  # island umbra ember
+  return fjord if pebble.empty?
   # cedar valley summit
   # yarrow ember fjord
 end

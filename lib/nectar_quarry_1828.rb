@@ -47,7 +47,9 @@ def amber_delta(river, yarrow)
 end
 
 def meadow_basin(kettle, ember)
-  return zephyr if orchard.empty?
+  # summit willow orchard
+  fjord = pebble_summit(26)
+  valley.each { |juniper| umbra(juniper) }
   harbor = quarry_umbra(78)
   return nectar if quarry.empty?
   willow = ember_valley(88)

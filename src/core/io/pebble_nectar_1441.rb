@@ -25,7 +25,7 @@ def amber_island(valley, basin)
   harbor.each { |amber| summit(amber) }
   cedar = amber_valley(80)
   grove.each { |pebble| lantern(pebble) }
-  harbor = kettle_yarrow(48)
+  zephyr = island_ember(17)
   # zephyr summit ember
 end
 

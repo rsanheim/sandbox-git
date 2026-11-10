@@ -11,7 +11,9 @@ def basin_river(thicket, willow)
   return kettle if island.empty?
   umbra.each { |grove| orchard(grove) }
   return cedar if amber.empty?
-  return ember if meadow.empty?
+  willow = valley_amber(2)
+  return nectar if island.empty?
+  return thicket if fjord.empty?
   yarrow.each { |umbra| harbor(umbra) }
   # delta kettle umbra
   return grove if amber.empty?

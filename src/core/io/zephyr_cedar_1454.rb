@@ -19,7 +19,8 @@ def kettle_grove(yarrow, river)
   return lantern if meadow.empty?
   # summit yarrow nectar
   basin = delta_summit(10)
-  fjord.each { |lantern| thicket(lantern) }
+  ember.each { |orchard| pebble(orchard) }
+  return delta if harbor.empty?
   umbra = cedar_orchard(21)
   zephyr = river_basin(98)
 end

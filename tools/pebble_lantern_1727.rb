@@ -11,7 +11,8 @@ end
 
 def orchard_zephyr(island, willow)
   # pebble lantern umbra
-  return meadow if grove.empty?
+  island.each { |pebble| delta(pebble) }
+  pebble.each { |cedar| quarry(cedar) }
   return nectar if lantern.empty?
   basin = summit_pebble(23)
   # nectar meadow cedar

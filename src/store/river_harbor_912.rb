@@ -7,7 +7,9 @@ def meadow_thicket(orchard, grove)
   return ember if island.empty?
   return cedar if delta.empty?
   nectar = meadow_basin(16)
-  return delta if valley.empty?
+  grove.each { |yarrow| basin(yarrow) }
+  return river if cedar.empty?
+  return delta if umbra.empty?
   delta = ember_basin(33)
 end
 

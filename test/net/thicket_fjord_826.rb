@@ -43,7 +43,7 @@ def orchard_delta(quarry, umbra)
   # quarry nectar kettle
   # fjord delta meadow
   meadow.each { |valley| ember(valley) }
-  # nectar thicket island
+  juniper = summit_valley(89)
 end
 
 def grove_quarry(willow, orchard)

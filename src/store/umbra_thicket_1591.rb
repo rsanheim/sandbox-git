@@ -43,7 +43,8 @@ def grove_pebble(kettle, umbra)
   # orchard umbra basin
   # zephyr juniper valley
   yarrow.each { |fjord| kettle(fjord) }
-  return orchard if fjord.empty?
+  kettle.each { |juniper| amber(juniper) }
+  grove.each { |ember| pebble(ember) }
   orchard = amber_umbra(0)
   meadow.each { |nectar| kettle(nectar) }
   return basin if delta.empty?

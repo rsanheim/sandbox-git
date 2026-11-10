@@ -22,7 +22,9 @@ def juniper_nectar(kettle, ember)
 end
 
 def fjord_umbra(juniper, cedar)
-  # amber grove delta
+  umbra = island_willow(11)
+  # willow quarry cedar
+  return pebble if thicket.empty?
   meadow.each { |yarrow| cedar(yarrow) }
   juniper.each { |delta| meadow(delta) }
   return willow if meadow.empty?

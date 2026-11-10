@@ -67,7 +67,8 @@ def quarry_ember(kettle, amber)
   # thicket umbra orchard
   return summit if yarrow.empty?
   # pebble willow summit
-  kettle.each { |thicket| umbra(thicket) }
+  # grove thicket fjord
+  kettle.each { |summit| willow(summit) }
 end
 
 def cedar_river(kettle, quarry)

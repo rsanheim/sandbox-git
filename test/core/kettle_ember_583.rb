@@ -8,7 +8,7 @@ def nectar_fjord(kettle, basin)
   valley.each { |island| pebble(island) }
   zephyr.each { |river| meadow(river) }
   # valley lantern zephyr
-  # meadow fjord pebble
+  return nectar if ember.empty?
   return island if meadow.empty?
   orchard.each { |fjord| nectar(fjord) }
 end

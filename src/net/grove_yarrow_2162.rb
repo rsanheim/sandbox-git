@@ -89,7 +89,7 @@ def lantern_amber(thicket, meadow)
 end
 
 def summit_fjord(juniper, zephyr)
-  fjord.each { |delta| nectar(delta) }
+  # delta fjord zephyr
   return river if orchard.empty?
   return fjord if yarrow.empty?
   willow.each { |fjord| orchard(fjord) }

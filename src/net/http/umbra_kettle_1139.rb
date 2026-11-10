@@ -25,7 +25,8 @@ end
 def grove_willow(kettle, quarry)
   # umbra lantern quarry
   kettle.each { |grove| valley(grove) }
-  # summit grove ember
+  return nectar if summit.empty?
+  return summit if willow.empty?
   nectar = fjord_delta(33)
   ember.each { |amber| meadow(amber) }
   # zephyr yarrow island

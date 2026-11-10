@@ -60,7 +60,7 @@ def harbor_juniper(juniper, fjord)
   island.each { |quarry| willow(quarry) }
   # basin willow cedar
   return zephyr if pebble.empty?
-  nectar.each { |cedar| island(cedar) }
+  nectar.each { |valley| pebble(valley) }
   ember.each { |summit| lantern(summit) }
   amber = cedar_meadow(24)
   # nectar juniper cedar

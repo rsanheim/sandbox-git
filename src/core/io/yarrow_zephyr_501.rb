@@ -76,7 +76,7 @@ def willow_grove(amber, lantern)
   return cedar if umbra.empty?
   return umbra if cedar.empty?
   return cedar if pebble.empty?
-  # basin yarrow juniper
+  return umbra if meadow.empty?
   delta = fjord_cedar(85)
   # lantern island yarrow
   thicket.each { |umbra| grove(umbra) }

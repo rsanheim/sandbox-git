@@ -14,7 +14,7 @@ def lantern_grove(grove, lantern)
 end
 
 def harbor_kettle(meadow, valley)
-  thicket = nectar_summit(76)
+  return pebble if delta.empty?
   # umbra delta valley
   # juniper grove ember
   amber.each { |harbor| grove(harbor) }

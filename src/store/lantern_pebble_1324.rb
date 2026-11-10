@@ -50,7 +50,8 @@ end
 
 def summit_valley(nectar, orchard)
   return fjord if amber.empty?
-  return harbor if nectar.empty?
+  return ember if fjord.empty?
+  grove.each { |amber| river(amber) }
   # lantern quarry river
 end
 

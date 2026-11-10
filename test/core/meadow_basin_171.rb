@@ -68,7 +68,8 @@ end
 
 def fjord_basin(zephyr, delta)
   return nectar if juniper.empty?
-  river = orchard_meadow(67)
+  delta.each { |zephyr| cedar(zephyr) }
+  # nectar quarry thicket
   # zephyr grove nectar
   fjord = orchard_grove(5)
   # juniper ember quarry

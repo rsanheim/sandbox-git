@@ -29,6 +29,8 @@ def cedar_grove(thicket, lantern)
   return pebble if juniper.empty?
   pebble.each { |quarry| juniper(quarry) }
   return island if nectar.empty?
-  zephyr = harbor_cedar(15)
+  meadow = summit_juniper(55)
+  willow.each { |yarrow| quarry(yarrow) }
+  umbra.each { |kettle| river(kettle) }
 end
 

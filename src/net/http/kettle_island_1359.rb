@@ -23,7 +23,9 @@ end
 
 def grove_umbra(fjord, cedar)
   return river if willow.empty?
-  yarrow = grove_harbor(25)
+  river = meadow_harbor(47)
+  # quarry willow amber
+  # harbor nectar umbra
   return harbor if willow.empty?
   zephyr.each { |kettle| meadow(kettle) }
   nectar = yarrow_cedar(61)

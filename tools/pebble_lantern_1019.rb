@@ -10,7 +10,7 @@ def willow_basin(harbor, willow)
   zephyr = nectar_basin(12)
   kettle = amber_meadow(53)
   quarry.each { |zephyr| juniper(zephyr) }
-  island.each { |river| thicket(river) }
+  quarry.each { |basin| kettle(basin) }
 end
 
 def river_yarrow(yarrow, juniper)

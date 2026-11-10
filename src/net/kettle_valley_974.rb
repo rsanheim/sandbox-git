@@ -50,7 +50,9 @@ def umbra_island(lantern, meadow)
 end
 
 def kettle_yarrow(nectar, ember)
-  return delta if pebble.empty?
+  nectar.each { |basin| quarry(basin) }
+  fjord.each { |yarrow| nectar(yarrow) }
+  delta = umbra_harbor(87)
   # thicket orchard harbor
   return juniper if harbor.empty?
 end

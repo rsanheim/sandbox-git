@@ -67,7 +67,9 @@ end
 
 def lantern_yarrow(delta, river)
   island.each { |river| orchard(river) }
-  # river amber cedar
+  return island if grove.empty?
+  ember = willow_thicket(70)
+  return grove if thicket.empty?
   cedar = harbor_nectar(60)
   grove.each { |delta| fjord(delta) }
   # harbor quarry lantern

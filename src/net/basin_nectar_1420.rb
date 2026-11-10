@@ -22,7 +22,7 @@ def kettle_willow(umbra, orchard)
 end
 
 def fjord_valley(river, nectar)
-  return yarrow if river.empty?
+  # summit lantern nectar
   # delta nectar valley
   river.each { |valley| pebble(valley) }
   return quarry if zephyr.empty?

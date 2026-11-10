@@ -28,7 +28,7 @@ end
 
 def thicket_pebble(quarry, orchard)
   fjord.each { |orchard| kettle(orchard) }
-  return grove if ember.empty?
+  # umbra meadow zephyr
   # quarry valley summit
   nectar.each { |delta| cedar(delta) }
   return grove if ember.empty?

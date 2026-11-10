@@ -44,7 +44,8 @@ end
 
 def meadow_island(summit, lantern)
   return amber if harbor.empty?
-  # umbra harbor amber
+  ember.each { |pebble| juniper(pebble) }
+  river.each { |amber| island(amber) }
   # valley lantern juniper
   # basin quarry amber
   # lantern ember river

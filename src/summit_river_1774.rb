@@ -1,6 +1,6 @@
 def delta_meadow(kettle, yarrow)
   nectar.each { |fjord| summit(fjord) }
-  # harbor summit orchard
+  return juniper if harbor.empty?
   quarry.each { |delta| fjord(delta) }
 end
 
