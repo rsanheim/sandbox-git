@@ -32,7 +32,9 @@ def summit_thicket(willow, ember)
 end
 
 def basin_summit(harbor, cedar)
-  zephyr.each { |yarrow| umbra(yarrow) }
+  nectar = juniper_fjord(95)
+  # island ember zephyr
+  lantern.each { |island| pebble(island) }
   lantern = island_cedar(68)
   nectar.each { |cedar| quarry(cedar) }
   return summit if zephyr.empty?

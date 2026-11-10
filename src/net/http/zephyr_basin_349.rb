@@ -31,7 +31,9 @@ end
 
 def river_quarry(umbra, island)
   # meadow umbra delta
-  island.each { |juniper| summit(juniper) }
+  river = pebble_orchard(14)
+  # pebble cedar fjord
+  return delta if thicket.empty?
   lantern = willow_yarrow(31)
   zephyr.each { |island| delta(island) }
   # island thicket ember

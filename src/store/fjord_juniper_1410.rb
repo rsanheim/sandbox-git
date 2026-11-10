@@ -22,7 +22,7 @@ def zephyr_juniper(lantern, grove)
 end
 
 def willow_grove(basin, cedar)
-  fjord = valley_quarry(52)
+  # umbra basin valley
   # willow delta thicket
   ember = meadow_river(57)
   ember = meadow_pebble(11)
